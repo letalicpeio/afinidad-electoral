@@ -102,7 +102,7 @@
       "positions": {
         "1": {
           "value": 5,
-          "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-LA-RECONSTRUCCION-NACIONAL.pdf",
+          "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
           "locator": "Medidas 177–183",
           "reason": "Rebajas fiscales.",
           "reviewed": "2026-11-14",
@@ -110,7 +110,7 @@
         },
         "3": {
           "value": 1,
-          "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-LA-RECONSTRUCCION-NACIONAL.pdf",
+          "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
           "locator": "Medida 42",
           "reason": "Arraigo excepcional; prohíbe regularizaciones masivas.",
           "reviewed": "2026-11-14",
@@ -120,7 +120,7 @@
         },
         "5": {
           "value": 5,
-          "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-LA-RECONSTRUCCION-NACIONAL.pdf",
+          "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
           "locator": "Medidas 23–30",
           "reason": "Ampliación de penas.",
           "reviewed": "2026-11-14",
@@ -128,7 +128,7 @@
         },
         "6": {
           "value": 5,
-          "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-LA-RECONSTRUCCION-NACIONAL.pdf",
+          "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
           "locator": "Medida 212",
           "reason": "Preserva conciertos con demanda.",
           "reviewed": "2026-11-14",
@@ -136,7 +136,7 @@
         },
         "9": {
           "value": 5,
-          "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-LA-RECONSTRUCCION-NACIONAL.pdf",
+          "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
           "locator": "Medida 228",
           "reason": "Extensión de centrales.",
           "reviewed": "2026-11-14",
@@ -144,7 +144,7 @@
         },
         "11": {
           "value": 5,
-          "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-LA-RECONSTRUCCION-NACIONAL.pdf",
+          "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
           "locator": "Medida 28",
           "reason": "Refuerzo del Pacto de Estado y VioGen.",
           "reviewed": "2026-11-14",
@@ -152,9 +152,33 @@
         },
         "18": {
           "value": 5,
-          "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-LA-RECONSTRUCCION-NACIONAL.pdf",
+          "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
           "locator": "Medidas 186–187",
           "reason": "Simplificación empresarial.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "2": {
+          "value": 1,
+          "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
+          "locator": "Medida 145",
+          "reason": "Deroga la Ley de Vivienda y elimina las zonas tensionadas y el índice de precios del alquiler.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "10": {
+          "value": 5,
+          "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
+          "locator": "Medida 108",
+          "reason": "Las pensiones mantendrán su poder adquisitivo y subirán cada año con el IPC.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "16": {
+          "value": 5,
+          "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
+          "locator": "Medida 60",
+          "reason": "Nueva Ley del Indulto: no podrán ser indultados los condenados por corrupción.",
           "reviewed": "2026-11-14",
           "coding": "Interpretación editorial provisional"
         }
@@ -247,6 +271,26 @@
           "reason": "Desregulación administrativa.",
           "reviewed": "2026-11-14",
           "coding": "Interpretación editorial provisional"
+        },
+        "4": {
+          "value": 4,
+          "source": "https://www.voxespana.es/wp-content/uploads/2026/11/Programa-completo-A5-1.pdf",
+          "locator": "Punto 62, pág. 37",
+          "reason": "Fomenta la colaboración público-privada cuando ayude a reducir demoras, con transparencia y control del gasto.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional",
+          "scoreable": false,
+          "reviewNote": "Apoyo condicionado a que reduzca demoras y controle el gasto: no es apoyo general a ampliar los conciertos."
+        },
+        "15": {
+          "value": 1,
+          "source": "https://www.voxespana.es/wp-content/uploads/2026/11/Programa-completo-A5-1.pdf",
+          "locator": "Punto 98, pág. 52",
+          "reason": "Defiende el derecho a la vida desde la concepción hasta la muerte natural.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional",
+          "scoreable": false,
+          "reviewNote": "El texto no menciona expresamente el aborto ni su regulación legal."
         }
       }
     },
@@ -350,6 +394,34 @@
           "reviewed": "2026-11-14",
           "coding": "Interpretación editorial provisional",
           "scoreable": true
+        },
+        "3": {
+          "value": 5,
+          "source": "https://www.bng.gal/media/bnggaliza/files/2026/11/12/26_bng_xerais_documentos_programa_electoral.pdf",
+          "locator": "pág. 22–23",
+          "reason": "Promueve la regularización administrativa como vía para eliminar la irregularidad y facilita los procesos de regularización.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "4": {
+          "value": 1,
+          "source": "https://www.bng.gal/media/bnggaliza/files/2026/11/12/26_bng_xerais_documentos_programa_electoral.pdf",
+          "locator": "pág. 37",
+          "reason": "Denuncia un plan para empujar hacia la sanidad privada y mercantilizar la sanidad.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional",
+          "scoreable": false,
+          "reviewNote": "Es un diagnóstico crítico; no se ha localizado una medida concreta sobre conciertos con centros privados."
+        },
+        "5": {
+          "value": 1,
+          "source": "https://www.bng.gal/media/bnggaliza/files/2026/11/12/26_bng_xerais_documentos_programa_electoral.pdf",
+          "locator": "pág. 30",
+          "reason": "Propone derogar la prisión permanente revisable y las medidas de libertad vigilada posteriores.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional",
+          "scoreable": false,
+          "reviewNote": "Rechazar una modalidad penal no acredita oponerse a todo endurecimiento de penas."
         }
       }
     },
@@ -366,6 +438,14 @@
           "reviewed": "2026-11-14",
           "coding": "Interpretación editorial provisional",
           "scoreable": true
+        },
+        "11": {
+          "value": 5,
+          "source": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+          "locator": "Medida 17, pág. 10",
+          "reason": "Reclama financiación estatal suficiente para aplicar el Pacto de Estado contra la violencia de género en todas las islas.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
         }
       },
       "aliases": [
@@ -430,6 +510,15 @@
           "reviewed": "2026-11-14",
           "coding": "Interpretación editorial provisional",
           "sourceNote": "Programa de ERC para el Congreso de 2026; copia alojada por Betevé. No se ha localizado una descarga de 2026 en la web oficial consultada."
+        },
+        "14": {
+          "value": 5,
+          "source": "https://img.beteve.cat/wp-content/uploads/2026/11/ERC-programa-electoral-29-N-2026-2026-11-12.pdf",
+          "locator": "Medida 9, pág. 8",
+          "reason": "Impulsa fiscalizar al rey y a la casa real y poner fin a la monarquía, institución que considera contraria al principio democrático.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional",
+          "sourceNote": "Programa de ERC para el Congreso de 2026; copia alojada por Betevé. No se ha localizado una descarga de 2026 en la web oficial consultada."
         }
       }
     },
@@ -483,10 +572,113 @@
           "reviewNote": "Revisar criterios no fija una posición sobre mantener financiación por demanda. Valor orientativo no puntuable."
         }
       }
+    },
+    {
+      "id": "mj",
+      "name": "Por un Mundo Más Justo",
+      "match": "(MUNDO+JUSTO)",
+      "positions": {
+        "2": {
+          "value": 5,
+          "source": "https://www.porunmundomasjusto.es/wp-content/uploads/2026/11/Castellano.pdf",
+          "locator": "pág. 8, medida 04",
+          "reason": "Propone un alquiler de referencia y limitar el precio según las características y la localización de la vivienda.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "3": {
+          "value": 5,
+          "source": "https://www.porunmundomasjusto.es/wp-content/uploads/2026/11/Castellano.pdf",
+          "locator": "pág. 30, medida 05 y pág. 52, medida 06",
+          "reason": "Garantizar vías accesibles y estables de regularización de las personas migrantes que viven y trabajan en España.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "4": {
+          "value": 1,
+          "source": "https://www.porunmundomasjusto.es/wp-content/uploads/2026/11/Castellano.pdf",
+          "locator": "pág. 38",
+          "reason": "Frenar la privatización y recuperar progresivamente los servicios externalizados, priorizando la gestión pública directa.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "6": {
+          "value": 4,
+          "source": "https://www.porunmundomasjusto.es/wp-content/uploads/2026/11/Castellano.pdf",
+          "locator": "pág. 45",
+          "reason": "Apoya la coexistencia de la enseñanza pública y privada, concertada y no concertada, y reconoce la aportación de la concertada.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional",
+          "scoreable": false,
+          "reviewNote": "Expresa apoyo a la coexistencia, no fija la financiación pública «donde exista demanda»."
+        },
+        "8": {
+          "value": 5,
+          "source": "https://www.porunmundomasjusto.es/wp-content/uploads/2026/11/Castellano.pdf",
+          "locator": "pág. 29, medida 02",
+          "reason": "Reducir progresivamente la jornada laboral hasta 35 horas semanales sin reducción salarial.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "10": {
+          "value": 5,
+          "source": "https://www.porunmundomasjusto.es/wp-content/uploads/2026/11/Castellano.pdf",
+          "locator": "pág. 24, medida 01",
+          "reason": "Blindar constitucionalmente las pensiones y garantizar que nunca pierdan poder adquisitivo.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional",
+          "scoreable": false,
+          "reviewNote": "Garantiza el poder adquisitivo, pero el texto no fija la actualización conforme al IPC."
+        },
+        "11": {
+          "value": 5,
+          "source": "https://www.porunmundomasjusto.es/wp-content/uploads/2026/11/Castellano.pdf",
+          "locator": "pág. 78, medida 1",
+          "reason": "Garantizar una protección integral frente a todas las formas de violencia de género y sexual.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "13": {
+          "value": 1,
+          "source": "https://www.porunmundomasjusto.es/wp-content/uploads/2026/11/Castellano.pdf",
+          "locator": "pág. 67, compromisos medibles",
+          "reason": "Propone reducir el gasto militar un 2 % anual en todos los países entre 2026 y 2030.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "15": {
+          "value": 5,
+          "source": "https://www.porunmundomasjusto.es/wp-content/uploads/2026/11/Castellano.pdf",
+          "locator": "pág. 44",
+          "reason": "Prevé acompañamiento psicológico gratuito antes y después de una interrupción voluntaria del embarazo en el sistema público.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional",
+          "scoreable": false,
+          "reviewNote": "Trata el acompañamiento, no declara expresamente mantener el derecho legal al aborto."
+        },
+        "16": {
+          "value": 5,
+          "source": "https://www.porunmundomasjusto.es/wp-content/uploads/2026/11/Castellano.pdf",
+          "locator": "pág. 69, apartado b",
+          "reason": "Prohibición del indulto en los delitos de corrupción.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "18": {
+          "value": 4,
+          "source": "https://www.porunmundomasjusto.es/wp-content/uploads/2026/11/Castellano.pdf",
+          "locator": "pág. 34",
+          "reason": "Aplicar criterios de proporcionalidad que eviten cargas administrativas excesivas para las pequeñas empresas.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional",
+          "scoreable": false,
+          "reviewNote": "Alcanza solo a las pequeñas empresas y conserva los estándares de calidad y seguridad."
+        }
+      }
     }
   ],
   "candidateSource": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
-  "limitations": "Catálogo incompleto: siete formaciones con evidencias parciales (PP, VOX, EAJ-PNV, BNG, coalición canaria, ERC y PACMA). Las demás candidaturas siguen pendientes. ERC se ha revisado en una copia de su programa alojada por Betevé. Las fuentes que no responden directamente a una pregunta se conservan sin puntuarlas. No permite determinar la máxima afinidad entre todas las candidaturas ni reutiliza programas de 2023 como si fueran de 2026.",
+  "limitations": "Catálogo incompleto: ocho formaciones con evidencias parciales (PP, VOX, EAJ-PNV, BNG, coalición canaria, ERC, PACMA y Por un Mundo Más Justo). Las demás candidaturas siguen pendientes. ERC se ha revisado en una copia de su programa alojada por Betevé. Las fuentes que no responden directamente a una pregunta se conservan sin puntuarlas. No permite determinar la máxima afinidad entre todas las candidaturas ni reutiliza programas de 2023 como si fueran de 2026.",
   "research": [
     {
       "id": "psoe",

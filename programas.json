@@ -631,7 +631,7 @@
    "dataId": "pp",
    "program": {
     "status": "oficial",
-    "url": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-LA-RECONSTRUCCION-NACIONAL.pdf",
+    "url": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
     "title": "La Reconstrucción Nacional (PDF)",
     "official": true,
     "checked": "2026-11-14"
@@ -744,10 +744,11 @@
     "url": "https://www.porunmundomasjusto.es/wp-content/uploads/2026/11/Castellano.pdf",
     "title": "Programa Elecciones Generales 29N 2026 (PDF)",
     "official": true,
-    "note": "PDF alojado en el dominio del partido (modificado el 10/11/2026). No se ha podido extraer su texto automáticamente, así que no se ha codificado ninguna posición.",
+    "note": "PDF alojado en el dominio del partido (modificado el 10/11/2026), con 32 ejes de propuestas.",
     "checked": "2026-11-14"
    },
-   "website": "https://www.porunmundomasjusto.es/"
+   "website": "https://www.porunmundomasjusto.es/",
+   "dataId": "mj"
   },
   {
    "id": "alantre",
@@ -1011,18 +1012,12 @@
    "website": "https://voxespana.es/",
    "dataId": "vox",
    "program": {
-    "status": "resumen",
-    "url": "https://www.voxespana.es/abascal/es-sentido-comun-estas-son-las-medidas-de-vox-para-el-29n-20261112",
-    "title": "Resumen de medidas para el 29N (web oficial)",
+    "status": "oficial",
+    "url": "https://www.voxespana.es/wp-content/uploads/2026/11/Programa-completo-A5-1.pdf",
+    "title": "Programa electoral 29N 2026 «Es sentido común» (PDF)",
     "official": true,
-    "note": "Es un resumen de medidas publicado en la web del partido, no un documento de programa completo.",
-    "checked": "2026-11-14",
-    "fullDocument": {
-     "url": "https://www.voxespana.es/wp-content/uploads/2026/11/Programa-completo-A5-1.pdf",
-     "title": "Programa completo (PDF, sin verificar)",
-     "verified": false,
-     "note": "Enlace del dominio del partido tomado de un resultado de búsqueda. No se ha podido abrir desde esta aplicación: el servidor bloquea accesos automáticos y el archivo supera 10 MB. Comprueba que es el programa de las generales de 2026."
-    }
+    "note": "Comprobado el 14/11/2026: PDF del dominio del partido con la portada del programa del 29 de noviembre de 2026. Algunas posiciones citan además el resumen de medidas publicado por el partido.",
+    "checked": "2026-11-14"
    }
   }
  ]
