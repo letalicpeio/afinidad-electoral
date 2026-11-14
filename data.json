@@ -1,5 +1,5 @@
 {
-  "version": "0.5.2",
+  "version": "0.5.3",
   "date": "2026-11-14",
   "election": "Congreso · 29 de noviembre de 2026",
   "questions": [
@@ -108,6 +108,14 @@
           "reviewed": "2026-11-14",
           "coding": "Interpretación editorial provisional"
         },
+        "2": {
+          "value": 1,
+          "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
+          "locator": "Medida 145",
+          "reason": "Deroga la Ley de Vivienda y elimina las zonas tensionadas y el índice de precios del alquiler.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
         "3": {
           "value": 1,
           "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
@@ -142,30 +150,6 @@
           "reviewed": "2026-11-14",
           "coding": "Interpretación editorial provisional"
         },
-        "11": {
-          "value": 5,
-          "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
-          "locator": "Medida 28",
-          "reason": "Refuerzo del Pacto de Estado y VioGen.",
-          "reviewed": "2026-11-14",
-          "coding": "Interpretación editorial provisional"
-        },
-        "18": {
-          "value": 5,
-          "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
-          "locator": "Medidas 186–187",
-          "reason": "Simplificación empresarial.",
-          "reviewed": "2026-11-14",
-          "coding": "Interpretación editorial provisional"
-        },
-        "2": {
-          "value": 1,
-          "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
-          "locator": "Medida 145",
-          "reason": "Deroga la Ley de Vivienda y elimina las zonas tensionadas y el índice de precios del alquiler.",
-          "reviewed": "2026-11-14",
-          "coding": "Interpretación editorial provisional"
-        },
         "10": {
           "value": 5,
           "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
@@ -174,11 +158,44 @@
           "reviewed": "2026-11-14",
           "coding": "Interpretación editorial provisional"
         },
+        "11": {
+          "value": 5,
+          "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
+          "locator": "Medida 28",
+          "reason": "Refuerzo del Pacto de Estado y VioGen.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "12": {
+          "value": 4,
+          "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
+          "locator": "Programa 2026 · apartado 4.10 · Unión Europea, pp. 55–56",
+          "reason": "Propone reforzar la capacidad política de la UE, el mercado común y las compras conjuntas de defensa.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional",
+          "sourceNote": "No concreta una reforma federal o de los tratados: se codifica apoyo moderado a la integración, no apoyo pleno."
+        },
+        "13": {
+          "value": 5,
+          "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
+          "locator": "Programa 2026 · medidas 52–55 · España tendrá medios para su defensa",
+          "reason": "Propone más efectivos, mejores retribuciones y mayor inversión en equipamiento, financiados mediante programación plurianual de Defensa.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
         "16": {
           "value": 5,
           "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
           "locator": "Medida 60",
           "reason": "Nueva Ley del Indulto: no podrán ser indultados los condenados por corrupción.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "18": {
+          "value": 5,
+          "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
+          "locator": "Medidas 186–187",
+          "reason": "Simplificación empresarial.",
           "reviewed": "2026-11-14",
           "coding": "Interpretación editorial provisional"
         }
@@ -1419,6 +1436,17 @@
           "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa oficial de generales de julio de 2023, enlazado en el archivo del PSOE.",
           "reviewed": "2026-11-14",
           "coding": "Interpretación editorial provisional de un programa histórico"
+        },
+        "8": {
+          "value": 5,
+          "source": "https://www.psoe.es/media-content/2023/10/ACUERDO_GOBIERNO_COALICIO%CC%81N_2023-DEF.pdf",
+          "locator": "Histórico 2023 · Acuerdo PSOE–Sumar · PDF p. 11 · Jornada laboral",
+          "reason": "Compromete la reducción de la jornada máxima legal a 37,5 horas manteniendo el salario.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional",
+          "historical": true,
+          "sourceYear": 2023,
+          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Acuerdo de gobierno firmado por PSOE y Sumar, no programa electoral de 2026. Se atribuye a PSOE por su condición de firmante, sin extenderlo a Frente Amplio ni Podemos."
         },
         "9": {
           "value": 1,

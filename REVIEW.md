@@ -85,3 +85,9 @@ Podemos: prioridad oficial de europeas 2024, aborto (pregunta 15). Se explicita 
 Se recupera el PDF completo de Podemos 2024, enlazado en el comparador de RTVE: 130 páginas. Preguntas 4 (p.33), 9 (p.77), 11 (p.22), 12 (pp.12–13). Se explicita el ámbito europeo; no se atribuye a Sumar ni Frente Amplio. No se puntúa jornada porque su reducción a 30 horas no incluye aquí garantía salarial expresa; tampoco se equipara la referencia a pensiones suficientes con actualización por IPC.
 
 PSOE 2023: pregunta 13 (PDF p.270, aumento explícito del presupuesto de Defensa); pregunta 11 (p.239, defensa del marco de violencia de género y refuerzo específico de VioGén). Se conservan todas las evidencias actuales. El catálogo indica cuántas posiciones proceden de cada periodo.
+
+## Ampliación 0.5.3
+
+PP: pregunta 13 (valor 5, medidas 52–55 del programa de 2026, ampliación de efectivos, retribuciones e inversión plurianual) y pregunta 12 (valor 4, apartado 4.10, mayor capacidad política europea y compras conjuntas sin compromiso federal explícito). PSOE: pregunta 8 (valor 5, PDF p.11 del acuerdo de gobierno PSOE–Sumar 2023, garantía salarial expresa). Se usa como antecedente firmado por PSOE; no se extiende a marcas posteriores ni a otros partidos.
+
+No se codifica la mera defensa retórica de la monarquía como propuesta sobre república, ni alusiones generales a sanidad como respuesta sobre conciertos. Acceso al PDF completo de Vox falló por tamaño; sin posiciones nuevas de ese documento.
