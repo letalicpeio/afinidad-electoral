@@ -1,3 +1,4 @@
+import {findParty} from "./catalog.mjs";
 import {strict as assert} from 'node:assert';
 import {score,sharedIds} from './scoring.mjs';
 import fs from 'node:fs';
@@ -24,9 +25,41 @@ for(const party of d.parties){
  for(const [id,pos] of Object.entries(party.positions))assert(Number.isInteger(pos.value),`${party.id}/${id}: value no entero`);
 }
 // Cada candidatura del BOE casa con como máximo un partido (patrón inequívoco)
-for(const [prov,names] of Object.entries(c))for(const n of names){const hits=d.parties.filter(x=>n.toUpperCase().includes(x.match)&&!(x.exclude||[]).some(e=>n.toUpperCase().includes(e)));assert(hits.length<=1,`${prov}/${n}: coincide con varios partidos`);}
-const known=n=>d.parties.find(x=>n.toUpperCase().includes(x.match)&&!(x.exclude||[]).some(e=>n.toUpperCase().includes(e)));
+for(const [prov,names] of Object.entries(c))for(const n of names){assert.doesNotThrow(()=>findParty(n,d.parties),`${prov}/${n}: coincide con varios partidos`);}
+const known=n=>findParty(n,d.parties);
 assert.equal(known(c.NAVARRA.find(n=>n.includes('UPN'))),undefined,'UPN-PP no debe heredar al PP');
 assert.equal(known(c.MADRID.find(n=>n.startsWith('PARTIDO POPULAR')))?.id,'pp');
 assert(d.candidateSource.startsWith('https://'));
 console.log('OK: extremos, ponderación, omisiones, cobertura, comparación común y catálogo de 52 circunscripciones.');
+
+// Una posición no puntuable no puede entrar en la comparación común.
+const review={...p(1),scoreable:false};
+assert.equal(score({'1':5},{'1':2},{'1':review}).affinity,null);
+assert.equal(score({'1':5},{'1':2},{'1':review}).excluded.length,1);
+assert.deepEqual(sharedIds({'1':5},[]),[]);
+assert.deepEqual(sharedIds({'1':5},[{positions:{'1':p(5)}}]),[]);
+assert.deepEqual(sharedIds({'1':5},[{positions:{'1':p(5)}},{positions:{'1':review}}]),[]);
+assert.deepEqual(sharedIds({'1':0,'2':6},[{positions:{'1':p(5),'2':p(5)}},{positions:{'1':p(5),'2':p(5)}}]),[]);
+assert.deepEqual(sharedIds({'1':3},[{positions:{'1':p(5)}},{positions:{'1':{value:4}}}]),[]);
+assert.equal(score({'1':3},{'1':2},{'1':{...p(3),source:'javascript:alert(1)'}}).affinity,null);
+assert.throws(()=>score({'1':3},{'1':0},{'1':p(3)}),/Peso/);
+assert.deepEqual(score({'1':5},{'1':3},{'1':p(5)}).bounds,{lower:100,upper:100});
+assert.equal(score({'1':null},{},{'1':p(3)}).bounds,null);
+// Verifica exhaustivamente los extremos: cada tema desconocido puede tomar 1–5.
+for(let answer1=1;answer1<=5;answer1++)for(let answer2=1;answer2<=5;answer2++){
+ const answers={'1':answer1,'2':answer2,'3':3}, weights={'1':1,'2':4,'3':2};
+ const partial=score(answers,weights,{'1':p(4)});const possible=[];
+ for(let x=1;x<=5;x++)for(let y=1;y<=5;y++)possible.push(score(answers,weights,{'1':p(4),'2':p(x),'3':p(y)}).affinity);
+ assert(Math.abs(partial.bounds.lower-Math.min(...possible))<1e-9);
+ assert(Math.abs(partial.bounds.upper-Math.max(...possible))<1e-9);
+}
+assert.equal(known(c['A CORUÑA'].find(n=>n.includes('BLOQUE')))?.id,'bng');
+assert.equal(known(c['LAS PALMAS'].find(n=>n.toUpperCase().includes('MUNICIPALISTAS PRIMERO')))?.id,'cc');
+assert.equal(known(c['SANTA CRUZ DE TENERIFE'].find(n=>n.toUpperCase().includes('MUNICIPALISTAS PRIMERO')))?.id,'cc');
+for(const party of d.parties)for(const pos of Object.values(party.positions)){
+ assert(pos.scoreable===undefined||typeof pos.scoreable==='boolean');
+ if(pos.scoreable===false)assert(pos.reviewNote,'La exclusión debe explicar el motivo');
+}
+console.log('OK: exclusiones editoriales, comparación sin partidos, validación de posiciones, coaliciones y extremos de rangos.');
+
+assert.throws(()=>findParty('PARTIDO POPULAR',[{match:'POPULAR'},{match:'PARTIDO'}]),/ambigua/);
