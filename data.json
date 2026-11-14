@@ -459,66 +459,59 @@
       "positions": {
         "1": {
           "value": 5,
-          "source": "https://img.beteve.cat/wp-content/uploads/2026/11/ERC-programa-electoral-29-N-2026-2026-11-12.pdf",
+          "source": "https://esquerrarepublicana.cat/documents/e2026-programa.pdf",
           "locator": "Medida 69, pág. 21",
           "reason": "Reduce la fiscalidad del trabajo en los tramos inferiores a 35.000 euros.",
           "reviewed": "2026-11-14",
-          "coding": "Interpretación editorial provisional",
-          "sourceNote": "Programa de ERC para el Congreso de 2026; copia alojada por Betevé. No se ha localizado una descarga de 2026 en la web oficial consultada."
+          "coding": "Interpretación editorial provisional"
         },
         "7": {
           "value": 5,
-          "source": "https://img.beteve.cat/wp-content/uploads/2026/11/ERC-programa-electoral-29-N-2026-2026-11-12.pdf",
+          "source": "https://esquerrarepublicana.cat/documents/e2026-programa.pdf",
           "locator": "Medidas 38–40, págs. 14–15",
           "reason": "Reclama traspasos de homologación de títulos, inspección laboral y prestaciones de desempleo.",
           "reviewed": "2026-11-14",
-          "coding": "Interpretación editorial provisional",
-          "sourceNote": "Programa de ERC para el Congreso de 2026; copia alojada por Betevé. No se ha localizado una descarga de 2026 en la web oficial consultada."
+          "coding": "Interpretación editorial provisional"
         },
         "8": {
           "value": 5,
-          "source": "https://img.beteve.cat/wp-content/uploads/2026/11/ERC-programa-electoral-29-N-2026-2026-11-12.pdf",
+          "source": "https://esquerrarepublicana.cat/documents/e2026-programa.pdf",
           "locator": "Medida 105, pág. 26",
           "reason": "Propone jornada máxima de 37,5 horas sin reducción salarial.",
           "reviewed": "2026-11-14",
-          "coding": "Interpretación editorial provisional",
-          "sourceNote": "Programa de ERC para el Congreso de 2026; copia alojada por Betevé. No se ha localizado una descarga de 2026 en la web oficial consultada."
+          "coding": "Interpretación editorial provisional"
         },
         "10": {
           "value": 5,
-          "source": "https://img.beteve.cat/wp-content/uploads/2026/11/ERC-programa-electoral-29-N-2026-2026-11-12.pdf",
+          "source": "https://esquerrarepublicana.cat/documents/e2026-programa.pdf",
           "locator": "Medidas 106–107, pág. 26",
           "reason": "Vincula las pensiones a la inflación y al IPC territorial.",
           "reviewed": "2026-11-14",
-          "coding": "Interpretación editorial provisional",
-          "sourceNote": "Programa de ERC para el Congreso de 2026; copia alojada por Betevé. No se ha localizado una descarga de 2026 en la web oficial consultada."
+          "coding": "Interpretación editorial provisional"
         },
         "11": {
           "value": 5,
-          "source": "https://img.beteve.cat/wp-content/uploads/2026/11/ERC-programa-electoral-29-N-2026-2026-11-12.pdf",
+          "source": "https://esquerrarepublicana.cat/documents/e2026-programa.pdf",
           "locator": "Medida 88, pág. 24",
           "reason": "Propone reforzar la legislación específica contra la violencia machista.",
           "reviewed": "2026-11-14",
-          "coding": "Interpretación editorial provisional",
-          "sourceNote": "Programa de ERC para el Congreso de 2026; copia alojada por Betevé. No se ha localizado una descarga de 2026 en la web oficial consultada."
+          "coding": "Interpretación editorial provisional"
         },
         "18": {
           "value": 5,
-          "source": "https://img.beteve.cat/wp-content/uploads/2026/11/ERC-programa-electoral-29-N-2026-2026-11-12.pdf",
+          "source": "https://esquerrarepublicana.cat/documents/e2026-programa.pdf",
           "locator": "Medida 86, pág. 23",
           "reason": "Plantea simplificar trámites de pymes manteniendo garantías laborales y ambientales.",
           "reviewed": "2026-11-14",
-          "coding": "Interpretación editorial provisional",
-          "sourceNote": "Programa de ERC para el Congreso de 2026; copia alojada por Betevé. No se ha localizado una descarga de 2026 en la web oficial consultada."
+          "coding": "Interpretación editorial provisional"
         },
         "14": {
           "value": 5,
-          "source": "https://img.beteve.cat/wp-content/uploads/2026/11/ERC-programa-electoral-29-N-2026-2026-11-12.pdf",
+          "source": "https://esquerrarepublicana.cat/documents/e2026-programa.pdf",
           "locator": "Medida 9, pág. 8",
           "reason": "Impulsa fiscalizar al rey y a la casa real y poner fin a la monarquía, institución que considera contraria al principio democrático.",
           "reviewed": "2026-11-14",
-          "coding": "Interpretación editorial provisional",
-          "sourceNote": "Programa de ERC para el Congreso de 2026; copia alojada por Betevé. No se ha localizado una descarga de 2026 en la web oficial consultada."
+          "coding": "Interpretación editorial provisional"
         }
       },
       "exclude": [
@@ -678,10 +671,180 @@
           "reviewNote": "Alcanza solo a las pequeñas empresas y conserva los estándares de calidad y seguridad."
         }
       }
+    },
+    {
+      "id": "fejons",
+      "name": "Falange Española de las JONS",
+      "match": "FE DE LAS JONS",
+      "positions": {
+        "1": {
+          "value": 5,
+          "source": "https://falange.es/wp-content/uploads/2026/11/FEDELASJONS_ProgramaElectoral_29NGenerales2026.pdf",
+          "locator": "punto 9, pág. 29 del PDF",
+          "reason": "Propone la deflactación del IRPF y su bajada progresiva para no gravar a los trabajadores.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "3": {
+          "value": 1,
+          "source": "https://falange.es/wp-content/uploads/2026/11/FEDELASJONS_ProgramaElectoral_29NGenerales2026.pdf",
+          "locator": "Anexo I, pág. 11 del PDF",
+          "reason": "Propone el cese de la concesión de permisos de residencia y trabajo, derogar la Ley de Extranjería y un Plan Nacional de Remigración.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "4": {
+          "value": 1,
+          "source": "https://falange.es/wp-content/uploads/2026/11/FEDELASJONS_ProgramaElectoral_29NGenerales2026.pdf",
+          "locator": "punto 20.3, pág. 50 del PDF",
+          "reason": "Poner fin a las prácticas de externalización y privatización de la sanidad.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "5": {
+          "value": 5,
+          "source": "https://falange.es/wp-content/uploads/2026/11/FEDELASJONS_ProgramaElectoral_29NGenerales2026.pdf",
+          "locator": "pág. 39 del PDF",
+          "reason": "Aumento generalizado de las penas por delitos comunes y por reincidencia.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "7": {
+          "value": 1,
+          "source": "https://falange.es/wp-content/uploads/2026/11/FEDELASJONS_ProgramaElectoral_29NGenerales2026.pdf",
+          "locator": "pág. 19 del PDF",
+          "reason": "Defiende retirar las competencias a las comunidades autónomas.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "9": {
+          "value": 5,
+          "source": "https://falange.es/wp-content/uploads/2026/11/FEDELASJONS_ProgramaElectoral_29NGenerales2026.pdf",
+          "locator": "puntos 11.3–11.5, pág. 31 del PDF",
+          "reason": "Propone la energía nuclear como fuente principal del mix energético.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "11": {
+          "value": 1,
+          "source": "https://falange.es/wp-content/uploads/2026/11/FEDELASJONS_ProgramaElectoral_29NGenerales2026.pdf",
+          "locator": "punto 7.3, pág. 25 del PDF",
+          "reason": "Propone suprimir las leyes de «género», incluida la Ley de Violencia de Género.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "12": {
+          "value": 1,
+          "source": "https://falange.es/wp-content/uploads/2026/11/FEDELASJONS_ProgramaElectoral_29NGenerales2026.pdf",
+          "locator": "punto 3.1, pág. 17 del PDF",
+          "reason": "Propone abandonar la Unión Europea y las organizaciones supranacionales.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "13": {
+          "value": 5,
+          "source": "https://falange.es/wp-content/uploads/2026/11/FEDELASJONS_ProgramaElectoral_29NGenerales2026.pdf",
+          "locator": "punto 16.5, pág. 41 del PDF",
+          "reason": "Aumento del presupuesto destinado a la defensa.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "14": {
+          "value": 5,
+          "source": "https://falange.es/wp-content/uploads/2026/11/FEDELASJONS_ProgramaElectoral_29NGenerales2026.pdf",
+          "locator": "punto 13.2, pág. 36 del PDF",
+          "reason": "Aspira a abolir la monarquía parlamentaria y a un Estado republicano nacional-sindicalista.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "15": {
+          "value": 1,
+          "source": "https://falange.es/wp-content/uploads/2026/11/FEDELASJONS_ProgramaElectoral_29NGenerales2026.pdf",
+          "locator": "pág. 25 del PDF",
+          "reason": "Propone ilegalizar las leyes que permiten el aborto y la eutanasia.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "17": {
+          "value": 1,
+          "source": "https://falange.es/wp-content/uploads/2026/11/FEDELASJONS_ProgramaElectoral_29NGenerales2026.pdf",
+          "locator": "pág. 11 del PDF",
+          "reason": "Retirada del acceso a ayudas sociales para todo extranjero, reservadas a españoles.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        }
+      }
+    },
+    {
+      "id": "fo",
+      "name": "Frente Obrero",
+      "match": "FRENTE OBRERO",
+      "positions": {
+        "1": {
+          "value": 4,
+          "source": "https://frenteobrero.es/documentos/programa-frente-obrero.pdf",
+          "locator": "pág. 18, medida 1",
+          "reason": "Reducir el impuesto sobre la renta a los trabajadores con menos recursos y aumentarlo a las rentas más altas.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional",
+          "scoreable": false,
+          "reviewNote": "La rebaja alcanza solo a las rentas bajas y se acompaña de una subida a las altas."
+        },
+        "3": {
+          "value": 1,
+          "source": "https://frenteobrero.es/documentos/programa-frente-obrero.pdf",
+          "locator": "pág. 53, medida 3",
+          "reason": "Expulsión inmediata de quienes están de forma irregular e imposibilidad de regularizarse si intentaron entrar de forma ilegal.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "4": {
+          "value": 1,
+          "source": "https://frenteobrero.es/documentos/programa-frente-obrero.pdf",
+          "locator": "pág. 42",
+          "reason": "Critica la externalización y privatización de los servicios sanitarios.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional",
+          "scoreable": false,
+          "reviewNote": "Es un diagnóstico crítico; no se ha localizado una medida concreta sobre conciertos con centros privados."
+        },
+        "9": {
+          "value": 5,
+          "source": "https://frenteobrero.es/documentos/programa-frente-obrero.pdf",
+          "locator": "pág. 16, medida 5",
+          "reason": "Apuesta por la energía nuclear y por ampliar el parque nuclear.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "11": {
+          "value": 1,
+          "source": "https://frenteobrero.es/documentos/programa-frente-obrero.pdf",
+          "locator": "pág. 31",
+          "reason": "Sostiene que la violencia de género no existe como violencia estructural contra las mujeres.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "14": {
+          "value": 5,
+          "source": "https://frenteobrero.es/documentos/programa-frente-obrero.pdf",
+          "locator": "pág. 56",
+          "reason": "Se declara contrario a la monarquía y partidario de una república.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "16": {
+          "value": 5,
+          "source": "https://frenteobrero.es/documentos/programa-frente-obrero.pdf",
+          "locator": "pág. 59, medida 4",
+          "reason": "Prohibición del indulto en casos de corrupción política y delitos relacionados.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        }
+      }
     }
   ],
   "candidateSource": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
-  "limitations": "Catálogo incompleto: ocho formaciones con evidencias parciales (PP, VOX, EAJ-PNV, BNG, coalición canaria, ERC, PACMA y Por un Mundo Más Justo). Las demás candidaturas siguen pendientes. ERC se ha revisado en una copia de su programa alojada por Betevé. Las fuentes que no responden directamente a una pregunta se conservan sin puntuarlas. No permite determinar la máxima afinidad entre todas las candidaturas ni reutiliza programas de 2023 como si fueran de 2026.",
+  "limitations": "Catálogo incompleto: diez formaciones con evidencias parciales (PP, VOX, EAJ-PNV, BNG, coalición canaria, ERC, PACMA, Por un Mundo Más Justo, FE de las JONS y Frente Obrero). Las demás candidaturas siguen pendientes. Las fuentes que no responden directamente a una pregunta se conservan sin puntuarlas. No permite determinar la máxima afinidad entre todas las candidaturas ni reutiliza programas de 2023 como si fueran de 2026.",
   "research": [
     {
       "id": "psoe",

@@ -281,14 +281,14 @@
    "names": [
     "ESQUERRA REPUBLICANA DE CATALUNYA (ERC)"
    ],
-   "website": "https://www.esquerra.cat/",
+   "website": "https://www.esquerrarepublicana.cat/",
    "dataId": "erc",
    "program": {
-    "status": "copia",
-    "url": "https://img.beteve.cat/wp-content/uploads/2026/11/ERC-programa-electoral-29-N-2026-2026-11-12.pdf",
-    "title": "Programa electoral 29N 2026 (PDF alojado por Betevé)",
-    "official": false,
-    "note": "Copia alojada por un medio. No se ha localizado la descarga en la web oficial; compara el contenido con la web del partido antes de citarlo.",
+    "status": "oficial",
+    "url": "https://esquerrarepublicana.cat/documents/e2026-programa.pdf",
+    "title": "Programa electoral 29N 2026 (PDF)",
+    "official": true,
+    "note": "Comprobado el 14/11/2026: el PDF del dominio del partido es idéntico, byte a byte, a la copia alojada por Betevé que se usó en la primera revisión.",
     "checked": "2026-11-14"
    }
   },
@@ -301,11 +301,15 @@
     "FALANGE ESPAÑOLA DE LAS J.O.N.S. (FE de las JONS)"
    ],
    "program": {
-    "status": "sin-revisar",
-    "official": false,
-    "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
+    "status": "oficial",
+    "url": "https://falange.es/wp-content/uploads/2026/11/FEDELASJONS_ProgramaElectoral_29NGenerales2026.pdf",
+    "title": "Programa electoral 29N Generales 2026 (PDF)",
+    "official": true,
+    "note": "PDF del dominio del partido enlazado desde su web, que aún muestra textos de plantilla sin completar.",
     "checked": "2026-11-14"
-   }
+   },
+   "website": "https://falange.es/",
+   "dataId": "fejons"
   },
   {
    "id": "fia",
@@ -368,11 +372,15 @@
     "FRENTE OBRERO (FO)"
    ],
    "program": {
-    "status": "sin-revisar",
-    "official": false,
-    "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
+    "status": "oficial",
+    "url": "https://frenteobrero.es/documentos/programa-frente-obrero.pdf",
+    "title": "Programa del Frente Obrero (PDF)",
+    "official": true,
+    "note": "PDF del dominio del partido (modificado el 12/11/2026), con diez prioridades para el Congreso.",
     "checked": "2026-11-14"
-   }
+   },
+   "website": "https://frenteobrero.es/",
+   "dataId": "fo"
   },
   {
    "id": "geroa-bai",
@@ -689,9 +697,11 @@
    ],
    "website": "https://www.pcte.es/",
    "program": {
-    "status": "sin-revisar",
-    "official": false,
-    "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
+    "status": "no-localizado",
+    "consulted": "https://www.pcte.es/",
+    "official": true,
+    "detail": "La web enlaza un programa del 10N de 2020 y el «Programa de lucha 2023-2027», pero ningún programa específico para el 29N de 2026.",
+    "note": "No se han usado documentos de otras convocatorias como programa de 2026.",
     "checked": "2026-11-14"
    }
   },
@@ -895,9 +905,11 @@
     "SE ACABÓ LA FIESTA (SALF)"
    ],
    "program": {
-    "status": "sin-revisar",
+    "status": "no-localizado",
+    "consulted": "https://canal4diario.com/29n/2026/11/13/salf-propone-eliminar-la-cuota-de-autonomos-suprimir-el-ibi-y-rebajar-el-irpf-hasta-los-35-000-euros/",
     "official": false,
-    "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
+    "detail": "La prensa (13/11/2026) describe un documento de 13 páginas con 119 medidas, pero no enlaza al original y no se ha localizado en una web del partido.",
+    "note": "La fuente es un medio, no el partido: no sustituye a comprobarlo en el propio partido. No se han codificado posiciones a partir de la prensa.",
     "checked": "2026-11-14"
    }
   },
