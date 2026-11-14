@@ -73,3 +73,9 @@ Cuatro evidencias nuevas: PSOE pregunta 2 (iniciativa oficial 19/03/2026) y 15 (
 Se admiten programas anteriores como antecedentes puntuables provisionales, con historical=true, sourceYear=2023, localizador fechado y nota explícita. Nunca sustituyen posiciones actuales. Se revisó directamente el explorador público de Manifesto: Spain, 2023-07, Euskal Herria Bildu, 173 unidades. Se codifican preguntas 2 (unidades 11 y 49), 4 (70), 7 (166–170), 8 (37). Los códigos MARPOR no se convierten en valores 1–5. Referencia: Lehmann y otros, Manifesto Corpus, versión 2026-1, WZB/IfDem.
 
 PSOE: programa original oficial de julio de 2023, preguntas 3 (PDF p.255), 9 (p.75), 12 (p.259), 18 (p.30). Permanecen las tres posiciones actuales. No se heredan programas de Sumar a Podemos ni Frente Amplio. La descarga local del PDF devolvió HTML; la lectura se realizó mediante el extractor web del documento oficial. El explorador de Manifesto se pudo consultar sin credenciales; descarga/API requieren cuenta.
+
+## Ampliación 0.5.1
+
+Junts: programa Per Catalunya, generales de 2023, copia íntegra de 148 páginas en Betevé. Preguntas 1 (PDF pp.57–58, apoyo con reservas por reforma redistributiva), 6 (p.114), 11 (p.111, garantías procesales específicas), 12 (p.28, modelo federal europeo), 18 (p.84). El documento identifica la candidatura Junts–Demòcrates–Més Esquerres; se declara esa composición en cada nota, conservando la posición territorial actual de 2026. No se infiere IPC de la sola defensa del poder adquisitivo ni posición nuclear de las menciones técnicas a generación y subastas.
+
+Podemos: prioridad oficial de europeas 2024, aborto (pregunta 15). Se explicita que no es un programa para el Congreso. El PDF oficial devolvió 403 al extractor; se usa la prioridad íntegramente visible en la página oficial de la campaña. No se infieren más posiciones del PDF inaccesible. Continúa la búsqueda pendiente de PSOE/EH Bildu sin añadir datos no respaldados en este lote.

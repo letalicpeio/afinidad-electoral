@@ -1,5 +1,5 @@
 {
-  "version": "0.5.0",
+  "version": "0.5.1",
   "date": "2026-11-14",
   "election": "Congreso · 29 de noviembre de 2026",
   "questions": [
@@ -1245,6 +1245,17 @@
           "sourceNote": "Fuente secundaria: Europa Press recoge la propuesta de la candidata. Pendiente de contraste con el programa oficial.",
           "reviewed": "2026-11-14",
           "coding": "Interpretación editorial provisional"
+        },
+        "15": {
+          "value": 5,
+          "source": "https://podemos.info/europeas-2024/",
+          "locator": "Histórico 2024 · Europeas 2024 · Nuestras prioridades · Feminismo",
+          "reason": "Defiende el aborto libre, seguro y gratuito en toda la Unión Europea.",
+          "historical": true,
+          "sourceYear": 2024,
+          "sourceNote": "ANTECEDENTE DE 2024: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Prioridad oficial de las elecciones europeas de 2024; no es un programa del Congreso.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional de un programa histórico"
         }
       },
       "exclude": [
@@ -1273,6 +1284,28 @@
       "name": "Junts per Catalunya",
       "match": "JUNTS PER CATALUNYA",
       "positions": {
+        "1": {
+          "value": 4,
+          "source": "https://img.beteve.cat/wp-content/uploads/2023/07/programa-junts-per-catalunya-eleccions-generals-2023.pdf",
+          "locator": "Histórico 2023 · PDF pp. 57–58 · Política fiscal",
+          "reason": "Propone moderar los impuestos al trabajo y aliviar la presión sobre rentas medias; lo vincula a una reforma fiscal redistributiva.",
+          "historical": true,
+          "sourceYear": 2023,
+          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa de generales de 2023 de Junts, Demòcrates y Més Esquerres; se usa como antecedente de la candidatura encabezada por Junts, sin atribuirlo a otras formaciones. Copia documental alojada por Betevé.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional de un programa histórico"
+        },
+        "6": {
+          "value": 5,
+          "source": "https://img.beteve.cat/wp-content/uploads/2023/07/programa-junts-per-catalunya-eleccions-generals-2023.pdf",
+          "locator": "Histórico 2023 · PDF p. 114 · Ensenyament",
+          "reason": "Propone actualizar la financiación de los centros concertados a sus costes reales.",
+          "historical": true,
+          "sourceYear": 2023,
+          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa de generales de 2023 de Junts, Demòcrates y Més Esquerres; se usa como antecedente de la candidatura encabezada por Junts, sin atribuirlo a otras formaciones. Copia documental alojada por Betevé.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional de un programa histórico"
+        },
         "7": {
           "value": 5,
           "source": "https://www.europapress.es/catalunya/noticia-nogueras-junts-abre-hablar-psoe-29n-si-catalunya-centro-20261106111810.html",
@@ -1281,6 +1314,39 @@
           "sourceNote": "Fuente secundaria. Declaraciones de precampaña recogidas por Europa Press.",
           "reviewed": "2026-11-14",
           "coding": "Interpretación editorial provisional"
+        },
+        "11": {
+          "value": 5,
+          "source": "https://img.beteve.cat/wp-content/uploads/2023/07/programa-junts-per-catalunya-eleccions-generals-2023.pdf",
+          "locator": "Histórico 2023 · PDF p. 111 · Igualtat",
+          "reason": "Propone garantías procesales específicas en casos de violencia machista.",
+          "historical": true,
+          "sourceYear": 2023,
+          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa de generales de 2023 de Junts, Demòcrates y Més Esquerres; se usa como antecedente de la candidatura encabezada por Junts, sin atribuirlo a otras formaciones. Copia documental alojada por Betevé.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional de un programa histórico"
+        },
+        "12": {
+          "value": 5,
+          "source": "https://img.beteve.cat/wp-content/uploads/2023/07/programa-junts-per-catalunya-eleccions-generals-2023.pdf",
+          "locator": "Histórico 2023 · PDF p. 28 · Catalunya i la Unió Europea",
+          "reason": "Defiende una Europa federal con mayor integración democrática.",
+          "historical": true,
+          "sourceYear": 2023,
+          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa de generales de 2023 de Junts, Demòcrates y Més Esquerres; se usa como antecedente de la candidatura encabezada por Junts, sin atribuirlo a otras formaciones. Copia documental alojada por Betevé.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional de un programa histórico"
+        },
+        "18": {
+          "value": 5,
+          "source": "https://img.beteve.cat/wp-content/uploads/2023/07/programa-junts-per-catalunya-eleccions-generals-2023.pdf",
+          "locator": "Histórico 2023 · PDF p. 84 · Defensa de la micro, petita i mitjana empresa",
+          "reason": "Propone simplificar permisos y trámites empresariales y potenciar la declaración responsable.",
+          "historical": true,
+          "sourceYear": 2023,
+          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa de generales de 2023 de Junts, Demòcrates y Més Esquerres; se usa como antecedente de la candidatura encabezada por Junts, sin atribuirlo a otras formaciones. Copia documental alojada por Betevé.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional de un programa histórico"
         }
       },
       "exclude": []
@@ -1428,6 +1494,6 @@
     }
   ],
   "candidateSource": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
-  "limitations": "Catálogo incompleto: 22 formaciones con evidencias parciales. Se combinan propuestas actuales con antecedentes históricos expresamente fechados (2023) para cubrir huecos. Los antecedentes participan provisionalmente en el cálculo y no acreditan compromisos actuales. Las fuentes nuevas prevalecen sobre las históricas. Se indican procedencia, año y localizador por posición. Los datos ausentes no se convierten en neutralidad. No permite determinar la máxima afinidad entre todas las candidaturas.",
+  "limitations": "Catálogo incompleto: 22 formaciones con evidencias parciales. Se combinan propuestas actuales con antecedentes históricos expresamente fechados (2023 y 2024) para cubrir huecos. Los antecedentes participan provisionalmente en el cálculo y no acreditan compromisos actuales. Las fuentes nuevas prevalecen sobre las históricas. Se indican procedencia, año y localizador por posición. Los datos ausentes no se convierten en neutralidad. No permite determinar la máxima afinidad entre todas las candidaturas.",
   "research": []
 }

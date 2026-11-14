@@ -89,8 +89,8 @@ console.log('OK: ERC, PACMA, procedencia de copias y registro de investigación 
 // Los antecedentes autorizados deben declarar su antigüedad y conservar fuentes actuales.
 for (const party of d.parties) for (const position of Object.values(party.positions)) {
  if (position.historical) {
-  assert.equal(position.sourceYear, 2023);
-  assert(position.locator.includes("2023"));
+  assert([2023, 2024].includes(position.sourceYear));
+  assert(position.locator.includes(String(position.sourceYear)));
   assert(position.sourceNote.includes("no acredita un compromiso de 2026"));
  }
 }
