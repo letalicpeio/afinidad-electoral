@@ -153,8 +153,8 @@ for (const catalogEntry of catalog.parties.filter((p) =>
   for (const name of catalogEntry.names)
     assert.equal(
       findParty(name, data.parties),
-      undefined,
-      `«${name}» hereda posiciones de un partido miembro`,
+      data.parties.find(p => p.id === catalogEntry.dataId),
+      `«${name}» debe usar evidencia propia de la coalición`,
     );
 }
 

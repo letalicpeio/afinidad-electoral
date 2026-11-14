@@ -14,7 +14,7 @@ Web estática, adaptable a móvil, para el Congreso por provincias. Sin dependen
 
 ## Estado documental — 14/11/2026
 
-**Versión 0.4.2, catálogo incompleto. PP, VOX, EAJ-PNV, BNG, Municipalistas Primero Canarias–Coalición Canaria, ERC, PACMA, Por un Mundo Más Justo, FE de las JONS, Frente Obrero, Adelante Andalucía, Geroa Bai, SALF, Partido Humanista, Democracia 21, Iustitia Europa, Frente Amplio y Podemos tienen análisis parcial. No identifica la máxima afinidad entre todas las candidaturas.** Las demás figuran como pendientes de revisión; esa etiqueta no afirma que carezcan de programa publicado. No se mezclan programas de 2023 con los de 2026.
+**Versión 0.4.3, catálogo incompleto. PP, VOX, EAJ-PNV, BNG, Municipalistas Primero Canarias–Coalición Canaria, ERC, PACMA, Por un Mundo Más Justo, FE de las JONS, Frente Obrero, Adelante Andalucía, Geroa Bai, SALF, Partido Humanista, Democracia 21, Iustitia Europa, Frente Amplio, Podemos, Compromís: Front Valencià, Junts y PSOE tienen análisis parcial. No identifica la máxima afinidad entre todas las candidaturas.** Las demás figuran como pendientes de revisión; esa etiqueta no afirma que carezcan de programa publicado. No se mezclan programas de 2023 con los de 2026.
 
 Las afirmaciones y opciones son nuevas, basadas en los 18 temas del cuestionario previo, cuyas alternativas originales no se recuperaron. Las posiciones son interpretaciones editoriales provisionales, revisables, no una medición objetiva ni una puntuación oficial de los partidos. Las inferencias requieren revisión humana; la ausencia de una propuesta no equivale a oposición.
 
@@ -61,3 +61,5 @@ Ampliación 14/11/2026: SALF se revisa a partir del resumen oficial de campaña 
 Ampliación 14/11/2026 (0.4.1): Democracia 21 pasa de tres a cinco afirmaciones documentadas. La limitación temporal y condicionada del alquiler se codifica como apoyo con reservas (4); la eliminación de trámites empresariales redundantes, como apoyo explícito (5).
 
 Ampliación 0.4.2: se admiten fuentes secundarias identificadas cuando falta el programa oficial. Podemos incorpora regulación de alquileres (Europa Press reproducida por Idealista, iniciativa de 2026) y Frente Amplio revalorización de pensiones con IPC (nota oficial). Estas evidencias no constituyen programas completos; no se infieren posiciones de otros partidos por pertenecer a una coalición.
+
+Ampliación 0.4.3: primeras evidencias para Compromís: Front Valencià (aborto constitucional, EFE/Valencia Plaza), Junts (traspaso de competencias, Europa Press) y PSOE (pensiones con IPC, El País). Declaraciones de 2026 en fuentes secundarias, diferenciadas del programa oficial.

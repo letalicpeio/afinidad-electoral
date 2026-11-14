@@ -71,7 +71,8 @@ for(const item of d.research||[]){
  assert(item.status&&item.note&&item.reviewed&&item.source.startsWith('https://'));
  assert(!item.positions,'El registro de investigación no debe puntuar');
 }
-assert.equal(findParty('PARTIT DELS SOCIALISTES DE CATALUNYA (PSC-PSOE) (PSC)',d.research).id,'psoe');
+assert.equal(findParty('PARTIT DELS SOCIALISTES DE CATALUNYA (PSC-PSOE) (PSC)',d.parties),undefined,'PSC no hereda posiciones documentadas para PSOE');
+assert.equal(findParty('PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)',d.parties)?.id,'psoe');
 assert.equal(findParty('UNIDAD DEL PUEBLO CANARIO UPC (NC-BC, PODEMOS, IU, SUMAR)',d.research),undefined,'Una coalición no hereda el estado documental de Podemos');
 assert.equal(nextParty('erc').positions['1'].source, 'https://esquerrarepublicana.cat/documents/e2026-programa.pdf');
 assert(!('sourceNote' in nextParty('erc').positions['1']));

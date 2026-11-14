@@ -59,3 +59,7 @@ No se equipara deflactar IRPF con una rebaja general de impuestos al trabajo, po
 ## Ampliación 0.4.2
 
 Autorizado el uso de fuentes secundarias. Se añade estado «secundaria» para distinguir prensa de copias documentales. Podemos: pregunta 2, apoyo a reducción por ley de los alquileres, fuente Europa Press reproducida por Idealista (17/09/2026), corroborada por Europa Press en campaña de Euskadi (14/11/2026). No se heredan posiciones a otras coaliciones. Frente Amplio: pregunta 10, apartado «Consolidar lo conseguido» de su nota oficial del 24/10/2026. Se retiran registros de investigación que negaban la existencia de evidencias directas para esas dos formaciones. Se mantienen omisiones y umbral de cobertura.
+
+## Ampliación 0.4.3
+
+Tres posiciones provisionales en prensa de precampaña: Compromís: Front Valencià, pregunta 15, EFE/Valencia Plaza 09/11; Junts, pregunta 7, Europa Press 06/11; PSOE, pregunta 10, El País 15/10. Se excluyen otras denominaciones del BOE que contengan los mismos nombres para evitar atribuir posiciones a marcas territoriales o coaliciones sin evidencia propia. La fuente de Compromís se refiere expresamente a la candidatura conjunta de 2026. Se mantienen preguntas sin datos y umbral del 50 %.

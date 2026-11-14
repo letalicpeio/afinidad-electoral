@@ -1,5 +1,5 @@
 {
-  "version": "0.4.2",
+  "version": "0.4.3",
   "date": "2026-11-14",
   "election": "Congreso · 29 de noviembre de 2026",
   "questions": [
@@ -1232,20 +1232,69 @@
       "exclude": [
         "UNIDAD DEL PUEBLO CANARIO UPC (NC-BC, PODEMOS, IU, SUMAR)"
       ]
-    }
-  ],
-  "candidateSource": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
-  "limitations": "Catálogo incompleto: dieciocho formaciones con evidencias parciales. Se incorporan también Democracia 21 e Iustitia Europa desde sus documentos programáticos vigentes en la web de campaña de 2026. SALF (resumen oficial de campaña, PDF completo sin verificar) y Partido Humanista (programa de 2026). Geroa Bai se basa en bases políticas oficiales de campaña. Las demás candidaturas siguen pendientes; ausencia de revisión no implica ausencia de programa. Las evidencias que no responden directamente a la afirmación no puntúan. No permite determinar la máxima afinidad entre todas las candidaturas ni reutiliza programas antiguos como si fueran de 2026. Frente Amplio incorpora una propuesta oficial de campaña sobre pensiones; Podemos, una propuesta de alquiler documentada por prensa en 2026, provisional y pendiente de contraste con su programa oficial.",
-  "research": [
+    },
+    {
+      "id": "compromis",
+      "name": "Compromís: Front Valencià",
+      "match": "COMPROMÍS: FRONT VALENCIÀ",
+      "positions": {
+        "15": {
+          "value": 5,
+          "source": "https://valenciaplaza.com/valenciaplaza/comunitat-valenciana1/compromis-front-valencia-hara-una-campana-coral-con-inicio-en-alicante-y-final-en-valencia",
+          "locator": "EFE · 09/11/2026 · ejes programáticos",
+          "reason": "La candidatura propone blindar el aborto en la Constitución.",
+          "sourceNote": "Fuente secundaria. Presentación de la candidatura conjunta, no extrapolación de sus partidos miembros.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        }
+      },
+      "exclude": []
+    },
+    {
+      "id": "junts",
+      "name": "Junts per Catalunya",
+      "match": "JUNTS PER CATALUNYA",
+      "positions": {
+        "7": {
+          "value": 5,
+          "source": "https://www.europapress.es/catalunya/noticia-nogueras-junts-abre-hablar-psoe-29n-si-catalunya-centro-20261106111810.html",
+          "locator": "Europa Press · 06/11/2026 · condiciones de negociación",
+          "reason": "La candidata reclama delegar competencias de inmigración y gestionar los impuestos desde Catalunya.",
+          "sourceNote": "Fuente secundaria. Declaraciones de precampaña recogidas por Europa Press.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        }
+      },
+      "exclude": []
+    },
     {
       "id": "psoe",
       "name": "PSOE",
       "match": "PSOE",
-      "reviewed": "2026-11-14",
-      "status": "Programa de 2026 no localizado en el archivo consultado",
-      "source": "https://www.psoe.es/transparencia/informacion-politica-organizativa/programa/",
-      "note": "El archivo consultado enlaza las generales de 2023. No se ha usado como programa de 2026."
-    },
+      "positions": {
+        "10": {
+          "value": 5,
+          "source": "https://elpais.com/espana/elecciones-generales/2026-10-15/cuerpo-asegura-que-el-gobierno-quiere-subir-las-pensiones-despues-de-las-elecciones.html",
+          "locator": "El País · 15/10/2026 · declaraciones de Pedro Sánchez en Bruselas",
+          "reason": "Sánchez se compromete expresamente a revalorizar las pensiones conforme al IPC.",
+          "sourceNote": "Fuente secundaria. Declaración del presidente y candidato en precampaña; no sustituye al programa electoral completo.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        }
+      },
+      "exclude": [
+        "PARTIDO SOCIALISTA DE HUELVA (PSOE)",
+        "PARTIT DELS SOCIALISTES DE CATALUNYA (PSC-PSOE) (PSC)",
+        "PARTIDO DOS SOCIALISTAS DE GALICIA-PSOE (PSdeG-PSOE)",
+        "PARTIDO SOCIALISTA DE EUSKADI-EUSKADIKO EZKERRA (PSOE) PSE-EE (PSOE)",
+        "PARTIDO SOCIALISTA DE LAS ISLAS BALEARES (PSIB-PSOE)",
+        "PARTIDO SOCIALISTA DE NAVARRA-PSOE (PSN-PSOE)"
+      ]
+    }
+  ],
+  "candidateSource": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+  "limitations": "Catálogo incompleto: veintiuna formaciones con evidencias parciales. Se incorporan también Democracia 21 e Iustitia Europa desde sus documentos programáticos vigentes en la web de campaña de 2026. SALF (resumen oficial de campaña, PDF completo sin verificar) y Partido Humanista (programa de 2026). Geroa Bai se basa en bases políticas oficiales de campaña. Las demás candidaturas siguen pendientes; ausencia de revisión no implica ausencia de programa. Las evidencias que no responden directamente a la afirmación no puntúan. No permite determinar la máxima afinidad entre todas las candidaturas ni reutiliza programas antiguos como si fueran de 2026. Frente Amplio incorpora una propuesta oficial de campaña sobre pensiones; Podemos, una propuesta de alquiler documentada por prensa en 2026, provisional y pendiente de contraste con su programa oficial. Compromís: Front Valencià, Junts y PSOE incorporan declaraciones de precampaña recogidas por prensa y pendientes de contraste con sus programas oficiales. No se extienden automáticamente a marcas territoriales ni a coaliciones diferentes.",
+  "research": [
     {
       "id": "ehbildu",
       "name": "EH Bildu",
@@ -1254,15 +1303,6 @@
       "status": "Programa de la convocatoria no localizado en documentos consultados",
       "source": "https://ehbildu.eus/es/documentos",
       "note": "Hay documentos sectoriales; no se han tratado como programa completo de estas elecciones."
-    },
-    {
-      "id": "junts",
-      "name": "Junts",
-      "match": "JUNTS PER CATALUNYA",
-      "reviewed": "2026-11-14",
-      "status": "Consulta de la web oficial incompleta",
-      "source": "https://junts.cat/",
-      "note": "La consulta devolvió un error de acceso. No permite afirmar que no exista programa."
     }
   ]
 }

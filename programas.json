@@ -151,11 +151,14 @@
    "note": "Coalición: no hereda el programa de sus miembros.",
    "website": "https://compromis.net/",
    "program": {
-    "status": "sin-revisar",
+    "status": "secundaria",
+    "url": "https://valenciaplaza.com/valenciaplaza/comunitat-valenciana1/compromis-front-valencia-hara-una-campana-coral-con-inicio-en-alicante-y-final-en-valencia",
+    "title": "EFE · 09/11/2026 · ejes programáticos",
     "official": false,
-    "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
-    "checked": "2026-11-14"
-   }
+    "checked": "2026-11-14",
+    "note": "Una afirmación documentada de dieciocho. Fuente periodística provisional: Presentación de la candidatura conjunta, no extrapolación de sus partidos miembros. Pendiente de contraste con el programa oficial de la convocatoria."
+   },
+   "dataId": "compromis"
   },
   {
    "id": "comuns",
@@ -485,14 +488,14 @@
    ],
    "website": "https://junts.cat/",
    "program": {
-    "status": "no-localizado",
-    "consulted": "https://junts.cat/",
-    "official": true,
-    "note": "La consulta devolvió un error de acceso. No permite afirmar que no exista programa.",
-    "detail": "Betevé indica a 13/11/2026 que el programa completo aún no se ha dado a conocer. La consulta directa a la web oficial no fue concluyente.",
+    "status": "secundaria",
+    "url": "https://www.europapress.es/catalunya/noticia-nogueras-junts-abre-hablar-psoe-29n-si-catalunya-centro-20261106111810.html",
+    "title": "Europa Press · 06/11/2026 · condiciones de negociación",
+    "official": false,
     "checked": "2026-11-14",
-    "checkedAt": "2026-11-14T17:00:43Z"
-   }
+    "note": "Una afirmación documentada de dieciocho. Fuente periodística provisional: Declaraciones de precampaña recogidas por Europa Press. Pendiente de contraste con el programa oficial de la convocatoria."
+   },
+   "dataId": "junts"
   },
   {
    "id": "justicia-y-ley",
@@ -892,14 +895,14 @@
    ],
    "website": "https://psoe.es/",
    "program": {
-    "status": "no-localizado",
-    "consulted": "https://www.psoe.es/transparencia/informacion-politica-organizativa/programa/",
-    "official": true,
-    "note": "El archivo consultado enlaza las generales de 2023. No se ha usado como programa de 2026.",
-    "detail": "La prensa indica a 13/11/2026 que aún no ha publicado el programa. Su web bloquea las consultas automáticas, por lo que no se ha podido comprobar directamente el 14/11/2026.",
+    "status": "secundaria",
+    "url": "https://elpais.com/espana/elecciones-generales/2026-10-15/cuerpo-asegura-que-el-gobierno-quiere-subir-las-pensiones-despues-de-las-elecciones.html",
+    "title": "El País · 15/10/2026 · declaraciones de Pedro Sánchez en Bruselas",
+    "official": false,
     "checked": "2026-11-14",
-    "checkedAt": "2026-11-14T17:00:43Z"
-   }
+    "note": "Una afirmación documentada de dieciocho. Fuente periodística provisional: Declaración del presidente y candidato en precampaña; no sustituye al programa electoral completo. Pendiente de contraste con el programa oficial de la convocatoria."
+   },
+   "dataId": "psoe"
   },
   {
    "id": "puede",
