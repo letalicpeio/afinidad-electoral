@@ -156,7 +156,10 @@
           "reviewed": "2026-11-14",
           "coding": "Interpretación editorial provisional"
         }
-      }
+      },
+      "exclude": [
+        "PUEBLO NAVARRO"
+      ]
     },
     {
       "id": "vox",
@@ -244,8 +247,55 @@
           "coding": "Interpretación editorial provisional"
         }
       }
+    },
+    {
+      "id": "pnv",
+      "name": "EAJ-PNV",
+      "match": "EAJ-PNV",
+      "positions": {
+        "3": {
+          "value": 4,
+          "source": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+          "locator": "pág. 25, medida 09",
+          "reason": "Propone avanzar en los procesos de regularización previstos en la legislación para quienes cumplen los requisitos; no menciona expresamente el arraigo.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "5": {
+          "value": 1,
+          "source": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+          "locator": "pág. 28, medida 05",
+          "reason": "Rechaza la prisión permanente revisable y defiende un sistema penitenciario orientado a la reinserción; no trata el endurecimiento de penas en general.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "7": {
+          "value": 5,
+          "source": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+          "locator": "pág. 38, medidas 01–02",
+          "reason": "Exige completar las transferencias pendientes del Estatuto de Gernika y rechaza la recentralización.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "10": {
+          "value": 5,
+          "source": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+          "locator": "pág. 31, medida 01",
+          "reason": "Revalorizar anualmente las pensiones conforme al IPC.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "11": {
+          "value": 5,
+          "source": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+          "locator": "pág. 26, medida 06",
+          "reason": "Exige el cumplimiento íntegro de las medidas estatales del Pacto de Estado contra la Violencia de Género.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        }
+      }
     }
   ],
   "candidateSource": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
-  "limitations": "Catálogo inicial: solo PP y VOX parcialmente codificados. Las demás candidaturas figuran sin analizar. No permite determinar la máxima afinidad entre todos los partidos. No se reutilizan programas de 2023 como si fueran de 2026."
+  "limitations": "Versión inicial incompleta: PP, VOX y EAJ-PNV parcialmente codificados. PSOE, Frente Amplio, Podemos y otras formaciones no tenían programa de 2026 publicado a 14/11/2026 o no se ha podido consultar en fuente primaria, y figuran sin analizar. No permite determinar la máxima afinidad entre todos los partidos. No se reutilizan programas de 2023 como si fueran de 2026."
 }

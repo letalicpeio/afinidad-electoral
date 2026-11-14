@@ -24,6 +24,9 @@ for(const party of d.parties){
  for(const [id,pos] of Object.entries(party.positions))assert(Number.isInteger(pos.value),`${party.id}/${id}: value no entero`);
 }
 // Cada candidatura del BOE casa con como máximo un partido (patrón inequívoco)
-for(const [prov,names] of Object.entries(c))for(const n of names){const hits=d.parties.filter(x=>n.toUpperCase().includes(x.match));assert(hits.length<=1,`${prov}/${n}: coincide con varios partidos`);}
+for(const [prov,names] of Object.entries(c))for(const n of names){const hits=d.parties.filter(x=>n.toUpperCase().includes(x.match)&&!(x.exclude||[]).some(e=>n.toUpperCase().includes(e)));assert(hits.length<=1,`${prov}/${n}: coincide con varios partidos`);}
+const known=n=>d.parties.find(x=>n.toUpperCase().includes(x.match)&&!(x.exclude||[]).some(e=>n.toUpperCase().includes(e)));
+assert.equal(known(c.NAVARRA.find(n=>n.includes('UPN'))),undefined,'UPN-PP no debe heredar al PP');
+assert.equal(known(c.MADRID.find(n=>n.startsWith('PARTIDO POPULAR')))?.id,'pp');
 assert(d.candidateSource.startsWith('https://'));
 console.log('OK: extremos, ponderación, omisiones, cobertura, comparación común y catálogo de 52 circunscripciones.');

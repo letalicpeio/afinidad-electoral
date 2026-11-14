@@ -17,7 +17,10 @@ const fmt = (n) =>
     ? "Sin datos"
     : n.toLocaleString("es-ES", { maximumFractionDigits: 1 }) + " %";
 function knownParty(name) {
-  return data.parties.find((p) => name.toUpperCase().includes(p.match));
+  const n = name.toUpperCase();
+  return data.parties.find(
+    (p) => n.includes(p.match) && !(p.exclude || []).some((x) => n.includes(x)),
+  );
 }
 function renderCandidates() {
   const box = $("#candidates");
