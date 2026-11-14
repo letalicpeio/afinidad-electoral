@@ -63,3 +63,7 @@ Autorizado el uso de fuentes secundarias. Se añade estado «secundaria» para d
 ## Ampliación 0.4.3
 
 Tres posiciones provisionales en prensa de precampaña: Compromís: Front Valencià, pregunta 15, EFE/Valencia Plaza 09/11; Junts, pregunta 7, Europa Press 06/11; PSOE, pregunta 10, El País 15/10. Se excluyen otras denominaciones del BOE que contengan los mismos nombres para evitar atribuir posiciones a marcas territoriales o coaliciones sin evidencia propia. La fuente de Compromís se refiere expresamente a la candidatura conjunta de 2026. Se mantienen preguntas sin datos y umbral del 50 %.
+
+## Ampliación 0.4.4 · principales candidaturas
+
+Cuatro evidencias nuevas: PSOE pregunta 2 (iniciativa oficial 19/03/2026) y 15 (anuncio oficial 24/10/2026); Podemos pregunta 13 (Europa Press 06/11/2026, reasignación del incremento militar a medidas sociales); Frente Amplio pregunta 9 (Servimedia 09/11/2026, cumplimiento explícito del cierre de todas las centrales). Las tres fichas aclaran su cobertura y mezcla de fuentes. PSOE enlaza ahora a un anuncio oficial, sin presentar el anuncio como programa completo. La reducción de jornada recogida por Newtral es un compromiso anterior actualizado en 2026; no se ha usado como nuevo programa de campaña. EH Bildu continúa pendiente sin extrapolar declaraciones genéricas sobre pensiones.

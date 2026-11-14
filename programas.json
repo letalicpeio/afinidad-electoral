@@ -377,7 +377,7 @@
     "title": "Propuesta de campaña sobre pensiones",
     "official": true,
     "checked": "2026-11-14",
-    "note": "Evidencia parcial: una de dieciocho afirmaciones. Nota oficial, programa completo pendiente."
+    "note": "2 afirmaciones documentadas de dieciocho. Evidencias parciales; no se ha verificado un programa completo de la convocatoria. Cada posición identifica su fuente oficial o periodística y queda pendiente de revisión con el programa electoral."
    },
    "dataId": "frente-amplio"
   },
@@ -770,7 +770,7 @@
     "title": "Propuesta de alquiler · Europa Press / Idealista",
     "official": false,
     "checked": "2026-11-14",
-    "note": "Evidencia parcial: una de dieciocho afirmaciones. Fuente periodística sobre iniciativa parlamentaria de 2026, no programa oficial. Codificación provisional pendiente de contraste con el programa de la convocatoria."
+    "note": "2 afirmaciones documentadas de dieciocho. Evidencias parciales; no se ha verificado un programa completo de la convocatoria. Cada posición identifica su fuente oficial o periodística y queda pendiente de revisión con el programa electoral."
    },
    "dataId": "podemos"
   },
@@ -895,12 +895,12 @@
    ],
    "website": "https://psoe.es/",
    "program": {
-    "status": "secundaria",
-    "url": "https://elpais.com/espana/elecciones-generales/2026-10-15/cuerpo-asegura-que-el-gobierno-quiere-subir-las-pensiones-despues-de-las-elecciones.html",
-    "title": "El País · 15/10/2026 · declaraciones de Pedro Sánchez en Bruselas",
-    "official": false,
+    "status": "resumen",
+    "url": "https://www.psoe.es/actualidad/noticias-actualidad/pedro-sanchez-frente-a-los-recortes-de-feijoo-y-abascal-blindaremos-el-derecho-al-aborto-de-las-mujeres-en-la-constitucion/",
+    "title": "Anuncio oficial de precampaña sobre el derecho al aborto",
+    "official": true,
     "checked": "2026-11-14",
-    "note": "Una afirmación documentada de dieciocho. Fuente periodística provisional: Declaración del presidente y candidato en precampaña; no sustituye al programa electoral completo. Pendiente de contraste con el programa oficial de la convocatoria."
+    "note": "3 afirmaciones documentadas de dieciocho. Evidencias parciales; no se ha verificado un programa completo de la convocatoria. Cada posición identifica su fuente oficial o periodística y queda pendiente de revisión con el programa electoral."
    },
    "dataId": "psoe"
   },
