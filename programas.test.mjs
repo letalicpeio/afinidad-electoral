@@ -50,6 +50,13 @@ for (const key of owner.keys())
 // Enlaces: https, y «oficial» solo si el dominio es el de la web del partido.
 const hostOf = (url) => new URL(url).hostname.replace(/^www\./, "");
 for (const p of catalog.parties) {
+  if (p.program.fullDocument) {
+    const doc = p.program.fullDocument;
+    assert.equal(new URL(doc.url).protocol, "https:", `${p.id}: documento no https`);
+    assert(doc.title && typeof doc.verified === "boolean", `${p.id}: documento incompleto`);
+    assert(p.website && hostOf(doc.url).endsWith(hostOf(p.website)), `${p.id}: el documento no es del dominio del partido`);
+    if (!doc.verified) assert(doc.note, `${p.id}: documento sin verificar requiere nota`);
+  }
   for (const url of [p.website, p.program.url, p.program.consulted].filter(
     Boolean,
   ))
