@@ -1,0 +1,251 @@
+{
+  "version": "0.1.0",
+  "date": "2026-11-14",
+  "election": "Congreso · 29 de noviembre de 2026",
+  "questions": [
+    {
+      "id": "1",
+      "topic": "Fiscalidad",
+      "text": "Reducir los impuestos sobre las rentas del trabajo."
+    },
+    {
+      "id": "2",
+      "topic": "Vivienda",
+      "text": "Regular los precios del alquiler en zonas tensionadas."
+    },
+    {
+      "id": "3",
+      "topic": "Inmigración",
+      "text": "Permitir regularizaciones por arraigo de personas en situación irregular."
+    },
+    {
+      "id": "4",
+      "topic": "Sanidad pública y privada",
+      "text": "Ampliar la colaboración con centros privados financiada con fondos públicos."
+    },
+    {
+      "id": "5",
+      "topic": "Seguridad y delincuencia",
+      "text": "Endurecer las penas de prisión para combatir la delincuencia."
+    },
+    {
+      "id": "6",
+      "topic": "Educación",
+      "text": "Mantener la financiación de colegios concertados donde exista demanda."
+    },
+    {
+      "id": "7",
+      "topic": "Modelo territorial",
+      "text": "Transferir más competencias del Estado a las comunidades autónomas."
+    },
+    {
+      "id": "8",
+      "topic": "Mercado laboral",
+      "text": "Reducir la jornada laboral máxima legal sin reducir el salario."
+    },
+    {
+      "id": "9",
+      "topic": "Clima y energía",
+      "text": "Mantener la energía nuclear dentro del sistema eléctrico."
+    },
+    {
+      "id": "10",
+      "topic": "Pensiones",
+      "text": "Actualizar las pensiones públicas conforme al IPC."
+    },
+    {
+      "id": "11",
+      "topic": "Igualdad",
+      "text": "Mantener legislación específica contra la violencia de género."
+    },
+    {
+      "id": "12",
+      "topic": "Unión Europea",
+      "text": "Avanzar hacia una mayor integración política de la Unión Europea."
+    },
+    {
+      "id": "13",
+      "topic": "Defensa",
+      "text": "Aumentar el gasto público en defensa."
+    },
+    {
+      "id": "14",
+      "topic": "Jefatura del Estado",
+      "text": "Sustituir la monarquía parlamentaria por una república."
+    },
+    {
+      "id": "15",
+      "topic": "Derechos individuales",
+      "text": "Mantener el derecho legal al aborto."
+    },
+    {
+      "id": "16",
+      "topic": "Corrupción",
+      "text": "Prohibir los indultos a personas condenadas por corrupción."
+    },
+    {
+      "id": "17",
+      "topic": "Ayudas sociales",
+      "text": "Permitir que residentes extranjeros accedan a prestaciones con los mismos requisitos económicos que los españoles."
+    },
+    {
+      "id": "18",
+      "topic": "Economía y empresas",
+      "text": "Reducir las obligaciones administrativas de las empresas."
+    }
+  ],
+  "parties": [
+    {
+      "id": "pp",
+      "name": "Partido Popular",
+      "match": "PARTIDO POPULAR",
+      "positions": {
+        "1": {
+          "value": 5,
+          "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-LA-RECONSTRUCCION-NACIONAL.pdf",
+          "locator": "Medidas 177–183",
+          "reason": "Rebajas fiscales.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "3": {
+          "value": 1,
+          "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-LA-RECONSTRUCCION-NACIONAL.pdf",
+          "locator": "Medida 42",
+          "reason": "Arraigo excepcional; prohíbe regularizaciones masivas.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "5": {
+          "value": 5,
+          "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-LA-RECONSTRUCCION-NACIONAL.pdf",
+          "locator": "Medidas 23–30",
+          "reason": "Ampliación de penas.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "6": {
+          "value": 5,
+          "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-LA-RECONSTRUCCION-NACIONAL.pdf",
+          "locator": "Medida 212",
+          "reason": "Preserva conciertos con demanda.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "9": {
+          "value": 5,
+          "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-LA-RECONSTRUCCION-NACIONAL.pdf",
+          "locator": "Medida 228",
+          "reason": "Extensión de centrales.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "11": {
+          "value": 5,
+          "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-LA-RECONSTRUCCION-NACIONAL.pdf",
+          "locator": "Medida 28",
+          "reason": "Refuerzo del Pacto de Estado y VioGen.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "18": {
+          "value": 5,
+          "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-LA-RECONSTRUCCION-NACIONAL.pdf",
+          "locator": "Medidas 186–187",
+          "reason": "Simplificación empresarial.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        }
+      }
+    },
+    {
+      "id": "vox",
+      "name": "VOX",
+      "match": "VOX",
+      "positions": {
+        "1": {
+          "value": 5,
+          "source": "https://www.voxespana.es/abascal/es-sentido-comun-estas-son-las-medidas-de-vox-para-el-29n-20261112",
+          "locator": "Área 2",
+          "reason": "Reducción de impuestos.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "2": {
+          "value": 1,
+          "source": "https://www.voxespana.es/abascal/es-sentido-comun-estas-son-las-medidas-de-vox-para-el-29n-20261112",
+          "locator": "Área 5",
+          "reason": "Derogación de la Ley de Vivienda.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "3": {
+          "value": 1,
+          "source": "https://www.voxespana.es/abascal/es-sentido-comun-estas-son-las-medidas-de-vox-para-el-29n-20261112",
+          "locator": "Área 3",
+          "reason": "Supresión del arraigo.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "5": {
+          "value": 5,
+          "source": "https://www.voxespana.es/abascal/es-sentido-comun-estas-son-las-medidas-de-vox-para-el-29n-20261112",
+          "locator": "Área 10",
+          "reason": "Ampliación de prisión permanente revisable.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "9": {
+          "value": 5,
+          "source": "https://www.voxespana.es/abascal/es-sentido-comun-estas-son-las-medidas-de-vox-para-el-29n-20261112",
+          "locator": "Área 2",
+          "reason": "Recuperación del plan nuclear.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "11": {
+          "value": 1,
+          "source": "https://www.voxespana.es/abascal/es-sentido-comun-estas-son-las-medidas-de-vox-para-el-29n-20261112",
+          "locator": "Área 6",
+          "reason": "Sustitución de leyes ideológicas por protección de mujeres víctimas.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "13": {
+          "value": 5,
+          "source": "https://www.voxespana.es/abascal/es-sentido-comun-estas-son-las-medidas-de-vox-para-el-29n-20261112",
+          "locator": "Área 10",
+          "reason": "Más inversión en defensa.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "16": {
+          "value": 5,
+          "source": "https://www.voxespana.es/abascal/es-sentido-comun-estas-son-las-medidas-de-vox-para-el-29n-20261112",
+          "locator": "Área 12",
+          "reason": "Prohibición de indultos por corrupción.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "17": {
+          "value": 1,
+          "source": "https://www.voxespana.es/abascal/es-sentido-comun-estas-son-las-medidas-de-vox-para-el-29n-20261112",
+          "locator": "Área 4",
+          "reason": "Prioridad nacional en prestaciones.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "18": {
+          "value": 5,
+          "source": "https://www.voxespana.es/abascal/es-sentido-comun-estas-son-las-medidas-de-vox-para-el-29n-20261112",
+          "locator": "Área 6",
+          "reason": "Desregulación administrativa.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        }
+      }
+    }
+  ],
+  "candidateSource": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+  "limitations": "Catálogo inicial: solo PP y VOX parcialmente codificados. Las demás candidaturas figuran sin analizar. No permite determinar la máxima afinidad entre todos los partidos. No se reutilizan programas de 2023 como si fueran de 2026."
+}
