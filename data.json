@@ -1,5 +1,5 @@
 {
-  "version": "0.5.1",
+  "version": "0.5.2",
   "date": "2026-11-14",
   "election": "Congreso · 29 de noviembre de 2026",
   "questions": [
@@ -1237,6 +1237,50 @@
           "reviewed": "2026-11-14",
           "coding": "Interpretación editorial provisional"
         },
+        "4": {
+          "value": 1,
+          "source": "https://www.rtve.es/contenidos/documentos/elecciones_europeas_2024/programa_electoral_podemos.pdf",
+          "locator": "Histórico 2024 · PDF p. 33 · Fin de la privatización de la sanidad",
+          "reason": "Propone derogar la normativa que permite privatizar servicios sanitarios y prioriza su gestión pública directa.",
+          "historical": true,
+          "sourceYear": 2024,
+          "sourceNote": "ANTECEDENTE DE 2024: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa de elecciones europeas de 2024, copia completa de 130 páginas en RTVE. No es un programa del Congreso.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional de un programa histórico"
+        },
+        "9": {
+          "value": 1,
+          "source": "https://www.rtve.es/contenidos/documentos/elecciones_europeas_2024/programa_electoral_podemos.pdf",
+          "locator": "Histórico 2024 · PDF p. 77 · Soberanía energética",
+          "reason": "Propone una hoja de ruta para abandonar la energía nuclear de fisión en la UE.",
+          "historical": true,
+          "sourceYear": 2024,
+          "sourceNote": "ANTECEDENTE DE 2024: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa de elecciones europeas de 2024, copia completa de 130 páginas en RTVE. No es un programa del Congreso.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional de un programa histórico"
+        },
+        "11": {
+          "value": 5,
+          "source": "https://www.rtve.es/contenidos/documentos/elecciones_europeas_2024/programa_electoral_podemos.pdf",
+          "locator": "Histórico 2024 · PDF p. 22 · Solo sí es sí",
+          "reason": "Propone reforzar la legislación europea específica contra las violencias machistas y sexuales.",
+          "historical": true,
+          "sourceYear": 2024,
+          "sourceNote": "ANTECEDENTE DE 2024: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa de elecciones europeas de 2024, copia completa de 130 páginas en RTVE. No es un programa del Congreso.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional de un programa histórico"
+        },
+        "12": {
+          "value": 5,
+          "source": "https://www.rtve.es/contenidos/documentos/elecciones_europeas_2024/programa_electoral_podemos.pdf",
+          "locator": "Histórico 2024 · PDF pp. 12–13 · Democratización de las instituciones",
+          "reason": "Propone un nuevo tratado europeo, plenas facultades legislativas para el Parlamento y control parlamentario de la Comisión.",
+          "historical": true,
+          "sourceYear": 2024,
+          "sourceNote": "ANTECEDENTE DE 2024: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa de elecciones europeas de 2024, copia completa de 130 páginas en RTVE. No es un programa del Congreso.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional de un programa histórico"
+        },
         "13": {
           "value": 1,
           "source": "https://www.europapress.es/videos/video-montero-plantea-dedicar-gasto-militar-nacionalizar-repsol-contratar-sanitarios-20261106103830.html",
@@ -1396,6 +1440,17 @@
           "reviewed": "2026-11-14",
           "coding": "Interpretación editorial provisional"
         },
+        "11": {
+          "value": 5,
+          "source": "https://www.psoe.es/media-content/2023/07/PROGRAMA_ELECTORAL-GENERALES-2023.pdf",
+          "locator": "Histórico 2023 · PDF p. 239 · Seguridad e igualdad",
+          "reason": "Defiende el marco específico contra la violencia de género y propone ampliar los agentes y herramientas de VioGén.",
+          "historical": true,
+          "sourceYear": 2023,
+          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa oficial de generales de julio de 2023.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional de un programa histórico"
+        },
         "12": {
           "value": 5,
           "source": "https://www.psoe.es/media-content/2023/07/PROGRAMA_ELECTORAL-GENERALES-2023.pdf",
@@ -1404,6 +1459,17 @@
           "sourceYear": 2023,
           "historical": true,
           "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa oficial de generales de julio de 2023, enlazado en el archivo del PSOE.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional de un programa histórico"
+        },
+        "13": {
+          "value": 5,
+          "source": "https://www.psoe.es/media-content/2023/07/PROGRAMA_ELECTORAL-GENERALES-2023.pdf",
+          "locator": "Histórico 2023 · PDF p. 270 · Defensa",
+          "reason": "Propone reforzar el presupuesto de Defensa para cumplir el incremento de inversiones comprometido internacionalmente.",
+          "historical": true,
+          "sourceYear": 2023,
+          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa oficial de generales de julio de 2023.",
           "reviewed": "2026-11-14",
           "coding": "Interpretación editorial provisional de un programa histórico"
         },

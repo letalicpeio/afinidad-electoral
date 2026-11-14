@@ -79,3 +79,9 @@ PSOE: programa original oficial de julio de 2023, preguntas 3 (PDF p.255), 9 (p.
 Junts: programa Per Catalunya, generales de 2023, copia íntegra de 148 páginas en Betevé. Preguntas 1 (PDF pp.57–58, apoyo con reservas por reforma redistributiva), 6 (p.114), 11 (p.111, garantías procesales específicas), 12 (p.28, modelo federal europeo), 18 (p.84). El documento identifica la candidatura Junts–Demòcrates–Més Esquerres; se declara esa composición en cada nota, conservando la posición territorial actual de 2026. No se infiere IPC de la sola defensa del poder adquisitivo ni posición nuclear de las menciones técnicas a generación y subastas.
 
 Podemos: prioridad oficial de europeas 2024, aborto (pregunta 15). Se explicita que no es un programa para el Congreso. El PDF oficial devolvió 403 al extractor; se usa la prioridad íntegramente visible en la página oficial de la campaña. No se infieren más posiciones del PDF inaccesible. Continúa la búsqueda pendiente de PSOE/EH Bildu sin añadir datos no respaldados en este lote.
+
+## Ampliación 0.5.2
+
+Se recupera el PDF completo de Podemos 2024, enlazado en el comparador de RTVE: 130 páginas. Preguntas 4 (p.33), 9 (p.77), 11 (p.22), 12 (pp.12–13). Se explicita el ámbito europeo; no se atribuye a Sumar ni Frente Amplio. No se puntúa jornada porque su reducción a 30 horas no incluye aquí garantía salarial expresa; tampoco se equipara la referencia a pensiones suficientes con actualización por IPC.
+
+PSOE 2023: pregunta 13 (PDF p.270, aumento explícito del presupuesto de Defensa); pregunta 11 (p.239, defensa del marco de violencia de género y refuerzo específico de VioGén). Se conservan todas las evidencias actuales. El catálogo indica cuántas posiciones proceden de cada periodo.
