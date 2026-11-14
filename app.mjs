@@ -1,4 +1,5 @@
-import { score, sharedIds } from "./scoring.mjs";
+import { findParty } from "./catalog.mjs";
+import { score, sharedIds, isScorablePosition } from "./scoring.mjs";
 const $ = (s) => document.querySelector(s),
   el = (t, text, cls) => {
     const e = document.createElement(t);
@@ -16,16 +17,12 @@ const fmt = (n) =>
   n == null
     ? "Sin datos"
     : n.toLocaleString("es-ES", { maximumFractionDigits: 1 }) + " %";
-function knownParty(name) {
-  const n = name.toUpperCase();
-  return data.parties.find(
-    (p) => n.includes(p.match) && !(p.exclude || []).some((x) => n.includes(x)),
-  );
-}
+function knownParty(name) { return findParty(name, data.parties); }
 function renderCandidates() {
   const box = $("#candidates");
   box.replaceChildren();
-  for (const name of candidates[$("#province").value] || []) {
+  const names = candidates[$("#province").value] || [];
+  for (const name of names) {
     const r = el("div", name + " ", "candidate");
     r.append(
       el(
@@ -36,6 +33,35 @@ function renderCandidates() {
     );
     box.append(r);
   }
+  renderCoverage(names);
+}
+function renderCoverage(names) {
+  const box = $("#coverageMatrix");
+  box.replaceChildren();
+  const analyzed = names.filter(name => knownParty(name));
+  $("#coverageSummary").textContent = `${analyzed.length} de ${names.length} candidaturas con alguna evidencia revisada. Una casilla vacía no implica oposición ni neutralidad.`;
+  const table = el("table"), caption = el("caption", "Evidencias por candidatura y tema");
+  table.append(caption);
+  const head = el("thead"), tr = el("tr");
+  const th = el("th", "Candidatura"); th.scope = "col"; tr.append(th);
+  for (const q of data.questions) { const h = el("th", q.topic); h.scope = "col"; tr.append(h); }
+  head.append(tr); table.append(head);
+  const body = el("tbody");
+  for (const name of names) {
+    const row = el("tr"), nameCell = el("th", name); nameCell.scope = "row"; row.append(nameCell);
+    const party = knownParty(name);
+    for (const q of data.questions) {
+      const p = party?.positions[q.id], td = el("td");
+      if (p) {
+        const link = el("a", isScorablePosition(p) ? `${p.value}/5` : "Revisión");
+        link.href = p.source; link.target = "_blank"; link.rel = "noopener noreferrer";
+        link.title = `${p.locator}: ${p.reviewNote || p.reason}`; td.append(link);
+      } else td.textContent = "Sin datos";
+      row.append(td);
+    }
+    body.append(row);
+  }
+  table.append(body); box.append(table);
 }
 function show(id) {
   for (const s of ["setup", "survey", "results"]) $("#" + s).hidden = s !== id;
@@ -121,6 +147,9 @@ function renderResults() {
         `${state.province} · ${Object.values(person.answers).filter(Number.isInteger).length} de ${TOTAL} temas respondidos`,
       ),
     );
+    const edit = el("button", "Revisar mis respuestas", "quiet");
+    edit.onclick = () => { state.p = i; state.q = 0; show("survey"); renderQuestion(); };
+    card.append(edit);
     const common = sharedIds(
       person.answers,
       analyzed.map((x) => x.party),
@@ -167,7 +196,7 @@ function renderResults() {
         fill.style.width = (result.affinity || 0) + "%";
         bar.append(fill);
         row.append(bar);
-        if (result.coverage < LOW_COVERAGE)
+        if (result.affinity !== null && result.coverage < LOW_COVERAGE)
           row.append(
             el(
               "p",
@@ -175,12 +204,11 @@ function renderResults() {
               "warning",
             ),
           );
-        row.append(
-          el(
-            "p",
-            `Sobre ${common.length} preguntas comunes a las candidaturas analizadas: ${fmt(commonResult.affinity)}. Esta comparación también es incompleta.`,
-          ),
-        );
+        row.append(el("p", common.length
+          ? `Sobre ${common.length} ${common.length === 1 ? "pregunta común" : "preguntas comunes"} a las candidaturas analizadas: ${fmt(commonResult.affinity)}. Esta comparación también es incompleta.`
+          : "No hay preguntas puntuables comunes para comparar al menos dos candidaturas."));
+        if (result.bounds) row.append(el("p",
+          `Considerando también tus temas sin posición documentada, la afinidad podría estar entre ${fmt(result.bounds.lower)} y ${fmt(result.bounds.upper)}. Es un rango matemático, no una probabilidad ni un intervalo de confianza.`, "bounds"));
         const details = el("details"),
           summary = el("summary", "Revisar respuestas, posiciones y fuentes");
         details.append(summary);
@@ -202,6 +230,13 @@ function renderResults() {
           ev.append(link, el("p", d.coding));
           details.append(ev);
         }
+        for (const d of result.excluded) {
+          const ev = el("div", null, "evidence");
+          ev.append(el("b", data.questions.find(q => q.id === d.id).topic + " · No puntúa"),
+            el("p", d.reviewNote || "La evidencia requiere revisión antes de puntuar."));
+          const link = el("a", d.locator + " ↗"); link.href = d.source;
+          link.target = "_blank"; link.rel = "noopener noreferrer"; ev.append(link); details.append(ev);
+        }
         row.append(details);
         card.append(row);
       });
@@ -216,6 +251,10 @@ function renderResults() {
     election: data.election,
     province: state.province,
     limitations: data.limitations,
+    questions: data.questions,
+    candidateSource: data.candidateSource,
+    pendingCandidates: parties.filter(p => !p.party).map(p => p.name),
+    methodology: "Media ponderada de 1 − |respuesta − posición| / 4; posiciones sin evidencia directa excluidas; rangos matemáticos sobre los temas sin datos, no intervalos de confianza.",
     reports,
   };
   show("results");
@@ -229,6 +268,7 @@ async function init() {
         return r.json();
       }),
     );
+    if (!Array.isArray(data.questions) || !data.questions.length || !Array.isArray(data.parties)) throw Error("Catálogo no válido");
     TOTAL = data.questions.length;
     $("#progress").max = TOTAL;
     $("#limits").textContent = data.limitations;

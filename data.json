@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.2.0",
   "date": "2026-11-14",
   "election": "Congreso · 29 de noviembre de 2026",
   "questions": [
@@ -114,7 +114,9 @@
           "locator": "Medida 42",
           "reason": "Arraigo excepcional; prohíbe regularizaciones masivas.",
           "reviewed": "2026-11-14",
-          "coding": "Interpretación editorial provisional"
+          "coding": "Interpretación editorial provisional",
+          "scoreable": false,
+          "reviewNote": "El programa admite arraigo excepcional: no justifica puntuar oposición total a permitir el arraigo."
         },
         "5": {
           "value": 5,
@@ -259,7 +261,9 @@
           "locator": "pág. 25, medida 09",
           "reason": "Propone avanzar en los procesos de regularización previstos en la legislación para quienes cumplen los requisitos; no menciona expresamente el arraigo.",
           "reviewed": "2026-11-14",
-          "coding": "Interpretación editorial provisional"
+          "coding": "Interpretación editorial provisional",
+          "scoreable": false,
+          "reviewNote": "Regularización en general no acredita una posición específica sobre el arraigo."
         },
         "5": {
           "value": 1,
@@ -267,7 +271,9 @@
           "locator": "pág. 28, medida 05",
           "reason": "Rechaza la prisión permanente revisable y defiende un sistema penitenciario orientado a la reinserción; no trata el endurecimiento de penas en general.",
           "reviewed": "2026-11-14",
-          "coding": "Interpretación editorial provisional"
+          "coding": "Interpretación editorial provisional",
+          "scoreable": false,
+          "reviewNote": "Rechazar una modalidad penal no acredita oponerse a todo endurecimiento de penas."
         },
         "7": {
           "value": 5,
@@ -294,8 +300,79 @@
           "coding": "Interpretación editorial provisional"
         }
       }
+    },
+    {
+      "id": "bng",
+      "name": "BNG",
+      "match": "BLOQUE NACIONALISTA GALEGO",
+      "positions": {
+        "7": {
+          "value": 5,
+          "source": "https://www.bng.gal/media/bnggaliza/files/2026/11/12/26_bng_xerais_documentos_programa_electoral.pdf",
+          "locator": "Sección 8.1, pág. 75",
+          "reason": "Reclama transferencias de competencias digitales a Galicia.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional",
+          "scoreable": true
+        },
+        "8": {
+          "value": 5,
+          "source": "https://www.bng.gal/media/bnggaliza/files/2026/11/12/26_bng_xerais_documentos_programa_electoral.pdf",
+          "locator": "Sección 2.2, pág. 15",
+          "reason": "Propone 35 horas semanales sin reducción salarial.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional",
+          "scoreable": true
+        },
+        "10": {
+          "value": 5,
+          "source": "https://www.bng.gal/media/bnggaliza/files/2026/11/12/26_bng_xerais_documentos_programa_electoral.pdf",
+          "locator": "Sección 2.3, pág. 18",
+          "reason": "Defiende revalorización anual según el IPC real.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional",
+          "scoreable": true
+        },
+        "11": {
+          "value": 5,
+          "source": "https://www.bng.gal/media/bnggaliza/files/2026/11/12/26_bng_xerais_documentos_programa_electoral.pdf",
+          "locator": "Sección 2.6.1, pág. 24",
+          "reason": "Propone ampliar la legislación contra la violencia machista.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional",
+          "scoreable": true
+        },
+        "13": {
+          "value": 1,
+          "source": "https://www.bng.gal/media/bnggaliza/files/2026/11/12/26_bng_xerais_documentos_programa_electoral.pdf",
+          "locator": "Sección 11, pág. 90",
+          "reason": "Rechaza elevar el gasto militar y propone reducirlo.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional",
+          "scoreable": true
+        }
+      }
+    },
+    {
+      "id": "cc",
+      "name": "Municipalistas Primero Canarias–Coalición Canaria",
+      "match": "MUNICIPALISTAS PRIMERO CANARIAS-COALICIÓN CANARIA",
+      "positions": {
+        "7": {
+          "value": 5,
+          "source": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+          "locator": "Causa 1, medida 1",
+          "reason": "Exige completar traspasos estatutarios y rechaza la recentralización.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional",
+          "scoreable": true
+        }
+      },
+      "aliases": [
+        "COALICIÓN CANARIA-MUNICIPALISTAS PRIMERO CANARIAS"
+      ]
     }
   ],
   "candidateSource": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
-  "limitations": "Versión inicial incompleta: PP, VOX y EAJ-PNV parcialmente codificados. PSOE, Frente Amplio, Podemos y otras formaciones no tenían programa de 2026 publicado a 14/11/2026 o no se ha podido consultar en fuente primaria, y figuran sin analizar. No permite determinar la máxima afinidad entre todos los partidos. No se reutilizan programas de 2023 como si fueran de 2026."
+  "limitations": "Catálogo incompleto: PP, VOX, EAJ-PNV, BNG y Municipalistas Primero Canarias–Coalición Canaria tienen análisis parcial. Otras candidaturas siguen pendientes de revisión; esto no significa que carezcan de programa publicado. Las evidencias que no responden directamente a la pregunta se conservan sin puntuarlas. No permite identificar la máxima afinidad entre todas las candidaturas ni reutiliza programas de 2023 como si fueran de 2026."
 }
