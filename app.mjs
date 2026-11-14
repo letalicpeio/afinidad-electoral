@@ -298,7 +298,7 @@ async function init() {
   try {
     [data, candidates] = await Promise.all(
       ["data.json", "candidaturas.json"].map(async (u) => {
-        const r = await fetch(u);
+        const r = await fetch(u, { cache: "no-store" });
         if (!r.ok) throw Error(u);
         return r.json();
       }),
