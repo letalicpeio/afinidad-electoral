@@ -49,3 +49,9 @@ La prueba de navegador usa respuestas sintéticas, sin datos personales. La prim
 Se conserva el trabajo posterior de los otros agentes. Se incorporan SALF (6 posiciones puntuables y una evidencia de arraigo no puntuable, desde el resumen oficial) y Partido Humanista (8 posiciones puntuables, desde su programa oficial de generales de 2026). La distinción entre resumen y programa completo permanece visible en el comparador. No se han asignado posturas de 2023 ni se ha modificado el umbral del 50 % establecido para mostrar afinidades.
 
 También se verifican las versiones web vigentes de Democracia 21 (3 posiciones) e Iustitia Europa (2 posiciones). Para los programas organizados por páginas, la validación admite fuentes bajo el índice del programa en el mismo origen, conservando enlaces a cada tema concreto.
+
+## Ampliación documental 0.4.1 · 14/11/2026
+
+Se revisaron los apartados oficiales de Democracia 21 sobre vivienda, simplificación normativa, impuestos, migración, defensa, corrupción, envejecimiento, salarios y educación. Se añaden únicamente dos coincidencias explícitas: pregunta 2 (valor 4 por el límite temporal y condicionado en zonas tensionadas) y pregunta 18 (valor 5 por eliminar trámites empresariales redundantes). Conservan fuente y localizador por posición.
+
+No se equipara deflactar IRPF con una rebaja general de impuestos al trabajo, política de pensiones con revalorización por IPC, neutralidad tecnológica con continuidad nuclear ni rechazo de regularizaciones extraordinarias con rechazo del arraigo. Estos temas siguen sin puntuación nueva. Democracia 21 tiene cinco de dieciocho posiciones; sigue aplicándose el umbral de cobertura ponderada del 50 %.

@@ -1,5 +1,5 @@
 {
-  "version": "0.4.0",
+  "version": "0.4.1",
   "date": "2026-11-14",
   "election": "Congreso · 29 de noviembre de 2026",
   "questions": [
@@ -1148,6 +1148,14 @@
       "name": "Democracia para el Siglo 21",
       "match": "(D21)",
       "positions": {
+        "2": {
+          "value": 4,
+          "source": "https://mi.democracia21.es/programa/vivienda",
+          "locator": "Medida 05 · Pacto de reconciliación del alquiler",
+          "reason": "Propone limitar los alquileres en zonas tensionadas con SERPAVI, de forma temporal y excepcional, condicionado a proteger a los propietarios y hasta estabilizar la oferta y los precios.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
         "11": {
           "value": 5,
           "source": "https://mi.democracia21.es/programa/derechos-sociales",
@@ -1169,6 +1177,14 @@
           "source": "https://mi.democracia21.es/programa/derechos-sociales",
           "locator": "Medida 02 · Derechos reproductivos",
           "reason": "Defiende la ley de plazos y el aborto en la sanidad pública.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "18": {
+          "value": 5,
+          "source": "https://mi.democracia21.es/programa/menos-normas",
+          "locator": "Medida 01 · Programa estatal de auditoría de barreras",
+          "reason": "Propone suprimir trámites sin justificación de protección pública, documentación redundante y autorizaciones innecesarias que generan costes y retrasos a las empresas.",
           "reviewed": "2026-11-14",
           "coding": "Interpretación editorial provisional"
         }
