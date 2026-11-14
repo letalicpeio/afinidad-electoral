@@ -14,7 +14,7 @@ Web estática, adaptable a móvil, para el Congreso por provincias. Sin dependen
 
 ## Estado documental — 14/11/2026
 
-**Versión 0.2, catálogo incompleto. PP, VOX, EAJ-PNV, BNG y Municipalistas Primero Canarias–Coalición Canaria tienen análisis parcial. No identifica la máxima afinidad entre todas las candidaturas.** Las demás figuran como pendientes de revisión; esa etiqueta no afirma que carezcan de programa publicado. No se mezclan programas de 2023 con los de 2026.
+**Versión 0.3, catálogo incompleto. PP, VOX, EAJ-PNV, BNG, Municipalistas Primero Canarias–Coalición Canaria, ERC y PACMA tienen análisis parcial. No identifica la máxima afinidad entre todas las candidaturas.** Las demás figuran como pendientes de revisión; esa etiqueta no afirma que carezcan de programa publicado. No se mezclan programas de 2023 con los de 2026.
 
 Las afirmaciones y opciones son nuevas, basadas en los 18 temas del cuestionario previo, cuyas alternativas originales no se recuperaron. Las posiciones son interpretaciones editoriales provisionales, revisables, no una medición objetiva ni una puntuación oficial de los partidos. Las inferencias requieren revisión humana; la ausencia de una propuesta no equivale a oposición.
 
@@ -51,3 +51,7 @@ Settings → Pages → Build and deployment → Source: **Deploy from a branch**
 ## Privacidad
 
 Las respuestas se mantienen solo en memoria. No hay analítica, almacenamiento persistente ni llamadas a IA. La exportación voluntaria contiene opiniones políticas y debe tratarse como información sensible. El proveedor de hosting puede registrar datos técnicos de acceso.
+
+## Investigación documental
+
+`research` en `data.json` registra las consultas que aún no producen posiciones puntuables, con fecha, estado, fuente y límites. No localizar un programa en una página no prueba que no exista. Las copias del programa de ERC alojadas en Betevé se identifican en `sourceNote`, visible en los detalles de resultados.

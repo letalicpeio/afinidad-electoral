@@ -20,6 +20,8 @@ Base revisada: `092ead6` (incorpora los cambios del otro agente).
 | EAJ-PNV | 3 | 2 |
 | BNG | 5 | 0 |
 | Municipalistas Primero Canarias–Coalición Canaria | 1 | 0 |
+| ERC | 6 | 0 |
+| PACMA | 3 | 2 |
 
 Son cifras de documentación, no afinidades. Todas las formaciones siguen parcialmente analizadas. «Pendiente» significa que esta aplicación no ha revisado una candidatura; no acredita que el partido no haya publicado programa.
 
@@ -40,4 +42,4 @@ Son cifras de documentación, no afinidades. Todas las formaciones siguen parcia
 - Rangos contrastados exhaustivamente con todas las combinaciones de dos posiciones desconocidas para cada pareja de respuestas 1–5.
 - Navegador: recorrido de dos participantes en A Coruña, resultados con BNG, segundo participante sin opiniones y reapertura de respuestas conservando sus valores.
 
-La prueba de navegador usa respuestas sintéticas, sin datos personales. No se ha modificado la configuración del alojamiento ni la versión publicada: los cambios se entregan como una propuesta para integrar.
+La prueba de navegador usa respuestas sintéticas, sin datos personales. La primera propuesta se integró en main mediante la PR #1. La ampliación posterior añade ERC (copia del documento en Betevé), PACMA (PDF oficial) y un registro de consultas sin puntuación para PSOE, Podemos, Frente Amplio, EH Bildu y Junts. El catálogo continúa incompleto; no se modifica la configuración del alojamiento.

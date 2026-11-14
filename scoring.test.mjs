@@ -63,3 +63,16 @@ for(const party of d.parties)for(const pos of Object.values(party.positions)){
 console.log('OK: exclusiones editoriales, comparación sin partidos, validación de posiciones, coaliciones y extremos de rangos.');
 
 assert.throws(()=>findParty('PARTIDO POPULAR',[{match:'POPULAR'},{match:'PARTIDO'}]),/ambigua/);
+
+assert.equal(known(c.BARCELONA.find(n=>n.includes('(ERC)')))?.id,'erc');
+assert.equal(known(c.MADRID.find(n=>n.includes('(PACMA)')))?.id,'pacma');
+for(const [prov,names] of Object.entries(c))for(const n of names)assert.doesNotThrow(()=>findParty(n,d.research||[]),`investigación ambigua ${prov}/${n}`);
+for(const item of d.research||[]){
+ assert(item.status&&item.note&&item.reviewed&&item.source.startsWith('https://'));
+ assert(!item.positions,'El registro de investigación no debe puntuar');
+}
+assert.equal(findParty('PARTIT DELS SOCIALISTES DE CATALUNYA (PSC-PSOE) (PSC)',d.research).id,'psoe');
+assert.equal(findParty('UNIDAD DEL PUEBLO CANARIO UPC (NC-BC, PODEMOS, IU, SUMAR)',d.research),undefined,'Una coalición no hereda el estado documental de Podemos');
+assert(nextParty('erc').positions['1'].sourceNote.includes('Betevé'));
+function nextParty(id){return d.parties.find(p=>p.id===id);}
+console.log('OK: ERC, PACMA, procedencia de copias y registro de investigación sin puntuación.');

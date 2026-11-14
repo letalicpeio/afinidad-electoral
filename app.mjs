@@ -228,6 +228,7 @@ function renderResults() {
           link.target = "_blank";
           link.rel = "noopener noreferrer";
           ev.append(link, el("p", d.coding));
+          if (d.sourceNote) ev.append(el("p", d.sourceNote, "small"));
           details.append(ev);
         }
         for (const d of result.excluded) {
@@ -244,8 +245,16 @@ function renderResults() {
     $("#resultCards").append(card);
   });
   $("#pending").replaceChildren();
-  for (const p of parties.filter((p) => !p.party))
-    $("#pending").append(el("div", p.name, "candidate"));
+  for (const p of parties.filter((p) => !p.party)) {
+    const row = el("div", null, "candidate"); row.append(el("b", p.name));
+    const research = findParty(p.name, data.research || []);
+    if (research) {
+      row.append(el("p", research.status), el("p", research.note, "small"));
+      const link = el("a", `Fuente consultada · ${research.reviewed} ↗`);
+      link.href = research.source; link.target = "_blank"; link.rel = "noopener noreferrer"; row.append(link);
+    } else row.append(el("p", "Pendiente de investigación documental", "small"));
+    $("#pending").append(row);
+  }
   exportData = {
     version: data.version,
     election: data.election,
@@ -253,7 +262,7 @@ function renderResults() {
     limitations: data.limitations,
     questions: data.questions,
     candidateSource: data.candidateSource,
-    pendingCandidates: parties.filter(p => !p.party).map(p => p.name),
+    pendingCandidates: parties.filter(p => !p.party).map(p => ({name:p.name,research:findParty(p.name,data.research || []) || null})),
     methodology: "Media ponderada de 1 − |respuesta − posición| / 4; posiciones sin evidencia directa excluidas; rangos matemáticos sobre los temas sin datos, no intervalos de confianza.",
     reports,
   };

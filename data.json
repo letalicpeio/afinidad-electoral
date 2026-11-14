@@ -1,5 +1,5 @@
 {
-  "version": "0.2.0",
+  "version": "0.3.0",
   "date": "2026-11-14",
   "election": "Congreso · 29 de noviembre de 2026",
   "questions": [
@@ -371,8 +371,170 @@
       "aliases": [
         "COALICIÓN CANARIA-MUNICIPALISTAS PRIMERO CANARIAS"
       ]
+    },
+    {
+      "id": "erc",
+      "name": "Esquerra Republicana de Catalunya",
+      "match": "ESQUERRA REPUBLICANA DE CATALUNYA",
+      "positions": {
+        "1": {
+          "value": 5,
+          "source": "https://img.beteve.cat/wp-content/uploads/2026/11/ERC-programa-electoral-29-N-2026-2026-11-12.pdf",
+          "locator": "Medida 69, pág. 21",
+          "reason": "Reduce la fiscalidad del trabajo en los tramos inferiores a 35.000 euros.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional",
+          "sourceNote": "Programa de ERC para el Congreso de 2026; copia alojada por Betevé. No se ha localizado una descarga de 2026 en la web oficial consultada."
+        },
+        "7": {
+          "value": 5,
+          "source": "https://img.beteve.cat/wp-content/uploads/2026/11/ERC-programa-electoral-29-N-2026-2026-11-12.pdf",
+          "locator": "Medidas 38–40, págs. 14–15",
+          "reason": "Reclama traspasos de homologación de títulos, inspección laboral y prestaciones de desempleo.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional",
+          "sourceNote": "Programa de ERC para el Congreso de 2026; copia alojada por Betevé. No se ha localizado una descarga de 2026 en la web oficial consultada."
+        },
+        "8": {
+          "value": 5,
+          "source": "https://img.beteve.cat/wp-content/uploads/2026/11/ERC-programa-electoral-29-N-2026-2026-11-12.pdf",
+          "locator": "Medida 105, pág. 26",
+          "reason": "Propone jornada máxima de 37,5 horas sin reducción salarial.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional",
+          "sourceNote": "Programa de ERC para el Congreso de 2026; copia alojada por Betevé. No se ha localizado una descarga de 2026 en la web oficial consultada."
+        },
+        "10": {
+          "value": 5,
+          "source": "https://img.beteve.cat/wp-content/uploads/2026/11/ERC-programa-electoral-29-N-2026-2026-11-12.pdf",
+          "locator": "Medidas 106–107, pág. 26",
+          "reason": "Vincula las pensiones a la inflación y al IPC territorial.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional",
+          "sourceNote": "Programa de ERC para el Congreso de 2026; copia alojada por Betevé. No se ha localizado una descarga de 2026 en la web oficial consultada."
+        },
+        "11": {
+          "value": 5,
+          "source": "https://img.beteve.cat/wp-content/uploads/2026/11/ERC-programa-electoral-29-N-2026-2026-11-12.pdf",
+          "locator": "Medida 88, pág. 24",
+          "reason": "Propone reforzar la legislación específica contra la violencia machista.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional",
+          "sourceNote": "Programa de ERC para el Congreso de 2026; copia alojada por Betevé. No se ha localizado una descarga de 2026 en la web oficial consultada."
+        },
+        "18": {
+          "value": 5,
+          "source": "https://img.beteve.cat/wp-content/uploads/2026/11/ERC-programa-electoral-29-N-2026-2026-11-12.pdf",
+          "locator": "Medida 86, pág. 23",
+          "reason": "Plantea simplificar trámites de pymes manteniendo garantías laborales y ambientales.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional",
+          "sourceNote": "Programa de ERC para el Congreso de 2026; copia alojada por Betevé. No se ha localizado una descarga de 2026 en la web oficial consultada."
+        }
+      }
+    },
+    {
+      "id": "pacma",
+      "name": "PACMA",
+      "match": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+      "positions": {
+        "4": {
+          "value": 1,
+          "source": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+          "locator": "Sección 3.2.1, pág. 55",
+          "reason": "Propone reintegrar en la sanidad pública los servicios privatizados.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "11": {
+          "value": 5,
+          "source": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+          "locator": "Sección 3.10.1, págs. 75–76",
+          "reason": "Defiende tutela judicial y reconocimiento legal específico frente a violencia machista.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "18": {
+          "value": 5,
+          "source": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+          "locator": "Sección 3.4.9, pág. 68",
+          "reason": "Propone eliminar trabas burocráticas para crear empresas e iniciar actividades.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "9": {
+          "value": 1,
+          "source": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+          "locator": "Sección 2.1.1, pág. 34",
+          "reason": "Critica el modelo de uso masivo de energía nuclear.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional",
+          "scoreable": false,
+          "reviewNote": "La crítica al modelo masivo no permite concluir por sí sola oposición a toda permanencia nuclear."
+        },
+        "6": {
+          "value": 3,
+          "source": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+          "locator": "Sección 3.3.3, pág. 60",
+          "reason": "Propone revisar los criterios de concertación.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional",
+          "scoreable": false,
+          "reviewNote": "Revisar criterios no fija una posición sobre mantener financiación por demanda. Valor orientativo no puntuable."
+        }
+      }
     }
   ],
   "candidateSource": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
-  "limitations": "Catálogo incompleto: PP, VOX, EAJ-PNV, BNG y Municipalistas Primero Canarias–Coalición Canaria tienen análisis parcial. Otras candidaturas siguen pendientes de revisión; esto no significa que carezcan de programa publicado. Las evidencias que no responden directamente a la pregunta se conservan sin puntuarlas. No permite identificar la máxima afinidad entre todas las candidaturas ni reutiliza programas de 2023 como si fueran de 2026."
+  "limitations": "Catálogo incompleto: siete formaciones con evidencias parciales (PP, VOX, EAJ-PNV, BNG, coalición canaria, ERC y PACMA). Las demás candidaturas siguen pendientes. ERC se ha revisado en una copia de su programa alojada por Betevé. Las fuentes que no responden directamente a una pregunta se conservan sin puntuarlas. No permite determinar la máxima afinidad entre todas las candidaturas ni reutiliza programas de 2023 como si fueran de 2026.",
+  "research": [
+    {
+      "id": "psoe",
+      "name": "PSOE",
+      "match": "PSOE",
+      "reviewed": "2026-11-14",
+      "status": "Programa de 2026 no localizado en el archivo consultado",
+      "source": "https://www.psoe.es/transparencia/informacion-politica-organizativa/programa/",
+      "note": "El archivo consultado enlaza las generales de 2023. No se ha usado como programa de 2026."
+    },
+    {
+      "id": "podemos",
+      "name": "Podemos",
+      "match": "(PODEMOS)",
+      "reviewed": "2026-11-14",
+      "status": "La página consultada contiene material de otra convocatoria",
+      "source": "https://podemos.info/programa/",
+      "note": "La página corresponde a material anterior; se requiere documento específico de 2026."
+    },
+    {
+      "id": "frente-amplio",
+      "name": "Frente Amplio",
+      "match": "FRENTE AMPLIO",
+      "aliases": [
+        "(FA)"
+      ],
+      "reviewed": "2026-11-14",
+      "status": "Propuestas de campaña localizadas; programa completo pendiente de localizar",
+      "source": "https://frenteamplio.info/noticias/",
+      "note": "Las notas consultadas no permiten responder directamente a las afirmaciones actuales. No se han extrapolado puntuaciones."
+    },
+    {
+      "id": "ehbildu",
+      "name": "EH Bildu",
+      "match": "EUSKAL HERRIA BILDU",
+      "reviewed": "2026-11-14",
+      "status": "Programa de la convocatoria no localizado en documentos consultados",
+      "source": "https://ehbildu.eus/es/documentos",
+      "note": "Hay documentos sectoriales; no se han tratado como programa completo de estas elecciones."
+    },
+    {
+      "id": "junts",
+      "name": "Junts",
+      "match": "JUNTS PER CATALUNYA",
+      "reviewed": "2026-11-14",
+      "status": "Consulta de la web oficial incompleta",
+      "source": "https://junts.cat/",
+      "note": "La consulta devolvió un error de acceso. No permite afirmar que no exista programa."
+    }
+  ]
 }
