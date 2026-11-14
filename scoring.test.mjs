@@ -85,3 +85,16 @@ assert.equal(showAffinity({affinity: null, coverage: 100}), false);
 assert.equal(showAffinity(score({'1':5,'2':5,'3':5},{'1':3,'2':3,'3':3},{'1':{value:5,source:'https://example.org',locator:'1'}})), false);
 assert.equal(showAffinity(score({'1':5,'2':5},{'1':3,'2':3},{'1':{value:5,source:'https://example.org',locator:'1'}})), true);
 console.log('OK: ERC, PACMA, procedencia de copias y registro de investigación sin puntuación.');
+
+// Los antecedentes autorizados deben declarar su antigüedad y conservar fuentes actuales.
+for (const party of d.parties) for (const position of Object.values(party.positions)) {
+ if (position.historical) {
+  assert.equal(position.sourceYear, 2023);
+  assert(position.locator.includes("2023"));
+  assert(position.sourceNote.includes("no acredita un compromiso de 2026"));
+ }
+}
+assert.equal(nextParty('psoe').positions['15'].historical, undefined);
+assert.equal(nextParty('psoe').positions['10'].historical, undefined);
+assert.equal(nextParty('ehbildu').positions['8'].value, 5);
+assert.equal(known('EUSKAL HERRIA BILDU-ESQUERRA REPUBLICANA DE CATALUNYA (EH BILDU-ERC)'), undefined);

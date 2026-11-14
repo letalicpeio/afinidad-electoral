@@ -52,7 +52,7 @@ function renderCoverage(names) {
     for (const q of data.questions) {
       const p = party?.positions[q.id], td = el("td");
       if (p) {
-        const link = el("a", isScorablePosition(p) ? `${p.value}/5` : "Revisión");
+        const link = el("a", isScorablePosition(p) ? `${p.value}/5${p.historical ? " · " + p.sourceYear : ""}` : "Revisión");
         link.href = p.source; link.target = "_blank"; link.rel = "noopener noreferrer";
         link.title = `${p.locator}: ${p.reviewNote || p.reason}`; td.append(link);
       } else td.textContent = "Sin datos";

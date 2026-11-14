@@ -1,5 +1,5 @@
 {
-  "version": "0.4.4",
+  "version": "0.5.0",
   "date": "2026-11-14",
   "election": "Congreso · 29 de noviembre de 2026",
   "questions": [
@@ -1299,6 +1299,28 @@
           "reviewed": "2026-11-14",
           "coding": "Interpretación editorial provisional"
         },
+        "3": {
+          "value": 5,
+          "source": "https://www.psoe.es/media-content/2023/07/PROGRAMA_ELECTORAL-GENERALES-2023.pdf",
+          "locator": "Histórico 2023 · PDF p. 255 · Migración y asilo",
+          "reason": "Defiende las figuras de arraigo y su ampliación.",
+          "sourceYear": 2023,
+          "historical": true,
+          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa oficial de generales de julio de 2023, enlazado en el archivo del PSOE.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional de un programa histórico"
+        },
+        "9": {
+          "value": 1,
+          "source": "https://www.psoe.es/media-content/2023/07/PROGRAMA_ELECTORAL-GENERALES-2023.pdf",
+          "locator": "Histórico 2023 · PDF pp. 74–75 · Plan de residuos radiactivos",
+          "reason": "Prevé desmantelar progresivamente las centrales nucleares.",
+          "sourceYear": 2023,
+          "historical": true,
+          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa oficial de generales de julio de 2023, enlazado en el archivo del PSOE.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional de un programa histórico"
+        },
         "10": {
           "value": 5,
           "source": "https://elpais.com/espana/elecciones-generales/2026-10-15/cuerpo-asegura-que-el-gobierno-quiere-subir-las-pensiones-despues-de-las-elecciones.html",
@@ -1308,6 +1330,17 @@
           "reviewed": "2026-11-14",
           "coding": "Interpretación editorial provisional"
         },
+        "12": {
+          "value": 5,
+          "source": "https://www.psoe.es/media-content/2023/07/PROGRAMA_ELECTORAL-GENERALES-2023.pdf",
+          "locator": "Histórico 2023 · PDF p. 259 · Unión Europea",
+          "reason": "Propone decisiones europeas de política exterior y seguridad por mayoría cualificada.",
+          "sourceYear": 2023,
+          "historical": true,
+          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa oficial de generales de julio de 2023, enlazado en el archivo del PSOE.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional de un programa histórico"
+        },
         "15": {
           "value": 5,
           "source": "https://www.psoe.es/actualidad/noticias-actualidad/pedro-sanchez-frente-a-los-recortes-de-feijoo-y-abascal-blindaremos-el-derecho-al-aborto-de-las-mujeres-en-la-constitucion/",
@@ -1316,6 +1349,17 @@
           "sourceNote": "Fuente oficial: anuncio de precampaña, no programa completo.",
           "reviewed": "2026-11-14",
           "coding": "Interpretación editorial provisional"
+        },
+        "18": {
+          "value": 5,
+          "source": "https://www.psoe.es/media-content/2023/07/PROGRAMA_ELECTORAL-GENERALES-2023.pdf",
+          "locator": "Histórico 2023 · PDF p. 30 · Empresas y autónomos",
+          "reason": "Propone reducir las cargas administrativas empresariales.",
+          "sourceYear": 2023,
+          "historical": true,
+          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa oficial de generales de julio de 2023, enlazado en el archivo del PSOE.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional de un programa histórico"
         }
       },
       "exclude": [
@@ -1326,19 +1370,64 @@
         "PARTIDO SOCIALISTA DE LAS ISLAS BALEARES (PSIB-PSOE)",
         "PARTIDO SOCIALISTA DE NAVARRA-PSOE (PSN-PSOE)"
       ]
-    }
-  ],
-  "candidateSource": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
-  "limitations": "Catálogo incompleto: veintiuna formaciones con evidencias parciales. Se incorporan también Democracia 21 e Iustitia Europa desde sus documentos programáticos vigentes en la web de campaña de 2026. SALF (resumen oficial de campaña, PDF completo sin verificar) y Partido Humanista (programa de 2026). Geroa Bai se basa en bases políticas oficiales de campaña. Las demás candidaturas siguen pendientes; ausencia de revisión no implica ausencia de programa. Las evidencias que no responden directamente a la afirmación no puntúan. No permite determinar la máxima afinidad entre todas las candidaturas ni reutiliza programas antiguos como si fueran de 2026. Frente Amplio incorpora una propuesta oficial de campaña sobre pensiones; Podemos, una propuesta de alquiler documentada por prensa en 2026, provisional y pendiente de contraste con su programa oficial. Compromís: Front Valencià, Junts y PSOE incorporan declaraciones de precampaña recogidas por prensa y pendientes de contraste con sus programas oficiales. No se extienden automáticamente a marcas territoriales ni a coaliciones diferentes. Ampliación de las principales candidaturas: PSOE añade alquiler y aborto desde fuentes oficiales; Podemos, oposición al aumento del gasto militar; Frente Amplio, cierre nuclear, desde declaraciones de campaña recogidas por agencias. La cobertura continúa siendo insuficiente para una clasificación global.",
-  "research": [
+    },
     {
       "id": "ehbildu",
       "name": "EH Bildu",
       "match": "EUSKAL HERRIA BILDU",
-      "reviewed": "2026-11-14",
-      "status": "Programa de la convocatoria no localizado en documentos consultados",
-      "source": "https://ehbildu.eus/es/documentos",
-      "note": "Hay documentos sectoriales; no se han tratado como programa completo de estas elecciones."
+      "exclude": [
+        "EUSKAL HERRIA BILDU-ESQUERRA",
+        "EH BILDU-ERC"
+      ],
+      "positions": {
+        "2": {
+          "value": 5,
+          "source": "https://visuals.manifesto-project.wzb.eu/mpdb-shiny/cmp_dashboard_corpus_doc/",
+          "locator": "Histórico 2023 · Spain → 2023-07 → Euskal Herria Bildu · posiciones 11 y 49",
+          "reason": "Respalda los límites del alquiler y conservar las rentas al renovar contratos.",
+          "sourceYear": 2023,
+          "historical": true,
+          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Corpus Manifesto 2026-1; texto por documento, sin importar sus códigos temáticos como puntuaciones de afinidad.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional de un programa histórico"
+        },
+        "4": {
+          "value": 1,
+          "source": "https://visuals.manifesto-project.wzb.eu/mpdb-shiny/cmp_dashboard_corpus_doc/",
+          "locator": "Histórico 2023 · Spain → 2023-07 → Euskal Herria Bildu · posición 70",
+          "reason": "Propone derogar la norma que permite privatizar y externalizar servicios sanitarios.",
+          "sourceYear": 2023,
+          "historical": true,
+          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Corpus Manifesto 2026-1; texto por documento, sin importar sus códigos temáticos como puntuaciones de afinidad.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional de un programa histórico"
+        },
+        "7": {
+          "value": 5,
+          "source": "https://visuals.manifesto-project.wzb.eu/mpdb-shiny/cmp_dashboard_corpus_doc/",
+          "locator": "Histórico 2023 · Spain → 2023-07 → Euskal Herria Bildu · posiciones 166–170",
+          "reason": "Reclama competencias pendientes y nuevos traspasos.",
+          "sourceYear": 2023,
+          "historical": true,
+          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Corpus Manifesto 2026-1; texto por documento, sin importar sus códigos temáticos como puntuaciones de afinidad.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional de un programa histórico"
+        },
+        "8": {
+          "value": 5,
+          "source": "https://visuals.manifesto-project.wzb.eu/mpdb-shiny/cmp_dashboard_corpus_doc/",
+          "locator": "Histórico 2023 · Spain → 2023-07 → Euskal Herria Bildu · posición 37",
+          "reason": "Propone una semana laboral de 32 horas manteniendo el salario.",
+          "sourceYear": 2023,
+          "historical": true,
+          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Corpus Manifesto 2026-1; texto por documento, sin importar sus códigos temáticos como puntuaciones de afinidad.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional de un programa histórico"
+        }
+      }
     }
-  ]
+  ],
+  "candidateSource": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
+  "limitations": "Catálogo incompleto: 22 formaciones con evidencias parciales. Se combinan propuestas actuales con antecedentes históricos expresamente fechados (2023) para cubrir huecos. Los antecedentes participan provisionalmente en el cálculo y no acreditan compromisos actuales. Las fuentes nuevas prevalecen sobre las históricas. Se indican procedencia, año y localizador por posición. Los datos ausentes no se convierten en neutralidad. No permite determinar la máxima afinidad entre todas las candidaturas.",
+  "research": []
 }

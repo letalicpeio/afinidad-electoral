@@ -7,7 +7,8 @@
   "copia": "Copia no oficial",
   "no-localizado": "No localizado todavía",
   "sin-revisar": "Sin revisar",
-  "secundaria": "Propuestas documentadas en prensa"
+  "secundaria": "Propuestas documentadas en prensa",
+  "historico": "Programa histórico · uso provisional"
  },
  "parties": [
   {
@@ -249,14 +250,14 @@
    ],
    "website": "https://ehbildu.eus/",
    "program": {
-    "status": "no-localizado",
-    "consulted": "https://ehbildu.eus/es/documentos",
-    "official": true,
-    "note": "Hay documentos sectoriales; no se han tratado como programa completo de estas elecciones.",
-    "detail": "Programa de la convocatoria no localizado en documentos consultados",
+    "status": "historico",
+    "url": "https://visuals.manifesto-project.wzb.eu/mpdb-shiny/cmp_dashboard_corpus_doc/",
+    "title": "Programa histórico de EH Bildu · julio 2023 · Corpus Manifesto",
+    "official": false,
     "checked": "2026-11-14",
-    "checkedAt": "2026-11-14T17:00:43Z"
-   }
+    "note": "Cuatro posiciones históricas puntuables provisionalmente. En el explorador selecciona Spain, 2023-07 y Euskal Herria Bildu. No es un programa de 2026; las codificaciones de afinidad son propias, no las categorías del corpus."
+   },
+   "dataId": "ehbildu"
   },
   {
    "id": "ehbildu-erc",
@@ -900,7 +901,7 @@
     "title": "Anuncio oficial de precampaña sobre el derecho al aborto",
     "official": true,
     "checked": "2026-11-14",
-    "note": "3 afirmaciones documentadas de dieciocho. Evidencias parciales; no se ha verificado un programa completo de la convocatoria. Cada posición identifica su fuente oficial o periodística y queda pendiente de revisión con el programa electoral."
+    "note": "Siete afirmaciones documentadas: tres con evidencias de 2026 y cuatro con antecedentes del programa oficial de 2023, identificados por posición. Los antecedentes participan provisionalmente en el cálculo y no acreditan compromisos actuales."
    },
    "dataId": "psoe"
   },

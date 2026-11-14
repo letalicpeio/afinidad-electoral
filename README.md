@@ -14,7 +14,7 @@ Web estática, adaptable a móvil, para el Congreso por provincias. Sin dependen
 
 ## Estado documental — 14/11/2026
 
-**Versión 0.4.4, catálogo incompleto. PP, VOX, EAJ-PNV, BNG, Municipalistas Primero Canarias–Coalición Canaria, ERC, PACMA, Por un Mundo Más Justo, FE de las JONS, Frente Obrero, Adelante Andalucía, Geroa Bai, SALF, Partido Humanista, Democracia 21, Iustitia Europa, Frente Amplio, Podemos, Compromís: Front Valencià, Junts y PSOE tienen análisis parcial. No identifica la máxima afinidad entre todas las candidaturas.** Las demás figuran como pendientes de revisión; esa etiqueta no afirma que carezcan de programa publicado. No se mezclan programas de 2023 con los de 2026.
+**Versión 0.5, catálogo incompleto. PP, VOX, EAJ-PNV, BNG, Municipalistas Primero Canarias–Coalición Canaria, ERC, PACMA, Por un Mundo Más Justo, FE de las JONS, Frente Obrero, Adelante Andalucía, Geroa Bai, SALF, Partido Humanista, Democracia 21, Iustitia Europa, Frente Amplio, Podemos, Compromís: Front Valencià, Junts, PSOE y EH Bildu tienen análisis parcial. No identifica la máxima afinidad entre todas las candidaturas.** Las demás figuran como pendientes de revisión; esa etiqueta no afirma que carezcan de programa publicado. Desde 0.5 se admiten antecedentes de 2023 expresamente fechados para cubrir huecos, sin sustituir evidencias actuales ni presentarlos como compromisos de 2026.
 
 Las afirmaciones y opciones son nuevas, basadas en los 18 temas del cuestionario previo, cuyas alternativas originales no se recuperaron. Las posiciones son interpretaciones editoriales provisionales, revisables, no una medición objetiva ni una puntuación oficial de los partidos. Las inferencias requieren revisión humana; la ausencia de una propuesta no equivale a oposición.
 
@@ -65,3 +65,5 @@ Ampliación 0.4.2: se admiten fuentes secundarias identificadas cuando falta el 
 Ampliación 0.4.3: primeras evidencias para Compromís: Front Valencià (aborto constitucional, EFE/Valencia Plaza), Junts (traspaso de competencias, Europa Press) y PSOE (pensiones con IPC, El País). Declaraciones de 2026 en fuentes secundarias, diferenciadas del programa oficial.
 
 Ampliación 0.4.4: PSOE pasa a tres afirmaciones (alquiler, pensiones y aborto), Podemos a dos (alquiler y gasto militar), Frente Amplio a dos (pensiones y cierre nuclear). Se combinan fuentes oficiales e información de agencias, identificadas por posición.
+
+Versión 0.5: EH Bildu incorpora cuatro antecedentes de julio de 2023 desde Manifesto Corpus (versión 2026-1, explorador Spain → 2023-07 → Euskal Herria Bildu). PSOE añade cuatro posiciones del programa oficial de 2023 a sus tres actuales. Campos historical/sourceYear y notas visibles identifican la antigüedad. No se reutilizan programas de Sumar como si fueran de Podemos o Frente Amplio. La API de Manifesto exige cuenta y clave; no se ha realizado importación masiva.

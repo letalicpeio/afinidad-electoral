@@ -67,3 +67,9 @@ Tres posiciones provisionales en prensa de precampaña: Compromís: Front Valenc
 ## Ampliación 0.4.4 · principales candidaturas
 
 Cuatro evidencias nuevas: PSOE pregunta 2 (iniciativa oficial 19/03/2026) y 15 (anuncio oficial 24/10/2026); Podemos pregunta 13 (Europa Press 06/11/2026, reasignación del incremento militar a medidas sociales); Frente Amplio pregunta 9 (Servimedia 09/11/2026, cumplimiento explícito del cierre de todas las centrales). Las tres fichas aclaran su cobertura y mezcla de fuentes. PSOE enlaza ahora a un anuncio oficial, sin presentar el anuncio como programa completo. La reducción de jornada recogida por Newtral es un compromiso anterior actualizado en 2026; no se ha usado como nuevo programa de campaña. EH Bildu continúa pendiente sin extrapolar declaraciones genéricas sobre pensiones.
+
+## Cambio autorizado de criterio · 0.5
+
+Se admiten programas anteriores como antecedentes puntuables provisionales, con historical=true, sourceYear=2023, localizador fechado y nota explícita. Nunca sustituyen posiciones actuales. Se revisó directamente el explorador público de Manifesto: Spain, 2023-07, Euskal Herria Bildu, 173 unidades. Se codifican preguntas 2 (unidades 11 y 49), 4 (70), 7 (166–170), 8 (37). Los códigos MARPOR no se convierten en valores 1–5. Referencia: Lehmann y otros, Manifesto Corpus, versión 2026-1, WZB/IfDem.
+
+PSOE: programa original oficial de julio de 2023, preguntas 3 (PDF p.255), 9 (p.75), 12 (p.259), 18 (p.30). Permanecen las tres posiciones actuales. No se heredan programas de Sumar a Podemos ni Frente Amplio. La descarga local del PDF devolvió HTML; la lectura se realizó mediante el extractor web del documento oficial. El explorador de Manifesto se pudo consultar sin credenciales; descarga/API requieren cuenta.

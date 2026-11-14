@@ -13,6 +13,7 @@ export const STATUS_ORDER = [
   "resumen",
   "copia",
   "secundaria",
+  "historico",
   "no-localizado",
   "sin-revisar",
 ];
@@ -148,6 +149,8 @@ function cell(entry, dataParty, id) {
       el("div", SCALE[position.value - 1], "small"),
       link(position.source, `${position.locator} ↗`, "small"),
     );
+    if (position.historical) td.append(el("div", `Antecedente ${position.sourceYear} · provisional`, "badge"));
+    if (position.sourceNote) td.append(el("div", position.sourceNote, "small"));
     td.dataset.value = position.value;
   } else if (position) {
     td.append(
