@@ -1,5 +1,5 @@
 import { findParty } from "./catalog.mjs";
-import { score, sharedIds, isScorablePosition } from "./scoring.mjs";
+import { score, sharedIds, isScorablePosition, MIN_COVERAGE, WARN_COVERAGE, showAffinity } from "./scoring.mjs";
 const $ = (s) => document.querySelector(s),
   el = (t, text, cls) => {
     const e = document.createElement(t);
@@ -7,7 +7,6 @@ const $ = (s) => document.querySelector(s),
     if (cls) e.className = cls;
     return e;
   };
-const LOW_COVERAGE = 50;
 let TOTAL = 0;
 let data,
   candidates,
@@ -176,42 +175,69 @@ function renderResults() {
       .forEach(({ name, party }) => {
         const result = score(person.answers, person.weights, party.positions),
           commonResult = score(commonAnswers, person.weights, party.positions);
+        const shown = showAffinity(result);
         report.parties.push({
           name,
           ...result,
-          commonAffinity: commonResult.affinity,
+          ...(shown
+            ? { commonAffinity: commonResult.affinity }
+            : {
+                affinity: null,
+                bounds: null,
+                commonAffinity: null,
+                affinityWithheld: `Cobertura inferior al ${MIN_COVERAGE} %`,
+              }),
         });
         const row = el("div", null, "resultrow"),
           head = el("div", null, "resulthead");
-        head.append(el("b", name), el("span", fmt(result.affinity), "metric"));
+        head.append(el("b", name));
+        if (shown) head.append(el("span", fmt(result.affinity), "metric"));
         row.append(
           head,
           el(
             "p",
-            `Afinidad parcial · Cobertura ponderada ${fmt(result.coverage)} · ${result.count} ${result.count === 1 ? "tema con evidencia" : "temas con evidencia"}`,
+            `${shown ? "Afinidad parcial" : "Porcentaje no mostrado"} · Cobertura ponderada ${fmt(result.coverage)} · ${result.count} ${result.count === 1 ? "tema con evidencia" : "temas con evidencia"}`,
           ),
         );
-        const bar = el("div", null, "bar"),
-          fill = el("div", null, "fill");
-        fill.style.width = (result.affinity || 0) + "%";
-        bar.append(fill);
-        row.append(bar);
-        if (result.affinity !== null && result.coverage < LOW_COVERAGE)
+        if (shown) {
+          const bar = el("div", null, "bar"),
+            fill = el("div", null, "fill");
+          fill.style.width = (result.affinity || 0) + "%";
+          bar.append(fill);
+          row.append(bar);
+        }
+        if (!shown)
           row.append(
             el(
               "p",
-              `⚠ Cobertura baja (${fmt(result.coverage)}): este porcentaje se basa en pocos de tus temas y puede no ser representativo.`,
+              result.count
+                ? `La cobertura (${fmt(result.coverage)}) es inferior al ${MIN_COVERAGE} %: no hay evidencia suficiente para calcular un porcentaje fiable. Revisa la comparación tema a tema.`
+                : "Ninguno de tus temas respondidos tiene posición documentada para esta candidatura.",
               "warning",
             ),
           );
-        row.append(el("p", common.length
+        else if (result.coverage < WARN_COVERAGE)
+          row.append(
+            el(
+              "p",
+              `⚠ Cobertura parcial (${fmt(result.coverage)}): el porcentaje se basa solo en parte de tus temas.`,
+              "warning",
+            ),
+          );
+        if (shown) row.append(el("p", common.length
           ? `Sobre ${common.length} ${common.length === 1 ? "pregunta común" : "preguntas comunes"} a las candidaturas analizadas: ${fmt(commonResult.affinity)}. Esta comparación también es incompleta.`
           : "No hay preguntas puntuables comunes para comparar al menos dos candidaturas."));
-        if (result.bounds) row.append(el("p",
+        if (shown && result.bounds) row.append(el("p",
           `Considerando también tus temas sin posición documentada, la afinidad podría estar entre ${fmt(result.bounds.lower)} y ${fmt(result.bounds.upper)}. Es un rango matemático, no una probabilidad ni un intervalo de confianza.`, "bounds"));
         const details = el("details"),
-          summary = el("summary", "Revisar respuestas, posiciones y fuentes");
+          summary = el(
+            "summary",
+            shown
+              ? "Revisar respuestas, posiciones y fuentes"
+              : "Comparación tema a tema y fuentes",
+          );
         details.append(summary);
+        if (!shown) details.open = true;
         for (const d of result.details) {
           const ev = el("div", null, "evidence"),
             q = data.questions.find((q) => q.id === d.id);

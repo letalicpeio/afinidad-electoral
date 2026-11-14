@@ -43,3 +43,10 @@ export function sharedIds(answers, parties) {
   return Object.keys(answers).filter(id => validAnswer(answers[id]) &&
     parties.every(party => isScorablePosition(party.positions[id])));
 }
+
+// Por debajo de esta cobertura ponderada no se publica un porcentaje: con tan poca evidencia
+// documentada sería una apariencia de precisión. Se muestra solo la comparación tema a tema.
+export const MIN_COVERAGE = 50;
+export const WARN_COVERAGE = 75;
+export const showAffinity = (result) =>
+  result.affinity !== null && result.coverage >= MIN_COVERAGE;

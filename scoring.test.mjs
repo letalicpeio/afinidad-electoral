@@ -1,6 +1,6 @@
 import {findParty} from "./catalog.mjs";
 import {strict as assert} from 'node:assert';
-import {score,sharedIds} from './scoring.mjs';
+import {score,sharedIds,showAffinity,MIN_COVERAGE} from './scoring.mjs';
 import fs from 'node:fs';
 const p=v=>({value:v,source:'https://example.org',locator:'1'});
 assert.equal(score({'1':5},{'1':3},{'1':p(5)}).affinity,100);
@@ -76,4 +76,11 @@ assert.equal(findParty('UNIDAD DEL PUEBLO CANARIO UPC (NC-BC, PODEMOS, IU, SUMAR
 assert.equal(nextParty('erc').positions['1'].source, 'https://esquerrarepublicana.cat/documents/e2026-programa.pdf');
 assert(!('sourceNote' in nextParty('erc').positions['1']));
 function nextParty(id){return d.parties.find(p=>p.id===id);}
+// Umbral de cobertura: por debajo no se publica porcentaje
+assert.equal(MIN_COVERAGE, 50);
+assert.equal(showAffinity({affinity: 80, coverage: 49.9}), false);
+assert.equal(showAffinity({affinity: 80, coverage: 50}), true);
+assert.equal(showAffinity({affinity: null, coverage: 100}), false);
+assert.equal(showAffinity(score({'1':5,'2':5,'3':5},{'1':3,'2':3,'3':3},{'1':{value:5,source:'https://example.org',locator:'1'}})), false);
+assert.equal(showAffinity(score({'1':5,'2':5},{'1':3,'2':3},{'1':{value:5,source:'https://example.org',locator:'1'}})), true);
 console.log('OK: ERC, PACMA, procedencia de copias y registro de investigación sin puntuación.');
