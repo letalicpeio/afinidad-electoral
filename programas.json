@@ -157,9 +157,11 @@
    ],
    "note": "Coalición: no hereda el programa de sus miembros.",
    "program": {
-    "status": "sin-revisar",
+    "status": "no-localizado",
+    "consulted": "https://beteve.cat/politica/programes-electorals-29n-eleccions-generals-2026-pdf/",
     "official": false,
-    "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
+    "detail": "Betevé indica a 13/11/2026 que aún no ha publicado el plec de propostes.",
+    "note": "La fuente es un medio, no la web del partido: no sustituye a comprobarlo en el propio partido.",
     "checked": "2026-11-14"
    }
   },
@@ -353,7 +355,7 @@
     "consulted": "https://frenteamplio.info/noticias/",
     "official": true,
     "note": "Las notas consultadas no permiten responder directamente a las afirmaciones actuales. No se han extrapolado puntuaciones.",
-    "detail": "Propuestas de campaña localizadas; programa completo pendiente de localizar",
+    "detail": "Medios mencionan un programa «100+15», pero no se ha localizado el documento oficial.",
     "checked": "2026-11-14"
    }
   },
@@ -455,7 +457,7 @@
     "consulted": "https://junts.cat/",
     "official": true,
     "note": "La consulta devolvió un error de acceso. No permite afirmar que no exista programa.",
-    "detail": "Consulta de la web oficial incompleta",
+    "detail": "Betevé indica a 13/11/2026 que el programa completo aún no se ha dado a conocer. La consulta directa a la web oficial no fue concluyente.",
     "checked": "2026-11-14"
    }
   },
@@ -724,7 +726,7 @@
     "consulted": "https://podemos.info/programa/",
     "official": true,
     "note": "La página corresponde a material anterior; se requiere documento específico de 2026.",
-    "detail": "La página consultada contiene material de otra convocatoria",
+    "detail": "Sin documento de programa publicado a 13/11/2026; la prensa recoge cinco ejes presentados por Irene Montero.",
     "checked": "2026-11-14"
    }
   },
@@ -738,11 +740,14 @@
     "POR UN MUNDO MAIS XUSTO (MUNDO+JUSTO)"
    ],
    "program": {
-    "status": "sin-revisar",
-    "official": false,
-    "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
+    "status": "oficial",
+    "url": "https://www.porunmundomasjusto.es/wp-content/uploads/2026/11/Castellano.pdf",
+    "title": "Programa Elecciones Generales 29N 2026 (PDF)",
+    "official": true,
+    "note": "PDF alojado en el dominio del partido (modificado el 10/11/2026). No se ha podido extraer su texto automáticamente, así que no se ha codificado ninguna posición.",
     "checked": "2026-11-14"
-   }
+   },
+   "website": "https://www.porunmundomasjusto.es/"
   },
   {
    "id": "alantre",
@@ -767,9 +772,11 @@
    ],
    "note": "Federación territorial del PSOE; no hereda automáticamente el programa estatal.",
    "program": {
-    "status": "sin-revisar",
+    "status": "no-localizado",
+    "consulted": "https://beteve.cat/politica/programes-electorals-29n-eleccions-generals-2026-pdf/",
     "official": false,
-    "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
+    "detail": "Betevé indica a 13/11/2026 que aún no ha publicado el programa de estas elecciones.",
+    "note": "La fuente es un medio, no la web del partido: no sustituye a comprobarlo en el propio partido.",
     "checked": "2026-11-14"
    }
   },
@@ -846,7 +853,7 @@
     "consulted": "https://www.psoe.es/transparencia/informacion-politica-organizativa/programa/",
     "official": true,
     "note": "El archivo consultado enlaza las generales de 2023. No se ha usado como programa de 2026.",
-    "detail": "Programa de 2026 no localizado en el archivo consultado",
+    "detail": "La prensa indica a 13/11/2026 que aún no ha publicado el programa de estas elecciones.",
     "checked": "2026-11-14"
    }
   },
@@ -1009,7 +1016,13 @@
     "title": "Resumen de medidas para el 29N (web oficial)",
     "official": true,
     "note": "Es un resumen de medidas publicado en la web del partido, no un documento de programa completo.",
-    "checked": "2026-11-14"
+    "checked": "2026-11-14",
+    "fullDocument": {
+     "url": "https://www.voxespana.es/wp-content/uploads/2026/11/Programa-completo-A5-1.pdf",
+     "title": "Programa completo (PDF, sin verificar)",
+     "verified": false,
+     "note": "Enlace del dominio del partido tomado de un resultado de búsqueda. No se ha podido abrir desde esta aplicación: el servidor bloquea accesos automáticos y el archivo supera 10 MB. Comprueba que es el programa de las generales de 2026."
+    }
    }
   }
  ]
