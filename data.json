@@ -520,7 +520,10 @@
           "coding": "Interpretación editorial provisional",
           "sourceNote": "Programa de ERC para el Congreso de 2026; copia alojada por Betevé. No se ha localizado una descarga de 2026 en la web oficial consultada."
         }
-      }
+      },
+      "exclude": [
+        "EUSKAL HERRIA BILDU"
+      ]
     },
     {
       "id": "pacma",

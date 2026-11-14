@@ -1,5 +1,6 @@
 import { strict as assert } from "node:assert";
 import fs from "node:fs";
+import { findParty } from "./catalog.mjs";
 import {
   compare,
   groupedEntries,
@@ -52,10 +53,21 @@ const hostOf = (url) => new URL(url).hostname.replace(/^www\./, "");
 for (const p of catalog.parties) {
   if (p.program.fullDocument) {
     const doc = p.program.fullDocument;
-    assert.equal(new URL(doc.url).protocol, "https:", `${p.id}: documento no https`);
-    assert(doc.title && typeof doc.verified === "boolean", `${p.id}: documento incompleto`);
-    assert(p.website && hostOf(doc.url).endsWith(hostOf(p.website)), `${p.id}: el documento no es del dominio del partido`);
-    if (!doc.verified) assert(doc.note, `${p.id}: documento sin verificar requiere nota`);
+    assert.equal(
+      new URL(doc.url).protocol,
+      "https:",
+      `${p.id}: documento no https`,
+    );
+    assert(
+      doc.title && typeof doc.verified === "boolean",
+      `${p.id}: documento incompleto`,
+    );
+    assert(
+      p.website && hostOf(doc.url).endsWith(hostOf(p.website)),
+      `${p.id}: el documento no es del dominio del partido`,
+    );
+    if (!doc.verified)
+      assert(doc.note, `${p.id}: documento sin verificar requiere nota`);
   }
   for (const url of [p.website, p.program.url, p.program.consulted].filter(
     Boolean,
@@ -130,6 +142,18 @@ assert.equal(compare(pos(4), pos(5)), "Próximas");
 assert.equal(compare(pos(1), pos(5)), "Distintas");
 assert.equal(compare(pos(1), { ...pos(5), scoreable: false }), null);
 assert.equal(compare(pos(1), undefined), null);
+
+// Una coalición nunca hereda las posiciones de uno de sus miembros (p. ej. EH Bildu–ERC no es ERC).
+for (const catalogEntry of catalog.parties.filter((p) =>
+  p.note?.startsWith("Coalición:"),
+)) {
+  for (const name of catalogEntry.names)
+    assert.equal(
+      findParty(name, data.parties),
+      undefined,
+      `«${name}» hereda posiciones de un partido miembro`,
+    );
+}
 
 console.log(
   `OK: ${catalog.parties.length} entidades, ${owner.size} denominaciones del BOE, enlaces y comparación.`,
