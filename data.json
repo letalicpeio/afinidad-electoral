@@ -1,5 +1,5 @@
 {
-  "version": "0.4.1",
+  "version": "0.4.2",
   "date": "2026-11-14",
   "election": "Congreso · 29 de noviembre de 2026",
   "questions": [
@@ -1189,10 +1189,53 @@
           "coding": "Interpretación editorial provisional"
         }
       }
+    },
+    {
+      "id": "frente-amplio",
+      "name": "Frente Amplio",
+      "match": "FRENTE AMPLIO",
+      "aliases": [
+        "(FA)",
+        "FRENTE AMPLIU"
+      ],
+      "positions": {
+        "10": {
+          "value": 5,
+          "source": "https://frenteamplio.info/noticias/frente-amplio-propone-ninguna-pension-este-debajo-salario-minimo-recuperar/",
+          "locator": "Consolidar lo conseguido",
+          "reason": "Propone consolidar los avances de las pensiones, incluida su revalorización con el IPC.",
+          "sourceNote": "Nota de prensa oficial de campaña; no es un programa completo.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        }
+      },
+      "exclude": [
+        "CHUNTA ARAGONESISTA-FRENTE AMPLIO ARAGÓN (CHA-IU-MS-FRENTE AMPLIO)"
+      ]
+    },
+    {
+      "id": "podemos",
+      "name": "Podemos",
+      "match": "PODEMOS",
+      "aliases": [],
+      "positions": {
+        "2": {
+          "value": 5,
+          "source": "https://www.idealista.com/news/inmobiliario/vivienda/2026/09/17/914567-el-congreso-rechaza-el-plan-de-podemos-para-topar-los-alquileres-y-expropiar",
+          "locator": "Europa Press · 17/09/2026 · primer punto de la moción",
+          "reason": "Propone reducir por ley los alquileres un 40 % respecto de sus precios actuales. La regulación general comprende también las zonas tensionadas.",
+          "sourceNote": "Fuente secundaria: información de Europa Press reproducida por Idealista sobre una iniciativa parlamentaria de 2026; no es un programa electoral oficial. El acto de campaña de Podemos Euskadi del 14/11/2026 recogido por Europa Press reafirma la medida.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        }
+      },
+      "exclude": [
+        "UNIDAD DEL PUEBLO CANARIO UPC (NC-BC, PODEMOS, IU, SUMAR)"
+      ]
     }
   ],
   "candidateSource": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
-  "limitations": "Catálogo incompleto: dieciséis formaciones con evidencias parciales. Se incorporan también Democracia 21 e Iustitia Europa desde sus documentos programáticos vigentes en la web de campaña de 2026. SALF (resumen oficial de campaña, PDF completo sin verificar) y Partido Humanista (programa de 2026). Geroa Bai se basa en bases políticas oficiales de campaña. Las demás candidaturas siguen pendientes; ausencia de revisión no implica ausencia de programa. Las evidencias que no responden directamente a la afirmación no puntúan. No permite determinar la máxima afinidad entre todas las candidaturas ni reutiliza programas antiguos como si fueran de 2026.",
+  "limitations": "Catálogo incompleto: dieciocho formaciones con evidencias parciales. Se incorporan también Democracia 21 e Iustitia Europa desde sus documentos programáticos vigentes en la web de campaña de 2026. SALF (resumen oficial de campaña, PDF completo sin verificar) y Partido Humanista (programa de 2026). Geroa Bai se basa en bases políticas oficiales de campaña. Las demás candidaturas siguen pendientes; ausencia de revisión no implica ausencia de programa. Las evidencias que no responden directamente a la afirmación no puntúan. No permite determinar la máxima afinidad entre todas las candidaturas ni reutiliza programas antiguos como si fueran de 2026. Frente Amplio incorpora una propuesta oficial de campaña sobre pensiones; Podemos, una propuesta de alquiler documentada por prensa en 2026, provisional y pendiente de contraste con su programa oficial.",
   "research": [
     {
       "id": "psoe",
@@ -1202,27 +1245,6 @@
       "status": "Programa de 2026 no localizado en el archivo consultado",
       "source": "https://www.psoe.es/transparencia/informacion-politica-organizativa/programa/",
       "note": "El archivo consultado enlaza las generales de 2023. No se ha usado como programa de 2026."
-    },
-    {
-      "id": "podemos",
-      "name": "Podemos",
-      "match": "(PODEMOS)",
-      "reviewed": "2026-11-14",
-      "status": "La página consultada contiene material de otra convocatoria",
-      "source": "https://podemos.info/programa/",
-      "note": "La página corresponde a material anterior; se requiere documento específico de 2026."
-    },
-    {
-      "id": "frente-amplio",
-      "name": "Frente Amplio",
-      "match": "FRENTE AMPLIO",
-      "aliases": [
-        "(FA)"
-      ],
-      "reviewed": "2026-11-14",
-      "status": "Propuestas de campaña localizadas; programa completo pendiente de localizar",
-      "source": "https://frenteamplio.info/noticias/",
-      "note": "Las notas consultadas no permiten responder directamente a las afirmaciones actuales. No se han extrapolado puntuaciones."
     },
     {
       "id": "ehbildu",

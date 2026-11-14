@@ -6,7 +6,8 @@
   "resumen": "Solo resumen en la web oficial",
   "copia": "Copia no oficial",
   "no-localizado": "No localizado todavía",
-  "sin-revisar": "Sin revisar"
+  "sin-revisar": "Sin revisar",
+  "secundaria": "Propuestas documentadas en prensa"
  },
  "parties": [
   {
@@ -368,14 +369,14 @@
    "note": "Agrupa las variantes territoriales de la marca Frente Amplio que figuran en el BOE; las coaliciones con otros nombres aparecen aparte.",
    "website": "https://frenteamplio.info/",
    "program": {
-    "status": "no-localizado",
-    "consulted": "https://frenteamplio.info/noticias/",
+    "status": "resumen",
+    "url": "https://frenteamplio.info/noticias/frente-amplio-propone-ninguna-pension-este-debajo-salario-minimo-recuperar/",
+    "title": "Propuesta de campaña sobre pensiones",
     "official": true,
-    "note": "Las notas proponen, entre otras medidas, un impuesto a la acumulación de vivienda y pensiones mínimas iguales al salario mínimo, pero ninguna responde de forma explícita a las 18 afirmaciones: no se han codificado posiciones.",
-    "detail": "Sin documento de programa en su web a 14/11/2026. Se han leído sus 13 notas de prensa oficiales de campaña.",
     "checked": "2026-11-14",
-    "checkedAt": "2026-11-14T17:00:43Z"
-   }
+    "note": "Evidencia parcial: una de dieciocho afirmaciones. Nota oficial, programa completo pendiente."
+   },
+   "dataId": "frente-amplio"
   },
   {
    "id": "frente-obrero",
@@ -761,14 +762,14 @@
    ],
    "website": "https://podemos.info/",
    "program": {
-    "status": "no-localizado",
-    "consulted": "https://podemos.info/programa/",
-    "official": true,
-    "note": "La página corresponde a material anterior; se requiere documento específico de 2026.",
-    "detail": "Sin documento de programa publicado a 13/11/2026; la prensa recoge cinco ejes presentados por Irene Montero.",
+    "status": "secundaria",
+    "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/09/17/914567-el-congreso-rechaza-el-plan-de-podemos-para-topar-los-alquileres-y-expropiar",
+    "title": "Propuesta de alquiler · Europa Press / Idealista",
+    "official": false,
     "checked": "2026-11-14",
-    "checkedAt": "2026-11-14T17:00:43Z"
-   }
+    "note": "Evidencia parcial: una de dieciocho afirmaciones. Fuente periodística sobre iniciativa parlamentaria de 2026, no programa oficial. Codificación provisional pendiente de contraste con el programa de la convocatoria."
+   },
+   "dataId": "podemos"
   },
   {
    "id": "mundo-justo",

@@ -12,6 +12,7 @@ export const STATUS_ORDER = [
   "oficial",
   "resumen",
   "copia",
+  "secundaria",
   "no-localizado",
   "sin-revisar",
 ];

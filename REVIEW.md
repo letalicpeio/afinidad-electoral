@@ -55,3 +55,7 @@ También se verifican las versiones web vigentes de Democracia 21 (3 posiciones)
 Se revisaron los apartados oficiales de Democracia 21 sobre vivienda, simplificación normativa, impuestos, migración, defensa, corrupción, envejecimiento, salarios y educación. Se añaden únicamente dos coincidencias explícitas: pregunta 2 (valor 4 por el límite temporal y condicionado en zonas tensionadas) y pregunta 18 (valor 5 por eliminar trámites empresariales redundantes). Conservan fuente y localizador por posición.
 
 No se equipara deflactar IRPF con una rebaja general de impuestos al trabajo, política de pensiones con revalorización por IPC, neutralidad tecnológica con continuidad nuclear ni rechazo de regularizaciones extraordinarias con rechazo del arraigo. Estos temas siguen sin puntuación nueva. Democracia 21 tiene cinco de dieciocho posiciones; sigue aplicándose el umbral de cobertura ponderada del 50 %.
+
+## Ampliación 0.4.2
+
+Autorizado el uso de fuentes secundarias. Se añade estado «secundaria» para distinguir prensa de copias documentales. Podemos: pregunta 2, apoyo a reducción por ley de los alquileres, fuente Europa Press reproducida por Idealista (17/09/2026), corroborada por Europa Press en campaña de Euskadi (14/11/2026). No se heredan posiciones a otras coaliciones. Frente Amplio: pregunta 10, apartado «Consolidar lo conseguido» de su nota oficial del 24/10/2026. Se retiran registros de investigación que negaban la existencia de evidencias directas para esas dos formaciones. Se mantienen omisiones y umbral de cobertura.
