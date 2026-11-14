@@ -94,6 +94,17 @@ function card(entry, labels, candidates) {
       ),
     );
   }
+  if (program.fullDocument) {
+    actions.append(
+      link(
+        program.fullDocument.url,
+        `${program.fullDocument.title} ↗`,
+        "quiet linkbutton",
+      ),
+    );
+    if (program.fullDocument.note)
+      box.append(el("p", program.fullDocument.note, "small"));
+  }
   if (program.consulted)
     actions.append(
       link(program.consulted, "Dónde se consultó ↗", "quiet linkbutton"),
