@@ -14,7 +14,7 @@ Web estática, adaptable a móvil, para el Congreso por provincias. Sin dependen
 
 ## Estado documental — 14/11/2026
 
-**Versión 0.3, catálogo incompleto. PP, VOX, EAJ-PNV, BNG, Municipalistas Primero Canarias–Coalición Canaria, ERC, PACMA, Por un Mundo Más Justo, FE de las JONS, Frente Obrero, Adelante Andalucía y Geroa Bai tienen análisis parcial. No identifica la máxima afinidad entre todas las candidaturas.** Las demás figuran como pendientes de revisión; esa etiqueta no afirma que carezcan de programa publicado. No se mezclan programas de 2023 con los de 2026.
+**Versión 0.4, catálogo incompleto. PP, VOX, EAJ-PNV, BNG, Municipalistas Primero Canarias–Coalición Canaria, ERC, PACMA, Por un Mundo Más Justo, FE de las JONS, Frente Obrero, Adelante Andalucía, Geroa Bai, SALF, Partido Humanista, Democracia 21 e Iustitia Europa tienen análisis parcial. No identifica la máxima afinidad entre todas las candidaturas.** Las demás figuran como pendientes de revisión; esa etiqueta no afirma que carezcan de programa publicado. No se mezclan programas de 2023 con los de 2026.
 
 Las afirmaciones y opciones son nuevas, basadas en los 18 temas del cuestionario previo, cuyas alternativas originales no se recuperaron. Las posiciones son interpretaciones editoriales provisionales, revisables, no una medición objetiva ni una puntuación oficial de los partidos. Las inferencias requieren revisión humana; la ausencia de una propuesta no equivale a oposición.
 
@@ -55,3 +55,5 @@ Las respuestas se mantienen solo en memoria. No hay analítica, almacenamiento p
 ## Investigación documental
 
 `research` en `data.json` registra las consultas que aún no producen posiciones puntuables, con fecha, estado, fuente y límites. No localizar un programa en una página no prueba que no exista. Las copias del programa de ERC alojadas en Betevé se identifican en `sourceNote`, visible en los detalles de resultados.
+
+Ampliación 14/11/2026: SALF se revisa a partir del resumen oficial de campaña (el PDF completo sigue sin verificar) y Partido Humanista a partir del PDF oficial de generales de 2026. Los documentos y posiciones quedan sincronizados en `programas.json` y `data.json`.

@@ -195,11 +195,15 @@
     "DEMOCRACIA PARA EL SIGLO 21 (D21)"
    ],
    "program": {
-    "status": "sin-revisar",
-    "official": false,
-    "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
+    "status": "oficial",
+    "url": "https://mi.democracia21.es/programa",
+    "title": "La España que merecemos · Programa por temas (web)",
+    "official": true,
+    "note": "Índice del programa oficial en versión web. Las posiciones enlazan al tema concreto; no se ha encontrado fecha de edición impresa.",
     "checked": "2026-11-14"
-   }
+   },
+   "website": "https://democracia21.es/",
+   "dataId": "d21"
   },
   {
    "id": "pnv",
@@ -419,11 +423,15 @@
     "IUSTITIA EUROPA (IE)"
    ],
    "program": {
-    "status": "sin-revisar",
-    "official": false,
-    "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
+    "status": "oficial",
+    "url": "https://iustitiaeuropa.es/contrato-electoral/",
+    "title": "Contrato electoral vigente · Campaña 29N (web)",
+    "official": true,
+    "note": "Contrato enlazado desde la sección de elecciones 29-N y la nota oficial de campaña. La fecha de adopción para esta campaña no se confunde con la fecha de primera publicación del contrato.",
     "checked": "2026-11-14"
-   }
+   },
+   "website": "https://iustitiaeuropa.es/",
+   "dataId": "iustitia"
   },
   {
    "id": "ipal",
@@ -637,11 +645,16 @@
     "PARTIDO HUMANISTA (PH)"
    ],
    "program": {
-    "status": "sin-revisar",
-    "official": false,
-    "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
-    "checked": "2026-11-14"
-   }
+    "status": "oficial",
+    "url": "https://www.partidohumanista.es/Documentos/Programas/Programa%20Generales%202026.pdf",
+    "title": "Programa Elecciones Generales 2026 (PDF)",
+    "official": true,
+    "checked": "2026-11-14",
+    "checkedAt": "2026-11-14T17:15:50Z",
+    "note": "Documento de 2026 enlazado desde el archivo oficial de programas. Ocho posiciones revisadas sobre las afirmaciones de la encuesta."
+   },
+   "website": "https://www.partidohumanista.es/",
+   "dataId": "humanista"
   },
   {
    "id": "pp",
@@ -924,14 +937,22 @@
     "SE ACABÓ LA FIESTA (SALF)"
    ],
    "program": {
-    "status": "no-localizado",
-    "consulted": "https://canal4diario.com/29n/2026/11/13/salf-propone-eliminar-la-cuota-de-autonomos-suprimir-el-ibi-y-rebajar-el-irpf-hasta-los-35-000-euros/",
-    "official": false,
-    "detail": "La prensa (13/11/2026) describe un documento de 13 páginas con 119 medidas, pero no enlaza al original y no se ha localizado en una web del partido.",
-    "note": "La fuente es un medio, no el partido: no sustituye a comprobarlo en el propio partido. No se han codificado posiciones a partir de la prensa. El dominio salf.es es una página aparcada, no la web del partido.",
+    "status": "resumen",
+    "url": "https://www.seacabolafiesta.com/",
+    "title": "Resumen oficial del contrato electoral 29N",
+    "official": true,
     "checked": "2026-11-14",
-    "checkedAt": "2026-11-14T17:00:43Z"
-   }
+    "checkedAt": "2026-11-14T17:15:50Z",
+    "note": "Se puntúan únicamente las propuestas explícitas en el resumen oficial. El rechazo de regularizaciones masivas no se equipara al del arraigo individual.",
+    "fullDocument": {
+     "url": "https://www.seacabolafiesta.com/SALF_Contrato_Electoral_29N.pdf?v=073425b9522d",
+     "title": "Contrato electoral completo (PDF, acceso sin verificar)",
+     "verified": false,
+     "note": "PDF enlazado por el partido. La consulta web excedió el tamaño admitido y la descarga directa devolvió 403; el contenido del PDF no se ha usado para puntuar."
+    }
+   },
+   "website": "https://www.seacabolafiesta.com/",
+   "dataId": "salf"
   },
   {
    "id": "soria-ya",

@@ -1,5 +1,5 @@
 {
-  "version": "0.3.0",
+  "version": "0.4.0",
   "date": "2026-11-14",
   "election": "Congreso · 29 de noviembre de 2026",
   "questions": [
@@ -974,10 +974,209 @@
           "sourceNote": "Propuesta oficial de campaña publicada por el partido; no es un programa electoral completo."
         }
       }
+    },
+    {
+      "id": "salf",
+      "name": "Se Acabó La Fiesta",
+      "match": "SE ACABÓ LA FIESTA",
+      "aliases": [
+        "SE ACABO LA FIESTA"
+      ],
+      "positions": {
+        "1": {
+          "value": 5,
+          "source": "https://www.seacabolafiesta.com/",
+          "locator": "Compromiso 03 · Impuestos",
+          "reason": "Eleva gradualmente el mínimo exento del IRPF.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional",
+          "sourceNote": "Resumen oficial de campaña. El PDF completo enlazado no pudo verificarse por un error de acceso; solo se codifica el texto de esta página."
+        },
+        "6": {
+          "value": 5,
+          "source": "https://www.seacabolafiesta.com/",
+          "locator": "Compromiso 09 · Educación",
+          "reason": "Cheque escolar también para centros concertados.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional",
+          "sourceNote": "Resumen oficial de campaña. El PDF completo enlazado no pudo verificarse por un error de acceso; solo se codifica el texto de esta página."
+        },
+        "10": {
+          "value": 5,
+          "source": "https://www.seacabolafiesta.com/",
+          "locator": "Compromiso 05 · Pensiones",
+          "reason": "Propone actualización de pensiones con el IPC.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional",
+          "sourceNote": "Resumen oficial de campaña. El PDF completo enlazado no pudo verificarse por un error de acceso; solo se codifica el texto de esta página."
+        },
+        "12": {
+          "value": 1,
+          "source": "https://www.seacabolafiesta.com/",
+          "locator": "Compromiso 10 · Geopolítica",
+          "reason": "Plantea renegociar la UE y someter una eventual salida a referéndum.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional",
+          "sourceNote": "Resumen oficial de campaña. El PDF completo enlazado no pudo verificarse por un error de acceso; solo se codifica el texto de esta página."
+        },
+        "16": {
+          "value": 5,
+          "source": "https://www.seacabolafiesta.com/",
+          "locator": "Compromiso 07 · Corrupción",
+          "reason": "Rechaza indultos por corrupción.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional",
+          "sourceNote": "Resumen oficial de campaña. El PDF completo enlazado no pudo verificarse por un error de acceso; solo se codifica el texto de esta página."
+        },
+        "18": {
+          "value": 5,
+          "source": "https://www.seacabolafiesta.com/",
+          "locator": "Compromiso 08 · Empleo",
+          "reason": "Licencia de actividad por declaración responsable.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional",
+          "sourceNote": "Resumen oficial de campaña. El PDF completo enlazado no pudo verificarse por un error de acceso; solo se codifica el texto de esta página."
+        },
+        "3": {
+          "value": 1,
+          "source": "https://www.seacabolafiesta.com/",
+          "locator": "Compromiso 04 · Inmigración",
+          "reason": "Rechaza regularizaciones masivas.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional",
+          "scoreable": false,
+          "reviewNote": "La prohibición de regularizaciones masivas no define por sí sola el arraigo individual."
+        }
+      }
+    },
+    {
+      "id": "humanista",
+      "name": "Partido Humanista",
+      "match": "PARTIDO HUMANISTA",
+      "positions": {
+        "2": {
+          "value": 5,
+          "source": "https://www.partidohumanista.es/Documentos/Programas/Programa%20Generales%202026.pdf",
+          "locator": "Sección 2, propuesta 3",
+          "reason": "Establece un tope legal de alquiler por código postal.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "4": {
+          "value": 1,
+          "source": "https://www.partidohumanista.es/Documentos/Programas/Programa%20Generales%202026.pdf",
+          "locator": "Sección 3, propuesta 1",
+          "reason": "Propone derogar la colaboración sanitaria público-privada.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "6": {
+          "value": 1,
+          "source": "https://www.partidohumanista.es/Documentos/Programas/Programa%20Generales%202026.pdf",
+          "locator": "Sección 4, propuesta 5",
+          "reason": "Propone no renovar conciertos educativos.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "8": {
+          "value": 5,
+          "source": "https://www.partidohumanista.es/Documentos/Programas/Programa%20Generales%202026.pdf",
+          "locator": "Sección 1, propuesta 3",
+          "reason": "Reduce la jornada a 30 horas sin rebaja salarial.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "13": {
+          "value": 1,
+          "source": "https://www.partidohumanista.es/Documentos/Programas/Programa%20Generales%202026.pdf",
+          "locator": "Sección 6, propuesta 4",
+          "reason": "Reduce el gasto militar a la mitad.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "14": {
+          "value": 5,
+          "source": "https://www.partidohumanista.es/Documentos/Programas/Programa%20Generales%202026.pdf",
+          "locator": "Sección 10, Jefatura del Estado",
+          "reason": "Defiende una jefatura elegida y revocable.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "15": {
+          "value": 5,
+          "source": "https://www.partidohumanista.es/Documentos/Programas/Programa%20Generales%202026.pdf",
+          "locator": "Sección 11, derecho al aborto",
+          "reason": "Garantiza el aborto legal, gratuito y público.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "17": {
+          "value": 5,
+          "source": "https://www.partidohumanista.es/Documentos/Programas/Programa%20Generales%202026.pdf",
+          "locator": "Sección 1, propuesta 2",
+          "reason": "Renta universal para personas adultas residentes, sin distinguir nacionalidad.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        }
+      }
+    },
+    {
+      "id": "iustitia",
+      "name": "Iustitia Europa",
+      "match": "IUSTITIA EUROPA",
+      "positions": {
+        "9": {
+          "value": 5,
+          "source": "https://iustitiaeuropa.es/contrato-electoral/",
+          "locator": "Apartado 12 · Energía",
+          "reason": "Defiende mantener la energía nuclear.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "12": {
+          "value": 1,
+          "source": "https://iustitiaeuropa.es/contrato-electoral/",
+          "locator": "Apartado 5 · Unión Europea",
+          "reason": "Propone recuperar soberanía y consultar una eventual salida de la UE.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        }
+      }
+    },
+    {
+      "id": "d21",
+      "name": "Democracia para el Siglo 21",
+      "match": "(D21)",
+      "positions": {
+        "11": {
+          "value": 5,
+          "source": "https://mi.democracia21.es/programa/derechos-sociales",
+          "locator": "Medida 01 · Feminismo y violencia machista",
+          "reason": "Defiende las políticas y recursos específicos frente a la violencia de género.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "12": {
+          "value": 5,
+          "source": "https://mi.democracia21.es/programa/union-europea",
+          "locator": "Medidas 01–03 · Unión Europea",
+          "reason": "Impulsa supervisión democrática europea, mercado común y defensa compartida.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "15": {
+          "value": 5,
+          "source": "https://mi.democracia21.es/programa/derechos-sociales",
+          "locator": "Medida 02 · Derechos reproductivos",
+          "reason": "Defiende la ley de plazos y el aborto en la sanidad pública.",
+          "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        }
+      }
     }
   ],
   "candidateSource": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23103",
-  "limitations": "Catálogo incompleto: doce formaciones con evidencias parciales (PP, VOX, EAJ-PNV, BNG, coalición canaria, ERC, PACMA, Por un Mundo Más Justo, FE de las JONS, Frente Obrero, Adelante Andalucía y Geroa Bai, esta última a partir de sus bases políticas de campaña). Las demás candidaturas siguen pendientes. Las fuentes que no responden directamente a una pregunta se conservan sin puntuarlas. No permite determinar la máxima afinidad entre todas las candidaturas ni reutiliza programas de 2023 como si fueran de 2026.",
+  "limitations": "Catálogo incompleto: dieciséis formaciones con evidencias parciales. Se incorporan también Democracia 21 e Iustitia Europa desde sus documentos programáticos vigentes en la web de campaña de 2026. SALF (resumen oficial de campaña, PDF completo sin verificar) y Partido Humanista (programa de 2026). Geroa Bai se basa en bases políticas oficiales de campaña. Las demás candidaturas siguen pendientes; ausencia de revisión no implica ausencia de programa. Las evidencias que no responden directamente a la afirmación no puntúan. No permite determinar la máxima afinidad entre todas las candidaturas ni reutiliza programas antiguos como si fueran de 2026.",
   "research": [
     {
       "id": "psoe",

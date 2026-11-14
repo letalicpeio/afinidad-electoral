@@ -103,7 +103,10 @@ for (const p of catalog.parties.filter((x) => x.dataId)) {
   );
   const sources = new Set(Object.values(party.positions).map((x) => x.source));
   assert(
-    sources.has(p.program.url),
+    [...sources].some(source => source === p.program.url || (
+      new URL(source).origin === new URL(p.program.url).origin &&
+      new URL(source).pathname.startsWith(new URL(p.program.url).pathname.replace(/\/$/, '') + '/')
+    )),
     `${p.id}: el enlace del programa no figura entre las fuentes de data.json`,
   );
 }

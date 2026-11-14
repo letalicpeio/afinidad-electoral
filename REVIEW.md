@@ -43,3 +43,9 @@ Son cifras de documentación, no afinidades. Todas las formaciones siguen parcia
 - Navegador: recorrido de dos participantes en A Coruña, resultados con BNG, segundo participante sin opiniones y reapertura de respuestas conservando sus valores.
 
 La prueba de navegador usa respuestas sintéticas, sin datos personales. La primera propuesta se integró en main mediante la PR #1. La ampliación posterior añade ERC (copia del documento en Betevé), PACMA (PDF oficial) y un registro de consultas sin puntuación para PSOE, Podemos, Frente Amplio, EH Bildu y Junts. El catálogo continúa incompleto; no se modifica la configuración del alojamiento.
+
+## Ampliación posterior sobre main 7e05a65
+
+Se conserva el trabajo posterior de los otros agentes. Se incorporan SALF (6 posiciones puntuables y una evidencia de arraigo no puntuable, desde el resumen oficial) y Partido Humanista (8 posiciones puntuables, desde su programa oficial de generales de 2026). La distinción entre resumen y programa completo permanece visible en el comparador. No se han asignado posturas de 2023 ni se ha modificado el umbral del 50 % establecido para mostrar afinidades.
+
+También se verifican las versiones web vigentes de Democracia 21 (3 posiciones) e Iustitia Europa (2 posiciones). Para los programas organizados por páginas, la validación admite fuentes bajo el índice del programa en el mismo origen, conservando enlaces a cada tema concreto.
