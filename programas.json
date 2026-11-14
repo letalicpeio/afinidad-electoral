@@ -18,11 +18,15 @@
    ],
    "website": "https://adelanteandalucia.org/",
    "program": {
-    "status": "sin-revisar",
-    "official": false,
-    "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
-    "checked": "2026-11-14"
-   }
+    "status": "oficial",
+    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+    "title": "Programa completo. Elecciones generales 29N 2026 (PDF)",
+    "official": true,
+    "note": "PDF en un subdominio del partido enlazado desde su web. Existe además un resumen, «Las 29 del 29N».",
+    "checked": "2026-11-14",
+    "checkedAt": "2026-11-14T17:00:43Z"
+   },
+   "dataId": "adelante"
   },
   {
    "id": "agenda-valenciana",
@@ -108,11 +112,15 @@
    ],
    "note": "Coalición: no hereda el programa de sus miembros.",
    "program": {
-    "status": "sin-revisar",
-    "official": false,
-    "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
-    "checked": "2026-11-14"
-   }
+    "status": "no-localizado",
+    "official": true,
+    "consulted": "https://www.chunta.org/la-reclamacion-de-infraestructuras-y-el-derecho-a-una-vivienda-digna-principales-medidas-del-programa-electoral-de-cha-frente-amplio-aragon/",
+    "detail": "La web del partido publica (13/11/2026) las líneas principales de su programa, pero no el documento.",
+    "note": "Las líneas publicadas no responden de forma explícita a las 18 afirmaciones: no se han codificado posiciones.",
+    "checked": "2026-11-14",
+    "checkedAt": "2026-11-14T17:00:43Z"
+   },
+   "website": "https://www.chunta.org/"
   },
   {
    "id": "cc",
@@ -238,7 +246,8 @@
     "official": true,
     "note": "Hay documentos sectoriales; no se han tratado como programa completo de estas elecciones.",
     "detail": "Programa de la convocatoria no localizado en documentos consultados",
-    "checked": "2026-11-14"
+    "checked": "2026-11-14",
+    "checkedAt": "2026-11-14T17:00:43Z"
    }
   },
   {
@@ -358,9 +367,10 @@
     "status": "no-localizado",
     "consulted": "https://frenteamplio.info/noticias/",
     "official": true,
-    "note": "Las notas consultadas no permiten responder directamente a las afirmaciones actuales. No se han extrapolado puntuaciones.",
-    "detail": "Medios mencionan un programa «100+15», pero no se ha localizado el documento oficial.",
-    "checked": "2026-11-14"
+    "note": "Las notas proponen, entre otras medidas, un impuesto a la acumulación de vivienda y pensiones mínimas iguales al salario mínimo, pero ninguna responde de forma explícita a las 18 afirmaciones: no se han codificado posiciones.",
+    "detail": "Sin documento de programa en su web a 14/11/2026. Se han leído sus 13 notas de prensa oficiales de campaña.",
+    "checked": "2026-11-14",
+    "checkedAt": "2026-11-14T17:00:43Z"
    }
   },
   {
@@ -390,11 +400,16 @@
     "GEROA BAI (GBAI)"
    ],
    "program": {
-    "status": "sin-revisar",
-    "official": false,
-    "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
-    "checked": "2026-11-14"
-   }
+    "status": "resumen",
+    "url": "https://geroabai.eus/es/actualidad/geroa-bai-presenta-sus-bases-politicas-para-las-elecciones-generales-con-la-defensa-de-navarra-el-autogobierno-y-el-estado-del-bienestar-como-ejes-centrales",
+    "title": "Bases políticas para las elecciones generales (nota oficial, 14/11/2026)",
+    "official": true,
+    "note": "No es un programa electoral completo: es la nota con la que la coalición presenta sus bases políticas. Solo se ha codificado lo que dice de forma explícita.",
+    "checked": "2026-11-14",
+    "checkedAt": "2026-11-14T17:00:43Z"
+   },
+   "website": "https://geroabai.eus/",
+   "dataId": "geroabai"
   },
   {
    "id": "iustitia",
@@ -466,7 +481,8 @@
     "official": true,
     "note": "La consulta devolvió un error de acceso. No permite afirmar que no exista programa.",
     "detail": "Betevé indica a 13/11/2026 que el programa completo aún no se ha dado a conocer. La consulta directa a la web oficial no fue concluyente.",
-    "checked": "2026-11-14"
+    "checked": "2026-11-14",
+    "checkedAt": "2026-11-14T17:00:43Z"
    }
   },
   {
@@ -737,7 +753,8 @@
     "official": true,
     "note": "La página corresponde a material anterior; se requiere documento específico de 2026.",
     "detail": "Sin documento de programa publicado a 13/11/2026; la prensa recoge cinco ejes presentados por Irene Montero.",
-    "checked": "2026-11-14"
+    "checked": "2026-11-14",
+    "checkedAt": "2026-11-14T17:00:43Z"
    }
   },
   {
@@ -788,7 +805,8 @@
     "official": false,
     "detail": "Betevé indica a 13/11/2026 que aún no ha publicado el programa de estas elecciones.",
     "note": "La fuente es un medio, no la web del partido: no sustituye a comprobarlo en el propio partido.",
-    "checked": "2026-11-14"
+    "checked": "2026-11-14",
+    "checkedAt": "2026-11-14T17:00:43Z"
    }
   },
   {
@@ -864,8 +882,9 @@
     "consulted": "https://www.psoe.es/transparencia/informacion-politica-organizativa/programa/",
     "official": true,
     "note": "El archivo consultado enlaza las generales de 2023. No se ha usado como programa de 2026.",
-    "detail": "La prensa indica a 13/11/2026 que aún no ha publicado el programa de estas elecciones.",
-    "checked": "2026-11-14"
+    "detail": "La prensa indica a 13/11/2026 que aún no ha publicado el programa. Su web bloquea las consultas automáticas, por lo que no se ha podido comprobar directamente el 14/11/2026.",
+    "checked": "2026-11-14",
+    "checkedAt": "2026-11-14T17:00:43Z"
    }
   },
   {
@@ -909,8 +928,9 @@
     "consulted": "https://canal4diario.com/29n/2026/11/13/salf-propone-eliminar-la-cuota-de-autonomos-suprimir-el-ibi-y-rebajar-el-irpf-hasta-los-35-000-euros/",
     "official": false,
     "detail": "La prensa (13/11/2026) describe un documento de 13 páginas con 119 medidas, pero no enlaza al original y no se ha localizado en una web del partido.",
-    "note": "La fuente es un medio, no el partido: no sustituye a comprobarlo en el propio partido. No se han codificado posiciones a partir de la prensa.",
-    "checked": "2026-11-14"
+    "note": "La fuente es un medio, no el partido: no sustituye a comprobarlo en el propio partido. No se han codificado posiciones a partir de la prensa. El dominio salf.es es una página aparcada, no la web del partido.",
+    "checked": "2026-11-14",
+    "checkedAt": "2026-11-14T17:00:43Z"
    }
   },
   {
@@ -921,11 +941,15 @@
     "SORIA ¡YA! (SY)"
    ],
    "program": {
-    "status": "sin-revisar",
-    "official": false,
-    "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
-    "checked": "2026-11-14"
-   }
+    "status": "oficial",
+    "url": "https://soriaya.org/wp-content/uploads/2026/11/ProgramaGenerales_26.pdf",
+    "title": "Programa Generales 2026 (PDF)",
+    "official": true,
+    "note": "Documento de dos páginas con reivindicaciones para Soria. No trata de forma explícita las 18 afirmaciones: no se han codificado posiciones.",
+    "checked": "2026-11-14",
+    "checkedAt": "2026-11-14T17:00:43Z"
+   },
+   "website": "https://soriaya.org/"
   },
   {
    "id": "tercera-edad",
@@ -949,11 +973,15 @@
     "TERUEL EXISTE (TERUEL EXISTE)"
    ],
    "program": {
-    "status": "sin-revisar",
-    "official": false,
-    "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
-    "checked": "2026-11-14"
-   }
+    "status": "oficial",
+    "url": "https://teruelexiste.info/wp-content/uploads/2026/11/Programa_Teruel_Existe_Completo_29N.pdf",
+    "title": "Programa electoral completo 29N (PDF)",
+    "official": true,
+    "note": "Programa centrado en reivindicaciones para la provincia. El texto del PDF no se extrae de forma fiable y no trata de forma explícita las 18 afirmaciones: no se han codificado posiciones.",
+    "checked": "2026-11-14",
+    "checkedAt": "2026-11-14T17:00:43Z"
+   },
+   "website": "https://teruelexiste.info/"
   },
   {
    "id": "upc",
