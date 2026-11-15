@@ -2,11 +2,11 @@
   "schemaVersion": "1.0",
   "catalogId": "podemos",
   "dataId": "podemos",
-  "agent": "gpt",
+  "agent": "claude",
   "baseCommit": "4f7fbd9ab5b675cf5d13114a62c3c9f89d3c8b1f",
-  "reviewed": null,
+  "reviewed": "2026-11-15",
   "prepared": "2026-11-15",
-  "status": "en-curso",
+  "status": "revisado",
   "sources": [
     {
       "id": "podemos-s01",
@@ -28,19 +28,19 @@
     {
       "id": "podemos-s02",
       "url": "https://www.rtve.es/contenidos/documentos/elecciones_europeas_2024/programa_electoral_podemos.pdf",
-      "publisher": "www.rtve.es",
-      "title": "Fuente de posición existente: título pendiente de verificar",
+      "publisher": "Podemos (copia en RTVE)",
+      "title": "Programa electoral. Elecciones europeas 2024",
       "published": null,
-      "accessed": null,
-      "election": "Antecedente de 2024; convocatoria por verificar",
+      "accessed": "2026-11-15",
+      "election": "Elecciones europeas 2024",
       "year": 2024,
       "kind": "programa",
       "origin": "primaria",
       "hosting": "copia-archivo",
       "historical": true,
       "documentVersion": null,
-      "sha256": null,
-      "notes": "Importado de data.json; clasificación provisional. No implica nueva consulta ni verificación de metadatos. ANTECEDENTE DE 2024: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa de elecciones europeas de 2024, copia completa de 130 páginas en RTVE. No es un programa del Congreso."
+      "sha256": "6c49c7c55a77790d9b644bc717e66e8def77372d40bb25be9d2484bf21574db9",
+      "notes": "Copia completa de 130 páginas alojada por RTVE (comparador de programas). Es un programa de elecciones europeas: antecedente de otro ámbito y convocatoria. Páginas del PDF."
     },
     {
       "id": "podemos-s03",
@@ -83,12 +83,12 @@
       "position": null,
       "sourceIds": [],
       "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "evidenceSummary": null,
+      "reason": "El programa de elecciones europeas de 2024 no trata esta afirmación y no hay programa del 29N de 2026.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Esperar el programa de Podemos para el 29N.",
       "replaces": null
     },
     "2": {
@@ -101,9 +101,9 @@
       "evidenceSummary": "Propone reducir por ley los alquileres un 40 % respecto de sus precios actuales. La regulación general comprende también las zonas tensionadas.",
       "reason": "Propone reducir por ley los alquileres un 40 % respecto de sus precios actuales. La regulación general comprende también las zonas tensionadas.",
       "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "reviewNeeded": false,
+      "reviewNote": "Posición de 2026 de fuente secundaria (Idealista/Europa Press), no leída por Claude (acceso bloqueado). El programa europeo de 2024 (PDF p. 37) la corrobora: fijar mecanismos de control para que el alquiler no supere el 30 % de los ingresos.",
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 5,
@@ -120,12 +120,12 @@
       "position": null,
       "sourceIds": [],
       "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "evidenceSummary": null,
+      "reason": "El programa de elecciones europeas de 2024 no trata esta afirmación y no hay programa del 29N de 2026.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Esperar el programa de Podemos para el 29N.",
       "replaces": null
     },
     "4": {
@@ -134,13 +134,13 @@
       "sourceIds": [
         "podemos-s02"
       ],
-      "locator": "Histórico 2024 · PDF p. 33 · Fin de la privatización de la sanidad",
-      "evidenceSummary": "Propone derogar la normativa que permite privatizar servicios sanitarios y prioriza su gestión pública directa.",
-      "reason": "Propone derogar la normativa que permite privatizar servicios sanitarios y prioriza su gestión pública directa.",
+      "locator": "Histórico 2024 · PDF p. 33 · «Fin de la privatización de la sanidad»",
+      "evidenceSummary": "Derogar la normativa que permite la privatización de centros y servicios sanitarios y apoyar la gestión pública directa.",
+      "reason": "Oposición clara; antecedente de elecciones europeas.",
       "confidence": "media",
       "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "reviewNote": "ANTECEDENTE 2024: documento de otra convocatoria; sustituir por el programa de 2026 cuando exista. Verificada en el PDF.",
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 1,
@@ -159,25 +159,27 @@
       "position": null,
       "sourceIds": [],
       "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "evidenceSummary": null,
+      "reason": "El programa de elecciones europeas de 2024 no trata esta afirmación y no hay programa del 29N de 2026.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Esperar el programa de Podemos para el 29N.",
       "replaces": null
     },
     "6": {
-      "status": "sin-evidencia",
+      "status": "en-revision",
       "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "sourceIds": [
+        "podemos-s02"
+      ],
+      "locator": "Histórico 2024 · PDF p. 32",
+      "evidenceSummary": "Cita los sistemas educativos con fuerte presencia de educación concertada como ejemplo de segregación y propone gratuidad en centros públicos.",
+      "reason": "Crítica a la concertada como factor de segregación, sin proponer expresamente suprimir su financiación.",
       "confidence": "baja",
       "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNote": "Lectura provisional contraria (1–2). ANTECEDENTE 2024: documento de otra convocatoria; sustituir por el programa de 2026 cuando exista.",
+      "nextAction": null,
       "replaces": null
     },
     "7": {
@@ -185,25 +187,27 @@
       "position": null,
       "sourceIds": [],
       "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "evidenceSummary": null,
+      "reason": "El programa de elecciones europeas de 2024 no trata esta afirmación y no hay programa del 29N de 2026.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Esperar el programa de Podemos para el 29N.",
       "replaces": null
     },
     "8": {
-      "status": "sin-evidencia",
+      "status": "en-revision",
       "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "sourceIds": [
+        "podemos-s02"
+      ],
+      "locator": "Histórico 2024 · PDF p. 39 · Capítulo 6",
+      "evidenceSummary": "Estrategia europea para reducir la jornada laboral a 30 horas semanales.",
+      "reason": "Propuesta para el ámbito europeo; el texto leído no precisa que sea sin reducción salarial.",
       "confidence": "baja",
       "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNote": "Lectura provisional favorable (4–5). ANTECEDENTE 2024: documento de otra convocatoria; sustituir por el programa de 2026 cuando exista.",
+      "nextAction": null,
       "replaces": null
     },
     "9": {
@@ -212,13 +216,13 @@
       "sourceIds": [
         "podemos-s02"
       ],
-      "locator": "Histórico 2024 · PDF p. 77 · Soberanía energética",
-      "evidenceSummary": "Propone una hoja de ruta para abandonar la energía nuclear de fisión en la UE.",
-      "reason": "Propone una hoja de ruta para abandonar la energía nuclear de fisión en la UE.",
+      "locator": "Histórico 2024 · PDF p. 64",
+      "evidenceSummary": "Objetivos de cierre de las centrales de carbón y de las centrales nucleares, con garantía de empleo.",
+      "reason": "Oposición clara; antecedente europeo. La ficha importada citaba la p. 77.",
       "confidence": "media",
       "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "reviewNote": "ANTECEDENTE 2024: documento de otra convocatoria; sustituir por el programa de 2026 cuando exista. Verificada en el PDF (p. 64).",
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 1,
@@ -237,12 +241,12 @@
       "position": null,
       "sourceIds": [],
       "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "evidenceSummary": null,
+      "reason": "El programa de elecciones europeas de 2024 no trata esta afirmación y no hay programa del 29N de 2026.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Esperar el programa de Podemos para el 29N.",
       "replaces": null
     },
     "11": {
@@ -251,13 +255,13 @@
       "sourceIds": [
         "podemos-s02"
       ],
-      "locator": "Histórico 2024 · PDF p. 22 · Solo sí es sí",
-      "evidenceSummary": "Propone reforzar la legislación europea específica contra las violencias machistas y sexuales.",
-      "reason": "Propone reforzar la legislación europea específica contra las violencias machistas y sexuales.",
+      "locator": "Histórico 2024 · PDF p. 22",
+      "evidenceSummary": "Prevención, detección precoz y plan integral de reparación para mujeres que sufren violencias machistas, más fondos y coordinación.",
+      "reason": "Apoyo claro; antecedente europeo.",
       "confidence": "media",
       "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "reviewNote": "ANTECEDENTE 2024: documento de otra convocatoria; sustituir por el programa de 2026 cuando exista. Verificada en el PDF.",
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 5,
@@ -277,13 +281,13 @@
       "sourceIds": [
         "podemos-s02"
       ],
-      "locator": "Histórico 2024 · PDF pp. 12–13 · Democratización de las instituciones",
-      "evidenceSummary": "Propone un nuevo tratado europeo, plenas facultades legislativas para el Parlamento y control parlamentario de la Comisión.",
-      "reason": "Propone un nuevo tratado europeo, plenas facultades legislativas para el Parlamento y control parlamentario de la Comisión.",
+      "locator": "Histórico 2024 · PDF p. 122",
+      "evidenceSummary": "Defiende un ejército europeo con orientación federal y defensiva, y la democratización de las instituciones europeas.",
+      "reason": "Apoyo claro a integración, con carácter federal; antecedente europeo.",
       "confidence": "media",
       "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "reviewNote": "ANTECEDENTE 2024: documento de otra convocatoria; sustituir por el programa de 2026 cuando exista. La ficha importada citaba pp. 12–13; verificada la p. 122.",
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 5,
@@ -307,9 +311,9 @@
       "evidenceSummary": "Propone reasignar a políticas sociales el incremento del gasto militar desde 2023; se opone a aumentar ese gasto.",
       "reason": "Propone reasignar a políticas sociales el incremento del gasto militar desde 2023; se opone a aumentar ese gasto.",
       "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "reviewNeeded": false,
+      "reviewNote": "Posición de 2026 de fuente secundaria (Europa Press), no leída por Claude (acceso bloqueado).",
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 1,
@@ -326,27 +330,27 @@
       "position": null,
       "sourceIds": [],
       "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "evidenceSummary": null,
+      "reason": "El programa de elecciones europeas de 2024 no trata esta afirmación y no hay programa del 29N de 2026.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Esperar el programa de Podemos para el 29N.",
       "replaces": null
     },
     "15": {
       "status": "documentada",
       "position": 5,
       "sourceIds": [
-        "podemos-s04"
+        "podemos-s02"
       ],
-      "locator": "Histórico 2024 · Europeas 2024 · Nuestras prioridades · Feminismo",
-      "evidenceSummary": "Defiende el aborto libre, seguro y gratuito en toda la Unión Europea.",
-      "reason": "Defiende el aborto libre, seguro y gratuito en toda la Unión Europea.",
+      "locator": "Histórico 2024 · PDF p. 20",
+      "evidenceSummary": "Inclusión del derecho al aborto y de la salud sexual y reproductiva en la Carta de Derechos Fundamentales de la UE.",
+      "reason": "Apoyo claro; antecedente europeo.",
       "confidence": "media",
       "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "reviewNote": "ANTECEDENTE 2024: documento de otra convocatoria; sustituir por el programa de 2026 cuando exista. Verificada en el PDF.",
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 5,
@@ -365,12 +369,12 @@
       "position": null,
       "sourceIds": [],
       "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "evidenceSummary": null,
+      "reason": "El programa de elecciones europeas de 2024 no trata esta afirmación y no hay programa del 29N de 2026.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Esperar el programa de Podemos para el 29N.",
       "replaces": null
     },
     "17": {
@@ -378,12 +382,12 @@
       "position": null,
       "sourceIds": [],
       "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "evidenceSummary": null,
+      "reason": "El programa de elecciones europeas de 2024 no trata esta afirmación y no hay programa del 29N de 2026.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Esperar el programa de Podemos para el 29N.",
       "replaces": null
     },
     "18": {
@@ -391,12 +395,12 @@
       "position": null,
       "sourceIds": [],
       "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "evidenceSummary": null,
+      "reason": "El programa de elecciones europeas de 2024 no trata esta afirmación y no hay programa del 29N de 2026.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Esperar el programa de Podemos para el 29N.",
       "replaces": null
     }
   },
@@ -405,6 +409,26 @@
       "date": "2026-11-15",
       "urlOrQuery": "git:4f7fbd9ab5b675cf5d13114a62c3c9f89d3c8b1f:data.json",
       "outcome": "Importación de línea base existente, sin nuevas búsquedas declaradas."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "https://www.rtve.es/contenidos/documentos/elecciones_europeas_2024/programa_electoral_podemos.pdf",
+      "outcome": "Descarga correcta (HTTP 200, 756 KB, 130 páginas); verificadas las posiciones 4, 9, 11, 12 y 15 y añadidas 6 y 8."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "https://podemos.info/",
+      "outcome": "Portada accesible; sin programa del 29N."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "https://www.europapress.es/ (noticia de 06/11/2026 y la de Idealista de 17/09/2026)",
+      "outcome": "Bloqueadas para la lectura web; las posiciones 2 y 13 no se han podido verificar."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "Traspaso del usuario",
+      "outcome": "Traspaso acordado por el usuario (15/11/2026): ficha completada por Claude a partir del esqueleto preparado por GPT."
     }
   ],
   "integration": {

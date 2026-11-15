@@ -2,9 +2,9 @@
   "schemaVersion": "1.0",
   "catalogId": "psoe",
   "dataId": "psoe",
-  "agent": "gpt",
+  "agent": "claude",
   "baseCommit": "4f7fbd9ab5b675cf5d13114a62c3c9f89d3c8b1f",
-  "reviewed": null,
+  "reviewed": "2026-11-15",
   "prepared": "2026-11-15",
   "status": "en-curso",
   "sources": [
@@ -100,12 +100,12 @@
       "position": null,
       "sourceIds": [],
       "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "evidenceSummary": null,
+      "reason": "No verificada: las fuentes de 2023 del PSOE están bloqueadas para clientes automatizados y no existe programa de 2026 publicado. No se afirma ausencia de propuesta.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Abrir el PDF de 2023 desde un navegador convencional para verificar y completar los huecos.",
       "replaces": null
     },
     "2": {
@@ -119,7 +119,7 @@
       "reason": "Propone reforzar la intervención en zonas tensionadas mediante la Ley de Vivienda y sus límites al alquiler.",
       "confidence": "media",
       "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta.  [Importada; no reverificada por Claude en el traspaso.]",
       "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
       "replaces": null,
       "baselinePosition": {
@@ -143,7 +143,7 @@
       "reason": "Defiende las figuras de arraigo y su ampliación.",
       "confidence": "media",
       "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta.  [Importada; no reverificada por Claude en el traspaso.]",
       "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
       "replaces": null,
       "baselinePosition": {
@@ -163,12 +163,12 @@
       "position": null,
       "sourceIds": [],
       "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "evidenceSummary": null,
+      "reason": "No verificada: las fuentes de 2023 del PSOE están bloqueadas para clientes automatizados y no existe programa de 2026 publicado. No se afirma ausencia de propuesta.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Abrir el PDF de 2023 desde un navegador convencional para verificar y completar los huecos.",
       "replaces": null
     },
     "5": {
@@ -176,12 +176,12 @@
       "position": null,
       "sourceIds": [],
       "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "evidenceSummary": null,
+      "reason": "No verificada: las fuentes de 2023 del PSOE están bloqueadas para clientes automatizados y no existe programa de 2026 publicado. No se afirma ausencia de propuesta.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Abrir el PDF de 2023 desde un navegador convencional para verificar y completar los huecos.",
       "replaces": null
     },
     "6": {
@@ -189,12 +189,12 @@
       "position": null,
       "sourceIds": [],
       "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "evidenceSummary": null,
+      "reason": "No verificada: las fuentes de 2023 del PSOE están bloqueadas para clientes automatizados y no existe programa de 2026 publicado. No se afirma ausencia de propuesta.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Abrir el PDF de 2023 desde un navegador convencional para verificar y completar los huecos.",
       "replaces": null
     },
     "7": {
@@ -202,12 +202,12 @@
       "position": null,
       "sourceIds": [],
       "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "evidenceSummary": null,
+      "reason": "No verificada: las fuentes de 2023 del PSOE están bloqueadas para clientes automatizados y no existe programa de 2026 publicado. No se afirma ausencia de propuesta.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Abrir el PDF de 2023 desde un navegador convencional para verificar y completar los huecos.",
       "replaces": null
     },
     "8": {
@@ -221,7 +221,7 @@
       "reason": "Compromete la reducción de la jornada máxima legal a 37,5 horas manteniendo el salario.",
       "confidence": "media",
       "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta.  [Importada; no reverificada por Claude en el traspaso.]",
       "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
       "replaces": null,
       "baselinePosition": {
@@ -247,7 +247,7 @@
       "reason": "Prevé desmantelar progresivamente las centrales nucleares.",
       "confidence": "media",
       "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta.  [Importada; no reverificada por Claude en el traspaso.]",
       "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
       "replaces": null,
       "baselinePosition": {
@@ -273,7 +273,7 @@
       "reason": "Sánchez se compromete expresamente a revalorizar las pensiones conforme al IPC.",
       "confidence": "media",
       "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta.  [Importada; no reverificada por Claude en el traspaso.]",
       "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
       "replaces": null,
       "baselinePosition": {
@@ -297,7 +297,7 @@
       "reason": "Defiende el marco específico contra la violencia de género y propone ampliar los agentes y herramientas de VioGén.",
       "confidence": "media",
       "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta.  [Importada; no reverificada por Claude en el traspaso.]",
       "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
       "replaces": null,
       "baselinePosition": {
@@ -323,7 +323,7 @@
       "reason": "Propone decisiones europeas de política exterior y seguridad por mayoría cualificada.",
       "confidence": "media",
       "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta.  [Importada; no reverificada por Claude en el traspaso.]",
       "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
       "replaces": null,
       "baselinePosition": {
@@ -349,7 +349,7 @@
       "reason": "Propone reforzar el presupuesto de Defensa para cumplir el incremento de inversiones comprometido internacionalmente.",
       "confidence": "media",
       "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta.  [Importada; no reverificada por Claude en el traspaso.]",
       "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
       "replaces": null,
       "baselinePosition": {
@@ -369,12 +369,12 @@
       "position": null,
       "sourceIds": [],
       "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "evidenceSummary": null,
+      "reason": "No verificada: las fuentes de 2023 del PSOE están bloqueadas para clientes automatizados y no existe programa de 2026 publicado. No se afirma ausencia de propuesta.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Abrir el PDF de 2023 desde un navegador convencional para verificar y completar los huecos.",
       "replaces": null
     },
     "15": {
@@ -388,7 +388,7 @@
       "reason": "Se compromete a proteger el derecho al aborto en la Constitución durante la próxima legislatura.",
       "confidence": "media",
       "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta.  [Importada; no reverificada por Claude en el traspaso.]",
       "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
       "replaces": null,
       "baselinePosition": {
@@ -406,12 +406,12 @@
       "position": null,
       "sourceIds": [],
       "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "evidenceSummary": null,
+      "reason": "No verificada: las fuentes de 2023 del PSOE están bloqueadas para clientes automatizados y no existe programa de 2026 publicado. No se afirma ausencia de propuesta.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Abrir el PDF de 2023 desde un navegador convencional para verificar y completar los huecos.",
       "replaces": null
     },
     "17": {
@@ -419,12 +419,12 @@
       "position": null,
       "sourceIds": [],
       "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "evidenceSummary": null,
+      "reason": "No verificada: las fuentes de 2023 del PSOE están bloqueadas para clientes automatizados y no existe programa de 2026 publicado. No se afirma ausencia de propuesta.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Abrir el PDF de 2023 desde un navegador convencional para verificar y completar los huecos.",
       "replaces": null
     },
     "18": {
@@ -438,7 +438,7 @@
       "reason": "Propone reducir las cargas administrativas empresariales.",
       "confidence": "media",
       "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta.  [Importada; no reverificada por Claude en el traspaso.]",
       "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
       "replaces": null,
       "baselinePosition": {
@@ -459,6 +459,31 @@
       "date": "2026-11-15",
       "urlOrQuery": "git:4f7fbd9ab5b675cf5d13114a62c3c9f89d3c8b1f:data.json",
       "outcome": "Importación de línea base existente, sin nuevas búsquedas declaradas."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "https://www.psoe.es/media-content/2023/07/PROGRAMA_ELECTORAL-GENERALES-2023.pdf",
+      "outcome": "HTTP 200 pero el contenido es una página HTML de 212 bytes (cortafuegos Incapsula): no se pudo leer. Las posiciones históricas de 2023 no se han verificado."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "https://www.psoe.es/media-content/2023/10/ACUERDO_GOBIERNO_COALICIO%CC%81N_2023-DEF.pdf",
+      "outcome": "Mismo bloqueo; no leído."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "https://www.psoe.es/programa-electoral/ y /transparencia/informacion-politica-organizativa/programa/",
+      "outcome": "Páginas vacías para clientes automatizados, también en el navegador integrado."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "Búsquedas web «PSOE programa electoral 29N 2026»",
+      "outcome": "Los medios indican a 13/11/2026 que el programa no está publicado."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "Traspaso del usuario",
+      "outcome": "Traspaso acordado por el usuario (15/11/2026): ficha completada por Claude a partir del esqueleto preparado por GPT."
     }
   ],
   "integration": {
