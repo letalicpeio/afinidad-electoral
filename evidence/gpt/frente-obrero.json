@@ -318,13 +318,15 @@
       }
     },
     "17": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "La búsqueda de prestaciones y ayudas sociales a extranjeros sólo devuelve pasajes de sanidad.",
-      "confidence": "baja",
+      "status": "documentada",
+      "position": 2,
+      "sourceIds": [
+        "frente-obrero-s01"
+      ],
+      "locator": "PDF p. 46 (impreso); apartado 15 Vivienda, medida 5",
+      "evidenceSummary": "Enfocar el acceso a la vivienda pública hacia los españoles autóctonos y cambiar las ayudas, que «se suele priorizar al extranjero».",
+      "reason": "Oposición con matices: pide priorizar a los españoles en vivienda pública y ayudas, no excluir a todos los extranjeros (a diferencia de FE de las JONS).",
+      "confidence": "media",
       "reviewNeeded": false,
       "reviewNote": null,
       "nextAction": null,
@@ -369,7 +371,7 @@
     }
   ],
   "integration": {
-    "status": "integrado",
-    "commit": "3a56c4c988e0edd6164982d94be99cbbf1c707c7"
+    "status": "pendiente",
+    "commit": null
   }
 }

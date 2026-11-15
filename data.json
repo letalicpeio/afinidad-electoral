@@ -1,5 +1,5 @@
 {
-  "version": "0.5.10",
+  "version": "0.5.11",
   "date": "2026-11-15",
   "election": "Congreso · 29 de noviembre de 2026",
   "questions": [
@@ -950,6 +950,14 @@
           "source": "https://frenteobrero.es/documentos/programa-frente-obrero.pdf",
           "locator": "PDF p. 11; apartado de soberanía nacional",
           "reason": "Oposición clara.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional"
+        },
+        "17": {
+          "value": 2,
+          "source": "https://frenteobrero.es/documentos/programa-frente-obrero.pdf",
+          "locator": "PDF p. 46 (impreso); apartado 15 Vivienda, medida 5",
+          "reason": "Pide priorizar a los españoles en vivienda pública y ayudas, sin excluir a todos los extranjeros.",
           "reviewed": "2026-11-15",
           "coding": "Interpretación editorial provisional"
         }
