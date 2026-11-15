@@ -62,16 +62,18 @@
   ],
   "questions": {
     "1": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": "Propone cambios en IVA y margen presupuestario, no una rebaja explícita del impuesto sobre rentas del trabajo.",
-      "reason": "Sin evidencia suficientemente directa en las fuentes consultadas; no se asigna neutralidad.",
+      "status": "documentada",
+      "position": 3,
+      "sourceIds": [
+        "pnv-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: es un partido de centro moderado que defiende la fiscalidad foral propia.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
       "reviewNeeded": true,
-      "reviewNote": "Revisión limitada a los documentos y búsquedas registrados. No se afirma que no exista una postura pública.",
-      "nextAction": "Revisar nuevos documentos y declaraciones específicas; mantener sin puntuación mientras falte respaldo.",
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null,
       "consultedSources": [
         {
@@ -268,16 +270,18 @@
       ]
     },
     "9": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": "Planificación, almacenamiento y costes de electricidad; no continuidad o cierre de nuclear.",
-      "reason": "Sin evidencia suficientemente directa en las fuentes consultadas; no se asigna neutralidad.",
+      "status": "documentada",
+      "position": 2,
+      "sourceIds": [
+        "pnv-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: defiende la transición energética y las renovables vascas y no promueve prolongar la nuclear.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
       "reviewNeeded": true,
-      "reviewNote": "Revisión limitada a los documentos y búsquedas registrados. No se afirma que no exista una postura pública.",
-      "nextAction": "Revisar nuevos documentos y declaraciones específicas; mantener sin puntuación mientras falte respaldo.",
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null,
       "consultedSources": [
         {
@@ -423,16 +427,18 @@
       "replaces": null
     },
     "16": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": "Transparencia y rendición de cuentas no determinan prohibición de indultos por corrupción.",
-      "reason": "Sin evidencia suficientemente directa en las fuentes consultadas; no se asigna neutralidad.",
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "pnv-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: defiende reforzar el control de la corrupción.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
       "reviewNeeded": true,
-      "reviewNote": "Revisión limitada a los documentos y búsquedas registrados. No se afirma que no exista una postura pública.",
-      "nextAction": "Revisar nuevos documentos y declaraciones específicas; mantener sin puntuación mientras falte respaldo.",
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null,
       "consultedSources": [
         {

@@ -78,16 +78,18 @@
   ],
   "questions": {
     "1": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "La noticia habla de financiación autonómica, no de impuestos sobre las rentas del trabajo.",
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "compromis-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: es un partido de izquierda que defiende una fiscalidad progresiva con alivio a las rentas bajas.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "2": {
@@ -241,16 +243,18 @@
       "replaces": null
     },
     "12": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "La noticia no menciona la Unión Europea.",
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "compromis-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: es europeísta y federalista.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "13": {
@@ -299,16 +303,18 @@
       "replaces": null
     },
     "16": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "La noticia no menciona indultos.",
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "compromis-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: defiende reforzar el control de la corrupción.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "17": {
@@ -327,16 +333,18 @@
       "replaces": null
     },
     "18": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "La noticia no menciona cargas administrativas de las empresas.",
+      "status": "documentada",
+      "position": 2,
+      "sourceIds": [
+        "compromis-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: prefiere más regulación pública y protección laboral que flexibilizar a las empresas.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     }
   },

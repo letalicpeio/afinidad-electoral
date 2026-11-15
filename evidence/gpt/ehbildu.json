@@ -314,16 +314,18 @@
       "replaces": null
     },
     "16": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "No verificada: el programa de 2023 sólo es accesible mediante el explorador de Manifesto y no existe programa del 29N publicado. No se afirma ausencia de propuesta.",
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "ehbildu-s02"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: defiende reforzar el control de la corrupción.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": "Consultar el explorador de Manifesto desde un navegador y completar los huecos.",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "17": {

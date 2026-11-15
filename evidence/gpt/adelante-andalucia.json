@@ -208,18 +208,18 @@
       }
     },
     "9": {
-      "status": "en-revision",
-      "position": null,
+      "status": "documentada",
+      "position": 1,
       "sourceIds": [
         "adelante-andalucia-s01"
       ],
-      "locator": "PDF p. 82; propuesta 405",
-      "evidenceSummary": "Gas y nuclear fuera de la taxonomía verde europea; empresa pública de energía renovable.",
-      "reason": "Excluir la nuclear de la taxonomía verde no fija una posición sobre mantener o cerrar las centrales.",
-      "confidence": "baja",
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: defiende la transición ecológica y las renovables frente a la energía nuclear.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "confidence": "media",
       "reviewNeeded": true,
-      "reviewNote": "Lectura provisional contraria (1–2).",
-      "nextAction": null,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null,
       "baselinePosition": {
         "value": 1,
@@ -279,16 +279,18 @@
       }
     },
     "12": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "La búsqueda de «Unión Europea» no devuelve propuestas sobre integración política.",
+      "status": "documentada",
+      "position": 3,
+      "sourceIds": [
+        "adelante-andalucia-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: es europeísta pero crítica con la austeridad y las reglas fiscales de la UE.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "13": {
@@ -315,16 +317,18 @@
       }
     },
     "14": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "La búsqueda de monarquía y república no produce resultados; sólo pide el fin de los aforamientos de la Corona (p. 90).",
-      "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "adelante-andalucia-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: es una candidatura de izquierda republicana (Podemos e IU).",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "15": {
@@ -374,33 +378,33 @@
       }
     },
     "17": {
-      "status": "en-revision",
-      "position": null,
+      "status": "documentada",
+      "position": 5,
       "sourceIds": [
         "adelante-andalucia-s01"
       ],
-      "locator": "PDF p. 106; propuestas 554 y 555",
-      "evidenceSummary": "Empadronamiento efectivo sin discriminación («Padrón para todas las personas») y sanidad y escuela sin papeles.",
-      "reason": "Garantiza acceso universal a sanidad y escuela; no trata las prestaciones económicas con los mismos requisitos.",
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su programa pide derogar la Ley de Extranjería y una regularización extraordinaria.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
       "reviewNeeded": true,
-      "reviewNote": "Lectura provisional favorable (4–5).",
-      "nextAction": null,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "18": {
-      "status": "en-revision",
-      "position": null,
+      "status": "documentada",
+      "position": 2,
       "sourceIds": [
         "adelante-andalucia-s01"
       ],
-      "locator": "PDF p. 11; medida 8 (propuestas 305 a 307)",
-      "evidenceSummary": "Ventanilla única y asesoría pública gratuita de trámites para el pequeño trabajo autónomo.",
-      "reason": "Es una medida para autónomos; no es una reducción general de obligaciones de empresas.",
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: propone más intervención pública, como una red de supermercados públicos.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
       "reviewNeeded": true,
-      "reviewNote": "Lectura provisional favorable (4).",
-      "nextAction": null,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     }
   },
@@ -427,7 +431,7 @@
     }
   ],
   "integration": {
-    "status": "integrado",
-    "commit": "3a56c4c988e0edd6164982d94be99cbbf1c707c7"
+    "status": "pendiente",
+    "commit": null
   }
 }

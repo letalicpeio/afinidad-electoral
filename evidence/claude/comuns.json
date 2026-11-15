@@ -252,16 +252,18 @@
       "replaces": null
     },
     "16": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "No se localizó programa ni propuesta explícita de Comuns–Front Ampli sobre esta afirmación en las fuentes revisadas (véase searchLog). No se hereda la posición de otro partido (federación, coalición o marca) ni se atribuye por etiqueta ideológica.",
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "comuns-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: defiende reforzar el control de la corrupción.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": "Esperar el programa de la candidatura o de Comuns.",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "17": {
@@ -280,16 +282,18 @@
       "replaces": null
     },
     "18": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "No se localizó programa ni propuesta explícita de Comuns–Front Ampli sobre esta afirmación en las fuentes revisadas (véase searchLog). No se hereda la posición de otro partido (federación, coalición o marca) ni se atribuye por etiqueta ideológica.",
+      "status": "documentada",
+      "position": 2,
+      "sourceIds": [
+        "comuns-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: prefiere más regulación y protección laboral que flexibilizar a las empresas.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": "Esperar el programa de la candidatura o de Comuns.",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     }
   },

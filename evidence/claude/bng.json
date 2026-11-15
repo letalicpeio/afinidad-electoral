@@ -282,16 +282,18 @@
       "replaces": null
     },
     "18": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "La única propuesta de reducir burocracia (p. 53) es para la investigación científica, no para las empresas.",
+      "status": "documentada",
+      "position": 2,
+      "sourceIds": [
+        "bng-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: defiende más intervención pública y protección laboral en la economía.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     }
   },

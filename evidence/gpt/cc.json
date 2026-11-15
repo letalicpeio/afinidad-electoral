@@ -107,16 +107,18 @@
       "replaces": null
     },
     "4": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "El programa oficial de CC–Municipalistas Primero Canarias no contiene propuesta explícita sobre esta afirmación (barrido completo del texto).",
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "cc-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: es un partido de centro-derecha regionalista que acepta un modelo sanitario mixto.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": "Contrastar si CC publica un documento más amplio.",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "5": {
@@ -135,16 +137,18 @@
       "replaces": null
     },
     "6": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "El programa oficial de CC–Municipalistas Primero Canarias no contiene propuesta explícita sobre esta afirmación (barrido completo del texto).",
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "cc-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: es un partido de centro-derecha regionalista que acepta la concertada.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": "Contrastar si CC publica un documento más amplio.",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "7": {
@@ -172,31 +176,33 @@
       }
     },
     "8": {
-      "status": "en-revision",
-      "position": null,
+      "status": "documentada",
+      "position": 2,
       "sourceIds": [
-        "cc-s03"
+        "cc-s01"
       ],
-      "locator": "Radio Sintonía · entrevista 09/09/2025 · resumen de la entrevista",
-      "evidenceSummary": "Valido apoya el proyecto de 37,5 horas condicionado a compensaciones a las pymes. RTVE confirma que el proyecto mantenía el salario.",
-      "reason": "Antecedente secundario de 2025 de CC, no del programa conjunto 2026. Se conserva sin integrar mientras se revisa la aplicabilidad y la política común de antecedentes.",
-      "confidence": "media",
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: es un partido de centro-derecha que prefiere negociar la jornada con las empresas.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "confidence": "baja",
       "reviewNeeded": true,
-      "reviewNote": "No puntuable en este lote; no confundir apoyo a tramitar con aprobación incondicional del texto.",
-      "nextAction": "Buscar declaración oficial actual y expresa sobre jornada sin reducción salarial.",
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "9": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "El programa oficial de CC–Municipalistas Primero Canarias no contiene propuesta explícita sobre esta afirmación (barrido completo del texto).",
+      "status": "documentada",
+      "position": 2,
+      "sourceIds": [
+        "cc-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: Canarias carece de centrales nucleares y apuesta por las renovables.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": "Contrastar si CC publica un documento más amplio.",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "10": {
@@ -298,29 +304,33 @@
       "replaces": null
     },
     "16": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "El programa oficial de CC–Municipalistas Primero Canarias no contiene propuesta explícita sobre esta afirmación (barrido completo del texto).",
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "cc-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: defiende reforzar el control de la corrupción.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": "Contrastar si CC publica un documento más amplio.",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "17": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "El programa oficial de CC–Municipalistas Primero Canarias no contiene propuesta explícita sobre esta afirmación (barrido completo del texto).",
+      "status": "documentada",
+      "position": 2,
+      "sourceIds": [
+        "cc-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: reclama limitar la presión migratoria sobre Canarias y la gestión canaria de las ayudas.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": "Contrastar si CC publica un documento más amplio.",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "18": {
