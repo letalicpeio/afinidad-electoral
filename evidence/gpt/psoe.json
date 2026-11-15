@@ -518,7 +518,7 @@
     }
   ],
   "integration": {
-    "status": "pendiente",
-    "commit": null
+    "status": "integrado",
+    "commit": "813844d4d94b1e42b02867a53c33ce81368c4dbd"
   }
 }
