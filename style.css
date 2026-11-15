@@ -11,3 +11,4 @@
 .onlydoc{display:flex;gap:10px;align-items:flex-start;margin:12px 0;font-size:15px;cursor:pointer}.onlydoc input{margin-top:4px;width:18px;height:18px;flex-shrink:0}
 .onlydoc-help{margin:0 0 14px 28px;color:var(--muted)}
 .resultrow p.clash{color:#8a1c1c;font-weight:600}
+.resultrow .meta{margin:8px 0 4px}.clash{color:#8a1c1c;font-weight:600}.tier{display:inline-block;border-radius:5px;padding:1px 7px;font-size:12px;font-weight:600;background:#edf1e5;color:var(--ink)}.tier-secundaria{background:#fff5da;color:#63501b}.tier-historico{background:#e8eefc;color:#1f3a73}.tier-inferido{background:#f2e6f5;color:#5b2a6b}.resultrow details{margin:10px 0 0}.resultrow .evidence p{margin:3px 0}

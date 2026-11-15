@@ -1,5 +1,5 @@
 import { findParty } from "./catalog.mjs";
-import { score, sharedIds, isScorablePosition, MIN_COVERAGE, WARN_COVERAGE, showAffinity, tierCounts } from "./scoring.mjs";
+import { score, sharedIds, isScorablePosition, MIN_COVERAGE, WARN_COVERAGE, showAffinity, tierCounts, evidenceTier } from "./scoring.mjs";
 const $ = (s) => document.querySelector(s),
   el = (t, text, cls) => {
     const e = document.createElement(t);
@@ -227,29 +227,6 @@ function renderResults(keep = false) {
         head.append(el("b", shown ? `${++rank}. ${label}` : label));
         if (shown) head.append(el("span", fmt(result.affinity), "metric"));
         row.append(head);
-        const t = tierCounts(result.details), src = [];
-        if (t.oficial) src.push(`${t.oficial} oficial${t.oficial === 1 ? "" : "es"}`);
-        if (t.secundaria) src.push(`${t.secundaria} de prensa`);
-        if (t.inferido) src.push(`${t.inferido} inferida${t.inferido === 1 ? "" : "s"}`);
-        if (t.historico) src.push(`${t.historico} antecedente${t.historico === 1 ? "" : "s"}${t.years.length ? " de " + t.years.join("/") : ""}`);
-        row.append(el("p", result.count
-          ? `Cobertura ${fmt(result.coverage)} · ${result.count} ${result.count === 1 ? "tema" : "temas"}${src.length ? " (" + src.join(", ") + ")" : ""}${shown && result.coverage < 60 ? " · ⚠ parcial" : ""}${shown ? "" : " · sin porcentaje: cobertura inferior al " + MIN_COVERAGE + " %"}`
-          : "Ninguno de tus temas tiene posición documentada.", shown && result.coverage < 60 ? "small warning" : "small"));
-        {
-          const clash = result.details
-            .filter((d) => d.weight >= 4 && Math.abs(d.answer - d.position) >= 3)
-            .map((d) => data.questions.find((q) => q.id === d.id).topic);
-          if (clash.length)
-            row.append(el("p", `⚠ Choca con lo que más te importa: ${clash.slice(0, 3).join(", ")}${clash.length > 3 ? ` y ${clash.length - 3} más` : ""}.`, "small clash"));
-        }
-        {
-          const used = new Set(result.details.map((d) => d.id));
-          const miss = data.questions
-            .filter((q) => Number.isInteger(person.answers[q.id]) && !used.has(q.id) && (person.weights[q.id] || 0) >= 4)
-            .map((q) => q.topic);
-          if (miss.length)
-            row.append(el("p", `Sin dato, no cuentan en el %: ${miss.slice(0, 3).join(", ")}${miss.length > 3 ? ` y ${miss.length - 3} más` : ""}.`, "small warning"));
-        }
         if (shown) {
           const bar = el("div", null, "bar"),
             fill = el("div", null, "fill");
@@ -257,41 +234,70 @@ function renderResults(keep = false) {
           bar.append(fill);
           row.append(bar);
         }
-        const details = el("details"),
-          summary = el("summary", "Ver detalle, rango y fuentes");
-        details.append(summary);
-        if (shown) {
-          details.append(el("p", common.length
-            ? `Sobre ${common.length} ${common.length === 1 ? "pregunta común" : "preguntas comunes"} a las candidaturas analizadas: ${fmt(commonResult.affinity)}. Comparación también incompleta.`
-            : "No hay preguntas puntuables comunes para comparar al menos dos candidaturas.", "small"));
-          if (result.bounds) details.append(el("p",
-            `Con tus temas sin posición documentada, la afinidad podría estar entre ${fmt(result.bounds.lower)} y ${fmt(result.bounds.upper)} (rango matemático, no probabilidad).`, "small"));
-        }
-        if (t.secundaria || t.historico || t.inferido)
-          details.append(el("p", "La información oficial actual prevalece; prensa, antecedentes y posiciones inferidas solo cubren temas sin evidencia oficial reciente." + (t.inferido ? " Una posición inferida es una deducción editorial a partir de otras posiciones o votaciones del partido, no una declaración suya." : ""), "small"));
-        for (const d of result.details) {
-          const ev = el("div", null, "evidence"),
-            q = data.questions.find((q) => q.id === d.id);
+        const t = tierCounts(result.details), src = [];
+        if (t.oficial) src.push(`${t.oficial} oficial${t.oficial === 1 ? "" : "es"}`);
+        if (t.secundaria) src.push(`${t.secundaria} de prensa`);
+        if (t.historico) src.push(`${t.historico} antecedente${t.historico === 1 ? "" : "s"}${t.years.length ? " de " + t.years.join("/") : ""}`);
+        if (t.inferido) src.push(`${t.inferido} inferida${t.inferido === 1 ? "" : "s"}`);
+        const topicOf = (id) => data.questions.find((q) => q.id === id).topic;
+        const clash = result.details.filter((d) => d.weight >= 4 && Math.abs(d.answer - d.position) >= 3).map((d) => topicOf(d.id));
+        const meta = el("p", result.count
+          ? `Cobertura ${fmt(result.coverage)} · ${result.count} ${result.count === 1 ? "tema" : "temas"}${src.length ? " (" + src.join(", ") + ")" : ""}${shown ? "" : " · sin porcentaje: cobertura inferior al " + MIN_COVERAGE + " %"}${shown && result.coverage < 60 ? " · ⚠ parcial" : ""}`
+          : "Ninguno de tus temas tiene posición documentada.", "small meta");
+        if (clash.length)
+          meta.append(el("span", ` · ⚠ choca en ${clash.slice(0, 2).join(", ")}${clash.length > 2 ? ` y ${clash.length - 2} más` : ""}`, "clash"));
+        row.append(meta);
+        const details = el("details");
+        details.append(el("summary", shown ? "Cómo se ha calculado este porcentaje" : "Ver comparación tema a tema"));
+        if (shown)
+          details.append(el("p", `Afinidad = suma de (coincidencia × importancia) de los ${result.count} temas comparados, dividida por la suma de sus importancias. Coincidencia de un tema = 1 − |tu respuesta − posición del partido| ÷ 4: 100 % si coincidís y 0 % si estáis en extremos opuestos. La cobertura (${fmt(result.coverage)}) es la parte de la importancia total de tus respuestas que tiene posición del partido.`, "small"));
+        const tierLabel = (d) => {
+          const k = evidenceTier(d);
+          return k === "oficial" ? "Programa o fuente oficial de 2026"
+            : k === "secundaria" ? "Prensa de 2026"
+            : k === "historico" ? `Antecedente de ${d.sourceYear}`
+            : "Inferida (deducción editorial)";
+        };
+        for (const d of [...result.details].sort((a, b) => b.weight - a.weight || a.similarity - b.similarity)) {
+          const ev = el("div", null, "evidence");
           ev.append(
-            el("b", q.topic),
-            el(
-              "p",
-              `Tu respuesta: ${d.answer}/5 · Posición codificada: ${d.position}/5 · Peso: ${d.weight}/5 · Coincidencia: ${fmt(d.similarity)}`,
-            ),
-            el("p", d.reason),
+            el("b", `${topicOf(d.id)} · coincidencia ${fmt(d.similarity)}`),
+            el("p", `Tú: ${d.answer}/5 · Partido: ${d.position}/5 · Importancia: ${d.weight}/5`, "small"),
+            el("p", d.reason, "small"),
           );
-          const link = el("a", d.locator + " ↗");
-          link.href = d.source;
-          link.target = "_blank";
-          link.rel = "noopener noreferrer";
-          ev.append(link, el("p", d.coding));
+          const kind = el("p", null, "small"), tag = el("span", tierLabel(d), `tier tier-${evidenceTier(d)}`);
+          kind.append(tag, document.createTextNode(" · "));
+          if (d.inferred) kind.append(document.createTextNode("sin texto del partido sobre este tema"));
+          else {
+            const link = el("a", `${d.locator} ↗`);
+            link.href = d.source;
+            link.target = "_blank";
+            link.rel = "noopener noreferrer";
+            kind.append(link);
+          }
+          ev.append(kind);
           if (d.sourceNote) ev.append(el("p", d.sourceNote, "small"));
           details.append(ev);
         }
+        {
+          const used = new Set(result.details.map((d) => d.id));
+          const miss = data.questions.filter((q) => Number.isInteger(person.answers[q.id]) && !used.has(q.id)).map((q) => q.topic);
+          if (miss.length)
+            details.append(el("p", `Temas sin posición documentada (no cuentan en el porcentaje): ${miss.join(", ")}.`, "small"));
+        }
+        if (shown) {
+          details.append(el("p", common.length
+            ? `Sobre ${common.length} ${common.length === 1 ? "pregunta común" : "preguntas comunes"} a las candidaturas analizadas, la afinidad sería ${fmt(commonResult.affinity)}. Comparación también incompleta.`
+            : "No hay preguntas puntuables comunes para comparar al menos dos candidaturas.", "small"));
+          if (result.bounds) details.append(el("p",
+            `Si en los temas sin posición el partido tuviera cualquier posición posible, tu afinidad estaría entre ${fmt(result.bounds.lower)} y ${fmt(result.bounds.upper)}. Es un rango matemático, no una probabilidad.`, "small"));
+        }
+        if (t.secundaria || t.historico || t.inferido)
+          details.append(el("p", "La información oficial actual prevalece; prensa, antecedentes y posiciones inferidas solo cubren temas sin evidencia oficial reciente." + (t.inferido ? " Una posición inferida es una deducción editorial a partir de otras posiciones o votaciones del partido, no una declaración suya." : ""), "small"));
         for (const d of result.excluded) {
           const ev = el("div", null, "evidence");
-          ev.append(el("b", data.questions.find(q => q.id === d.id).topic + " · No puntúa"),
-            el("p", d.reviewNote || "La evidencia requiere revisión antes de puntuar."));
+          ev.append(el("b", `${topicOf(d.id)} · no puntúa`),
+            el("p", d.reviewNote || "La evidencia requiere revisión antes de puntuar.", "small"));
           const link = el("a", d.locator + " ↗"); link.href = d.source;
           link.target = "_blank"; link.rel = "noopener noreferrer"; ev.append(link); details.append(ev);
         }
