@@ -82,6 +82,8 @@ function renderCoverage(names) {
 function show(id) {
   for (const s of ["setup", "survey", "results"]) $("#" + s).hidden = s !== id;
   window.scrollTo({ top: 0, behavior: "smooth" });
+  const heading = $("#" + id).querySelector("h1, h2");
+  if (heading) { heading.tabIndex = -1; heading.focus({ preventScroll: true }); }
 }
 function renderQuestion() {
   const q = data.questions[state.q],
@@ -92,6 +94,7 @@ function renderQuestion() {
   $("#progress").value = state.q + 1;
   $("#topic").textContent = q.topic;
   $("#question").textContent = q.text;
+  $("#question").tabIndex = -1;
   $("#choices").replaceChildren();
   [
     "Totalmente en desacuerdo",
