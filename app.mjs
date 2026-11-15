@@ -230,6 +230,14 @@ function renderResults() {
         row.append(el("p", result.count
           ? `Cobertura ${fmt(result.coverage)} · ${result.count} ${result.count === 1 ? "tema" : "temas"}${src.length ? " (" + src.join(", ") + ")" : ""}${shown && result.coverage < 60 ? " · ⚠ parcial" : ""}${shown ? "" : " · sin porcentaje: cobertura inferior al " + MIN_COVERAGE + " %"}`
           : "Ninguno de tus temas tiene posición documentada.", shown && result.coverage < 60 ? "small warning" : "small"));
+        {
+          const used = new Set(result.details.map((d) => d.id));
+          const miss = data.questions
+            .filter((q) => Number.isInteger(person.answers[q.id]) && !used.has(q.id) && (person.weights[q.id] || 0) >= 4)
+            .map((q) => q.topic);
+          if (miss.length)
+            row.append(el("p", `Sin dato, no cuentan en el %: ${miss.slice(0, 3).join(", ")}${miss.length > 3 ? ` y ${miss.length - 3} más` : ""}.`, "small warning"));
+        }
         if (shown) {
           const bar = el("div", null, "bar"),
             fill = el("div", null, "fill");

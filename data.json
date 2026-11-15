@@ -1,5 +1,5 @@
 {
-  "version": "0.5.17",
+  "version": "0.5.18",
   "date": "2026-11-15",
   "election": "Congreso · 29 de noviembre de 2026",
   "questions": [
@@ -1645,6 +1645,15 @@
           "sourceNote": "ANTECEDENTE DE 2024: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa de Podemos para las europeas de 2024 (no de generales); se usa como antecedente de sus posiciones políticas.",
           "reviewed": "2026-11-15",
           "coding": "Interpretación editorial provisional de un programa histórico"
+        },
+        "3": {
+          "value": 5,
+          "source": "https://www.eldiario.es/politica/anuncia-pacto-gobierno-regularizacion-extraordinaria-migrantes_1_12937083.html",
+          "locator": "elDiario.es 26/01/2026 · pacto de regularización extraordinaria",
+          "reason": "Apoyo explícito a regularizar a personas en situación irregular; la medida es extraordinaria y no se limita al arraigo.",
+          "sourceNote": "Fuente secundaria: elDiario.es. Noticia del 26/01/2026: Irene Montero, candidata de Podemos, anuncia el pacto con el Gobierno; proviene de la ILP «Regularización Ya».",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional"
         }
       },
       "exclude": [

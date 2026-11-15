@@ -75,6 +75,23 @@
       "documentVersion": null,
       "sha256": null,
       "notes": "Importado de data.json; clasificación provisional. No implica nueva consulta ni verificación de metadatos. ANTECEDENTE DE 2024: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Prioridad oficial de las elecciones europeas de 2024; no es un programa del Congreso."
+    },
+    {
+      "id": "podemos-s05",
+      "url": "https://www.eldiario.es/politica/anuncia-pacto-gobierno-regularizacion-extraordinaria-migrantes_1_12937083.html",
+      "publisher": "elDiario.es",
+      "title": "Podemos anuncia un pacto con el Gobierno para una regularización extraordinaria de migrantes",
+      "published": "2026-01-26",
+      "accessed": "2026-11-15",
+      "election": "Generales de España 2026",
+      "year": 2026,
+      "kind": "noticia",
+      "origin": "secundaria",
+      "hosting": "medio",
+      "historical": false,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Noticia del 26/01/2026: Irene Montero, candidata de Podemos, anuncia el pacto con el Gobierno; proviene de la ILP «Regularización Ya»."
     }
   ],
   "questions": {
@@ -116,16 +133,18 @@
       }
     },
     "3": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "El programa de elecciones europeas de 2024 no trata esta afirmación y no hay programa del 29N de 2026.",
-      "confidence": "baja",
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "podemos-s05"
+      ],
+      "locator": "elDiario.es 26/01/2026 · pacto de regularización extraordinaria",
+      "evidenceSummary": "Podemos anuncia un pacto con el Gobierno para una regularización extraordinaria de más de medio millón de migrantes con cinco meses de residencia («papeles son derechos»).",
+      "reason": "Apoyo explícito a regularizar a personas en situación irregular; la medida es extraordinaria y no se limita al arraigo.",
+      "confidence": "alta",
       "reviewNeeded": false,
       "reviewNote": null,
-      "nextAction": "Esperar el programa de Podemos para el 29N.",
+      "nextAction": null,
       "replaces": null
     },
     "4": {
