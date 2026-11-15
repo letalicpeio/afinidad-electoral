@@ -1,5 +1,5 @@
 {
-  "version": "0.5.8",
+  "version": "0.5.9",
   "date": "2026-11-15",
   "election": "Congreso · 29 de noviembre de 2026",
   "questions": [
@@ -455,12 +455,10 @@
         "4": {
           "value": 1,
           "source": "https://www.bng.gal/media/bnggaliza/files/2026/11/12/26_bng_xerais_documentos_programa_electoral.pdf",
-          "locator": "pág. 37",
-          "reason": "Denuncia un plan para empujar hacia la sanidad privada y mercantilizar la sanidad.",
-          "reviewed": "2026-11-14",
-          "coding": "Interpretación editorial provisional",
-          "scoreable": false,
-          "reviewNote": "Es un diagnóstico crítico; no se ha localizado una medida concreta sobre conciertos con centros privados."
+          "locator": "PDF p. 37; apartado 3.2 Sanidade",
+          "reason": "Pide que titularidad, financiación, gestión y provisión sanitarias sean exclusivamente públicas y reducir su privatización.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional"
         },
         "5": {
           "value": 1,
@@ -590,14 +588,13 @@
           "coding": "Interpretación editorial provisional"
         },
         "18": {
-          "value": 5,
+          "value": 4,
           "source": "https://esquerrarepublicana.cat/documents/e2026-programa.pdf",
-          "locator": "Medida 86, pág. 23",
-          "reason": "Plantea simplificar trámites de pymes manteniendo garantías laborales y ambientales.",
+          "locator": "PDF p. 23; medida 86",
+          "reason": "Apoyo con matices: simplificación administrativa para pymes que reduce costes, duplicidades y plazos sin rebajar garantías.",
           "reviewed": "2026-11-15",
           "coding": "Interpretación editorial provisional",
-          "scoreable": false,
-          "reviewNote": "Retirada del cálculo el 2026-11-15: la revisión no sostiene esta posición. El catálogo actual lo registra como apoyo claro (5); la medida 86 no habla de reducir cargas administrativas. Se propone retirarlo del cálculo."
+          "scoreable": true
         },
         "14": {
           "value": 5,

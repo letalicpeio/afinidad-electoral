@@ -72,17 +72,17 @@
       "replaces": null
     },
     "4": {
-      "status": "en-revision",
-      "position": null,
+      "status": "documentada",
+      "position": 1,
       "sourceIds": [
         "bng-s01"
       ],
-      "locator": "PDF p. 37; apartado de sanidad",
-      "evidenceSummary": "Denuncia un plan para empujar hacia la sanidad privada y mercantilizar la sanidad.",
-      "reason": "Es un diagnóstico crítico sin medida concreta localizada sobre conciertos.",
-      "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "Lectura provisional contraria (1); no se localizó medida concreta.",
+      "locator": "PDF p. 37; apartado 3.2 Sanidade",
+      "evidenceSummary": "Garantir o carácter público da sanidade y reducir sus posibilidades de privatización modificando la Ley 15/97, de modo que titularidad, financiación, gestión y provisión sean exclusivamente públicas.",
+      "reason": "Rechazo explícito de la colaboración con entidades privadas en la provisión sanitaria; coherente con restringir las privatizaciones en servicios públicos (p. 18).",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
       "nextAction": null,
       "replaces": null
     },
@@ -299,7 +299,7 @@
     }
   ],
   "integration": {
-    "status": "integrado",
-    "commit": "3a56c4c988e0edd6164982d94be99cbbf1c707c7"
+    "status": "pendiente",
+    "commit": null
   }
 }

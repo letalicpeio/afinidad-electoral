@@ -272,17 +272,17 @@
       "replaces": null
     },
     "18": {
-      "status": "en-revision",
-      "position": null,
+      "status": "documentada",
+      "position": 4,
       "sourceIds": [
         "erc-s01"
       ],
       "locator": "PDF p. 23; medida 86",
-      "evidenceSummary": "Fomentar pymes competitivas: financiación, morosidad cero y contratación pública accesible y digitalizada.",
-      "reason": "Trata de financiación, pagos y contratación pública de pymes, no de reducir obligaciones administrativas generales.",
-      "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "El catálogo actual lo registra como apoyo claro (5); la medida 86 no habla de reducir cargas administrativas. Se propone retirarlo del cálculo.",
+      "evidenceSummary": "Promover una «simplificació administrativa real» durante el crecimiento de las pymes, que reduzca costes, duplicidades y plazos sin rebajar las garantías laborales, sociales y ambientales.",
+      "reason": "Apoyo con matices: reducción de cargas administrativas dirigida a las pymes y condicionada a mantener garantías; no habla de todas las empresas.",
+      "confidence": "media",
+      "reviewNeeded": false,
+      "reviewNote": "Corrección del 15/11/2026: una lectura anterior omitió la frase sobre simplificación administrativa de la medida 86.",
       "nextAction": null,
       "replaces": null
     }
@@ -305,7 +305,7 @@
     }
   ],
   "integration": {
-    "status": "integrado",
-    "commit": "3a56c4c988e0edd6164982d94be99cbbf1c707c7"
+    "status": "pendiente",
+    "commit": null
   }
 }
