@@ -9,3 +9,4 @@
 .metric{white-space:nowrap;flex-shrink:0}.resulthead b{min-width:0;overflow-wrap:anywhere;line-height:1.25}@media(max-width:700px){.resultcard{padding:16px}.metric{font-size:26px}.resulthead{gap:12px}.resultrow{padding:12px 0}}
 @media(max-width:700px){#results h1{font-size:30px;margin:6px 0 12px}#results .notice{padding:12px 14px}#results .notice p{margin:4px 0 0;font-size:14px}.resultcard{margin:14px 0}.resultcard>h2{font-size:22px;margin:0 0 2px}.resultcard>p{margin:2px 0}.resultcard>button.quiet{padding:6px 0;margin:2px 0 8px}}
 .onlydoc{display:flex;gap:10px;align-items:flex-start;margin:12px 0;font-size:15px;cursor:pointer}.onlydoc input{margin-top:4px;width:18px;height:18px;flex-shrink:0}
+.onlydoc-help{margin:0 0 14px 28px;color:var(--muted)}
