@@ -1,0 +1,337 @@
+{
+  "schemaVersion": "1.0",
+  "catalogId": "pnv",
+  "dataId": "pnv",
+  "agent": "gpt",
+  "baseCommit": "4f7fbd9ab5b675cf5d13114a62c3c9f89d3c8b1f",
+  "reviewed": "2026-11-15",
+  "prepared": "2026-11-15",
+  "status": "en-curso",
+  "sources": [
+    {
+      "id": "pnv-s01",
+      "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+      "publisher": "EAJ-PNV",
+      "title": "Programa elecciones generales 2026 · EAJ-PNV",
+      "published": null,
+      "accessed": "2026-11-15",
+      "election": "Generales de España · 29/11/2026",
+      "year": 2026,
+      "kind": "programa",
+      "origin": "primaria",
+      "hosting": "oficial",
+      "historical": false,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Programa oficial de 43 páginas consultado el 15/11/2026. No consta día de publicación en el extracto; no se inventa. El año se identifica en la portada."
+    }
+  ],
+  "questions": {
+    "1": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "2": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "3": {
+      "status": "en-revision",
+      "position": null,
+      "sourceIds": [
+        "pnv-s01"
+      ],
+      "locator": "pág. 25, medida 09",
+      "evidenceSummary": "Propone avanzar en los procesos de regularización previstos en la legislación para quienes cumplen los requisitos; no menciona expresamente el arraigo.",
+      "reason": "Propone avanzar en los procesos de regularización previstos en la legislación para quienes cumplen los requisitos; no menciona expresamente el arraigo.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. Regularización en general no acredita una posición específica sobre el arraigo.",
+      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "replaces": null,
+      "baselinePosition": {
+        "value": 4,
+        "source": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+        "locator": "pág. 25, medida 09",
+        "reason": "Propone avanzar en los procesos de regularización previstos en la legislación para quienes cumplen los requisitos; no menciona expresamente el arraigo.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional",
+        "scoreable": false,
+        "reviewNote": "Regularización en general no acredita una posición específica sobre el arraigo."
+      }
+    },
+    "4": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "5": {
+      "status": "en-revision",
+      "position": null,
+      "sourceIds": [
+        "pnv-s01"
+      ],
+      "locator": "pág. 28, medida 05",
+      "evidenceSummary": "Rechaza la prisión permanente revisable y defiende un sistema penitenciario orientado a la reinserción; no trata el endurecimiento de penas en general.",
+      "reason": "Rechaza la prisión permanente revisable y defiende un sistema penitenciario orientado a la reinserción; no trata el endurecimiento de penas en general.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. Rechazar una modalidad penal no acredita oponerse a todo endurecimiento de penas.",
+      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "replaces": null,
+      "baselinePosition": {
+        "value": 1,
+        "source": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+        "locator": "pág. 28, medida 05",
+        "reason": "Rechaza la prisión permanente revisable y defiende un sistema penitenciario orientado a la reinserción; no trata el endurecimiento de penas en general.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional",
+        "scoreable": false,
+        "reviewNote": "Rechazar una modalidad penal no acredita oponerse a todo endurecimiento de penas."
+      }
+    },
+    "6": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "7": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "pnv-s01"
+      ],
+      "locator": "pág. 38, medidas 01–02",
+      "evidenceSummary": "Exige completar las transferencias pendientes del Estatuto de Gernika y rechaza la recentralización.",
+      "reason": "Exige completar las transferencias pendientes del Estatuto de Gernika y rechaza la recentralización.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "replaces": null,
+      "baselinePosition": {
+        "value": 5,
+        "source": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+        "locator": "pág. 38, medidas 01–02",
+        "reason": "Exige completar las transferencias pendientes del Estatuto de Gernika y rechaza la recentralización.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional"
+      }
+    },
+    "8": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "9": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "10": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "pnv-s01"
+      ],
+      "locator": "pág. 31, medida 01",
+      "evidenceSummary": "Revalorizar anualmente las pensiones conforme al IPC.",
+      "reason": "Revalorizar anualmente las pensiones conforme al IPC.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "replaces": null,
+      "baselinePosition": {
+        "value": 5,
+        "source": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+        "locator": "pág. 31, medida 01",
+        "reason": "Revalorizar anualmente las pensiones conforme al IPC.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional"
+      }
+    },
+    "11": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "pnv-s01"
+      ],
+      "locator": "pág. 26, medida 06",
+      "evidenceSummary": "Exige el cumplimiento íntegro de las medidas estatales del Pacto de Estado contra la Violencia de Género.",
+      "reason": "Exige el cumplimiento íntegro de las medidas estatales del Pacto de Estado contra la Violencia de Género.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "replaces": null,
+      "baselinePosition": {
+        "value": 5,
+        "source": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+        "locator": "pág. 26, medida 06",
+        "reason": "Exige el cumplimiento íntegro de las medidas estatales del Pacto de Estado contra la Violencia de Género.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional"
+      }
+    },
+    "12": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "13": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "14": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "15": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "16": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "17": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "18": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "pnv-s01"
+      ],
+      "locator": "PDF p. 14 · apartado 2.2 · propuesta 01 (continúa en p. 15)",
+      "evidenceSummary": "Propone reducir burocracia y eliminar duplicidades en la creación, ampliación y gestión empresarial.",
+      "reason": "Respalda explícitamente reducir las obligaciones administrativas de las empresas.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Comprobar cambios al publicarse una nueva versión del programa.",
+      "replaces": null
+    }
+  },
+  "searchLog": [
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "git:4f7fbd9ab5b675cf5d13114a62c3c9f89d3c8b1f:data.json",
+      "outcome": "Importación de línea base existente, sin nuevas búsquedas declaradas."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+      "outcome": "Lectura del programa oficial. P.14, 2.2, propuesta 01, respalda la pregunta 18. Las búsquedas de aborto, nuclear, concertada y federal no devolvieron coincidencias; no se infiere postura de esa ausencia."
+    }
+  ],
+  "integration": {
+    "status": "pendiente",
+    "commit": null
+  }
+}

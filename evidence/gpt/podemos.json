@@ -1,0 +1,414 @@
+{
+  "schemaVersion": "1.0",
+  "catalogId": "podemos",
+  "dataId": "podemos",
+  "agent": "gpt",
+  "baseCommit": "4f7fbd9ab5b675cf5d13114a62c3c9f89d3c8b1f",
+  "reviewed": null,
+  "prepared": "2026-11-15",
+  "status": "en-curso",
+  "sources": [
+    {
+      "id": "podemos-s01",
+      "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/09/17/914567-el-congreso-rechaza-el-plan-de-podemos-para-topar-los-alquileres-y-expropiar",
+      "publisher": "www.idealista.com",
+      "title": "Propuesta de alquiler · Europa Press / Idealista",
+      "published": null,
+      "accessed": null,
+      "election": "Convocatoria por verificar en metadatos importados",
+      "year": null,
+      "kind": "documento-politico",
+      "origin": "secundaria",
+      "hosting": "medio",
+      "historical": false,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Importado de data.json; clasificación provisional. No implica nueva consulta ni verificación de metadatos. Fuente secundaria: información de Europa Press reproducida por Idealista sobre una iniciativa parlamentaria de 2026; no es un programa electoral oficial. El acto de campaña de Podemos Euskadi del 14/11/2026 recogido por Europa Press reafirma la medida."
+    },
+    {
+      "id": "podemos-s02",
+      "url": "https://www.rtve.es/contenidos/documentos/elecciones_europeas_2024/programa_electoral_podemos.pdf",
+      "publisher": "www.rtve.es",
+      "title": "Fuente de posición existente: título pendiente de verificar",
+      "published": null,
+      "accessed": null,
+      "election": "Antecedente de 2024; convocatoria por verificar",
+      "year": 2024,
+      "kind": "programa",
+      "origin": "primaria",
+      "hosting": "copia-archivo",
+      "historical": true,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Importado de data.json; clasificación provisional. No implica nueva consulta ni verificación de metadatos. ANTECEDENTE DE 2024: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa de elecciones europeas de 2024, copia completa de 130 páginas en RTVE. No es un programa del Congreso."
+    },
+    {
+      "id": "podemos-s03",
+      "url": "https://www.europapress.es/videos/video-montero-plantea-dedicar-gasto-militar-nacionalizar-repsol-contratar-sanitarios-20261106103830.html",
+      "publisher": "www.europapress.es",
+      "title": "Fuente de posición existente: título pendiente de verificar",
+      "published": null,
+      "accessed": null,
+      "election": "Convocatoria por verificar en metadatos importados",
+      "year": null,
+      "kind": "documento-politico",
+      "origin": "secundaria",
+      "hosting": "medio",
+      "historical": false,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Importado de data.json; clasificación provisional. No implica nueva consulta ni verificación de metadatos. Fuente secundaria: Europa Press recoge la propuesta de la candidata. Pendiente de contraste con el programa oficial."
+    },
+    {
+      "id": "podemos-s04",
+      "url": "https://podemos.info/europeas-2024/",
+      "publisher": "Podemos",
+      "title": "Fuente de posición existente: título pendiente de verificar",
+      "published": null,
+      "accessed": null,
+      "election": "Antecedente de 2024; convocatoria por verificar",
+      "year": 2024,
+      "kind": "documento-politico",
+      "origin": "primaria",
+      "hosting": "oficial",
+      "historical": true,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Importado de data.json; clasificación provisional. No implica nueva consulta ni verificación de metadatos. ANTECEDENTE DE 2024: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Prioridad oficial de las elecciones europeas de 2024; no es un programa del Congreso."
+    }
+  ],
+  "questions": {
+    "1": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "2": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "podemos-s01"
+      ],
+      "locator": "Europa Press · 17/09/2026 · primer punto de la moción",
+      "evidenceSummary": "Propone reducir por ley los alquileres un 40 % respecto de sus precios actuales. La regulación general comprende también las zonas tensionadas.",
+      "reason": "Propone reducir por ley los alquileres un 40 % respecto de sus precios actuales. La regulación general comprende también las zonas tensionadas.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "replaces": null,
+      "baselinePosition": {
+        "value": 5,
+        "source": "https://www.idealista.com/news/inmobiliario/vivienda/2026/09/17/914567-el-congreso-rechaza-el-plan-de-podemos-para-topar-los-alquileres-y-expropiar",
+        "locator": "Europa Press · 17/09/2026 · primer punto de la moción",
+        "reason": "Propone reducir por ley los alquileres un 40 % respecto de sus precios actuales. La regulación general comprende también las zonas tensionadas.",
+        "sourceNote": "Fuente secundaria: información de Europa Press reproducida por Idealista sobre una iniciativa parlamentaria de 2026; no es un programa electoral oficial. El acto de campaña de Podemos Euskadi del 14/11/2026 recogido por Europa Press reafirma la medida.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional"
+      }
+    },
+    "3": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "4": {
+      "status": "documentada",
+      "position": 1,
+      "sourceIds": [
+        "podemos-s02"
+      ],
+      "locator": "Histórico 2024 · PDF p. 33 · Fin de la privatización de la sanidad",
+      "evidenceSummary": "Propone derogar la normativa que permite privatizar servicios sanitarios y prioriza su gestión pública directa.",
+      "reason": "Propone derogar la normativa que permite privatizar servicios sanitarios y prioriza su gestión pública directa.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "replaces": null,
+      "baselinePosition": {
+        "value": 1,
+        "source": "https://www.rtve.es/contenidos/documentos/elecciones_europeas_2024/programa_electoral_podemos.pdf",
+        "locator": "Histórico 2024 · PDF p. 33 · Fin de la privatización de la sanidad",
+        "reason": "Propone derogar la normativa que permite privatizar servicios sanitarios y prioriza su gestión pública directa.",
+        "historical": true,
+        "sourceYear": 2024,
+        "sourceNote": "ANTECEDENTE DE 2024: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa de elecciones europeas de 2024, copia completa de 130 páginas en RTVE. No es un programa del Congreso.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional de un programa histórico"
+      }
+    },
+    "5": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "6": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "7": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "8": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "9": {
+      "status": "documentada",
+      "position": 1,
+      "sourceIds": [
+        "podemos-s02"
+      ],
+      "locator": "Histórico 2024 · PDF p. 77 · Soberanía energética",
+      "evidenceSummary": "Propone una hoja de ruta para abandonar la energía nuclear de fisión en la UE.",
+      "reason": "Propone una hoja de ruta para abandonar la energía nuclear de fisión en la UE.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "replaces": null,
+      "baselinePosition": {
+        "value": 1,
+        "source": "https://www.rtve.es/contenidos/documentos/elecciones_europeas_2024/programa_electoral_podemos.pdf",
+        "locator": "Histórico 2024 · PDF p. 77 · Soberanía energética",
+        "reason": "Propone una hoja de ruta para abandonar la energía nuclear de fisión en la UE.",
+        "historical": true,
+        "sourceYear": 2024,
+        "sourceNote": "ANTECEDENTE DE 2024: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa de elecciones europeas de 2024, copia completa de 130 páginas en RTVE. No es un programa del Congreso.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional de un programa histórico"
+      }
+    },
+    "10": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "11": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "podemos-s02"
+      ],
+      "locator": "Histórico 2024 · PDF p. 22 · Solo sí es sí",
+      "evidenceSummary": "Propone reforzar la legislación europea específica contra las violencias machistas y sexuales.",
+      "reason": "Propone reforzar la legislación europea específica contra las violencias machistas y sexuales.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "replaces": null,
+      "baselinePosition": {
+        "value": 5,
+        "source": "https://www.rtve.es/contenidos/documentos/elecciones_europeas_2024/programa_electoral_podemos.pdf",
+        "locator": "Histórico 2024 · PDF p. 22 · Solo sí es sí",
+        "reason": "Propone reforzar la legislación europea específica contra las violencias machistas y sexuales.",
+        "historical": true,
+        "sourceYear": 2024,
+        "sourceNote": "ANTECEDENTE DE 2024: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa de elecciones europeas de 2024, copia completa de 130 páginas en RTVE. No es un programa del Congreso.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional de un programa histórico"
+      }
+    },
+    "12": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "podemos-s02"
+      ],
+      "locator": "Histórico 2024 · PDF pp. 12–13 · Democratización de las instituciones",
+      "evidenceSummary": "Propone un nuevo tratado europeo, plenas facultades legislativas para el Parlamento y control parlamentario de la Comisión.",
+      "reason": "Propone un nuevo tratado europeo, plenas facultades legislativas para el Parlamento y control parlamentario de la Comisión.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "replaces": null,
+      "baselinePosition": {
+        "value": 5,
+        "source": "https://www.rtve.es/contenidos/documentos/elecciones_europeas_2024/programa_electoral_podemos.pdf",
+        "locator": "Histórico 2024 · PDF pp. 12–13 · Democratización de las instituciones",
+        "reason": "Propone un nuevo tratado europeo, plenas facultades legislativas para el Parlamento y control parlamentario de la Comisión.",
+        "historical": true,
+        "sourceYear": 2024,
+        "sourceNote": "ANTECEDENTE DE 2024: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa de elecciones europeas de 2024, copia completa de 130 páginas en RTVE. No es un programa del Congreso.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional de un programa histórico"
+      }
+    },
+    "13": {
+      "status": "documentada",
+      "position": 1,
+      "sourceIds": [
+        "podemos-s03"
+      ],
+      "locator": "06/11/2026 · desayuno informativo de Irene Montero",
+      "evidenceSummary": "Propone reasignar a políticas sociales el incremento del gasto militar desde 2023; se opone a aumentar ese gasto.",
+      "reason": "Propone reasignar a políticas sociales el incremento del gasto militar desde 2023; se opone a aumentar ese gasto.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "replaces": null,
+      "baselinePosition": {
+        "value": 1,
+        "source": "https://www.europapress.es/videos/video-montero-plantea-dedicar-gasto-militar-nacionalizar-repsol-contratar-sanitarios-20261106103830.html",
+        "locator": "06/11/2026 · desayuno informativo de Irene Montero",
+        "reason": "Propone reasignar a políticas sociales el incremento del gasto militar desde 2023; se opone a aumentar ese gasto.",
+        "sourceNote": "Fuente secundaria: Europa Press recoge la propuesta de la candidata. Pendiente de contraste con el programa oficial.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional"
+      }
+    },
+    "14": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "15": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "podemos-s04"
+      ],
+      "locator": "Histórico 2024 · Europeas 2024 · Nuestras prioridades · Feminismo",
+      "evidenceSummary": "Defiende el aborto libre, seguro y gratuito en toda la Unión Europea.",
+      "reason": "Defiende el aborto libre, seguro y gratuito en toda la Unión Europea.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "replaces": null,
+      "baselinePosition": {
+        "value": 5,
+        "source": "https://podemos.info/europeas-2024/",
+        "locator": "Histórico 2024 · Europeas 2024 · Nuestras prioridades · Feminismo",
+        "reason": "Defiende el aborto libre, seguro y gratuito en toda la Unión Europea.",
+        "historical": true,
+        "sourceYear": 2024,
+        "sourceNote": "ANTECEDENTE DE 2024: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Prioridad oficial de las elecciones europeas de 2024; no es un programa del Congreso.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional de un programa histórico"
+      }
+    },
+    "16": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "17": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "18": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    }
+  },
+  "searchLog": [
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "git:4f7fbd9ab5b675cf5d13114a62c3c9f89d3c8b1f:data.json",
+      "outcome": "Importación de línea base existente, sin nuevas búsquedas declaradas."
+    }
+  ],
+  "integration": {
+    "status": "pendiente",
+    "commit": null
+  }
+}

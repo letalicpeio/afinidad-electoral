@@ -1,0 +1,297 @@
+{
+  "schemaVersion": "1.0",
+  "catalogId": "cc",
+  "dataId": "cc",
+  "agent": "gpt",
+  "baseCommit": "4f7fbd9ab5b675cf5d13114a62c3c9f89d3c8b1f",
+  "reviewed": null,
+  "prepared": "2026-11-15",
+  "status": "en-curso",
+  "sources": [
+    {
+      "id": "cc-s01",
+      "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+      "publisher": "Coalición Canaria–Municipalistas Primero Canarias",
+      "title": "Programa electoral 29N (PDF)",
+      "published": null,
+      "accessed": null,
+      "election": "Convocatoria por verificar en metadatos importados",
+      "year": null,
+      "kind": "programa",
+      "origin": "primaria",
+      "hosting": "oficial",
+      "historical": false,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Importado de data.json; clasificación provisional. No implica nueva consulta ni verificación de metadatos. "
+    }
+  ],
+  "questions": {
+    "1": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "2": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "3": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "4": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "5": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "6": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "7": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "cc-s01"
+      ],
+      "locator": "Causa 1, medida 1",
+      "evidenceSummary": "Exige completar traspasos estatutarios y rechaza la recentralización.",
+      "reason": "Exige completar traspasos estatutarios y rechaza la recentralización.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "replaces": null,
+      "baselinePosition": {
+        "value": 5,
+        "source": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+        "locator": "Causa 1, medida 1",
+        "reason": "Exige completar traspasos estatutarios y rechaza la recentralización.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional",
+        "scoreable": true
+      }
+    },
+    "8": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "9": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "10": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "11": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "cc-s01"
+      ],
+      "locator": "Medida 17, pág. 10",
+      "evidenceSummary": "Reclama financiación estatal suficiente para aplicar el Pacto de Estado contra la violencia de género en todas las islas.",
+      "reason": "Reclama financiación estatal suficiente para aplicar el Pacto de Estado contra la violencia de género en todas las islas.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "replaces": null,
+      "baselinePosition": {
+        "value": 5,
+        "source": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+        "locator": "Medida 17, pág. 10",
+        "reason": "Reclama financiación estatal suficiente para aplicar el Pacto de Estado contra la violencia de género en todas las islas.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional"
+      }
+    },
+    "12": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "13": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "14": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "15": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "16": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "17": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "18": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    }
+  },
+  "searchLog": [
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "git:4f7fbd9ab5b675cf5d13114a62c3c9f89d3c8b1f:data.json",
+      "outcome": "Importación de línea base existente, sin nuevas búsquedas declaradas."
+    }
+  ],
+  "integration": {
+    "status": "pendiente",
+    "commit": null
+  }
+}

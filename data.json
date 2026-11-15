@@ -1,6 +1,6 @@
 {
-  "version": "0.5.3",
-  "date": "2026-11-14",
+  "version": "0.5.4",
+  "date": "2026-11-15",
   "election": "Congreso · 29 de noviembre de 2026",
   "questions": [
     {
@@ -358,6 +358,15 @@
           "locator": "pág. 26, medida 06",
           "reason": "Exige el cumplimiento íntegro de las medidas estatales del Pacto de Estado contra la Violencia de Género.",
           "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "18": {
+          "value": 5,
+          "source": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+          "locator": "Programa 2026 · PDF p. 14 · apartado 2.2 · propuesta 01",
+          "reason": "Respalda explícitamente reducir las obligaciones administrativas de las empresas.",
+          "sourceNote": "Programa oficial de generales de 2026. Metadatos y registro de revisión: evidence/gpt/pnv.json.",
+          "reviewed": "2026-11-15",
           "coding": "Interpretación editorial provisional"
         }
       }

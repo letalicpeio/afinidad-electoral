@@ -1,0 +1,394 @@
+{
+  "schemaVersion": "1.0",
+  "catalogId": "mundo-justo",
+  "dataId": "mj",
+  "agent": "gpt",
+  "baseCommit": "4f7fbd9ab5b675cf5d13114a62c3c9f89d3c8b1f",
+  "reviewed": null,
+  "prepared": "2026-11-15",
+  "status": "en-curso",
+  "sources": [
+    {
+      "id": "mundo-justo-s01",
+      "url": "https://www.porunmundomasjusto.es/wp-content/uploads/2026/11/Castellano.pdf",
+      "publisher": "Por un Mundo Más Justo",
+      "title": "Programa Elecciones Generales 29N 2026 (PDF)",
+      "published": null,
+      "accessed": null,
+      "election": "Convocatoria por verificar en metadatos importados",
+      "year": null,
+      "kind": "programa",
+      "origin": "primaria",
+      "hosting": "oficial",
+      "historical": false,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Importado de data.json; clasificación provisional. No implica nueva consulta ni verificación de metadatos. "
+    }
+  ],
+  "questions": {
+    "1": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "2": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "mundo-justo-s01"
+      ],
+      "locator": "pág. 8, medida 04",
+      "evidenceSummary": "Propone un alquiler de referencia y limitar el precio según las características y la localización de la vivienda.",
+      "reason": "Propone un alquiler de referencia y limitar el precio según las características y la localización de la vivienda.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "replaces": null,
+      "baselinePosition": {
+        "value": 5,
+        "source": "https://www.porunmundomasjusto.es/wp-content/uploads/2026/11/Castellano.pdf",
+        "locator": "pág. 8, medida 04",
+        "reason": "Propone un alquiler de referencia y limitar el precio según las características y la localización de la vivienda.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional"
+      }
+    },
+    "3": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "mundo-justo-s01"
+      ],
+      "locator": "pág. 30, medida 05 y pág. 52, medida 06",
+      "evidenceSummary": "Garantizar vías accesibles y estables de regularización de las personas migrantes que viven y trabajan en España.",
+      "reason": "Garantizar vías accesibles y estables de regularización de las personas migrantes que viven y trabajan en España.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "replaces": null,
+      "baselinePosition": {
+        "value": 5,
+        "source": "https://www.porunmundomasjusto.es/wp-content/uploads/2026/11/Castellano.pdf",
+        "locator": "pág. 30, medida 05 y pág. 52, medida 06",
+        "reason": "Garantizar vías accesibles y estables de regularización de las personas migrantes que viven y trabajan en España.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional"
+      }
+    },
+    "4": {
+      "status": "documentada",
+      "position": 1,
+      "sourceIds": [
+        "mundo-justo-s01"
+      ],
+      "locator": "pág. 38",
+      "evidenceSummary": "Frenar la privatización y recuperar progresivamente los servicios externalizados, priorizando la gestión pública directa.",
+      "reason": "Frenar la privatización y recuperar progresivamente los servicios externalizados, priorizando la gestión pública directa.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "replaces": null,
+      "baselinePosition": {
+        "value": 1,
+        "source": "https://www.porunmundomasjusto.es/wp-content/uploads/2026/11/Castellano.pdf",
+        "locator": "pág. 38",
+        "reason": "Frenar la privatización y recuperar progresivamente los servicios externalizados, priorizando la gestión pública directa.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional"
+      }
+    },
+    "5": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "6": {
+      "status": "en-revision",
+      "position": null,
+      "sourceIds": [
+        "mundo-justo-s01"
+      ],
+      "locator": "pág. 45",
+      "evidenceSummary": "Apoya la coexistencia de la enseñanza pública y privada, concertada y no concertada, y reconoce la aportación de la concertada.",
+      "reason": "Apoya la coexistencia de la enseñanza pública y privada, concertada y no concertada, y reconoce la aportación de la concertada.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. Expresa apoyo a la coexistencia, no fija la financiación pública «donde exista demanda».",
+      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "replaces": null,
+      "baselinePosition": {
+        "value": 4,
+        "source": "https://www.porunmundomasjusto.es/wp-content/uploads/2026/11/Castellano.pdf",
+        "locator": "pág. 45",
+        "reason": "Apoya la coexistencia de la enseñanza pública y privada, concertada y no concertada, y reconoce la aportación de la concertada.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional",
+        "scoreable": false,
+        "reviewNote": "Expresa apoyo a la coexistencia, no fija la financiación pública «donde exista demanda»."
+      }
+    },
+    "7": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "8": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "mundo-justo-s01"
+      ],
+      "locator": "pág. 29, medida 02",
+      "evidenceSummary": "Reducir progresivamente la jornada laboral hasta 35 horas semanales sin reducción salarial.",
+      "reason": "Reducir progresivamente la jornada laboral hasta 35 horas semanales sin reducción salarial.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "replaces": null,
+      "baselinePosition": {
+        "value": 5,
+        "source": "https://www.porunmundomasjusto.es/wp-content/uploads/2026/11/Castellano.pdf",
+        "locator": "pág. 29, medida 02",
+        "reason": "Reducir progresivamente la jornada laboral hasta 35 horas semanales sin reducción salarial.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional"
+      }
+    },
+    "9": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "10": {
+      "status": "en-revision",
+      "position": null,
+      "sourceIds": [
+        "mundo-justo-s01"
+      ],
+      "locator": "pág. 24, medida 01",
+      "evidenceSummary": "Blindar constitucionalmente las pensiones y garantizar que nunca pierdan poder adquisitivo.",
+      "reason": "Blindar constitucionalmente las pensiones y garantizar que nunca pierdan poder adquisitivo.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. Garantiza el poder adquisitivo, pero el texto no fija la actualización conforme al IPC.",
+      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "replaces": null,
+      "baselinePosition": {
+        "value": 5,
+        "source": "https://www.porunmundomasjusto.es/wp-content/uploads/2026/11/Castellano.pdf",
+        "locator": "pág. 24, medida 01",
+        "reason": "Blindar constitucionalmente las pensiones y garantizar que nunca pierdan poder adquisitivo.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional",
+        "scoreable": false,
+        "reviewNote": "Garantiza el poder adquisitivo, pero el texto no fija la actualización conforme al IPC."
+      }
+    },
+    "11": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "mundo-justo-s01"
+      ],
+      "locator": "pág. 78, medida 1",
+      "evidenceSummary": "Garantizar una protección integral frente a todas las formas de violencia de género y sexual.",
+      "reason": "Garantizar una protección integral frente a todas las formas de violencia de género y sexual.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "replaces": null,
+      "baselinePosition": {
+        "value": 5,
+        "source": "https://www.porunmundomasjusto.es/wp-content/uploads/2026/11/Castellano.pdf",
+        "locator": "pág. 78, medida 1",
+        "reason": "Garantizar una protección integral frente a todas las formas de violencia de género y sexual.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional"
+      }
+    },
+    "12": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "13": {
+      "status": "documentada",
+      "position": 1,
+      "sourceIds": [
+        "mundo-justo-s01"
+      ],
+      "locator": "pág. 67, compromisos medibles",
+      "evidenceSummary": "Propone reducir el gasto militar un 2 % anual en todos los países entre 2026 y 2030.",
+      "reason": "Propone reducir el gasto militar un 2 % anual en todos los países entre 2026 y 2030.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "replaces": null,
+      "baselinePosition": {
+        "value": 1,
+        "source": "https://www.porunmundomasjusto.es/wp-content/uploads/2026/11/Castellano.pdf",
+        "locator": "pág. 67, compromisos medibles",
+        "reason": "Propone reducir el gasto militar un 2 % anual en todos los países entre 2026 y 2030.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional"
+      }
+    },
+    "14": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "15": {
+      "status": "en-revision",
+      "position": null,
+      "sourceIds": [
+        "mundo-justo-s01"
+      ],
+      "locator": "pág. 44",
+      "evidenceSummary": "Prevé acompañamiento psicológico gratuito antes y después de una interrupción voluntaria del embarazo en el sistema público.",
+      "reason": "Prevé acompañamiento psicológico gratuito antes y después de una interrupción voluntaria del embarazo en el sistema público.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. Trata el acompañamiento, no declara expresamente mantener el derecho legal al aborto.",
+      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "replaces": null,
+      "baselinePosition": {
+        "value": 5,
+        "source": "https://www.porunmundomasjusto.es/wp-content/uploads/2026/11/Castellano.pdf",
+        "locator": "pág. 44",
+        "reason": "Prevé acompañamiento psicológico gratuito antes y después de una interrupción voluntaria del embarazo en el sistema público.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional",
+        "scoreable": false,
+        "reviewNote": "Trata el acompañamiento, no declara expresamente mantener el derecho legal al aborto."
+      }
+    },
+    "16": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "mundo-justo-s01"
+      ],
+      "locator": "pág. 69, apartado b",
+      "evidenceSummary": "Prohibición del indulto en los delitos de corrupción.",
+      "reason": "Prohibición del indulto en los delitos de corrupción.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "replaces": null,
+      "baselinePosition": {
+        "value": 5,
+        "source": "https://www.porunmundomasjusto.es/wp-content/uploads/2026/11/Castellano.pdf",
+        "locator": "pág. 69, apartado b",
+        "reason": "Prohibición del indulto en los delitos de corrupción.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional"
+      }
+    },
+    "17": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "18": {
+      "status": "en-revision",
+      "position": null,
+      "sourceIds": [
+        "mundo-justo-s01"
+      ],
+      "locator": "pág. 34",
+      "evidenceSummary": "Aplicar criterios de proporcionalidad que eviten cargas administrativas excesivas para las pequeñas empresas.",
+      "reason": "Aplicar criterios de proporcionalidad que eviten cargas administrativas excesivas para las pequeñas empresas.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. Alcanza solo a las pequeñas empresas y conserva los estándares de calidad y seguridad.",
+      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "replaces": null,
+      "baselinePosition": {
+        "value": 4,
+        "source": "https://www.porunmundomasjusto.es/wp-content/uploads/2026/11/Castellano.pdf",
+        "locator": "pág. 34",
+        "reason": "Aplicar criterios de proporcionalidad que eviten cargas administrativas excesivas para las pequeñas empresas.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional",
+        "scoreable": false,
+        "reviewNote": "Alcanza solo a las pequeñas empresas y conserva los estándares de calidad y seguridad."
+      }
+    }
+  },
+  "searchLog": [
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "git:4f7fbd9ab5b675cf5d13114a62c3c9f89d3c8b1f:data.json",
+      "outcome": "Importación de línea base existente, sin nuevas búsquedas declaradas."
+    }
+  ],
+  "integration": {
+    "status": "pendiente",
+    "commit": null
+  }
+}

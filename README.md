@@ -14,7 +14,7 @@ Web estática, adaptable a móvil, para el Congreso por provincias. Sin dependen
 
 ## Estado documental — 14/11/2026
 
-**Versión 0.5.3, catálogo incompleto. PP, VOX, EAJ-PNV, BNG, Municipalistas Primero Canarias–Coalición Canaria, ERC, PACMA, Por un Mundo Más Justo, FE de las JONS, Frente Obrero, Adelante Andalucía, Geroa Bai, SALF, Partido Humanista, Democracia 21, Iustitia Europa, Frente Amplio, Podemos, Compromís: Front Valencià, Junts, PSOE y EH Bildu tienen análisis parcial. No identifica la máxima afinidad entre todas las candidaturas.** Las demás figuran como pendientes de revisión; esa etiqueta no afirma que carezcan de programa publicado. Desde 0.5 se admiten antecedentes de 2023 expresamente fechados para cubrir huecos, sin sustituir evidencias actuales ni presentarlos como compromisos de 2026.
+**Versión 0.5.4, catálogo incompleto. PP, VOX, EAJ-PNV, BNG, Municipalistas Primero Canarias–Coalición Canaria, ERC, PACMA, Por un Mundo Más Justo, FE de las JONS, Frente Obrero, Adelante Andalucía, Geroa Bai, SALF, Partido Humanista, Democracia 21, Iustitia Europa, Frente Amplio, Podemos, Compromís: Front Valencià, Junts, PSOE y EH Bildu tienen análisis parcial. No identifica la máxima afinidad entre todas las candidaturas.** Las demás figuran como pendientes de revisión; esa etiqueta no afirma que carezcan de programa publicado. Desde 0.5 se admiten antecedentes de 2023 expresamente fechados para cubrir huecos, sin sustituir evidencias actuales ni presentarlos como compromisos de 2026.
 
 Las afirmaciones y opciones son nuevas, basadas en los 18 temas del cuestionario previo, cuyas alternativas originales no se recuperaron. Las posiciones son interpretaciones editoriales provisionales, revisables, no una medición objetiva ni una puntuación oficial de los partidos. Las inferencias requieren revisión humana; la ausencia de una propuesta no equivale a oposición.
 
@@ -81,3 +81,5 @@ Ampliación 0.5.3: PP incorpora Defensa e integración europea del programa de 2
 3. **Antecedentes** (`historical: true` con `sourceYear` anterior a 2026): solo cubren temas de partidos sin programa oficial; llevan año, aviso y se sustituyen en cuanto exista evidencia actual.
 
 Cada resultado indica cuántos temas puntuados proceden de cada nivel. Un test impide que un partido con programa oficial de 2026 conserve antecedentes o prensa.
+
+Trabajo coordinado: consultar [REPARTO_GPT_CLAUDE.md](REPARTO_GPT_CLAUDE.md). GPT mantiene sus propuestas y trazabilidad en [evidence/gpt/PROGRESO.md](evidence/gpt/PROGRESO.md); las fichas en curso no equivalen a investigación terminada.

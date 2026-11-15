@@ -1,0 +1,330 @@
+{
+  "schemaVersion": "1.0",
+  "catalogId": "pacma",
+  "dataId": "pacma",
+  "agent": "gpt",
+  "baseCommit": "4f7fbd9ab5b675cf5d13114a62c3c9f89d3c8b1f",
+  "reviewed": null,
+  "prepared": "2026-11-15",
+  "status": "en-curso",
+  "sources": [
+    {
+      "id": "pacma-s01",
+      "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+      "publisher": "PACMA",
+      "title": "Programa electoral generales 29N 2026 (PDF)",
+      "published": null,
+      "accessed": null,
+      "election": "Convocatoria por verificar en metadatos importados",
+      "year": null,
+      "kind": "programa",
+      "origin": "primaria",
+      "hosting": "oficial",
+      "historical": false,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Importado de data.json; clasificación provisional. No implica nueva consulta ni verificación de metadatos. "
+    }
+  ],
+  "questions": {
+    "1": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "2": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "3": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "4": {
+      "status": "documentada",
+      "position": 1,
+      "sourceIds": [
+        "pacma-s01"
+      ],
+      "locator": "Sección 3.2.1, pág. 55",
+      "evidenceSummary": "Propone reintegrar en la sanidad pública los servicios privatizados.",
+      "reason": "Propone reintegrar en la sanidad pública los servicios privatizados.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "replaces": null,
+      "baselinePosition": {
+        "value": 1,
+        "source": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+        "locator": "Sección 3.2.1, pág. 55",
+        "reason": "Propone reintegrar en la sanidad pública los servicios privatizados.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional"
+      }
+    },
+    "5": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "6": {
+      "status": "en-revision",
+      "position": null,
+      "sourceIds": [
+        "pacma-s01"
+      ],
+      "locator": "Sección 3.3.3, pág. 60",
+      "evidenceSummary": "Propone revisar los criterios de concertación.",
+      "reason": "Propone revisar los criterios de concertación.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. Revisar criterios no fija una posición sobre mantener financiación por demanda. Valor orientativo no puntuable.",
+      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "replaces": null,
+      "baselinePosition": {
+        "value": 3,
+        "source": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+        "locator": "Sección 3.3.3, pág. 60",
+        "reason": "Propone revisar los criterios de concertación.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional",
+        "scoreable": false,
+        "reviewNote": "Revisar criterios no fija una posición sobre mantener financiación por demanda. Valor orientativo no puntuable."
+      }
+    },
+    "7": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "8": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "9": {
+      "status": "en-revision",
+      "position": null,
+      "sourceIds": [
+        "pacma-s01"
+      ],
+      "locator": "Sección 2.1.1, pág. 34",
+      "evidenceSummary": "Critica el modelo de uso masivo de energía nuclear.",
+      "reason": "Critica el modelo de uso masivo de energía nuclear.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. La crítica al modelo masivo no permite concluir por sí sola oposición a toda permanencia nuclear.",
+      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "replaces": null,
+      "baselinePosition": {
+        "value": 1,
+        "source": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+        "locator": "Sección 2.1.1, pág. 34",
+        "reason": "Critica el modelo de uso masivo de energía nuclear.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional",
+        "scoreable": false,
+        "reviewNote": "La crítica al modelo masivo no permite concluir por sí sola oposición a toda permanencia nuclear."
+      }
+    },
+    "10": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "11": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "pacma-s01"
+      ],
+      "locator": "Sección 3.10.1, págs. 75–76",
+      "evidenceSummary": "Defiende tutela judicial y reconocimiento legal específico frente a violencia machista.",
+      "reason": "Defiende tutela judicial y reconocimiento legal específico frente a violencia machista.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "replaces": null,
+      "baselinePosition": {
+        "value": 5,
+        "source": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+        "locator": "Sección 3.10.1, págs. 75–76",
+        "reason": "Defiende tutela judicial y reconocimiento legal específico frente a violencia machista.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional"
+      }
+    },
+    "12": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "13": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "14": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "15": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "16": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "17": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "18": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "pacma-s01"
+      ],
+      "locator": "Sección 3.4.9, pág. 68",
+      "evidenceSummary": "Propone eliminar trabas burocráticas para crear empresas e iniciar actividades.",
+      "reason": "Propone eliminar trabas burocráticas para crear empresas e iniciar actividades.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "replaces": null,
+      "baselinePosition": {
+        "value": 5,
+        "source": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+        "locator": "Sección 3.4.9, pág. 68",
+        "reason": "Propone eliminar trabas burocráticas para crear empresas e iniciar actividades.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional"
+      }
+    }
+  },
+  "searchLog": [
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "git:4f7fbd9ab5b675cf5d13114a62c3c9f89d3c8b1f:data.json",
+      "outcome": "Importación de línea base existente, sin nuevas búsquedas declaradas."
+    }
+  ],
+  "integration": {
+    "status": "pendiente",
+    "commit": null
+  }
+}

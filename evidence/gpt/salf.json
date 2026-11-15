@@ -1,0 +1,354 @@
+{
+  "schemaVersion": "1.0",
+  "catalogId": "salf",
+  "dataId": "salf",
+  "agent": "gpt",
+  "baseCommit": "4f7fbd9ab5b675cf5d13114a62c3c9f89d3c8b1f",
+  "reviewed": null,
+  "prepared": "2026-11-15",
+  "status": "en-curso",
+  "sources": [
+    {
+      "id": "salf-s01",
+      "url": "https://www.seacabolafiesta.com/",
+      "publisher": "Se Acabó La Fiesta",
+      "title": "Resumen oficial del contrato electoral 29N",
+      "published": null,
+      "accessed": null,
+      "election": "Convocatoria por verificar en metadatos importados",
+      "year": null,
+      "kind": "documento-politico",
+      "origin": "primaria",
+      "hosting": "oficial",
+      "historical": false,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Importado de data.json; clasificación provisional. No implica nueva consulta ni verificación de metadatos. Resumen oficial de campaña. El PDF completo enlazado no pudo verificarse por un error de acceso; solo se codifica el texto de esta página."
+    }
+  ],
+  "questions": {
+    "1": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "salf-s01"
+      ],
+      "locator": "Compromiso 03 · Impuestos",
+      "evidenceSummary": "Eleva gradualmente el mínimo exento del IRPF.",
+      "reason": "Eleva gradualmente el mínimo exento del IRPF.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "replaces": null,
+      "baselinePosition": {
+        "value": 5,
+        "source": "https://www.seacabolafiesta.com/",
+        "locator": "Compromiso 03 · Impuestos",
+        "reason": "Eleva gradualmente el mínimo exento del IRPF.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional",
+        "sourceNote": "Resumen oficial de campaña. El PDF completo enlazado no pudo verificarse por un error de acceso; solo se codifica el texto de esta página."
+      }
+    },
+    "2": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "3": {
+      "status": "en-revision",
+      "position": null,
+      "sourceIds": [
+        "salf-s01"
+      ],
+      "locator": "Compromiso 04 · Inmigración",
+      "evidenceSummary": "Rechaza regularizaciones masivas.",
+      "reason": "Rechaza regularizaciones masivas.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. La prohibición de regularizaciones masivas no define por sí sola el arraigo individual.",
+      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "replaces": null,
+      "baselinePosition": {
+        "value": 1,
+        "source": "https://www.seacabolafiesta.com/",
+        "locator": "Compromiso 04 · Inmigración",
+        "reason": "Rechaza regularizaciones masivas.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional",
+        "scoreable": false,
+        "reviewNote": "La prohibición de regularizaciones masivas no define por sí sola el arraigo individual."
+      }
+    },
+    "4": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "5": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "6": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "salf-s01"
+      ],
+      "locator": "Compromiso 09 · Educación",
+      "evidenceSummary": "Cheque escolar también para centros concertados.",
+      "reason": "Cheque escolar también para centros concertados.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "replaces": null,
+      "baselinePosition": {
+        "value": 5,
+        "source": "https://www.seacabolafiesta.com/",
+        "locator": "Compromiso 09 · Educación",
+        "reason": "Cheque escolar también para centros concertados.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional",
+        "sourceNote": "Resumen oficial de campaña. El PDF completo enlazado no pudo verificarse por un error de acceso; solo se codifica el texto de esta página."
+      }
+    },
+    "7": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "8": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "9": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "10": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "salf-s01"
+      ],
+      "locator": "Compromiso 05 · Pensiones",
+      "evidenceSummary": "Propone actualización de pensiones con el IPC.",
+      "reason": "Propone actualización de pensiones con el IPC.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "replaces": null,
+      "baselinePosition": {
+        "value": 5,
+        "source": "https://www.seacabolafiesta.com/",
+        "locator": "Compromiso 05 · Pensiones",
+        "reason": "Propone actualización de pensiones con el IPC.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional",
+        "sourceNote": "Resumen oficial de campaña. El PDF completo enlazado no pudo verificarse por un error de acceso; solo se codifica el texto de esta página."
+      }
+    },
+    "11": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "12": {
+      "status": "documentada",
+      "position": 1,
+      "sourceIds": [
+        "salf-s01"
+      ],
+      "locator": "Compromiso 10 · Geopolítica",
+      "evidenceSummary": "Plantea renegociar la UE y someter una eventual salida a referéndum.",
+      "reason": "Plantea renegociar la UE y someter una eventual salida a referéndum.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "replaces": null,
+      "baselinePosition": {
+        "value": 1,
+        "source": "https://www.seacabolafiesta.com/",
+        "locator": "Compromiso 10 · Geopolítica",
+        "reason": "Plantea renegociar la UE y someter una eventual salida a referéndum.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional",
+        "sourceNote": "Resumen oficial de campaña. El PDF completo enlazado no pudo verificarse por un error de acceso; solo se codifica el texto de esta página."
+      }
+    },
+    "13": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "14": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "15": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "16": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "salf-s01"
+      ],
+      "locator": "Compromiso 07 · Corrupción",
+      "evidenceSummary": "Rechaza indultos por corrupción.",
+      "reason": "Rechaza indultos por corrupción.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "replaces": null,
+      "baselinePosition": {
+        "value": 5,
+        "source": "https://www.seacabolafiesta.com/",
+        "locator": "Compromiso 07 · Corrupción",
+        "reason": "Rechaza indultos por corrupción.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional",
+        "sourceNote": "Resumen oficial de campaña. El PDF completo enlazado no pudo verificarse por un error de acceso; solo se codifica el texto de esta página."
+      }
+    },
+    "17": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "18": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "salf-s01"
+      ],
+      "locator": "Compromiso 08 · Empleo",
+      "evidenceSummary": "Licencia de actividad por declaración responsable.",
+      "reason": "Licencia de actividad por declaración responsable.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "replaces": null,
+      "baselinePosition": {
+        "value": 5,
+        "source": "https://www.seacabolafiesta.com/",
+        "locator": "Compromiso 08 · Empleo",
+        "reason": "Licencia de actividad por declaración responsable.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional",
+        "sourceNote": "Resumen oficial de campaña. El PDF completo enlazado no pudo verificarse por un error de acceso; solo se codifica el texto de esta página."
+      }
+    }
+  },
+  "searchLog": [
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "git:4f7fbd9ab5b675cf5d13114a62c3c9f89d3c8b1f:data.json",
+      "outcome": "Importación de línea base existente, sin nuevas búsquedas declaradas."
+    }
+  ],
+  "integration": {
+    "status": "pendiente",
+    "commit": null
+  }
+}

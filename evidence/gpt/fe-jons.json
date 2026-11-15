@@ -1,0 +1,396 @@
+{
+  "schemaVersion": "1.0",
+  "catalogId": "fe-jons",
+  "dataId": "fejons",
+  "agent": "gpt",
+  "baseCommit": "4f7fbd9ab5b675cf5d13114a62c3c9f89d3c8b1f",
+  "reviewed": null,
+  "prepared": "2026-11-15",
+  "status": "en-curso",
+  "sources": [
+    {
+      "id": "fe-jons-s01",
+      "url": "https://falange.es/wp-content/uploads/2026/11/FEDELASJONS_ProgramaElectoral_29NGenerales2026.pdf",
+      "publisher": "Falange Española de las JONS",
+      "title": "Programa electoral 29N Generales 2026 (PDF)",
+      "published": null,
+      "accessed": null,
+      "election": "Convocatoria por verificar en metadatos importados",
+      "year": null,
+      "kind": "programa",
+      "origin": "primaria",
+      "hosting": "oficial",
+      "historical": false,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Importado de data.json; clasificación provisional. No implica nueva consulta ni verificación de metadatos. "
+    }
+  ],
+  "questions": {
+    "1": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "fe-jons-s01"
+      ],
+      "locator": "punto 9, pág. 29 del PDF",
+      "evidenceSummary": "Propone la deflactación del IRPF y su bajada progresiva para no gravar a los trabajadores.",
+      "reason": "Propone la deflactación del IRPF y su bajada progresiva para no gravar a los trabajadores.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "replaces": null,
+      "baselinePosition": {
+        "value": 5,
+        "source": "https://falange.es/wp-content/uploads/2026/11/FEDELASJONS_ProgramaElectoral_29NGenerales2026.pdf",
+        "locator": "punto 9, pág. 29 del PDF",
+        "reason": "Propone la deflactación del IRPF y su bajada progresiva para no gravar a los trabajadores.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional"
+      }
+    },
+    "2": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "3": {
+      "status": "documentada",
+      "position": 1,
+      "sourceIds": [
+        "fe-jons-s01"
+      ],
+      "locator": "Anexo I, pág. 11 del PDF",
+      "evidenceSummary": "Propone el cese de la concesión de permisos de residencia y trabajo, derogar la Ley de Extranjería y un Plan Nacional de Remigración.",
+      "reason": "Propone el cese de la concesión de permisos de residencia y trabajo, derogar la Ley de Extranjería y un Plan Nacional de Remigración.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "replaces": null,
+      "baselinePosition": {
+        "value": 1,
+        "source": "https://falange.es/wp-content/uploads/2026/11/FEDELASJONS_ProgramaElectoral_29NGenerales2026.pdf",
+        "locator": "Anexo I, pág. 11 del PDF",
+        "reason": "Propone el cese de la concesión de permisos de residencia y trabajo, derogar la Ley de Extranjería y un Plan Nacional de Remigración.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional"
+      }
+    },
+    "4": {
+      "status": "documentada",
+      "position": 1,
+      "sourceIds": [
+        "fe-jons-s01"
+      ],
+      "locator": "punto 20.3, pág. 50 del PDF",
+      "evidenceSummary": "Poner fin a las prácticas de externalización y privatización de la sanidad.",
+      "reason": "Poner fin a las prácticas de externalización y privatización de la sanidad.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "replaces": null,
+      "baselinePosition": {
+        "value": 1,
+        "source": "https://falange.es/wp-content/uploads/2026/11/FEDELASJONS_ProgramaElectoral_29NGenerales2026.pdf",
+        "locator": "punto 20.3, pág. 50 del PDF",
+        "reason": "Poner fin a las prácticas de externalización y privatización de la sanidad.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional"
+      }
+    },
+    "5": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "fe-jons-s01"
+      ],
+      "locator": "pág. 39 del PDF",
+      "evidenceSummary": "Aumento generalizado de las penas por delitos comunes y por reincidencia.",
+      "reason": "Aumento generalizado de las penas por delitos comunes y por reincidencia.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "replaces": null,
+      "baselinePosition": {
+        "value": 5,
+        "source": "https://falange.es/wp-content/uploads/2026/11/FEDELASJONS_ProgramaElectoral_29NGenerales2026.pdf",
+        "locator": "pág. 39 del PDF",
+        "reason": "Aumento generalizado de las penas por delitos comunes y por reincidencia.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional"
+      }
+    },
+    "6": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "7": {
+      "status": "documentada",
+      "position": 1,
+      "sourceIds": [
+        "fe-jons-s01"
+      ],
+      "locator": "pág. 19 del PDF",
+      "evidenceSummary": "Defiende retirar las competencias a las comunidades autónomas.",
+      "reason": "Defiende retirar las competencias a las comunidades autónomas.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "replaces": null,
+      "baselinePosition": {
+        "value": 1,
+        "source": "https://falange.es/wp-content/uploads/2026/11/FEDELASJONS_ProgramaElectoral_29NGenerales2026.pdf",
+        "locator": "pág. 19 del PDF",
+        "reason": "Defiende retirar las competencias a las comunidades autónomas.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional"
+      }
+    },
+    "8": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "9": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "fe-jons-s01"
+      ],
+      "locator": "puntos 11.3–11.5, pág. 31 del PDF",
+      "evidenceSummary": "Propone la energía nuclear como fuente principal del mix energético.",
+      "reason": "Propone la energía nuclear como fuente principal del mix energético.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "replaces": null,
+      "baselinePosition": {
+        "value": 5,
+        "source": "https://falange.es/wp-content/uploads/2026/11/FEDELASJONS_ProgramaElectoral_29NGenerales2026.pdf",
+        "locator": "puntos 11.3–11.5, pág. 31 del PDF",
+        "reason": "Propone la energía nuclear como fuente principal del mix energético.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional"
+      }
+    },
+    "10": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "11": {
+      "status": "documentada",
+      "position": 1,
+      "sourceIds": [
+        "fe-jons-s01"
+      ],
+      "locator": "punto 7.3, pág. 25 del PDF",
+      "evidenceSummary": "Propone suprimir las leyes de «género», incluida la Ley de Violencia de Género.",
+      "reason": "Propone suprimir las leyes de «género», incluida la Ley de Violencia de Género.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "replaces": null,
+      "baselinePosition": {
+        "value": 1,
+        "source": "https://falange.es/wp-content/uploads/2026/11/FEDELASJONS_ProgramaElectoral_29NGenerales2026.pdf",
+        "locator": "punto 7.3, pág. 25 del PDF",
+        "reason": "Propone suprimir las leyes de «género», incluida la Ley de Violencia de Género.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional"
+      }
+    },
+    "12": {
+      "status": "documentada",
+      "position": 1,
+      "sourceIds": [
+        "fe-jons-s01"
+      ],
+      "locator": "punto 3.1, pág. 17 del PDF",
+      "evidenceSummary": "Propone abandonar la Unión Europea y las organizaciones supranacionales.",
+      "reason": "Propone abandonar la Unión Europea y las organizaciones supranacionales.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "replaces": null,
+      "baselinePosition": {
+        "value": 1,
+        "source": "https://falange.es/wp-content/uploads/2026/11/FEDELASJONS_ProgramaElectoral_29NGenerales2026.pdf",
+        "locator": "punto 3.1, pág. 17 del PDF",
+        "reason": "Propone abandonar la Unión Europea y las organizaciones supranacionales.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional"
+      }
+    },
+    "13": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "fe-jons-s01"
+      ],
+      "locator": "punto 16.5, pág. 41 del PDF",
+      "evidenceSummary": "Aumento del presupuesto destinado a la defensa.",
+      "reason": "Aumento del presupuesto destinado a la defensa.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "replaces": null,
+      "baselinePosition": {
+        "value": 5,
+        "source": "https://falange.es/wp-content/uploads/2026/11/FEDELASJONS_ProgramaElectoral_29NGenerales2026.pdf",
+        "locator": "punto 16.5, pág. 41 del PDF",
+        "reason": "Aumento del presupuesto destinado a la defensa.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional"
+      }
+    },
+    "14": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "fe-jons-s01"
+      ],
+      "locator": "punto 13.2, pág. 36 del PDF",
+      "evidenceSummary": "Aspira a abolir la monarquía parlamentaria y a un Estado republicano nacional-sindicalista.",
+      "reason": "Aspira a abolir la monarquía parlamentaria y a un Estado republicano nacional-sindicalista.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "replaces": null,
+      "baselinePosition": {
+        "value": 5,
+        "source": "https://falange.es/wp-content/uploads/2026/11/FEDELASJONS_ProgramaElectoral_29NGenerales2026.pdf",
+        "locator": "punto 13.2, pág. 36 del PDF",
+        "reason": "Aspira a abolir la monarquía parlamentaria y a un Estado republicano nacional-sindicalista.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional"
+      }
+    },
+    "15": {
+      "status": "documentada",
+      "position": 1,
+      "sourceIds": [
+        "fe-jons-s01"
+      ],
+      "locator": "pág. 25 del PDF",
+      "evidenceSummary": "Propone ilegalizar las leyes que permiten el aborto y la eutanasia.",
+      "reason": "Propone ilegalizar las leyes que permiten el aborto y la eutanasia.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "replaces": null,
+      "baselinePosition": {
+        "value": 1,
+        "source": "https://falange.es/wp-content/uploads/2026/11/FEDELASJONS_ProgramaElectoral_29NGenerales2026.pdf",
+        "locator": "pág. 25 del PDF",
+        "reason": "Propone ilegalizar las leyes que permiten el aborto y la eutanasia.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional"
+      }
+    },
+    "16": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "17": {
+      "status": "documentada",
+      "position": 1,
+      "sourceIds": [
+        "fe-jons-s01"
+      ],
+      "locator": "pág. 11 del PDF",
+      "evidenceSummary": "Retirada del acceso a ayudas sociales para todo extranjero, reservadas a españoles.",
+      "reason": "Retirada del acceso a ayudas sociales para todo extranjero, reservadas a españoles.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "replaces": null,
+      "baselinePosition": {
+        "value": 1,
+        "source": "https://falange.es/wp-content/uploads/2026/11/FEDELASJONS_ProgramaElectoral_29NGenerales2026.pdf",
+        "locator": "pág. 11 del PDF",
+        "reason": "Retirada del acceso a ayudas sociales para todo extranjero, reservadas a españoles.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional"
+      }
+    },
+    "18": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    }
+  },
+  "searchLog": [
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "git:4f7fbd9ab5b675cf5d13114a62c3c9f89d3c8b1f:data.json",
+      "outcome": "Importación de línea base existente, sin nuevas búsquedas declaradas."
+    }
+  ],
+  "integration": {
+    "status": "pendiente",
+    "commit": null
+  }
+}

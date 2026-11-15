@@ -103,3 +103,7 @@ Resultado de consultar de nuevo las cinco fuentes propuestas. Ninguna aporta pro
 - **Manifesto, explorador público.** Se consultó el corpus 2026-1 para España (convocatoria 2023-07, EH Bildu). Es un antecedente de 2023 y así está marcado.
 
 Reglas para futuras ampliaciones: un programa de 2026 en la web oficial del partido prevalece siempre sobre antecedentes y prensa; los antecedentes (`historical`) y las fuentes secundarias seguirán marcados y se sustituirán en cuanto exista documento actual.
+
+## Primer lote GPT según reparto · 15/11/2026
+
+33 registros iniciales en evidence/gpt, cada uno con 18 decisiones y metadatos pendientes explícitos; la importación no se declara nueva lectura ni revisión terminada. Nueva evidencia PNV pregunta 18, programa oficial 2026, PDF p.14, 2.2.01: reducir burocracia y duplicidades empresariales. El resto de posiciones se conserva. No se modifica la carpeta de Claude.

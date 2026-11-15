@@ -1,0 +1,399 @@
+{
+  "schemaVersion": "1.0",
+  "catalogId": "pp",
+  "dataId": "pp",
+  "agent": "gpt",
+  "baseCommit": "4f7fbd9ab5b675cf5d13114a62c3c9f89d3c8b1f",
+  "reviewed": null,
+  "prepared": "2026-11-15",
+  "status": "en-curso",
+  "sources": [
+    {
+      "id": "pp-s01",
+      "url": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
+      "publisher": "Partido Popular",
+      "title": "La Reconstrucción Nacional (PDF)",
+      "published": null,
+      "accessed": null,
+      "election": "Convocatoria por verificar en metadatos importados",
+      "year": null,
+      "kind": "programa",
+      "origin": "primaria",
+      "hosting": "oficial",
+      "historical": false,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Importado de data.json; clasificación provisional. No implica nueva consulta ni verificación de metadatos. "
+    }
+  ],
+  "questions": {
+    "1": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "pp-s01"
+      ],
+      "locator": "Medidas 177–183",
+      "evidenceSummary": "Rebajas fiscales.",
+      "reason": "Rebajas fiscales.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "replaces": null,
+      "baselinePosition": {
+        "value": 5,
+        "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
+        "locator": "Medidas 177–183",
+        "reason": "Rebajas fiscales.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional"
+      }
+    },
+    "2": {
+      "status": "documentada",
+      "position": 1,
+      "sourceIds": [
+        "pp-s01"
+      ],
+      "locator": "Medida 145",
+      "evidenceSummary": "Deroga la Ley de Vivienda y elimina las zonas tensionadas y el índice de precios del alquiler.",
+      "reason": "Deroga la Ley de Vivienda y elimina las zonas tensionadas y el índice de precios del alquiler.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "replaces": null,
+      "baselinePosition": {
+        "value": 1,
+        "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
+        "locator": "Medida 145",
+        "reason": "Deroga la Ley de Vivienda y elimina las zonas tensionadas y el índice de precios del alquiler.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional"
+      }
+    },
+    "3": {
+      "status": "en-revision",
+      "position": null,
+      "sourceIds": [
+        "pp-s01"
+      ],
+      "locator": "Medida 42",
+      "evidenceSummary": "Arraigo excepcional; prohíbe regularizaciones masivas.",
+      "reason": "Arraigo excepcional; prohíbe regularizaciones masivas.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. El programa admite arraigo excepcional: no justifica puntuar oposición total a permitir el arraigo.",
+      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "replaces": null,
+      "baselinePosition": {
+        "value": 1,
+        "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
+        "locator": "Medida 42",
+        "reason": "Arraigo excepcional; prohíbe regularizaciones masivas.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional",
+        "scoreable": false,
+        "reviewNote": "El programa admite arraigo excepcional: no justifica puntuar oposición total a permitir el arraigo."
+      }
+    },
+    "4": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "5": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "pp-s01"
+      ],
+      "locator": "Medidas 23–30",
+      "evidenceSummary": "Ampliación de penas.",
+      "reason": "Ampliación de penas.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "replaces": null,
+      "baselinePosition": {
+        "value": 5,
+        "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
+        "locator": "Medidas 23–30",
+        "reason": "Ampliación de penas.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional"
+      }
+    },
+    "6": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "pp-s01"
+      ],
+      "locator": "Medida 212",
+      "evidenceSummary": "Preserva conciertos con demanda.",
+      "reason": "Preserva conciertos con demanda.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "replaces": null,
+      "baselinePosition": {
+        "value": 5,
+        "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
+        "locator": "Medida 212",
+        "reason": "Preserva conciertos con demanda.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional"
+      }
+    },
+    "7": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "8": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "9": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "pp-s01"
+      ],
+      "locator": "Medida 228",
+      "evidenceSummary": "Extensión de centrales.",
+      "reason": "Extensión de centrales.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "replaces": null,
+      "baselinePosition": {
+        "value": 5,
+        "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
+        "locator": "Medida 228",
+        "reason": "Extensión de centrales.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional"
+      }
+    },
+    "10": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "pp-s01"
+      ],
+      "locator": "Medida 108",
+      "evidenceSummary": "Las pensiones mantendrán su poder adquisitivo y subirán cada año con el IPC.",
+      "reason": "Las pensiones mantendrán su poder adquisitivo y subirán cada año con el IPC.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "replaces": null,
+      "baselinePosition": {
+        "value": 5,
+        "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
+        "locator": "Medida 108",
+        "reason": "Las pensiones mantendrán su poder adquisitivo y subirán cada año con el IPC.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional"
+      }
+    },
+    "11": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "pp-s01"
+      ],
+      "locator": "Medida 28",
+      "evidenceSummary": "Refuerzo del Pacto de Estado y VioGen.",
+      "reason": "Refuerzo del Pacto de Estado y VioGen.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "replaces": null,
+      "baselinePosition": {
+        "value": 5,
+        "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
+        "locator": "Medida 28",
+        "reason": "Refuerzo del Pacto de Estado y VioGen.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional"
+      }
+    },
+    "12": {
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "pp-s01"
+      ],
+      "locator": "Programa 2026 · apartado 4.10 · Unión Europea, pp. 55–56",
+      "evidenceSummary": "Propone reforzar la capacidad política de la UE, el mercado común y las compras conjuntas de defensa.",
+      "reason": "Propone reforzar la capacidad política de la UE, el mercado común y las compras conjuntas de defensa.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "replaces": null,
+      "baselinePosition": {
+        "value": 4,
+        "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
+        "locator": "Programa 2026 · apartado 4.10 · Unión Europea, pp. 55–56",
+        "reason": "Propone reforzar la capacidad política de la UE, el mercado común y las compras conjuntas de defensa.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional",
+        "sourceNote": "No concreta una reforma federal o de los tratados: se codifica apoyo moderado a la integración, no apoyo pleno."
+      }
+    },
+    "13": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "pp-s01"
+      ],
+      "locator": "Programa 2026 · medidas 52–55 · España tendrá medios para su defensa",
+      "evidenceSummary": "Propone más efectivos, mejores retribuciones y mayor inversión en equipamiento, financiados mediante programación plurianual de Defensa.",
+      "reason": "Propone más efectivos, mejores retribuciones y mayor inversión en equipamiento, financiados mediante programación plurianual de Defensa.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "replaces": null,
+      "baselinePosition": {
+        "value": 5,
+        "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
+        "locator": "Programa 2026 · medidas 52–55 · España tendrá medios para su defensa",
+        "reason": "Propone más efectivos, mejores retribuciones y mayor inversión en equipamiento, financiados mediante programación plurianual de Defensa.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional"
+      }
+    },
+    "14": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "15": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "16": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "pp-s01"
+      ],
+      "locator": "Medida 60",
+      "evidenceSummary": "Nueva Ley del Indulto: no podrán ser indultados los condenados por corrupción.",
+      "reason": "Nueva Ley del Indulto: no podrán ser indultados los condenados por corrupción.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "replaces": null,
+      "baselinePosition": {
+        "value": 5,
+        "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
+        "locator": "Medida 60",
+        "reason": "Nueva Ley del Indulto: no podrán ser indultados los condenados por corrupción.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional"
+      }
+    },
+    "17": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
+      "reason": null,
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Pendiente de investigación del agente GPT.",
+      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "replaces": null
+    },
+    "18": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "pp-s01"
+      ],
+      "locator": "Medidas 186–187",
+      "evidenceSummary": "Simplificación empresarial.",
+      "reason": "Simplificación empresarial.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "replaces": null,
+      "baselinePosition": {
+        "value": 5,
+        "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
+        "locator": "Medidas 186–187",
+        "reason": "Simplificación empresarial.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional"
+      }
+    }
+  },
+  "searchLog": [
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "git:4f7fbd9ab5b675cf5d13114a62c3c9f89d3c8b1f:data.json",
+      "outcome": "Importación de línea base existente, sin nuevas búsquedas declaradas."
+    }
+  ],
+  "integration": {
+    "status": "pendiente",
+    "commit": null
+  }
+}
