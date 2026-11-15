@@ -91,3 +91,15 @@ PSOE 2023: pregunta 13 (PDF p.270, aumento explícito del presupuesto de Defensa
 PP: pregunta 13 (valor 5, medidas 52–55 del programa de 2026, ampliación de efectivos, retribuciones e inversión plurianual) y pregunta 12 (valor 4, apartado 4.10, mayor capacidad política europea y compras conjuntas sin compromiso federal explícito). PSOE: pregunta 8 (valor 5, PDF p.11 del acuerdo de gobierno PSOE–Sumar 2023, garantía salarial expresa). Se usa como antecedente firmado por PSOE; no se extiende a marcas posteriores ni a otros partidos.
 
 No se codifica la mera defensa retórica de la monarquía como propuesta sobre república, ni alusiones generales a sanidad como respuesta sobre conciertos. Acceso al PDF completo de Vox falló por tamaño; sin posiciones nuevas de ese documento.
+
+## Comprobación de fuentes de referencia · 15/11/2026
+
+Resultado de consultar de nuevo las cinco fuentes propuestas. Ninguna aporta programas del 29N de 2026:
+
+- **Manifesto Project (corpus).** Base académica con versión de datos 2026a, actualizada al menos una vez al año y con retraso respecto a cada elección: no puede contener programas de unas elecciones aún no celebradas. Su página específica de España está retirada; la información se consulta desde el explorador público (ya usado para los antecedentes de 2023 de EH Bildu).
+- **Manifesto Project (API).** Exige clave personal asociada a una cuenta y tiene cuota diaria. No se ha creado ninguna cuenta ni usado la API. Serviría, como mucho, para textos de convocatorias anteriores, que aquí solo pueden entrar como antecedentes fechados.
+- **CEPC, programas electorales.** `www.cepc.gob.es` resuelve por DNS (212.128.109.24), pero cierra la conexión sin responder a `curl`, a la lectura web y al navegador integrado (consulta del 15/11/2026). No se ha podido verificar su contenido; es un archivo histórico y no hay indicio de que recoja programas de 2026. Pendiente de abrirlo desde un navegador convencional.
+- **Archivo de programas del PSOE.** La página devuelve un documento vacío a los clientes automáticos (cortafuegos Incapsula), también en el navegador integrado. El programa de julio de 2023 se obtuvo por otra vía y está incorporado como antecedente fechado; la página no ofrece programa de 2026.
+- **Manifesto, explorador público.** Se consultó el corpus 2026-1 para España (convocatoria 2023-07, EH Bildu). Es un antecedente de 2023 y así está marcado.
+
+Reglas para futuras ampliaciones: un programa de 2026 en la web oficial del partido prevalece siempre sobre antecedentes y prensa; los antecedentes (`historical`) y las fuentes secundarias seguirán marcados y se sustituirán en cuanto exista documento actual.
