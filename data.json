@@ -1,5 +1,5 @@
 {
-  "version": "0.5.6",
+  "version": "0.5.7",
   "date": "2026-11-15",
   "election": "Congreso · 29 de noviembre de 2026",
   "questions": [
@@ -117,21 +117,19 @@
           "coding": "Interpretación editorial provisional"
         },
         "3": {
-          "value": 1,
+          "value": 2,
           "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
-          "locator": "Medida 42",
-          "reason": "Arraigo excepcional; prohíbe regularizaciones masivas.",
-          "reviewed": "2026-11-14",
-          "coding": "Interpretación editorial provisional",
-          "scoreable": false,
-          "reviewNote": "El programa admite arraigo excepcional: no justifica puntuar oposición total a permitir el arraigo."
+          "locator": "PDF p. 19; medida 42",
+          "reason": "Oposición con matices: no elimina el arraigo, lo restringe a casos excepcionales.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional"
         },
         "5": {
-          "value": 5,
+          "value": 4,
           "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
-          "locator": "Medidas 23–30",
-          "reason": "Ampliación de penas.",
-          "reviewed": "2026-11-14",
+          "locator": "PDF p. 16–17; medida 23–27",
+          "reason": "Endurecimiento explícito pero formulado por delitos concretos, sin una subida general de penas de prisión.",
+          "reviewed": "2026-11-15",
           "coding": "Interpretación editorial provisional"
         },
         "6": {
@@ -198,6 +196,24 @@
           "reason": "Simplificación empresarial.",
           "reviewed": "2026-11-14",
           "coding": "Interpretación editorial provisional"
+        },
+        "7": {
+          "value": 2,
+          "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
+          "locator": "PDF p. 15; 25; medida 16 y 59",
+          "reason": "Oposición con matices a transferir más competencias.",
+          "reviewNote": "Confianza editorial baja.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional"
+        },
+        "17": {
+          "value": 2,
+          "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
+          "locator": "PDF p. 19; medida 42–44",
+          "reason": "Restringe el acceso de extranjeros a ayudas, sin hablar de prioridad nacional con esas palabras.",
+          "reviewNote": "Confianza editorial baja.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional"
         }
       },
       "exclude": [
@@ -258,11 +274,11 @@
           "coding": "Interpretación editorial provisional"
         },
         "13": {
-          "value": 5,
-          "source": "https://www.voxespana.es/abascal/es-sentido-comun-estas-son-las-medidas-de-vox-para-el-29n-20261112",
-          "locator": "Área 10",
-          "reason": "Más inversión en defensa.",
-          "reviewed": "2026-11-14",
+          "value": 4,
+          "source": "https://www.voxespana.es/wp-content/uploads/2026/11/Programa-completo-A5-1.pdf",
+          "locator": "PDF p. 45; punto 79 y 83",
+          "reason": "Apoya reforzar los recursos de las Fuerzas Armadas, pero no fija un aumento del gasto público ni una cifra.",
+          "reviewed": "2026-11-15",
           "coding": "Interpretación editorial provisional"
         },
         "16": {
@@ -292,12 +308,10 @@
         "4": {
           "value": 4,
           "source": "https://www.voxespana.es/wp-content/uploads/2026/11/Programa-completo-A5-1.pdf",
-          "locator": "Punto 62, pág. 37",
-          "reason": "Fomenta la colaboración público-privada cuando ayude a reducir demoras, con transparencia y control del gasto.",
-          "reviewed": "2026-11-14",
-          "coding": "Interpretación editorial provisional",
-          "scoreable": false,
-          "reviewNote": "Apoyo condicionado a que reduzca demoras y controle el gasto: no es apoyo general a ampliar los conciertos."
+          "locator": "PDF p. 37; punto 62",
+          "reason": "Apoyo condicionado: no propone ampliar los conciertos de forma general, sino en los casos en que reduzcan listas de espera.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional"
         },
         "15": {
           "value": 1,
@@ -457,6 +471,22 @@
           "coding": "Interpretación editorial provisional",
           "scoreable": false,
           "reviewNote": "Rechazar una modalidad penal no acredita oponerse a todo endurecimiento de penas."
+        },
+        "1": {
+          "value": 5,
+          "source": "https://www.bng.gal/media/bnggaliza/files/2026/11/12/26_bng_xerais_documentos_programa_electoral.pdf",
+          "locator": "PDF p. 43; apartado 4.1 «Por unha nova fiscalidade»",
+          "reason": "Rebaja explícita de la tributación del trabajo, acompañada de mayor carga a las rentas altas y del capital.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional"
+        },
+        "2": {
+          "value": 5,
+          "source": "https://www.bng.gal/media/bnggaliza/files/2026/11/12/26_bng_xerais_documentos_programa_electoral.pdf",
+          "locator": "PDF p. 12; apartado de vivienda",
+          "reason": "Apoyo claro a regular por ley los precios del alquiler.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional"
         }
       }
     },
@@ -564,8 +594,10 @@
           "source": "https://esquerrarepublicana.cat/documents/e2026-programa.pdf",
           "locator": "Medida 86, pág. 23",
           "reason": "Plantea simplificar trámites de pymes manteniendo garantías laborales y ambientales.",
-          "reviewed": "2026-11-14",
-          "coding": "Interpretación editorial provisional"
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional",
+          "scoreable": false,
+          "reviewNote": "Retirada del cálculo el 2026-11-15: la revisión no sostiene esta posición. El catálogo actual lo registra como apoyo claro (5); la medida 86 no habla de reducir cargas administrativas. Se propone retirarlo del cálculo."
         },
         "14": {
           "value": 5,
@@ -573,6 +605,22 @@
           "locator": "Medida 9, pág. 8",
           "reason": "Impulsa fiscalizar al rey y a la casa real y poner fin a la monarquía, institución que considera contraria al principio democrático.",
           "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "4": {
+          "value": 1,
+          "source": "https://esquerrarepublicana.cat/documents/e2026-programa.pdf",
+          "locator": "PDF p. 41; medida 232",
+          "reason": "Oposición a extender la gestión privada con fondos públicos; no menciona conciertos expresamente.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional"
+        },
+        "12": {
+          "value": 4,
+          "source": "https://esquerrarepublicana.cat/documents/e2026-programa.pdf",
+          "locator": "PDF p. 16; apartado G (texto previo a la medida 42)",
+          "reason": "Apoyo a reforzar la UE como actor político y presupuestario, sin hablar de federalismo ni de integración política con esas palabras.",
+          "reviewed": "2026-11-15",
           "coding": "Interpretación editorial provisional"
         }
       },
@@ -663,12 +711,10 @@
         "6": {
           "value": 4,
           "source": "https://www.porunmundomasjusto.es/wp-content/uploads/2026/11/Castellano.pdf",
-          "locator": "pág. 45",
-          "reason": "Apoya la coexistencia de la enseñanza pública y privada, concertada y no concertada, y reconoce la aportación de la concertada.",
-          "reviewed": "2026-11-14",
-          "coding": "Interpretación editorial provisional",
-          "scoreable": false,
-          "reviewNote": "Expresa apoyo a la coexistencia, no fija la financiación pública «donde exista demanda»."
+          "locator": "PDF p. 45; eje de educación",
+          "reason": "Apoyo con matices; no habla de financiarla «donde exista demanda».",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional"
         },
         "8": {
           "value": 5,
@@ -679,14 +725,12 @@
           "coding": "Interpretación editorial provisional"
         },
         "10": {
-          "value": 5,
+          "value": 4,
           "source": "https://www.porunmundomasjusto.es/wp-content/uploads/2026/11/Castellano.pdf",
-          "locator": "pág. 24, medida 01",
-          "reason": "Blindar constitucionalmente las pensiones y garantizar que nunca pierdan poder adquisitivo.",
-          "reviewed": "2026-11-14",
-          "coding": "Interpretación editorial provisional",
-          "scoreable": false,
-          "reviewNote": "Garantiza el poder adquisitivo, pero el texto no fija la actualización conforme al IPC."
+          "locator": "PDF p. 24; eje 06, medida 01",
+          "reason": "Apoyo a mantener el poder adquisitivo; no cita el IPC para las pensiones.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional"
         },
         "11": {
           "value": 5,
@@ -725,12 +769,10 @@
         "18": {
           "value": 4,
           "source": "https://www.porunmundomasjusto.es/wp-content/uploads/2026/11/Castellano.pdf",
-          "locator": "pág. 34",
-          "reason": "Aplicar criterios de proporcionalidad que eviten cargas administrativas excesivas para las pequeñas empresas.",
-          "reviewed": "2026-11-14",
-          "coding": "Interpretación editorial provisional",
-          "scoreable": false,
-          "reviewNote": "Alcanza solo a las pequeñas empresas y conserva los estándares de calidad y seguridad."
+          "locator": "PDF p. 34; eje de empresas",
+          "reason": "Apoyo con matices: sólo pymes y sin rebajar estándares.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional"
         }
       }
     },
@@ -845,12 +887,10 @@
         "1": {
           "value": 4,
           "source": "https://frenteobrero.es/documentos/programa-frente-obrero.pdf",
-          "locator": "pág. 18, medida 1",
-          "reason": "Reducir el impuesto sobre la renta a los trabajadores con menos recursos y aumentarlo a las rentas más altas.",
-          "reviewed": "2026-11-14",
-          "coding": "Interpretación editorial provisional",
-          "scoreable": false,
-          "reviewNote": "La rebaja alcanza solo a las rentas bajas y se acompaña de una subida a las altas."
+          "locator": "PDF p. 18; medida 1",
+          "reason": "Apoyo con matices: rebaja limitada a rentas bajas, compensada con subida a las altas.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional"
         },
         "3": {
           "value": 1,
@@ -863,12 +903,10 @@
         "4": {
           "value": 1,
           "source": "https://frenteobrero.es/documentos/programa-frente-obrero.pdf",
-          "locator": "pág. 42",
-          "reason": "Critica la externalización y privatización de los servicios sanitarios.",
-          "reviewed": "2026-11-14",
-          "coding": "Interpretación editorial provisional",
-          "scoreable": false,
-          "reviewNote": "Es un diagnóstico crítico; no se ha localizado una medida concreta sobre conciertos con centros privados."
+          "locator": "PDF p. 42; apartado de sanidad",
+          "reason": "Oposición clara; formulada como medida.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional"
         },
         "9": {
           "value": 5,
@@ -901,6 +939,22 @@
           "reason": "Prohibición del indulto en casos de corrupción política y delitos relacionados.",
           "reviewed": "2026-11-14",
           "coding": "Interpretación editorial provisional"
+        },
+        "7": {
+          "value": 1,
+          "source": "https://frenteobrero.es/documentos/programa-frente-obrero.pdf",
+          "locator": "PDF p. 56; apartado de estructura territorial",
+          "reason": "Oposición clara a transferir más competencias.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional"
+        },
+        "12": {
+          "value": 1,
+          "source": "https://frenteobrero.es/documentos/programa-frente-obrero.pdf",
+          "locator": "PDF p. 11; apartado de soberanía nacional",
+          "reason": "Oposición clara.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional"
         }
       }
     },
@@ -912,12 +966,10 @@
         "1": {
           "value": 4,
           "source": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
-          "locator": "Propuesta 232, pág. 58 del PDF",
-          "reason": "IRPF más progresivo: rebaja para las rentas más bajas y tipos mucho más altos a partir de 100.000 euros.",
-          "reviewed": "2026-11-14",
-          "coding": "Interpretación editorial provisional",
-          "scoreable": false,
-          "reviewNote": "La rebaja alcanza solo a las rentas bajas y se acompaña de una subida a las altas."
+          "locator": "PDF p. 58; propuesta 232",
+          "reason": "Apoyo con matices: rebaja sólo a las rentas bajas, con subida a las altas.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional"
         },
         "2": {
           "value": 5,
@@ -944,14 +996,13 @@
           "coding": "Interpretación editorial provisional"
         },
         "5": {
-          "value": 1,
+          "value": 2,
           "source": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
-          "locator": "Propuesta 495, pág. 94 del PDF",
-          "reason": "«No al populismo punitivo»: derogar el endurecimiento penal de los pequeños hurtos.",
-          "reviewed": "2026-11-14",
-          "coding": "Interpretación editorial provisional",
-          "scoreable": false,
-          "reviewNote": "Se refiere a los pequeños hurtos; no acredita oponerse a todo endurecimiento de penas."
+          "locator": "PDF p. 94; propuesta 495",
+          "reason": "Oposición con matices, centrada en pequeños hurtos.",
+          "reviewNote": "Confianza editorial baja.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional"
         },
         "7": {
           "value": 5,
@@ -1018,6 +1069,14 @@
           "reason": "Prohibir el indulto en los delitos de corrupción.",
           "reviewed": "2026-11-14",
           "coding": "Interpretación editorial provisional"
+        },
+        "6": {
+          "value": 1,
+          "source": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+          "locator": "PDF p. 42; apartado «Una sola red pública»",
+          "reason": "Oposición clara.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional"
         }
       }
     },
@@ -1034,6 +1093,15 @@
           "reviewed": "2026-11-14",
           "coding": "Propuesta oficial de campaña (no es programa electoral). Interpretación editorial provisional",
           "sourceNote": "Propuesta oficial de campaña publicada por el partido; no es un programa electoral completo."
+        },
+        "11": {
+          "value": 4,
+          "source": "https://geroabai.eus/es/actualidad/geroa-bai-presenta-sus-bases-politicas-para-las-elecciones-generales-con-la-defensa-de-navarra-el-autogobierno-y-el-estado-del-bienestar-como-ejes-centrales",
+          "locator": "Apartado «La pluralidad como eje de la convivencia»",
+          "reason": "Apoyo a reforzar la protección; no habla de legislación específica ni del Pacto de Estado.",
+          "sourceNote": "Nota en la web de la coalición (1.050 palabras). Dice que el documento de bases políticas puede consultarse en euskera y castellano en geroabai.eus, pero no enlaza ese documento y no lo he localizado. Es propuesta oficial de campaña, no programa completo.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional"
         }
       }
     },
@@ -1073,13 +1141,13 @@
           "sourceNote": "Resumen oficial de campaña. El PDF completo enlazado no pudo verificarse por un error de acceso; solo se codifica el texto de esta página."
         },
         "12": {
-          "value": 1,
+          "value": 2,
           "source": "https://www.seacabolafiesta.com/",
-          "locator": "Compromiso 10 · Geopolítica",
-          "reason": "Plantea renegociar la UE y someter una eventual salida a referéndum.",
-          "reviewed": "2026-11-14",
-          "coding": "Interpretación editorial provisional",
-          "sourceNote": "Resumen oficial de campaña. El PDF completo enlazado no pudo verificarse por un error de acceso; solo se codifica el texto de esta página."
+          "locator": "PDF p. 35; compromiso 10",
+          "reason": "Oposición con matices: condiciona la salida a que fracase la renegociación.",
+          "sourceNote": "Portada de la web del partido con el resumen de los diez compromisos y el enlace al contrato completo.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional"
         },
         "16": {
           "value": 5,
@@ -1108,6 +1176,39 @@
           "coding": "Interpretación editorial provisional",
           "scoreable": false,
           "reviewNote": "La prohibición de regularizaciones masivas no define por sí sola el arraigo individual."
+        },
+        "4": {
+          "value": 4,
+          "source": "https://www.seacabolafiesta.com/SALF_Contrato_Electoral_29N.pdf",
+          "locator": "PDF p. 22; compromiso 06",
+          "reason": "Apoyo con condiciones a financiar centros privados con fondos públicos.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional"
+        },
+        "5": {
+          "value": 5,
+          "source": "https://www.seacabolafiesta.com/",
+          "locator": "PDF p. 8; compromiso 02",
+          "reason": "Apoyo claro a endurecer penas.",
+          "sourceNote": "Portada de la web del partido con el resumen de los diez compromisos y el enlace al contrato completo.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional"
+        },
+        "13": {
+          "value": 4,
+          "source": "https://www.seacabolafiesta.com/SALF_Contrato_Electoral_29N.pdf",
+          "locator": "PDF p. 37; compromiso 10",
+          "reason": "Apoyo a reforzar medios y retribuciones; el gasto total queda en el 2 % del PIB.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional"
+        },
+        "17": {
+          "value": 1,
+          "source": "https://www.seacabolafiesta.com/SALF_Contrato_Electoral_29N.pdf",
+          "locator": "PDF p. 19; compromiso 04, medida 10",
+          "reason": "Oposición clara a igualar el acceso de los extranjeros al de los españoles.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional"
         }
       }
     },
@@ -1178,6 +1279,14 @@
           "locator": "Sección 1, propuesta 2",
           "reason": "Renta universal para personas adultas residentes, sin distinguir nacionalidad.",
           "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "3": {
+          "value": 5,
+          "source": "https://www.partidohumanista.es/Documentos/Programas/Programa%20Generales%202026.pdf",
+          "locator": "PDF p. 19; sección 7, propuesta 2",
+          "reason": "Apoyo claro.",
+          "reviewed": "2026-11-15",
           "coding": "Interpretación editorial provisional"
         }
       }
@@ -1271,12 +1380,12 @@
           "coding": "Interpretación editorial provisional"
         },
         "10": {
-          "value": 5,
+          "value": 4,
           "source": "https://frenteamplio.info/noticias/frente-amplio-propone-ninguna-pension-este-debajo-salario-minimo-recuperar/",
-          "locator": "Consolidar lo conseguido",
-          "reason": "Propone consolidar los avances de las pensiones, incluida su revalorización con el IPC.",
-          "sourceNote": "Nota de prensa oficial de campaña; no es un programa completo.",
-          "reviewed": "2026-11-14",
+          "locator": "Nota de prensa; apartado «Consolidar lo conseguido»",
+          "reason": "Apoya mantener la revalorización con el IPC como logro a consolidar, pero la nota no la formula como propuesta.",
+          "sourceNote": "Nota de prensa oficial de campaña en la web del partido; no es el programa completo.",
+          "reviewed": "2026-11-15",
           "coding": "Interpretación editorial provisional"
         }
       },
@@ -1402,14 +1511,14 @@
           "coding": "Interpretación editorial provisional de un programa histórico"
         },
         "6": {
-          "value": 5,
+          "value": 4,
           "source": "https://img.beteve.cat/wp-content/uploads/2023/07/programa-junts-per-catalunya-eleccions-generals-2023.pdf",
-          "locator": "Histórico 2023 · PDF p. 114 · Ensenyament",
-          "reason": "Propone actualizar la financiación de los centros concertados a sus costes reales.",
+          "locator": "Histórico 2023 · PDF p. 114",
+          "reason": "Acepta y quiere actualizar los conciertos; no propone mantener la financiación «donde exista demanda» con esas palabras.",
           "historical": true,
           "sourceYear": 2023,
-          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa de generales de 2023 de Junts, Demòcrates y Més Esquerres; se usa como antecedente de la candidatura encabezada por Junts, sin atribuirlo a otras formaciones. Copia documental alojada por Betevé.",
-          "reviewed": "2026-11-14",
+          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa íntegro de 148 páginas en catalán, con la portada «Programa electoral. Per Catalunya. Ja n’hi ha prou». Es un antecedente de otra convocatoria y de una coalición con otros dos partidos; el alojamiento (Betevé) no es oficial. Páginas del PDF.",
+          "reviewed": "2026-11-15",
           "coding": "Interpretación editorial provisional de un programa histórico"
         },
         "7": {
@@ -1422,14 +1531,14 @@
           "coding": "Interpretación editorial provisional"
         },
         "11": {
-          "value": 5,
+          "value": 4,
           "source": "https://img.beteve.cat/wp-content/uploads/2023/07/programa-junts-per-catalunya-eleccions-generals-2023.pdf",
-          "locator": "Histórico 2023 · PDF p. 111 · Igualtat",
-          "reason": "Propone garantías procesales específicas en casos de violencia machista.",
+          "locator": "Histórico 2023 · PDF p. 110",
+          "reason": "Apoyo a reforzar la actuación específica contra la violencia machista; no habla de mantener la ley integral.",
           "historical": true,
           "sourceYear": 2023,
-          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa de generales de 2023 de Junts, Demòcrates y Més Esquerres; se usa como antecedente de la candidatura encabezada por Junts, sin atribuirlo a otras formaciones. Copia documental alojada por Betevé.",
-          "reviewed": "2026-11-14",
+          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa íntegro de 148 páginas en catalán, con la portada «Programa electoral. Per Catalunya. Ja n’hi ha prou». Es un antecedente de otra convocatoria y de una coalición con otros dos partidos; el alojamiento (Betevé) no es oficial. Páginas del PDF.",
+          "reviewed": "2026-11-15",
           "coding": "Interpretación editorial provisional de un programa histórico"
         },
         "12": {
@@ -1452,6 +1561,17 @@
           "sourceYear": 2023,
           "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa de generales de 2023 de Junts, Demòcrates y Més Esquerres; se usa como antecedente de la candidatura encabezada por Junts, sin atribuirlo a otras formaciones. Copia documental alojada por Betevé.",
           "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional de un programa histórico"
+        },
+        "10": {
+          "value": 4,
+          "source": "https://img.beteve.cat/wp-content/uploads/2023/07/programa-junts-per-catalunya-eleccions-generals-2023.pdf",
+          "locator": "Histórico 2023 · PDF p. 100",
+          "reason": "Apoyo a la revalorización para mantener el poder adquisitivo; no menciona el IPC.",
+          "historical": true,
+          "sourceYear": 2023,
+          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa íntegro de 148 páginas en catalán, con la portada «Programa electoral. Per Catalunya. Ja n’hi ha prou». Es un antecedente de otra convocatoria y de una coalición con otros dos partidos; el alojamiento (Betevé) no es oficial. Páginas del PDF.",
+          "reviewed": "2026-11-15",
           "coding": "Interpretación editorial provisional de un programa histórico"
         }
       },
@@ -1627,6 +1747,90 @@
           "historical": true,
           "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Corpus Manifesto 2026-1; texto por documento, sin importar sus códigos temáticos como puntuaciones de afinidad.",
           "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional de un programa histórico"
+        }
+      }
+    },
+    {
+      "id": "pcte",
+      "name": "PCTE",
+      "match": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA (PCTE)",
+      "positions": {
+        "2": {
+          "value": 5,
+          "source": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+          "locator": "Histórico 2023 · PDF p. 14",
+          "reason": "Apoyo claro a limitar los alquileres por ley.",
+          "historical": true,
+          "sourceYear": 2023,
+          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. PDF del dominio del partido (23 páginas) enlazado desde su portada. El propio texto dice: «Esto no es un programa electoral. Es un programa de lucha» con las líneas de actuación de la legislatura 2023-2027. Es un documento político, no el programa de 2026. Páginas del PDF.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional de un programa histórico"
+        },
+        "4": {
+          "value": 1,
+          "source": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+          "locator": "Histórico 2023 · PDF p. 13",
+          "reason": "Oposición clara a la provisión privada con fondos públicos.",
+          "historical": true,
+          "sourceYear": 2023,
+          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. PDF del dominio del partido (23 páginas) enlazado desde su portada. El propio texto dice: «Esto no es un programa electoral. Es un programa de lucha» con las líneas de actuación de la legislatura 2023-2027. Es un documento político, no el programa de 2026. Páginas del PDF.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional de un programa histórico"
+        },
+        "6": {
+          "value": 1,
+          "source": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+          "locator": "Histórico 2023 · PDF p. 7; 13",
+          "reason": "Oposición clara a financiar la enseñanza concertada.",
+          "historical": true,
+          "sourceYear": 2023,
+          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. PDF del dominio del partido (23 páginas) enlazado desde su portada. El propio texto dice: «Esto no es un programa electoral. Es un programa de lucha» con las líneas de actuación de la legislatura 2023-2027. Es un documento político, no el programa de 2026. Páginas del PDF.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional de un programa histórico"
+        },
+        "8": {
+          "value": 5,
+          "source": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+          "locator": "Histórico 2023 · PDF p. 6; 11",
+          "reason": "Apoyo claro, con jornada de 35 horas y salario intacto.",
+          "historical": true,
+          "sourceYear": 2023,
+          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. PDF del dominio del partido (23 páginas) enlazado desde su portada. El propio texto dice: «Esto no es un programa electoral. Es un programa de lucha» con las líneas de actuación de la legislatura 2023-2027. Es un documento político, no el programa de 2026. Páginas del PDF.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional de un programa histórico"
+        },
+        "12": {
+          "value": 1,
+          "source": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+          "locator": "Histórico 2023 · PDF p. 19",
+          "reason": "Oposición clara a avanzar en la integración europea.",
+          "historical": true,
+          "sourceYear": 2023,
+          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. PDF del dominio del partido (23 páginas) enlazado desde su portada. El propio texto dice: «Esto no es un programa electoral. Es un programa de lucha» con las líneas de actuación de la legislatura 2023-2027. Es un documento político, no el programa de 2026. Páginas del PDF.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional de un programa histórico"
+        },
+        "13": {
+          "value": 1,
+          "source": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+          "locator": "Histórico 2023 · PDF p. 18–19",
+          "reason": "Oposición clara a aumentar el gasto en defensa.",
+          "historical": true,
+          "sourceYear": 2023,
+          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. PDF del dominio del partido (23 páginas) enlazado desde su portada. El propio texto dice: «Esto no es un programa electoral. Es un programa de lucha» con las líneas de actuación de la legislatura 2023-2027. Es un documento político, no el programa de 2026. Páginas del PDF.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional de un programa histórico"
+        },
+        "15": {
+          "value": 5,
+          "source": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+          "locator": "Histórico 2023 · PDF p. 16",
+          "reason": "Presenta el aborto como una conquista a defender; apoyo implícito, no formulado como propuesta.",
+          "historical": true,
+          "sourceYear": 2023,
+          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. PDF del dominio del partido (23 páginas) enlazado desde su portada. El propio texto dice: «Esto no es un programa electoral. Es un programa de lucha» con las líneas de actuación de la legislatura 2023-2027. Es un documento político, no el programa de 2026. Páginas del PDF.",
+          "reviewed": "2026-11-15",
           "coding": "Interpretación editorial provisional de un programa histórico"
         }
       }

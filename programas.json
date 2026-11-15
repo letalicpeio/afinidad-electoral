@@ -745,14 +745,17 @@
    ],
    "website": "https://www.pcte.es/",
    "program": {
-    "status": "no-localizado",
+    "status": "historico",
     "consulted": "https://www.pcte.es/",
     "official": true,
     "detail": "La web enlaza un programa del 10N de 2020 y el «Programa de lucha 2023-2027», pero ningún programa específico para el 29N de 2026. Nueva búsqueda del 15/11/2026 sin resultados del 29N.",
-    "note": "No se han usado documentos de otras convocatorias como programa de 2026.",
+    "note": "Antecedente: documento político de 2023 alojado en la web del partido. No hay programa del 29N de 2026; las posiciones que se toman de él van marcadas como antecedente con su año.",
     "checked": "2026-11-15",
-    "checkedAt": "2026-11-15T09:02:53Z"
-   }
+    "checkedAt": "2026-11-15T09:02:53Z",
+    "url": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+    "title": "Programa de lucha 2023-2027 (documento político del PCTE, antecedente)"
+   },
+   "dataId": "pcte"
   },
   {
    "id": "pcte-euskadi",
