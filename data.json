@@ -1,5 +1,5 @@
 {
-  "version": "0.5.5",
+  "version": "0.5.6",
   "date": "2026-11-15",
   "election": "Congreso · 29 de noviembre de 2026",
   "questions": [
@@ -482,6 +482,15 @@
           "reviewed": "2026-11-14",
           "coding": "Interpretación editorial provisional",
           "scoreable": true
+        },
+        "10": {
+          "value": 5,
+          "source": "https://coalicioncanaria.org/valido-reclama-al-estado-una-subida-mayor-para-las-pensiones-no-contributivas/",
+          "locator": "Declaración oficial de CC · 26/02/2026 · revalorización y subidas por encima de la inflación",
+          "reason": "Valido respalda la revalorización de las pensiones públicas y pide que las subidas superen la inflación, especialmente en las prestaciones bajas.",
+          "sourceNote": "Fuente oficial: declaración de Cristina Valido (CC) anterior al programa conjunto de 2026. No es una medida nueva firmada por Primero Canarias; pendiente de confirmación conjunta. Trazabilidad en evidence/gpt/cc.json.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional"
         },
         "11": {
           "value": 5,

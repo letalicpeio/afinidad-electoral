@@ -17,3 +17,9 @@ Siguiente: revisión completa de los huecos de PNV y de las principales candidat
 - CC: dos propuestas nuevas con matices (IRPF territorial y trámites de vivienda). Cuatro posiciones en la web; ficha en-curso.
 - Metadatos de ambos PDFs completados con huella SHA-256 y localizadores; PDFs no subidos.
 - Integrado en `112411946bc2780f748eabaaa959cd820a393a31`. Versión 0.5.5 comprobada en la web el 15/11/2026. Pruebas de cálculo y catálogo superadas. La entrega de Claude se conserva y queda pendiente de revisión antes de integrarla.
+
+## Tercer lote · 15/11/2026
+
+- CC: pregunta 10 documentada con declaración oficial de 2026; cinco posiciones registradas. Se explicita autoría de CC y confirmación conjunta pendiente.
+- Pregunta 8 en revisión: entrevista de 2025, condicionada a ayudas a pymes. No entra al cálculo. Resto de investigación pendiente; ficha en-curso.
+- Publicación 0.5.6 pendiente de verificación.

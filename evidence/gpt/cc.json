@@ -3,7 +3,7 @@
   "catalogId": "cc",
   "dataId": "cc",
   "agent": "gpt",
-  "baseCommit": "d060a2ab389ca5153f63eb25ea33f8f34efbd104",
+  "baseCommit": "10af149f9c4a2798e55a11a770826180f8055e3e",
   "reviewed": "2026-11-15",
   "prepared": "2026-11-15",
   "status": "en-curso",
@@ -24,6 +24,40 @@
       "documentVersion": null,
       "sha256": "3c40c0a6e38d8dd80ae1061d94b614f4e3f1b6492ec8c801834fb497f337044e",
       "notes": "Documento conjunto de 23 páginas; fecha de presentación contrastada en noticia oficial del 9/11/2026. El extractor web rechazó 69 MB, pero la descarga y extracción local funcionaron. No se sube el PDF al repositorio."
+    },
+    {
+      "id": "cc-s02",
+      "url": "https://coalicioncanaria.org/valido-reclama-al-estado-una-subida-mayor-para-las-pensiones-no-contributivas/",
+      "publisher": "Coalición Canaria",
+      "title": "Valido reclama al Estado una subida mayor para las pensiones no contributivas",
+      "published": "2026-02-26",
+      "accessed": "2026-11-15",
+      "election": "Actividad parlamentaria; anterior al programa conjunto 29N",
+      "year": 2026,
+      "kind": "declaracion",
+      "origin": "primaria",
+      "hosting": "oficial",
+      "historical": false,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Declaración atribuida a Cristina Valido (CC). No es un compromiso nuevo firmado por Primero Canarias."
+    },
+    {
+      "id": "cc-s03",
+      "url": "https://radiosintonia.com/cc-apoya-la-reduccion-de-la-jornada-laboral-siempre-que-contemple-medidas-especificas-para-las-pymes/",
+      "publisher": "Radio Sintonía",
+      "title": "CC apoya la reducción de la jornada laboral siempre que contemple medidas específicas para las pymes",
+      "published": "2025-09-09",
+      "accessed": "2026-11-15",
+      "election": "Actividad parlamentaria; anterior al programa conjunto 29N",
+      "year": 2025,
+      "kind": "noticia",
+      "origin": "secundaria",
+      "hosting": "medio",
+      "historical": true,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Declaración atribuida a Cristina Valido (CC). No es un compromiso nuevo firmado por Primero Canarias."
     }
   ],
   "questions": {
@@ -132,16 +166,18 @@
       }
     },
     "8": {
-      "status": "sin-evidencia",
+      "status": "en-revision",
       "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
-      "confidence": "baja",
+      "sourceIds": [
+        "cc-s03"
+      ],
+      "locator": "Radio Sintonía · entrevista 09/09/2025 · resumen de la entrevista",
+      "evidenceSummary": "Valido apoya el proyecto de 37,5 horas condicionado a compensaciones a las pymes. RTVE confirma que el proyecto mantenía el salario.",
+      "reason": "Antecedente secundario de 2025 de CC, no del programa conjunto 2026. Se conserva sin integrar mientras se revisa la aplicabilidad y la política común de antecedentes.",
+      "confidence": "media",
       "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNote": "No puntuable en este lote; no confundir apoyo a tramitar con aprobación incondicional del texto.",
+      "nextAction": "Buscar declaración oficial actual y expresa sobre jornada sin reducción salarial.",
       "replaces": null
     },
     "9": {
@@ -158,16 +194,18 @@
       "replaces": null
     },
     "10": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
-      "confidence": "baja",
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "cc-s02"
+      ],
+      "locator": "26/02/2026 · párrafos de apoyo al decreto y petición de subidas por encima de la inflación",
+      "evidenceSummary": "Valido respalda la revalorización de las pensiones públicas y pide que las subidas superen la inflación, especialmente en las prestaciones bajas.",
+      "reason": "Defiende preservar y superar el poder adquisitivo. Evidencia oficial de CC de 2026, anterior al programa conjunto; no se deduce del mero voto a un decreto amplio.",
+      "confidence": "media",
       "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNote": "Declaración de CC anterior al programa conjunto. Su medida 19 sobre complementos no sustituye ni contradice esta posición; confirmar adhesión expresa del socio.",
+      "nextAction": "Sustituir por compromiso conjunto explícito cuando se publique.",
       "replaces": null
     },
     "11": {
@@ -302,13 +340,35 @@
       "date": "2026-11-15",
       "urlOrQuery": "https://coalicioncanaria.org/cc-y-primero-canarias-presentan-diez-grandes-causas-y-cien-medidas-para-defender-canarias-en-madrid/",
       "outcome": "Noticia oficial de presentación del programa conjunto: 09/11/2026."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "https://coalicioncanaria.org/valido-reclama-al-estado-una-subida-mayor-para-las-pensiones-no-contributivas/",
+      "outcome": "Leída declaración oficial del 26/02/2026: respaldo a revalorización y subidas superiores a inflación."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "https://radiosintonia.com/cc-apoya-la-reduccion-de-la-jornada-laboral-siempre-que-contemple-medidas-especificas-para-las-pymes/",
+      "outcome": "Entrevista secundaria de 2025 leída; apoyo condicionado a pymes, conservado en revisión."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "https://www.rtve.es/noticias/20250910/pp-vox-junts-jornada-laboral/16724242.shtml",
+      "outcome": "Leído: el proyecto mencionado reducía la jornada sin merma salarial. No se atribuye postura por un voto a paquete."
     }
   ],
   "integration": {
-    "status": "integrado",
-    "commit": "112411946bc2780f748eabaaa959cd820a393a31",
-    "scope": "Preguntas 1 y 18; cuatro posiciones documentadas",
-    "publishedVersion": "0.5.5",
-    "verified": "2026-11-15"
-  }
+    "status": "pendiente",
+    "commit": null,
+    "scope": "Pregunta 10; pregunta 8 permanece solo en investigación"
+  },
+  "integrationHistory": [
+    {
+      "status": "integrado",
+      "commit": "112411946bc2780f748eabaaa959cd820a393a31",
+      "scope": "Preguntas 1 y 18; cuatro posiciones documentadas",
+      "publishedVersion": "0.5.5",
+      "verified": "2026-11-15"
+    }
+  ]
 }

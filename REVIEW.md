@@ -113,3 +113,6 @@ Reglas para futuras ampliaciones: un programa de 2026 en la web oficial del part
 Revisión de las 18 afirmaciones para PNV con programa oficial 2026, archivo 2023 en RTVE y búsquedas complementarias registradas. Cinco posiciones puntuables, tres en revisión (arraigo, penas y alcance de integración europea), diez sin evidencia suficiente en fuentes consultadas. Se añade pregunta 15, 3.3.04–05, PDF p.26. El registro europeo contextual no entra en data.json ni puntúa. No se afirma ausencia universal de postura ni se adopta neutralidad automática.
 
 CC: PDF oficial de 69 MB, descargado y leído con extracción local; autoría conjunta confirmada. Pregunta 1 = 4 por deducción IRPF limitada a La Palma, La Gomera y El Hierro (medida 38, p.13); pregunta 18 = 4 por simplificación limitada a vivienda protegida y asequible (28, p.11). Se explicitan límites para evitar presentar apoyo general. No se confunden incentivos voluntarios al alquiler con límites de precios ni complementos de pensiones con IPC.
+
+
+Ampliación 0.5.6: CC añade pensiones mediante declaración oficial del 26/02/2026, que defiende subidas superiores a la inflación. Se señala que es anterior al programa conjunto y requiere confirmación del socio. Cinco posiciones registradas; jornada queda solo en investigación con fuente secundaria de 2025. El resto de preguntas pendientes no se declara revisado.

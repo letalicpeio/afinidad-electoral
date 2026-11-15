@@ -85,3 +85,6 @@ Cada resultado indica cuántos temas puntuados proceden de cada nivel. Un test i
 Trabajo coordinado: consultar [REPARTO_GPT_CLAUDE.md](REPARTO_GPT_CLAUDE.md). GPT mantiene sus propuestas y trazabilidad en [evidence/gpt/PROGRESO.md](evidence/gpt/PROGRESO.md); las fichas en curso no equivalen a investigación terminada.
 
 Ampliación 0.5.5: PNV añade protección del acceso al aborto del programa oficial de 2026. Su ficha de evidencia registra 18 decisiones: cinco documentadas, tres en revisión y diez sin evidencia suficiente. CC añade apoyo fiscal territorial (IRPF en tres islas) y simplificación sectorial de vivienda, ambos con matices explícitos.
+
+
+Ampliación 0.5.6: CC añade pensiones mediante declaración oficial del 26/02/2026, que defiende subidas superiores a la inflación. Se señala que es anterior al programa conjunto y requiere confirmación del socio. Cinco posiciones registradas; jornada queda solo en investigación con fuente secundaria de 2025. El resto de preguntas pendientes no se declara revisado.
