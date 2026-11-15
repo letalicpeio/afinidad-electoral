@@ -91,6 +91,23 @@
       "documentVersion": null,
       "sha256": null,
       "notes": "Leída con la herramienta de lectura web. Recoge declaraciones de Mar González, candidata de Frente Amplio al Senado por Guadalajara; no es un documento programático."
+    },
+    {
+      "id": "frente-amplio-s06",
+      "url": "https://verdesequo.es/wp-content/uploads/2023/07/Un-programa-para-ti.pdf",
+      "publisher": "Sumar (copia alojada por Verdes Equo)",
+      "title": "Un programa para ti · Elecciones generales 2023",
+      "published": "2023-07",
+      "accessed": "2026-11-15",
+      "election": "Generales de España 2023",
+      "year": 2023,
+      "kind": "programa",
+      "origin": "primaria",
+      "hosting": "copia-archivo",
+      "historical": true,
+      "documentVersion": null,
+      "sha256": "e8d9a4a21175ab388f8d1ae3011bf8c99749cfd13dcafc5e71aa6eaf79269272",
+      "notes": "Programa de Sumar para las generales de 2023, alianza de la que procede Frente Amplio. Se usa como antecedente por decisión del usuario (15/11/2026), no como compromiso de Frente Amplio ni de sus socios actuales."
     }
   ],
   "questions": {
@@ -108,18 +125,17 @@
       "replaces": null
     },
     "2": {
-      "status": "en-revision",
-      "position": null,
+      "status": "documentada",
+      "position": 4,
       "sourceIds": [
-        "frente-amplio-s02",
-        "frente-amplio-s03"
+        "frente-amplio-s06"
       ],
-      "locator": "Notas de 28/10 y 12/11/2026",
-      "evidenceSummary": "Impuesto a la acumulación de vivienda para «bajar los precios de los alquileres» y legalizar las huelgas de alquiler y los sindicatos de inquilinas.",
-      "reason": "Medidas de presión sobre propietarios y de organización de inquilinos; no se propone un tope ni la regulación de precios en zonas tensionadas.",
-      "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "Lectura provisional favorable (4) por el objetivo de bajar alquileres, sin medida explícita de regulación de precios.",
+      "locator": "PDF p. 9; economía, medida 6",
+      "evidenceSummary": "Establecer precios de referencia para las zonas tensionadas (30 % de la renta de los hogares) y penalizar fiscalmente los alquileres que los superen.",
+      "reason": "Apoyo con matices: fija precios de referencia con sanción fiscal, no un tope directo.",
+      "confidence": "media",
+      "reviewNeeded": false,
+      "reviewNote": null,
       "nextAction": null,
       "replaces": null
     },
@@ -163,13 +179,15 @@
       "replaces": null
     },
     "6": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "Sin propuestas sobre la enseñanza concertada en las notas oficiales.",
-      "confidence": "baja",
+      "status": "documentada",
+      "position": 2,
+      "sourceIds": [
+        "frente-amplio-s06"
+      ],
+      "locator": "PDF p. 155–156; educación",
+      "evidenceSummary": "Titularidad y regulación públicas del conjunto del sistema, incluida la red concertada, y revisión de la normativa de conciertos educativos.",
+      "reason": "Oposición con matices: no elimina los conciertos pero los revisa y subordina al sistema público.",
+      "confidence": "media",
       "reviewNeeded": false,
       "reviewNote": null,
       "nextAction": null,
@@ -189,13 +207,15 @@
       "replaces": null
     },
     "8": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "Ninguna de las notas habla de reducir la jornada laboral máxima (la búsqueda de «jornada», «semana laboral» y «horas» no da resultados).",
-      "confidence": "baja",
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "frente-amplio-s06"
+      ],
+      "locator": "PDF p. 7; empleo, medida 3",
+      "evidenceSummary": "Jornada máxima legal de 37,5 horas en 2024 y proceso para llegar a 32 horas semanales, sin reducción de salario.",
+      "reason": "Apoyo explícito, sin pérdida salarial.",
+      "confidence": "alta",
       "reviewNeeded": false,
       "reviewNote": null,
       "nextAction": null,
@@ -232,26 +252,30 @@
       "replaces": null
     },
     "11": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "Las notas oficiales no tratan la violencia de género.",
-      "confidence": "baja",
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "frente-amplio-s06"
+      ],
+      "locator": "PDF p. 112–113; igualdad, medida 9",
+      "evidenceSummary": "Blindar el Pacto de Estado contra la Violencia de Género, ampliar las formas de violencia reconocidas y recuperar juzgados de violencia de género.",
+      "reason": "Apoyo explícito a mantener y reforzar la legislación específica.",
+      "confidence": "alta",
       "reviewNeeded": false,
       "reviewNote": null,
       "nextAction": null,
       "replaces": null
     },
     "12": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "Sin propuestas sobre la UE en las notas oficiales.",
-      "confidence": "baja",
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "frente-amplio-s06"
+      ],
+      "locator": "PDF p. 142 y 147; Unión Europea",
+      "evidenceSummary": "Abandonar la unanimidad en política exterior, de seguridad y fiscal en la UE a favor de la mayoría cualificada.",
+      "reason": "Apoyo explícito a mayor integración y capacidad de decisión comunes.",
+      "confidence": "media",
       "reviewNeeded": false,
       "reviewNote": null,
       "nextAction": null,
@@ -284,13 +308,15 @@
       "replaces": null
     },
     "15": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "Sin propuestas sobre aborto en las notas oficiales.",
-      "confidence": "baja",
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "frente-amplio-s06"
+      ],
+      "locator": "PDF p. 93; salud sexual y reproductiva, medida 10",
+      "evidenceSummary": "Garantizar que todas las comunidades respeten el derecho de las mujeres a la interrupción voluntaria del embarazo en la red pública.",
+      "reason": "Apoyo explícito a mantener y garantizar el derecho legal al aborto.",
+      "confidence": "alta",
       "reviewNeeded": false,
       "reviewNote": null,
       "nextAction": null,
@@ -323,13 +349,15 @@
       "replaces": null
     },
     "18": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "Sin propuestas sobre obligaciones administrativas de las empresas.",
-      "confidence": "baja",
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "frente-amplio-s06"
+      ],
+      "locator": "PDF p. 14; empresas, medida 6",
+      "evidenceSummary": "Facilitar la tramitación con las administraciones y la simplificación administrativa para las empresas, empleando la digitalización.",
+      "reason": "Apoyo con matices: propone simplificar trámites empresariales, sin hablar de reducir obligaciones.",
+      "confidence": "media",
       "reviewNeeded": false,
       "reviewNote": null,
       "nextAction": null,
@@ -364,7 +392,7 @@
     }
   ],
   "integration": {
-    "status": "integrado",
-    "commit": "3a56c4c988e0edd6164982d94be99cbbf1c707c7"
+    "status": "pendiente",
+    "commit": null
   }
 }
