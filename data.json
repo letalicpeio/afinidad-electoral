@@ -1,5 +1,5 @@
 {
-  "version": "0.5.9",
+  "version": "0.5.10",
   "date": "2026-11-15",
   "election": "Congreso · 29 de noviembre de 2026",
   "questions": [
@@ -1333,12 +1333,13 @@
           "coding": "Interpretación editorial provisional"
         },
         "12": {
-          "value": 5,
+          "value": 4,
           "source": "https://mi.democracia21.es/programa/union-europea",
-          "locator": "Medidas 01–03 · Unión Europea",
-          "reason": "Impulsa supervisión democrática europea, mercado común y defensa compartida.",
-          "reviewed": "2026-11-14",
-          "coding": "Interpretación editorial provisional"
+          "locator": "Medidas 01–03 · supervisión vinculante, mercado europeo y defensa común",
+          "reason": "Propone supervisión europea vinculante del Estado de Derecho, mercado de capitales y defensa común; apoyo matizado a reforzar instituciones europeas, sin compromiso federal explícito.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional",
+          "sourceNote": "Fuente oficial: programa web de D21. Se corrige la codificación anterior de 5 a 4; la fuente no es prensa. Trazabilidad en evidence/gpt/d21.json."
         },
         "15": {
           "value": 5,

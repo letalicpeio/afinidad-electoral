@@ -212,8 +212,8 @@
     "url": "https://mi.democracia21.es/programa",
     "title": "La España que merecemos · Programa por temas (web)",
     "official": true,
-    "note": "Índice del programa oficial en versión web. Las posiciones enlazan al tema concreto; no se ha encontrado fecha de edición impresa. Ampliación: vivienda (límite temporal condicionado del alquiler) y simplificación de trámites empresariales. Cinco afirmaciones documentadas de dieciocho; el resto no se infiere de medidas relacionadas.",
-    "checked": "2026-11-14"
+    "note": "Programa temático oficial. Cinco afirmaciones puntuables. Integración europea con apoyo matizado (4), sin compromiso federal explícito; fuente oficial contrastada. Resto sin nuevas puntuaciones.",
+    "checked": "2026-11-15"
    },
    "website": "https://democracia21.es/",
    "dataId": "d21"
@@ -1021,8 +1021,8 @@
     "url": "https://teruelexiste.info/wp-content/uploads/2026/11/Programa_Teruel_Existe_Completo_29N.pdf",
     "title": "Programa electoral completo 29N (PDF)",
     "official": true,
-    "note": "Programa centrado en reivindicaciones para la provincia. El texto del PDF no se extrae de forma fiable y no trata de forma explícita las 18 afirmaciones: no se han codificado posiciones.",
-    "checked": "2026-11-14",
+    "note": "Resumen oficial de 14 propuestas contrastado en la web y PDF de tres páginas. Fiscalidad territorial e igualdad permanecen en revisión, sin puntuación. El PDF completo sigue pendiente de lectura fiable; no se afirma ausencia de propuestas en el documento no leído.",
+    "checked": "2026-11-15",
     "checkedAt": "2026-11-14T17:00:43Z"
    },
    "website": "https://teruelexiste.info/"

@@ -94,3 +94,8 @@ Ampliación 0.5.5: PNV añade protección del acceso al aborto del programa ofic
 
 
 Ampliación 0.5.6: CC añade pensiones mediante declaración oficial del 26/02/2026, que defiende subidas superiores a la inflación. Se señala que es anterior al programa conjunto y requiere confirmación del socio. Cinco posiciones registradas; jornada queda solo en investigación con fuente secundaria de 2025. El resto de preguntas pendientes no se declara revisado.
+
+
+## Revisión D21 y Teruel Existe · 0.5.10
+
+D21: pregunta 12 corregida de 5 a 4 tras leer directamente el programa oficial europeo. El origen se normaliza como oficial; no era prensa. Se conserva la codificación anterior en la evidencia. Defensa (pregunta 13) permanece sin puntuar. Teruel Existe: resumen oficial contrastado; la propuesta 13 no acredita por sí sola apoyo al marco legal específico de violencia de género. Pregunta 11 pasa a en-revision y permanece fuera del cálculo, al igual que la pregunta 1. No se declara leído el PDF completo. No se modifican los datos de otras formaciones ni el dominio.

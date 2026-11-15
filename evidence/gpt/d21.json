@@ -11,7 +11,7 @@
     {
       "id": "d21-s01",
       "url": "https://mi.democracia21.es/programa/vivienda",
-      "publisher": "mi.democracia21.es",
+      "publisher": "Democracia para el Siglo 21",
       "title": "Vivienda: choque de emergencia",
       "published": null,
       "accessed": "2026-11-15",
@@ -19,16 +19,16 @@
       "year": 2026,
       "kind": "documento-politico",
       "origin": "primaria",
-      "hosting": "medio",
+      "hosting": "oficial",
       "historical": false,
       "documentVersion": null,
       "sha256": null,
-      "notes": "Página de programa del dominio mi.democracia21.es (4 medidas). Alojamiento clasificado según la ficha de GPT; la titularidad del dominio no se ha contrastado con el catálogo."
+      "notes": "Subdominio del dominio oficial democracia21.es, enlazado desde la web del partido. Programa temático web; sin fecha de publicación conocida."
     },
     {
       "id": "d21-s02",
       "url": "https://mi.democracia21.es/programa/derechos-sociales",
-      "publisher": "mi.democracia21.es",
+      "publisher": "Democracia para el Siglo 21",
       "title": "La España que merecemos: derechos sociales",
       "published": null,
       "accessed": "2026-11-15",
@@ -36,16 +36,16 @@
       "year": 2026,
       "kind": "documento-politico",
       "origin": "primaria",
-      "hosting": "medio",
+      "hosting": "oficial",
       "historical": false,
       "documentVersion": null,
       "sha256": null,
-      "notes": "Página de programa del dominio mi.democracia21.es (4 medidas). Alojamiento clasificado según la ficha de GPT; la titularidad del dominio no se ha contrastado con el catálogo."
+      "notes": "Subdominio del dominio oficial democracia21.es, enlazado desde la web del partido. Programa temático web; sin fecha de publicación conocida."
     },
     {
       "id": "d21-s03",
       "url": "https://mi.democracia21.es/programa/union-europea",
-      "publisher": "mi.democracia21.es",
+      "publisher": "Democracia para el Siglo 21",
       "title": "Construir la Unión Europea del siglo 21",
       "published": null,
       "accessed": "2026-11-15",
@@ -53,16 +53,16 @@
       "year": 2026,
       "kind": "documento-politico",
       "origin": "primaria",
-      "hosting": "medio",
+      "hosting": "oficial",
       "historical": false,
       "documentVersion": null,
       "sha256": null,
-      "notes": "Página de programa del dominio mi.democracia21.es (4 medidas). Alojamiento clasificado según la ficha de GPT; la titularidad del dominio no se ha contrastado con el catálogo."
+      "notes": "Subdominio del dominio oficial democracia21.es, enlazado desde la web del partido. Programa temático web; sin fecha de publicación conocida."
     },
     {
       "id": "d21-s04",
       "url": "https://mi.democracia21.es/programa/menos-normas",
-      "publisher": "mi.democracia21.es",
+      "publisher": "Democracia para el Siglo 21",
       "title": "Menos normas, más claras, estables y coordinadas",
       "published": null,
       "accessed": "2026-11-15",
@@ -70,11 +70,11 @@
       "year": 2026,
       "kind": "documento-politico",
       "origin": "primaria",
-      "hosting": "medio",
+      "hosting": "oficial",
       "historical": false,
       "documentVersion": null,
       "sha256": null,
-      "notes": "Página de programa del dominio mi.democracia21.es (4 medidas). Alojamiento clasificado según la ficha de GPT; la titularidad del dominio no se ha contrastado con el catálogo."
+      "notes": "Subdominio del dominio oficial democracia21.es, enlazado desde la web del partido. Programa temático web; sin fecha de publicación conocida."
     }
   ],
   "questions": {
@@ -247,14 +247,21 @@
       "sourceIds": [
         "d21-s03"
       ],
-      "locator": "Medidas 01–03 · Unión Europea",
+      "locator": "Medidas 01–03 · supervisión vinculante, mercado europeo y defensa común",
       "evidenceSummary": "Condicionalidad democrática de los fondos, escudo europeo de la democracia, refuerzo del pilar europeo de defensa y de la base industrial común.",
-      "reason": "Apoyo a reforzar la UE; no usa «integración política» y no habla de federalismo.",
+      "reason": "Propone supervisión europea vinculante del Estado de Derecho, mercado de capitales y defensa común; apoyo matizado a reforzar instituciones europeas, sin compromiso federal explícito.",
       "confidence": "media",
       "reviewNeeded": true,
-      "reviewNote": "Antes 5; la formulación es de refuerzo institucional y defensa, no de integración política explícita.",
+      "reviewNote": "Apoyo institucional con matices: no implica adhesión a un modelo federal. Fuente oficial contrastada el 15/11/2026.",
       "nextAction": null,
-      "replaces": "Línea base importada: valor 5; fuente https://mi.democracia21.es/programa/union-europea; localizador «Medidas 01–03 · Unión Europea»",
+      "replaces": {
+        "value": 5,
+        "source": "https://mi.democracia21.es/programa/union-europea",
+        "locator": "Medidas 01–03 · Unión Europea",
+        "reason": "Impulsa supervisión democrática europea, mercado común y defensa compartida.",
+        "reviewed": "2026-11-14",
+        "coding": "Interpretación editorial provisional"
+      },
       "baselinePosition": {
         "value": 5,
         "source": "https://mi.democracia21.es/programa/union-europea",
@@ -270,7 +277,7 @@
       "sourceIds": [
         "d21-s03"
       ],
-      "locator": "Medida 02 · Defensa europea",
+      "locator": "Medida 03 · Defender juntos nuestra paz y seguridad",
       "evidenceSummary": "Reforzar el pilar europeo dentro de la OTAN y desplegar la Hoja de Ruta de Defensa 2030 con compras conjuntas de armamento.",
       "reason": "Habla de capacidad europea común, no de aumentar el gasto público español en defensa.",
       "confidence": "baja",
@@ -395,11 +402,23 @@
       "date": "2026-11-15",
       "urlOrQuery": "Traspaso del usuario",
       "outcome": "Traspaso acordado por el usuario (15/11/2026): ficha completada por Claude a partir del esqueleto preparado por GPT."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "https://mi.democracia21.es/programa/union-europea",
+      "outcome": "Lectura directa y contraste con web democracia21.es: origen oficial. Medidas 01–03 respaldan valor 4 en pregunta 12; defensa no acredita por sí sola aumento del gasto español. Se corrige localizador de pregunta 13 a medida 03."
     }
   ],
   "integration": {
-    "status": "requiere-cambios",
-    "commit": "3a56c4c988e0edd6164982d94be99cbbf1c707c7",
-    "note": "Integrada salvo la pregunta 12: la ficha sólo tiene prensa y D21 tiene programa oficial; se mantiene el valor anterior."
-  }
+    "status": "pendiente",
+    "commit": null,
+    "scope": "Pregunta 12: valor 4; normalización del origen oficial; pregunta 13 sigue sin puntuar"
+  },
+  "integrationHistory": [
+    {
+      "status": "requiere-cambios",
+      "commit": "3a56c4c988e0edd6164982d94be99cbbf1c707c7",
+      "note": "Integrada salvo la pregunta 12: la ficha sólo tiene prensa y D21 tiene programa oficial; se mantiene el valor anterior."
+    }
+  ]
 }

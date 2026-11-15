@@ -50,7 +50,7 @@
       "sourceIds": [
         "teruel-existe-s01"
       ],
-      "locator": "PDF resumen p. 1; propuesta 04",
+      "locator": "PDF resumen p. 2 (página física); propuesta 04",
       "evidenceSummary": "«Rebajas del 25 % en el IRPF para quien vive en los pueblos.»",
       "reason": "Es una rebaja territorial, no una rebaja general a las rentas del trabajo.",
       "confidence": "baja",
@@ -177,19 +177,28 @@
       "replaces": null
     },
     "11": {
-      "status": "documentada",
-      "position": 4,
+      "status": "en-revision",
+      "position": null,
       "sourceIds": [
         "teruel-existe-s01"
       ],
       "locator": "PDF resumen p. 3; propuesta 13",
       "evidenceSummary": "«Ni un paso atrás en los derechos conseguidos»: medidas de igualdad salarial, conciliación y protección frente a la violencia de género.",
-      "reason": "Apoyo con matices; es una línea general sin referencia a la legislación específica.",
+      "reason": "Proteger frente a la violencia de género y conservar derechos no identifica expresamente la legislación específica que exige la afirmación. No se convierte una orientación general en apoyo legislativo puntuable.",
       "confidence": "media",
       "reviewNeeded": true,
-      "reviewNote": "Apoyo matizado.",
-      "nextAction": null,
-      "replaces": null
+      "reviewNote": "Resumen oficial leído y corroborado en la web. Fuente válida; correspondencia insuficiente con la afirmación exacta.",
+      "nextAction": "Buscar propuesta explícita de mantener o reforzar el marco legal específico.",
+      "replaces": {
+        "status": "documentada",
+        "position": 4,
+        "sourceIds": [
+          "teruel-existe-s01"
+        ],
+        "locator": "PDF resumen p. 3; propuesta 13",
+        "evidenceSummary": "«Ni un paso atrás en los derechos conseguidos»: medidas de igualdad salarial, conciliación y protección frente a la violencia de género.",
+        "reason": "Apoyo con matices; es una línea general sin referencia a la legislación específica."
+      }
     },
     "12": {
       "status": "sin-evidencia",
@@ -308,11 +317,23 @@
       "date": "2026-11-15",
       "urlOrQuery": "Traspaso del usuario",
       "outcome": "Traspaso acordado por el usuario (15/11/2026): ficha completada por Claude a partir del esqueleto preparado por GPT."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "https://teruelexiste.info/partido/programa-elecciones-generales-2026/",
+      "outcome": "Leídas propuestas 04 y 13, y PDF resumen enlazado. Resumen oficial válido aunque distinto del PDF completo del catálogo. Pregunta 11 pasa a en-revision por insuficiente correspondencia legislativa. Pregunta 1 continúa en revisión; se corrige página física a 2. El PDF completo devuelve error al lector web y no se declara leído."
     }
   ],
   "integration": {
-    "status": "requiere-cambios",
-    "commit": "3a56c4c988e0edd6164982d94be99cbbf1c707c7",
-    "note": "Pregunta 11 sin integrar: su fuente es el PDF resumen, distinto del programa enlazado en el catálogo."
-  }
+    "status": "pendiente",
+    "commit": null,
+    "scope": "Revisión resuelta: ninguna posición nueva; preguntas 1 y 11 quedan sin puntuar. Programa completo pendiente de lectura fiable."
+  },
+  "integrationHistory": [
+    {
+      "status": "requiere-cambios",
+      "commit": "3a56c4c988e0edd6164982d94be99cbbf1c707c7",
+      "note": "Pregunta 11 sin integrar: su fuente es el PDF resumen, distinto del programa enlazado en el catálogo."
+    }
+  ]
 }

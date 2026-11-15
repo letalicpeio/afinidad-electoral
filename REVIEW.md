@@ -120,3 +120,8 @@ Ampliación 0.5.6: CC añade pensiones mediante declaración oficial del 26/02/2
 ## Corrección de trazabilidad PNV · 15/11/2026
 
 Las diez preguntas sin-evidencia pasan a sourceIds vacío y locator nulo según el reparto acordado. La consulta contextual se preserva en consultedSources; las páginas de 2026 no se atribuyen al PDF de 2023. Verificada integración contra data.json 0.5.7 sin añadir puntuaciones: cinco documentadas puntuables; preguntas 3 y 5 excluidas; pregunta 12 solo en investigación; diez preguntas ausentes del cálculo. Prueba específica en evidence-pnv.test.mjs.
+
+
+## Revisión D21 y Teruel Existe · 0.5.10
+
+D21: pregunta 12 corregida de 5 a 4 tras leer directamente el programa oficial europeo. El origen se normaliza como oficial; no era prensa. Se conserva la codificación anterior en la evidencia. Defensa (pregunta 13) permanece sin puntuar. Teruel Existe: resumen oficial contrastado; la propuesta 13 no acredita por sí sola apoyo al marco legal específico de violencia de género. Pregunta 11 pasa a en-revision y permanece fuera del cálculo, al igual que la pregunta 1. No se declara leído el PDF completo. No se modifican los datos de otras formaciones ni el dominio.
