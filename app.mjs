@@ -1,5 +1,5 @@
 import { findParty } from "./catalog.mjs";
-import { score, sharedIds, isScorablePosition, MIN_COVERAGE, WARN_COVERAGE, showAffinity } from "./scoring.mjs";
+import { score, sharedIds, isScorablePosition, MIN_COVERAGE, WARN_COVERAGE, showAffinity, tierCounts } from "./scoring.mjs";
 const $ = (s) => document.querySelector(s),
   el = (t, text, cls) => {
     const e = document.createElement(t);
@@ -199,6 +199,15 @@ function renderResults() {
             `${shown ? "Afinidad parcial" : "Porcentaje no mostrado"} · Cobertura ponderada ${fmt(result.coverage)} · ${result.count} ${result.count === 1 ? "tema con evidencia" : "temas con evidencia"}`,
           ),
         );
+        {
+          const t = tierCounts(result.details);
+          if (t.secundaria || t.historico) {
+            const parts = [`${t.oficial} oficial${t.oficial === 1 ? "" : "es"} de 2026`];
+            if (t.secundaria) parts.push(`${t.secundaria} de prensa de 2026`);
+            if (t.historico) parts.push(`${t.historico} antecedente${t.historico === 1 ? "" : "s"}${t.years.length ? " de " + t.years.join("/") : ""}`);
+            row.append(el("p", `Fuentes de los temas puntuados: ${parts.join(" · ")}. La información oficial actual prevalece; prensa y antecedentes solo cubren temas sin evidencia oficial reciente.`, "small"));
+          }
+        }
         if (shown) {
           const bar = el("div", null, "bar"),
             fill = el("div", null, "fill");

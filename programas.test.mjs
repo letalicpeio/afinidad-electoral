@@ -158,6 +158,23 @@ for (const catalogEntry of catalog.parties.filter((p) =>
     );
 }
 
+// Jerarquía de evidencia: un partido con programa oficial de 2026 no mezcla antecedentes ni prensa;
+// los antecedentes son anteriores a 2026 y llevan siempre su año y su aviso.
+for (const entry of catalog.parties.filter((x) => x.dataId)) {
+  const party = data.parties.find((x) => x.id === entry.dataId);
+  const positions = Object.entries(party.positions);
+  for (const [id, x] of positions) {
+    if (x.historical) {
+      assert(Number.isInteger(x.sourceYear) && x.sourceYear < 2026, `${party.id}/${id}: antecedente sin año anterior a 2026`);
+      assert(/^ANTECEDENTE/i.test(x.sourceNote || ''), `${party.id}/${id}: antecedente sin aviso`);
+    }
+    if (entry.program.status === "oficial") {
+      assert(!x.historical, `${party.id}/${id}: partido con programa oficial de 2026 y antecedente histórico (prevalece lo actual)`);
+      assert(!/^fuente secundaria/i.test(x.sourceNote || ""), `${party.id}/${id}: partido con programa oficial de 2026 y fuente de prensa`);
+    }
+  }
+}
+
 console.log(
   `OK: ${catalog.parties.length} entidades, ${owner.size} denominaciones del BOE, enlaces y comparación.`,
 );

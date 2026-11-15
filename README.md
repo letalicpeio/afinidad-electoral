@@ -73,3 +73,11 @@ Ampliación 0.5.1: Junts pasa de una a seis posiciones, con cinco antecedentes d
 Ampliación 0.5.2: Podemos pasa de tres a siete posiciones usando el PDF de europeas 2024 archivado por RTVE (sanidad, nuclear, legislación de violencia machista y democratización de la UE). PSOE pasa de siete a nueve con Defensa y violencia de género del programa de 2023.
 
 Ampliación 0.5.3: PP incorpora Defensa e integración europea del programa de 2026; PSOE incorpora jornada máxima sin reducción salarial del acuerdo de gobierno de 2023, como firmante. No se atribuye ese acuerdo a Frente Amplio ni Podemos.
+
+## Jerarquía de la evidencia
+
+1. **Fuente oficial de 2026** (programa o documento del partido): siempre prevalece.
+2. **Prensa de 2026** (`Fuente secundaria` en `sourceNote`): solo cubre temas de partidos sin programa oficial.
+3. **Antecedentes** (`historical: true` con `sourceYear` anterior a 2026): solo cubren temas de partidos sin programa oficial; llevan año, aviso y se sustituyen en cuanto exista evidencia actual.
+
+Cada resultado indica cuántos temas puntuados proceden de cada nivel. Un test impide que un partido con programa oficial de 2026 conserve antecedentes o prensa.

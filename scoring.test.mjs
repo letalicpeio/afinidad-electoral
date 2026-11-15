@@ -1,6 +1,6 @@
 import {findParty} from "./catalog.mjs";
 import {strict as assert} from 'node:assert';
-import {score,sharedIds,showAffinity,MIN_COVERAGE} from './scoring.mjs';
+import {score,sharedIds,showAffinity,MIN_COVERAGE,evidenceTier,tierCounts} from './scoring.mjs';
 import fs from 'node:fs';
 const p=v=>({value:v,source:'https://example.org',locator:'1'});
 assert.equal(score({'1':5},{'1':3},{'1':p(5)}).affinity,100);
@@ -84,6 +84,13 @@ assert.equal(showAffinity({affinity: 80, coverage: 50}), true);
 assert.equal(showAffinity({affinity: null, coverage: 100}), false);
 assert.equal(showAffinity(score({'1':5,'2':5,'3':5},{'1':3,'2':3,'3':3},{'1':{value:5,source:'https://example.org',locator:'1'}})), false);
 assert.equal(showAffinity(score({'1':5,'2':5},{'1':3,'2':3},{'1':{value:5,source:'https://example.org',locator:'1'}})), true);
+// Jerarquía de evidencia
+assert.equal(evidenceTier({value:5}), 'oficial');
+assert.equal(evidenceTier({value:5, sourceNote:'Fuente oficial: iniciativa de 2026.'}), 'oficial');
+assert.equal(evidenceTier({value:5, sourceNote:'Fuente secundaria. Prensa.'}), 'secundaria');
+assert.equal(evidenceTier({value:5, historical:true, sourceYear:2023}), 'historico');
+assert.deepEqual(tierCounts([{}, {historical:true, sourceYear:2023}, {historical:true, sourceYear:2024}, {sourceNote:'Fuente secundaria.'}]),
+  {oficial:1, secundaria:1, historico:2, years:[2023, 2024]});
 console.log('OK: ERC, PACMA, procedencia de copias y registro de investigación sin puntuación.');
 
 // Los antecedentes autorizados deben declarar su antigüedad y conservar fuentes actuales.

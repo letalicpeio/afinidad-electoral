@@ -1,6 +1,6 @@
 {
  "version": "0.1.0",
- "checked": "2026-11-14",
+ "checked": "2026-11-15",
  "statusLabels": {
   "oficial": "Programa oficial localizado",
   "resumen": "Solo resumen en la web oficial",
@@ -38,10 +38,12 @@
     "AGENDA VALENCIANA (AGENDA VALENCIANA)"
    ],
    "program": {
-    "status": "sin-revisar",
+    "status": "no-localizado",
     "official": false,
-    "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
-    "checked": "2026-11-14"
+    "detail": "Búsqueda del 15/11/2026: no se localizó web oficial ni programa del 29N.",
+    "checked": "2026-11-15",
+    "checkedAt": "2026-11-15T09:02:53Z",
+    "note": "No se han usado programas de otras convocatorias ni prensa para codificar posiciones."
    }
   },
   {
@@ -52,10 +54,12 @@
     "ALHORA (ALHORA)"
    ],
    "program": {
-    "status": "sin-revisar",
+    "status": "no-localizado",
     "official": false,
-    "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
-    "checked": "2026-11-14"
+    "detail": "Búsqueda del 15/11/2026: la prensa confirma sus listas para el 29N, pero no se localizó un programa publicado en su web.",
+    "checked": "2026-11-15",
+    "checkedAt": "2026-11-15T09:02:53Z",
+    "note": "No se han usado programas de otras convocatorias ni prensa para codificar posiciones."
    }
   },
   {
@@ -173,9 +177,10 @@
     "status": "no-localizado",
     "consulted": "https://beteve.cat/politica/programes-electorals-29n-eleccions-generals-2026-pdf/",
     "official": false,
-    "detail": "Betevé indica a 13/11/2026 que aún no ha publicado el plec de propostes.",
+    "detail": "Betevé indica a 13/11/2026 que aún no ha publicado el plec de propostes. Nueva búsqueda del 15/11/2026: la prensa solo apunta que la vivienda será el eje; no hay documento.",
     "note": "La fuente es un medio, no la web del partido: no sustituye a comprobarlo en el propio partido.",
-    "checked": "2026-11-14"
+    "checked": "2026-11-15",
+    "checkedAt": "2026-11-15T09:02:53Z"
    }
   },
   {
@@ -186,10 +191,12 @@
     "CONVERGENTS (CNV)"
    ],
    "program": {
-    "status": "sin-revisar",
+    "status": "no-localizado",
     "official": false,
-    "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
-    "checked": "2026-11-14"
+    "detail": "Búsqueda del 15/11/2026: no se localizó web oficial ni programa del 29N.",
+    "checked": "2026-11-15",
+    "checkedAt": "2026-11-15T09:02:53Z",
+    "note": "No se han usado programas de otras convocatorias ni prensa para codificar posiciones."
    }
   },
   {
@@ -286,10 +293,12 @@
     "Escanos en Branco para deixar Escanos Baleiros (ESCAÑOS EN BLANCO)"
    ],
    "program": {
-    "status": "sin-revisar",
+    "status": "no-localizado",
     "official": false,
-    "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
-    "checked": "2026-11-14"
+    "detail": "Búsqueda del 15/11/2026: no se localizó web oficial ni programa del 29N. Su propuesta histórica se limita a dejar vacíos los escaños, sin posición sobre las 18 afirmaciones.",
+    "checked": "2026-11-15",
+    "checkedAt": "2026-11-15T09:02:53Z",
+    "note": "No se han usado programas de otras convocatorias ni prensa para codificar posiciones."
    }
   },
   {
@@ -580,10 +589,12 @@
     "PARTIDO AUTÓNOMOS (PARTIDO AUTÓNOMOS)"
    ],
    "program": {
-    "status": "sin-revisar",
+    "status": "no-localizado",
     "official": false,
-    "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
-    "checked": "2026-11-14"
+    "detail": "Búsqueda del 15/11/2026: no se localizó web oficial ni programa del 29N.",
+    "checked": "2026-11-15",
+    "checkedAt": "2026-11-15T09:02:53Z",
+    "note": "No se han usado programas de otras convocatorias ni prensa para codificar posiciones."
    }
   },
   {
@@ -735,9 +746,10 @@
     "status": "no-localizado",
     "consulted": "https://www.pcte.es/",
     "official": true,
-    "detail": "La web enlaza un programa del 10N de 2020 y el «Programa de lucha 2023-2027», pero ningún programa específico para el 29N de 2026.",
+    "detail": "La web enlaza un programa del 10N de 2020 y el «Programa de lucha 2023-2027», pero ningún programa específico para el 29N de 2026. Nueva búsqueda del 15/11/2026 sin resultados del 29N.",
     "note": "No se han usado documentos de otras convocatorias como programa de 2026.",
-    "checked": "2026-11-14"
+    "checked": "2026-11-15",
+    "checkedAt": "2026-11-15T09:02:53Z"
    }
   },
   {
@@ -1062,10 +1074,12 @@
     "VALENCIA UNIDA (VLC)"
    ],
    "program": {
-    "status": "sin-revisar",
+    "status": "no-localizado",
     "official": false,
-    "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
-    "checked": "2026-11-14"
+    "detail": "Búsqueda del 15/11/2026: no se localizó web oficial ni programa del 29N.",
+    "checked": "2026-11-15",
+    "checkedAt": "2026-11-15T09:02:53Z",
+    "note": "No se han usado programas de otras convocatorias ni prensa para codificar posiciones."
    }
   },
   {

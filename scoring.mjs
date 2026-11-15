@@ -50,3 +50,24 @@ export const MIN_COVERAGE = 50;
 export const WARN_COVERAGE = 75;
 export const showAffinity = (result) =>
   result.affinity !== null && result.coverage >= MIN_COVERAGE;
+
+// Jerarquía de evidencia: la información oficial actual (2026) prevalece. La prensa de 2026 y los
+// antecedentes de otras convocatorias solo rellenan temas en los que el partido no tiene evidencia
+// oficial reciente, y siempre se muestran etiquetados.
+export const evidenceTier = (position) =>
+  position?.historical
+    ? 'historico'
+    : /^fuente secundaria/i.test(position?.sourceNote || '')
+      ? 'secundaria'
+      : 'oficial';
+
+export function tierCounts(details) {
+  const counts = { oficial: 0, secundaria: 0, historico: 0 };
+  const years = new Set();
+  for (const d of details) {
+    const tier = evidenceTier(d);
+    counts[tier]++;
+    if (tier === 'historico' && d.sourceYear) years.add(d.sourceYear);
+  }
+  return { ...counts, years: [...years].sort() };
+}
