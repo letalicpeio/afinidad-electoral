@@ -1,5 +1,5 @@
 {
-  "version": "0.5.14",
+  "version": "0.5.15",
   "date": "2026-11-15",
   "election": "Congreso · 29 de noviembre de 2026",
   "questions": [
@@ -1494,6 +1494,28 @@
           "sourceYear": 2024,
           "sourceNote": "ANTECEDENTE DE 2024: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Prioridad oficial de las elecciones europeas de 2024; no es un programa del Congreso.",
           "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional de un programa histórico"
+        },
+        "8": {
+          "value": 5,
+          "source": "https://www.rtve.es/contenidos/documentos/elecciones_europeas_2024/programa_electoral_podemos.pdf",
+          "locator": "Histórico 2024 · PDF p. 39; capítulo 6, derechos laborales",
+          "reason": "Apoyo explícito a reducir la jornada máxima; propone 30 horas.",
+          "historical": true,
+          "sourceYear": 2024,
+          "sourceNote": "ANTECEDENTE DE 2024: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa de Podemos para las europeas de 2024 (no de generales); se usa como antecedente de sus posiciones políticas.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional de un programa histórico"
+        },
+        "10": {
+          "value": 4,
+          "source": "https://www.rtve.es/contenidos/documentos/elecciones_europeas_2024/programa_electoral_podemos.pdf",
+          "locator": "Histórico 2024 · PDF p. 42–43; pensiones",
+          "reason": "Apoyo con matices: pide pensiones actualizadas, sin citar el IPC.",
+          "historical": true,
+          "sourceYear": 2024,
+          "sourceNote": "ANTECEDENTE DE 2024: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa de Podemos para las europeas de 2024 (no de generales); se usa como antecedente de sus posiciones políticas.",
+          "reviewed": "2026-11-15",
           "coding": "Interpretación editorial provisional de un programa histórico"
         }
       },

@@ -76,6 +76,7 @@ Ampliación 0.5.3: PP incorpora Defensa e integración europea del programa de 2
 
 Integración 0.5.9 (15/11/2026): ERC 18 se reincorpora con valor 4 (la medida 86 sí propone simplificación administrativa para pymes; la retirada de 0.5.7 fue un error de lectura) y BNG 4 pasa a 1 con base en el apartado de sanidad (p. 37). ERC y BNG alcanzan 9 posiciones puntuables.
 Revisión de huecos 0.5.11–0.5.12 (15/11/2026): pasada por los partidos con programa oficial buscando texto relacionado con preguntas sin puntuar. Se codifican Frente Obrero 17 (2), FE de las JONS 2 (5), VOX 6 (4) y 15 (1), Por un Mundo Más Justo 17 (4), BNG 5 (1) y PACMA 9 (1). El resto de huecos se mantiene: el programa no responde a la afirmación o sólo habla de un asunto relacionado.
+Ampliación de antecedentes 0.5.13–0.5.15 (15/11/2026): Compromís (alquiler y jornada con prensa del 15/11/2026; conciertos educativos con su programa de 2023), EH Bildu (programa de 2023 leído completo: 6 posiciones, antecedente) y Podemos (jornada y pensiones, programa europeo de 2024). Frente Amplio y Geroa Bai no tienen un programa anterior de generales propio que se pueda usar sin heredar de otra formación.
 
 Integración 0.5.8 (15/11/2026): PSOE pasa a programa oficial de 2026 (psoe.es, publicado ese día): 11 posiciones documentadas, 1 en revisión (arraigo, antecedente de 2023 retirado) y 6 sin evidencia. PSOE 13 (gasto en defensa) baja de 5 a 2 porque el programa rechaza el 5 % del PIB.
 
