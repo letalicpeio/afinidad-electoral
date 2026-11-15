@@ -6,3 +6,4 @@
 .provinceinfo{margin:14px 0 4px}.provinceinfo p{margin:0 0 4px}.provinceinfo>.quiet{padding-left:0}.candidatepanel{margin:8px 0 12px;padding:6px 14px;border:1px solid var(--line);border-radius:12px;background:#fff}
 [tabindex="-1"]:focus{outline:none}
 .resultrow p{margin:6px 0}.resultrow>p.small.warning{background:none;padding:0;color:#78550c}.lowcov{margin-top:18px;border-top:1px solid var(--line);padding-top:6px}.lowcov>summary{cursor:pointer;font-weight:600;padding:10px 0}
+.metric{white-space:nowrap;flex-shrink:0}.resulthead b{min-width:0;overflow-wrap:anywhere;line-height:1.25}@media(max-width:700px){.resultcard{padding:16px}.metric{font-size:26px}.resulthead{gap:12px}.resultrow{padding:12px 0}}
