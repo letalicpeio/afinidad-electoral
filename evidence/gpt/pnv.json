@@ -423,8 +423,10 @@
     }
   ],
   "integration": {
-    "status": "pendiente",
-    "commit": null,
-    "scope": "Añadir pregunta 15; las otras seis entradas de PNV ya estaban integradas. Revisión de las 18 decisiones con huecos explícitos."
+    "status": "integrado",
+    "commit": "112411946bc2780f748eabaaa959cd820a393a31",
+    "scope": "Pregunta 15 y revisión de las 18 preguntas",
+    "publishedVersion": "0.5.5",
+    "verified": "2026-11-15"
   }
 }

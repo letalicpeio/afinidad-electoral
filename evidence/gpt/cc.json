@@ -305,8 +305,10 @@
     }
   ],
   "integration": {
-    "status": "pendiente",
-    "commit": null,
-    "scope": "Preguntas 1 y 18; dos posiciones anteriores conservadas. Resto de preguntas pendiente de revisión completa."
+    "status": "integrado",
+    "commit": "112411946bc2780f748eabaaa959cd820a393a31",
+    "scope": "Preguntas 1 y 18; cuatro posiciones documentadas",
+    "publishedVersion": "0.5.5",
+    "verified": "2026-11-15"
   }
 }
