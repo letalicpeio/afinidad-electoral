@@ -358,9 +358,11 @@
     }
   ],
   "integration": {
-    "status": "pendiente",
-    "commit": null,
-    "scope": "Pregunta 10; pregunta 8 permanece solo en investigación"
+    "status": "integrado",
+    "commit": "7a3c5b13ae8458de8dc8bb385df581627bb5e892",
+    "scope": "Pregunta 10; pregunta 8 permanece solo en investigación",
+    "publishedVersion": "0.5.6",
+    "verified": "2026-11-15"
   },
   "integrationHistory": [
     {

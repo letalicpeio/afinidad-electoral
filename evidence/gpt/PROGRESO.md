@@ -22,4 +22,4 @@ Siguiente: revisión completa de los huecos de PNV y de las principales candidat
 
 - CC: pregunta 10 documentada con declaración oficial de 2026; cinco posiciones registradas. Se explicita autoría de CC y confirmación conjunta pendiente.
 - Pregunta 8 en revisión: entrevista de 2025, condicionada a ayudas a pymes. No entra al cálculo. Resto de investigación pendiente; ficha en-curso.
-- Publicación 0.5.6 pendiente de verificación.
+- Publicado y comprobado 0.5.6 en la web el 15/11/2026; commit 7a3c5b13ae8458de8dc8bb385df581627bb5e892. Pruebas de cálculo y catálogo superadas.
