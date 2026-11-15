@@ -32,3 +32,5 @@ Preguntas 1, 2, 4, 6, 8, 9, 13, 14, 16 y 17: sourceIds vacío, position y locato
 ## Revisión D21 y Teruel Existe · 0.5.10
 
 D21: pregunta 12 corregida de 5 a 4 tras leer directamente el programa oficial europeo. El origen se normaliza como oficial; no era prensa. Se conserva la codificación anterior en la evidencia. Defensa (pregunta 13) permanece sin puntuar. Teruel Existe: resumen oficial contrastado; la propuesta 13 no acredita por sí sola apoyo al marco legal específico de violencia de género. Pregunta 11 pasa a en-revision y permanece fuera del cálculo, al igual que la pregunta 1. No se declara leído el PDF completo. No se modifican los datos de otras formaciones ni el dominio.
+
+Lote publicado en 1f17572f6d61aeb21eaedfb84bc88ea0a9402a0e; versión 0.5.10 comprobada en https://afinidad-electoral.org/ el 15/11/2026. Pruebas de cálculo, catálogo y PNV superadas. Conservados cambios concurrentes de accesibilidad.

@@ -325,9 +325,13 @@
     }
   ],
   "integration": {
-    "status": "pendiente",
-    "commit": null,
-    "scope": "Revisión resuelta: ninguna posición nueva; preguntas 1 y 11 quedan sin puntuar. Programa completo pendiente de lectura fiable."
+    "status": "integrado",
+    "commit": "1f17572f6d61aeb21eaedfb84bc88ea0a9402a0e",
+    "scope": "Revisión resuelta: ninguna posición nueva; preguntas 1 y 11 quedan sin puntuar. Programa completo pendiente de lectura fiable.",
+    "publishedVersion": "0.5.10",
+    "verified": "2026-11-15",
+    "verifiedUrl": "https://afinidad-electoral.org/",
+    "reviewedBy": "gpt"
   },
   "integrationHistory": [
     {

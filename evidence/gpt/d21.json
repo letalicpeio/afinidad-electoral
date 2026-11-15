@@ -410,9 +410,13 @@
     }
   ],
   "integration": {
-    "status": "pendiente",
-    "commit": null,
-    "scope": "Pregunta 12: valor 4; normalización del origen oficial; pregunta 13 sigue sin puntuar"
+    "status": "integrado",
+    "commit": "1f17572f6d61aeb21eaedfb84bc88ea0a9402a0e",
+    "scope": "Pregunta 12: valor 4; normalización del origen oficial; pregunta 13 sigue sin puntuar",
+    "publishedVersion": "0.5.10",
+    "verified": "2026-11-15",
+    "verifiedUrl": "https://afinidad-electoral.org/",
+    "reviewedBy": "gpt"
   },
   "integrationHistory": [
     {
