@@ -189,13 +189,22 @@ function renderResults() {
           "Todavía no hay candidaturas documentadas para esta circunscripción.",
         ),
       );
-    // Alphabetical order: partial coverage is not a fair global ranking.
-    analyzed
-      .sort((a, b) => a.name.localeCompare(b.name, "es"))
-      .forEach(({ name, party }) => {
-        const result = score(person.answers, person.weights, party.positions),
-          commonResult = score(commonAnswers, person.weights, party.positions);
-        const shown = showAffinity(result);
+    // Ordered by partial affinity (highest first); candidacies without enough coverage go last, grouped.
+    const entries = analyzed.map(({ name, party }) => {
+      const result = score(person.answers, person.weights, party.positions);
+      return { name, party, result, shown: showAffinity(result) };
+    });
+    entries.sort((a, b) =>
+      (b.shown ? 1 : 0) - (a.shown ? 1 : 0) ||
+      (b.shown ? b.result.affinity - a.result.affinity : 0) ||
+      b.result.coverage - a.result.coverage ||
+      a.name.localeCompare(b.name, "es"));
+    if (entries.some((e) => e.shown))
+      card.append(el("p", "Ordenadas de mayor a menor afinidad parcial. La cobertura no es la misma en todas: no es una clasificación global.", "small"));
+    const lowcov = el("details", null, "lowcov");
+    let rank = 0;
+    entries.forEach(({ name, party, result, shown }) => {
+        const commonResult = score(commonAnswers, person.weights, party.positions);
         report.parties.push({
           name,
           ...result,
@@ -210,24 +219,16 @@ function renderResults() {
         });
         const row = el("div", null, "resultrow"),
           head = el("div", null, "resulthead");
-        head.append(el("b", name));
+        head.append(el("b", shown ? `${++rank}. ${name}` : name));
         if (shown) head.append(el("span", fmt(result.affinity), "metric"));
-        row.append(
-          head,
-          el(
-            "p",
-            `${shown ? "Afinidad parcial" : "Porcentaje no mostrado"} · Cobertura ponderada ${fmt(result.coverage)} · ${result.count} ${result.count === 1 ? "tema con evidencia" : "temas con evidencia"}`,
-          ),
-        );
-        {
-          const t = tierCounts(result.details);
-          if (t.secundaria || t.historico) {
-            const parts = [`${t.oficial} oficial${t.oficial === 1 ? "" : "es"} de 2026`];
-            if (t.secundaria) parts.push(`${t.secundaria} de prensa de 2026`);
-            if (t.historico) parts.push(`${t.historico} antecedente${t.historico === 1 ? "" : "s"}${t.years.length ? " de " + t.years.join("/") : ""}`);
-            row.append(el("p", `Fuentes de los temas puntuados: ${parts.join(" · ")}. La información oficial actual prevalece; prensa y antecedentes solo cubren temas sin evidencia oficial reciente.`, "small"));
-          }
-        }
+        row.append(head);
+        const t = tierCounts(result.details), src = [];
+        if (t.oficial) src.push(`${t.oficial} oficial${t.oficial === 1 ? "" : "es"}`);
+        if (t.secundaria) src.push(`${t.secundaria} de prensa`);
+        if (t.historico) src.push(`${t.historico} antecedente${t.historico === 1 ? "" : "s"}${t.years.length ? " de " + t.years.join("/") : ""}`);
+        row.append(el("p", result.count
+          ? `Cobertura ${fmt(result.coverage)} · ${result.count} ${result.count === 1 ? "tema" : "temas"}${src.length ? " (" + src.join(", ") + ")" : ""}${shown && result.coverage < WARN_COVERAGE ? " · ⚠ parcial" : ""}${shown ? "" : " · sin porcentaje: cobertura inferior al " + MIN_COVERAGE + " %"}`
+          : "Ninguno de tus temas tiene posición documentada.", shown && result.coverage < WARN_COVERAGE ? "small warning" : "small"));
         if (shown) {
           const bar = el("div", null, "bar"),
             fill = el("div", null, "fill");
@@ -235,38 +236,18 @@ function renderResults() {
           bar.append(fill);
           row.append(bar);
         }
-        if (!shown)
-          row.append(
-            el(
-              "p",
-              result.count
-                ? `La cobertura (${fmt(result.coverage)}) es inferior al ${MIN_COVERAGE} %: no hay evidencia suficiente para calcular un porcentaje fiable. Revisa la comparación tema a tema.`
-                : "Ninguno de tus temas respondidos tiene posición documentada para esta candidatura.",
-              "warning",
-            ),
-          );
-        else if (result.coverage < WARN_COVERAGE)
-          row.append(
-            el(
-              "p",
-              `⚠ Cobertura parcial (${fmt(result.coverage)}): el porcentaje se basa solo en parte de tus temas.`,
-              "warning",
-            ),
-          );
-        if (shown) row.append(el("p", common.length
-          ? `Sobre ${common.length} ${common.length === 1 ? "pregunta común" : "preguntas comunes"} a las candidaturas analizadas: ${fmt(commonResult.affinity)}. Esta comparación también es incompleta.`
-          : "No hay preguntas puntuables comunes para comparar al menos dos candidaturas."));
-        if (shown && result.bounds) row.append(el("p",
-          `Considerando también tus temas sin posición documentada, la afinidad podría estar entre ${fmt(result.bounds.lower)} y ${fmt(result.bounds.upper)}. Es un rango matemático, no una probabilidad ni un intervalo de confianza.`, "bounds"));
         const details = el("details"),
-          summary = el(
-            "summary",
-            shown
-              ? "Revisar respuestas, posiciones y fuentes"
-              : "Comparación tema a tema y fuentes",
-          );
+          summary = el("summary", "Ver detalle, rango y fuentes");
         details.append(summary);
-        if (!shown) details.open = true;
+        if (shown) {
+          details.append(el("p", common.length
+            ? `Sobre ${common.length} ${common.length === 1 ? "pregunta común" : "preguntas comunes"} a las candidaturas analizadas: ${fmt(commonResult.affinity)}. Comparación también incompleta.`
+            : "No hay preguntas puntuables comunes para comparar al menos dos candidaturas.", "small"));
+          if (result.bounds) details.append(el("p",
+            `Con tus temas sin posición documentada, la afinidad podría estar entre ${fmt(result.bounds.lower)} y ${fmt(result.bounds.upper)} (rango matemático, no probabilidad).`, "small"));
+        }
+        if (t.secundaria || t.historico)
+          details.append(el("p", "La información oficial actual prevalece; prensa y antecedentes solo cubren temas sin evidencia oficial reciente.", "small"));
         for (const d of result.details) {
           const ev = el("div", null, "evidence"),
             q = data.questions.find((q) => q.id === d.id);
@@ -294,8 +275,12 @@ function renderResults() {
           link.target = "_blank"; link.rel = "noopener noreferrer"; ev.append(link); details.append(ev);
         }
         row.append(details);
-        card.append(row);
+        if (shown) card.append(row); else lowcov.append(row);
       });
+    if (lowcov.children.length) {
+      lowcov.prepend(el("summary", `${lowcov.children.length} ${lowcov.children.length === 1 ? "candidatura" : "candidaturas"} sin cobertura suficiente para mostrar porcentaje`));
+      card.append(lowcov);
+    }
     reports.push(report);
     $("#resultCards").append(card);
   });
