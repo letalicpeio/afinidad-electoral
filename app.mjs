@@ -17,10 +17,27 @@ const fmt = (n) =>
     ? "Sin datos"
     : n.toLocaleString("es-ES", { maximumFractionDigits: 1 }) + " %";
 function knownParty(name) { return findParty(name, data.parties); }
+const prettyProvince = (name) =>
+  name
+    .toLocaleLowerCase("es")
+    .replace(/(^|\s)(\p{L})/gu, (m, space, letter) => space + letter.toLocaleUpperCase("es"))
+    .replace(/(?<=\s)(De|Del|La|Las|Los|El|Y|I)(?=\s)/g, (word) => word.toLowerCase());
+function setCandidatesOpen(open) {
+  $("#candidatePanel").hidden = !open;
+  $("#seeCandidates").setAttribute("aria-expanded", String(open));
+  $("#seeCandidates").textContent = open ? "Ocultar candidaturas ▴" : "Consultar candidaturas ▾";
+}
 function renderCandidates() {
   const box = $("#candidates");
   box.replaceChildren();
-  const names = candidates[$("#province").value] || [];
+  const province = $("#province").value;
+  const names = candidates[province] || [];
+  const withData = names.filter((name) => knownParty(name)).length;
+  const pending = names.length - withData;
+  $("#provinceSummary").textContent =
+    `Hay ${names.length} ${names.length === 1 ? "candidatura" : "candidaturas"} al Congreso en ${prettyProvince(province)}: ` +
+    `${withData} con alguna evidencia revisada` +
+    (pending ? ` y ${pending} pendiente${pending === 1 ? "" : "s"} de análisis.` : ".");
   for (const name of names) {
     const r = el("div", name + " ", "candidate");
     r.append(
@@ -338,6 +355,7 @@ async function init() {
   }
 }
 $("#province").addEventListener("change", renderCandidates);
+$("#seeCandidates").addEventListener("click", () => setCandidatesOpen($("#candidatePanel").hidden));
 $("#start").addEventListener("submit", (e) => {
   e.preventDefault();
   state = {
