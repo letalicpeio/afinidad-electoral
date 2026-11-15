@@ -51,13 +51,15 @@
       }
     },
     "2": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "Sólo menciona nueva construcción en zonas tensionadas (p. 15) y la regulación de márgenes de bienes esenciales (p. 28); no propone regular precios de alquiler.",
-      "confidence": "baja",
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "fe-jons-s01"
+      ],
+      "locator": "PDF p. 15; apartado de vivienda, «Precio y duración máximos del alquiler»",
+      "evidenceSummary": "Fijación de un tope máximo de precios del alquiler, no superior al 25 % del salario de la unidad familiar, y duración máxima de los contratos.",
+      "reason": "Apoyo explícito a limitar los precios del alquiler; el tope se propone con carácter general, no sólo en zonas tensionadas.",
+      "confidence": "media",
       "reviewNeeded": false,
       "reviewNote": null,
       "nextAction": null,
@@ -407,7 +409,7 @@
     }
   ],
   "integration": {
-    "status": "integrado",
-    "commit": "3a56c4c988e0edd6164982d94be99cbbf1c707c7"
+    "status": "pendiente",
+    "commit": null
   }
 }

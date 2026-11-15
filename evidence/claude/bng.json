@@ -87,17 +87,17 @@
       "replaces": null
     },
     "5": {
-      "status": "en-revision",
-      "position": null,
+      "status": "documentada",
+      "position": 1,
       "sourceIds": [
         "bng-s01"
       ],
-      "locator": "PDF p. 30; apartado de justicia penal",
-      "evidenceSummary": "Propone derogar la prisión permanente revisable y las medidas de libertad vigilada posteriores.",
-      "reason": "Rechazar una modalidad penal no acredita oponerse a todo endurecimiento de penas.",
-      "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "Lectura provisional contraria (1–2).",
+      "locator": "PDF p. 30; apartado de justicia",
+      "evidenceSummary": "Derogación de la prisión permanente revisable, por ser «una forma encubierta de manter a cadea perpetua», y de las medidas de libertad vigilada posteriores.",
+      "reason": "Oposición clara a endurecer las penas de prisión; propone derogar la prisión permanente revisable.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
       "nextAction": null,
       "replaces": null
     },

@@ -75,6 +75,7 @@ Ampliación 0.5.2: Podemos pasa de tres a siete posiciones usando el PDF de euro
 Ampliación 0.5.3: PP incorpora Defensa e integración europea del programa de 2026; PSOE incorpora jornada máxima sin reducción salarial del acuerdo de gobierno de 2023, como firmante. No se atribuye ese acuerdo a Frente Amplio ni Podemos.
 
 Integración 0.5.9 (15/11/2026): ERC 18 se reincorpora con valor 4 (la medida 86 sí propone simplificación administrativa para pymes; la retirada de 0.5.7 fue un error de lectura) y BNG 4 pasa a 1 con base en el apartado de sanidad (p. 37). ERC y BNG alcanzan 9 posiciones puntuables.
+Revisión de huecos 0.5.11–0.5.12 (15/11/2026): pasada por los partidos con programa oficial buscando texto relacionado con preguntas sin puntuar. Se codifican Frente Obrero 17 (2), FE de las JONS 2 (5), VOX 6 (4) y 15 (1), Por un Mundo Más Justo 17 (4), BNG 5 (1) y PACMA 9 (1). El resto de huecos se mantiene: el programa no responde a la afirmación o sólo habla de un asunto relacionado.
 
 Integración 0.5.8 (15/11/2026): PSOE pasa a programa oficial de 2026 (psoe.es, publicado ese día): 11 posiciones documentadas, 1 en revisión (arraigo, antecedente de 2023 retirado) y 6 sin evidencia. PSOE 13 (gasto en defensa) baja de 5 a 2 porque el programa rechaza el 5 % del PIB.
 

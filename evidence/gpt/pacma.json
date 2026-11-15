@@ -156,17 +156,17 @@
       "replaces": null
     },
     "9": {
-      "status": "en-revision",
-      "position": null,
+      "status": "documentada",
+      "position": 1,
       "sourceIds": [
         "pacma-s01"
       ],
-      "locator": "PDF p. 34; apartado 2.1.1",
-      "evidenceSummary": "Considera insostenible el modelo basado en combustibles fósiles y energía nuclear y apuesta por las renovables manteniendo la seguridad de abastecimiento.",
-      "reason": "No fija si propone mantener o cerrar las centrales.",
-      "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "Lectura provisional contraria (1–2).",
+      "locator": "PDF p. 34; apartado de energía",
+      "evidenceSummary": "El modelo energético basado en combustibles fósiles y en la energía nuclear es «insostenible»; las renovables son la única fuente que puede garantizar un suministro sostenible.",
+      "reason": "Oposición: rechaza el modelo con energía nuclear y propone las renovables como alternativa.",
+      "confidence": "media",
+      "reviewNeeded": false,
+      "reviewNote": null,
       "nextAction": null,
       "replaces": null,
       "baselinePosition": {
@@ -338,7 +338,7 @@
     }
   ],
   "integration": {
-    "status": "integrado",
-    "commit": "3a56c4c988e0edd6164982d94be99cbbf1c707c7"
+    "status": "pendiente",
+    "commit": null
   }
 }

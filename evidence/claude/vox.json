@@ -102,18 +102,18 @@
       "replaces": null
     },
     "6": {
-      "status": "en-revision",
-      "position": null,
+      "status": "documentada",
+      "position": 4,
       "sourceIds": [
         "vox-s01"
       ],
-      "locator": "PDF p. 41; punto 67",
-      "evidenceSummary": "Garantiza la libre elección de centro educativo en todos los niveles, «sin que su situación económica o social sea un impedimento».",
-      "reason": "Responde a una pregunta próxima: el programa no menciona los conciertos ni su financiación.",
-      "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "Lectura provisional 4 (la libre elección sin impedimento económico sugiere financiación pública), pero no nombra la concertada; no se puntúa sin más texto.",
-      "nextAction": "Buscar si el partido menciona los conciertos educativos en otro documento de campaña.",
+      "locator": "PDF p. 41; punto 67, y p. 42; punto 74",
+      "evidenceSummary": "Garantizar la libre elección de centro educativo en todos los niveles «sin que su situación económica o social sea un impedimento», con distrito único y subvenciones educativas.",
+      "reason": "Apoyo: garantizar la elección de centro sin barrera económica exige financiación pública de centros no públicos, aunque el programa no nombra a los concertados.",
+      "confidence": "media",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     },
     "7": {
@@ -231,17 +231,17 @@
       "replaces": null
     },
     "15": {
-      "status": "en-revision",
-      "position": null,
+      "status": "documentada",
+      "position": 1,
       "sourceIds": [
         "vox-s01"
       ],
       "locator": "PDF p. 52; punto 98",
-      "evidenceSummary": "Defiende el derecho a la vida desde la concepción hasta la muerte natural y la objeción de conciencia de los profesionales sanitarios.",
-      "reason": "No menciona expresamente el aborto ni su regulación legal.",
-      "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "Lectura provisional contraria (1), pero el texto no habla de aborto; no se puntúa.",
+      "evidenceSummary": "Defensa del derecho a la vida «desde su concepción hasta la muerte natural», fin de la «cultura de la muerte» y objeción de conciencia de profesionales sanitarios.",
+      "reason": "Oposición clara al aborto legal: la defensa de la vida desde la concepción es incompatible con mantener ese derecho.",
+      "confidence": "media",
+      "reviewNeeded": false,
+      "reviewNote": null,
       "nextAction": null,
       "replaces": null
     },
@@ -309,7 +309,7 @@
     }
   ],
   "integration": {
-    "status": "integrado",
-    "commit": "3a56c4c988e0edd6164982d94be99cbbf1c707c7"
+    "status": "pendiente",
+    "commit": null
   }
 }

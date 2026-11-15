@@ -342,13 +342,15 @@
       }
     },
     "17": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "Propone ampliar el Ingreso Mínimo Vital a toda la población vulnerable (pp. 29, 76), pero no trata el acceso de residentes extranjeros.",
-      "confidence": "baja",
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "mundo-justo-s01"
+      ],
+      "locator": "PDF p. 52; apartado de migración",
+      "evidenceSummary": "Asegurar el acceso efectivo y sin discriminación de las personas migrantes a sanidad, educación, empadronamiento, vivienda, servicios sociales y derechos laborales, conforme a las garantías legales.",
+      "reason": "Apoyo con matices: igualdad de acceso a servicios sociales y vivienda; no menciona los requisitos económicos de las prestaciones.",
+      "confidence": "media",
       "reviewNeeded": false,
       "reviewNote": null,
       "nextAction": null,
@@ -403,7 +405,7 @@
     }
   ],
   "integration": {
-    "status": "integrado",
-    "commit": "3a56c4c988e0edd6164982d94be99cbbf1c707c7"
+    "status": "pendiente",
+    "commit": null
   }
 }

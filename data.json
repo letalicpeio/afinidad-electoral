@@ -1,5 +1,5 @@
 {
-  "version": "0.5.11",
+  "version": "0.5.12",
   "date": "2026-11-15",
   "election": "Congreso · 29 de noviembre de 2026",
   "questions": [
@@ -316,12 +316,18 @@
         "15": {
           "value": 1,
           "source": "https://www.voxespana.es/wp-content/uploads/2026/11/Programa-completo-A5-1.pdf",
-          "locator": "Punto 98, pág. 52",
-          "reason": "Defiende el derecho a la vida desde la concepción hasta la muerte natural.",
-          "reviewed": "2026-11-14",
-          "coding": "Interpretación editorial provisional",
-          "scoreable": false,
-          "reviewNote": "El texto no menciona expresamente el aborto ni su regulación legal."
+          "locator": "PDF p. 52; punto 98",
+          "reason": "Oposición clara al aborto legal: la defensa de la vida desde la concepción es incompatible con mantener ese derecho.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional"
+        },
+        "6": {
+          "value": 4,
+          "source": "https://www.voxespana.es/wp-content/uploads/2026/11/Programa-completo-A5-1.pdf",
+          "locator": "PDF p. 41; punto 67, y p. 42; punto 74",
+          "reason": "Apoyo: garantizar la elección de centro sin barrera económica exige financiación pública de centros no públicos, aunque el programa no nombra a los concertados.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional"
         }
       }
     },
@@ -463,12 +469,10 @@
         "5": {
           "value": 1,
           "source": "https://www.bng.gal/media/bnggaliza/files/2026/11/12/26_bng_xerais_documentos_programa_electoral.pdf",
-          "locator": "pág. 30",
-          "reason": "Propone derogar la prisión permanente revisable y las medidas de libertad vigilada posteriores.",
-          "reviewed": "2026-11-14",
-          "coding": "Interpretación editorial provisional",
-          "scoreable": false,
-          "reviewNote": "Rechazar una modalidad penal no acredita oponerse a todo endurecimiento de penas."
+          "locator": "PDF p. 30; apartado de justicia",
+          "reason": "Oposición clara a endurecer las penas de prisión; propone derogar la prisión permanente revisable.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional"
         },
         "1": {
           "value": 5,
@@ -657,12 +661,10 @@
         "9": {
           "value": 1,
           "source": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
-          "locator": "Sección 2.1.1, pág. 34",
-          "reason": "Critica el modelo de uso masivo de energía nuclear.",
-          "reviewed": "2026-11-14",
-          "coding": "Interpretación editorial provisional",
-          "scoreable": false,
-          "reviewNote": "La crítica al modelo masivo no permite concluir por sí sola oposición a toda permanencia nuclear."
+          "locator": "PDF p. 34; apartado de energía",
+          "reason": "Oposición: rechaza el modelo con energía nuclear y propone las renovables como alternativa.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional"
         },
         "6": {
           "value": 3,
@@ -770,6 +772,14 @@
           "reason": "Apoyo con matices: sólo pymes y sin rebajar estándares.",
           "reviewed": "2026-11-15",
           "coding": "Interpretación editorial provisional"
+        },
+        "17": {
+          "value": 4,
+          "source": "https://www.porunmundomasjusto.es/wp-content/uploads/2026/11/Castellano.pdf",
+          "locator": "PDF p. 52; apartado de migración",
+          "reason": "Apoyo con matices: igualdad de acceso a servicios sociales y vivienda; no menciona los requisitos económicos de las prestaciones.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional"
         }
       }
     },
@@ -872,6 +882,14 @@
           "locator": "pág. 11 del PDF",
           "reason": "Retirada del acceso a ayudas sociales para todo extranjero, reservadas a españoles.",
           "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "2": {
+          "value": 5,
+          "source": "https://falange.es/wp-content/uploads/2026/11/FEDELASJONS_ProgramaElectoral_29NGenerales2026.pdf",
+          "locator": "PDF p. 15; apartado de vivienda, «Precio y duración máximos del alquiler»",
+          "reason": "Apoyo explícito a limitar los precios del alquiler; el tope se propone con carácter general, no sólo en zonas tensionadas.",
+          "reviewed": "2026-11-15",
           "coding": "Interpretación editorial provisional"
         }
       }
