@@ -398,7 +398,8 @@
     }
   ],
   "integration": {
-    "status": "integrado",
-    "commit": "3a56c4c988e0edd6164982d94be99cbbf1c707c7"
+    "status": "requiere-cambios",
+    "commit": "3a56c4c988e0edd6164982d94be99cbbf1c707c7",
+    "note": "Integrada salvo la pregunta 12: la ficha sólo tiene prensa y D21 tiene programa oficial; se mantiene el valor anterior."
   }
 }

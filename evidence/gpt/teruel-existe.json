@@ -311,7 +311,8 @@
     }
   ],
   "integration": {
-    "status": "integrado",
-    "commit": "3a56c4c988e0edd6164982d94be99cbbf1c707c7"
+    "status": "requiere-cambios",
+    "commit": "3a56c4c988e0edd6164982d94be99cbbf1c707c7",
+    "note": "Pregunta 11 sin integrar: su fuente es el PDF resumen, distinto del programa enlazado en el catálogo."
   }
 }
