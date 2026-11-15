@@ -226,6 +226,7 @@ function renderResults() {
         const t = tierCounts(result.details), src = [];
         if (t.oficial) src.push(`${t.oficial} oficial${t.oficial === 1 ? "" : "es"}`);
         if (t.secundaria) src.push(`${t.secundaria} de prensa`);
+        if (t.inferido) src.push(`${t.inferido} inferida${t.inferido === 1 ? "" : "s"}`);
         if (t.historico) src.push(`${t.historico} antecedente${t.historico === 1 ? "" : "s"}${t.years.length ? " de " + t.years.join("/") : ""}`);
         row.append(el("p", result.count
           ? `Cobertura ${fmt(result.coverage)} · ${result.count} ${result.count === 1 ? "tema" : "temas"}${src.length ? " (" + src.join(", ") + ")" : ""}${shown && result.coverage < 60 ? " · ⚠ parcial" : ""}${shown ? "" : " · sin porcentaje: cobertura inferior al " + MIN_COVERAGE + " %"}`
@@ -255,8 +256,8 @@ function renderResults() {
           if (result.bounds) details.append(el("p",
             `Con tus temas sin posición documentada, la afinidad podría estar entre ${fmt(result.bounds.lower)} y ${fmt(result.bounds.upper)} (rango matemático, no probabilidad).`, "small"));
         }
-        if (t.secundaria || t.historico)
-          details.append(el("p", "La información oficial actual prevalece; prensa y antecedentes solo cubren temas sin evidencia oficial reciente.", "small"));
+        if (t.secundaria || t.historico || t.inferido)
+          details.append(el("p", "La información oficial actual prevalece; prensa, antecedentes y posiciones inferidas solo cubren temas sin evidencia oficial reciente." + (t.inferido ? " Una posición inferida es una deducción editorial a partir de otras posiciones o votaciones del partido, no una declaración suya." : ""), "small"));
         for (const d of result.details) {
           const ev = el("div", null, "evidence"),
             q = data.questions.find((q) => q.id === d.id);

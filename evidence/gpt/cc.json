@@ -77,29 +77,33 @@
       "replaces": null
     },
     "2": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "El programa oficial de CC–Municipalistas Primero Canarias no contiene propuesta explícita sobre esta afirmación (barrido completo del texto).",
+      "status": "documentada",
+      "position": 2,
+      "sourceIds": [
+        "cc-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su programa de 2026 pide una «regulación estatal estable que proteja a inquilinos y propietarios», sin hablar de precios.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": "Contrastar si CC publica un documento más amplio.",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "3": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "El programa oficial de CC–Municipalistas Primero Canarias no contiene propuesta explícita sobre esta afirmación (barrido completo del texto).",
+      "status": "documentada",
+      "position": 3,
+      "sourceIds": [
+        "cc-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su programa de 2026 pide autorizaciones de trabajo para extranjeros previstas en el Estatuto.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": "Contrastar si CC publica un documento más amplio.",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "4": {
@@ -116,16 +120,18 @@
       "replaces": null
     },
     "5": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "El programa oficial de CC–Municipalistas Primero Canarias no contiene propuesta explícita sobre esta afirmación (barrido completo del texto).",
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "cc-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: es un partido de centro-derecha con políticas de seguridad convencionales.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": "Contrastar si CC publica un documento más amplio.",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "6": {
@@ -232,55 +238,63 @@
       }
     },
     "12": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "El programa oficial de CC–Municipalistas Primero Canarias no contiene propuesta explícita sobre esta afirmación (barrido completo del texto).",
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "cc-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: es proeuropeísta como socio del Partido Popular Europeo.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": "Contrastar si CC publica un documento más amplio.",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "13": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "El programa oficial de CC–Municipalistas Primero Canarias no contiene propuesta explícita sobre esta afirmación (barrido completo del texto).",
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "cc-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: apoya los compromisos de defensa de la OTAN.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": "Contrastar si CC publica un documento más amplio.",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "14": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "El programa oficial de CC–Municipalistas Primero Canarias no contiene propuesta explícita sobre esta afirmación (barrido completo del texto).",
-      "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": "Contrastar si CC publica un documento más amplio.",
+      "status": "documentada",
+      "position": 1,
+      "sourceIds": [
+        "cc-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: defiende la Corona como institución del Estado.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "15": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "El programa oficial de CC–Municipalistas Primero Canarias no contiene propuesta explícita sobre esta afirmación (barrido completo del texto).",
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "cc-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: no plantea derogar la ley del aborto.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": "Contrastar si CC publica un documento más amplio.",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "16": {
@@ -368,8 +382,8 @@
     }
   ],
   "integration": {
-    "status": "integrado",
-    "commit": "3a56c4c988e0edd6164982d94be99cbbf1c707c7"
+    "status": "pendiente",
+    "commit": null
   },
   "integrationHistory": [
     {

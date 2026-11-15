@@ -164,6 +164,10 @@ for (const entry of catalog.parties.filter((x) => x.dataId)) {
   const party = data.parties.find((x) => x.id === entry.dataId);
   const positions = Object.entries(party.positions);
   for (const [id, x] of positions) {
+    if (x.inferred) {
+      assert(/^INFERENCIA/i.test(x.sourceNote || ""), `${party.id}/${id}: posición inferida sin aviso`);
+      assert(!x.historical, `${party.id}/${id}: no puede ser a la vez inferida y antecedente`);
+    }
     if (x.historical) {
       assert(Number.isInteger(x.sourceYear) && x.sourceYear < 2026, `${party.id}/${id}: antecedente sin año anterior a 2026`);
       assert(/^ANTECEDENTE/i.test(x.sourceNote || ''), `${party.id}/${id}: antecedente sin aviso`);

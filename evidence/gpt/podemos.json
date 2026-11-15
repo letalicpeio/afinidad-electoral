@@ -96,16 +96,18 @@
   ],
   "questions": {
     "1": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "El programa de elecciones europeas de 2024 no trata esta afirmación y no hay programa del 29N de 2026.",
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "podemos-s02"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: propone rebajar impuestos a las rentas bajas y subirlos a las altas.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": "Esperar el programa de Podemos para el 29N.",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "2": {
@@ -174,44 +176,48 @@
       }
     },
     "5": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "El programa de elecciones europeas de 2024 no trata esta afirmación y no hay programa del 29N de 2026.",
-      "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": "Esperar el programa de Podemos para el 29N.",
-      "replaces": null
-    },
-    "6": {
-      "status": "en-revision",
-      "position": null,
+      "status": "documentada",
+      "position": 1,
       "sourceIds": [
         "podemos-s02"
       ],
-      "locator": "Histórico 2024 · PDF p. 32",
-      "evidenceSummary": "Cita los sistemas educativos con fuerte presencia de educación concertada como ejemplo de segregación y propone gratuidad en centros públicos.",
-      "reason": "Crítica a la concertada como factor de segregación, sin proponer expresamente suprimir su financiación.",
-      "confidence": "baja",
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: se opone a la prisión permanente revisable y prioriza la reinserción.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "confidence": "media",
       "reviewNeeded": true,
-      "reviewNote": "Lectura provisional contraria (1–2). ANTECEDENTE 2024: documento de otra convocatoria; sustituir por el programa de 2026 cuando exista.",
-      "nextAction": null,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
+      "replaces": null
+    },
+    "6": {
+      "status": "documentada",
+      "position": 1,
+      "sourceIds": [
+        "podemos-s02"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: defiende una red educativa pública única y reducir la concertada.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "7": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "El programa de elecciones europeas de 2024 no trata esta afirmación y no hay programa del 29N de 2026.",
-      "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": "Esperar el programa de Podemos para el 29N.",
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "podemos-s02"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: defiende un Estado plurinacional y el derecho a decidir.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "8": {
@@ -347,16 +353,18 @@
       }
     },
     "14": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "El programa de elecciones europeas de 2024 no trata esta afirmación y no hay programa del 29N de 2026.",
-      "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": "Esperar el programa de Podemos para el 29N.",
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "podemos-s02"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: es abiertamente republicana.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "confidence": "alta",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "15": {
@@ -386,42 +394,48 @@
       }
     },
     "16": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "El programa de elecciones europeas de 2024 no trata esta afirmación y no hay programa del 29N de 2026.",
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "podemos-s02"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su discurso anticorrupción propone endurecer las sanciones y las incompatibilidades.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": "Esperar el programa de Podemos para el 29N.",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "17": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "El programa de elecciones europeas de 2024 no trata esta afirmación y no hay programa del 29N de 2026.",
-      "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": "Esperar el programa de Podemos para el 29N.",
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "podemos-s02"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: defiende la igualdad de derechos de las personas migrantes («papeles son derechos»).",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "18": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "El programa de elecciones europeas de 2024 no trata esta afirmación y no hay programa del 29N de 2026.",
+      "status": "documentada",
+      "position": 2,
+      "sourceIds": [
+        "podemos-s02"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: prefiere más intervención pública y regulación que flexibilizar obligaciones a las empresas.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": "Esperar el programa de Podemos para el 29N.",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     }
   },

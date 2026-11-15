@@ -89,8 +89,9 @@ assert.equal(evidenceTier({value:5}), 'oficial');
 assert.equal(evidenceTier({value:5, sourceNote:'Fuente oficial: iniciativa de 2026.'}), 'oficial');
 assert.equal(evidenceTier({value:5, sourceNote:'Fuente secundaria. Prensa.'}), 'secundaria');
 assert.equal(evidenceTier({value:5, historical:true, sourceYear:2023}), 'historico');
+assert.equal(evidenceTier({value:5, inferred:true, sourceNote:'INFERENCIA: ...'}), 'inferido');
 assert.deepEqual(tierCounts([{}, {historical:true, sourceYear:2023}, {historical:true, sourceYear:2024}, {sourceNote:'Fuente secundaria.'}]),
-  {oficial:1, secundaria:1, historico:2, years:[2023, 2024]});
+  {oficial:1, secundaria:1, historico:2, inferido:0, years:[2023, 2024]});
 console.log('OK: ERC, PACMA, procedencia de copias y registro de investigación sin puntuación.');
 
 // Los antecedentes autorizados deben declarar su antigüedad y conservar fuentes actuales.

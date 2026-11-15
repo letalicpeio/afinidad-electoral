@@ -335,18 +335,18 @@
       }
     },
     "16": {
-      "status": "en-revision",
-      "position": null,
+      "status": "documentada",
+      "position": 4,
       "sourceIds": [
         "fe-jons-s01"
       ],
-      "locator": "PDF p. 42; apartado de justicia",
-      "evidenceSummary": "Propone «revisión del derecho de indulto», concebido como derecho de gracia y usado como moneda de cambio.",
-      "reason": "Pide revisarlo, no prohibirlo para los condenados por corrupción.",
-      "confidence": "baja",
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su programa propone «revisión del derecho de indulto», usado «como moneda de cambio».",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "confidence": "media",
       "reviewNeeded": true,
-      "reviewNote": "Lectura provisional intermedia (3); no responde a la prohibición.",
-      "nextAction": null,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "17": {
@@ -373,16 +373,18 @@
       }
     },
     "18": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "La desregulación citada (p. 34) es de caza y pesca; no hay propuesta general sobre cargas administrativas de las empresas.",
+      "status": "documentada",
+      "position": 2,
+      "sourceIds": [
+        "fe-jons-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su programa propone un Estado nacional-sindicalista que integra a empresas y trabajadores bajo dirección estatal.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     }
   },

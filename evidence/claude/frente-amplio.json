@@ -112,16 +112,18 @@
   ],
   "questions": {
     "1": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "Propone tres impuestos nuevos (grandes fortunas, tipo mínimo a grandes empresas y acumulación de vivienda) y no habla de rebajar la tributación de las rentas del trabajo.",
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "frente-amplio-s06"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su programa de 2023 propone bajar la carga a las rentas del trabajo frente a las del capital.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "2": {
@@ -140,42 +142,48 @@
       "replaces": null
     },
     "3": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "Ninguna de las 13 notas oficiales de campaña trata migración, regularizaciones ni arraigo.",
-      "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": "Esperar el programa completo.",
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "frente-amplio-s06"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su espacio impulsó la ILP «Regularización Ya» y el pacto de regularización de 2026.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "4": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "Propone ampliar la cartera de la sanidad pública (gafas, audífonos, dentista, menopausia), pero no se pronuncia sobre conciertos con centros privados.",
-      "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "status": "documentada",
+      "position": 1,
+      "sourceIds": [
+        "frente-amplio-s06"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su programa de 2023 propone reforzar la sanidad pública y limitar la externalización.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "5": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "Sin propuestas sobre penas en las notas oficiales.",
+      "status": "documentada",
+      "position": 2,
+      "sourceIds": [
+        "frente-amplio-s06"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su programa de 2023 prioriza la reinserción y propone derogar la prisión permanente revisable.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "6": {
@@ -194,16 +202,18 @@
       "replaces": null
     },
     "7": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "Sin propuestas sobre transferencia de competencias en las notas oficiales.",
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "frente-amplio-s06"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: defiende un Estado plurinacional con más financiación autonómica.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "8": {
@@ -282,29 +292,33 @@
       "replaces": null
     },
     "13": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "Sin propuestas sobre gasto en defensa en las notas oficiales.",
-      "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "status": "documentada",
+      "position": 2,
+      "sourceIds": [
+        "frente-amplio-s06"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su programa de 2023 aboga por una autonomía estratégica europea «no al servicio de la industria armamentística».",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "14": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "Sin propuestas sobre la forma de Estado en las notas oficiales.",
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "frente-amplio-s06"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: es una coalición con partidos republicanos, aunque no lo plantea como compromiso de programa.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "15": {
@@ -323,29 +337,33 @@
       "replaces": null
     },
     "16": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "Propone expulsar 20 años de la contratación pública a las empresas corruptoras, pero no menciona los indultos.",
+      "status": "documentada",
+      "position": 3,
+      "sourceIds": [
+        "frente-amplio-s06"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su programa de 2023 propone una nueva ley de indultos que refuerce el interés público, sin prohibirlos.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "17": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "Sin propuestas sobre el acceso de residentes extranjeros a prestaciones.",
-      "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "frente-amplio-s06"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su programa de 2023 garantiza el IMV a familias en situación irregular con hijos a cargo.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "18": {

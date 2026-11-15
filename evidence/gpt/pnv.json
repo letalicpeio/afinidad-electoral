@@ -87,16 +87,18 @@
       ]
     },
     "2": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": "Regula modalidades de alquiler y abusos; no determina límites de precios en zonas tensionadas.",
-      "reason": "Sin evidencia suficientemente directa en las fuentes consultadas; no se asigna neutralidad.",
+      "status": "documentada",
+      "position": 3,
+      "sourceIds": [
+        "pnv-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su programa de 2026 propone regular alquileres de temporada y turísticos, no los precios del alquiler general.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
       "reviewNeeded": true,
-      "reviewNote": "Revisión limitada a los documentos y búsquedas registrados. No se afirma que no exista una postura pública.",
-      "nextAction": "Revisar nuevos documentos y declaraciones específicas; mantener sin puntuación mientras falte respaldo.",
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null,
       "consultedSources": [
         {
@@ -137,16 +139,18 @@
       }
     },
     "4": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": "Refuerzo de sanidad pública y competencias, sin posición explícita sobre ampliar financiación de centros privados.",
-      "reason": "Sin evidencia suficientemente directa en las fuentes consultadas; no se asigna neutralidad.",
+      "status": "documentada",
+      "position": 3,
+      "sourceIds": [
+        "pnv-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: defiende el sistema vasco mixto con concertación.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
       "reviewNeeded": true,
-      "reviewNote": "Revisión limitada a los documentos y búsquedas registrados. No se afirma que no exista una postura pública.",
-      "nextAction": "Revisar nuevos documentos y declaraciones específicas; mantener sin puntuación mientras falte respaldo.",
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null,
       "consultedSources": [
         {
@@ -162,18 +166,18 @@
       ]
     },
     "5": {
-      "status": "en-revision",
-      "position": null,
+      "status": "documentada",
+      "position": 3,
       "sourceIds": [
         "pnv-s01"
       ],
-      "locator": "pág. 28, medida 05",
-      "evidenceSummary": "Rechaza la prisión permanente revisable y defiende un sistema penitenciario orientado a la reinserción; no trata el endurecimiento de penas en general.",
-      "reason": "Rechaza la prisión permanente revisable y defiende un sistema penitenciario orientado a la reinserción; no trata el endurecimiento de penas en general.",
-      "confidence": "media",
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su programa de 2026 propone una respuesta «proporcionada» a la multirreincidencia.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "confidence": "baja",
       "reviewNeeded": true,
-      "reviewNote": "Texto del programa 2026 contrastado; se conserva la exclusión contextual.",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null,
       "baselinePosition": {
         "value": 1,
@@ -187,16 +191,18 @@
       }
     },
     "6": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": "Defiende modelo educativo propio, sin compromiso específico sobre financiación concertada condicionada a demanda.",
-      "reason": "Sin evidencia suficientemente directa en las fuentes consultadas; no se asigna neutralidad.",
-      "confidence": "baja",
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "pnv-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: defiende el modelo vasco de red pública y concertada.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "confidence": "media",
       "reviewNeeded": true,
-      "reviewNote": "Revisión limitada a los documentos y búsquedas registrados. No se afirma que no exista una postura pública.",
-      "nextAction": "Revisar nuevos documentos y declaraciones específicas; mantener sin puntuación mientras falte respaldo.",
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null,
       "consultedSources": [
         {
@@ -235,16 +241,18 @@
       }
     },
     "8": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": "Defiende negociación y salarios, sin reducción de jornada máxima con garantía salarial.",
-      "reason": "Sin evidencia suficientemente directa en las fuentes consultadas; no se asigna neutralidad.",
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "pnv-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: apoyó la reducción de jornada pactada.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
       "reviewNeeded": true,
-      "reviewNote": "Revisión limitada a los documentos y búsquedas registrados. No se afirma que no exista una postura pública.",
-      "nextAction": "Revisar nuevos documentos y declaraciones específicas; mantener sin puntuación mientras falte respaldo.",
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null,
       "consultedSources": [
         {
@@ -331,32 +339,33 @@
       }
     },
     "12": {
-      "status": "en-revision",
-      "position": null,
+      "status": "documentada",
+      "position": 4,
       "sourceIds": [
-        "pnv-s01",
-        "pnv-s02"
+        "pnv-s01"
       ],
-      "locator": "5.5 · PDF p.41 (2026); apartado Europa, PDF p.35 (2023)",
-      "evidenceSummary": "Defiende cooperación y representación vasca en Europa, sin fijar una transferencia política general a las instituciones europeas.",
-      "reason": "Europeísmo general no determina por sí solo la intensidad del apoyo a mayor integración política.",
-      "confidence": "baja",
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su programa dedica un capítulo a «Europa: retos y oportunidades» y es proeuropeísta.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "confidence": "media",
       "reviewNeeded": true,
-      "reviewNote": "No puntúa hasta localizar un compromiso institucional más concreto.",
-      "nextAction": "Buscar documento europeo o declaración inequívoca sobre integración política.",
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "13": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": "Cooperación internacional y Europa, sin compromiso de aumentar el gasto en Defensa.",
-      "reason": "Sin evidencia suficientemente directa en las fuentes consultadas; no se asigna neutralidad.",
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "pnv-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: apoya a Ucrania y los compromisos de defensa europea.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
       "reviewNeeded": true,
-      "reviewNote": "Revisión limitada a los documentos y búsquedas registrados. No se afirma que no exista una postura pública.",
-      "nextAction": "Revisar nuevos documentos y declaraciones específicas; mantener sin puntuación mientras falte respaldo.",
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null,
       "consultedSources": [
         {
@@ -372,16 +381,18 @@
       ]
     },
     "14": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": "Autogobierno y relación bilateral no equivalen a sustituir la monarquía por república.",
-      "reason": "Sin evidencia suficientemente directa en las fuentes consultadas; no se asigna neutralidad.",
-      "confidence": "baja",
+      "status": "documentada",
+      "position": 2,
+      "sourceIds": [
+        "pnv-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: es institucionalmente neutral, pero su programa pide reformar los delitos contra la Corona.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "confidence": "media",
       "reviewNeeded": true,
-      "reviewNote": "Revisión limitada a los documentos y búsquedas registrados. No se afirma que no exista una postura pública.",
-      "nextAction": "Revisar nuevos documentos y declaraciones específicas; mantener sin puntuación mientras falte respaldo.",
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null,
       "consultedSources": [
         {
@@ -437,16 +448,18 @@
       ]
     },
     "17": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": "Integración y prestaciones sectoriales no acreditan igualdad de requisitos de todas las ayudas por nacionalidad.",
-      "reason": "Sin evidencia suficientemente directa en las fuentes consultadas; no se asigna neutralidad.",
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "pnv-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: ha logrado la transferencia del IMV y defiende su gestión vasca.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
       "reviewNeeded": true,
-      "reviewNote": "Revisión limitada a los documentos y búsquedas registrados. No se afirma que no exista una postura pública.",
-      "nextAction": "Revisar nuevos documentos y declaraciones específicas; mantener sin puntuación mientras falte respaldo.",
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null,
       "consultedSources": [
         {

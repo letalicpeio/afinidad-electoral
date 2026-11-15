@@ -106,42 +106,48 @@
       "replaces": null
     },
     "3": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "La noticia no menciona inmigración ni arraigo.",
-      "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "compromis-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: apoya la regularización de personas migrantes.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "4": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "La noticia no trata la sanidad.",
-      "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "status": "documentada",
+      "position": 1,
+      "sourceIds": [
+        "compromis-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: defiende una sanidad pública 100 % gestionada públicamente.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "5": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "Sin propuestas sobre penas en la fuente leída.",
+      "status": "documentada",
+      "position": 2,
+      "sourceIds": [
+        "compromis-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: prioriza la reinserción sobre el endurecimiento penal.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "6": {
@@ -160,16 +166,18 @@
       "replaces": null
     },
     "7": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "La noticia pide financiación justa e inversión territorializada, pero no habla de transferir competencias.",
-      "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "compromis-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: reclama más competencias para la Generalitat y financiación autonómica.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "8": {
@@ -188,44 +196,48 @@
       "replaces": null
     },
     "9": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "La noticia no menciona la energía nuclear.",
-      "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
-      "replaces": null
-    },
-    "10": {
-      "status": "en-revision",
-      "position": null,
+      "status": "documentada",
+      "position": 1,
       "sourceIds": [
         "compromis-s01"
       ],
-      "locator": "EFE 09/11/2026",
-      "evidenceSummary": "Propone el «blindaje de las pensiones».",
-      "reason": "No menciona la actualización con el IPC.",
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: es antinuclear.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
+      "replaces": null
+    },
+    "10": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "compromis-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: propone «blindar las pensiones» (Moncloa, 15/11/2026).",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
       "reviewNeeded": true,
-      "reviewNote": "Lectura provisional favorable (4); no habla de IPC.",
-      "nextAction": null,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "11": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "La noticia no trata la violencia de género.",
-      "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "compromis-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: defiende las políticas feministas y contra la violencia machista.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "12": {
@@ -242,29 +254,33 @@
       "replaces": null
     },
     "13": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "La noticia no menciona defensa.",
-      "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "status": "documentada",
+      "position": 1,
+      "sourceIds": [
+        "compromis-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: es contraria al aumento del gasto militar.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "14": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "La noticia no menciona república ni monarquía.",
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "compromis-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: tiene una orientación republicana.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "15": {
@@ -296,16 +312,18 @@
       "replaces": null
     },
     "17": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "La noticia no menciona prestaciones a extranjeros.",
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "compromis-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: defiende la igualdad de derechos de las personas migrantes.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "18": {

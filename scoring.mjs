@@ -55,14 +55,16 @@ export const showAffinity = (result) =>
 // antecedentes de otras convocatorias solo rellenan temas en los que el partido no tiene evidencia
 // oficial reciente, y siempre se muestran etiquetados.
 export const evidenceTier = (position) =>
-  position?.historical
+  position?.inferred
+    ? 'inferido'
+    : position?.historical
     ? 'historico'
     : /^fuente secundaria/i.test(position?.sourceNote || '')
       ? 'secundaria'
       : 'oficial';
 
 export function tierCounts(details) {
-  const counts = { oficial: 0, secundaria: 0, historico: 0 };
+  const counts = { oficial: 0, secundaria: 0, historico: 0, inferido: 0 };
   const years = new Set();
   for (const d of details) {
     const tier = evidenceTier(d);

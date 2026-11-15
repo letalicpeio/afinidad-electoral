@@ -27,16 +27,18 @@
   ],
   "questions": {
     "1": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "No se localizó programa ni propuesta explícita de Comuns–Front Ampli sobre esta afirmación en las fuentes revisadas (véase searchLog). No se hereda la posición de otro partido (federación, coalición o marca) ni se atribuye por etiqueta ideológica.",
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "comuns-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su programa de 2023 busca eliminar la discriminación de las rentas del trabajo frente a las del capital.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": "Esperar el programa de la candidatura o de Comuns.",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "2": {
@@ -55,42 +57,48 @@
       "replaces": null
     },
     "3": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "No se localizó programa ni propuesta explícita de Comuns–Front Ampli sobre esta afirmación en las fuentes revisadas (véase searchLog). No se hereda la posición de otro partido (federación, coalición o marca) ni se atribuye por etiqueta ideológica.",
-      "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": "Esperar el programa de la candidatura o de Comuns.",
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "comuns-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su programa de 2023 apoya vías de regularización.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "4": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "No se localizó programa ni propuesta explícita de Comuns–Front Ampli sobre esta afirmación en las fuentes revisadas (véase searchLog). No se hereda la posición de otro partido (federación, coalición o marca) ni se atribuye por etiqueta ideológica.",
-      "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": "Esperar el programa de la candidatura o de Comuns.",
+      "status": "documentada",
+      "position": 1,
+      "sourceIds": [
+        "comuns-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su programa de 2023 defiende la gestión pública y critica la privatización.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "5": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "No se localizó programa ni propuesta explícita de Comuns–Front Ampli sobre esta afirmación en las fuentes revisadas (véase searchLog). No se hereda la posición de otro partido (federación, coalición o marca) ni se atribuye por etiqueta ideológica.",
+      "status": "documentada",
+      "position": 1,
+      "sourceIds": [
+        "comuns-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: defiende la reinserción y es contraria a endurecer las penas.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": "Esperar el programa de la candidatura o de Comuns.",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "6": {
@@ -109,16 +117,18 @@
       "replaces": null
     },
     "7": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "No se localizó programa ni propuesta explícita de Comuns–Front Ampli sobre esta afirmación en las fuentes revisadas (véase searchLog). No se hereda la posición de otro partido (federación, coalición o marca) ni se atribuye por etiqueta ideológica.",
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "comuns-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: defiende una República federal plurinacional.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": "Esperar el programa de la candidatura o de Comuns.",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "8": {
@@ -137,42 +147,48 @@
       "replaces": null
     },
     "9": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "No se localizó programa ni propuesta explícita de Comuns–Front Ampli sobre esta afirmación en las fuentes revisadas (véase searchLog). No se hereda la posición de otro partido (federación, coalición o marca) ni se atribuye por etiqueta ideológica.",
-      "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": "Esperar el programa de la candidatura o de Comuns.",
+      "status": "documentada",
+      "position": 1,
+      "sourceIds": [
+        "comuns-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su programa de 2023 propone un impuesto nuclear y un fondo para el desarrollo alternativo de las zonas con centrales.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "10": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "No se localizó programa ni propuesta explícita de Comuns–Front Ampli sobre esta afirmación en las fuentes revisadas (véase searchLog). No se hereda la posición de otro partido (federación, coalición o marca) ni se atribuye por etiqueta ideológica.",
-      "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": "Esperar el programa de la candidatura o de Comuns.",
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "comuns-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su programa de 2023 sube las pensiones no contributivas y las mantiene con el IPC.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "11": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "No se localizó programa ni propuesta explícita de Comuns–Front Ampli sobre esta afirmación en las fuentes revisadas (véase searchLog). No se hereda la posición de otro partido (federación, coalición o marca) ni se atribuye por etiqueta ideológica.",
-      "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": "Esperar el programa de la candidatura o de Comuns.",
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "comuns-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: defiende el marco legal contra la violencia machista.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "confidence": "alta",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "12": {
@@ -191,42 +207,48 @@
       "replaces": null
     },
     "13": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "No se localizó programa ni propuesta explícita de Comuns–Front Ampli sobre esta afirmación en las fuentes revisadas (véase searchLog). No se hereda la posición de otro partido (federación, coalición o marca) ni se atribuye por etiqueta ideológica.",
+      "status": "documentada",
+      "position": 1,
+      "sourceIds": [
+        "comuns-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: es contraria al aumento del gasto militar.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": "Esperar el programa de la candidatura o de Comuns.",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "14": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "No se localizó programa ni propuesta explícita de Comuns–Front Ampli sobre esta afirmación en las fuentes revisadas (véase searchLog). No se hereda la posición de otro partido (federación, coalición o marca) ni se atribuye por etiqueta ideológica.",
-      "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": "Esperar el programa de la candidatura o de Comuns.",
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "comuns-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su programa de 2023 afirma: «El nostre horitzó polític és una República federal plurinacional».",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "confidence": "alta",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "15": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "No se localizó programa ni propuesta explícita de Comuns–Front Ampli sobre esta afirmación en las fuentes revisadas (véase searchLog). No se hereda la posición de otro partido (federación, coalición o marca) ni se atribuye por etiqueta ideológica.",
-      "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": "Esperar el programa de la candidatura o de Comuns.",
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "comuns-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: defiende los derechos reproductivos frente a la «ideología de género» (programa de 2023).",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "confidence": "alta",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "16": {
@@ -243,16 +265,18 @@
       "replaces": null
     },
     "17": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "No se localizó programa ni propuesta explícita de Comuns–Front Ampli sobre esta afirmación en las fuentes revisadas (véase searchLog). No se hereda la posición de otro partido (federación, coalición o marca) ni se atribuye por etiqueta ideológica.",
-      "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": "Esperar el programa de la candidatura o de Comuns.",
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "comuns-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: defiende la igualdad de derechos de las personas migrantes.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "18": {

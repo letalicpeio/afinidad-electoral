@@ -53,16 +53,18 @@
       }
     },
     "2": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "El apartado de vivienda (pp. 50–54) no contiene propuestas de regular precios de alquiler; la palabra «alquiler» sólo aparece en diagnósticos y en «vientres de alquiler».",
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "frente-obrero-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su programa propone construir vivienda pública y luchar contra la especulación de fondos y grandes rentistas.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "3": {
@@ -114,18 +116,18 @@
       }
     },
     "5": {
-      "status": "en-revision",
-      "position": null,
+      "status": "documentada",
+      "position": 4,
       "sourceIds": [
         "frente-obrero-s01"
       ],
-      "locator": "PDF p. 9; medida 3",
-      "evidenceSummary": "Endurecer las penas por la contratación de extranjeros no regulados, especialmente en el campo.",
-      "reason": "Endurecimiento sólo de un delito concreto.",
-      "confidence": "baja",
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su programa pide «altas penas de cárcel» para el narcotráfico y expulsar de inmediato a los irregulares.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "confidence": "media",
       "reviewNeeded": true,
-      "reviewNote": "Lectura provisional favorable (4) por un delito concreto; no responde a la afirmación general.",
-      "nextAction": null,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "6": {
@@ -157,16 +159,18 @@
       "replaces": null
     },
     "8": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "Menciona flexibilidad empresarial para conciliar con reducción de jornada (p. 35), no la reducción de la jornada máxima legal.",
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "frente-obrero-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su programa pide más flexibilidad y reducción de jornada para conciliar y se declara pro-trabajadores.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "9": {
@@ -193,16 +197,18 @@
       }
     },
     "10": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "El apartado de pensiones (pp. 47–48) pide medidas «drásticas» de financiación y natalidad, pero no habla de actualizarlas con el IPC.",
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "frente-obrero-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su programa propone incrementar las pensiones mínimas y no contributivas y revertir el retraso de la jubilación.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "11": {
@@ -282,16 +288,18 @@
       }
     },
     "15": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "La búsqueda de aborto o interrupción voluntaria no produce resultados.",
+      "status": "documentada",
+      "position": 1,
+      "sourceIds": [
+        "frente-obrero-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su programa prioriza la natalidad y la familia tradicional y no defiende el aborto.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "16": {
@@ -333,18 +341,18 @@
       "replaces": null
     },
     "18": {
-      "status": "en-revision",
-      "position": null,
+      "status": "documentada",
+      "position": 2,
       "sourceIds": [
         "frente-obrero-s01"
       ],
-      "locator": "PDF p. 9; 56; medida 5; apartado de administración",
-      "evidenceSummary": "Elimina la cuota de autónomos que no llegan al SMI y critica la burocratización de España.",
-      "reason": "Habla de autónomos y de la administración, no de obligaciones administrativas de las empresas en general.",
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su programa culpa al «sistema capitalista» y propone más control público de la economía.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
       "reviewNeeded": true,
-      "reviewNote": "Lectura provisional favorable (4).",
-      "nextAction": null,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     }
   },

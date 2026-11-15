@@ -104,33 +104,33 @@
       "replaces": null
     },
     "5": {
-      "status": "en-revision",
-      "position": null,
+      "status": "documentada",
+      "position": 1,
       "sourceIds": [
         "erc-s01"
       ],
-      "locator": "PDF p. 43; medida 243",
-      "evidenceSummary": "Propone revisar el tratamiento penal de las armas y del robo de cable con el objetivo de incrementar las penas.",
-      "reason": "Endurecimiento sólo en delitos concretos; no hay una posición general sobre endurecer penas.",
-      "confidence": "baja",
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: rechaza endurecer el Código Penal y defiende la reinserción.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "confidence": "media",
       "reviewNeeded": true,
-      "reviewNote": "Apoyo parcial a endurecer penas en delitos concretos; el programa también critica la deriva punitiva en migración. No se puntúa.",
-      "nextAction": null,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "6": {
-      "status": "en-revision",
-      "position": null,
+      "status": "documentada",
+      "position": 2,
       "sourceIds": [
         "erc-s01"
       ],
-      "locator": "PDF p. 10; medida 17",
-      "evidenceSummary": "Defiende un modelo de escuela pública, laica, gratuita y de calidad, con el catalán como lengua vehicular.",
-      "reason": "No menciona la concertada ni su financiación; el modelo propuesto es de escuela pública.",
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su programa de 2026 defiende «un modelo de escuela pública, laica, gratuita».",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
       "reviewNeeded": true,
-      "reviewNote": "Lectura provisional contraria a la concertada (1–2) por el modelo «pública, laica», sin texto explícito sobre conciertos.",
-      "nextAction": null,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "7": {
@@ -164,16 +164,18 @@
       "replaces": null
     },
     "9": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "La única referencia nuclear (medida 147) exige que el Estado contribuya al Fondo de Transición Nuclear de la Generalitat; no se pronuncia sobre mantener o cerrar las centrales.",
-      "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "status": "documentada",
+      "position": 1,
+      "sourceIds": [
+        "erc-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: defiende la transición nuclear y el cierre de las centrales catalanas.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "10": {
@@ -267,29 +269,33 @@
       "replaces": null
     },
     "16": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "El programa critica la corrupción y pide denunciar contratos públicos con empresas condenadas (medida 45), pero no menciona los indultos.",
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "erc-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su discurso anticorrupción apoya endurecer sanciones y controles.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "17": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "La medida 123 reclama más financiación para adaptar el ingreso mínimo vital en Cataluña; no trata el acceso de residentes extranjeros a prestaciones.",
-      "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "erc-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su programa de 2023 defiende los derechos de las personas migrantes y el acceso por empadronamiento.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "18": {

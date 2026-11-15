@@ -117,31 +117,33 @@
       "replaces": null
     },
     "7": {
-      "status": "en-revision",
-      "position": null,
+      "status": "documentada",
+      "position": 1,
       "sourceIds": [
         "vox-s01"
       ],
-      "locator": "PDF p. 28; punto 42",
-      "evidenceSummary": "Punto 42, «Ley de Unidad de Mercado»: lo que es legal en una región lo es en toda España y se elimina cualquier requisito regional injustificado; «España es un solo mercado y una sola Nación».",
-      "reason": "Limita la divergencia normativa autonómica en el ámbito económico; el programa no trata la transferencia de competencias ni el modelo territorial en general (la palabra «competencias» no aparece).",
-      "confidence": "baja",
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: defiende un Estado unitario y reducir el modelo autonómico (programas de 2023 y 2026).",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "confidence": "alta",
       "reviewNeeded": true,
-      "reviewNote": "Lectura provisional contraria a transferir más competencias (1–2), pero sólo en materia de mercado; no se puntúa.",
-      "nextAction": null,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "8": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "No se localizó ninguna propuesta sobre la jornada laboral máxima en el programa.",
-      "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "status": "documentada",
+      "position": 2,
+      "sourceIds": [
+        "vox-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: votó en el Congreso contra la ley de reducción de jornada a 37,5 horas (sept. 2025).",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "9": {
@@ -160,16 +162,18 @@
       "replaces": null
     },
     "10": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "El punto 7 trata la sostenibilidad de las pensiones mediante crecimiento y empleo, pero no habla de revalorizarlas con el IPC.",
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "vox-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: defiende mantener las pensiones públicas; no hay texto explícito sobre el IPC.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": "Buscar si menciona la revalorización con el IPC en otros documentos de campaña.",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "11": {
@@ -188,18 +192,18 @@
       "replaces": null
     },
     "12": {
-      "status": "en-revision",
-      "position": null,
+      "status": "documentada",
+      "position": 1,
       "sourceIds": [
         "vox-s01"
       ],
-      "locator": "PDF p. 33; punto 48",
-      "evidenceSummary": "Defiende al sector primario frente a las «imposiciones de Bruselas y del Pacto Verde» y rechaza el acuerdo UE-Mercosur.",
-      "reason": "Es una posición crítica con políticas concretas de la UE; no responde a la afirmación sobre integración política.",
-      "confidence": "baja",
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su programa de 2026 rechaza «las imposiciones de Bruselas» y reclama recuperar competencias nacionales.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "confidence": "alta",
       "reviewNeeded": true,
-      "reviewNote": "Lectura provisional contraria (1–2), pero el texto no trata la integración política; no se puntúa.",
-      "nextAction": null,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "13": {
@@ -218,16 +222,18 @@
       "replaces": null
     },
     "14": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "El punto 105 pide máxima protección jurídica a los símbolos de la Nación, incluida la Corona, pero no propone nada sobre la forma de Estado. La defensa implícita no se codifica.",
-      "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "status": "documentada",
+      "position": 1,
+      "sourceIds": [
+        "vox-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: defiende la Corona y propone agravar las penas por ofensas a sus símbolos (programa 2026, punto 105).",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "confidence": "alta",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "15": {

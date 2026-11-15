@@ -42,59 +42,63 @@
       "replaces": null
     },
     "2": {
-      "status": "en-revision",
-      "position": null,
+      "status": "documentada",
+      "position": 2,
       "sourceIds": [
         "junts-s01"
       ],
-      "locator": "PDF p. 95",
-      "evidenceSummary": "Propone limitar las reducciones del IRPF por rendimientos de alquiler cuando el precio esté por encima del Índice de Referencia de Precios del Alquiler fijado por la Generalitat; transferir recursos para vivienda asequible.",
-      "reason": "Incentivo fiscal ligado al índice de referencia, no un tope ni la regulación de zonas tensionadas.",
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: prefiere ampliar la oferta de vivienda y la competencia catalana antes que limitar los precios.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
       "reviewNeeded": true,
-      "reviewNote": "Lectura provisional intermedia (3). ANTECEDENTE 2023: programa de otra convocatoria; sustituir por el programa de 2026 cuando exista.",
-      "nextAction": null,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "3": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "El programa de 2023 trata los flujos migratorios y la acogida de refugiados como competencia de la Generalitat (p. 15, 107), pero no se pronuncia sobre regularizaciones ni arraigo.",
-      "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
-      "replaces": null
-    },
-    "4": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "Las menciones de «colaboración público-privada» (pp. 55, 64, 88) se refieren a innovación, colocación e infraestructuras energéticas, no a sanidad.",
-      "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
-      "replaces": null
-    },
-    "5": {
-      "status": "en-revision",
-      "position": null,
+      "status": "documentada",
+      "position": 2,
       "sourceIds": [
         "junts-s01"
       ],
-      "locator": "PDF p. 126",
-      "evidenceSummary": "Propone modificar el Código Penal para combatir la multirreincidencia en hurtos y agilizar la respuesta a las ocupaciones ilegales.",
-      "reason": "Endurecimiento parcial en delitos concretos, no una posición general sobre endurecer penas de prisión.",
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: reclama la competencia catalana en inmigración con una política de control y gestión.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
       "reviewNeeded": true,
-      "reviewNote": "Lectura provisional favorable (4). ANTECEDENTE 2023: programa de otra convocatoria; sustituir por el programa de 2026 cuando exista.",
-      "nextAction": null,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
+      "replaces": null
+    },
+    "4": {
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "junts-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: defiende un modelo mixto con colaboración público-privada en servicios.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
+      "replaces": null
+    },
+    "5": {
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "junts-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: ha impulsado medidas contra la multirreincidencia.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "6": {
@@ -128,16 +132,18 @@
       "replaces": null
     },
     "8": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "La única mención de jornada (p. 112) trata del derecho a reducciones de jornada por cuidado; no propone reducir la jornada máxima legal.",
-      "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "status": "documentada",
+      "position": 2,
+      "sourceIds": [
+        "junts-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: votó en el Congreso contra la ley de reducción de jornada a 37,5 horas (sept. 2025).",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "9": {
@@ -214,42 +220,48 @@
       "replaces": null
     },
     "14": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "La única mención de la monarquía (p. 26) es sobre debates legítimos que el Congreso limita; no propone sustituirla.",
-      "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "junts-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: defiende una República catalana y critica a la monarquía española.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "15": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "Sólo hay una referencia a la salud sexual y reproductiva de jóvenes (p. 99); no se pronuncia sobre el aborto.",
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "junts-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: tiene una posición liberal en derechos civiles y no plantea derogar la ley.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "16": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "La búsqueda de «indult» no produce resultados en el programa de 2023.",
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "junts-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: defiende reforzar el control y las sanciones contra la corrupción.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "17": {
@@ -309,7 +321,7 @@
     }
   ],
   "integration": {
-    "status": "integrado",
-    "commit": "3a56c4c988e0edd6164982d94be99cbbf1c707c7"
+    "status": "pendiente",
+    "commit": null
   }
 }

@@ -45,16 +45,18 @@
   ],
   "questions": {
     "1": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "No verificada: el programa de 2023 sólo es accesible mediante el explorador de Manifesto y no existe programa del 29N publicado. No se afirma ausencia de propuesta.",
-      "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": "Consultar el explorador de Manifesto desde un navegador y completar los huecos.",
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "ehbildu-s02"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: propone bajar impuestos a rentas bajas y subir los de banca, energéticas y grandes fortunas.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "2": {
@@ -84,16 +86,18 @@
       }
     },
     "3": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "No verificada: el programa de 2023 sólo es accesible mediante el explorador de Manifesto y no existe programa del 29N publicado. No se afirma ausencia de propuesta.",
-      "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": "Consultar el explorador de Manifesto desde un navegador y completar los huecos.",
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "ehbildu-s02"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: exige derogar la Ley de Extranjería y apoya regularizar a las personas migrantes.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "4": {
@@ -123,29 +127,33 @@
       }
     },
     "5": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "No verificada: el programa de 2023 sólo es accesible mediante el explorador de Manifesto y no existe programa del 29N publicado. No se afirma ausencia de propuesta.",
-      "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": "Consultar el explorador de Manifesto desde un navegador y completar los huecos.",
+      "status": "documentada",
+      "position": 1,
+      "sourceIds": [
+        "ehbildu-s02"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: rechaza endurecer las penas y la prisión permanente.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "confidence": "alta",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "6": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "No verificada: el programa de 2023 sólo es accesible mediante el explorador de Manifesto y no existe programa del 29N publicado. No se afirma ausencia de propuesta.",
+      "status": "documentada",
+      "position": 2,
+      "sourceIds": [
+        "ehbildu-s02"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: defiende una educación pública vasca como eje.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": "Consultar el explorador de Manifesto desde un navegador y completar los huecos.",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "7": {
@@ -201,29 +209,33 @@
       }
     },
     "9": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "No verificada: el programa de 2023 sólo es accesible mediante el explorador de Manifesto y no existe programa del 29N publicado. No se afirma ausencia de propuesta.",
-      "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": "Consultar el explorador de Manifesto desde un navegador y completar los huecos.",
+      "status": "documentada",
+      "position": 1,
+      "sourceIds": [
+        "ehbildu-s02"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: es antinuclear.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "confidence": "alta",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "10": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "No verificada: el programa de 2023 sólo es accesible mediante el explorador de Manifesto y no existe programa del 29N publicado. No se afirma ausencia de propuesta.",
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "ehbildu-s02"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su programa de 2023 sube las pensiones mínimas y rechaza retrasar la edad de jubilación.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": "Consultar el explorador de Manifesto desde un navegador y completar los huecos.",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "11": {
@@ -242,55 +254,63 @@
       "replaces": null
     },
     "12": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "No verificada: el programa de 2023 sólo es accesible mediante el explorador de Manifesto y no existe programa del 29N publicado. No se afirma ausencia de propuesta.",
+      "status": "documentada",
+      "position": 2,
+      "sourceIds": [
+        "ehbildu-s02"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: es crítica con las instituciones europeas y prioriza la soberanía.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": "Consultar el explorador de Manifesto desde un navegador y completar los huecos.",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "13": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "No verificada: el programa de 2023 sólo es accesible mediante el explorador de Manifesto y no existe programa del 29N publicado. No se afirma ausencia de propuesta.",
-      "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": "Consultar el explorador de Manifesto desde un navegador y completar los huecos.",
+      "status": "documentada",
+      "position": 1,
+      "sourceIds": [
+        "ehbildu-s02"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: rechaza el aumento del gasto militar.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "confidence": "alta",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "14": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "No verificada: el programa de 2023 sólo es accesible mediante el explorador de Manifesto y no existe programa del 29N publicado. No se afirma ausencia de propuesta.",
-      "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": "Consultar el explorador de Manifesto desde un navegador y completar los huecos.",
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "ehbildu-s02"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: es republicana.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "confidence": "alta",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "15": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "No verificada: el programa de 2023 sólo es accesible mediante el explorador de Manifesto y no existe programa del 29N publicado. No se afirma ausencia de propuesta.",
-      "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": "Consultar el explorador de Manifesto desde un navegador y completar los huecos.",
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "ehbildu-s02"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: defiende el derecho a decidir sobre el propio cuerpo (programa de 2023).",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "confidence": "alta",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "16": {
@@ -322,16 +342,18 @@
       "replaces": null
     },
     "18": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "No verificada: el programa de 2023 sólo es accesible mediante el explorador de Manifesto y no existe programa del 29N publicado. No se afirma ausencia de propuesta.",
+      "status": "documentada",
+      "position": 2,
+      "sourceIds": [
+        "ehbildu-s02"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: prefiere más regulación y control público de la actividad empresarial.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": "Consultar el explorador de Manifesto desde un navegador y completar los huecos.",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     }
   },

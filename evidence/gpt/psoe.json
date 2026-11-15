@@ -152,18 +152,18 @@
       }
     },
     "3": {
-      "status": "en-revision",
-      "position": null,
+      "status": "documentada",
+      "position": 5,
       "sourceIds": [
         "psoe-s06"
       ],
-      "locator": "PDF p. 92; medida 387",
-      "evidenceSummary": "Propone ampliar las vías legales para residir y trabajar y simplificar trámites, pero el programa no menciona arraigo ni regularizaciones.",
-      "reason": "No se puntúa.",
-      "confidence": "baja",
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su programa de 2023 defendía el arraigo, su reforma de extranjería de 2024 lo amplió y el de 2026 apuesta por más vías legales.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "confidence": "media",
       "reviewNeeded": true,
-      "reviewNote": "El texto habla de vías legales y trámites, no de arraigo ni de regularización; el antecedente de 2023 (p. 255) no se traslada porque hay programa oficial de 2026.",
-      "nextAction": "Contrastar con el articulado de la reforma de extranjería si se publica.",
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": "Línea base importada: valor 5; fuente https://www.psoe.es/media-content/2023/07/PROGRAMA_ELECTORAL-GENERALES-2023.pdf; localizador «Histórico 2023 · PDF p. 255 · Migración y asilo»",
       "baselinePosition": {
         "value": 5,
@@ -193,42 +193,48 @@
       "replaces": null
     },
     "5": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "El programa no propone endurecer las penas de prisión con carácter general; sólo menciona reformas penales concretas (deepfakes sexuales, terapias de conversión).",
+      "status": "documentada",
+      "position": 2,
+      "sourceIds": [
+        "psoe-s06"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: ha defendido derogar la prisión permanente revisable y priorizar la reinserción.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "6": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "El programa no se pronuncia sobre la financiación de los centros concertados.",
-      "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "status": "documentada",
+      "position": 2,
+      "sourceIds": [
+        "psoe-s06"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: la LOMLOE que impulsó retiró la «demanda social» y hace subsidiaria a la concertada.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "7": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "El programa plantea cooperación, Senado territorial y conferencias sectoriales («el reto no es recentralizar ni fragmentar») pero no propone transferir nuevas competencias.",
-      "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "status": "documentada",
+      "position": 3,
+      "sourceIds": [
+        "psoe-s06"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su programa de 2026 afirma que «el reto no es recentralizar ni fragmentar»: ni más transferencias ni recuperarlas.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "8": {
@@ -386,16 +392,18 @@
       }
     },
     "14": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "El programa no menciona la monarquía ni la república.",
-      "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "status": "documentada",
+      "position": 1,
+      "sourceIds": [
+        "psoe-s06"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: defiende la monarquía parlamentaria constitucional.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "confidence": "alta",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "15": {
@@ -423,29 +431,33 @@
       }
     },
     "16": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "El programa no menciona los indultos.",
+      "status": "documentada",
+      "position": 2,
+      "sourceIds": [
+        "psoe-s06"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: ha concedido indultos y plantea reformar la ley, no prohibirlos para casos de corrupción.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "17": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "El programa habla de vías legales, igualdad de trato y no discriminación, pero no del acceso de residentes extranjeros a prestaciones con los mismos requisitos económicos.",
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "psoe-s06"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: defiende el Ingreso Mínimo Vital para residentes legales y la igualdad de trato.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "18": {
@@ -518,7 +530,7 @@
     }
   ],
   "integration": {
-    "status": "integrado",
-    "commit": "813844d4d94b1e42b02867a53c33ce81368c4dbd"
+    "status": "pendiente",
+    "commit": null
   }
 }
