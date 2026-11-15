@@ -107,3 +107,9 @@ Reglas para futuras ampliaciones: un programa de 2026 en la web oficial del part
 ## Primer lote GPT según reparto · 15/11/2026
 
 33 registros iniciales en evidence/gpt, cada uno con 18 decisiones y metadatos pendientes explícitos; la importación no se declara nueva lectura ni revisión terminada. Nueva evidencia PNV pregunta 18, programa oficial 2026, PDF p.14, 2.2.01: reducir burocracia y duplicidades empresariales. El resto de posiciones se conserva. No se modifica la carpeta de Claude.
+
+## Segundo lote GPT · 0.5.5
+
+Revisión de las 18 afirmaciones para PNV con programa oficial 2026, archivo 2023 en RTVE y búsquedas complementarias registradas. Cinco posiciones puntuables, tres en revisión (arraigo, penas y alcance de integración europea), diez sin evidencia suficiente en fuentes consultadas. Se añade pregunta 15, 3.3.04–05, PDF p.26. El registro europeo contextual no entra en data.json ni puntúa. No se afirma ausencia universal de postura ni se adopta neutralidad automática.
+
+CC: PDF oficial de 69 MB, descargado y leído con extracción local; autoría conjunta confirmada. Pregunta 1 = 4 por deducción IRPF limitada a La Palma, La Gomera y El Hierro (medida 38, p.13); pregunta 18 = 4 por simplificación limitada a vivienda protegida y asequible (28, p.11). Se explicitan límites para evitar presentar apoyo general. No se confunden incentivos voluntarios al alquiler con límites de precios ni complementos de pensiones con IPC.

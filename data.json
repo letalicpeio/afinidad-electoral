@@ -1,5 +1,5 @@
 {
-  "version": "0.5.4",
+  "version": "0.5.5",
   "date": "2026-11-15",
   "election": "Congreso · 29 de noviembre de 2026",
   "questions": [
@@ -360,6 +360,15 @@
           "reviewed": "2026-11-14",
           "coding": "Interpretación editorial provisional"
         },
+        "15": {
+          "value": 5,
+          "source": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+          "locator": "Programa 2026 · PDF p.26 · apartado 3.3 · medidas 04–05",
+          "reason": "Protege el acceso libre y seguro a los derechos reproductivos y los centros de interrupción voluntaria del embarazo frente al acoso.",
+          "sourceNote": "Fuente oficial de generales de 2026; revisión registrada en evidence/gpt/pnv.json.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional"
+        },
         "18": {
           "value": 5,
           "source": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
@@ -456,6 +465,15 @@
       "name": "Municipalistas Primero Canarias–Coalición Canaria",
       "match": "MUNICIPALISTAS PRIMERO CANARIAS-COALICIÓN CANARIA",
       "positions": {
+        "1": {
+          "value": 4,
+          "source": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+          "locator": "Programa 2026 · PDF p.13 · medida 38",
+          "reason": "Propone mantener la deducción del 60 % en el IRPF en La Palma y extenderla a La Gomera y El Hierro.",
+          "sourceNote": "Apoyo territorial limitado: es una deducción del IRPF en tres islas, no una rebaja general nacional de impuestos al trabajo. Trazabilidad en evidence/gpt/cc.json.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional"
+        },
         "7": {
           "value": 5,
           "source": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
@@ -471,6 +489,15 @@
           "locator": "Medida 17, pág. 10",
           "reason": "Reclama financiación estatal suficiente para aplicar el Pacto de Estado contra la violencia de género en todas las islas.",
           "reviewed": "2026-11-14",
+          "coding": "Interpretación editorial provisional"
+        },
+        "18": {
+          "value": 4,
+          "source": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+          "locator": "Programa 2026 · PDF p.11 · medida 28",
+          "reason": "Propone reducir trámites e informes estatales para agilizar vivienda protegida y asequible, manteniendo garantías.",
+          "sourceNote": "Apoyo sectorial limitado: simplificación para vivienda protegida y asequible; no compromiso de eliminar obligaciones para todas las empresas. Trazabilidad en evidence/gpt/cc.json.",
+          "reviewed": "2026-11-15",
           "coding": "Interpretación editorial provisional"
         }
       },

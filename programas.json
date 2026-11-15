@@ -143,7 +143,8 @@
     "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
     "title": "Programa electoral 29N (PDF)",
     "official": true,
-    "checked": "2026-11-14"
+    "checked": "2026-11-15",
+    "note": "Cuatro posiciones documentadas del programa conjunto de 2026. Las nuevas medidas fiscales y administrativas tienen alcance territorial o sectorial limitado; ese matiz figura por posición. Revisión restante en curso en evidence/gpt/cc.json."
    }
   },
   {
@@ -232,7 +233,7 @@
     "title": "Programa Elecciones Generales 2026 (PDF)",
     "official": true,
     "checked": "2026-11-15",
-    "note": " Seis posiciones documentadas; pregunta 18 añadida desde la propuesta 2.2.01 del programa oficial de 2026."
+    "note": "18 decisiones revisadas en la ficha de evidencia: cinco puntuables, tres en revisión y diez sin evidencia suficiente. En la web hay siete casillas: cinco puntuables y dos contextuales excluidas del cálculo. El caso europeo adicional queda solo en revisión documental. Fuentes y búsquedas en evidence/gpt/pnv.json."
    }
   },
   {

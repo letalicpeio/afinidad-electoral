@@ -3,10 +3,10 @@
   "catalogId": "pnv",
   "dataId": "pnv",
   "agent": "gpt",
-  "baseCommit": "4f7fbd9ab5b675cf5d13114a62c3c9f89d3c8b1f",
+  "baseCommit": "d060a2ab389ca5153f63eb25ea33f8f34efbd104",
   "reviewed": "2026-11-15",
   "prepared": "2026-11-15",
-  "status": "en-curso",
+  "status": "revisado",
   "sources": [
     {
       "id": "pnv-s01",
@@ -22,35 +22,58 @@
       "hosting": "oficial",
       "historical": false,
       "documentVersion": null,
-      "sha256": null,
+      "sha256": "5af7a5b6f67c26bad87ef6c3ca01ae38aa1f1d7d9029efb32fc52482de0c1314",
       "notes": "Programa oficial de 43 páginas consultado el 15/11/2026. No consta día de publicación en el extracto; no se inventa. El año se identifica en la portada."
+    },
+    {
+      "id": "pnv-s02",
+      "url": "https://www.rtve.es/contenidos/documentos/elecciones_generales_2023/programa_electoral_pnv.pdf",
+      "publisher": "EAJ-PNV; copia de archivo RTVE",
+      "title": "Con voz propia · programa de generales de 2023",
+      "published": null,
+      "accessed": "2026-11-15",
+      "election": "Generales de España · 23/07/2023",
+      "year": 2023,
+      "kind": "programa",
+      "origin": "primaria",
+      "hosting": "copia-archivo",
+      "historical": true,
+      "documentVersion": null,
+      "sha256": "46fec3a017cdc5c4e506fa5e228b97690071d5a03dfd3d8128392aa20f57d132",
+      "notes": "PDF de 52 páginas enlazado desde el comparador RTVE 23J. Consulta de apartados y búsqueda textual; ausencia de coincidencia no acredita postura política."
     }
   ],
   "questions": {
     "1": {
       "status": "sin-evidencia",
       "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "sourceIds": [
+        "pnv-s01",
+        "pnv-s02"
+      ],
+      "locator": "2.7 · PDF pp.20–21",
+      "evidenceSummary": "Propone cambios en IVA y margen presupuestario, no una rebaja explícita del impuesto sobre rentas del trabajo.",
+      "reason": "Sin evidencia suficientemente directa en las fuentes consultadas; no se asigna neutralidad.",
       "confidence": "baja",
       "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNote": "Revisión limitada a los documentos y búsquedas registrados. No se afirma que no exista una postura pública.",
+      "nextAction": "Revisar nuevos documentos y declaraciones específicas; mantener sin puntuación mientras falte respaldo.",
       "replaces": null
     },
     "2": {
       "status": "sin-evidencia",
       "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "sourceIds": [
+        "pnv-s01",
+        "pnv-s02"
+      ],
+      "locator": "1.1 · PDF pp.7–8",
+      "evidenceSummary": "Regula modalidades de alquiler y abusos; no determina límites de precios en zonas tensionadas.",
+      "reason": "Sin evidencia suficientemente directa en las fuentes consultadas; no se asigna neutralidad.",
       "confidence": "baja",
       "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNote": "Revisión limitada a los documentos y búsquedas registrados. No se afirma que no exista una postura pública.",
+      "nextAction": "Revisar nuevos documentos y declaraciones específicas; mantener sin puntuación mientras falte respaldo.",
       "replaces": null
     },
     "3": {
@@ -64,7 +87,7 @@
       "reason": "Propone avanzar en los procesos de regularización previstos en la legislación para quienes cumplen los requisitos; no menciona expresamente el arraigo.",
       "confidence": "media",
       "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. Regularización en general no acredita una posición específica sobre el arraigo.",
+      "reviewNote": "Texto del programa 2026 contrastado; se conserva la exclusión contextual.",
       "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
       "replaces": null,
       "baselinePosition": {
@@ -81,14 +104,17 @@
     "4": {
       "status": "sin-evidencia",
       "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "sourceIds": [
+        "pnv-s01",
+        "pnv-s02"
+      ],
+      "locator": "4.2 · PDF pp.31–32",
+      "evidenceSummary": "Refuerzo de sanidad pública y competencias, sin posición explícita sobre ampliar financiación de centros privados.",
+      "reason": "Sin evidencia suficientemente directa en las fuentes consultadas; no se asigna neutralidad.",
       "confidence": "baja",
       "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNote": "Revisión limitada a los documentos y búsquedas registrados. No se afirma que no exista una postura pública.",
+      "nextAction": "Revisar nuevos documentos y declaraciones específicas; mantener sin puntuación mientras falte respaldo.",
       "replaces": null
     },
     "5": {
@@ -102,7 +128,7 @@
       "reason": "Rechaza la prisión permanente revisable y defiende un sistema penitenciario orientado a la reinserción; no trata el endurecimiento de penas en general.",
       "confidence": "media",
       "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. Rechazar una modalidad penal no acredita oponerse a todo endurecimiento de penas.",
+      "reviewNote": "Texto del programa 2026 contrastado; se conserva la exclusión contextual.",
       "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
       "replaces": null,
       "baselinePosition": {
@@ -119,14 +145,17 @@
     "6": {
       "status": "sin-evidencia",
       "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "sourceIds": [
+        "pnv-s01",
+        "pnv-s02"
+      ],
+      "locator": "1.4 · PDF p.10",
+      "evidenceSummary": "Defiende modelo educativo propio, sin compromiso específico sobre financiación concertada condicionada a demanda.",
+      "reason": "Sin evidencia suficientemente directa en las fuentes consultadas; no se asigna neutralidad.",
       "confidence": "baja",
       "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNote": "Revisión limitada a los documentos y búsquedas registrados. No se afirma que no exista una postura pública.",
+      "nextAction": "Revisar nuevos documentos y declaraciones específicas; mantener sin puntuación mientras falte respaldo.",
       "replaces": null
     },
     "7": {
@@ -138,9 +167,9 @@
       "locator": "pág. 38, medidas 01–02",
       "evidenceSummary": "Exige completar las transferencias pendientes del Estatuto de Gernika y rechaza la recentralización.",
       "reason": "Exige completar las transferencias pendientes del Estatuto de Gernika y rechaza la recentralización.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
       "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
       "replaces": null,
       "baselinePosition": {
@@ -155,27 +184,33 @@
     "8": {
       "status": "sin-evidencia",
       "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "sourceIds": [
+        "pnv-s01",
+        "pnv-s02"
+      ],
+      "locator": "1.3 · PDF pp.9–10",
+      "evidenceSummary": "Defiende negociación y salarios, sin reducción de jornada máxima con garantía salarial.",
+      "reason": "Sin evidencia suficientemente directa en las fuentes consultadas; no se asigna neutralidad.",
       "confidence": "baja",
       "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNote": "Revisión limitada a los documentos y búsquedas registrados. No se afirma que no exista una postura pública.",
+      "nextAction": "Revisar nuevos documentos y declaraciones específicas; mantener sin puntuación mientras falte respaldo.",
       "replaces": null
     },
     "9": {
       "status": "sin-evidencia",
       "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "sourceIds": [
+        "pnv-s01",
+        "pnv-s02"
+      ],
+      "locator": "2.3 · PDF pp.15–16",
+      "evidenceSummary": "Planificación, almacenamiento y costes de electricidad; no continuidad o cierre de nuclear.",
+      "reason": "Sin evidencia suficientemente directa en las fuentes consultadas; no se asigna neutralidad.",
       "confidence": "baja",
       "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNote": "Revisión limitada a los documentos y búsquedas registrados. No se afirma que no exista una postura pública.",
+      "nextAction": "Revisar nuevos documentos y declaraciones específicas; mantener sin puntuación mientras falte respaldo.",
       "replaces": null
     },
     "10": {
@@ -187,9 +222,9 @@
       "locator": "pág. 31, medida 01",
       "evidenceSummary": "Revalorizar anualmente las pensiones conforme al IPC.",
       "reason": "Revalorizar anualmente las pensiones conforme al IPC.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
       "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
       "replaces": null,
       "baselinePosition": {
@@ -210,9 +245,9 @@
       "locator": "pág. 26, medida 06",
       "evidenceSummary": "Exige el cumplimiento íntegro de las medidas estatales del Pacto de Estado contra la Violencia de Género.",
       "reason": "Exige el cumplimiento íntegro de las medidas estatales del Pacto de Estado contra la Violencia de Género.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
       "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
       "replaces": null,
       "baselinePosition": {
@@ -225,81 +260,98 @@
       }
     },
     "12": {
-      "status": "sin-evidencia",
+      "status": "en-revision",
       "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "sourceIds": [
+        "pnv-s01",
+        "pnv-s02"
+      ],
+      "locator": "5.5 · PDF p.41 (2026); apartado Europa, PDF p.35 (2023)",
+      "evidenceSummary": "Defiende cooperación y representación vasca en Europa, sin fijar una transferencia política general a las instituciones europeas.",
+      "reason": "Europeísmo general no determina por sí solo la intensidad del apoyo a mayor integración política.",
       "confidence": "baja",
       "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNote": "No puntúa hasta localizar un compromiso institucional más concreto.",
+      "nextAction": "Buscar documento europeo o declaración inequívoca sobre integración política.",
       "replaces": null
     },
     "13": {
       "status": "sin-evidencia",
       "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "sourceIds": [
+        "pnv-s01",
+        "pnv-s02"
+      ],
+      "locator": "3.5 y 5.5 · PDF pp.28–29,40–41",
+      "evidenceSummary": "Cooperación internacional y Europa, sin compromiso de aumentar el gasto en Defensa.",
+      "reason": "Sin evidencia suficientemente directa en las fuentes consultadas; no se asigna neutralidad.",
       "confidence": "baja",
       "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNote": "Revisión limitada a los documentos y búsquedas registrados. No se afirma que no exista una postura pública.",
+      "nextAction": "Revisar nuevos documentos y declaraciones específicas; mantener sin puntuación mientras falte respaldo.",
       "replaces": null
     },
     "14": {
       "status": "sin-evidencia",
       "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "sourceIds": [
+        "pnv-s01",
+        "pnv-s02"
+      ],
+      "locator": "5.1–5.2 · PDF pp.38–39",
+      "evidenceSummary": "Autogobierno y relación bilateral no equivalen a sustituir la monarquía por república.",
+      "reason": "Sin evidencia suficientemente directa en las fuentes consultadas; no se asigna neutralidad.",
       "confidence": "baja",
       "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNote": "Revisión limitada a los documentos y búsquedas registrados. No se afirma que no exista una postura pública.",
+      "nextAction": "Revisar nuevos documentos y declaraciones específicas; mantener sin puntuación mientras falte respaldo.",
       "replaces": null
     },
     "15": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
-      "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "pnv-s01"
+      ],
+      "locator": "PDF p.26 · 3.3 · medidas 04–05",
+      "evidenceSummary": "Defiende el acceso a derechos sexuales y reproductivos y proteger los centros de interrupción voluntaria del embarazo frente al acoso.",
+      "reason": "Protege explícitamente el ejercicio del aborto legal y el acceso seguro a sus centros.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Mantener la posición mientras no exista cambio explícito del programa.",
       "replaces": null
     },
     "16": {
       "status": "sin-evidencia",
       "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "sourceIds": [
+        "pnv-s01",
+        "pnv-s02"
+      ],
+      "locator": "5.4 · PDF p.40",
+      "evidenceSummary": "Transparencia y rendición de cuentas no determinan prohibición de indultos por corrupción.",
+      "reason": "Sin evidencia suficientemente directa en las fuentes consultadas; no se asigna neutralidad.",
       "confidence": "baja",
       "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNote": "Revisión limitada a los documentos y búsquedas registrados. No se afirma que no exista una postura pública.",
+      "nextAction": "Revisar nuevos documentos y declaraciones específicas; mantener sin puntuación mientras falte respaldo.",
       "replaces": null
     },
     "17": {
       "status": "sin-evidencia",
       "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "sourceIds": [
+        "pnv-s01",
+        "pnv-s02"
+      ],
+      "locator": "3.2 y 4.4 · PDF pp.24–25,33",
+      "evidenceSummary": "Integración y prestaciones sectoriales no acreditan igualdad de requisitos de todas las ayudas por nacionalidad.",
+      "reason": "Sin evidencia suficientemente directa en las fuentes consultadas; no se asigna neutralidad.",
       "confidence": "baja",
       "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNote": "Revisión limitada a los documentos y búsquedas registrados. No se afirma que no exista una postura pública.",
+      "nextAction": "Revisar nuevos documentos y declaraciones específicas; mantener sin puntuación mientras falte respaldo.",
       "replaces": null
     },
     "18": {
@@ -328,13 +380,51 @@
       "date": "2026-11-15",
       "urlOrQuery": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
       "outcome": "Lectura del programa oficial. P.14, 2.2, propuesta 01, respalda la pregunta 18. Las búsquedas de aborto, nuclear, concertada y federal no devolvieron coincidencias; no se infiere postura de esa ausencia."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "PNV 2026 aborto derecho nuclear jornada 37,5 ley",
+      "outcome": "Búsqueda complementaria. Resultados agregadores usados para localizar referencias, no sus puntuaciones; no se asignó postura por resultados sin fuente directa."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "PNV programa 2023 concertada republica indultos ayudas extranjeros",
+      "outcome": "Búsqueda complementaria. Resultados agregadores usados para localizar referencias, no sus puntuaciones; no se asignó postura por resultados sin fuente directa."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "PNV elecciones 2026 integración europea federal alquiler zonas tensionadas",
+      "outcome": "Búsqueda complementaria. Resultados agregadores usados para localizar referencias, no sus puntuaciones; no se asignó postura por resultados sin fuente directa."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "PNV programa 2023 pdf educación concertada sanidad",
+      "outcome": "Búsqueda complementaria. Resultados agregadores usados para localizar referencias, no sus puntuaciones; no se asignó postura por resultados sin fuente directa."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "PNV 2026 indultos corrupción",
+      "outcome": "Búsqueda complementaria. Resultados agregadores usados para localizar referencias, no sus puntuaciones; no se asignó postura por resultados sin fuente directa."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "PNV 2026 república monarquía",
+      "outcome": "Búsqueda complementaria. Resultados agregadores usados para localizar referencias, no sus puntuaciones; no se asignó postura por resultados sin fuente directa."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "PNV 2026 nuclear prestaciones",
+      "outcome": "Búsqueda complementaria. Resultados agregadores usados para localizar referencias, no sus puntuaciones; no se asignó postura por resultados sin fuente directa."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "https://www.rtve.es/contenidos/documentos/elecciones_generales_2023/programa_electoral_pnv.pdf",
+      "outcome": "Archivo oficial de autoría PNV en copia RTVE, consultado como antecedente; no se añadieron puntuaciones del texto histórico en este lote."
     }
   ],
   "integration": {
-    "status": "integrado",
-    "commit": "b1f37493adf576b88aef38a5bc66db5c0926b7e9",
-    "scope": "Nueva pregunta 18 y conservación de las cinco posiciones previas. La investigación de las otras preguntas sigue pendiente.",
-    "publishedVersion": "0.5.4",
-    "verified": "2026-11-15"
+    "status": "pendiente",
+    "commit": null,
+    "scope": "Añadir pregunta 15; las otras seis entradas de PNV ya estaban integradas. Revisión de las 18 decisiones con huecos explícitos."
   }
 }

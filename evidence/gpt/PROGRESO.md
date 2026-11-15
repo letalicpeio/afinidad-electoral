@@ -10,3 +10,10 @@ Inicio: 15/11/2026. Reparto: REPARTO_GPT_CLAUDE.md.
 - Ningún fichero de Claude ha sido modificado.
 
 Siguiente: revisión completa de los huecos de PNV y de las principales candidaturas asignadas; actualizar preguntas y metadatos únicamente después de consultar fuentes.
+
+## Segundo lote · 15/11/2026
+
+- PNV: primera ficha con 18 decisiones revisadas. Cinco documentadas puntuables, tres en revisión y diez sin evidencia suficiente; revisión no significa cobertura completa. Nueva pregunta 15 del programa oficial actual.
+- CC: dos propuestas nuevas con matices (IRPF territorial y trámites de vivienda). Cuatro posiciones en la web; ficha en-curso.
+- Metadatos de ambos PDFs completados con huella SHA-256 y localizadores; PDFs no subidos.
+- Integración del lote: pendiente de registrar tras publicación.
