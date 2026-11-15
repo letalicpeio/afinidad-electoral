@@ -2,28 +2,28 @@
   "schemaVersion": "1.0",
   "catalogId": "pp",
   "dataId": "pp",
-  "agent": "gpt",
+  "agent": "claude",
   "baseCommit": "4f7fbd9ab5b675cf5d13114a62c3c9f89d3c8b1f",
-  "reviewed": null,
+  "reviewed": "2026-11-15",
   "prepared": "2026-11-15",
-  "status": "en-curso",
+  "status": "revisado",
   "sources": [
     {
       "id": "pp-s01",
       "url": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
       "publisher": "Partido Popular",
-      "title": "La Reconstrucción Nacional (PDF)",
+      "title": "Programa electoral «La Reconstrucción Nacional»",
       "published": null,
-      "accessed": null,
-      "election": "Convocatoria por verificar en metadatos importados",
-      "year": null,
+      "accessed": "2026-11-15",
+      "election": "Generales de España 2026",
+      "year": 2026,
       "kind": "programa",
       "origin": "primaria",
       "hosting": "oficial",
       "historical": false,
       "documentVersion": null,
-      "sha256": null,
-      "notes": "Importado de data.json; clasificación provisional. No implica nueva consulta ni verificación de metadatos. "
+      "sha256": "ae0c35d7ef3faf540acaa79d47abbe3ae2bf56a3a755c4e78a8f5bf3ea49789c",
+      "notes": "PDF del dominio pp.es (12,3 MB, 65 páginas), con medidas numeradas 1–249. La URL citada antes por el catálogo devolvía 404; esta es la ruta vigente. Páginas del PDF. Existe un segundo PDF con el mismo título (LA-RECONSTRUCCION-NACIONAL.pdf) no comparado."
     }
   ],
   "questions": {
@@ -33,13 +33,13 @@
       "sourceIds": [
         "pp-s01"
       ],
-      "locator": "Medidas 177–183",
-      "evidenceSummary": "Rebajas fiscales.",
-      "reason": "Rebajas fiscales.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "locator": "PDF p. 47; medida 177–179",
+      "evidenceSummary": "Subir los mínimos del IRPF, bajar el IRPF de rentas medias, bajas y familias, deflactar la tarifa y reducir el IRPF de jóvenes de 18 a 35 años.",
+      "reason": "Rebaja explícita del IRPF de trabajadores y autónomos.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 5,
@@ -56,13 +56,13 @@
       "sourceIds": [
         "pp-s01"
       ],
-      "locator": "Medida 145",
-      "evidenceSummary": "Deroga la Ley de Vivienda y elimina las zonas tensionadas y el índice de precios del alquiler.",
-      "reason": "Deroga la Ley de Vivienda y elimina las zonas tensionadas y el índice de precios del alquiler.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "locator": "PDF p. 42; medida 145",
+      "evidenceSummary": "Derogar la Ley de Vivienda y eliminar las zonas tensionadas y el índice de precios del alquiler.",
+      "reason": "Oposición clara.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 1,
@@ -74,19 +74,19 @@
       }
     },
     "3": {
-      "status": "en-revision",
-      "position": null,
+      "status": "documentada",
+      "position": 2,
       "sourceIds": [
         "pp-s01"
       ],
-      "locator": "Medida 42",
-      "evidenceSummary": "Arraigo excepcional; prohíbe regularizaciones masivas.",
-      "reason": "Arraigo excepcional; prohíbe regularizaciones masivas.",
+      "locator": "PDF p. 19; medida 42",
+      "evidenceSummary": "Prohibir por ley las regularizaciones masivas e indiscriminadas; el arraigo será un reconocimiento individual excepcional y el empadronamiento no bastará para ayudas no urgentes.",
+      "reason": "Oposición con matices: no elimina el arraigo, lo restringe a casos excepcionales.",
       "confidence": "media",
       "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. El programa admite arraigo excepcional: no justifica puntuar oposición total a permitir el arraigo.",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
-      "replaces": null,
+      "reviewNote": "Antes no puntuable por no justificar un 1; la escala común admite el 2 para oposición con matices explícitos.",
+      "nextAction": null,
+      "replaces": "Línea base importada: valor 1 (no puntuable); fuente https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf; localizador «Medida 42»",
       "baselinePosition": {
         "value": 1,
         "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
@@ -103,28 +103,28 @@
       "position": null,
       "sourceIds": [],
       "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "evidenceSummary": null,
+      "reason": "El programa no trata los conciertos ni la colaboración con centros sanitarios privados (la única coincidencia de «mutualidades» es de economía social, p. 46).",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     },
     "5": {
       "status": "documentada",
-      "position": 5,
+      "position": 4,
       "sourceIds": [
         "pp-s01"
       ],
-      "locator": "Medidas 23–30",
-      "evidenceSummary": "Ampliación de penas.",
-      "reason": "Ampliación de penas.",
+      "locator": "PDF p. 16–17; medida 23–27",
+      "evidenceSummary": "Amplía el castigo de los desórdenes públicos violentos, eleva multas por vandalismo, castiga la captación de menores para delinquir, endurece la Ley del Menor en delitos graves y las penas de la multirreincidencia y la ocupación.",
+      "reason": "Endurecimiento explícito pero formulado por delitos concretos, sin una subida general de penas de prisión.",
       "confidence": "media",
       "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
-      "replaces": null,
+      "reviewNote": "Las medidas 28–30 no se han releído.",
+      "nextAction": null,
+      "replaces": "Línea base importada: valor 5; fuente https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf; localizador «Medidas 23–30»",
       "baselinePosition": {
         "value": 5,
         "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
@@ -140,13 +140,13 @@
       "sourceIds": [
         "pp-s01"
       ],
-      "locator": "Medida 212",
-      "evidenceSummary": "Preserva conciertos con demanda.",
-      "reason": "Preserva conciertos con demanda.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "locator": "PDF p. 51; medida 212",
+      "evidenceSummary": "«Ningún concierto educativo se eliminará donde haya demanda suficiente»; conciertos de al menos seis años con módulos que cubran el coste.",
+      "reason": "Apoyo claro, con casi las mismas palabras de la afirmación.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 5,
@@ -158,16 +158,18 @@
       }
     },
     "7": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "status": "documentada",
+      "position": 2,
+      "sourceIds": [
+        "pp-s01"
+      ],
+      "locator": "PDF p. 15; 25; medida 16 y 59",
+      "evidenceSummary": "Defiende el Estado de las Autonomías, pero el Estado ejercerá por sí mismo sus competencias exclusivas y evaluará cualquier transferencia por sus efectos sobre la igualdad de los españoles.",
+      "reason": "Oposición con matices a transferir más competencias.",
       "confidence": "baja",
       "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNote": "Lectura de dos medidas generales; no hay una propuesta específica sobre transferencias.",
+      "nextAction": null,
       "replaces": null
     },
     "8": {
@@ -175,12 +177,12 @@
       "position": null,
       "sourceIds": [],
       "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "evidenceSummary": null,
+      "reason": "La búsqueda de «jornada laboral», «35 horas» y «37,5» no produce resultados en el programa.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     },
     "9": {
@@ -189,13 +191,13 @@
       "sourceIds": [
         "pp-s01"
       ],
-      "locator": "Medida 228",
-      "evidenceSummary": "Extensión de centrales.",
-      "reason": "Extensión de centrales.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "locator": "PDF p. 54; medida 228",
+      "evidenceSummary": "Eliminar el calendario de cierre de Almaraz, Ascó, Vandellós, Cofrentes y Trillo y tramitar la extensión de su vida útil.",
+      "reason": "Apoyo claro, más allá de mantener.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 5,
@@ -212,13 +214,13 @@
       "sourceIds": [
         "pp-s01"
       ],
-      "locator": "Medida 108",
-      "evidenceSummary": "Las pensiones mantendrán su poder adquisitivo y subirán cada año con el IPC.",
-      "reason": "Las pensiones mantendrán su poder adquisitivo y subirán cada año con el IPC.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "locator": "PDF p. 34; medida 108",
+      "evidenceSummary": "Garantizar las pensiones; mantendrán su poder adquisitivo y subirán cada año con el IPC.",
+      "reason": "Apoyo explícito con mención al IPC.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 5,
@@ -235,13 +237,13 @@
       "sourceIds": [
         "pp-s01"
       ],
-      "locator": "Medida 28",
-      "evidenceSummary": "Refuerzo del Pacto de Estado y VioGen.",
-      "reason": "Refuerzo del Pacto de Estado y VioGen.",
+      "locator": "PDF p. 17; medida 28",
+      "evidenceSummary": "Refuerza VioGén, más medios a las unidades especializadas, protección a los hijos y rendición de cuentas anual del Pacto de Estado contra la Violencia de Género.",
+      "reason": "Apoyo claro al marco específico vigente.",
       "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 5,
@@ -258,13 +260,13 @@
       "sourceIds": [
         "pp-s01"
       ],
-      "locator": "Programa 2026 · apartado 4.10 · Unión Europea, pp. 55–56",
-      "evidenceSummary": "Propone reforzar la capacidad política de la UE, el mercado común y las compras conjuntas de defensa.",
-      "reason": "Propone reforzar la capacidad política de la UE, el mercado común y las compras conjuntas de defensa.",
-      "confidence": "media",
+      "locator": "PDF p. 55–56; medida 234–236 (apartado 4.10)",
+      "evidenceSummary": "Defiende mercado único sin barreras, interconexiones, compras conjuntas de defensa y una Unión más fuerte; «España ha ganado mucho con Europa».",
+      "reason": "Apoyo a más capacidad europea sin hablar de integración política ni federalismo.",
+      "confidence": "baja",
       "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "reviewNote": "Apoyo matizado; la afirmación habla de integración política.",
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 4,
@@ -282,13 +284,13 @@
       "sourceIds": [
         "pp-s01"
       ],
-      "locator": "Programa 2026 · medidas 52–55 · España tendrá medios para su defensa",
-      "evidenceSummary": "Propone más efectivos, mejores retribuciones y mayor inversión en equipamiento, financiados mediante programación plurianual de Defensa.",
-      "reason": "Propone más efectivos, mejores retribuciones y mayor inversión en equipamiento, financiados mediante programación plurianual de Defensa.",
+      "locator": "PDF p. 21–22; medida 52–55",
+      "evidenceSummary": "Ley de programación y financiación de la defensa con inversión plurianual, cumplimiento de compromisos con la OTAN, refuerzo de contingentes y despliegue y fomento de la industria de defensa.",
+      "reason": "Apoyo claro, sin fijar una cifra.",
       "confidence": "media",
       "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "reviewNote": "No cuantifica el aumento; es compromiso de financiación plurianual.",
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 5,
@@ -304,12 +306,12 @@
       "position": null,
       "sourceIds": [],
       "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "evidenceSummary": null,
+      "reason": "La única mención de la monarquía (p. 8, preámbulo) la cita entre las obras de la Transición; no propone nada sobre la forma de Estado.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     },
     "15": {
@@ -317,12 +319,12 @@
       "position": null,
       "sourceIds": [],
       "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "evidenceSummary": null,
+      "reason": "El programa no menciona el aborto ni la interrupción voluntaria del embarazo (búsqueda sin coincidencias).",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     },
     "16": {
@@ -331,13 +333,13 @@
       "sourceIds": [
         "pp-s01"
       ],
-      "locator": "Medida 60",
-      "evidenceSummary": "Nueva Ley del Indulto: no podrán ser indultados los condenados por corrupción.",
-      "reason": "Nueva Ley del Indulto: no podrán ser indultados los condenados por corrupción.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "locator": "PDF p. 25; medida 60",
+      "evidenceSummary": "Nueva Ley del Indulto: no podrán ser indultados los condenados por corrupción, terrorismo ni delitos contra la integridad territorial.",
+      "reason": "Prohibición explícita.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 5,
@@ -349,16 +351,18 @@
       }
     },
     "17": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "status": "documentada",
+      "position": 2,
+      "sourceIds": [
+        "pp-s01"
+      ],
+      "locator": "PDF p. 19; medida 42–44",
+      "evidenceSummary": "El empadronamiento, por sí solo, no bastará para acceder a ayudas económicas no urgentes; compromiso de integración para renovar la residencia.",
+      "reason": "Restringe el acceso de extranjeros a ayudas, sin hablar de prioridad nacional con esas palabras.",
       "confidence": "baja",
       "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNote": "Oposición con matices; el programa no formula la afirmación contraria expresamente.",
+      "nextAction": null,
       "replaces": null
     },
     "18": {
@@ -367,13 +371,13 @@
       "sourceIds": [
         "pp-s01"
       ],
-      "locator": "Medidas 186–187",
-      "evidenceSummary": "Simplificación empresarial.",
-      "reason": "Simplificación empresarial.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "locator": "PDF p. 48; medida 186–187",
+      "evidenceSummary": "Test de productividad para toda norma económica, revisar normativa que frene la productividad, eliminar trabas y no penalizar el crecimiento de las pymes.",
+      "reason": "Apoyo claro.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 5,
@@ -390,6 +394,26 @@
       "date": "2026-11-15",
       "urlOrQuery": "git:4f7fbd9ab5b675cf5d13114a62c3c9f89d3c8b1f:data.json",
       "outcome": "Importación de línea base existente, sin nuevas búsquedas declaradas."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
+      "outcome": "Descarga correcta (HTTP 200, 12,3 MB). Texto extraído con pdftotext; leídas las medidas citadas y búsquedas por palabras clave de los 18 temas."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-LA-RECONSTRUCCION-NACIONAL.pdf",
+      "outcome": "HTTP 404: era la URL del catálogo; sustituida por la ruta vigente."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "https://www.pp.es/categoria/29n/",
+      "outcome": "Leída: lista dos PDF del programa; el usado es PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "Traspaso del usuario",
+      "outcome": "Traspaso acordado por el usuario (15/11/2026): ficha completada por Claude a partir del esqueleto preparado por GPT."
     }
   ],
   "integration": {

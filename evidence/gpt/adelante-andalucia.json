@@ -2,45 +2,45 @@
   "schemaVersion": "1.0",
   "catalogId": "adelante-andalucia",
   "dataId": "adelante",
-  "agent": "gpt",
+  "agent": "claude",
   "baseCommit": "4f7fbd9ab5b675cf5d13114a62c3c9f89d3c8b1f",
-  "reviewed": null,
+  "reviewed": "2026-11-15",
   "prepared": "2026-11-15",
-  "status": "en-curso",
+  "status": "revisado",
   "sources": [
     {
       "id": "adelante-andalucia-s01",
       "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
-      "publisher": "programa.adelanteandalucia.org",
-      "title": "Programa completo. Elecciones generales 29N 2026 (PDF)",
+      "publisher": "Adelante Andalucía",
+      "title": "Programa completo. Elecciones generales 29-11-2026 («Un programa para frenar a las derechas»)",
       "published": null,
-      "accessed": null,
-      "election": "Convocatoria por verificar en metadatos importados",
-      "year": null,
+      "accessed": "2026-11-15",
+      "election": "Generales de España 2026",
+      "year": 2026,
       "kind": "programa",
       "origin": "primaria",
-      "hosting": "copia-archivo",
+      "hosting": "oficial",
       "historical": false,
       "documentVersion": null,
-      "sha256": null,
-      "notes": "Importado de data.json; clasificación provisional. No implica nueva consulta ni verificación de metadatos. "
+      "sha256": "fde1fe024f94a698e2110c0e25cc569b4d9f3f7272342bdb13dc0c1e7a2d7b43",
+      "notes": "PDF en el subdominio del partido (1,9 MB, 135 páginas; 29 medidas principales y 700+ propuestas numeradas), enlazado desde adelanteandalucia.org. Existe resumen «Las 29 del 29N». Páginas del PDF."
     }
   ],
   "questions": {
     "1": {
-      "status": "en-revision",
-      "position": null,
+      "status": "documentada",
+      "position": 4,
       "sourceIds": [
         "adelante-andalucia-s01"
       ],
-      "locator": "Propuesta 232, pág. 58 del PDF",
-      "evidenceSummary": "IRPF más progresivo: rebaja para las rentas más bajas y tipos mucho más altos a partir de 100.000 euros.",
-      "reason": "IRPF más progresivo: rebaja para las rentas más bajas y tipos mucho más altos a partir de 100.000 euros.",
+      "locator": "PDF p. 58; propuesta 232",
+      "evidenceSummary": "IRPF más progresivo: rebaja para las rentas más bajas y tipos mucho más altos desde 100.000 euros.",
+      "reason": "Apoyo con matices: rebaja sólo a las rentas bajas, con subida a las altas.",
       "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. La rebaja alcanza solo a las rentas bajas y se acompaña de una subida a las altas.",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
-      "replaces": null,
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": "Línea base importada: valor 4 (no puntuable); fuente https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf; localizador «Propuesta 232, pág. 58 del PDF»",
       "baselinePosition": {
         "value": 4,
         "source": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
@@ -58,13 +58,13 @@
       "sourceIds": [
         "adelante-andalucia-s01"
       ],
-      "locator": "Propuesta 164, pág. 49 del PDF",
+      "locator": "PDF p. 49; propuesta 164",
       "evidenceSummary": "Zonas tensionadas obligatorias, declaradas automáticamente por indicadores objetivos.",
-      "reason": "Zonas tensionadas obligatorias, declaradas automáticamente por indicadores objetivos.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "reason": "Apoyo claro.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 5,
@@ -81,13 +81,13 @@
       "sourceIds": [
         "adelante-andalucia-s01"
       ],
-      "locator": "Medida 25 (propuestas 547 y 548), pág. 28 del PDF",
-      "evidenceSummary": "Derogación de la Ley de Extranjería y regularización extraordinaria.",
-      "reason": "Derogación de la Ley de Extranjería y regularización extraordinaria.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "locator": "PDF p. 28; medida 25 (propuestas 547 y 548)",
+      "evidenceSummary": "Derogar la Ley de Extranjería y regularización extraordinaria.",
+      "reason": "Apoyo claro.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 5,
@@ -104,13 +104,13 @@
       "sourceIds": [
         "adelante-andalucia-s01"
       ],
-      "locator": "Medida 11 (propuestas 1 a 5), pág. 14 del PDF",
-      "evidenceSummary": "Sanidad 100 % pública, con fin de los conciertos y las externalizaciones.",
-      "reason": "Sanidad 100 % pública, con fin de los conciertos y las externalizaciones.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "locator": "PDF p. 14; medida 11 (propuestas 1 a 5)",
+      "evidenceSummary": "Sanidad 100 % pública, derogación de la Ley 15/1997 y fin de los conciertos y externalizaciones.",
+      "reason": "Oposición clara.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 1,
@@ -122,19 +122,19 @@
       }
     },
     "5": {
-      "status": "en-revision",
-      "position": null,
+      "status": "documentada",
+      "position": 2,
       "sourceIds": [
         "adelante-andalucia-s01"
       ],
-      "locator": "Propuesta 495, pág. 94 del PDF",
-      "evidenceSummary": "«No al populismo punitivo»: derogar el endurecimiento penal de los pequeños hurtos.",
-      "reason": "«No al populismo punitivo»: derogar el endurecimiento penal de los pequeños hurtos.",
-      "confidence": "media",
+      "locator": "PDF p. 94; propuesta 495",
+      "evidenceSummary": "«No al populismo punitivo»: derogar el endurecimiento penal de los pequeños hurtos y los desalojos rápidos.",
+      "reason": "Oposición con matices, centrada en pequeños hurtos.",
+      "confidence": "baja",
       "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. Se refiere a los pequeños hurtos; no acredita oponerse a todo endurecimiento de penas.",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
-      "replaces": null,
+      "reviewNote": "Alcance limitado a delitos menores.",
+      "nextAction": null,
+      "replaces": "Línea base importada: valor 1 (no puntuable); fuente https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf; localizador «Propuesta 495, pág. 94 del PDF»",
       "baselinePosition": {
         "value": 1,
         "source": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
@@ -147,16 +147,18 @@
       }
     },
     "6": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
-      "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "status": "documentada",
+      "position": 1,
+      "sourceIds": [
+        "adelante-andalucia-s01"
+      ],
+      "locator": "PDF p. 42; apartado «Una sola red pública»",
+      "evidenceSummary": "Paralizar y revisar los conciertos, retirar los de centros que discriminen o segreguen y eliminar progresivamente la privada-concertada; prohibido cerrar líneas públicas mientras haya unidades concertadas.",
+      "reason": "Oposición clara.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     },
     "7": {
@@ -165,13 +167,13 @@
       "sourceIds": [
         "adelante-andalucia-s01"
       ],
-      "locator": "Medida 21 (propuesta 345), pág. 24 del PDF",
+      "locator": "PDF p. 24; medida 21 (propuesta 345)",
       "evidenceSummary": "Exige el máximo nivel de autonomía y autogobierno para Andalucía en cualquier reforma.",
-      "reason": "Exige el máximo nivel de autonomía y autogobierno para Andalucía en cualquier reforma.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "reason": "Apoyo claro.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 5,
@@ -188,13 +190,13 @@
       "sourceIds": [
         "adelante-andalucia-s01"
       ],
-      "locator": "Medida 4 (propuesta 268), pág. 7 del PDF",
+      "locator": "PDF p. 7; medida 4 (propuesta 268)",
       "evidenceSummary": "Jornada laboral de 32 horas sin rebaja de sueldo.",
-      "reason": "Jornada laboral de 32 horas sin rebaja de sueldo.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "reason": "Apoyo claro.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 5,
@@ -211,13 +213,13 @@
       "sourceIds": [
         "adelante-andalucia-s01"
       ],
-      "locator": "Propuesta 405, pág. 82 del PDF",
-      "evidenceSummary": "Gas y nuclear fuera de la taxonomía verde europea.",
-      "reason": "Gas y nuclear fuera de la taxonomía verde europea.",
-      "confidence": "media",
+      "locator": "PDF p. 82; propuesta 405",
+      "evidenceSummary": "Gas y nuclear fuera de la taxonomía verde europea; empresa pública de energía renovable.",
+      "reason": "Excluir la nuclear de la taxonomía verde no fija una posición sobre mantener o cerrar las centrales.",
+      "confidence": "baja",
       "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. Excluir la nuclear de la taxonomía verde no fija una posición sobre mantener o cerrar las centrales.",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "reviewNote": "Lectura provisional contraria (1–2).",
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 1,
@@ -236,13 +238,13 @@
       "sourceIds": [
         "adelante-andalucia-s01"
       ],
-      "locator": "Propuesta 216, pág. 55 del PDF",
+      "locator": "PDF p. 55; propuesta 216",
       "evidenceSummary": "Revalorización de las pensiones con el IPC real garantizada por ley.",
-      "reason": "Revalorización de las pensiones con el IPC real garantizada por ley.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "reason": "Apoyo claro.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 5,
@@ -259,13 +261,13 @@
       "sourceIds": [
         "adelante-andalucia-s01"
       ],
-      "locator": "Medida 24, pág. 27 del PDF",
+      "locator": "PDF p. 27; medida 24",
       "evidenceSummary": "Pacto de Estado contra la violencia machista con presupuesto.",
-      "reason": "Pacto de Estado contra la violencia machista con presupuesto.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "reason": "Apoyo claro.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 5,
@@ -281,12 +283,12 @@
       "position": null,
       "sourceIds": [],
       "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "evidenceSummary": null,
+      "reason": "La búsqueda de «Unión Europea» no devuelve propuestas sobre integración política.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     },
     "13": {
@@ -295,13 +297,13 @@
       "sourceIds": [
         "adelante-andalucia-s01"
       ],
-      "locator": "Propuesta 578, pág. 109 del PDF",
-      "evidenceSummary": "Rechazo al rearme y reducción progresiva del gasto militar.",
-      "reason": "Rechazo al rearme y reducción progresiva del gasto militar.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "locator": "PDF p. 109; propuesta 578",
+      "evidenceSummary": "Rechazo al rearme y al objetivo del 5 % del PIB de la OTAN; reducción progresiva del gasto militar.",
+      "reason": "Oposición clara.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 1,
@@ -317,12 +319,12 @@
       "position": null,
       "sourceIds": [],
       "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "evidenceSummary": null,
+      "reason": "La búsqueda de monarquía y república no produce resultados; sólo pide el fin de los aforamientos de la Corona (p. 90).",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     },
     "15": {
@@ -331,13 +333,13 @@
       "sourceIds": [
         "adelante-andalucia-s01"
       ],
-      "locator": "Medida 24, pág. 27 del PDF",
-      "evidenceSummary": "El aborto, garantizado en la sanidad pública y en la Constitución.",
-      "reason": "El aborto, garantizado en la sanidad pública y en la Constitución.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "locator": "PDF p. 27; 40; medida 24; propuesta 54",
+      "evidenceSummary": "El aborto, garantizado en la sanidad pública sin conciertos y en la Constitución.",
+      "reason": "Apoyo claro.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 5,
@@ -354,13 +356,13 @@
       "sourceIds": [
         "adelante-andalucia-s01"
       ],
-      "locator": "Propuesta 468, pág. 91 del PDF",
+      "locator": "PDF p. 91; propuesta 468",
       "evidenceSummary": "Prohibir el indulto en los delitos de corrupción.",
-      "reason": "Prohibir el indulto en los delitos de corrupción.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "reason": "Apoyo explícito.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 5,
@@ -372,29 +374,33 @@
       }
     },
     "17": {
-      "status": "sin-evidencia",
+      "status": "en-revision",
       "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "sourceIds": [
+        "adelante-andalucia-s01"
+      ],
+      "locator": "PDF p. 106; propuestas 554 y 555",
+      "evidenceSummary": "Empadronamiento efectivo sin discriminación («Padrón para todas las personas») y sanidad y escuela sin papeles.",
+      "reason": "Garantiza acceso universal a sanidad y escuela; no trata las prestaciones económicas con los mismos requisitos.",
       "confidence": "baja",
       "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNote": "Lectura provisional favorable (4–5).",
+      "nextAction": null,
       "replaces": null
     },
     "18": {
-      "status": "sin-evidencia",
+      "status": "en-revision",
       "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "sourceIds": [
+        "adelante-andalucia-s01"
+      ],
+      "locator": "PDF p. 11; medida 8 (propuestas 305 a 307)",
+      "evidenceSummary": "Ventanilla única y asesoría pública gratuita de trámites para el pequeño trabajo autónomo.",
+      "reason": "Es una medida para autónomos; no es una reducción general de obligaciones de empresas.",
       "confidence": "baja",
       "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNote": "Lectura provisional favorable (4).",
+      "nextAction": null,
       "replaces": null
     }
   },
@@ -403,6 +409,21 @@
       "date": "2026-11-15",
       "urlOrQuery": "git:4f7fbd9ab5b675cf5d13114a62c3c9f89d3c8b1f:data.json",
       "outcome": "Importación de línea base existente, sin nuevas búsquedas declaradas."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+      "outcome": "Descarga correcta (HTTP 200, 1,9 MB, 135 páginas); leídos los 18 temas con búsquedas por palabras clave."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "https://programa.adelanteandalucia.org/las-29-del-29n-adelante-andalucia.pdf",
+      "outcome": "Resumen de 34 páginas; no usado como fuente de posiciones."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "Traspaso del usuario",
+      "outcome": "Traspaso acordado por el usuario (15/11/2026): ficha completada por Claude a partir del esqueleto preparado por GPT."
     }
   ],
   "integration": {

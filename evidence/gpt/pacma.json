@@ -2,28 +2,28 @@
   "schemaVersion": "1.0",
   "catalogId": "pacma",
   "dataId": "pacma",
-  "agent": "gpt",
+  "agent": "claude",
   "baseCommit": "4f7fbd9ab5b675cf5d13114a62c3c9f89d3c8b1f",
-  "reviewed": null,
+  "reviewed": "2026-11-15",
   "prepared": "2026-11-15",
-  "status": "en-curso",
+  "status": "revisado",
   "sources": [
     {
       "id": "pacma-s01",
       "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
       "publisher": "PACMA",
-      "title": "Programa electoral generales 29N 2026 (PDF)",
+      "title": "Programa electoral Elecciones Generales 29N 2026",
       "published": null,
-      "accessed": null,
-      "election": "Convocatoria por verificar en metadatos importados",
-      "year": null,
+      "accessed": "2026-11-15",
+      "election": "Generales de España 2026",
+      "year": 2026,
       "kind": "programa",
       "origin": "primaria",
       "hosting": "oficial",
       "historical": false,
       "documentVersion": null,
-      "sha256": null,
-      "notes": "Importado de data.json; clasificación provisional. No implica nueva consulta ni verificación de metadatos. "
+      "sha256": "6009e569e3bfd4f607b8831ade1d1ef33cbbda6033805e3ebc331d4dd0e30a1d",
+      "notes": "PDF del dominio pacma.es (1,2 MB, 83 páginas) con numeración de apartados. Páginas del PDF; la numeración impresa va uno por delante en algunos apartados."
     }
   ],
   "questions": {
@@ -32,12 +32,12 @@
       "position": null,
       "sourceIds": [],
       "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "evidenceSummary": null,
+      "reason": "Las menciones al IRPF tratan de deducciones por gastos veterinarios y del 0,7 % (pp. 17, 31); no propone bajar impuestos a las rentas del trabajo.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     },
     "2": {
@@ -45,12 +45,12 @@
       "position": null,
       "sourceIds": [],
       "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "evidenceSummary": null,
+      "reason": "El apartado 3.5 propone más vivienda social e incentivos fiscales a propietarios, pero no regula precios de alquiler ni zonas tensionadas.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     },
     "3": {
@@ -58,12 +58,12 @@
       "position": null,
       "sourceIds": [],
       "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "evidenceSummary": null,
+      "reason": "La búsqueda de arraigo, regularización e inmigración no devuelve propuestas (sólo la sección 3.10.6 «personas migrantes», sin medidas sobre regularización localizadas).",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     },
     "4": {
@@ -72,13 +72,13 @@
       "sourceIds": [
         "pacma-s01"
       ],
-      "locator": "Sección 3.2.1, pág. 55",
-      "evidenceSummary": "Propone reintegrar en la sanidad pública los servicios privatizados.",
-      "reason": "Propone reintegrar en la sanidad pública los servicios privatizados.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "locator": "PDF p. 56; apartado de sanidad",
+      "evidenceSummary": "«Reintegración al sistema sanitario público de los servicios privatizados» y programas de I+D+i con gestión pública.",
+      "reason": "Oposición clara.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 1,
@@ -90,16 +90,18 @@
       }
     },
     "5": {
-      "status": "sin-evidencia",
+      "status": "en-revision",
       "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "sourceIds": [
+        "pacma-s01"
+      ],
+      "locator": "PDF p. 22; apartado 1.1.24",
+      "evidenceSummary": "Endurecimiento de las sanciones por maltrato animal.",
+      "reason": "Sólo afecta al maltrato animal.",
       "confidence": "baja",
       "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNote": "No responde a la afirmación general sobre penas de prisión.",
+      "nextAction": null,
       "replaces": null
     },
     "6": {
@@ -108,13 +110,13 @@
       "sourceIds": [
         "pacma-s01"
       ],
-      "locator": "Sección 3.3.3, pág. 60",
-      "evidenceSummary": "Propone revisar los criterios de concertación.",
-      "reason": "Propone revisar los criterios de concertación.",
-      "confidence": "media",
+      "locator": "PDF p. 61; apartado 3.3.2",
+      "evidenceSummary": "Revisión de los criterios de concertación con la enseñanza privada para que respeten criterios de servicio público y eviten la segregación.",
+      "reason": "Revisa los conciertos sin proponer eliminarlos ni ampliarlos.",
+      "confidence": "baja",
       "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. Revisar criterios no fija una posición sobre mantener financiación por demanda. Valor orientativo no puntuable.",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "reviewNote": "Lectura provisional intermedia (3).",
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 3,
@@ -132,12 +134,12 @@
       "position": null,
       "sourceIds": [],
       "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "evidenceSummary": null,
+      "reason": "El programa no contiene propuestas sobre competencias entre el Estado y las comunidades.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     },
     "8": {
@@ -145,12 +147,12 @@
       "position": null,
       "sourceIds": [],
       "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "evidenceSummary": null,
+      "reason": "Sólo trata flexibilidad de horarios y teletrabajo para conciliar (p. 65); no la reducción de la jornada máxima.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     },
     "9": {
@@ -159,13 +161,13 @@
       "sourceIds": [
         "pacma-s01"
       ],
-      "locator": "Sección 2.1.1, pág. 34",
-      "evidenceSummary": "Critica el modelo de uso masivo de energía nuclear.",
-      "reason": "Critica el modelo de uso masivo de energía nuclear.",
-      "confidence": "media",
+      "locator": "PDF p. 34; apartado 2.1.1",
+      "evidenceSummary": "Considera insostenible el modelo basado en combustibles fósiles y energía nuclear y apuesta por las renovables manteniendo la seguridad de abastecimiento.",
+      "reason": "No fija si propone mantener o cerrar las centrales.",
+      "confidence": "baja",
       "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. La crítica al modelo masivo no permite concluir por sí sola oposición a toda permanencia nuclear.",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "reviewNote": "Lectura provisional contraria (1–2).",
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 1,
@@ -179,16 +181,18 @@
       }
     },
     "10": {
-      "status": "sin-evidencia",
+      "status": "en-revision",
       "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "sourceIds": [
+        "pacma-s01"
+      ],
+      "locator": "PDF p. 80; apartado 3.10",
+      "evidenceSummary": "Propone reformar la Constitución para blindar las pensiones, de modo que el sistema público no pueda recortarse ni privatizarse.",
+      "reason": "No menciona su actualización con el IPC.",
       "confidence": "baja",
       "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNote": "Lectura provisional favorable (4).",
+      "nextAction": null,
       "replaces": null
     },
     "11": {
@@ -197,13 +201,13 @@
       "sourceIds": [
         "pacma-s01"
       ],
-      "locator": "Sección 3.10.1, págs. 75–76",
-      "evidenceSummary": "Defiende tutela judicial y reconocimiento legal específico frente a violencia machista.",
-      "reason": "Defiende tutela judicial y reconocimiento legal específico frente a violencia machista.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "locator": "PDF p. 76–77; apartado 3.10.1",
+      "evidenceSummary": "Medidas específicas contra la violencia sobre la mujer: prevención educativa, unidades policiales 24 horas, protección y recursos para las víctimas y formación de la justicia.",
+      "reason": "Apoyo claro al marco específico.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 5,
@@ -219,12 +223,12 @@
       "position": null,
       "sourceIds": [],
       "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "evidenceSummary": null,
+      "reason": "El programa no contiene propuestas sobre la integración europea.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     },
     "13": {
@@ -232,12 +236,12 @@
       "position": null,
       "sourceIds": [],
       "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "evidenceSummary": null,
+      "reason": "La búsqueda de gasto militar, OTAN y armamento no devuelve propuestas (las coincidencias son de caza y fauna).",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     },
     "14": {
@@ -245,12 +249,12 @@
       "position": null,
       "sourceIds": [],
       "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "evidenceSummary": null,
+      "reason": "La búsqueda de monarquía y república no produce resultados.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     },
     "15": {
@@ -258,12 +262,12 @@
       "position": null,
       "sourceIds": [],
       "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "evidenceSummary": null,
+      "reason": "La búsqueda de aborto e interrupción voluntaria no produce resultados.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     },
     "16": {
@@ -271,12 +275,12 @@
       "position": null,
       "sourceIds": [],
       "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "evidenceSummary": null,
+      "reason": "La búsqueda de indultos no produce resultados.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     },
     "17": {
@@ -284,12 +288,12 @@
       "position": null,
       "sourceIds": [],
       "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "evidenceSummary": null,
+      "reason": "El programa no trata el acceso de residentes extranjeros a prestaciones.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     },
     "18": {
@@ -298,13 +302,13 @@
       "sourceIds": [
         "pacma-s01"
       ],
-      "locator": "Sección 3.4.9, pág. 68",
-      "evidenceSummary": "Propone eliminar trabas burocráticas para crear empresas e iniciar actividades.",
-      "reason": "Propone eliminar trabas burocráticas para crear empresas e iniciar actividades.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "locator": "PDF p. 69; apartado 3.4",
+      "evidenceSummary": "Agilizar la creación de empresas eliminando trabas burocráticas y simplificando los trámites exigibles.",
+      "reason": "Apoyo explícito.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 5,
@@ -321,6 +325,16 @@
       "date": "2026-11-15",
       "urlOrQuery": "git:4f7fbd9ab5b675cf5d13114a62c3c9f89d3c8b1f:data.json",
       "outcome": "Importación de línea base existente, sin nuevas búsquedas declaradas."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+      "outcome": "Descarga correcta (HTTP 200, 1,2 MB, 83 páginas); leídos los 18 temas con búsquedas por palabras clave."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "Traspaso del usuario",
+      "outcome": "Traspaso acordado por el usuario (15/11/2026): ficha completada por Claude a partir del esqueleto preparado por GPT."
     }
   ],
   "integration": {

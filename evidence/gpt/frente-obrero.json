@@ -2,45 +2,45 @@
   "schemaVersion": "1.0",
   "catalogId": "frente-obrero",
   "dataId": "fo",
-  "agent": "gpt",
+  "agent": "claude",
   "baseCommit": "4f7fbd9ab5b675cf5d13114a62c3c9f89d3c8b1f",
-  "reviewed": null,
+  "reviewed": "2026-11-15",
   "prepared": "2026-11-15",
-  "status": "en-curso",
+  "status": "revisado",
   "sources": [
     {
       "id": "frente-obrero-s01",
       "url": "https://frenteobrero.es/documentos/programa-frente-obrero.pdf",
       "publisher": "Frente Obrero",
-      "title": "Programa del Frente Obrero (PDF)",
-      "published": null,
-      "accessed": null,
-      "election": "Convocatoria por verificar en metadatos importados",
-      "year": null,
+      "title": "Programa del Frente Obrero para el Congreso",
+      "published": "2026-11-12",
+      "accessed": "2026-11-15",
+      "election": "Generales de España 2026",
+      "year": 2026,
       "kind": "programa",
       "origin": "primaria",
       "hosting": "oficial",
       "historical": false,
       "documentVersion": null,
-      "sha256": null,
-      "notes": "Importado de data.json; clasificación provisional. No implica nueva consulta ni verificación de metadatos. "
+      "sha256": "7b9f423f2c1ada187b6f42ed8dbf4e025356254d7a6b81830e114b818ef2e282",
+      "notes": "PDF del dominio frenteobrero.es (1,2 MB, 65 páginas), modificado el 12/11/2026. Páginas impresas = páginas del PDF."
     }
   ],
   "questions": {
     "1": {
-      "status": "en-revision",
-      "position": null,
+      "status": "documentada",
+      "position": 4,
       "sourceIds": [
         "frente-obrero-s01"
       ],
-      "locator": "pág. 18, medida 1",
-      "evidenceSummary": "Reducir el impuesto sobre la renta a los trabajadores con menos recursos y aumentarlo a las rentas más altas.",
-      "reason": "Reducir el impuesto sobre la renta a los trabajadores con menos recursos y aumentarlo a las rentas más altas.",
+      "locator": "PDF p. 18; medida 1",
+      "evidenceSummary": "Reducir el impuesto sobre la renta a los trabajadores con menos recursos e incrementarlo para las rentas más altas.",
+      "reason": "Apoyo con matices: rebaja limitada a rentas bajas, compensada con subida a las altas.",
       "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. La rebaja alcanza solo a las rentas bajas y se acompaña de una subida a las altas.",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
-      "replaces": null,
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": "Línea base importada: valor 4 (no puntuable); fuente https://frenteobrero.es/documentos/programa-frente-obrero.pdf; localizador «pág. 18, medida 1»",
       "baselinePosition": {
         "value": 4,
         "source": "https://frenteobrero.es/documentos/programa-frente-obrero.pdf",
@@ -57,12 +57,12 @@
       "position": null,
       "sourceIds": [],
       "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "evidenceSummary": null,
+      "reason": "El apartado de vivienda (pp. 50–54) no contiene propuestas de regular precios de alquiler; la palabra «alquiler» sólo aparece en diagnósticos y en «vientres de alquiler».",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     },
     "3": {
@@ -71,13 +71,13 @@
       "sourceIds": [
         "frente-obrero-s01"
       ],
-      "locator": "pág. 53, medida 3",
+      "locator": "PDF p. 53; medida 3",
       "evidenceSummary": "Expulsión inmediata de quienes están de forma irregular e imposibilidad de regularizarse si intentaron entrar de forma ilegal.",
-      "reason": "Expulsión inmediata de quienes están de forma irregular e imposibilidad de regularizarse si intentaron entrar de forma ilegal.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "reason": "Oposición clara.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 1,
@@ -89,19 +89,19 @@
       }
     },
     "4": {
-      "status": "en-revision",
-      "position": null,
+      "status": "documentada",
+      "position": 1,
       "sourceIds": [
         "frente-obrero-s01"
       ],
-      "locator": "pág. 42",
-      "evidenceSummary": "Critica la externalización y privatización de los servicios sanitarios.",
-      "reason": "Critica la externalización y privatización de los servicios sanitarios.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. Es un diagnóstico crítico; no se ha localizado una medida concreta sobre conciertos con centros privados.",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
-      "replaces": null,
+      "locator": "PDF p. 42; apartado de sanidad",
+      "evidenceSummary": "Acabar con el proceso de externalización y privatización de la sanidad e incrementar el gasto en el sistema nacional de salud.",
+      "reason": "Oposición clara; formulada como medida.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": "Línea base importada: valor 1 (no puntuable); fuente https://frenteobrero.es/documentos/programa-frente-obrero.pdf; localizador «pág. 42»",
       "baselinePosition": {
         "value": 1,
         "source": "https://frenteobrero.es/documentos/programa-frente-obrero.pdf",
@@ -114,16 +114,18 @@
       }
     },
     "5": {
-      "status": "sin-evidencia",
+      "status": "en-revision",
       "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "sourceIds": [
+        "frente-obrero-s01"
+      ],
+      "locator": "PDF p. 9; medida 3",
+      "evidenceSummary": "Endurecer las penas por la contratación de extranjeros no regulados, especialmente en el campo.",
+      "reason": "Endurecimiento sólo de un delito concreto.",
       "confidence": "baja",
       "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNote": "Lectura provisional favorable (4) por un delito concreto; no responde a la afirmación general.",
+      "nextAction": null,
       "replaces": null
     },
     "6": {
@@ -131,25 +133,27 @@
       "position": null,
       "sourceIds": [],
       "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "evidenceSummary": null,
+      "reason": "La búsqueda de «concertad…» y enseñanza privada no produce resultados; sólo propone fortalecer el sistema público de educación (p. 22).",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     },
     "7": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
-      "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "status": "documentada",
+      "position": 1,
+      "sourceIds": [
+        "frente-obrero-s01"
+      ],
+      "locator": "PDF p. 56; apartado de estructura territorial",
+      "evidenceSummary": "Reforzar el gobierno central recuperando competencias que no debieron ser suyas, igualar competencias y regímenes fiscales de las autonomías y oponerse a los procesos de independencia.",
+      "reason": "Oposición clara a transferir más competencias.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     },
     "8": {
@@ -157,12 +161,12 @@
       "position": null,
       "sourceIds": [],
       "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "evidenceSummary": null,
+      "reason": "Menciona flexibilidad empresarial para conciliar con reducción de jornada (p. 35), no la reducción de la jornada máxima legal.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     },
     "9": {
@@ -171,13 +175,13 @@
       "sourceIds": [
         "frente-obrero-s01"
       ],
-      "locator": "pág. 16, medida 5",
+      "locator": "PDF p. 16; medida 5",
       "evidenceSummary": "Apuesta por la energía nuclear y por ampliar el parque nuclear.",
-      "reason": "Apuesta por la energía nuclear y por ampliar el parque nuclear.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "reason": "Apoyo claro.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 5,
@@ -193,12 +197,12 @@
       "position": null,
       "sourceIds": [],
       "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "evidenceSummary": null,
+      "reason": "El apartado de pensiones (pp. 47–48) pide medidas «drásticas» de financiación y natalidad, pero no habla de actualizarlas con el IPC.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     },
     "11": {
@@ -207,13 +211,13 @@
       "sourceIds": [
         "frente-obrero-s01"
       ],
-      "locator": "pág. 31",
-      "evidenceSummary": "Sostiene que la violencia de género no existe como violencia estructural contra las mujeres.",
-      "reason": "Sostiene que la violencia de género no existe como violencia estructural contra las mujeres.",
+      "locator": "PDF p. 31; apartado de mujer e igualdad",
+      "evidenceSummary": "Sostiene que «la violencia de género no existe» como violencia estructural contra las mujeres.",
+      "reason": "Oposición clara a mantener el marco específico.",
       "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 1,
@@ -225,29 +229,33 @@
       }
     },
     "12": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
-      "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "status": "documentada",
+      "position": 1,
+      "sourceIds": [
+        "frente-obrero-s01"
+      ],
+      "locator": "PDF p. 11; apartado de soberanía nacional",
+      "evidenceSummary": "«Es necesario que España abandone la Unión Europea».",
+      "reason": "Oposición clara.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     },
     "13": {
-      "status": "sin-evidencia",
+      "status": "en-revision",
       "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "sourceIds": [
+        "frente-obrero-s01"
+      ],
+      "locator": "PDF p. 11; punto 2",
+      "evidenceSummary": "Salida inmediata de la OTAN y «reforzamiento de nuestro ejército».",
+      "reason": "Mezcla salida de la OTAN con reforzar el ejército; no habla de gasto.",
       "confidence": "baja",
       "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNote": "Lectura provisional intermedia (3); sin posición sobre el gasto.",
+      "nextAction": null,
       "replaces": null
     },
     "14": {
@@ -256,13 +264,13 @@
       "sourceIds": [
         "frente-obrero-s01"
       ],
-      "locator": "pág. 56",
-      "evidenceSummary": "Se declara contrario a la monarquía y partidario de una república.",
-      "reason": "Se declara contrario a la monarquía y partidario de una república.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "locator": "PDF p. 56; apartado de estructura territorial",
+      "evidenceSummary": "Se declara contrario a la monarquía y partidario de una república encaminada al socialismo.",
+      "reason": "Apoyo claro.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 5,
@@ -278,12 +286,12 @@
       "position": null,
       "sourceIds": [],
       "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "evidenceSummary": null,
+      "reason": "La búsqueda de aborto o interrupción voluntaria no produce resultados.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     },
     "16": {
@@ -292,13 +300,13 @@
       "sourceIds": [
         "frente-obrero-s01"
       ],
-      "locator": "pág. 59, medida 4",
+      "locator": "PDF p. 59; medida 4",
       "evidenceSummary": "Prohibición del indulto en casos de corrupción política y delitos relacionados.",
-      "reason": "Prohibición del indulto en casos de corrupción política y delitos relacionados.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "reason": "Apoyo explícito.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 5,
@@ -314,25 +322,27 @@
       "position": null,
       "sourceIds": [],
       "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "evidenceSummary": null,
+      "reason": "La búsqueda de prestaciones y ayudas sociales a extranjeros sólo devuelve pasajes de sanidad.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     },
     "18": {
-      "status": "sin-evidencia",
+      "status": "en-revision",
       "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "sourceIds": [
+        "frente-obrero-s01"
+      ],
+      "locator": "PDF p. 9; 56; medida 5; apartado de administración",
+      "evidenceSummary": "Elimina la cuota de autónomos que no llegan al SMI y critica la burocratización de España.",
+      "reason": "Habla de autónomos y de la administración, no de obligaciones administrativas de las empresas en general.",
       "confidence": "baja",
       "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNote": "Lectura provisional favorable (4).",
+      "nextAction": null,
       "replaces": null
     }
   },
@@ -341,6 +351,21 @@
       "date": "2026-11-15",
       "urlOrQuery": "git:4f7fbd9ab5b675cf5d13114a62c3c9f89d3c8b1f:data.json",
       "outcome": "Importación de línea base existente, sin nuevas búsquedas declaradas."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "https://frenteobrero.es/documentos/programa-frente-obrero.pdf",
+      "outcome": "Descarga correcta (HTTP 200, 1,2 MB, 65 páginas); leídos los 18 temas por palabras clave y pasajes citados."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "https://frenteobrero.es/",
+      "outcome": "Portada con «Elecciones generales 2026» y enlace al programa."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "Traspaso del usuario",
+      "outcome": "Traspaso acordado por el usuario (15/11/2026): ficha completada por Claude a partir del esqueleto preparado por GPT."
     }
   ],
   "integration": {

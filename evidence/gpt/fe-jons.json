@@ -2,28 +2,28 @@
   "schemaVersion": "1.0",
   "catalogId": "fe-jons",
   "dataId": "fejons",
-  "agent": "gpt",
+  "agent": "claude",
   "baseCommit": "4f7fbd9ab5b675cf5d13114a62c3c9f89d3c8b1f",
-  "reviewed": null,
+  "reviewed": "2026-11-15",
   "prepared": "2026-11-15",
-  "status": "en-curso",
+  "status": "revisado",
   "sources": [
     {
       "id": "fe-jons-s01",
       "url": "https://falange.es/wp-content/uploads/2026/11/FEDELASJONS_ProgramaElectoral_29NGenerales2026.pdf",
       "publisher": "Falange Española de las JONS",
-      "title": "Programa electoral 29N Generales 2026 (PDF)",
+      "title": "Programa electoral 29N Generales 2026",
       "published": null,
-      "accessed": null,
-      "election": "Convocatoria por verificar en metadatos importados",
-      "year": null,
+      "accessed": "2026-11-15",
+      "election": "Generales de España 2026",
+      "year": 2026,
       "kind": "programa",
       "origin": "primaria",
       "hosting": "oficial",
       "historical": false,
       "documentVersion": null,
-      "sha256": null,
-      "notes": "Importado de data.json; clasificación provisional. No implica nueva consulta ni verificación de metadatos. "
+      "sha256": "46edb0c2db121b8da6a05b9adb65b990086e5e4173fef7bd1b39d1d3757a1026",
+      "notes": "PDF del dominio falange.es (19 MB, 61 páginas). La web del partido muestra textos de plantilla sin completar. Páginas del PDF; la numeración impresa va dos números por detrás."
     }
   ],
   "questions": {
@@ -33,13 +33,13 @@
       "sourceIds": [
         "fe-jons-s01"
       ],
-      "locator": "punto 9, pág. 29 del PDF",
-      "evidenceSummary": "Propone la deflactación del IRPF y su bajada progresiva para no gravar a los trabajadores.",
-      "reason": "Propone la deflactación del IRPF y su bajada progresiva para no gravar a los trabajadores.",
+      "locator": "PDF p. 29; punto 9",
+      "evidenceSummary": "Deflactación del IRPF y bajada progresiva del Impuesto sobre la Renta para no gravar a los trabajadores.",
+      "reason": "Apoyo claro.",
       "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 5,
@@ -55,12 +55,12 @@
       "position": null,
       "sourceIds": [],
       "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "evidenceSummary": null,
+      "reason": "Sólo menciona nueva construcción en zonas tensionadas (p. 15) y la regulación de márgenes de bienes esenciales (p. 28); no propone regular precios de alquiler.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     },
     "3": {
@@ -69,13 +69,13 @@
       "sourceIds": [
         "fe-jons-s01"
       ],
-      "locator": "Anexo I, pág. 11 del PDF",
-      "evidenceSummary": "Propone el cese de la concesión de permisos de residencia y trabajo, derogar la Ley de Extranjería y un Plan Nacional de Remigración.",
-      "reason": "Propone el cese de la concesión de permisos de residencia y trabajo, derogar la Ley de Extranjería y un Plan Nacional de Remigración.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "locator": "PDF p. 11; Anexo I, Plan Nacional de Remigración",
+      "evidenceSummary": "Cese de la concesión de permisos de residencia y trabajo, derogación de la Ley de Extranjería y plan de remigración.",
+      "reason": "Oposición clara.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 1,
@@ -92,13 +92,13 @@
       "sourceIds": [
         "fe-jons-s01"
       ],
-      "locator": "punto 20.3, pág. 50 del PDF",
+      "locator": "PDF p. 50; punto 20.3",
       "evidenceSummary": "Poner fin a las prácticas de externalización y privatización de la sanidad.",
-      "reason": "Poner fin a las prácticas de externalización y privatización de la sanidad.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "reason": "Oposición clara.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 1,
@@ -115,13 +115,13 @@
       "sourceIds": [
         "fe-jons-s01"
       ],
-      "locator": "pág. 39 del PDF",
-      "evidenceSummary": "Aumento generalizado de las penas por delitos comunes y por reincidencia.",
-      "reason": "Aumento generalizado de las penas por delitos comunes y por reincidencia.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "locator": "PDF p. 39; apartado de justicia",
+      "evidenceSummary": "Aumento generalizado de las penas por delitos comunes, endurecimiento de la revisión de penas y de beneficios penitenciarios y más pena por reincidencia.",
+      "reason": "Apoyo claro.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 5,
@@ -137,12 +137,12 @@
       "position": null,
       "sourceIds": [],
       "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "evidenceSummary": null,
+      "reason": "La búsqueda de «concertad…» no produce resultados en el programa.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     },
     "7": {
@@ -151,13 +151,13 @@
       "sourceIds": [
         "fe-jons-s01"
       ],
-      "locator": "pág. 19 del PDF",
-      "evidenceSummary": "Defiende retirar las competencias a las comunidades autónomas.",
-      "reason": "Defiende retirar las competencias a las comunidades autónomas.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "locator": "PDF p. 19; apartado de modelo territorial",
+      "evidenceSummary": "Defiende la retirada de todas las competencias a las comunidades autónomas.",
+      "reason": "Oposición clara.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 1,
@@ -173,12 +173,12 @@
       "position": null,
       "sourceIds": [],
       "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "evidenceSummary": null,
+      "reason": "La búsqueda de jornada laboral, 35/32/30 horas y semana laboral no produce resultados.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     },
     "9": {
@@ -187,13 +187,13 @@
       "sourceIds": [
         "fe-jons-s01"
       ],
-      "locator": "puntos 11.3–11.5, pág. 31 del PDF",
-      "evidenceSummary": "Propone la energía nuclear como fuente principal del mix energético.",
-      "reason": "Propone la energía nuclear como fuente principal del mix energético.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "locator": "PDF p. 31; puntos 11.3–11.5",
+      "evidenceSummary": "Nuevo mix energético con la energía nuclear como fuente principal.",
+      "reason": "Apoyo claro.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 5,
@@ -209,12 +209,12 @@
       "position": null,
       "sourceIds": [],
       "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "evidenceSummary": null,
+      "reason": "Propone eliminar el MEI de las nóminas (p. 29) pero no trata la revalorización con el IPC.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     },
     "11": {
@@ -223,13 +223,13 @@
       "sourceIds": [
         "fe-jons-s01"
       ],
-      "locator": "punto 7.3, pág. 25 del PDF",
-      "evidenceSummary": "Propone suprimir las leyes de «género», incluida la Ley de Violencia de Género.",
-      "reason": "Propone suprimir las leyes de «género», incluida la Ley de Violencia de Género.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "locator": "PDF p. 25; punto 7.3",
+      "evidenceSummary": "Suprimir las leyes de «género», incluida la Ley de Violencia de Género.",
+      "reason": "Oposición clara.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 1,
@@ -246,13 +246,13 @@
       "sourceIds": [
         "fe-jons-s01"
       ],
-      "locator": "punto 3.1, pág. 17 del PDF",
-      "evidenceSummary": "Propone abandonar la Unión Europea y las organizaciones supranacionales.",
-      "reason": "Propone abandonar la Unión Europea y las organizaciones supranacionales.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "locator": "PDF p. 17; punto 3.1",
+      "evidenceSummary": "Abandono inmediato de la OTAN, la UE y otras organizaciones supranacionales.",
+      "reason": "Oposición clara a la integración europea.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 1,
@@ -269,13 +269,13 @@
       "sourceIds": [
         "fe-jons-s01"
       ],
-      "locator": "punto 16.5, pág. 41 del PDF",
+      "locator": "PDF p. 41; punto 16.5",
       "evidenceSummary": "Aumento del presupuesto destinado a la defensa.",
-      "reason": "Aumento del presupuesto destinado a la defensa.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "reason": "Apoyo explícito, aunque propone salir de la OTAN.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 5,
@@ -292,13 +292,13 @@
       "sourceIds": [
         "fe-jons-s01"
       ],
-      "locator": "punto 13.2, pág. 36 del PDF",
+      "locator": "PDF p. 36; punto 13.2",
       "evidenceSummary": "Aspira a abolir la monarquía parlamentaria y a un Estado republicano nacional-sindicalista.",
-      "reason": "Aspira a abolir la monarquía parlamentaria y a un Estado republicano nacional-sindicalista.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "reason": "Apoyo claro.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 5,
@@ -315,13 +315,13 @@
       "sourceIds": [
         "fe-jons-s01"
       ],
-      "locator": "pág. 25 del PDF",
-      "evidenceSummary": "Propone ilegalizar las leyes que permiten el aborto y la eutanasia.",
-      "reason": "Propone ilegalizar las leyes que permiten el aborto y la eutanasia.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "locator": "PDF p. 25; apartado de vida",
+      "evidenceSummary": "Ilegalizar las leyes que permiten el aborto y la eutanasia.",
+      "reason": "Oposición clara.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 1,
@@ -333,16 +333,18 @@
       }
     },
     "16": {
-      "status": "sin-evidencia",
+      "status": "en-revision",
       "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "sourceIds": [
+        "fe-jons-s01"
+      ],
+      "locator": "PDF p. 42; apartado de justicia",
+      "evidenceSummary": "Propone «revisión del derecho de indulto», concebido como derecho de gracia y usado como moneda de cambio.",
+      "reason": "Pide revisarlo, no prohibirlo para los condenados por corrupción.",
       "confidence": "baja",
       "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNote": "Lectura provisional intermedia (3); no responde a la prohibición.",
+      "nextAction": null,
       "replaces": null
     },
     "17": {
@@ -351,13 +353,13 @@
       "sourceIds": [
         "fe-jons-s01"
       ],
-      "locator": "pág. 11 del PDF",
+      "locator": "PDF p. 11; punto de ayudas sociales",
       "evidenceSummary": "Retirada del acceso a ayudas sociales para todo extranjero, reservadas a españoles.",
-      "reason": "Retirada del acceso a ayudas sociales para todo extranjero, reservadas a españoles.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta. ",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "reason": "Oposición clara.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 1,
@@ -373,12 +375,12 @@
       "position": null,
       "sourceIds": [],
       "locator": null,
-      "evidenceSummary": "No hay posición en la línea base. La búsqueda específica de esta pregunta está pendiente, no agotada.",
-      "reason": null,
+      "evidenceSummary": null,
+      "reason": "La desregulación citada (p. 34) es de caza y pesca; no hay propuesta general sobre cargas administrativas de las empresas.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "Pendiente de investigación del agente GPT.",
-      "nextAction": "Consultar fuente oficial, archivo y fuente secundaria aplicable.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     }
   },
@@ -387,6 +389,21 @@
       "date": "2026-11-15",
       "urlOrQuery": "git:4f7fbd9ab5b675cf5d13114a62c3c9f89d3c8b1f:data.json",
       "outcome": "Importación de línea base existente, sin nuevas búsquedas declaradas."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "https://falange.es/wp-content/uploads/2026/11/FEDELASJONS_ProgramaElectoral_29NGenerales2026.pdf",
+      "outcome": "Descarga correcta (HTTP 200, 19 MB). Texto extraído; leídos los pasajes por palabras clave de los 18 temas."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "https://falange.es/",
+      "outcome": "Portada accesible; ofrece «Ver el programa completo» enlazado al PDF."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "Traspaso del usuario",
+      "outcome": "Traspaso acordado por el usuario (15/11/2026): ficha completada por Claude a partir del esqueleto preparado por GPT."
     }
   ],
   "integration": {
