@@ -151,7 +151,11 @@ function next() {
   renderQuestion();
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
-function renderResults() {
+let onlyDoc = false;
+const posOf = (party) => onlyDoc
+  ? Object.fromEntries(Object.entries(party.positions).filter(([, p]) => !p.inferred))
+  : party.positions;
+function renderResults(keep = false) {
   const names = candidates[state.province],
     parties = names.map((n) => ({ name: n, party: knownParty(n) })),
     analyzed = parties.filter((p) => p.party);
@@ -171,7 +175,7 @@ function renderResults() {
     card.append(edit);
     const common = sharedIds(
       person.answers,
-      analyzed.map((x) => x.party),
+      analyzed.map((x) => ({ positions: posOf(x.party) })),
     );
     const commonAnswers = Object.fromEntries(
       common.map((id) => [id, person.answers[id]]),
@@ -191,7 +195,7 @@ function renderResults() {
       );
     // Ordered by partial affinity (highest first); candidacies without enough coverage go last, grouped.
     const entries = analyzed.map(({ name, party }) => {
-      const result = score(person.answers, person.weights, party.positions);
+      const result = score(person.answers, person.weights, posOf(party));
       return { name, party, result, shown: showAffinity(result) };
     });
     entries.sort((a, b) =>
@@ -204,7 +208,7 @@ function renderResults() {
     const lowcov = el("details", null, "lowcov");
     let rank = 0;
     entries.forEach(({ name, party, result, shown }) => {
-        const commonResult = score(commonAnswers, person.weights, party.positions);
+        const commonResult = score(commonAnswers, person.weights, posOf(party));
         report.parties.push({
           name,
           ...result,
@@ -314,9 +318,10 @@ function renderResults() {
     candidateSource: data.candidateSource,
     pendingCandidates: parties.filter(p => !p.party).map(p => ({name:p.name,research:findParty(p.name,data.research || []) || null})),
     methodology: "Media ponderada de 1 − |respuesta − posición| / 4; posiciones sin evidencia directa excluidas; rangos matemáticos sobre los temas sin datos, no intervalos de confianza.",
+    onlyDocumented: onlyDoc,
     reports,
   };
-  show("results");
+  if (!keep) show("results");
 }
 async function init() {
   try {
@@ -366,6 +371,7 @@ async function init() {
   }
 }
 $("#province").addEventListener("change", renderCandidates);
+$("#onlyDoc").addEventListener("change", (e) => { onlyDoc = e.target.checked; renderResults(true); });
 $("#seeCandidates").addEventListener("click", () => setCandidatesOpen($("#candidatePanel").hidden));
 $("#start").addEventListener("submit", (e) => {
   e.preventDefault();
