@@ -24,6 +24,23 @@
       "documentVersion": null,
       "sha256": null,
       "notes": "Importado de data.json; clasificación provisional. No implica nueva consulta ni verificación de metadatos. ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Corpus Manifesto 2026-1; texto por documento, sin importar sus códigos temáticos como puntuaciones de afinidad."
+    },
+    {
+      "id": "ehbildu-s02",
+      "url": "https://www.elnacional.cat/uploads/s1/42/81/42/33/programa-electoral-eh-bildu-eleccions-generals-2023.pdf",
+      "publisher": "EH Bildu (copia alojada por El Nacional)",
+      "title": "Compromiso de Euskal Herria Bildu · Elecciones generales 2023",
+      "published": "2023-07",
+      "accessed": "2026-11-15",
+      "election": "Generales de España 2023",
+      "year": 2023,
+      "kind": "programa",
+      "origin": "primaria",
+      "hosting": "medio",
+      "historical": true,
+      "documentVersion": null,
+      "sha256": "6634c0786c1e771c61c1a65e549dfde0d4581d09e19949466e931c96a9642465",
+      "notes": "Programa de EH Bildu para las generales del 23J de 2023, leído completo. Copia no oficial alojada por un medio; no se localizó programa del 29N."
     }
   ],
   "questions": {
@@ -44,15 +61,15 @@
       "status": "documentada",
       "position": 5,
       "sourceIds": [
-        "ehbildu-s01"
+        "ehbildu-s02"
       ],
-      "locator": "Histórico 2023 · Spain → 2023-07 → Euskal Herria Bildu · posiciones 11 y 49",
-      "evidenceSummary": "Respalda los límites del alquiler y conservar las rentas al renovar contratos.",
-      "reason": "Respalda los límites del alquiler y conservar las rentas al renovar contratos.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta.  [Importada; no reverificada por Claude en el traspaso.]",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "locator": "PDF p. 2 y p. 4; vivienda",
+      "evidenceSummary": "Aprobar la ley de vivienda que limita los alquileres y declara zonas tensionadas, y recuperar de forma indefinida la prórroga automática de los contratos.",
+      "reason": "Apoyo explícito a limitar los alquileres en zonas tensionadas.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 5,
@@ -83,15 +100,15 @@
       "status": "documentada",
       "position": 1,
       "sourceIds": [
-        "ehbildu-s01"
+        "ehbildu-s02"
       ],
-      "locator": "Histórico 2023 · Spain → 2023-07 → Euskal Herria Bildu · posición 70",
-      "evidenceSummary": "Propone derogar la norma que permite privatizar y externalizar servicios sanitarios.",
-      "reason": "Propone derogar la norma que permite privatizar y externalizar servicios sanitarios.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta.  [Importada; no reverificada por Claude en el traspaso.]",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "locator": "PDF p. 6; sanidad",
+      "evidenceSummary": "Derogar la Ley 15/1997 que permite la privatización y externalización de los servicios sanitarios.",
+      "reason": "Oposición clara a la colaboración privada en la sanidad.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 1,
@@ -135,15 +152,15 @@
       "status": "documentada",
       "position": 5,
       "sourceIds": [
-        "ehbildu-s01"
+        "ehbildu-s02"
       ],
-      "locator": "Histórico 2023 · Spain → 2023-07 → Euskal Herria Bildu · posiciones 166–170",
-      "evidenceSummary": "Reclama competencias pendientes y nuevos traspasos.",
-      "reason": "Reclama competencias pendientes y nuevos traspasos.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta.  [Importada; no reverificada por Claude en el traspaso.]",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "locator": "PDF p. 4–5; empleo y pensiones",
+      "evidenceSummary": "Transferencia de la Inspección de Trabajo, de las políticas pasivas de empleo y del Régimen Económico de la Seguridad Social a las instituciones vascas y navarras.",
+      "reason": "Apoyo explícito a transferir competencias.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 5,
@@ -161,15 +178,15 @@
       "status": "documentada",
       "position": 5,
       "sourceIds": [
-        "ehbildu-s01"
+        "ehbildu-s02"
       ],
-      "locator": "Histórico 2023 · Spain → 2023-07 → Euskal Herria Bildu · posición 37",
-      "evidenceSummary": "Propone una semana laboral de 32 horas manteniendo el salario.",
-      "reason": "Propone una semana laboral de 32 horas manteniendo el salario.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta.  [Importada; no reverificada por Claude en el traspaso.]",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "locator": "PDF p. 3; trabajo",
+      "evidenceSummary": "Reducir la jornada laboral hasta las 32 horas semanales sin reducción salarial ni modificación de condiciones.",
+      "reason": "Apoyo explícito, con la reducción máxima sin pérdida de salario.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 5,
@@ -210,16 +227,18 @@
       "replaces": null
     },
     "11": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "No verificada: el programa de 2023 sólo es accesible mediante el explorador de Manifesto y no existe programa del 29N publicado. No se afirma ausencia de propuesta.",
-      "confidence": "baja",
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "ehbildu-s02"
+      ],
+      "locator": "PDF p. 10; igualdad",
+      "evidenceSummary": "Reforzar la lucha contra la violencia machista desde todos los ámbitos.",
+      "reason": "Apoyo con matices: propone reforzar la respuesta, sin citar la legislación específica.",
+      "confidence": "media",
       "reviewNeeded": false,
       "reviewNote": null,
-      "nextAction": "Consultar el explorador de Manifesto desde un navegador y completar los huecos.",
+      "nextAction": null,
       "replaces": null
     },
     "12": {
@@ -288,16 +307,18 @@
       "replaces": null
     },
     "17": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "No verificada: el programa de 2023 sólo es accesible mediante el explorador de Manifesto y no existe programa del 29N publicado. No se afirma ausencia de propuesta.",
-      "confidence": "baja",
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "ehbildu-s02"
+      ],
+      "locator": "PDF p. 11; migración",
+      "evidenceSummary": "Derogar la Ley de Extranjería y sustituirla por una norma que garantice los derechos de las personas migrantes, incluido su acceso a los servicios públicos básicos.",
+      "reason": "Apoyo con matices: igualdad de acceso a servicios públicos básicos; no trata los requisitos económicos de las prestaciones.",
+      "confidence": "media",
       "reviewNeeded": false,
       "reviewNote": null,
-      "nextAction": "Consultar el explorador de Manifesto desde un navegador y completar los huecos.",
+      "nextAction": null,
       "replaces": null
     },
     "18": {

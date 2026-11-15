@@ -260,11 +260,11 @@
    "website": "https://ehbildu.eus/",
    "program": {
     "status": "historico",
-    "url": "https://visuals.manifesto-project.wzb.eu/mpdb-shiny/cmp_dashboard_corpus_doc/",
-    "title": "Programa histórico de EH Bildu · julio 2023 · Corpus Manifesto",
+    "url": "https://www.elnacional.cat/uploads/s1/42/81/42/33/programa-electoral-eh-bildu-eleccions-generals-2023.pdf",
+    "title": "Compromiso de Euskal Herria Bildu · generales 2023 (copia alojada por El Nacional)",
     "official": false,
     "checked": "2026-11-14",
-    "note": "Cuatro posiciones históricas puntuables provisionalmente. En el explorador selecciona Spain, 2023-07 y Euskal Herria Bildu. No es un programa de 2026; las codificaciones de afinidad son propias, no las categorías del corpus."
+    "note": "Programa de las generales de 2023 (copia alojada por un medio), leído completo: seis posiciones como antecedente. EH Bildu no ha publicado programa del 29N. Los antecedentes participan provisionalmente en el cálculo y no acreditan compromisos actuales."
    },
    "dataId": "ehbildu"
   },
