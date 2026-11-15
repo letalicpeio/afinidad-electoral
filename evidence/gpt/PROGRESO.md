@@ -23,3 +23,7 @@ Siguiente: revisión completa de los huecos de PNV y de las principales candidat
 - CC: pregunta 10 documentada con declaración oficial de 2026; cinco posiciones registradas. Se explicita autoría de CC y confirmación conjunta pendiente.
 - Pregunta 8 en revisión: entrevista de 2025, condicionada a ayudas a pymes. No entra al cálculo. Resto de investigación pendiente; ficha en-curso.
 - Publicado y comprobado 0.5.6 en la web el 15/11/2026; commit 7a3c5b13ae8458de8dc8bb385df581627bb5e892. Pruebas de cálculo y catálogo superadas.
+
+## Corrección documental de PNV · 15/11/2026
+
+Preguntas 1, 2, 4, 6, 8, 9, 13, 14, 16 y 17: sourceIds vacío, position y locator nulos. Consultas previas conservadas en consultedSources sin presentarlas como respaldo. No se trasladan localizadores de 2026 a la copia de 2023. Revisada concordancia de las 18 decisiones con data.json 0.5.7: cinco puntuables, dos contextuales excluidas y una en revisión solo en evidencia; diez huecos ausentes del cálculo. Sin cambios políticos ni nuevas búsquedas en esta corrección.

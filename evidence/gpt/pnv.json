@@ -47,34 +47,52 @@
     "1": {
       "status": "sin-evidencia",
       "position": null,
-      "sourceIds": [
-        "pnv-s01",
-        "pnv-s02"
-      ],
-      "locator": "2.7 · PDF pp.20–21",
+      "sourceIds": [],
+      "locator": null,
       "evidenceSummary": "Propone cambios en IVA y margen presupuestario, no una rebaja explícita del impuesto sobre rentas del trabajo.",
       "reason": "Sin evidencia suficientemente directa en las fuentes consultadas; no se asigna neutralidad.",
       "confidence": "baja",
       "reviewNeeded": true,
       "reviewNote": "Revisión limitada a los documentos y búsquedas registrados. No se afirma que no exista una postura pública.",
       "nextAction": "Revisar nuevos documentos y declaraciones específicas; mantener sin puntuación mientras falte respaldo.",
-      "replaces": null
+      "replaces": null,
+      "consultedSources": [
+        {
+          "sourceId": "pnv-s01",
+          "locator": "2.7 · PDF pp.20–21",
+          "outcome": "Consulta contextual sin respaldo suficiente a la afirmación. El localizador, cuando consta, corresponde únicamente a este documento."
+        },
+        {
+          "sourceId": "pnv-s02",
+          "locator": null,
+          "outcome": "Antecedente 2023 consultado durante la revisión; sin localizador específico por pregunta registrado. No se atribuyen al PDF de 2023 las páginas del programa de 2026."
+        }
+      ]
     },
     "2": {
       "status": "sin-evidencia",
       "position": null,
-      "sourceIds": [
-        "pnv-s01",
-        "pnv-s02"
-      ],
-      "locator": "1.1 · PDF pp.7–8",
+      "sourceIds": [],
+      "locator": null,
       "evidenceSummary": "Regula modalidades de alquiler y abusos; no determina límites de precios en zonas tensionadas.",
       "reason": "Sin evidencia suficientemente directa en las fuentes consultadas; no se asigna neutralidad.",
       "confidence": "baja",
       "reviewNeeded": true,
       "reviewNote": "Revisión limitada a los documentos y búsquedas registrados. No se afirma que no exista una postura pública.",
       "nextAction": "Revisar nuevos documentos y declaraciones específicas; mantener sin puntuación mientras falte respaldo.",
-      "replaces": null
+      "replaces": null,
+      "consultedSources": [
+        {
+          "sourceId": "pnv-s01",
+          "locator": "1.1 · PDF pp.7–8",
+          "outcome": "Consulta contextual sin respaldo suficiente a la afirmación. El localizador, cuando consta, corresponde únicamente a este documento."
+        },
+        {
+          "sourceId": "pnv-s02",
+          "locator": null,
+          "outcome": "Antecedente 2023 consultado durante la revisión; sin localizador específico por pregunta registrado. No se atribuyen al PDF de 2023 las páginas del programa de 2026."
+        }
+      ]
     },
     "3": {
       "status": "en-revision",
@@ -104,18 +122,27 @@
     "4": {
       "status": "sin-evidencia",
       "position": null,
-      "sourceIds": [
-        "pnv-s01",
-        "pnv-s02"
-      ],
-      "locator": "4.2 · PDF pp.31–32",
+      "sourceIds": [],
+      "locator": null,
       "evidenceSummary": "Refuerzo de sanidad pública y competencias, sin posición explícita sobre ampliar financiación de centros privados.",
       "reason": "Sin evidencia suficientemente directa en las fuentes consultadas; no se asigna neutralidad.",
       "confidence": "baja",
       "reviewNeeded": true,
       "reviewNote": "Revisión limitada a los documentos y búsquedas registrados. No se afirma que no exista una postura pública.",
       "nextAction": "Revisar nuevos documentos y declaraciones específicas; mantener sin puntuación mientras falte respaldo.",
-      "replaces": null
+      "replaces": null,
+      "consultedSources": [
+        {
+          "sourceId": "pnv-s01",
+          "locator": "4.2 · PDF pp.31–32",
+          "outcome": "Consulta contextual sin respaldo suficiente a la afirmación. El localizador, cuando consta, corresponde únicamente a este documento."
+        },
+        {
+          "sourceId": "pnv-s02",
+          "locator": null,
+          "outcome": "Antecedente 2023 consultado durante la revisión; sin localizador específico por pregunta registrado. No se atribuyen al PDF de 2023 las páginas del programa de 2026."
+        }
+      ]
     },
     "5": {
       "status": "en-revision",
@@ -145,18 +172,27 @@
     "6": {
       "status": "sin-evidencia",
       "position": null,
-      "sourceIds": [
-        "pnv-s01",
-        "pnv-s02"
-      ],
-      "locator": "1.4 · PDF p.10",
+      "sourceIds": [],
+      "locator": null,
       "evidenceSummary": "Defiende modelo educativo propio, sin compromiso específico sobre financiación concertada condicionada a demanda.",
       "reason": "Sin evidencia suficientemente directa en las fuentes consultadas; no se asigna neutralidad.",
       "confidence": "baja",
       "reviewNeeded": true,
       "reviewNote": "Revisión limitada a los documentos y búsquedas registrados. No se afirma que no exista una postura pública.",
       "nextAction": "Revisar nuevos documentos y declaraciones específicas; mantener sin puntuación mientras falte respaldo.",
-      "replaces": null
+      "replaces": null,
+      "consultedSources": [
+        {
+          "sourceId": "pnv-s01",
+          "locator": "1.4 · PDF p.10",
+          "outcome": "Consulta contextual sin respaldo suficiente a la afirmación. El localizador, cuando consta, corresponde únicamente a este documento."
+        },
+        {
+          "sourceId": "pnv-s02",
+          "locator": null,
+          "outcome": "Antecedente 2023 consultado durante la revisión; sin localizador específico por pregunta registrado. No se atribuyen al PDF de 2023 las páginas del programa de 2026."
+        }
+      ]
     },
     "7": {
       "status": "documentada",
@@ -184,34 +220,52 @@
     "8": {
       "status": "sin-evidencia",
       "position": null,
-      "sourceIds": [
-        "pnv-s01",
-        "pnv-s02"
-      ],
-      "locator": "1.3 · PDF pp.9–10",
+      "sourceIds": [],
+      "locator": null,
       "evidenceSummary": "Defiende negociación y salarios, sin reducción de jornada máxima con garantía salarial.",
       "reason": "Sin evidencia suficientemente directa en las fuentes consultadas; no se asigna neutralidad.",
       "confidence": "baja",
       "reviewNeeded": true,
       "reviewNote": "Revisión limitada a los documentos y búsquedas registrados. No se afirma que no exista una postura pública.",
       "nextAction": "Revisar nuevos documentos y declaraciones específicas; mantener sin puntuación mientras falte respaldo.",
-      "replaces": null
+      "replaces": null,
+      "consultedSources": [
+        {
+          "sourceId": "pnv-s01",
+          "locator": "1.3 · PDF pp.9–10",
+          "outcome": "Consulta contextual sin respaldo suficiente a la afirmación. El localizador, cuando consta, corresponde únicamente a este documento."
+        },
+        {
+          "sourceId": "pnv-s02",
+          "locator": null,
+          "outcome": "Antecedente 2023 consultado durante la revisión; sin localizador específico por pregunta registrado. No se atribuyen al PDF de 2023 las páginas del programa de 2026."
+        }
+      ]
     },
     "9": {
       "status": "sin-evidencia",
       "position": null,
-      "sourceIds": [
-        "pnv-s01",
-        "pnv-s02"
-      ],
-      "locator": "2.3 · PDF pp.15–16",
+      "sourceIds": [],
+      "locator": null,
       "evidenceSummary": "Planificación, almacenamiento y costes de electricidad; no continuidad o cierre de nuclear.",
       "reason": "Sin evidencia suficientemente directa en las fuentes consultadas; no se asigna neutralidad.",
       "confidence": "baja",
       "reviewNeeded": true,
       "reviewNote": "Revisión limitada a los documentos y búsquedas registrados. No se afirma que no exista una postura pública.",
       "nextAction": "Revisar nuevos documentos y declaraciones específicas; mantener sin puntuación mientras falte respaldo.",
-      "replaces": null
+      "replaces": null,
+      "consultedSources": [
+        {
+          "sourceId": "pnv-s01",
+          "locator": "2.3 · PDF pp.15–16",
+          "outcome": "Consulta contextual sin respaldo suficiente a la afirmación. El localizador, cuando consta, corresponde únicamente a este documento."
+        },
+        {
+          "sourceId": "pnv-s02",
+          "locator": null,
+          "outcome": "Antecedente 2023 consultado durante la revisión; sin localizador específico por pregunta registrado. No se atribuyen al PDF de 2023 las páginas del programa de 2026."
+        }
+      ]
     },
     "10": {
       "status": "documentada",
@@ -278,34 +332,52 @@
     "13": {
       "status": "sin-evidencia",
       "position": null,
-      "sourceIds": [
-        "pnv-s01",
-        "pnv-s02"
-      ],
-      "locator": "3.5 y 5.5 · PDF pp.28–29,40–41",
+      "sourceIds": [],
+      "locator": null,
       "evidenceSummary": "Cooperación internacional y Europa, sin compromiso de aumentar el gasto en Defensa.",
       "reason": "Sin evidencia suficientemente directa en las fuentes consultadas; no se asigna neutralidad.",
       "confidence": "baja",
       "reviewNeeded": true,
       "reviewNote": "Revisión limitada a los documentos y búsquedas registrados. No se afirma que no exista una postura pública.",
       "nextAction": "Revisar nuevos documentos y declaraciones específicas; mantener sin puntuación mientras falte respaldo.",
-      "replaces": null
+      "replaces": null,
+      "consultedSources": [
+        {
+          "sourceId": "pnv-s01",
+          "locator": "3.5 y 5.5 · PDF pp.28–29,40–41",
+          "outcome": "Consulta contextual sin respaldo suficiente a la afirmación. El localizador, cuando consta, corresponde únicamente a este documento."
+        },
+        {
+          "sourceId": "pnv-s02",
+          "locator": null,
+          "outcome": "Antecedente 2023 consultado durante la revisión; sin localizador específico por pregunta registrado. No se atribuyen al PDF de 2023 las páginas del programa de 2026."
+        }
+      ]
     },
     "14": {
       "status": "sin-evidencia",
       "position": null,
-      "sourceIds": [
-        "pnv-s01",
-        "pnv-s02"
-      ],
-      "locator": "5.1–5.2 · PDF pp.38–39",
+      "sourceIds": [],
+      "locator": null,
       "evidenceSummary": "Autogobierno y relación bilateral no equivalen a sustituir la monarquía por república.",
       "reason": "Sin evidencia suficientemente directa en las fuentes consultadas; no se asigna neutralidad.",
       "confidence": "baja",
       "reviewNeeded": true,
       "reviewNote": "Revisión limitada a los documentos y búsquedas registrados. No se afirma que no exista una postura pública.",
       "nextAction": "Revisar nuevos documentos y declaraciones específicas; mantener sin puntuación mientras falte respaldo.",
-      "replaces": null
+      "replaces": null,
+      "consultedSources": [
+        {
+          "sourceId": "pnv-s01",
+          "locator": "5.1–5.2 · PDF pp.38–39",
+          "outcome": "Consulta contextual sin respaldo suficiente a la afirmación. El localizador, cuando consta, corresponde únicamente a este documento."
+        },
+        {
+          "sourceId": "pnv-s02",
+          "locator": null,
+          "outcome": "Antecedente 2023 consultado durante la revisión; sin localizador específico por pregunta registrado. No se atribuyen al PDF de 2023 las páginas del programa de 2026."
+        }
+      ]
     },
     "15": {
       "status": "documentada",
@@ -325,34 +397,52 @@
     "16": {
       "status": "sin-evidencia",
       "position": null,
-      "sourceIds": [
-        "pnv-s01",
-        "pnv-s02"
-      ],
-      "locator": "5.4 · PDF p.40",
+      "sourceIds": [],
+      "locator": null,
       "evidenceSummary": "Transparencia y rendición de cuentas no determinan prohibición de indultos por corrupción.",
       "reason": "Sin evidencia suficientemente directa en las fuentes consultadas; no se asigna neutralidad.",
       "confidence": "baja",
       "reviewNeeded": true,
       "reviewNote": "Revisión limitada a los documentos y búsquedas registrados. No se afirma que no exista una postura pública.",
       "nextAction": "Revisar nuevos documentos y declaraciones específicas; mantener sin puntuación mientras falte respaldo.",
-      "replaces": null
+      "replaces": null,
+      "consultedSources": [
+        {
+          "sourceId": "pnv-s01",
+          "locator": "5.4 · PDF p.40",
+          "outcome": "Consulta contextual sin respaldo suficiente a la afirmación. El localizador, cuando consta, corresponde únicamente a este documento."
+        },
+        {
+          "sourceId": "pnv-s02",
+          "locator": null,
+          "outcome": "Antecedente 2023 consultado durante la revisión; sin localizador específico por pregunta registrado. No se atribuyen al PDF de 2023 las páginas del programa de 2026."
+        }
+      ]
     },
     "17": {
       "status": "sin-evidencia",
       "position": null,
-      "sourceIds": [
-        "pnv-s01",
-        "pnv-s02"
-      ],
-      "locator": "3.2 y 4.4 · PDF pp.24–25,33",
+      "sourceIds": [],
+      "locator": null,
       "evidenceSummary": "Integración y prestaciones sectoriales no acreditan igualdad de requisitos de todas las ayudas por nacionalidad.",
       "reason": "Sin evidencia suficientemente directa en las fuentes consultadas; no se asigna neutralidad.",
       "confidence": "baja",
       "reviewNeeded": true,
       "reviewNote": "Revisión limitada a los documentos y búsquedas registrados. No se afirma que no exista una postura pública.",
       "nextAction": "Revisar nuevos documentos y declaraciones específicas; mantener sin puntuación mientras falte respaldo.",
-      "replaces": null
+      "replaces": null,
+      "consultedSources": [
+        {
+          "sourceId": "pnv-s01",
+          "locator": "3.2 y 4.4 · PDF pp.24–25,33",
+          "outcome": "Consulta contextual sin respaldo suficiente a la afirmación. El localizador, cuando consta, corresponde únicamente a este documento."
+        },
+        {
+          "sourceId": "pnv-s02",
+          "locator": null,
+          "outcome": "Antecedente 2023 consultado durante la revisión; sin localizador específico por pregunta registrado. No se atribuyen al PDF de 2023 las páginas del programa de 2026."
+        }
+      ]
     },
     "18": {
       "status": "documentada",
@@ -420,13 +510,26 @@
       "date": "2026-11-15",
       "urlOrQuery": "https://www.rtve.es/contenidos/documentos/elecciones_generales_2023/programa_electoral_pnv.pdf",
       "outcome": "Archivo oficial de autoría PNV en copia RTVE, consultado como antecedente; no se añadieron puntuaciones del texto histórico en este lote."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "Revisión de integración contra main 762f6c9; preguntas 1, 2, 4, 6, 8, 9, 13, 14, 16, 17",
+      "outcome": "Corrección documental, sin nuevas búsquedas políticas: sourceIds vacío y locator nulo para sin-evidencia. Consultas previas conservadas en consultedSources; no se cambian puntuaciones ni se añaden fuentes de respaldo."
     }
   ],
   "integration": {
-    "status": "integrado",
-    "commit": "112411946bc2780f748eabaaa959cd820a393a31",
-    "scope": "Pregunta 15 y revisión de las 18 preguntas",
-    "publishedVersion": "0.5.5",
-    "verified": "2026-11-15"
-  }
+    "status": "pendiente",
+    "commit": null,
+    "scope": "Corrección de fuentes de las diez preguntas sin-evidencia; revisión de concordancia con data.json 0.5.7",
+    "reviewedBaseCommit": "762f6c924529a8badafb8809728af2162a2bb288"
+  },
+  "integrationHistory": [
+    {
+      "status": "integrado",
+      "commit": "112411946bc2780f748eabaaa959cd820a393a31",
+      "scope": "Pregunta 15 y revisión de las 18 preguntas",
+      "publishedVersion": "0.5.5",
+      "verified": "2026-11-15"
+    }
+  ]
 }

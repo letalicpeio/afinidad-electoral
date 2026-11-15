@@ -116,3 +116,7 @@ CC: PDF oficial de 69 MB, descargado y leído con extracción local; autoría co
 
 
 Ampliación 0.5.6: CC añade pensiones mediante declaración oficial del 26/02/2026, que defiende subidas superiores a la inflación. Se señala que es anterior al programa conjunto y requiere confirmación del socio. Cinco posiciones registradas; jornada queda solo en investigación con fuente secundaria de 2025. El resto de preguntas pendientes no se declara revisado.
+
+## Corrección de trazabilidad PNV · 15/11/2026
+
+Las diez preguntas sin-evidencia pasan a sourceIds vacío y locator nulo según el reparto acordado. La consulta contextual se preserva en consultedSources; las páginas de 2026 no se atribuyen al PDF de 2023. Verificada integración contra data.json 0.5.7 sin añadir puntuaciones: cinco documentadas puntuables; preguntas 3 y 5 excluidas; pregunta 12 solo en investigación; diez preguntas ausentes del cálculo. Prueba específica en evidence-pnv.test.mjs.
