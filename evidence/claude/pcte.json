@@ -1,0 +1,308 @@
+{
+  "schemaVersion": "1.0",
+  "catalogId": "pcte",
+  "dataId": "pcte",
+  "agent": "claude",
+  "baseCommit": "4f7fbd9ab5b675cf5d13114a62c3c9f89d3c8b1f",
+  "reviewed": "2026-11-15",
+  "status": "revisado",
+  "sources": [
+    {
+      "id": "pcte-s01",
+      "url": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+      "publisher": "Partido Comunista de los Trabajadores de España",
+      "title": "Programa de lucha 2023-2027",
+      "published": "2023-07",
+      "accessed": "2026-11-15",
+      "election": "Generales de España 2023 (legislatura 2023-2027)",
+      "year": 2023,
+      "kind": "documento-politico",
+      "origin": "primaria",
+      "hosting": "oficial",
+      "historical": true,
+      "documentVersion": null,
+      "sha256": "c070ba0633cfafdd827c8ee11c26361391137cef30e52348de8d3dd23e259711",
+      "notes": "PDF del dominio del partido (23 páginas) enlazado desde su portada. El propio texto dice: «Esto no es un programa electoral. Es un programa de lucha» con las líneas de actuación de la legislatura 2023-2027. Es un documento político, no el programa de 2026. Páginas del PDF."
+    }
+  ],
+  "questions": {
+    "1": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "El documento no contiene propuestas sobre impuestos a las rentas del trabajo.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "2": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "pcte-s01"
+      ],
+      "locator": "PDF p. 14",
+      "evidenceSummary": "Propone «conseguir una limitación real y efectiva de los alquileres, en detrimento de la ganancia de los propietarios» y la expropiación sin indemnización de vivienda vacía de bancos y fondos.",
+      "reason": "Apoyo claro a limitar los alquileres por ley.",
+      "confidence": "alta",
+      "reviewNeeded": true,
+      "reviewNote": "ANTECEDENTE 2023: documento político de otra convocatoria; sustituir por el programa de 2026 cuando exista. No menciona las zonas tensionadas.",
+      "nextAction": null,
+      "replaces": null
+    },
+    "3": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Sólo propone integrar en las organizaciones obreras a la clase obrera de origen extranjero (p. 21); no trata regularizaciones ni arraigo.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "4": {
+      "status": "documentada",
+      "position": 1,
+      "sourceIds": [
+        "pcte-s01"
+      ],
+      "locator": "PDF p. 13",
+      "evidenceSummary": "Propone «defender la expulsión de todas las empresas privadas de la educación, la sanidad y los servicios sociales».",
+      "reason": "Oposición clara a la provisión privada con fondos públicos.",
+      "confidence": "alta",
+      "reviewNeeded": true,
+      "reviewNote": "ANTECEDENTE 2023: documento político de otra convocatoria; sustituir por el programa de 2026 cuando exista.",
+      "nextAction": null,
+      "replaces": null
+    },
+    "5": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "El documento no trata el endurecimiento de penas.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "6": {
+      "status": "documentada",
+      "position": 1,
+      "sourceIds": [
+        "pcte-s01"
+      ],
+      "locator": "PDF p. 7; 13",
+      "evidenceSummary": "Aspira a un único sistema de enseñanza presencial, público y gratuito (punto 6) y propone expulsar a las empresas privadas de la educación.",
+      "reason": "Oposición clara a financiar la enseñanza concertada.",
+      "confidence": "alta",
+      "reviewNeeded": true,
+      "reviewNote": "ANTECEDENTE 2023: documento político de otra convocatoria; sustituir por el programa de 2026 cuando exista.",
+      "nextAction": null,
+      "replaces": null
+    },
+    "7": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "El documento no trata la distribución de competencias entre el Estado y las comunidades.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "8": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "pcte-s01"
+      ],
+      "locator": "PDF p. 6; 11",
+      "evidenceSummary": "Reducir progresivamente la jornada obligatoria, sin superar las 35 horas semanales, y exigir la reducción en todos los sectores «sin merma de salario».",
+      "reason": "Apoyo claro, con jornada de 35 horas y salario intacto.",
+      "confidence": "alta",
+      "reviewNeeded": true,
+      "reviewNote": "ANTECEDENTE 2023: documento político de otra convocatoria; sustituir por el programa de 2026 cuando exista.",
+      "nextAction": null,
+      "replaces": null
+    },
+    "9": {
+      "status": "en-revision",
+      "position": null,
+      "sourceIds": [
+        "pcte-s01"
+      ],
+      "locator": "PDF p. 7; 11",
+      "evidenceSummary": "Propone alcanzar la soberanía energética utilizando «el conjunto de las fuentes de energía con que cuenta el país».",
+      "reason": "No menciona la energía nuclear ni su continuidad.",
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Texto ambiguo; no se puntúa. ANTECEDENTE 2023: documento político de otra convocatoria; sustituir por el programa de 2026 cuando exista.",
+      "nextAction": null,
+      "replaces": null
+    },
+    "10": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Propone adelantar la edad de jubilación y oponerse a retrasarla (pp. 6, 11), pero no habla de actualizar las pensiones con el IPC.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "11": {
+      "status": "en-revision",
+      "position": null,
+      "sourceIds": [
+        "pcte-s01"
+      ],
+      "locator": "PDF p. 8",
+      "evidenceSummary": "Punto 10: igualdad plena entre hombres y mujeres, «por el combate contra la violencia machista».",
+      "reason": "Apoya la lucha contra la violencia machista pero no habla de mantener legislación específica.",
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Lectura provisional favorable (4). ANTECEDENTE 2023: documento político de otra convocatoria; sustituir por el programa de 2026 cuando exista.",
+      "nextAction": null,
+      "replaces": null
+    },
+    "12": {
+      "status": "documentada",
+      "position": 1,
+      "sourceIds": [
+        "pcte-s01"
+      ],
+      "locator": "PDF p. 19",
+      "evidenceSummary": "Propone «exigir la salida unilateral de la UE y el Euro» y considera a la UE una herramienta de los grandes capitalistas.",
+      "reason": "Oposición clara a avanzar en la integración europea.",
+      "confidence": "alta",
+      "reviewNeeded": true,
+      "reviewNote": "ANTECEDENTE 2023: documento político de otra convocatoria; sustituir por el programa de 2026 cuando exista.",
+      "nextAction": null,
+      "replaces": null
+    },
+    "13": {
+      "status": "documentada",
+      "position": 1,
+      "sourceIds": [
+        "pcte-s01"
+      ],
+      "locator": "PDF p. 18–19",
+      "evidenceSummary": "Critica el aumento del gasto militar hacia el 2 % del PIB exigido por la OTAN y propone la salida de la OTAN y el cierre de las bases extranjeras.",
+      "reason": "Oposición clara a aumentar el gasto en defensa.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "ANTECEDENTE 2023: documento político de otra convocatoria; sustituir por el programa de 2026 cuando exista.",
+      "nextAction": null,
+      "replaces": null
+    },
+    "14": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "El documento no menciona la monarquía ni la república (búsqueda sin coincidencias).",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "15": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "pcte-s01"
+      ],
+      "locator": "PDF p. 16",
+      "evidenceSummary": "Señala que «están en riesgo conquistas como el derecho a la interrupción del embarazo».",
+      "reason": "Presenta el aborto como una conquista a defender; apoyo implícito, no formulado como propuesta.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Apoyo implícito. ANTECEDENTE 2023: documento político de otra convocatoria; sustituir por el programa de 2026 cuando exista.",
+      "nextAction": null,
+      "replaces": null
+    },
+    "16": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "El documento no menciona los indultos.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "17": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "El documento no trata el acceso de residentes extranjeros a prestaciones.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "18": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "El documento no propone reducir obligaciones administrativas de las empresas.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    }
+  },
+  "searchLog": [
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "https://www.pcte.es/",
+      "outcome": "Portada accesible (HTTP 200). Enlaza el «Programa de lucha 2023-2027», el programa del 10N, un manifiesto de 2022 y un comunicado del 7/10/2026 anunciando que concurrirá a las generales."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+      "outcome": "Descarga correcta (2,5 MB, 23 páginas); leído por palabras clave."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "https://s3.eu-west-3.amazonaws.com/cdn.pcte.es/wp-content/uploads/2020/04/30170100/Programa_electoral_PCTE_10N.pdf",
+      "outcome": "Programa del 10N (8 páginas), otra convocatoria anterior; no usado."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "Búsqueda web «PCTE programa electoral 29N 2026»",
+      "outcome": "No aparece programa del 29N; sólo programas de 2023 (autonómicas y municipales)."
+    }
+  ],
+  "integration": {
+    "status": "pendiente",
+    "commit": null
+  }
+}

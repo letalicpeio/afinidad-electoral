@@ -1,0 +1,287 @@
+{
+  "schemaVersion": "1.0",
+  "catalogId": "alhora",
+  "dataId": "alhora",
+  "agent": "claude",
+  "baseCommit": "4f7fbd9ab5b675cf5d13114a62c3c9f89d3c8b1f",
+  "reviewed": "2026-11-15",
+  "status": "revisado",
+  "sources": [
+    {
+      "id": "alhora-s01",
+      "url": "https://www.democrata.es/en/politics/retirees-self-employed-workers-feminists-jurists-communists-and-sovereigntists-the-other-parties-seeking-a-seat/",
+      "publisher": "Demócrata (agencias)",
+      "title": "Retirees, self-employed workers, feminists, jurists, communists and sovereigntists: the other parties seeking a seat",
+      "published": "2026-10-28",
+      "accessed": "2026-11-15",
+      "election": "Generales de España 2026",
+      "year": 2026,
+      "kind": "noticia",
+      "origin": "secundaria",
+      "hosting": "medio",
+      "historical": false,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Leída con la herramienta de lectura web. Repaso de candidaturas minoritarias; sólo recoge lo que atribuye a cada formación, sin documento programático."
+    }
+  ],
+  "questions": {
+    "1": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "No se localizó programa ni propuesta explícita de Alhora sobre esta afirmación en las fuentes revisadas (véase searchLog).",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Buscar un programa en alhora.cat.",
+      "replaces": null
+    },
+    "2": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "No se localizó programa ni propuesta explícita de Alhora sobre esta afirmación en las fuentes revisadas (véase searchLog).",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Buscar un programa en alhora.cat.",
+      "replaces": null
+    },
+    "3": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "No se localizó programa ni propuesta explícita de Alhora sobre esta afirmación en las fuentes revisadas (véase searchLog).",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Buscar un programa en alhora.cat.",
+      "replaces": null
+    },
+    "4": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "No se localizó programa ni propuesta explícita de Alhora sobre esta afirmación en las fuentes revisadas (véase searchLog).",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Buscar un programa en alhora.cat.",
+      "replaces": null
+    },
+    "5": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "No se localizó programa ni propuesta explícita de Alhora sobre esta afirmación en las fuentes revisadas (véase searchLog).",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Buscar un programa en alhora.cat.",
+      "replaces": null
+    },
+    "6": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "No se localizó programa ni propuesta explícita de Alhora sobre esta afirmación en las fuentes revisadas (véase searchLog).",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Buscar un programa en alhora.cat.",
+      "replaces": null
+    },
+    "7": {
+      "status": "en-revision",
+      "position": null,
+      "sourceIds": [
+        "alhora-s01"
+      ],
+      "locator": "Demócrata 28/10/2026",
+      "evidenceSummary": "La candidatura se describe como orientada a «expulsar la presencia del Estado del territorio».",
+      "reason": "Es un objetivo independentista, no una posición sobre transferir competencias; fuente secundaria.",
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Lectura provisional favorable a máxima transferencia (5), pero la afirmación habla de competencias, no de independencia.",
+      "nextAction": null,
+      "replaces": null
+    },
+    "8": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "No se localizó programa ni propuesta explícita de Alhora sobre esta afirmación en las fuentes revisadas (véase searchLog).",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Buscar un programa en alhora.cat.",
+      "replaces": null
+    },
+    "9": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "No se localizó programa ni propuesta explícita de Alhora sobre esta afirmación en las fuentes revisadas (véase searchLog).",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Buscar un programa en alhora.cat.",
+      "replaces": null
+    },
+    "10": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "No se localizó programa ni propuesta explícita de Alhora sobre esta afirmación en las fuentes revisadas (véase searchLog).",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Buscar un programa en alhora.cat.",
+      "replaces": null
+    },
+    "11": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "No se localizó programa ni propuesta explícita de Alhora sobre esta afirmación en las fuentes revisadas (véase searchLog).",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Buscar un programa en alhora.cat.",
+      "replaces": null
+    },
+    "12": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "No se localizó programa ni propuesta explícita de Alhora sobre esta afirmación en las fuentes revisadas (véase searchLog).",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Buscar un programa en alhora.cat.",
+      "replaces": null
+    },
+    "13": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "No se localizó programa ni propuesta explícita de Alhora sobre esta afirmación en las fuentes revisadas (véase searchLog).",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Buscar un programa en alhora.cat.",
+      "replaces": null
+    },
+    "14": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "No se localizó programa ni propuesta explícita de Alhora sobre esta afirmación en las fuentes revisadas (véase searchLog).",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Buscar un programa en alhora.cat.",
+      "replaces": null
+    },
+    "15": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "No se localizó programa ni propuesta explícita de Alhora sobre esta afirmación en las fuentes revisadas (véase searchLog).",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Buscar un programa en alhora.cat.",
+      "replaces": null
+    },
+    "16": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "No se localizó programa ni propuesta explícita de Alhora sobre esta afirmación en las fuentes revisadas (véase searchLog).",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Buscar un programa en alhora.cat.",
+      "replaces": null
+    },
+    "17": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "No se localizó programa ni propuesta explícita de Alhora sobre esta afirmación en las fuentes revisadas (véase searchLog).",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Buscar un programa en alhora.cat.",
+      "replaces": null
+    },
+    "18": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "No se localizó programa ni propuesta explícita de Alhora sobre esta afirmación en las fuentes revisadas (véase searchLog).",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Buscar un programa en alhora.cat.",
+      "replaces": null
+    }
+  },
+  "searchLog": [
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "https://alhora.cat/material-campanya-eleccions-espanyoles-29112026/",
+      "outcome": "Leída: sólo cartelería y banderolas de campaña; sin programa."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "Búsqueda web del 15/11/2026: «Alhora Catalunya candidatura eleccions generals 29N 2026 programa electoral»",
+      "outcome": "La prensa confirma las listas por las cuatro provincias catalanas y entrevistas a Graupera; no localiza programa en alhora.cat."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "https://www.democrata.es/en/politics/retirees-self-employed-workers-feminists-jurists-communists-and-sovereigntists-the-other-parties-seeking-a-seat/",
+      "outcome": "Leído: una frase sobre su propuesta."
+    }
+  ],
+  "integration": {
+    "status": "pendiente",
+    "commit": null
+  }
+}

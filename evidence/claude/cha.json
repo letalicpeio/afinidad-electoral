@@ -1,0 +1,291 @@
+{
+  "schemaVersion": "1.0",
+  "catalogId": "cha",
+  "dataId": "cha",
+  "agent": "claude",
+  "baseCommit": "4f7fbd9ab5b675cf5d13114a62c3c9f89d3c8b1f",
+  "reviewed": "2026-11-15",
+  "status": "revisado",
+  "sources": [
+    {
+      "id": "cha-s01",
+      "url": "https://www.chunta.org/la-reclamacion-de-infraestructuras-y-el-derecho-a-una-vivienda-digna-principales-medidas-del-programa-electoral-de-cha-frente-amplio-aragon/",
+      "publisher": "Chunta Aragonesista",
+      "title": "La reclamación de infraestructuras y el derecho a una vivienda digna, principales medidas del programa electoral de CHA-Frente Amplio Aragón",
+      "published": "2026-11-13",
+      "accessed": "2026-11-15",
+      "election": "Generales de España 2026",
+      "year": 2026,
+      "kind": "declaracion",
+      "origin": "primaria",
+      "hosting": "oficial",
+      "historical": false,
+      "documentVersion": null,
+      "sha256": "3c1296433245f63a7addd4966e9713dc00d7a30f5222cef8b596dbd94f8d0d7f",
+      "notes": "Nota de prensa en la web del partido (422 palabras). Resume las líneas del programa estatal; no es el documento."
+    }
+  ],
+  "questions": {
+    "1": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "No se localizó programa ni propuesta explícita de CHA–Frente Amplio Aragón sobre esta afirmación en las fuentes revisadas (véase searchLog). La nota oficial del 13/11/2026 no trata esta pregunta. No se hereda la posición de otro partido (federación, coalición o marca) ni se atribuye por etiqueta ideológica.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Esperar el programa estatal de CHA–Frente Amplio.",
+      "replaces": null
+    },
+    "2": {
+      "status": "en-revision",
+      "position": null,
+      "sourceIds": [
+        "cha-s01"
+      ],
+      "locator": "Nota del 13/11/2026",
+      "evidenceSummary": "Anuncia una legislación para «prohibir el fraude en los alquileres» y garantizar el derecho a la vivienda.",
+      "reason": "No habla de topar precios ni de zonas tensionadas.",
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Lectura provisional favorable (4), sin medida explícita de regulación de precios.",
+      "nextAction": null,
+      "replaces": null
+    },
+    "3": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "No se localizó programa ni propuesta explícita de CHA–Frente Amplio Aragón sobre esta afirmación en las fuentes revisadas (véase searchLog). La nota oficial del 13/11/2026 no trata esta pregunta. No se hereda la posición de otro partido (federación, coalición o marca) ni se atribuye por etiqueta ideológica.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Esperar el programa estatal de CHA–Frente Amplio.",
+      "replaces": null
+    },
+    "4": {
+      "status": "en-revision",
+      "position": null,
+      "sourceIds": [
+        "cha-s01"
+      ],
+      "locator": "Nota del 13/11/2026",
+      "evidenceSummary": "Afirma que «privatizar lo público es el camino más corto para que solo unos pocos tengan privilegios».",
+      "reason": "Crítica general a la privatización de servicios públicos; no menciona los conciertos sanitarios.",
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Lectura provisional contraria (1–2).",
+      "nextAction": null,
+      "replaces": null
+    },
+    "5": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "No se localizó programa ni propuesta explícita de CHA–Frente Amplio Aragón sobre esta afirmación en las fuentes revisadas (véase searchLog). La nota oficial del 13/11/2026 no trata esta pregunta. No se hereda la posición de otro partido (federación, coalición o marca) ni se atribuye por etiqueta ideológica.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Esperar el programa estatal de CHA–Frente Amplio.",
+      "replaces": null
+    },
+    "6": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "No se localizó programa ni propuesta explícita de CHA–Frente Amplio Aragón sobre esta afirmación en las fuentes revisadas (véase searchLog). La nota oficial del 13/11/2026 no trata esta pregunta. No se hereda la posición de otro partido (federación, coalición o marca) ni se atribuye por etiqueta ideológica.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Esperar el programa estatal de CHA–Frente Amplio.",
+      "replaces": null
+    },
+    "7": {
+      "status": "en-revision",
+      "position": null,
+      "sourceIds": [
+        "cha-s01"
+      ],
+      "locator": "Nota del 13/11/2026",
+      "evidenceSummary": "Promete reclamar infraestructuras y «una mejora de nuestro autogobierno y de la financiación de Aragón».",
+      "reason": "Habla de mejorar el autogobierno sin citar transferencias de competencias concretas.",
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Lectura provisional favorable (4–5).",
+      "nextAction": null,
+      "replaces": null
+    },
+    "8": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "No se localizó programa ni propuesta explícita de CHA–Frente Amplio Aragón sobre esta afirmación en las fuentes revisadas (véase searchLog). La nota oficial del 13/11/2026 no trata esta pregunta. No se hereda la posición de otro partido (federación, coalición o marca) ni se atribuye por etiqueta ideológica.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Esperar el programa estatal de CHA–Frente Amplio.",
+      "replaces": null
+    },
+    "9": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "No se localizó programa ni propuesta explícita de CHA–Frente Amplio Aragón sobre esta afirmación en las fuentes revisadas (véase searchLog). La nota oficial del 13/11/2026 no trata esta pregunta. No se hereda la posición de otro partido (federación, coalición o marca) ni se atribuye por etiqueta ideológica.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Esperar el programa estatal de CHA–Frente Amplio.",
+      "replaces": null
+    },
+    "10": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "No se localizó programa ni propuesta explícita de CHA–Frente Amplio Aragón sobre esta afirmación en las fuentes revisadas (véase searchLog). La nota oficial del 13/11/2026 no trata esta pregunta. No se hereda la posición de otro partido (federación, coalición o marca) ni se atribuye por etiqueta ideológica.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Esperar el programa estatal de CHA–Frente Amplio.",
+      "replaces": null
+    },
+    "11": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "No se localizó programa ni propuesta explícita de CHA–Frente Amplio Aragón sobre esta afirmación en las fuentes revisadas (véase searchLog). La nota oficial del 13/11/2026 no trata esta pregunta. No se hereda la posición de otro partido (federación, coalición o marca) ni se atribuye por etiqueta ideológica.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Esperar el programa estatal de CHA–Frente Amplio.",
+      "replaces": null
+    },
+    "12": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "No se localizó programa ni propuesta explícita de CHA–Frente Amplio Aragón sobre esta afirmación en las fuentes revisadas (véase searchLog). La nota oficial del 13/11/2026 no trata esta pregunta. No se hereda la posición de otro partido (federación, coalición o marca) ni se atribuye por etiqueta ideológica.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Esperar el programa estatal de CHA–Frente Amplio.",
+      "replaces": null
+    },
+    "13": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "No se localizó programa ni propuesta explícita de CHA–Frente Amplio Aragón sobre esta afirmación en las fuentes revisadas (véase searchLog). La nota oficial del 13/11/2026 no trata esta pregunta. No se hereda la posición de otro partido (federación, coalición o marca) ni se atribuye por etiqueta ideológica.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Esperar el programa estatal de CHA–Frente Amplio.",
+      "replaces": null
+    },
+    "14": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "No se localizó programa ni propuesta explícita de CHA–Frente Amplio Aragón sobre esta afirmación en las fuentes revisadas (véase searchLog). La nota oficial del 13/11/2026 no trata esta pregunta. No se hereda la posición de otro partido (federación, coalición o marca) ni se atribuye por etiqueta ideológica.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Esperar el programa estatal de CHA–Frente Amplio.",
+      "replaces": null
+    },
+    "15": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "No se localizó programa ni propuesta explícita de CHA–Frente Amplio Aragón sobre esta afirmación en las fuentes revisadas (véase searchLog). La nota oficial del 13/11/2026 no trata esta pregunta. No se hereda la posición de otro partido (federación, coalición o marca) ni se atribuye por etiqueta ideológica.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Esperar el programa estatal de CHA–Frente Amplio.",
+      "replaces": null
+    },
+    "16": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "No se localizó programa ni propuesta explícita de CHA–Frente Amplio Aragón sobre esta afirmación en las fuentes revisadas (véase searchLog). La nota oficial del 13/11/2026 no trata esta pregunta. No se hereda la posición de otro partido (federación, coalición o marca) ni se atribuye por etiqueta ideológica.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Esperar el programa estatal de CHA–Frente Amplio.",
+      "replaces": null
+    },
+    "17": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "No se localizó programa ni propuesta explícita de CHA–Frente Amplio Aragón sobre esta afirmación en las fuentes revisadas (véase searchLog). La nota oficial del 13/11/2026 no trata esta pregunta. No se hereda la posición de otro partido (federación, coalición o marca) ni se atribuye por etiqueta ideológica.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Esperar el programa estatal de CHA–Frente Amplio.",
+      "replaces": null
+    },
+    "18": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "No se localizó programa ni propuesta explícita de CHA–Frente Amplio Aragón sobre esta afirmación en las fuentes revisadas (véase searchLog). La nota oficial del 13/11/2026 no trata esta pregunta. No se hereda la posición de otro partido (federación, coalición o marca) ni se atribuye por etiqueta ideológica.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Esperar el programa estatal de CHA–Frente Amplio.",
+      "replaces": null
+    }
+  },
+  "searchLog": [
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "https://www.chunta.org/ (portada)",
+      "outcome": "Accesible; enlaza la nota del 13/11/2026 y un manifiesto europeo de 2024 (EFA), sin programa del 29N."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "https://www.chunta.org/wp-content/uploads/2026/01/Programa-electoral.pdf",
+      "outcome": "HTTP 404. Era el programa de las autonómicas aragonesas de enero de 2026; no localizable y de otra convocatoria."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "Búsqueda web del 15/11/2026: «programa CHA Frente Amplio Aragón generales 29N»",
+      "outcome": "Sin documento de programa; sólo la nota del partido."
+    }
+  ],
+  "integration": {
+    "status": "pendiente",
+    "commit": null
+  }
+}

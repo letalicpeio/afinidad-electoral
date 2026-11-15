@@ -1,0 +1,315 @@
+{
+  "schemaVersion": "1.0",
+  "catalogId": "vox",
+  "dataId": "vox",
+  "agent": "claude",
+  "baseCommit": "4f7fbd9ab5b675cf5d13114a62c3c9f89d3c8b1f",
+  "reviewed": "2026-11-15",
+  "status": "revisado",
+  "sources": [
+    {
+      "id": "vox-s01",
+      "url": "https://www.voxespana.es/wp-content/uploads/2026/11/Programa-completo-A5-1.pdf",
+      "publisher": "VOX",
+      "title": "Programa electoral 29 de noviembre de 2026 «Es sentido común»",
+      "published": null,
+      "accessed": "2026-11-15",
+      "election": "Generales de España 2026",
+      "year": 2026,
+      "kind": "programa",
+      "origin": "primaria",
+      "hosting": "oficial",
+      "historical": false,
+      "documentVersion": null,
+      "sha256": "065abf6720be2f7b19b8e911920c2ee2ce5c2059d0ae8bf09770bc790ed11b65",
+      "notes": "PDF del dominio del partido (14,5 MB, 67 páginas). La portada indica «Programa electoral 29 de noviembre de 2026». Descargado con curl y User-Agent de navegador; texto extraído con pdftotext. Los puntos están numerados 1–106; las páginas citadas son las del PDF."
+    }
+  ],
+  "questions": {
+    "1": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "vox-s01"
+      ],
+      "locator": "PDF p. 9; punto 2",
+      "evidenceSummary": "Propone una rebaja masiva de impuestos, con simplificación y bajada del IRPF y reducción del tipo según el número de hijos.",
+      "reason": "La bajada del IRPF beneficia a las rentas del trabajo; no se limita a un tramo.",
+      "confidence": "media",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "2": {
+      "status": "documentada",
+      "position": 1,
+      "sourceIds": [
+        "vox-s01"
+      ],
+      "locator": "PDF p. 23; punto 30",
+      "evidenceSummary": "Propone la derogación de la Ley de Vivienda, incentivos fiscales al alquiler de larga duración y regular los pisos turísticos.",
+      "reason": "La Ley de Vivienda es la norma que permite declarar zonas tensionadas; derogarla es la oposición más directa a la afirmación.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "3": {
+      "status": "documentada",
+      "position": 1,
+      "sourceIds": [
+        "vox-s01"
+      ],
+      "locator": "PDF p. 15; punto 11 y 9",
+      "evidenceSummary": "Punto 11: supresión de la institución del arraigo. Punto 9: prohibición de las regularizaciones masivas.",
+      "reason": "Rechaza expresamente el arraigo, que es el objeto de la afirmación.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "4": {
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "vox-s01"
+      ],
+      "locator": "PDF p. 37; punto 62",
+      "evidenceSummary": "Fomento de la colaboración público-privada cuando ayude efectivamente a reducir demoras, con transparencia, evaluación de calidad y control del gasto.",
+      "reason": "Apoyo condicionado: no propone ampliar los conciertos de forma general, sino en los casos en que reduzcan listas de espera.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Apoyo con condiciones explícitas; GPT decidirá si puntúa o se mantiene como evidencia contextual.",
+      "nextAction": null,
+      "replaces": null
+    },
+    "5": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "vox-s01"
+      ],
+      "locator": "PDF p. 45; punto 81 y 80",
+      "evidenceSummary": "Punto 81: ampliación de la prisión permanente revisable. Punto 80: reducir la edad de responsabilidad penal del menor.",
+      "reason": "Propone endurecer penas de forma explícita y en varios delitos (también incendiarios, okupación).",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "6": {
+      "status": "en-revision",
+      "position": null,
+      "sourceIds": [
+        "vox-s01"
+      ],
+      "locator": "PDF p. 41; punto 67",
+      "evidenceSummary": "Garantiza la libre elección de centro educativo en todos los niveles, «sin que su situación económica o social sea un impedimento».",
+      "reason": "Responde a una pregunta próxima: el programa no menciona los conciertos ni su financiación.",
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Lectura provisional 4 (la libre elección sin impedimento económico sugiere financiación pública), pero no nombra la concertada; no se puntúa sin más texto.",
+      "nextAction": "Buscar si el partido menciona los conciertos educativos en otro documento de campaña.",
+      "replaces": null
+    },
+    "7": {
+      "status": "en-revision",
+      "position": null,
+      "sourceIds": [
+        "vox-s01"
+      ],
+      "locator": "PDF p. 28; punto 42",
+      "evidenceSummary": "Punto 42, «Ley de Unidad de Mercado»: lo que es legal en una región lo es en toda España y se elimina cualquier requisito regional injustificado; «España es un solo mercado y una sola Nación».",
+      "reason": "Limita la divergencia normativa autonómica en el ámbito económico; el programa no trata la transferencia de competencias ni el modelo territorial en general (la palabra «competencias» no aparece).",
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Lectura provisional contraria a transferir más competencias (1–2), pero sólo en materia de mercado; no se puntúa.",
+      "nextAction": null,
+      "replaces": null
+    },
+    "8": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "No se localizó ninguna propuesta sobre la jornada laboral máxima en el programa.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "9": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "vox-s01"
+      ],
+      "locator": "PDF p. 12; punto 8",
+      "evidenceSummary": "Recuperar el plan nuclear nacional, garantizar la supervivencia de las centrales actuales derogando el calendario de cierre y estudiar nuevas centrales.",
+      "reason": "Apoyo claro y más amplio que el mantenimiento.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "10": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "El punto 7 trata la sostenibilidad de las pensiones mediante crecimiento y empleo, pero no habla de revalorizarlas con el IPC.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Buscar si menciona la revalorización con el IPC en otros documentos de campaña.",
+      "replaces": null
+    },
+    "11": {
+      "status": "documentada",
+      "position": 1,
+      "sourceIds": [
+        "vox-s01"
+      ],
+      "locator": "PDF p. 30; punto 47",
+      "evidenceSummary": "Propone derogar las leyes de género y, en su lugar, aprobar normas que protejan a las mujeres víctimas de violencia.",
+      "reason": "Rechaza la legislación específica actual; propone sustituirla por protección sin ese marco, no eliminarla sin alternativa.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Oposición a mantener la legislación específica vigente; la alternativa de protección general podría matizarlo (¿2?).",
+      "nextAction": null,
+      "replaces": null
+    },
+    "12": {
+      "status": "en-revision",
+      "position": null,
+      "sourceIds": [
+        "vox-s01"
+      ],
+      "locator": "PDF p. 33; punto 48",
+      "evidenceSummary": "Defiende al sector primario frente a las «imposiciones de Bruselas y del Pacto Verde» y rechaza el acuerdo UE-Mercosur.",
+      "reason": "Es una posición crítica con políticas concretas de la UE; no responde a la afirmación sobre integración política.",
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Lectura provisional contraria (1–2), pero el texto no trata la integración política; no se puntúa.",
+      "nextAction": null,
+      "replaces": null
+    },
+    "13": {
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "vox-s01"
+      ],
+      "locator": "PDF p. 45; punto 79 y 83",
+      "evidenceSummary": "Dotar de suficientes medios humanos y recursos materiales, técnicos y presupuestarios a las Fuerzas Armadas y a los cuerpos de seguridad.",
+      "reason": "Apoya reforzar los recursos de las Fuerzas Armadas, pero no fija un aumento del gasto público ni una cifra.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Apoyo genérico a dotar de recursos presupuestarios, sin compromiso de incremento cuantificado.",
+      "nextAction": null,
+      "replaces": null
+    },
+    "14": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "El punto 105 pide máxima protección jurídica a los símbolos de la Nación, incluida la Corona, pero no propone nada sobre la forma de Estado. La defensa implícita no se codifica.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "15": {
+      "status": "en-revision",
+      "position": null,
+      "sourceIds": [
+        "vox-s01"
+      ],
+      "locator": "PDF p. 52; punto 98",
+      "evidenceSummary": "Defiende el derecho a la vida desde la concepción hasta la muerte natural y la objeción de conciencia de los profesionales sanitarios.",
+      "reason": "No menciona expresamente el aborto ni su regulación legal.",
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Lectura provisional contraria (1), pero el texto no habla de aborto; no se puntúa.",
+      "nextAction": null,
+      "replaces": null
+    },
+    "16": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "vox-s01"
+      ],
+      "locator": "PDF p. 56; punto 103",
+      "evidenceSummary": "Agravar la malversación y prohibir los indultos para delitos relacionados con la corrupción política.",
+      "reason": "Prohibición explícita; también la extiende a delitos contra la unidad territorial.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "17": {
+      "status": "documentada",
+      "position": 1,
+      "sourceIds": [
+        "vox-s01"
+      ],
+      "locator": "PDF p. 19; punto 18 y 19",
+      "evidenceSummary": "Acceso preferente de los españoles a ayudas, prestaciones y servicios sociales (prioridad nacional) y supresión de toda ayuda a los inmigrantes ilegales.",
+      "reason": "Rechaza igualar el acceso de los residentes extranjeros al de los españoles.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "18": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "vox-s01"
+      ],
+      "locator": "PDF p. 27; punto 36",
+      "evidenceSummary": "Simplificar al mínimo la burocracia: toda actuación administrativa debe justificar su utilidad y lo no necesario se suprime.",
+      "reason": "Apoyo claro a reducir cargas; el punto es general, aplica también a empresas (ventanilla única, silencio positivo).",
+      "confidence": "media",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    }
+  },
+  "searchLog": [
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "https://www.voxespana.es/wp-content/uploads/2026/11/Programa-completo-A5-1.pdf",
+      "outcome": "Descarga correcta (HTTP 200, 14,5 MB) con User-Agent de navegador; con curl sin cabecera el servidor devolvió 403. Texto extraído; 67 páginas."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "Búsqueda por palabras clave de las 18 afirmaciones en el texto del PDF (IRPF, arraigo, prisión permanente, nuclear, indulto, prioridad nacional, burocracia, competencias, jornada, pensiones, aborto, Corona…)",
+      "outcome": "Hallazgos recogidos arriba; 7, 8 y 10 sin propuesta explícita."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "https://www.voxespana.es/abascal/es-sentido-comun-estas-son-las-medidas-de-vox-para-el-29n-20261112",
+      "outcome": "Resumen de medidas del partido ya usado por el catálogo; el PDF completo prevalece."
+    }
+  ],
+  "integration": {
+    "status": "pendiente",
+    "commit": null
+  }
+}

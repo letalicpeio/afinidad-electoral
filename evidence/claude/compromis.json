@@ -1,0 +1,293 @@
+{
+  "schemaVersion": "1.0",
+  "catalogId": "compromis",
+  "dataId": "compromis",
+  "agent": "claude",
+  "baseCommit": "4f7fbd9ab5b675cf5d13114a62c3c9f89d3c8b1f",
+  "reviewed": "2026-11-15",
+  "status": "revisado",
+  "sources": [
+    {
+      "id": "compromis-s01",
+      "url": "https://valenciaplaza.com/valenciaplaza/comunitat-valenciana1/compromis-front-valencia-hara-una-campana-coral-con-inicio-en-alicante-y-final-en-valencia",
+      "publisher": "EFE (publicado en Valencia Plaza)",
+      "title": "Compromís-Front Valencià hará una campaña coral con inicio en Alicante y final en València",
+      "published": "2026-11-09",
+      "accessed": "2026-11-15",
+      "election": "Generales de España 2026",
+      "year": 2026,
+      "kind": "noticia",
+      "origin": "secundaria",
+      "hosting": "medio",
+      "historical": false,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Leída con la herramienta de lectura web. Recoge los ejes presentados por Alberto Ibáñez; no es un programa."
+    }
+  ],
+  "questions": {
+    "1": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "La noticia habla de financiación autonómica, no de impuestos sobre las rentas del trabajo.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "2": {
+      "status": "en-revision",
+      "position": null,
+      "sourceIds": [
+        "compromis-s01"
+      ],
+      "locator": "EFE 09/11/2026 · eje vivienda",
+      "evidenceSummary": "Propone prohibir la compra de vivienda por fondos buitre y apostar por los alquileres indefinidos.",
+      "reason": "Medidas sobre propiedad y duración de contratos; no se menciona regular precios ni zonas tensionadas.",
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "No responde a la afirmación sobre regulación de precios.",
+      "nextAction": null,
+      "replaces": null
+    },
+    "3": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "La noticia no menciona inmigración ni arraigo.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "4": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "La noticia no trata la sanidad.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "5": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Sin propuestas sobre penas en la fuente leída.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "6": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Sin propuestas sobre la enseñanza concertada en la fuente leída.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "7": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "La noticia pide financiación justa e inversión territorializada, pero no habla de transferir competencias.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "8": {
+      "status": "en-revision",
+      "position": null,
+      "sourceIds": [
+        "compromis-s01"
+      ],
+      "locator": "EFE 09/11/2026 · eje trabajo",
+      "evidenceSummary": "Cita la reducción de la jornada laboral entre sus ejes programáticos.",
+      "reason": "No indica la cuantía ni si será sin reducción salarial.",
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Lectura provisional favorable (4–5); falta el texto del programa.",
+      "nextAction": null,
+      "replaces": null
+    },
+    "9": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "La noticia no menciona la energía nuclear.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "10": {
+      "status": "en-revision",
+      "position": null,
+      "sourceIds": [
+        "compromis-s01"
+      ],
+      "locator": "EFE 09/11/2026",
+      "evidenceSummary": "Propone el «blindaje de las pensiones».",
+      "reason": "No menciona la actualización con el IPC.",
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Lectura provisional favorable (4); no habla de IPC.",
+      "nextAction": null,
+      "replaces": null
+    },
+    "11": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "La noticia no trata la violencia de género.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "12": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "La noticia no menciona la Unión Europea.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "13": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "La noticia no menciona defensa.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "14": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "La noticia no menciona república ni monarquía.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "15": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "compromis-s01"
+      ],
+      "locator": "EFE 09/11/2026 · igualdad",
+      "evidenceSummary": "Propone el «blindaje del aborto en la Constitución».",
+      "reason": "Apoyo claro a mantener y reforzar el derecho al aborto.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Fuente secundaria (EFE); contrastar con el programa de la coalición.",
+      "nextAction": null,
+      "replaces": null
+    },
+    "16": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "La noticia no menciona indultos.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "17": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "La noticia no menciona prestaciones a extranjeros.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "18": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "La noticia no menciona cargas administrativas de las empresas.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    }
+  },
+  "searchLog": [
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "https://valenciaplaza.com/valenciaplaza/comunitat-valenciana1/compromis-front-valencia-hara-una-campana-coral-con-inicio-en-alicante-y-final-en-valencia",
+      "outcome": "Leída (EFE, 09/11/2026): ejes de vivienda, trabajo, territorio, movilidad, igualdad y trato justo."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "https://compromis.net/",
+      "outcome": "No respondió a la consulta automatizada (código 000)."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "Búsqueda web «Compromís programa 29N 2026»",
+      "outcome": "Sin documento de programa; un resultado antiguo de Compromís (2016) no se usa."
+    }
+  ],
+  "integration": {
+    "status": "pendiente",
+    "commit": null
+  }
+}

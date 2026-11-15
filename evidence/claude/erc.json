@@ -1,0 +1,311 @@
+{
+  "schemaVersion": "1.0",
+  "catalogId": "erc",
+  "dataId": "erc",
+  "agent": "claude",
+  "baseCommit": "4f7fbd9ab5b675cf5d13114a62c3c9f89d3c8b1f",
+  "reviewed": "2026-11-15",
+  "status": "revisado",
+  "sources": [
+    {
+      "id": "erc-s01",
+      "url": "https://esquerrarepublicana.cat/documents/e2026-programa.pdf",
+      "publisher": "Esquerra Republicana de Catalunya",
+      "title": "Eleccions al Congrés 2026 · Programa electoral",
+      "published": null,
+      "accessed": "2026-11-15",
+      "election": "Generales de España 2026",
+      "year": 2026,
+      "kind": "programa",
+      "origin": "primaria",
+      "hosting": "oficial",
+      "historical": false,
+      "documentVersion": null,
+      "sha256": "61728d162a6e88d492d44a0b0994effb31f9e4abb85ebf8aea715d870a9b2e04",
+      "notes": "PDF del dominio del partido (300 KB, 49 páginas, en catalán), con medidas numeradas. Su contenido es idéntico, byte a byte, a la copia alojada por Betevé usada antes en el catálogo (mismo SHA-256). Las páginas citadas son las del PDF."
+    }
+  ],
+  "questions": {
+    "1": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "erc-s01"
+      ],
+      "locator": "PDF p. 21; medida 69",
+      "evidenceSummary": "Reforma social del IRPF: reducir los tipos de la fiscalidad del trabajo para los tramos inferiores a 35.000 euros y subir del 30 % al 35 % el tipo máximo sobre ganancias de capital.",
+      "reason": "Rebaja explícita de la fiscalidad del trabajo, compensada con más carga al capital.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "2": {
+      "status": "en-revision",
+      "position": null,
+      "sourceIds": [
+        "erc-s01"
+      ],
+      "locator": "PDF p. 18–19; apartado «Pla de xoc sobre l’habitatge» y medidas 56–60",
+      "evidenceSummary": "Pide traspasar a la Generalitat los pisos de la Sareb, habilitar una ley de arrendamientos urbanos catalana y gravar los usos turísticos y las segundas residencias.",
+      "reason": "Las medidas apuntan a competencias y oferta pública de vivienda; el texto no propone topar ni regular precios de alquiler en zonas tensionadas.",
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Posible apoyo indirecto (LAU catalana), pero sin medida explícita de regulación de precios; no se puntúa.",
+      "nextAction": null,
+      "replaces": null
+    },
+    "3": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "El programa sólo toca la legislación de extranjería para garantizar derechos a víctimas de trata (medida 89); no trata arraigo ni regularizaciones. Condena la criminalización de las personas migrantes en el preámbulo.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "4": {
+      "status": "documentada",
+      "position": 1,
+      "sourceIds": [
+        "erc-s01"
+      ],
+      "locator": "PDF p. 41; medida 232",
+      "evidenceSummary": "Defiende un modelo sanitario público, universal y de gestión pública; rechaza que el deterioro sirva de excusa para avanzar hacia la privatización.",
+      "reason": "Oposición a extender la gestión privada con fondos públicos; no menciona conciertos expresamente.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Oposición a la privatización; la afirmación habla de ampliar conciertos, que no se citan.",
+      "nextAction": null,
+      "replaces": null
+    },
+    "5": {
+      "status": "en-revision",
+      "position": null,
+      "sourceIds": [
+        "erc-s01"
+      ],
+      "locator": "PDF p. 43; medida 243",
+      "evidenceSummary": "Propone revisar el tratamiento penal de las armas y del robo de cable con el objetivo de incrementar las penas.",
+      "reason": "Endurecimiento sólo en delitos concretos; no hay una posición general sobre endurecer penas.",
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Apoyo parcial a endurecer penas en delitos concretos; el programa también critica la deriva punitiva en migración. No se puntúa.",
+      "nextAction": null,
+      "replaces": null
+    },
+    "6": {
+      "status": "en-revision",
+      "position": null,
+      "sourceIds": [
+        "erc-s01"
+      ],
+      "locator": "PDF p. 10; medida 17",
+      "evidenceSummary": "Defiende un modelo de escuela pública, laica, gratuita y de calidad, con el catalán como lengua vehicular.",
+      "reason": "No menciona la concertada ni su financiación; el modelo propuesto es de escuela pública.",
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Lectura provisional contraria a la concertada (1–2) por el modelo «pública, laica», sin texto explícito sobre conciertos.",
+      "nextAction": null,
+      "replaces": null
+    },
+    "7": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "erc-s01"
+      ],
+      "locator": "PDF p. 14–15; medidas 38–40",
+      "evidenceSummary": "Asumir nuevas competencias (inspección laboral, políticas pasivas de empleo, justicia, seguridad) y reclamar su traspaso a la Generalitat.",
+      "reason": "Apoyo claro a transferir más competencias del Estado.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "8": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "erc-s01"
+      ],
+      "locator": "PDF p. 26; medida 105",
+      "evidenceSummary": "Reducir la duración máxima de la jornada semanal a 37,5 horas sin reducción salarial, modificando el artículo 34 del Estatuto de los Trabajadores.",
+      "reason": "Apoyo claro, con ley y sin pérdida salarial.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "9": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "La única referencia nuclear (medida 147) exige que el Estado contribuya al Fondo de Transición Nuclear de la Generalitat; no se pronuncia sobre mantener o cerrar las centrales.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "10": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "erc-s01"
+      ],
+      "locator": "PDF p. 26; medidas 106–107",
+      "evidenceSummary": "Blindar la revalorización de las pensiones actualizándolas con la inflación y vincularlas al IPC de cada territorio.",
+      "reason": "Apoyo claro; incluye mención expresa al IPC (territorializado).",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "11": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "erc-s01"
+      ],
+      "locator": "PDF p. 24; medida 88",
+      "evidenceSummary": "Reforzar y actualizar la legislación contra todas las formas de violencia machista y reformar la Ley Orgánica 1/2004.",
+      "reason": "Apoyo claro a mantener y ampliar la legislación específica.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "12": {
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "erc-s01"
+      ],
+      "locator": "PDF p. 16; apartado G (texto previo a la medida 42)",
+      "evidenceSummary": "Defiende un papel preponderante de la UE, con voz propia más fuerte, presupuesto común más ambicioso y autonomía de la OTAN en defensa; pide más presencia de Cataluña en las instituciones.",
+      "reason": "Apoyo a reforzar la UE como actor político y presupuestario, sin hablar de federalismo ni de integración política con esas palabras.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Apoyo matizado (la afirmación habla de integración política); GPT decidirá si puntúa.",
+      "nextAction": null,
+      "replaces": null
+    },
+    "13": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Pide una defensa europea autónoma de la OTAN y un embargo de armas a Israel, pero no se pronuncia sobre aumentar el gasto público en defensa.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "14": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "erc-s01"
+      ],
+      "locator": "PDF p. 8; medida 9",
+      "evidenceSummary": "Impulsa iniciativas para fiscalizar al rey y a la casa real y «posar fi a aquesta institució contrària al principi democràtic».",
+      "reason": "Pide expresamente acabar con la monarquía.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "15": {
+      "status": "en-revision",
+      "position": null,
+      "sourceIds": [
+        "erc-s01"
+      ],
+      "locator": "PDF p. 23; preámbulo del apartado de igualdad",
+      "evidenceSummary": "Propone «garantir els drets sexuals i reproductius» y combatir los retrocesos de derechos.",
+      "reason": "No menciona el aborto ni su regulación; es una declaración general.",
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Lectura provisional favorable (4–5), sin referencia expresa al aborto.",
+      "nextAction": null,
+      "replaces": null
+    },
+    "16": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "El programa critica la corrupción y pide denunciar contratos públicos con empresas condenadas (medida 45), pero no menciona los indultos.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "17": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "La medida 123 reclama más financiación para adaptar el ingreso mínimo vital en Cataluña; no trata el acceso de residentes extranjeros a prestaciones.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "18": {
+      "status": "en-revision",
+      "position": null,
+      "sourceIds": [
+        "erc-s01"
+      ],
+      "locator": "PDF p. 23; medida 86",
+      "evidenceSummary": "Fomentar pymes competitivas: financiación, morosidad cero y contratación pública accesible y digitalizada.",
+      "reason": "Trata de financiación, pagos y contratación pública de pymes, no de reducir obligaciones administrativas generales.",
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "El catálogo actual lo registra como apoyo claro (5); la medida 86 no habla de reducir cargas administrativas. Se propone retirarlo del cálculo.",
+      "nextAction": null,
+      "replaces": null
+    }
+  },
+  "searchLog": [
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "https://esquerrarepublicana.cat/documents/e2026-programa.pdf",
+      "outcome": "Descarga correcta (HTTP 200, 300 KB); idéntica a la copia de Betevé (mismo SHA-256)."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "Búsqueda por palabras clave en catalán (lloguer, arrelament, sanitat privada, penes, escola concertada, nuclear, Unió Europea, avortament, indult, ingrés mínim vital)",
+      "outcome": "Texto extraído con pdftotext; cargador que repara los guiones de fin de línea. Hallazgos en las preguntas 2–6, 9, 12, 15–17."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "https://www.esquerra.cat/",
+      "outcome": "Web respondió 403 al acceso automatizado; no se usó."
+    }
+  ],
+  "integration": {
+    "status": "pendiente",
+    "commit": null
+  }
+}

@@ -1,0 +1,370 @@
+{
+  "schemaVersion": "1.0",
+  "catalogId": "frente-amplio",
+  "dataId": "frente-amplio",
+  "agent": "claude",
+  "baseCommit": "4f7fbd9ab5b675cf5d13114a62c3c9f89d3c8b1f",
+  "reviewed": "2026-11-15",
+  "status": "revisado",
+  "sources": [
+    {
+      "id": "frente-amplio-s01",
+      "url": "https://frenteamplio.info/noticias/frente-amplio-propone-ninguna-pension-este-debajo-salario-minimo-recuperar/",
+      "publisher": "Frente Amplio",
+      "title": "Frente Amplio propone que ninguna pensión esté por debajo del salario mínimo y recuperar la jubilación a los 65 años",
+      "published": null,
+      "accessed": "2026-11-15",
+      "election": "Generales de España 2026",
+      "year": 2026,
+      "kind": "declaracion",
+      "origin": "primaria",
+      "hosting": "oficial",
+      "historical": false,
+      "documentVersion": null,
+      "sha256": "90096dd28f85ba3538e6b75eedc6030e385624534cd766f2dea6ef55b752778e",
+      "notes": "Nota de prensa oficial de campaña en la web del partido; no es el programa completo."
+    },
+    {
+      "id": "frente-amplio-s02",
+      "url": "https://frenteamplio.info/noticias/frente-amplio-propone-impuesto-acumulacion-vivienda/",
+      "publisher": "Frente Amplio",
+      "title": "Frente Amplio propone un impuesto a la acumulación de vivienda (28/10/2026)",
+      "published": "2026-10-28",
+      "accessed": "2026-11-15",
+      "election": "Generales de España 2026",
+      "year": 2026,
+      "kind": "declaracion",
+      "origin": "primaria",
+      "hosting": "oficial",
+      "historical": false,
+      "documentVersion": null,
+      "sha256": "d0d0c64aa1cb1c3d574b5eba4023dfa071f51021754e4b80b31c038ea797f803",
+      "notes": "Nota de prensa oficial."
+    },
+    {
+      "id": "frente-amplio-s03",
+      "url": "https://frenteamplio.info/noticias/frente-amplio-propone-legalizar-huelgas-alquileres-reconocer-sindicatos-inquilinas-frenar/",
+      "publisher": "Frente Amplio",
+      "title": "Frente Amplio propone legalizar las huelgas de alquileres y reconocer a los sindicatos de inquilinas",
+      "published": "2026-11-12",
+      "accessed": "2026-11-15",
+      "election": "Generales de España 2026",
+      "year": 2026,
+      "kind": "declaracion",
+      "origin": "primaria",
+      "hosting": "oficial",
+      "historical": false,
+      "documentVersion": null,
+      "sha256": "43008f77ddf407f00aacceabe76ba2fa9cd85ad5223f7a43d3018970d0e01c79",
+      "notes": "Nota de prensa oficial; indica que la medida se recogerá en el programa."
+    },
+    {
+      "id": "frente-amplio-s04",
+      "url": "https://frenteamplio.info/noticias/frente-amplio-propone-incluir-gafas-audifonos-dentista-sanidad-publica/",
+      "publisher": "Frente Amplio",
+      "title": "Frente Amplio propone incluir gafas, audífonos y dentista en la sanidad pública",
+      "published": "2026-11-14",
+      "accessed": "2026-11-15",
+      "election": "Generales de España 2026",
+      "year": 2026,
+      "kind": "declaracion",
+      "origin": "primaria",
+      "hosting": "oficial",
+      "historical": false,
+      "documentVersion": null,
+      "sha256": "b1111451adda33b5a9c82dfa83084bedb6b003422a75e6ad75c7c3caf4d74e22",
+      "notes": "Nota de prensa oficial."
+    },
+    {
+      "id": "frente-amplio-s05",
+      "url": "https://www.servimedia.es/noticias/pp-vox-defienden-alargar-vida-util-centrales-nucleares/1413569593",
+      "publisher": "Servimedia",
+      "title": "PP y Vox defienden alargar la vida útil de las centrales nucleares (debate sobre sostenibilidad en las propuestas electorales del 29N)",
+      "published": "2026-11-09",
+      "accessed": "2026-11-15",
+      "election": "Generales de España 2026",
+      "year": 2026,
+      "kind": "noticia",
+      "origin": "secundaria",
+      "hosting": "medio",
+      "historical": false,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Leída con la herramienta de lectura web. Recoge declaraciones de Mar González, candidata de Frente Amplio al Senado por Guadalajara; no es un documento programático."
+    }
+  ],
+  "questions": {
+    "1": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Propone tres impuestos nuevos (grandes fortunas, tipo mínimo a grandes empresas y acumulación de vivienda) y no habla de rebajar la tributación de las rentas del trabajo.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "2": {
+      "status": "en-revision",
+      "position": null,
+      "sourceIds": [
+        "frente-amplio-s02",
+        "frente-amplio-s03"
+      ],
+      "locator": "Notas de 28/10 y 12/11/2026",
+      "evidenceSummary": "Impuesto a la acumulación de vivienda para «bajar los precios de los alquileres» y legalizar las huelgas de alquiler y los sindicatos de inquilinas.",
+      "reason": "Medidas de presión sobre propietarios y de organización de inquilinos; no se propone un tope ni la regulación de precios en zonas tensionadas.",
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Lectura provisional favorable (4) por el objetivo de bajar alquileres, sin medida explícita de regulación de precios.",
+      "nextAction": null,
+      "replaces": null
+    },
+    "3": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Ninguna de las 13 notas oficiales de campaña trata migración, regularizaciones ni arraigo.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Esperar el programa completo.",
+      "replaces": null
+    },
+    "4": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Propone ampliar la cartera de la sanidad pública (gafas, audífonos, dentista, menopausia), pero no se pronuncia sobre conciertos con centros privados.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "5": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Sin propuestas sobre penas en las notas oficiales.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "6": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Sin propuestas sobre la enseñanza concertada en las notas oficiales.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "7": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Sin propuestas sobre transferencia de competencias en las notas oficiales.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "8": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Ninguna de las notas habla de reducir la jornada laboral máxima (la búsqueda de «jornada», «semana laboral» y «horas» no da resultados).",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "9": {
+      "status": "documentada",
+      "position": 1,
+      "sourceIds": [
+        "frente-amplio-s05"
+      ],
+      "locator": "Servimedia 09/11/2026 · intervención de Mar González",
+      "evidenceSummary": "Defiende cumplir el calendario de cierre nuclear, incluido Almaraz; considera una traición su no cierre y afirma que la «nostalgia de la nuclear quedó en el siglo pasado».",
+      "reason": "Oposición clara a mantener la energía nuclear; fuente secundaria de una representante, no documento del partido.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Fuente secundaria atribuida a una candidata al Senado; contrastar con el programa cuando se publique.",
+      "nextAction": null,
+      "replaces": null
+    },
+    "10": {
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "frente-amplio-s01"
+      ],
+      "locator": "Nota de prensa; apartado «Consolidar lo conseguido»",
+      "evidenceSummary": "Propone una pensión mínima garantizada no inferior al SMI y recuperar la jubilación a los 65 años; afirma que las pensiones «han vuelto a revalorizarse con el IPC» y quiere «ampliar y consolidar esos avances».",
+      "reason": "Apoya mantener la revalorización con el IPC como logro a consolidar, pero la nota no la formula como propuesta.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Apoyo implícito: la mención al IPC es de contexto. Contrastar con el programa.",
+      "nextAction": null,
+      "replaces": null
+    },
+    "11": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Las notas oficiales no tratan la violencia de género.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "12": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Sin propuestas sobre la UE en las notas oficiales.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "13": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Sin propuestas sobre gasto en defensa en las notas oficiales.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "14": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Sin propuestas sobre la forma de Estado en las notas oficiales.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "15": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Sin propuestas sobre aborto en las notas oficiales.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "16": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Propone expulsar 20 años de la contratación pública a las empresas corruptoras, pero no menciona los indultos.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "17": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Sin propuestas sobre el acceso de residentes extranjeros a prestaciones.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "18": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Sin propuestas sobre obligaciones administrativas de las empresas.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    }
+  },
+  "searchLog": [
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "https://frenteamplio.info/noticias/ (13 notas de prensa descargadas y leídas, 27/10–14/11/2026)",
+      "outcome": "Todas del dominio del partido; sin documento de programa. Hallazgos en las preguntas 2, 9 y 10."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "https://frenteamplio.info/",
+      "outcome": "Portada con las tres últimas notas y sin enlace a programa."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "https://www.servimedia.es/noticias/pp-vox-defienden-alargar-vida-util-centrales-nucleares/1413569593",
+      "outcome": "Leída; declaraciones de Mar González sobre nuclear."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "Búsqueda web «Frente Amplio programa 100+15» y «programa electoral Frente Amplio 29N»",
+      "outcome": "Los medios indican que el programa aún no está publicado; no se localizó el documento «100+15»."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "Sumar 2023 «Un programa para ti»",
+      "outcome": "Existe, pero no se hereda: Frente Amplio es una candidatura distinta de Sumar. No usado."
+    }
+  ],
+  "integration": {
+    "status": "pendiente",
+    "commit": null
+  }
+}

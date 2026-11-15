@@ -1,0 +1,315 @@
+{
+  "schemaVersion": "1.0",
+  "catalogId": "junts",
+  "dataId": "junts",
+  "agent": "claude",
+  "baseCommit": "4f7fbd9ab5b675cf5d13114a62c3c9f89d3c8b1f",
+  "reviewed": "2026-11-15",
+  "status": "revisado",
+  "sources": [
+    {
+      "id": "junts-s01",
+      "url": "https://img.beteve.cat/wp-content/uploads/2023/07/programa-junts-per-catalunya-eleccions-generals-2023.pdf",
+      "publisher": "Junts per Catalunya (copia alojada por Betevé)",
+      "title": "Programa electoral «Per Catalunya» · Eleccions generals 2023",
+      "published": "2023-07",
+      "accessed": "2026-11-15",
+      "election": "Generales de España 2023 (coalición Junts, Demòcrates de Catalunya y Més Esquerres de Catalunya)",
+      "year": 2023,
+      "kind": "programa",
+      "origin": "primaria",
+      "hosting": "copia-archivo",
+      "historical": true,
+      "documentVersion": null,
+      "sha256": "7f73e138b6020f9a12ff260f7baeb3aa2807b60903e91052435f7e0ded7d938b",
+      "notes": "Programa íntegro de 148 páginas en catalán, con la portada «Programa electoral. Per Catalunya. Ja n’hi ha prou». Es un antecedente de otra convocatoria y de una coalición con otros dos partidos; el alojamiento (Betevé) no es oficial. Páginas del PDF."
+    }
+  ],
+  "questions": {
+    "1": {
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "junts-s01"
+      ],
+      "locator": "PDF p. 57–58",
+      "evidenceSummary": "Propone revisar y reequilibrar la fiscalidad que grava las rentas del trabajo en el IRPF, que soportan el grueso de la presión fiscal, y deflactar las escalas a la inflación.",
+      "reason": "Apoyo a reducir la carga sobre las rentas del trabajo, formulado como reequilibrio fiscal.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "ANTECEDENTE 2023: programa de otra convocatoria; sustituir por el programa de 2026 cuando exista.",
+      "nextAction": null,
+      "replaces": null
+    },
+    "2": {
+      "status": "en-revision",
+      "position": null,
+      "sourceIds": [
+        "junts-s01"
+      ],
+      "locator": "PDF p. 95",
+      "evidenceSummary": "Propone limitar las reducciones del IRPF por rendimientos de alquiler cuando el precio esté por encima del Índice de Referencia de Precios del Alquiler fijado por la Generalitat; transferir recursos para vivienda asequible.",
+      "reason": "Incentivo fiscal ligado al índice de referencia, no un tope ni la regulación de zonas tensionadas.",
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Lectura provisional intermedia (3). ANTECEDENTE 2023: programa de otra convocatoria; sustituir por el programa de 2026 cuando exista.",
+      "nextAction": null,
+      "replaces": null
+    },
+    "3": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "El programa de 2023 trata los flujos migratorios y la acogida de refugiados como competencia de la Generalitat (p. 15, 107), pero no se pronuncia sobre regularizaciones ni arraigo.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "4": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Las menciones de «colaboración público-privada» (pp. 55, 64, 88) se refieren a innovación, colocación e infraestructuras energéticas, no a sanidad.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "5": {
+      "status": "en-revision",
+      "position": null,
+      "sourceIds": [
+        "junts-s01"
+      ],
+      "locator": "PDF p. 126",
+      "evidenceSummary": "Propone modificar el Código Penal para combatir la multirreincidencia en hurtos y agilizar la respuesta a las ocupaciones ilegales.",
+      "reason": "Endurecimiento parcial en delitos concretos, no una posición general sobre endurecer penas de prisión.",
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Lectura provisional favorable (4). ANTECEDENTE 2023: programa de otra convocatoria; sustituir por el programa de 2026 cuando exista.",
+      "nextAction": null,
+      "replaces": null
+    },
+    "6": {
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "junts-s01"
+      ],
+      "locator": "PDF p. 114",
+      "evidenceSummary": "Reconoce la red concertada y pide derogar la LODE para adaptar el modelo de conciertos educativos; pide más presupuesto para la escuela pública.",
+      "reason": "Acepta y quiere actualizar los conciertos; no propone mantener la financiación «donde exista demanda» con esas palabras.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "ANTECEDENTE 2023: programa de otra convocatoria; sustituir por el programa de 2026 cuando exista.",
+      "nextAction": null,
+      "replaces": null
+    },
+    "7": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "junts-s01"
+      ],
+      "locator": "PDF p. 57; 72; 119",
+      "evidenceSummary": "Reclama «un Estado con plenas competencias» y el traspaso a la Generalitat de competencias (mutualidades laborales, régimen local, prevención de riesgos, acogida de refugiados).",
+      "reason": "Apoyo claro a transferir más competencias; el partido defiende además la autodeterminación.",
+      "confidence": "alta",
+      "reviewNeeded": true,
+      "reviewNote": "ANTECEDENTE 2023: programa de otra convocatoria; sustituir por el programa de 2026 cuando exista. El catálogo actual cita además una noticia de Europa Press (06/11/2026) sobre condiciones de negociación de Nogueras que no he podido leer porque el sitio bloquea mis herramientas.",
+      "nextAction": null,
+      "replaces": null
+    },
+    "8": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "La única mención de jornada (p. 112) trata del derecho a reducciones de jornada por cuidado; no propone reducir la jornada máxima legal.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "9": {
+      "status": "en-revision",
+      "position": null,
+      "sourceIds": [
+        "junts-s01"
+      ],
+      "locator": "PDF p. 88",
+      "evidenceSummary": "Apartado «Mix elèctric i al tancament de les nuclears»: potenciar renovables y sacar la nuclear de la subasta eléctrica con contratos a largo plazo.",
+      "reason": "El epígrafe habla de «cierre de las nucleares», pero las medidas no fijan una posición explícita sobre mantenerlas.",
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Lectura provisional contraria al mantenimiento (1–2). ANTECEDENTE 2023: programa de otra convocatoria; sustituir por el programa de 2026 cuando exista.",
+      "nextAction": null,
+      "replaces": null
+    },
+    "10": {
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "junts-s01"
+      ],
+      "locator": "PDF p. 100",
+      "evidenceSummary": "Afirma haber contribuido a la revalorización de las pensiones para mantener su poder adquisitivo y propone que continúe, junto a mejorar las mínimas.",
+      "reason": "Apoyo a la revalorización para mantener el poder adquisitivo; no menciona el IPC.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "ANTECEDENTE 2023: programa de otra convocatoria; sustituir por el programa de 2026 cuando exista.",
+      "nextAction": null,
+      "replaces": null
+    },
+    "11": {
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "junts-s01"
+      ],
+      "locator": "PDF p. 110",
+      "evidenceSummary": "Declara prioritaria la sensibilización, atención y prevención de la violencia machista y considera insuficiente el Pacto de Estado.",
+      "reason": "Apoyo a reforzar la actuación específica contra la violencia machista; no habla de mantener la ley integral.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "ANTECEDENTE 2023: programa de otra convocatoria; sustituir por el programa de 2026 cuando exista.",
+      "nextAction": null,
+      "replaces": null
+    },
+    "12": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "junts-s01"
+      ],
+      "locator": "PDF p. 28",
+      "evidenceSummary": "Defiende una Europa de los pueblos y de los ciudadanos «que avanci en el model federal» con integración democrática creciente.",
+      "reason": "Apoyo claro a mayor integración política europea.",
+      "confidence": "alta",
+      "reviewNeeded": true,
+      "reviewNote": "ANTECEDENTE 2023: programa de otra convocatoria; sustituir por el programa de 2026 cuando exista.",
+      "nextAction": null,
+      "replaces": null
+    },
+    "13": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "El apartado «Seguretat i defensa» (p. 128) trata del sistema de seguridad nacional de Cataluña y no fija posición sobre el gasto militar.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "14": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "La única mención de la monarquía (p. 26) es sobre debates legítimos que el Congreso limita; no propone sustituirla.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "15": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Sólo hay una referencia a la salud sexual y reproductiva de jóvenes (p. 99); no se pronuncia sobre el aborto.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "16": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "La búsqueda de «indult» no produce resultados en el programa de 2023.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "17": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Las menciones al ingreso mínimo vital (pp. 66, 91) no tratan el acceso de residentes extranjeros.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "18": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "junts-s01"
+      ],
+      "locator": "PDF p. 84",
+      "evidenceSummary": "En el apartado de defensa de la micro, pequeña y mediana empresa: «simplificar y agilizar los procedimientos y los trámites administrativos».",
+      "reason": "Apoyo explícito a reducir cargas administrativas, en el ámbito de las pymes.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "ANTECEDENTE 2023: programa de otra convocatoria; sustituir por el programa de 2026 cuando exista.",
+      "nextAction": null,
+      "replaces": null
+    }
+  },
+  "searchLog": [
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "https://img.beteve.cat/wp-content/uploads/2023/07/programa-junts-per-catalunya-eleccions-generals-2023.pdf",
+      "outcome": "Descarga correcta (HTTP 200, 563 KB, 148 páginas); leído por palabras clave y por páginas."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "https://junts.cat/wp-content/uploads/2026/09/MANIFESTO-EN_WEB.pdf",
+      "outcome": "HTTP 200, 51 páginas: es el manifiesto «Reinventing Europe 2024» de Renew Europe alojado en la web de Junts, no un programa de Junts para 2026. Descartado."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "https://junts.cat/ (y rutas /programa/, /eleccions-generals-2026/, /29n/)",
+      "outcome": "Portada accesible; no enlaza programa del 29N; las rutas probadas devuelven 404."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "https://www.europapress.es/catalunya/noticia-nogueras-junts-abre-hablar-psoe-29n-si-catalunya-centro-20261106111810.html",
+      "outcome": "Herramienta de lectura bloqueada para europapress.es: no leída."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "Búsqueda web «Junts programa electoral 29N 2026»",
+      "outcome": "Los agregadores y la prensa indican a 13–15/11/2026 que el programa completo aún no se ha publicado."
+    }
+  ],
+  "integration": {
+    "status": "pendiente",
+    "commit": null
+  }
+}

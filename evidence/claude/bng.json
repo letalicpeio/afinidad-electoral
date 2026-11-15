@@ -1,0 +1,305 @@
+{
+  "schemaVersion": "1.0",
+  "catalogId": "bng",
+  "dataId": "bng",
+  "agent": "claude",
+  "baseCommit": "4f7fbd9ab5b675cf5d13114a62c3c9f89d3c8b1f",
+  "reviewed": "2026-11-15",
+  "status": "revisado",
+  "sources": [
+    {
+      "id": "bng-s01",
+      "url": "https://www.bng.gal/media/bnggaliza/files/2026/11/12/26_bng_xerais_documentos_programa_electoral.pdf",
+      "publisher": "BNG",
+      "title": "Programa electoral 29N. Xerais 2026",
+      "published": "2026-11-12",
+      "accessed": "2026-11-15",
+      "election": "Generales de España 2026",
+      "year": 2026,
+      "kind": "programa",
+      "origin": "primaria",
+      "hosting": "oficial",
+      "historical": false,
+      "documentVersion": "2026-11-12",
+      "sha256": "1ab47bae90bd6de4be2cd42e1999c635757359ef9789a6c402ba7d64d9530432",
+      "notes": "PDF del dominio del partido (1,44 MB, 92 páginas, en gallego), versión del 12/11/2026. Existe una versión anterior del 03/11/2026 (1,39 MB) con otro contenido; no se ha comparado. Páginas del PDF."
+    }
+  ],
+  "questions": {
+    "1": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "bng-s01"
+      ],
+      "locator": "PDF p. 43; apartado 4.1 «Por unha nova fiscalidade»",
+      "evidenceSummary": "Propone gravámenes distintos según la naturaleza de los rendimientos, «minorando a tributación polos ingresos do traballo» y aumentando la de los derivados del capital; IRPF más progresivo.",
+      "reason": "Rebaja explícita de la tributación del trabajo, acompañada de mayor carga a las rentas altas y del capital.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Rebaja compensada con subida a rentas altas; el catálogo actual no recoge esta evidencia.",
+      "nextAction": null,
+      "replaces": null
+    },
+    "2": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "bng-s01"
+      ],
+      "locator": "PDF p. 12; apartado de vivienda",
+      "evidenceSummary": "Propone «topar por lei os prezos dos alugueiros», prohibir los desahucios de personas vulnerables y estabilizar los arrendamientos.",
+      "reason": "Apoyo claro a regular por ley los precios del alquiler.",
+      "confidence": "alta",
+      "reviewNeeded": true,
+      "reviewNote": "No menciona expresamente «zonas tensionadas»; propone el tope en general, que incluye ese caso.",
+      "nextAction": null,
+      "replaces": null
+    },
+    "3": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "bng-s01"
+      ],
+      "locator": "PDF p. 22–23; apartado de migración",
+      "evidenceSummary": "Promover la regularización administrativa como vía para eliminar la irregularidad y facilitar los procesos de regularización.",
+      "reason": "Apoyo claro a las regularizaciones; no usa la palabra «arraigo».",
+      "confidence": "media",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "4": {
+      "status": "en-revision",
+      "position": null,
+      "sourceIds": [
+        "bng-s01"
+      ],
+      "locator": "PDF p. 37; apartado de sanidad",
+      "evidenceSummary": "Denuncia un plan para empujar hacia la sanidad privada y mercantilizar la sanidad.",
+      "reason": "Es un diagnóstico crítico sin medida concreta localizada sobre conciertos.",
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Lectura provisional contraria (1); no se localizó medida concreta.",
+      "nextAction": null,
+      "replaces": null
+    },
+    "5": {
+      "status": "en-revision",
+      "position": null,
+      "sourceIds": [
+        "bng-s01"
+      ],
+      "locator": "PDF p. 30; apartado de justicia penal",
+      "evidenceSummary": "Propone derogar la prisión permanente revisable y las medidas de libertad vigilada posteriores.",
+      "reason": "Rechazar una modalidad penal no acredita oponerse a todo endurecimiento de penas.",
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "Lectura provisional contraria (1–2).",
+      "nextAction": null,
+      "replaces": null
+    },
+    "6": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "El programa defiende la red pública y critica la privatización, pero no menciona la enseñanza concertada ni su financiación (búsquedas «concertad», «ensino privado»).",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "7": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "bng-s01"
+      ],
+      "locator": "PDF p. 75; sección 8.1",
+      "evidenceSummary": "Exige competencias propias para Galiza y se opone a la recentralización.",
+      "reason": "Apoyo claro a transferir más competencias.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "8": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "bng-s01"
+      ],
+      "locator": "PDF p. 15; sección 2.2",
+      "evidenceSummary": "Defiende la jornada de 35 horas sin pérdida salarial y avanzar hacia 32 horas en cuatro días.",
+      "reason": "Apoyo claro.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "9": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "La única referencia nuclear (p. 68) pide inspección del vertedero de residuos nucleares de la Fosa Atlántica; no se pronuncia sobre mantener las centrales.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "10": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "bng-s01"
+      ],
+      "locator": "PDF p. 18; sección 2.3",
+      "evidenceSummary": "Revalorización de las pensiones y defensa del sistema público.",
+      "reason": "Apoyo claro.",
+      "confidence": "media",
+      "reviewNeeded": true,
+      "reviewNote": "Comprobar si el texto cita expresamente el IPC; procede del catálogo actual.",
+      "nextAction": null,
+      "replaces": null
+    },
+    "11": {
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "bng-s01"
+      ],
+      "locator": "PDF p. 24; sección 2.6.1",
+      "evidenceSummary": "Medidas contra la violencia machista, incluida la inclusión de las víctimas en políticas de vivienda.",
+      "reason": "Apoyo claro a mantener el marco específico.",
+      "confidence": "media",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "12": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Las menciones de la UE tratan la pesca, la oficialidad del gallego y los tratados comerciales; no hay posición sobre mayor integración política.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "13": {
+      "status": "documentada",
+      "position": 1,
+      "sourceIds": [
+        "bng-s01"
+      ],
+      "locator": "PDF p. 90; sección 11",
+      "evidenceSummary": "Se opone al aumento del gasto militar y al rearme.",
+      "reason": "Oposición clara.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "14": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "La única mención a la Corona (p. 30) pide despenalizar las injurias contra la Corona y otras instituciones; no propone sustituir la monarquía.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "15": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "La búsqueda de «aborto», «interrupción voluntaria» y «IVE» (sanitario) no produce resultados; sólo hay referencias a salud sexual LGTBI.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "16": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "La búsqueda de «indult» no produce resultados en el programa.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "17": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Reclama transferir el IMV a Galiza y crear una renta gallega; no trata el acceso de residentes extranjeros a prestaciones.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    },
+    "18": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "La única propuesta de reducir burocracia (p. 53) es para la investigación científica, no para las empresas.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": null
+    }
+  },
+  "searchLog": [
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "https://www.bng.gal/media/bnggaliza/files/2026/11/12/26_bng_xerais_documentos_programa_electoral.pdf",
+      "outcome": "Descarga correcta (HTTP 200, 1,44 MB, 92 páginas)."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "https://www.bng.gal/media/bnggaliza/files/2026/11/03/26_bng_xerais_documentos_programa_electoral.pdf",
+      "outcome": "Existe (HTTP 200, 1,39 MB, versión del 03/11); no leída en esta ronda."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "Búsqueda por palabras clave en gallego (rendas do traballo, topar alugueiros, concertad, nuclear, Unión Europea, república, aborto, indult, burocracia)",
+      "outcome": "Hallazgos en 1 y 2 que el catálogo no recogía; resto sin coincidencias útiles."
+    }
+  ],
+  "integration": {
+    "status": "pendiente",
+    "commit": null
+  }
+}
