@@ -331,7 +331,10 @@
     }
   ],
   "integration": {
-    "status": "pendiente",
-    "commit": null
+    "status": "integrado",
+    "commit": "b1f37493adf576b88aef38a5bc66db5c0926b7e9",
+    "scope": "Nueva pregunta 18 y conservación de las cinco posiciones previas. La investigación de las otras preguntas sigue pendiente.",
+    "publishedVersion": "0.5.4",
+    "verified": "2026-11-15"
   }
 }
