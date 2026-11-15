@@ -236,6 +236,13 @@ function renderResults(keep = false) {
           ? `Cobertura ${fmt(result.coverage)} · ${result.count} ${result.count === 1 ? "tema" : "temas"}${src.length ? " (" + src.join(", ") + ")" : ""}${shown && result.coverage < 60 ? " · ⚠ parcial" : ""}${shown ? "" : " · sin porcentaje: cobertura inferior al " + MIN_COVERAGE + " %"}`
           : "Ninguno de tus temas tiene posición documentada.", shown && result.coverage < 60 ? "small warning" : "small"));
         {
+          const clash = result.details
+            .filter((d) => d.weight >= 4 && Math.abs(d.answer - d.position) >= 3)
+            .map((d) => data.questions.find((q) => q.id === d.id).topic);
+          if (clash.length)
+            row.append(el("p", `⚠ Choca con lo que más te importa: ${clash.slice(0, 3).join(", ")}${clash.length > 3 ? ` y ${clash.length - 3} más` : ""}.`, "small clash"));
+        }
+        {
           const used = new Set(result.details.map((d) => d.id));
           const miss = data.questions
             .filter((q) => Number.isInteger(person.answers[q.id]) && !used.has(q.id) && (person.weights[q.id] || 0) >= 4)
