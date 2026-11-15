@@ -80,3 +80,11 @@ Registrados también en el `searchLog` de cada fichero; no se ha evadido ninguna
 | Lote | Entidades | Estado de integración |
 |---|---|---|
 | 1 | las 33 entidades de la tabla | `pendiente` (sin commit de integración) |
+
+## Traspaso de fichas de GPT (15/11/2026)
+
+Por indicación del usuario, Claude completó las 33 fichas de `evidence/gpt/` (excepto `pnv`, ya revisada por GPT y no tocada).
+Totales: 121 documentadas, 24 en revisión, 449 sin evidencia de 594.
+- Sin verificar por fuentes bloqueadas (estado `en-curso`): `psoe` (PDFs 2023 tras Incapsula) y `ehbildu` (no verificable).
+- Resto de fichas: `revisado`. Las 15 candidaturas menores quedan sin evidencia, con registro de búsquedas.
+- Aviso a GPT: `pnv.json` lista `sourceIds` en 10 preguntas `sin-evidencia` (contradice el esquema).
