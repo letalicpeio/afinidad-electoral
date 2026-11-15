@@ -1,5 +1,5 @@
 {
-  "version": "0.5.12",
+  "version": "0.5.13",
   "date": "2026-11-15",
   "election": "Congreso · 29 de noviembre de 2026",
   "questions": [
@@ -1514,6 +1514,35 @@
           "sourceNote": "Fuente secundaria. Presentación de la candidatura conjunta, no extrapolación de sus partidos miembros.",
           "reviewed": "2026-11-14",
           "coding": "Interpretación editorial provisional"
+        },
+        "2": {
+          "value": 5,
+          "source": "https://www.moncloa.com/2026/11/15/compromis-vivienda-alquiler-rodalia-3468406",
+          "locator": "Moncloa.com 15/11/2026 · acto de Xàtiva",
+          "reason": "Apoyo explícito a intervenir los precios del alquiler (no limita la medida a zonas tensionadas).",
+          "sourceNote": "Fuente secundaria: Moncloa.com. Crónica de un acto de campaña en Xàtiva; no cita el programa por su título.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional"
+        },
+        "8": {
+          "value": 4,
+          "source": "https://www.moncloa.com/2026/11/15/compromis-fondo-nivelacion-financiacion-autonomica-3468188",
+          "locator": "Moncloa.com 15/11/2026 · economía y laboral",
+          "reason": "Apoyo con matices: propone reducir la jornada junto a subidas salariales, sin detallar que se mantenga el salario.",
+          "sourceNote": "Fuente secundaria: Moncloa.com. Resume medidas que el medio atribuye al programa de la coalición; documento no localizado.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional"
+        },
+        "6": {
+          "value": 2,
+          "source": "https://media.valenciaplaza.com/public/Attachment/2023/7/programa-electoral-compromis-23j-2023.pdf",
+          "locator": "Histórico 2023 · PDF p. 2; educación, medida 4",
+          "reason": "Oposición con matices: no elimina los conciertos pero los subordina a la red pública.",
+          "historical": true,
+          "sourceYear": 2023,
+          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa de Compromís para las generales del 23J de 2023 (la coalición concurrió con Sumar). Copia no oficial alojada por un medio.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional de un programa histórico"
         }
       },
       "exclude": []

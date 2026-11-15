@@ -23,6 +23,57 @@
       "documentVersion": null,
       "sha256": null,
       "notes": "Leída con la herramienta de lectura web. Recoge los ejes presentados por Alberto Ibáñez; no es un programa."
+    },
+    {
+      "id": "compromis-s02",
+      "url": "https://www.moncloa.com/2026/11/15/compromis-vivienda-alquiler-rodalia-3468406",
+      "publisher": "Moncloa.com",
+      "title": "Compromís plantea su plan de vivienda: intervenir el precio del alquiler, más Rodalia y blindar los servicios públicos",
+      "published": "2026-11-15",
+      "accessed": "2026-11-15",
+      "election": "Generales de España 2026",
+      "year": 2026,
+      "kind": "noticia",
+      "origin": "secundaria",
+      "hosting": "medio",
+      "historical": false,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Crónica de un acto de campaña en Xàtiva; no cita el programa por su título."
+    },
+    {
+      "id": "compromis-s03",
+      "url": "https://www.moncloa.com/2026/11/15/compromis-fondo-nivelacion-financiacion-autonomica-3468188",
+      "publisher": "Moncloa.com",
+      "title": "Compromís propone un fondo de nivelación de la financiación autonómica valenciana y frenar a los fondos buitre",
+      "published": "2026-11-15",
+      "accessed": "2026-11-15",
+      "election": "Generales de España 2026",
+      "year": 2026,
+      "kind": "noticia",
+      "origin": "secundaria",
+      "hosting": "medio",
+      "historical": false,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Resume medidas que el medio atribuye al programa de la coalición; documento no localizado."
+    },
+    {
+      "id": "compromis-s04",
+      "url": "https://media.valenciaplaza.com/public/Attachment/2023/7/programa-electoral-compromis-23j-2023.pdf",
+      "publisher": "Compromís (copia alojada por Valencia Plaza)",
+      "title": "12 ministerios, 12 propuestas · Programa electoral 23J (2023)",
+      "published": "2023-07",
+      "accessed": "2026-11-15",
+      "election": "Generales de España 2023",
+      "year": 2023,
+      "kind": "programa",
+      "origin": "primaria",
+      "hosting": "copia-archivo",
+      "historical": true,
+      "documentVersion": null,
+      "sha256": "0fd27db092bc2d001419b9d569bad58f0bd3595ac587309a54d4e2e8840877bb",
+      "notes": "Programa de Compromís para las generales del 23J de 2023 (la coalición concurrió con Sumar). Copia no oficial alojada por un medio."
     }
   ],
   "questions": {
@@ -40,17 +91,17 @@
       "replaces": null
     },
     "2": {
-      "status": "en-revision",
-      "position": null,
+      "status": "documentada",
+      "position": 5,
       "sourceIds": [
-        "compromis-s01"
+        "compromis-s02"
       ],
-      "locator": "EFE 09/11/2026 · eje vivienda",
-      "evidenceSummary": "Propone prohibir la compra de vivienda por fondos buitre y apostar por los alquileres indefinidos.",
-      "reason": "Medidas sobre propiedad y duración de contratos; no se menciona regular precios ni zonas tensionadas.",
-      "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "No responde a la afirmación sobre regulación de precios.",
+      "locator": "Moncloa.com 15/11/2026 · acto de Xàtiva",
+      "evidenceSummary": "Compromís defiende la intervención de los precios del alquiler.",
+      "reason": "Apoyo explícito a intervenir los precios del alquiler (no limita la medida a zonas tensionadas).",
+      "confidence": "media",
+      "reviewNeeded": false,
+      "reviewNote": null,
       "nextAction": null,
       "replaces": null
     },
@@ -94,13 +145,15 @@
       "replaces": null
     },
     "6": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "Sin propuestas sobre la enseñanza concertada en la fuente leída.",
-      "confidence": "baja",
+      "status": "documentada",
+      "position": 2,
+      "sourceIds": [
+        "compromis-s04"
+      ],
+      "locator": "PDF p. 2; educación, medida 4",
+      "evidenceSummary": "Modificar la normativa de conciertos educativos para que la red concertada sea «realmente subsidiaria de la pública» y prohibir ceder suelo público a centros privados.",
+      "reason": "Oposición con matices: no elimina los conciertos pero los subordina a la red pública.",
+      "confidence": "media",
       "reviewNeeded": false,
       "reviewNote": null,
       "nextAction": null,
@@ -120,17 +173,17 @@
       "replaces": null
     },
     "8": {
-      "status": "en-revision",
-      "position": null,
+      "status": "documentada",
+      "position": 4,
       "sourceIds": [
-        "compromis-s01"
+        "compromis-s03"
       ],
-      "locator": "EFE 09/11/2026 · eje trabajo",
-      "evidenceSummary": "Cita la reducción de la jornada laboral entre sus ejes programáticos.",
-      "reason": "No indica la cuantía ni si será sin reducción salarial.",
+      "locator": "Moncloa.com 15/11/2026 · economía y laboral",
+      "evidenceSummary": "Subida de salarios para recuperar poder adquisitivo y reducción de la jornada laboral.",
+      "reason": "Apoyo con matices: propone reducir la jornada junto a subidas salariales, sin detallar que se mantenga el salario.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "Lectura provisional favorable (4–5); falta el texto del programa.",
+      "reviewNeeded": false,
+      "reviewNote": null,
       "nextAction": null,
       "replaces": null
     },
@@ -287,7 +340,7 @@
     }
   ],
   "integration": {
-    "status": "integrado",
-    "commit": "3a56c4c988e0edd6164982d94be99cbbf1c707c7"
+    "status": "pendiente",
+    "commit": null
   }
 }
