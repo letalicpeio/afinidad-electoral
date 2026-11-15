@@ -518,10 +518,12 @@
     }
   ],
   "integration": {
-    "status": "pendiente",
-    "commit": null,
+    "status": "integrado",
+    "commit": "3887f415554ed40105fac10f9a8ca75b4eec057d",
     "scope": "Corrección de fuentes de las diez preguntas sin-evidencia; revisión de concordancia con data.json 0.5.7",
-    "reviewedBaseCommit": "762f6c924529a8badafb8809728af2162a2bb288"
+    "reviewedBaseCommit": "762f6c924529a8badafb8809728af2162a2bb288",
+    "verified": "2026-11-15",
+    "publishedVersion": "0.5.7"
   },
   "integrationHistory": [
     {
