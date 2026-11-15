@@ -151,6 +151,12 @@ function next() {
   renderQuestion();
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
+// Abre el PDF directamente en la página citada cuando el localizador la indica («PDF p. 49»).
+const sourceHref = (d) => {
+  const m = /(?:^|[·; ])PDF pp?\.\s*(\d+)/i.exec(d.locator || "");
+  return m && /\.pdf(\?|$)/i.test(d.source) && !/impreso/i.test(d.locator) && !d.source.includes("#")
+    ? `${d.source}#page=${m[1]}` : d.source;
+};
 let onlyDoc = false;
 const posOf = (party) => onlyDoc
   ? Object.fromEntries(Object.entries(party.positions).filter(([, p]) => !p.inferred))
@@ -270,7 +276,7 @@ function renderResults(keep = false) {
           if (d.inferred) kind.append(document.createTextNode("sin texto del partido sobre este tema"));
           else {
             const link = el("a", `${d.locator} ↗`);
-            link.href = d.source;
+            link.href = sourceHref(d);
             link.target = "_blank";
             link.rel = "noopener noreferrer";
             kind.append(link);
