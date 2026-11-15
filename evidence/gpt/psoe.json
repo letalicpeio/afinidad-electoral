@@ -6,7 +6,7 @@
   "baseCommit": "4f7fbd9ab5b675cf5d13114a62c3c9f89d3c8b1f",
   "reviewed": "2026-11-15",
   "prepared": "2026-11-15",
-  "status": "en-curso",
+  "status": "revisado",
   "sources": [
     {
       "id": "psoe-s01",
@@ -92,35 +92,54 @@
       "documentVersion": null,
       "sha256": null,
       "notes": "Importado de data.json; clasificación provisional. No implica nueva consulta ni verificación de metadatos. Fuente oficial: anuncio de precampaña, no programa completo."
+    },
+    {
+      "id": "psoe-s06",
+      "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26-1.pdf",
+      "publisher": "PSOE",
+      "title": "Programa electoral del PSOE para el 29N (elecciones generales 2026)",
+      "published": "2026-11-15",
+      "accessed": "2026-11-15",
+      "election": "Generales de España 2026",
+      "year": 2026,
+      "kind": "programa",
+      "origin": "primaria",
+      "hosting": "oficial",
+      "historical": false,
+      "documentVersion": null,
+      "sha256": "e9c8341339538b550641b6ddb1c3fdfeef7fda6a8a1a4be9e8d6a44cbc229bf5",
+      "notes": "PDF oficial enlazado en la noticia de psoe.es del 15/11/2026; 11.983.706 bytes. Descargado desde un ejecutor de GitHub porque el servidor bloquea la descarga directa desde el equipo local. Numeración de páginas y medidas según el propio PDF."
     }
   ],
   "questions": {
     "1": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "No verificada: las fuentes de 2023 del PSOE están bloqueadas para clientes automatizados y no existe programa de 2026 publicado. No se afirma ausencia de propuesta.",
-      "confidence": "baja",
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "psoe-s06"
+      ],
+      "locator": "PDF p. 49; medida 134",
+      "evidenceSummary": "Convertir el mínimo exento por descendiente del IRPF en crédito reembolsable para 2 millones de hogares de renta media y baja y asegurar que las subidas del SMI no impliquen más impuestos.",
+      "reason": "Apoyo con matices: rebaja dirigida a rentas bajas y medias, no una reducción general de impuestos sobre el trabajo.",
+      "confidence": "media",
       "reviewNeeded": false,
       "reviewNote": null,
-      "nextAction": "Abrir el PDF de 2023 desde un navegador convencional para verificar y completar los huecos.",
+      "nextAction": null,
       "replaces": null
     },
     "2": {
       "status": "documentada",
       "position": 5,
       "sourceIds": [
-        "psoe-s01"
+        "psoe-s06"
       ],
-      "locator": "19/03/2026 · iniciativa del Grupo Socialista sobre vivienda social",
-      "evidenceSummary": "Propone reforzar la intervención en zonas tensionadas mediante la Ley de Vivienda y sus límites al alquiler.",
-      "reason": "Propone reforzar la intervención en zonas tensionadas mediante la Ley de Vivienda y sus límites al alquiler.",
+      "locator": "PDF p. 32; medidas 77–78",
+      "evidenceSummary": "Financiar inspecciones para garantizar el cumplimiento de la normativa de precios del alquiler en las zonas declaradas tensionadas y limitar allí la compra especulativa.",
+      "reason": "Mantiene y refuerza el régimen de regulación de precios en zonas tensionadas.",
       "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta.  [Importada; no reverificada por Claude en el traspaso.]",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 5,
@@ -133,19 +152,19 @@
       }
     },
     "3": {
-      "status": "documentada",
-      "position": 5,
+      "status": "en-revision",
+      "position": null,
       "sourceIds": [
-        "psoe-s02"
+        "psoe-s06"
       ],
-      "locator": "Histórico 2023 · PDF p. 255 · Migración y asilo",
-      "evidenceSummary": "Defiende las figuras de arraigo y su ampliación.",
-      "reason": "Defiende las figuras de arraigo y su ampliación.",
-      "confidence": "media",
+      "locator": "PDF p. 92; medida 387",
+      "evidenceSummary": "Propone ampliar las vías legales para residir y trabajar y simplificar trámites, pero el programa no menciona arraigo ni regularizaciones.",
+      "reason": "No se puntúa.",
+      "confidence": "baja",
       "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta.  [Importada; no reverificada por Claude en el traspaso.]",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
-      "replaces": null,
+      "reviewNote": "El texto habla de vías legales y trámites, no de arraigo ni de regularización; el antecedente de 2023 (p. 255) no se traslada porque hay programa oficial de 2026.",
+      "nextAction": "Contrastar con el articulado de la reforma de extranjería si se publica.",
+      "replaces": "Línea base importada: valor 5; fuente https://www.psoe.es/media-content/2023/07/PROGRAMA_ELECTORAL-GENERALES-2023.pdf; localizador «Histórico 2023 · PDF p. 255 · Migración y asilo»",
       "baselinePosition": {
         "value": 5,
         "source": "https://www.psoe.es/media-content/2023/07/PROGRAMA_ELECTORAL-GENERALES-2023.pdf",
@@ -159,16 +178,18 @@
       }
     },
     "4": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "No verificada: las fuentes de 2023 del PSOE están bloqueadas para clientes automatizados y no existe programa de 2026 publicado. No se afirma ausencia de propuesta.",
-      "confidence": "baja",
+      "status": "documentada",
+      "position": 2,
+      "sourceIds": [
+        "psoe-s06"
+      ],
+      "locator": "PDF p. 49; medida 138",
+      "evidenceSummary": "Limitar la privatización de la sanidad estableciendo la gestión directa como modalidad preferente en la prestación sanitaria.",
+      "reason": "Oposición con matices: no prohíbe la colaboración con centros privados, pero la limita y prioriza la gestión directa. Sólo cubre la sanidad.",
+      "confidence": "media",
       "reviewNeeded": false,
       "reviewNote": null,
-      "nextAction": "Abrir el PDF de 2023 desde un navegador convencional para verificar y completar los huecos.",
+      "nextAction": null,
       "replaces": null
     },
     "5": {
@@ -177,11 +198,11 @@
       "sourceIds": [],
       "locator": null,
       "evidenceSummary": null,
-      "reason": "No verificada: las fuentes de 2023 del PSOE están bloqueadas para clientes automatizados y no existe programa de 2026 publicado. No se afirma ausencia de propuesta.",
+      "reason": "El programa no propone endurecer las penas de prisión con carácter general; sólo menciona reformas penales concretas (deepfakes sexuales, terapias de conversión).",
       "confidence": "baja",
       "reviewNeeded": false,
       "reviewNote": null,
-      "nextAction": "Abrir el PDF de 2023 desde un navegador convencional para verificar y completar los huecos.",
+      "nextAction": null,
       "replaces": null
     },
     "6": {
@@ -190,11 +211,11 @@
       "sourceIds": [],
       "locator": null,
       "evidenceSummary": null,
-      "reason": "No verificada: las fuentes de 2023 del PSOE están bloqueadas para clientes automatizados y no existe programa de 2026 publicado. No se afirma ausencia de propuesta.",
+      "reason": "El programa no se pronuncia sobre la financiación de los centros concertados.",
       "confidence": "baja",
       "reviewNeeded": false,
       "reviewNote": null,
-      "nextAction": "Abrir el PDF de 2023 desde un navegador convencional para verificar y completar los huecos.",
+      "nextAction": null,
       "replaces": null
     },
     "7": {
@@ -203,26 +224,26 @@
       "sourceIds": [],
       "locator": null,
       "evidenceSummary": null,
-      "reason": "No verificada: las fuentes de 2023 del PSOE están bloqueadas para clientes automatizados y no existe programa de 2026 publicado. No se afirma ausencia de propuesta.",
+      "reason": "El programa plantea cooperación, Senado territorial y conferencias sectoriales («el reto no es recentralizar ni fragmentar») pero no propone transferir nuevas competencias.",
       "confidence": "baja",
       "reviewNeeded": false,
       "reviewNote": null,
-      "nextAction": "Abrir el PDF de 2023 desde un navegador convencional para verificar y completar los huecos.",
+      "nextAction": null,
       "replaces": null
     },
     "8": {
       "status": "documentada",
       "position": 5,
       "sourceIds": [
-        "psoe-s03"
+        "psoe-s06"
       ],
-      "locator": "Histórico 2023 · Acuerdo PSOE–Sumar · PDF p. 11 · Jornada laboral",
-      "evidenceSummary": "Compromete la reducción de la jornada máxima legal a 37,5 horas manteniendo el salario.",
-      "reason": "Compromete la reducción de la jornada máxima legal a 37,5 horas manteniendo el salario.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta.  [Importada; no reverificada por Claude en el traspaso.]",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "locator": "PDF p. 41; medida 108",
+      "evidenceSummary": "Completar la reducción de la jornada a 37,5 horas e incentivar la negociación colectiva hacia las 35, sin perder salario.",
+      "reason": "Apoyo explícito, con calendario de aplicación.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 5,
@@ -240,15 +261,15 @@
       "status": "documentada",
       "position": 1,
       "sourceIds": [
-        "psoe-s02"
+        "psoe-s06"
       ],
-      "locator": "Histórico 2023 · PDF pp. 74–75 · Plan de residuos radiactivos",
-      "evidenceSummary": "Prevé desmantelar progresivamente las centrales nucleares.",
-      "reason": "Prevé desmantelar progresivamente las centrales nucleares.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta.  [Importada; no reverificada por Claude en el traspaso.]",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "locator": "PDF p. 66; medida 240",
+      "evidenceSummary": "Mantener el calendario de cierre de las centrales nucleares hasta 2035.",
+      "reason": "Oposición a mantener la energía nuclear más allá del calendario previsto.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 1,
@@ -266,15 +287,15 @@
       "status": "documentada",
       "position": 5,
       "sourceIds": [
-        "psoe-s04"
+        "psoe-s06"
       ],
-      "locator": "El País · 15/10/2026 · declaraciones de Pedro Sánchez en Bruselas",
-      "evidenceSummary": "Sánchez se compromete expresamente a revalorizar las pensiones conforme al IPC.",
-      "reason": "Sánchez se compromete expresamente a revalorizar las pensiones conforme al IPC.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta.  [Importada; no reverificada por Claude en el traspaso.]",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "locator": "PDF p. 40; medida 100",
+      "evidenceSummary": "Blindar constitucionalmente el sistema público de pensiones y su revalorización conforme al IPC.",
+      "reason": "Apoyo explícito y reforzado.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 5,
@@ -290,15 +311,15 @@
       "status": "documentada",
       "position": 5,
       "sourceIds": [
-        "psoe-s02"
+        "psoe-s06"
       ],
-      "locator": "Histórico 2023 · PDF p. 239 · Seguridad e igualdad",
-      "evidenceSummary": "Defiende el marco específico contra la violencia de género y propone ampliar los agentes y herramientas de VioGén.",
-      "reason": "Defiende el marco específico contra la violencia de género y propone ampliar los agentes y herramientas de VioGén.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta.  [Importada; no reverificada por Claude en el traspaso.]",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "locator": "PDF p. 82; medida 335; p. 84, medida 350",
+      "evidenceSummary": "Ley Orgánica contra la Violencia Vicaria como manifestación de la violencia de género e incorporación de las violencias digitales a la Ley Integral.",
+      "reason": "Mantiene y amplía la legislación específica.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 5,
@@ -316,15 +337,15 @@
       "status": "documentada",
       "position": 5,
       "sourceIds": [
-        "psoe-s02"
+        "psoe-s06"
       ],
-      "locator": "Histórico 2023 · PDF p. 259 · Unión Europea",
-      "evidenceSummary": "Propone decisiones europeas de política exterior y seguridad por mayoría cualificada.",
-      "reason": "Propone decisiones europeas de política exterior y seguridad por mayoría cualificada.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta.  [Importada; no reverificada por Claude en el traspaso.]",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "locator": "PDF p. 109; medidas 472–473",
+      "evidenceSummary": "Hacer de la UE una auténtica unión política y fiscal y superar los bloqueos de la unanimidad.",
+      "reason": "Apoyo explícito a mayor integración política.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 5,
@@ -340,18 +361,18 @@
     },
     "13": {
       "status": "documentada",
-      "position": 5,
+      "position": 2,
       "sourceIds": [
-        "psoe-s02"
+        "psoe-s06"
       ],
-      "locator": "Histórico 2023 · PDF p. 270 · Defensa",
-      "evidenceSummary": "Propone reforzar el presupuesto de Defensa para cumplir el incremento de inversiones comprometido internacionalmente.",
-      "reason": "Propone reforzar el presupuesto de Defensa para cumplir el incremento de inversiones comprometido internacionalmente.",
+      "locator": "PDF p. 105, medida 455; p. 110, medida 482",
+      "evidenceSummary": "Rechaza elevar el gasto militar al 5 % del PIB; propone mejorar la coordinación y la eficiencia del gasto en defensa y reforzar la defensa europea común.",
+      "reason": "Oposición con matices: no pide aumentar el gasto, aunque reafirma el compromiso con la defensa.",
       "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta.  [Importada; no reverificada por Claude en el traspaso.]",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
-      "replaces": null,
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": "Línea base importada: valor 5; fuente https://www.psoe.es/media-content/2023/07/PROGRAMA_ELECTORAL-GENERALES-2023.pdf; localizador «Histórico 2023 · PDF p. 270 · Defensa»",
       "baselinePosition": {
         "value": 5,
         "source": "https://www.psoe.es/media-content/2023/07/PROGRAMA_ELECTORAL-GENERALES-2023.pdf",
@@ -370,26 +391,26 @@
       "sourceIds": [],
       "locator": null,
       "evidenceSummary": null,
-      "reason": "No verificada: las fuentes de 2023 del PSOE están bloqueadas para clientes automatizados y no existe programa de 2026 publicado. No se afirma ausencia de propuesta.",
+      "reason": "El programa no menciona la monarquía ni la república.",
       "confidence": "baja",
       "reviewNeeded": false,
       "reviewNote": null,
-      "nextAction": "Abrir el PDF de 2023 desde un navegador convencional para verificar y completar los huecos.",
+      "nextAction": null,
       "replaces": null
     },
     "15": {
       "status": "documentada",
       "position": 5,
       "sourceIds": [
-        "psoe-s05"
+        "psoe-s06"
       ],
-      "locator": "24/10/2026 · anuncio de Pedro Sánchez en Granada",
-      "evidenceSummary": "Se compromete a proteger el derecho al aborto en la Constitución durante la próxima legislatura.",
-      "reason": "Se compromete a proteger el derecho al aborto en la Constitución durante la próxima legislatura.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta.  [Importada; no reverificada por Claude en el traspaso.]",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "locator": "PDF p. 81; medida 327",
+      "evidenceSummary": "Blindar constitucionalmente el derecho a la interrupción voluntaria del embarazo (reforma del artículo 43).",
+      "reason": "Apoyo explícito y reforzado.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 5,
@@ -407,11 +428,11 @@
       "sourceIds": [],
       "locator": null,
       "evidenceSummary": null,
-      "reason": "No verificada: las fuentes de 2023 del PSOE están bloqueadas para clientes automatizados y no existe programa de 2026 publicado. No se afirma ausencia de propuesta.",
+      "reason": "El programa no menciona los indultos.",
       "confidence": "baja",
       "reviewNeeded": false,
       "reviewNote": null,
-      "nextAction": "Abrir el PDF de 2023 desde un navegador convencional para verificar y completar los huecos.",
+      "nextAction": null,
       "replaces": null
     },
     "17": {
@@ -420,26 +441,26 @@
       "sourceIds": [],
       "locator": null,
       "evidenceSummary": null,
-      "reason": "No verificada: las fuentes de 2023 del PSOE están bloqueadas para clientes automatizados y no existe programa de 2026 publicado. No se afirma ausencia de propuesta.",
+      "reason": "El programa habla de vías legales, igualdad de trato y no discriminación, pero no del acceso de residentes extranjeros a prestaciones con los mismos requisitos económicos.",
       "confidence": "baja",
       "reviewNeeded": false,
       "reviewNote": null,
-      "nextAction": "Abrir el PDF de 2023 desde un navegador convencional para verificar y completar los huecos.",
+      "nextAction": null,
       "replaces": null
     },
     "18": {
       "status": "documentada",
       "position": 5,
       "sourceIds": [
-        "psoe-s02"
+        "psoe-s06"
       ],
-      "locator": "Histórico 2023 · PDF p. 30 · Empresas y autónomos",
-      "evidenceSummary": "Propone reducir las cargas administrativas empresariales.",
-      "reason": "Propone reducir las cargas administrativas empresariales.",
+      "locator": "PDF p. 15; medida 5",
+      "evidenceSummary": "Reducir la carga burocrática para que las empresas operen en todo el territorio y crear un supervisor independiente de las cargas administrativas.",
+      "reason": "Apoyo explícito a reducir obligaciones administrativas de las empresas.",
       "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Registro existente importado; pendiente de revisión de metadatos y correspondencia exacta.  [Importada; no reverificada por Claude en el traspaso.]",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 5,
@@ -479,6 +500,16 @@
       "date": "2026-11-15",
       "urlOrQuery": "Búsquedas web «PSOE programa electoral 29N 2026»",
       "outcome": "Los medios indican a 13/11/2026 que el programa no está publicado."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "Traspaso del usuario",
+      "outcome": "Traspaso acordado por el usuario (15/11/2026): ficha completada por Claude a partir del esqueleto preparado por GPT."
+    },
+    {
+      "date": "2026-11-15",
+      "urlOrQuery": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26-1.pdf",
+      "outcome": "Programa oficial del 29N localizado y leído completo (texto extraído con pdftotext). Sustituye a los antecedentes de 2023 y a las declaraciones de prensa."
     },
     {
       "date": "2026-11-15",

@@ -1,5 +1,5 @@
 {
-  "version": "0.5.7",
+  "version": "0.5.8",
   "date": "2026-11-15",
   "election": "Congreso · 29 de noviembre de 2026",
   "questions": [
@@ -1584,11 +1584,10 @@
       "positions": {
         "2": {
           "value": 5,
-          "source": "https://www.psoe.es/congreso/noticias-congreso/el-grupo-socialista-registra-una-iniciativa-para-blindar-la-vivienda-social-frente-a-la-especulacion/",
-          "locator": "19/03/2026 · iniciativa del Grupo Socialista sobre vivienda social",
-          "reason": "Propone reforzar la intervención en zonas tensionadas mediante la Ley de Vivienda y sus límites al alquiler.",
-          "sourceNote": "Fuente oficial: iniciativa parlamentaria de 2026; no constituye un programa completo de campaña.",
-          "reviewed": "2026-11-14",
+          "source": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26-1.pdf",
+          "locator": "PDF p. 32; medidas 77–78",
+          "reason": "Mantiene y refuerza el régimen de regulación de precios en zonas tensionadas.",
+          "reviewed": "2026-11-15",
           "coding": "Interpretación editorial provisional"
         },
         "3": {
@@ -1596,95 +1595,90 @@
           "source": "https://www.psoe.es/media-content/2023/07/PROGRAMA_ELECTORAL-GENERALES-2023.pdf",
           "locator": "Histórico 2023 · PDF p. 255 · Migración y asilo",
           "reason": "Defiende las figuras de arraigo y su ampliación.",
-          "sourceYear": 2023,
-          "historical": true,
-          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa oficial de generales de julio de 2023, enlazado en el archivo del PSOE.",
-          "reviewed": "2026-11-14",
-          "coding": "Interpretación editorial provisional de un programa histórico"
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional de un programa histórico",
+          "scoreable": false,
+          "reviewNote": "Retirada del cálculo el 2026-11-15: la revisión no sostiene esta posición. El texto habla de vías legales y trámites, no de arraigo ni de regularización; el antecedente de 2023 (p. 255) no se traslada porque hay programa oficial de 2026. Antecedente de 2023 retirado: hay programa oficial de 2026."
         },
         "8": {
           "value": 5,
-          "source": "https://www.psoe.es/media-content/2023/10/ACUERDO_GOBIERNO_COALICIO%CC%81N_2023-DEF.pdf",
-          "locator": "Histórico 2023 · Acuerdo PSOE–Sumar · PDF p. 11 · Jornada laboral",
-          "reason": "Compromete la reducción de la jornada máxima legal a 37,5 horas manteniendo el salario.",
-          "reviewed": "2026-11-14",
-          "coding": "Interpretación editorial provisional",
-          "historical": true,
-          "sourceYear": 2023,
-          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Acuerdo de gobierno firmado por PSOE y Sumar, no programa electoral de 2026. Se atribuye a PSOE por su condición de firmante, sin extenderlo a Frente Amplio ni Podemos."
+          "source": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26-1.pdf",
+          "locator": "PDF p. 41; medida 108",
+          "reason": "Apoyo explícito, con calendario de aplicación.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional"
         },
         "9": {
           "value": 1,
-          "source": "https://www.psoe.es/media-content/2023/07/PROGRAMA_ELECTORAL-GENERALES-2023.pdf",
-          "locator": "Histórico 2023 · PDF pp. 74–75 · Plan de residuos radiactivos",
-          "reason": "Prevé desmantelar progresivamente las centrales nucleares.",
-          "sourceYear": 2023,
-          "historical": true,
-          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa oficial de generales de julio de 2023, enlazado en el archivo del PSOE.",
-          "reviewed": "2026-11-14",
-          "coding": "Interpretación editorial provisional de un programa histórico"
+          "source": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26-1.pdf",
+          "locator": "PDF p. 66; medida 240",
+          "reason": "Oposición a mantener la energía nuclear más allá del calendario previsto.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional"
         },
         "10": {
           "value": 5,
-          "source": "https://elpais.com/espana/elecciones-generales/2026-10-15/cuerpo-asegura-que-el-gobierno-quiere-subir-las-pensiones-despues-de-las-elecciones.html",
-          "locator": "El País · 15/10/2026 · declaraciones de Pedro Sánchez en Bruselas",
-          "reason": "Sánchez se compromete expresamente a revalorizar las pensiones conforme al IPC.",
-          "sourceNote": "Fuente secundaria. Declaración del presidente y candidato en precampaña; no sustituye al programa electoral completo.",
-          "reviewed": "2026-11-14",
+          "source": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26-1.pdf",
+          "locator": "PDF p. 40; medida 100",
+          "reason": "Apoyo explícito y reforzado.",
+          "reviewed": "2026-11-15",
           "coding": "Interpretación editorial provisional"
         },
         "11": {
           "value": 5,
-          "source": "https://www.psoe.es/media-content/2023/07/PROGRAMA_ELECTORAL-GENERALES-2023.pdf",
-          "locator": "Histórico 2023 · PDF p. 239 · Seguridad e igualdad",
-          "reason": "Defiende el marco específico contra la violencia de género y propone ampliar los agentes y herramientas de VioGén.",
-          "historical": true,
-          "sourceYear": 2023,
-          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa oficial de generales de julio de 2023.",
-          "reviewed": "2026-11-14",
-          "coding": "Interpretación editorial provisional de un programa histórico"
+          "source": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26-1.pdf",
+          "locator": "PDF p. 82; medida 335; p. 84, medida 350",
+          "reason": "Mantiene y amplía la legislación específica.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional"
         },
         "12": {
           "value": 5,
-          "source": "https://www.psoe.es/media-content/2023/07/PROGRAMA_ELECTORAL-GENERALES-2023.pdf",
-          "locator": "Histórico 2023 · PDF p. 259 · Unión Europea",
-          "reason": "Propone decisiones europeas de política exterior y seguridad por mayoría cualificada.",
-          "sourceYear": 2023,
-          "historical": true,
-          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa oficial de generales de julio de 2023, enlazado en el archivo del PSOE.",
-          "reviewed": "2026-11-14",
-          "coding": "Interpretación editorial provisional de un programa histórico"
+          "source": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26-1.pdf",
+          "locator": "PDF p. 109; medidas 472–473",
+          "reason": "Apoyo explícito a mayor integración política.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional"
         },
         "13": {
-          "value": 5,
-          "source": "https://www.psoe.es/media-content/2023/07/PROGRAMA_ELECTORAL-GENERALES-2023.pdf",
-          "locator": "Histórico 2023 · PDF p. 270 · Defensa",
-          "reason": "Propone reforzar el presupuesto de Defensa para cumplir el incremento de inversiones comprometido internacionalmente.",
-          "historical": true,
-          "sourceYear": 2023,
-          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa oficial de generales de julio de 2023.",
-          "reviewed": "2026-11-14",
-          "coding": "Interpretación editorial provisional de un programa histórico"
+          "value": 2,
+          "source": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26-1.pdf",
+          "locator": "PDF p. 105, medida 455; p. 110, medida 482",
+          "reason": "Oposición con matices: no pide aumentar el gasto, aunque reafirma el compromiso con la defensa.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional"
         },
         "15": {
           "value": 5,
-          "source": "https://www.psoe.es/actualidad/noticias-actualidad/pedro-sanchez-frente-a-los-recortes-de-feijoo-y-abascal-blindaremos-el-derecho-al-aborto-de-las-mujeres-en-la-constitucion/",
-          "locator": "24/10/2026 · anuncio de Pedro Sánchez en Granada",
-          "reason": "Se compromete a proteger el derecho al aborto en la Constitución durante la próxima legislatura.",
-          "sourceNote": "Fuente oficial: anuncio de precampaña, no programa completo.",
-          "reviewed": "2026-11-14",
+          "source": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26-1.pdf",
+          "locator": "PDF p. 81; medida 327",
+          "reason": "Apoyo explícito y reforzado.",
+          "reviewed": "2026-11-15",
           "coding": "Interpretación editorial provisional"
         },
         "18": {
           "value": 5,
-          "source": "https://www.psoe.es/media-content/2023/07/PROGRAMA_ELECTORAL-GENERALES-2023.pdf",
-          "locator": "Histórico 2023 · PDF p. 30 · Empresas y autónomos",
-          "reason": "Propone reducir las cargas administrativas empresariales.",
-          "sourceYear": 2023,
-          "historical": true,
-          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa oficial de generales de julio de 2023, enlazado en el archivo del PSOE.",
-          "reviewed": "2026-11-14",
-          "coding": "Interpretación editorial provisional de un programa histórico"
+          "source": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26-1.pdf",
+          "locator": "PDF p. 15; medida 5",
+          "reason": "Apoyo explícito a reducir obligaciones administrativas de las empresas.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional"
+        },
+        "1": {
+          "value": 4,
+          "source": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26-1.pdf",
+          "locator": "PDF p. 49; medida 134",
+          "reason": "Apoyo con matices: rebaja dirigida a rentas bajas y medias, no una reducción general de impuestos sobre el trabajo.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional"
+        },
+        "4": {
+          "value": 2,
+          "source": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26-1.pdf",
+          "locator": "PDF p. 49; medida 138",
+          "reason": "Oposición con matices: no prohíbe la colaboración con centros privados, pero la limita y prioriza la gestión directa. Sólo cubre la sanidad.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional"
         }
       },
       "exclude": [

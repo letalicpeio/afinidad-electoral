@@ -74,6 +74,8 @@ Ampliación 0.5.2: Podemos pasa de tres a siete posiciones usando el PDF de euro
 
 Ampliación 0.5.3: PP incorpora Defensa e integración europea del programa de 2026; PSOE incorpora jornada máxima sin reducción salarial del acuerdo de gobierno de 2023, como firmante. No se atribuye ese acuerdo a Frente Amplio ni Podemos.
 
+Integración 0.5.8 (15/11/2026): PSOE pasa a programa oficial de 2026 (psoe.es, publicado ese día): 11 posiciones documentadas, 1 en revisión (arraigo, antecedente de 2023 retirado) y 6 sin evidencia. PSOE 13 (gasto en defensa) baja de 5 a 2 porque el programa rechaza el 5 % del PIB.
+
 Integración 0.5.7 (15/11/2026, a petición del usuario): se aplican las evidencias revisadas de `evidence/claude` y `evidence/gpt` (35 posiciones nuevas o modificadas y 1 retirada del cálculo: ERC 18). Se añade PCTE con antecedente de 2023 marcado como tal. Se omiten D21 12 (la ficha sólo tiene prensa y el partido tiene programa oficial) y Teruel Existe 11 (fuente de resumen distinta del programa enlazado).
 
 ## Jerarquía de la evidencia

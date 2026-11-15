@@ -914,12 +914,12 @@
    ],
    "website": "https://psoe.es/",
    "program": {
-    "status": "resumen",
-    "url": "https://www.psoe.es/actualidad/noticias-actualidad/pedro-sanchez-frente-a-los-recortes-de-feijoo-y-abascal-blindaremos-el-derecho-al-aborto-de-las-mujeres-en-la-constitucion/",
-    "title": "Anuncio oficial de precampaña sobre el derecho al aborto",
+    "status": "oficial",
+    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26-1.pdf",
+    "title": "Programa electoral del PSOE para el 29N (2026)",
     "official": true,
-    "checked": "2026-11-14",
-    "note": "Diez posiciones documentadas: tres de 2026, seis del programa oficial de 2023 y una del acuerdo PSOE–Sumar de 2023 firmado por PSOE. Los antecedentes se identifican y puntúan provisionalmente; no acreditan compromisos actuales."
+    "checked": "2026-11-15",
+    "note": "Programa oficial de 2026 publicado en psoe.es el 15/11/2026 y revisado completo. Las posiciones proceden sólo de este documento; los antecedentes de 2023 y las declaraciones de prensa quedan fuera del cálculo."
    },
    "dataId": "psoe"
   },
