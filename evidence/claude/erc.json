@@ -23,6 +23,23 @@
       "documentVersion": null,
       "sha256": "61728d162a6e88d492d44a0b0994effb31f9e4abb85ebf8aea715d870a9b2e04",
       "notes": "PDF del dominio del partido (300 KB, 49 páginas, en catalán), con medidas numeradas. Su contenido es idéntico, byte a byte, a la copia alojada por Betevé usada antes en el catálogo (mismo SHA-256). Las páginas citadas son las del PDF."
+    },
+    {
+      "id": "erc-s02",
+      "url": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
+      "publisher": "Esquerra Republicana",
+      "title": "Programa electoral · Eleccions generals 2023",
+      "published": "2023",
+      "accessed": "2026-11-15",
+      "election": "Generales de España 2023",
+      "year": 2023,
+      "kind": "programa",
+      "origin": "primaria",
+      "hosting": "oficial",
+      "historical": true,
+      "documentVersion": null,
+      "sha256": "760db25e48422b74a9b0c3172cab16cf39d010345849e50b921ff8bf61be2854",
+      "notes": "Programa de ERC para las generales de 2023, leído completo; se usa como antecedente sólo en temas que su programa de 2026 no trata."
     }
   ],
   "questions": {
@@ -42,28 +59,30 @@
       "replaces": null
     },
     "2": {
-      "status": "en-revision",
-      "position": null,
+      "status": "documentada",
+      "position": 5,
       "sourceIds": [
-        "erc-s01"
+        "erc-s02"
       ],
-      "locator": "PDF p. 18–19; apartado «Pla de xoc sobre l’habitatge» y medidas 56–60",
-      "evidenceSummary": "Pide traspasar a la Generalitat los pisos de la Sareb, habilitar una ley de arrendamientos urbanos catalana y gravar los usos turísticos y las segundas residencias.",
-      "reason": "Las medidas apuntan a competencias y oferta pública de vivienda; el texto no propone topar ni regular precios de alquiler en zonas tensionadas.",
-      "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "Posible apoyo indirecto (LAU catalana), pero sin medida explícita de regulación de precios; no se puntúa.",
+      "locator": "PDF p. 52; vivienda",
+      "evidenceSummary": "Defender la limitación y reducción de los precios del alquiler y mantener la regulación de precios de alquiler.",
+      "reason": "Apoyo explícito a regular los precios del alquiler.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
       "nextAction": null,
       "replaces": null
     },
     "3": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "El programa sólo toca la legislación de extranjería para garantizar derechos a víctimas de trata (medida 89); no trata arraigo ni regularizaciones. Condena la criminalización de las personas migrantes en el preámbulo.",
-      "confidence": "baja",
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "erc-s02"
+      ],
+      "locator": "PDF p. 41; regularización de trabajo y residencia",
+      "evidenceSummary": "Nuevas vías de regularización para personas migrantes, no sólo mediante contrato de trabajo.",
+      "reason": "Apoyo con matices: propone ampliar las vías de regularización sin citar el arraigo.",
+      "confidence": "media",
       "reviewNeeded": false,
       "reviewNote": null,
       "nextAction": null,
@@ -203,13 +222,15 @@
       "replaces": null
     },
     "13": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "Pide una defensa europea autónoma de la OTAN y un embargo de armas a Israel, pero no se pronuncia sobre aumentar el gasto público en defensa.",
-      "confidence": "baja",
+      "status": "documentada",
+      "position": 1,
+      "sourceIds": [
+        "erc-s02"
+      ],
+      "locator": "PDF p. 28; cooperación, gasto militar",
+      "evidenceSummary": "Considera «innecesario» el aumento del gasto militar del Gobierno y critica que el Estado supere el objetivo de la OTAN (2,17 % del PIB).",
+      "reason": "Oposición clara a aumentar el gasto en defensa.",
+      "confidence": "media",
       "reviewNeeded": false,
       "reviewNote": null,
       "nextAction": null,
@@ -231,17 +252,17 @@
       "replaces": null
     },
     "15": {
-      "status": "en-revision",
-      "position": null,
+      "status": "documentada",
+      "position": 5,
       "sourceIds": [
-        "erc-s01"
+        "erc-s02"
       ],
-      "locator": "PDF p. 23; preámbulo del apartado de igualdad",
-      "evidenceSummary": "Propone «garantir els drets sexuals i reproductius» y combatir los retrocesos de derechos.",
-      "reason": "No menciona el aborto ni su regulación; es una declaración general.",
-      "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "Lectura provisional favorable (4–5), sin referencia expresa al aborto.",
+      "locator": "PDF p. 44; igualdad",
+      "evidenceSummary": "Garantizar la aplicación efectiva y generalizada de la legislación sobre aborto (Ley Orgánica 1/2023) y el acceso universal a la atención.",
+      "reason": "Apoyo explícito a mantener y garantizar el derecho legal al aborto.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
       "nextAction": null,
       "replaces": null
     },

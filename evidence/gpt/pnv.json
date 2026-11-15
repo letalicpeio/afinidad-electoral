@@ -41,6 +41,23 @@
       "documentVersion": null,
       "sha256": "46fec3a017cdc5c4e506fa5e228b97690071d5a03dfd3d8128392aa20f57d132",
       "notes": "PDF de 52 páginas enlazado desde el comparador RTVE 23J. Consulta de apartados y búsqueda textual; ausencia de coincidencia no acredita postura política."
+    },
+    {
+      "id": "pnv-s03",
+      "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+      "publisher": "EAJ-PNV",
+      "title": "Con voz propia · Programa electoral 23-J (2023)",
+      "published": "2023",
+      "accessed": "2026-11-15",
+      "election": "Generales de España 2023",
+      "year": 2023,
+      "kind": "programa",
+      "origin": "primaria",
+      "hosting": "oficial",
+      "historical": true,
+      "documentVersion": null,
+      "sha256": "46fec3a017cdc5c4e506fa5e228b97690071d5a03dfd3d8128392aa20f57d132",
+      "notes": "Programa del PNV para las generales de 2023, leído completo; se usa como antecedente sólo en temas que su programa de 2026 no trata."
     }
   ],
   "questions": {
@@ -95,18 +112,18 @@
       ]
     },
     "3": {
-      "status": "en-revision",
-      "position": null,
+      "status": "documentada",
+      "position": 4,
       "sourceIds": [
-        "pnv-s01"
+        "pnv-s03"
       ],
-      "locator": "pág. 25, medida 09",
-      "evidenceSummary": "Propone avanzar en los procesos de regularización previstos en la legislación para quienes cumplen los requisitos; no menciona expresamente el arraigo.",
-      "reason": "Propone avanzar en los procesos de regularización previstos en la legislación para quienes cumplen los requisitos; no menciona expresamente el arraigo.",
+      "locator": "PDF p. 34; trabajadores migrantes",
+      "evidenceSummary": "Proponer que las personas migrantes con contrato de trabajo no necesiten pasar por el proceso de arraigo vigente.",
+      "reason": "Apoyo con matices: facilita la regularización mediante contrato, sin tratar el arraigo como vía en sí.",
       "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Texto del programa 2026 contrastado; se conserva la exclusión contextual.",
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 4,
@@ -271,15 +288,15 @@
       "status": "documentada",
       "position": 5,
       "sourceIds": [
-        "pnv-s01"
+        "pnv-s03"
       ],
-      "locator": "pág. 31, medida 01",
-      "evidenceSummary": "Revalorizar anualmente las pensiones conforme al IPC.",
-      "reason": "Revalorizar anualmente las pensiones conforme al IPC.",
+      "locator": "PDF p. 33; pensiones",
+      "evidenceSummary": "Mantener el espíritu del Pacto de Toledo «impidiendo la no actualización de las pensiones en base al IPC».",
+      "reason": "Apoyo explícito a actualizar las pensiones conforme al IPC.",
       "confidence": "alta",
       "reviewNeeded": false,
       "reviewNote": null,
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 5,
@@ -292,17 +309,17 @@
     },
     "11": {
       "status": "documentada",
-      "position": 5,
+      "position": 4,
       "sourceIds": [
-        "pnv-s01"
+        "pnv-s03"
       ],
-      "locator": "pág. 26, medida 06",
-      "evidenceSummary": "Exige el cumplimiento íntegro de las medidas estatales del Pacto de Estado contra la Violencia de Género.",
-      "reason": "Exige el cumplimiento íntegro de las medidas estatales del Pacto de Estado contra la Violencia de Género.",
-      "confidence": "alta",
+      "locator": "PDF p. 6 y 8; igualdad",
+      "evidenceSummary": "Compromiso con la erradicación de la violencia machista y con medidas en el Pacto de Estado contra la Violencia de Género.",
+      "reason": "Apoyo con matices: respalda las políticas y el Pacto de Estado sin detallar la legislación específica.",
+      "confidence": "media",
       "reviewNeeded": false,
       "reviewNote": null,
-      "nextAction": "Revisar texto original y completar metadatos; buscar actualización de 2026 si es histórico.",
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 5,
@@ -518,12 +535,8 @@
     }
   ],
   "integration": {
-    "status": "integrado",
-    "commit": "3887f415554ed40105fac10f9a8ca75b4eec057d",
-    "scope": "Corrección de fuentes de las diez preguntas sin-evidencia; revisión de concordancia con data.json 0.5.7",
-    "reviewedBaseCommit": "762f6c924529a8badafb8809728af2162a2bb288",
-    "verified": "2026-11-15",
-    "publishedVersion": "0.5.7"
+    "status": "pendiente",
+    "commit": null
   },
   "integrationHistory": [
     {

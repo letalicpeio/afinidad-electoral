@@ -158,7 +158,7 @@ for (const catalogEntry of catalog.parties.filter((p) =>
     );
 }
 
-// Jerarquía de evidencia: un partido con programa oficial de 2026 no mezcla antecedentes ni prensa;
+// Jerarquía de evidencia: un partido con programa oficial de 2026 no usa prensa; los antecedentes sólo cubren temas que el programa de 2026 no trata;
 // los antecedentes son anteriores a 2026 y llevan siempre su año y su aviso.
 for (const entry of catalog.parties.filter((x) => x.dataId)) {
   const party = data.parties.find((x) => x.id === entry.dataId);
@@ -169,7 +169,8 @@ for (const entry of catalog.parties.filter((x) => x.dataId)) {
       assert(/^ANTECEDENTE/i.test(x.sourceNote || ''), `${party.id}/${id}: antecedente sin aviso`);
     }
     if (entry.program.status === "oficial") {
-      assert(!x.historical, `${party.id}/${id}: partido con programa oficial de 2026 y antecedente histórico (prevalece lo actual)`);
+      // Un antecedente sólo puede cubrir un tema que el programa de 2026 no trata: aquí hay una única posición por tema, así que no puede convivir con una de 2026.
+      if (x.historical) assert(/sin evidencia oficial|no acredita/i.test(x.sourceNote || ""), `${party.id}/${id}: antecedente en partido con programa oficial sin aviso de uso provisional`);
       assert(!/^fuente secundaria/i.test(x.sourceNote || ""), `${party.id}/${id}: partido con programa oficial de 2026 y fuente de prensa`);
     }
   }

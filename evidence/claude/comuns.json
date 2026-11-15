@@ -6,7 +6,25 @@
   "baseCommit": "4f7fbd9ab5b675cf5d13114a62c3c9f89d3c8b1f",
   "reviewed": "2026-11-15",
   "status": "revisado",
-  "sources": [],
+  "sources": [
+    {
+      "id": "comuns-s01",
+      "url": "https://comuns.cat/wp-content/uploads/2025/07/sumarECP-programa-generales-2023.pdf",
+      "publisher": "Comuns (programa Sumar–En Comú Podem)",
+      "title": "Programa electoral per a les eleccions generals del 23J (2023)",
+      "published": "2023",
+      "accessed": "2026-11-15",
+      "election": "Generales de España 2023",
+      "year": 2023,
+      "kind": "programa",
+      "origin": "primaria",
+      "hosting": "oficial",
+      "historical": true,
+      "documentVersion": null,
+      "sha256": "ed6f00ae95ad96a397593c930047bddad1824fa909b3974434a7acc5b104b4df",
+      "notes": "Programa de la candidatura Sumar–En Comú Podem de 2023 alojado en la web de Comuns; se usa como antecedente de Comuns–Front Ampli, sin acreditar compromisos de 2026."
+    }
+  ],
   "questions": {
     "1": {
       "status": "sin-evidencia",
@@ -22,16 +40,18 @@
       "replaces": null
     },
     "2": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "No se localizó programa ni propuesta explícita de Comuns–Front Ampli sobre esta afirmación en las fuentes revisadas (véase searchLog). No se hereda la posición de otro partido (federación, coalición o marca) ni se atribuye por etiqueta ideológica.",
-      "confidence": "baja",
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "comuns-s01"
+      ],
+      "locator": "PDF p. 80; vivienda",
+      "evidenceSummary": "Regulación efectiva de los precios del alquiler y régimen sancionador, con movilización de vivienda de la SAREB.",
+      "reason": "Apoyo explícito a regular los precios del alquiler.",
+      "confidence": "media",
       "reviewNeeded": false,
       "reviewNote": null,
-      "nextAction": "Esperar el programa de la candidatura o de Comuns.",
+      "nextAction": null,
       "replaces": null
     },
     "3": {
@@ -74,16 +94,18 @@
       "replaces": null
     },
     "6": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "No se localizó programa ni propuesta explícita de Comuns–Front Ampli sobre esta afirmación en las fuentes revisadas (véase searchLog). No se hereda la posición de otro partido (federación, coalición o marca) ni se atribuye por etiqueta ideológica.",
-      "confidence": "baja",
+      "status": "documentada",
+      "position": 1,
+      "sourceIds": [
+        "comuns-s01"
+      ],
+      "locator": "PDF p. 84; educación",
+      "evidenceSummary": "Las plazas públicas de proximidad crecerán progresivamente «hasta sustituir las plazas concertadas» y se financiará la transformación de centros privados en públicos.",
+      "reason": "Oposición clara a mantener la financiación de la concertada.",
+      "confidence": "alta",
       "reviewNeeded": false,
       "reviewNote": null,
-      "nextAction": "Esperar el programa de la candidatura o de Comuns.",
+      "nextAction": null,
       "replaces": null
     },
     "7": {
@@ -100,16 +122,18 @@
       "replaces": null
     },
     "8": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "No se localizó programa ni propuesta explícita de Comuns–Front Ampli sobre esta afirmación en las fuentes revisadas (véase searchLog). No se hereda la posición de otro partido (federación, coalición o marca) ni se atribuye por etiqueta ideológica.",
-      "confidence": "baja",
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "comuns-s01"
+      ],
+      "locator": "PDF p. 19; empleo",
+      "evidenceSummary": "Reducción generalizada de la jornada laboral por ley, sin reducción de sueldos.",
+      "reason": "Apoyo explícito, sin pérdida salarial.",
+      "confidence": "alta",
       "reviewNeeded": false,
       "reviewNote": null,
-      "nextAction": "Esperar el programa de la candidatura o de Comuns.",
+      "nextAction": null,
       "replaces": null
     },
     "9": {
@@ -152,16 +176,18 @@
       "replaces": null
     },
     "12": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "No se localizó programa ni propuesta explícita de Comuns–Front Ampli sobre esta afirmación en las fuentes revisadas (véase searchLog). No se hereda la posición de otro partido (federación, coalición o marca) ni se atribuye por etiqueta ideológica.",
-      "confidence": "baja",
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "comuns-s01"
+      ],
+      "locator": "PDF p. 160; Unión Europea",
+      "evidenceSummary": "Pasar de la unanimidad a las mayorías cualificadas en política exterior y fiscalidad y reforzar la legitimidad y poderes de las instituciones comunitarias.",
+      "reason": "Apoyo explícito a mayor integración política.",
+      "confidence": "media",
       "reviewNeeded": false,
       "reviewNote": null,
-      "nextAction": "Esperar el programa de la candidatura o de Comuns.",
+      "nextAction": null,
       "replaces": null
     },
     "13": {
@@ -261,7 +287,7 @@
     }
   ],
   "integration": {
-    "status": "integrado",
-    "commit": "3a56c4c988e0edd6164982d94be99cbbf1c707c7"
+    "status": "pendiente",
+    "commit": null
   }
 }

@@ -1,5 +1,5 @@
 {
-  "version": "0.5.16",
+  "version": "0.5.17",
   "date": "2026-11-15",
   "election": "Congreso · 29 de noviembre de 2026",
   "questions": [
@@ -338,13 +338,14 @@
       "positions": {
         "3": {
           "value": 4,
-          "source": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
-          "locator": "pág. 25, medida 09",
-          "reason": "Propone avanzar en los procesos de regularización previstos en la legislación para quienes cumplen los requisitos; no menciona expresamente el arraigo.",
-          "reviewed": "2026-11-14",
-          "coding": "Interpretación editorial provisional",
-          "scoreable": false,
-          "reviewNote": "Regularización en general no acredita una posición específica sobre el arraigo."
+          "source": "https://www.eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+          "locator": "Histórico 2023 · PDF p. 34; trabajadores migrantes",
+          "reason": "Apoyo con matices: facilita la regularización mediante contrato, sin tratar el arraigo como vía en sí.",
+          "historical": true,
+          "sourceYear": 2023,
+          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa del PNV para las generales de 2023, leído completo; se usa como antecedente sólo en temas que su programa de 2026 no trata.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional de un programa histórico"
         },
         "5": {
           "value": 1,
@@ -366,19 +367,25 @@
         },
         "10": {
           "value": 5,
-          "source": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
-          "locator": "pág. 31, medida 01",
-          "reason": "Revalorizar anualmente las pensiones conforme al IPC.",
-          "reviewed": "2026-11-14",
-          "coding": "Interpretación editorial provisional"
+          "source": "https://www.eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+          "locator": "Histórico 2023 · PDF p. 33; pensiones",
+          "reason": "Apoyo explícito a actualizar las pensiones conforme al IPC.",
+          "historical": true,
+          "sourceYear": 2023,
+          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa del PNV para las generales de 2023, leído completo; se usa como antecedente sólo en temas que su programa de 2026 no trata.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional de un programa histórico"
         },
         "11": {
-          "value": 5,
-          "source": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
-          "locator": "pág. 26, medida 06",
-          "reason": "Exige el cumplimiento íntegro de las medidas estatales del Pacto de Estado contra la Violencia de Género.",
-          "reviewed": "2026-11-14",
-          "coding": "Interpretación editorial provisional"
+          "value": 4,
+          "source": "https://www.eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+          "locator": "Histórico 2023 · PDF p. 6 y 8; igualdad",
+          "reason": "Apoyo con matices: respalda las políticas y el Pacto de Estado sin detallar la legislación específica.",
+          "historical": true,
+          "sourceYear": 2023,
+          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa del PNV para las generales de 2023, leído completo; se usa como antecedente sólo en temas que su programa de 2026 no trata.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional de un programa histórico"
         },
         "15": {
           "value": 5,
@@ -623,6 +630,50 @@
           "reason": "Apoyo a reforzar la UE como actor político y presupuestario, sin hablar de federalismo ni de integración política con esas palabras.",
           "reviewed": "2026-11-15",
           "coding": "Interpretación editorial provisional"
+        },
+        "2": {
+          "value": 5,
+          "source": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
+          "locator": "Histórico 2023 · PDF p. 52; vivienda",
+          "reason": "Apoyo explícito a regular los precios del alquiler.",
+          "historical": true,
+          "sourceYear": 2023,
+          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa de ERC para las generales de 2023, leído completo; se usa como antecedente sólo en temas que su programa de 2026 no trata.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional de un programa histórico"
+        },
+        "3": {
+          "value": 4,
+          "source": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
+          "locator": "Histórico 2023 · PDF p. 41; regularización de trabajo y residencia",
+          "reason": "Apoyo con matices: propone ampliar las vías de regularización sin citar el arraigo.",
+          "historical": true,
+          "sourceYear": 2023,
+          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa de ERC para las generales de 2023, leído completo; se usa como antecedente sólo en temas que su programa de 2026 no trata.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional de un programa histórico"
+        },
+        "13": {
+          "value": 1,
+          "source": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
+          "locator": "Histórico 2023 · PDF p. 28; cooperación, gasto militar",
+          "reason": "Oposición clara a aumentar el gasto en defensa.",
+          "historical": true,
+          "sourceYear": 2023,
+          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa de ERC para las generales de 2023, leído completo; se usa como antecedente sólo en temas que su programa de 2026 no trata.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional de un programa histórico"
+        },
+        "15": {
+          "value": 5,
+          "source": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
+          "locator": "Histórico 2023 · PDF p. 44; igualdad",
+          "reason": "Apoyo explícito a mantener y garantizar el derecho legal al aborto.",
+          "historical": true,
+          "sourceYear": 2023,
+          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa de ERC para las generales de 2023, leído completo; se usa como antecedente sólo en temas que su programa de 2026 no trata.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional de un programa histórico"
         }
       },
       "exclude": [
@@ -1998,6 +2049,57 @@
           "historical": true,
           "sourceYear": 2023,
           "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. PDF del dominio del partido (23 páginas) enlazado desde su portada. El propio texto dice: «Esto no es un programa electoral. Es un programa de lucha» con las líneas de actuación de la legislatura 2023-2027. Es un documento político, no el programa de 2026. Páginas del PDF.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional de un programa histórico"
+        }
+      }
+    },
+    {
+      "id": "comuns",
+      "name": "Comuns–Front Ampli",
+      "match": "COMUNS-FRONT AMPLI",
+      "positions": {
+        "2": {
+          "value": 5,
+          "source": "https://comuns.cat/wp-content/uploads/2025/07/sumarECP-programa-generales-2023.pdf",
+          "locator": "Histórico 2023 · PDF p. 80; vivienda",
+          "reason": "Apoyo explícito a regular los precios del alquiler.",
+          "historical": true,
+          "sourceYear": 2023,
+          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa de la candidatura Sumar–En Comú Podem de 2023 alojado en la web de Comuns; se usa como antecedente de Comuns–Front Ampli, sin acreditar compromisos de 2026.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional de un programa histórico"
+        },
+        "6": {
+          "value": 1,
+          "source": "https://comuns.cat/wp-content/uploads/2025/07/sumarECP-programa-generales-2023.pdf",
+          "locator": "Histórico 2023 · PDF p. 84; educación",
+          "reason": "Oposición clara a mantener la financiación de la concertada.",
+          "historical": true,
+          "sourceYear": 2023,
+          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa de la candidatura Sumar–En Comú Podem de 2023 alojado en la web de Comuns; se usa como antecedente de Comuns–Front Ampli, sin acreditar compromisos de 2026.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional de un programa histórico"
+        },
+        "8": {
+          "value": 5,
+          "source": "https://comuns.cat/wp-content/uploads/2025/07/sumarECP-programa-generales-2023.pdf",
+          "locator": "Histórico 2023 · PDF p. 19; empleo",
+          "reason": "Apoyo explícito, sin pérdida salarial.",
+          "historical": true,
+          "sourceYear": 2023,
+          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa de la candidatura Sumar–En Comú Podem de 2023 alojado en la web de Comuns; se usa como antecedente de Comuns–Front Ampli, sin acreditar compromisos de 2026.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional de un programa histórico"
+        },
+        "12": {
+          "value": 5,
+          "source": "https://comuns.cat/wp-content/uploads/2025/07/sumarECP-programa-generales-2023.pdf",
+          "locator": "Histórico 2023 · PDF p. 160; Unión Europea",
+          "reason": "Apoyo explícito a mayor integración política.",
+          "historical": true,
+          "sourceYear": 2023,
+          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa de la candidatura Sumar–En Comú Podem de 2023 alojado en la web de Comuns; se usa como antecedente de Comuns–Front Ampli, sin acreditar compromisos de 2026.",
           "reviewed": "2026-11-15",
           "coding": "Interpretación editorial provisional de un programa histórico"
         }

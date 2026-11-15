@@ -175,14 +175,17 @@
    ],
    "note": "Coalición: no hereda el programa de sus miembros.",
    "program": {
-    "status": "no-localizado",
+    "status": "historico",
     "consulted": "https://beteve.cat/politica/programes-electorals-29n-eleccions-generals-2026-pdf/",
-    "official": false,
-    "detail": "Betevé indica a 13/11/2026 que aún no ha publicado el plec de propostes. Nueva búsqueda del 15/11/2026: la prensa solo apunta que la vivienda será el eje; no hay documento.",
-    "note": "La fuente es un medio, no la web del partido: no sustituye a comprobarlo en el propio partido.",
+    "official": true,
+    "note": "Comuns no ha publicado programa del 29N. Cuatro posiciones como antecedente del programa de 2023 alojado en su web; no acreditan compromisos actuales.",
     "checked": "2026-11-15",
-    "checkedAt": "2026-11-15T09:02:53Z"
-   }
+    "checkedAt": "2026-11-15T09:02:53Z",
+    "url": "https://comuns.cat/wp-content/uploads/2025/07/sumarECP-programa-generales-2023.pdf",
+    "title": "Programa Sumar–En Comú Podem · generales 2023 (web de Comuns)"
+   },
+   "dataId": "comuns",
+   "website": "https://comuns.cat/"
   },
   {
    "id": "convergents",
