@@ -163,7 +163,7 @@ function renderResults() {
       el("h2", `Persona ${i + 1}`),
       el(
         "p",
-        `${state.province} · ${Object.values(person.answers).filter(Number.isInteger).length} de ${TOTAL} temas respondidos`,
+        `${state.province} · ${Object.values(person.answers).filter(Number.isInteger).length} de ${TOTAL} temas`,
       ),
     );
     const edit = el("button", "Revisar mis respuestas", "quiet");
@@ -219,7 +219,8 @@ function renderResults() {
         });
         const row = el("div", null, "resultrow"),
           head = el("div", null, "resulthead");
-        head.append(el("b", shown ? `${++rank}. ${name}` : name));
+        const label = party.name || name;
+        head.append(el("b", shown ? `${++rank}. ${label}` : label));
         if (shown) head.append(el("span", fmt(result.affinity), "metric"));
         row.append(head);
         const t = tierCounts(result.details), src = [];
@@ -227,8 +228,8 @@ function renderResults() {
         if (t.secundaria) src.push(`${t.secundaria} de prensa`);
         if (t.historico) src.push(`${t.historico} antecedente${t.historico === 1 ? "" : "s"}${t.years.length ? " de " + t.years.join("/") : ""}`);
         row.append(el("p", result.count
-          ? `Cobertura ${fmt(result.coverage)} · ${result.count} ${result.count === 1 ? "tema" : "temas"}${src.length ? " (" + src.join(", ") + ")" : ""}${shown && result.coverage < WARN_COVERAGE ? " · ⚠ parcial" : ""}${shown ? "" : " · sin porcentaje: cobertura inferior al " + MIN_COVERAGE + " %"}`
-          : "Ninguno de tus temas tiene posición documentada.", shown && result.coverage < WARN_COVERAGE ? "small warning" : "small"));
+          ? `Cobertura ${fmt(result.coverage)} · ${result.count} ${result.count === 1 ? "tema" : "temas"}${src.length ? " (" + src.join(", ") + ")" : ""}${shown && result.coverage < 60 ? " · ⚠ parcial" : ""}${shown ? "" : " · sin porcentaje: cobertura inferior al " + MIN_COVERAGE + " %"}`
+          : "Ninguno de tus temas tiene posición documentada.", shown && result.coverage < 60 ? "small warning" : "small"));
         if (shown) {
           const bar = el("div", null, "bar"),
             fill = el("div", null, "fill");
