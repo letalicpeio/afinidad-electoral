@@ -1,5 +1,5 @@
 {
-  "version": "0.5.29",
+  "version": "0.5.30",
   "date": "2026-11-15",
   "election": "Congreso · 29 de noviembre de 2026",
   "questions": [
@@ -643,6 +643,17 @@
           "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce porque es un partido de centro-derecha regionalista que acepta la concertada. Uso provisional, confianza baja: no es una declaración del partido.",
           "reviewed": "2026-11-15",
           "coding": "Inferencia editorial"
+        },
+        "10": {
+          "value": 4,
+          "source": "https://www.rtve.es/contenidos/documentos/elecciones_generales_2023/programa_electoral_coalicion_canaria.pdf",
+          "locator": "Histórico 2023 · PDF p. 7; punto 23",
+          "reason": "Apoyo a la actualización de las pensiones según el coste de la vida; no nombra el IPC.",
+          "historical": true,
+          "sourceYear": 2023,
+          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Manifiesto programático de 14 páginas de la coalición para las generales de 2023. Antecedente: no acredita un compromiso de 2026.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional de un programa histórico"
         }
       },
       "aliases": [

@@ -41,3 +41,7 @@ GPT entregó `audit/gpt-localizadores-2026-11-16.csv` (índice físico de cada P
 ## Ampliación de huecos en partidos grandes (datos 0.5.27–0.5.28)
 
 Frente Amplio: seis posiciones nuevas leídas en el programa de Sumar 2023 (antecedente): regularización permanente (p. 106), oposición a la privatización sanitaria (p. 91, confianza baja), eliminar la prisión permanente revisable (p. 135), no aumentar el gasto militar (p. 141, confianza baja), reforma de la ley de indultos sin prohibición (p. 130, posición intermedia declarada) y acceso de migrantes irregulares al IMV (p. 88). PNV-5 = 1 (programa 2023, p. 10). Siguen sin texto: Frente Amplio 1, 7 y 14; PNV 1, 2, 4, 9, 13, 14, 16 y 17.
+
+## Segunda ronda de antecedentes (datos 0.5.30)
+
+Escaneados los programas de 2023 de PP, Junts, EH Bildu y ERC y las bases de Geroa Bai de 2019: no contienen pasajes que respondan a los temas aún vacíos (los huecos son ausencias reales del texto). Se añade CC-10 = 4 (manifiesto de 2023, p. 7, «pensiones actualizadas en función del coste de la vida»). Fuera de este proceso, una declaración de Sumar de 2025 sustituye a la lectura del programa de 2023 en Frente Amplio-13.

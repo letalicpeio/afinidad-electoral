@@ -58,6 +58,23 @@
       "documentVersion": null,
       "sha256": null,
       "notes": "Declaración atribuida a Cristina Valido (CC). No es un compromiso nuevo firmado por Primero Canarias."
+    },
+    {
+      "id": "cc-s04",
+      "url": "https://www.rtve.es/contenidos/documentos/elecciones_generales_2023/programa_electoral_coalicion_canaria.pdf",
+      "publisher": "Coalición Canaria (copia alojada por RTVE)",
+      "title": "Manifiesto «Un objetivo común, la defensa de Canarias» · Generales 2023",
+      "published": "2023-06-26",
+      "accessed": "2026-11-15",
+      "election": "Generales de España 2023",
+      "year": 2023,
+      "kind": "programa",
+      "origin": "primaria",
+      "hosting": "copia-archivo",
+      "historical": true,
+      "documentVersion": null,
+      "sha256": "11522761aca8f1b54800e074764976db7406cde169e4c5e33f3a18d0289f1b0c",
+      "notes": "Manifiesto programático de 14 páginas de la coalición para las generales de 2023. Antecedente: no acredita un compromiso de 2026."
     }
   ],
   "questions": {
@@ -194,16 +211,18 @@
       "replaces": null
     },
     "10": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "Posición retirada tras la auditoría: el pasaje citado no responde a la afirmación tal como está redactada.",
-      "confidence": "baja",
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "cc-s04"
+      ],
+      "locator": "PDF p. 7; punto 23",
+      "evidenceSummary": "Defiende la sostenibilidad del sistema público de pensiones y pensiones dignas y actualizadas en función del coste de la vida.",
+      "reason": "Apoyo a la actualización de las pensiones según el coste de la vida; no nombra el IPC.",
+      "confidence": "media",
       "reviewNeeded": false,
       "reviewNote": null,
-      "nextAction": "Buscar texto del partido sobre este tema.",
+      "nextAction": null,
       "replaces": null
     },
     "11": {
