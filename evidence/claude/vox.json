@@ -40,6 +40,23 @@
       "documentVersion": null,
       "sha256": null,
       "notes": "Declaración parlamentaria de 2025 leída por la auditoría de GPT; la página no es accesible desde el equipo de Claude (403)."
+    },
+    {
+      "id": "vox-s03",
+      "url": "https://www.pressdigital.es/articulo/politica/2025-06-24/5342090-abascal-vincula-incremento-gasto-defensa-pacte-otan-proteccion-ceuta-melilla-canarias",
+      "publisher": "Press Digital",
+      "title": "Abascal vincula el incremento del gasto en defensa al pacto con la OTAN y la protección de Ceuta, Melilla y Canarias",
+      "published": "2025-06-24",
+      "accessed": "2026-11-15",
+      "election": "Declaración pública de 2025",
+      "year": 2025,
+      "kind": "noticia",
+      "origin": "secundaria",
+      "hosting": "medio",
+      "historical": true,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Declaración de Santiago Abascal ante la cumbre de La Haya (24/06/2025). Antecedente: no acredita un compromiso de 2026."
     }
   ],
   "questions": {
@@ -227,15 +244,15 @@
       "status": "documentada",
       "position": 5,
       "sourceIds": [
-        "vox-s01"
+        "vox-s03"
       ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de derecha radical y unitaria y sus posiciones documentadas en temas afines.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
-      "nextAction": "Buscar texto del partido sobre este tema.",
+      "locator": "Declaración de Santiago Abascal, 24/06/2025",
+      "evidenceSummary": "Apoya elevar el gasto militar para defender los intereses españoles (no para un ejército europeo común) y critica el pacto de Sánchez con la OTAN para flexibilizar el aumento.",
+      "reason": "Apoyo explícito a aumentar el gasto en defensa.",
+      "confidence": "media",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     },
     "14": {

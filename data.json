@@ -1,5 +1,5 @@
 {
-  "version": "0.5.31",
+  "version": "0.5.33",
   "date": "2026-11-15",
   "election": "Congreso · 29 de noviembre de 2026",
   "questions": [
@@ -244,13 +244,14 @@
         },
         "13": {
           "value": 4,
-          "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
-          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de centroderecha estatal y sus posiciones documentadas en temas afines.",
-          "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de centroderecha estatal y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
-          "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "source": "https://www.elespanol.com/espana/politica/20250627/feijoo-asume-compromiso-llegar-gasto-defensa-anos-junto-mayoria-gobernantes-ue/1003743823012_0.html",
+          "locator": "Histórico 2025 · Cumbre del PPE, 26/06/2025",
+          "reason": "Apoyo a aumentar el gasto en defensa en el marco de la OTAN; matizado por la petición de flexibilidad.",
+          "historical": true,
+          "sourceYear": 2025,
+          "sourceNote": "ANTECEDENTE DE 2025: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. El PP respaldó en la cumbre del PPE (26/06/2025) el plan de la OTAN de gastar el 5 %; Feijóo pidió flexibilidad de un año. Antecedente: no acredita un compromiso de 2026.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional de un programa histórico"
         },
         "17": {
           "value": 2,
@@ -425,13 +426,14 @@
         },
         "13": {
           "value": 5,
-          "source": "https://www.voxespana.es/abascal/es-sentido-comun-estas-son-las-medidas-de-vox-para-el-29n-20261112",
-          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de derecha radical y unitaria y sus posiciones documentadas en temas afines.",
-          "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de derecha radical y unitaria y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
-          "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "source": "https://www.pressdigital.es/articulo/politica/2025-06-24/5342090-abascal-vincula-incremento-gasto-defensa-pacte-otan-proteccion-ceuta-melilla-canarias",
+          "locator": "Histórico 2025 · Declaración de Santiago Abascal, 24/06/2025",
+          "reason": "Apoyo explícito a aumentar el gasto en defensa.",
+          "historical": true,
+          "sourceYear": 2025,
+          "sourceNote": "ANTECEDENTE DE 2025: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Declaración de Santiago Abascal ante la cumbre de La Haya (24/06/2025). Antecedente: no acredita un compromiso de 2026.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional de un programa histórico"
         }
       }
     },
@@ -551,14 +553,20 @@
           "coding": "Inferencia editorial"
         },
         "2": {
-          "value": 4,
+          "value": 2,
           "source": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de nacionalismo vasco de centro y sus posiciones documentadas en temas afines.",
+          "reason": "Su presidente explica que no apoyó la ley de Vivienda estatal por invadir competencias y pide «seguridad jurídica al propietario»; sostiene que la vivienda no se puede abordar desde lo ideológico.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalismo vasco de centro y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: su presidente explica que no apoyó la ley de Vivienda estatal por invadir competencias y pide «seguridad jurídica al propietario»; sostiene que la vivienda no se puede abordar desde lo ideológico. Uso provisional, confianza baja: no es una declaración suya sobre esta medida.",
           "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://www.eaj-pnv.eus/eu/adjuntos-agiriak/21557/pdf/2025-06-08_elkarrizketa-aitor-estebani-la-vanguard",
+              "label": "Entrevista a Aitor Esteban, 08/06/2025"
+            }
+          ]
         },
         "4": {
           "value": 2,
@@ -584,11 +592,21 @@
           "value": 4,
           "source": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de nacionalismo vasco de centro y sus posiciones documentadas en temas afines.",
+          "reason": "Su presidente rechaza el 5 % por «un salto demasiado grande», pero defiende reforzar la defensa europea y su industria, y su grupo se abstuvo en marzo de 2025 ante la moción del PP para subir el gasto.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalismo vasco de centro y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: su presidente rechaza el 5 % por «un salto demasiado grande», pero defiende reforzar la defensa europea y su industria, y su grupo se abstuvo en marzo de 2025 ante la moción del PP para subir el gasto. Uso provisional, confianza media: no es una declaración suya sobre esta medida.",
           "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://www.eaj-pnv.eus/eu/adjuntos-agiriak/21557/pdf/2025-06-08_elkarrizketa-aitor-estebani-la-vanguard",
+              "label": "Entrevista a Aitor Esteban, 08/06/2025"
+            },
+            {
+              "url": "https://www.diariosigloxxi.com/texto-ep/mostrar/20250326200437/congreso-respalda-mocion-pp-subir-gasto-defensa-abstencion-pnv-junts",
+              "label": "Votación de la moción del PP, 26/03/2025"
+            }
+          ]
         },
         "14": {
           "value": 2,
@@ -936,14 +954,20 @@
           "coding": "Inferencia editorial"
         },
         "13": {
-          "value": 4,
+          "value": 2,
           "source": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de nacionalismo canario de centro y sus posiciones documentadas en temas afines.",
+          "reason": "Su diputada critica que el Gobierno movilice 10.471 millones para defensa sin presupuesto y sin cumplir la agenda canaria.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalismo canario de centro y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: su diputada critica que el Gobierno movilice 10.471 millones para defensa sin presupuesto y sin cumplir la agenda canaria. Uso provisional, confianza baja: no es una declaración suya sobre esta medida.",
           "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://rtvc.es/cc-no-entiende-estado-dinero-defensa-y-no-cumplir-agenda-canaria/",
+              "label": "RTVC, 28/04/2025"
+            }
+          ]
         },
         "15": {
           "value": 4,
@@ -3600,14 +3624,24 @@
           "coding": "Inferencia editorial"
         },
         "13": {
-          "value": 3,
+          "value": 4,
           "source": "https://img.beteve.cat/wp-content/uploads/2023/07/programa-junts-per-catalunya-eleccions-generals-2023.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de independentismo catalán de centroderecha y sus posiciones documentadas en temas afines.",
+          "reason": "Su portavoz acepta aumentar el gasto europeo en defensa si la inversión se queda en Europa y Cataluña y pasa por el Congreso, y su grupo se abstuvo en marzo de 2025 ante la moción del PP para subirlo.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de independentismo catalán de centroderecha y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: su portavoz acepta aumentar el gasto europeo en defensa si la inversión se queda en Europa y Cataluña y pasa por el Congreso, y su grupo se abstuvo en marzo de 2025 ante la moción del PP para subirlo. Uso provisional, confianza baja: no es una declaración suya sobre esta medida.",
           "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://www.elnacional.cat/es/politica/junts-insta-sanchez-invertir-industria-catalana-posible-aumento-gasto-defensa_1379966_102.html",
+              "label": "El Nacional, 13/03/2025"
+            },
+            {
+              "url": "https://www.diariosigloxxi.com/texto-ep/mostrar/20250326200437/congreso-respalda-mocion-pp-subir-gasto-defensa-abstencion-pnv-junts",
+              "label": "Votación de la moción del PP, 26/03/2025"
+            }
+          ]
         },
         "14": {
           "value": 3,
@@ -3911,11 +3945,21 @@
           "value": 1,
           "source": "https://www.elnacional.cat/uploads/s1/42/81/42/33/programa-electoral-eh-bildu-eleccions-generals-2023.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Rechaza el aumento del gasto militar.",
+          "reason": "Su portavoz rechaza la «lógica militar» del rearme y afirma que la OTAN no es garantía de seguridad; votó en contra de la moción del PP en marzo de 2025.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce porque rechaza el aumento del gasto militar. Uso provisional, confianza alta: no es una declaración del partido.",
-          "reviewed": "2026-11-15",
-          "coding": "Inferencia editorial"
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: su portavoz rechaza la «lógica militar» del rearme y afirma que la OTAN no es garantía de seguridad; votó en contra de la moción del PP en marzo de 2025. Uso provisional, confianza media: no es una declaración suya sobre esta medida.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://www.pressdigital.es/articulo/politica/2025-07-09/5360529-sumar-exige-sanchez-no-doble-gasto-militar-mientras-podemos-bildu-bng-piden-salir-otan",
+              "label": "Debate en el Congreso, 09/07/2025"
+            },
+            {
+              "url": "https://www.diariosigloxxi.com/texto-ep/mostrar/20250326200437/congreso-respalda-mocion-pp-subir-gasto-defensa-abstencion-pnv-junts",
+              "label": "Votación de la moción del PP, 26/03/2025"
+            }
+          ]
         },
         "14": {
           "value": 5,

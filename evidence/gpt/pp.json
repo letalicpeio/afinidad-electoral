@@ -58,6 +58,23 @@
       "documentVersion": null,
       "sha256": "c93baafc88bdcb33adcd7e8be9dc309b09056362183ad7b7767f3d5134313108",
       "notes": "Programa del PP de 2023; solo cubre un tema que el de 2026 no trata."
+    },
+    {
+      "id": "pp-s04",
+      "url": "https://www.elespanol.com/espana/politica/20250627/feijoo-asume-compromiso-llegar-gasto-defensa-anos-junto-mayoria-gobernantes-ue/1003743823012_0.html",
+      "publisher": "El Español",
+      "title": "Feijóo asume el compromiso de llegar al gasto en defensa en años junto a la mayoría de gobernantes de la UE",
+      "published": "2025-06-27",
+      "accessed": "2026-11-15",
+      "election": "Declaración pública de 2025",
+      "year": 2025,
+      "kind": "noticia",
+      "origin": "secundaria",
+      "hosting": "medio",
+      "historical": true,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "El PP respaldó en la cumbre del PPE (26/06/2025) el plan de la OTAN de gastar el 5 %; Feijóo pidió flexibilidad de un año. Antecedente: no acredita un compromiso de 2026."
     }
   ],
   "questions": {
@@ -320,15 +337,15 @@
       "status": "documentada",
       "position": 4,
       "sourceIds": [
-        "pp-s01"
+        "pp-s04"
       ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de centroderecha estatal y sus posiciones documentadas en temas afines.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
-      "nextAction": "Buscar texto del partido sobre este tema.",
+      "locator": "Cumbre del PPE, 26/06/2025",
+      "evidenceSummary": "Respalda con el PPE el plan de la OTAN de llegar al 5 % del PIB en defensa y pide algún año de flexibilidad; no lo formula con cifras propias.",
+      "reason": "Apoyo a aumentar el gasto en defensa en el marco de la OTAN; matizado por la petición de flexibilidad.",
+      "confidence": "media",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 5,

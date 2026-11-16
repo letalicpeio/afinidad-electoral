@@ -92,6 +92,40 @@
       "documentVersion": null,
       "sha256": null,
       "notes": "Nota del portavoz parlamentario; no es un programa."
+    },
+    {
+      "id": "ehbildu-s06",
+      "url": "https://www.pressdigital.es/articulo/politica/2025-07-09/5360529-sumar-exige-sanchez-no-doble-gasto-militar-mientras-podemos-bildu-bng-piden-salir-otan",
+      "publisher": "Press Digital",
+      "title": "Sumar exige a Sánchez que no se doble con el gasto militar, mientras Podemos, Bildu y el BNG piden salir de la OTAN",
+      "published": "2025-07-09",
+      "accessed": "2026-11-16",
+      "election": "Declaración pública de 2025",
+      "year": 2025,
+      "kind": "noticia",
+      "origin": "secundaria",
+      "hosting": "medio",
+      "historical": true,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": ""
+    },
+    {
+      "id": "ehbildu-s07",
+      "url": "https://www.diariosigloxxi.com/texto-ep/mostrar/20250326200437/congreso-respalda-mocion-pp-subir-gasto-defensa-abstencion-pnv-junts",
+      "publisher": "Europa Press (Diario Siglo XXI)",
+      "title": "El Congreso respalda la moción del PP para subir el gasto en defensa, con la abstención de PNV y Junts",
+      "published": "2025-03-26",
+      "accessed": "2026-11-16",
+      "election": "Declaración pública de 2025",
+      "year": 2025,
+      "kind": "noticia",
+      "origin": "secundaria",
+      "hosting": "medio",
+      "historical": true,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": ""
     }
   ],
   "questions": {
@@ -323,12 +357,13 @@
       "status": "documentada",
       "position": 1,
       "sourceIds": [
-        "ehbildu-s02"
+        "ehbildu-s06",
+        "ehbildu-s07"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: rechaza el aumento del gasto militar.",
+      "evidenceSummary": "Inferencia con fuentes: Su portavoz rechaza la «lógica militar» del rearme y afirma que la OTAN no es garantía de seguridad; votó en contra de la moción del PP en marzo de 2025.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "alta",
+      "confidence": "media",
       "reviewNeeded": true,
       "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
       "nextAction": "Buscar texto del partido sobre este tema.",

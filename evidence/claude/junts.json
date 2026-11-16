@@ -40,6 +40,40 @@
       "documentVersion": null,
       "sha256": null,
       "notes": "Enmienda de Junts localizada por la auditoría de GPT."
+    },
+    {
+      "id": "junts-s03",
+      "url": "https://www.elnacional.cat/es/politica/junts-insta-sanchez-invertir-industria-catalana-posible-aumento-gasto-defensa_1379966_102.html",
+      "publisher": "El Nacional",
+      "title": "Junts insta a Sánchez a invertir en la industria catalana en un posible aumento del gasto en defensa",
+      "published": "2025-03-13",
+      "accessed": "2026-11-16",
+      "election": "Declaración pública de 2025",
+      "year": 2025,
+      "kind": "noticia",
+      "origin": "secundaria",
+      "hosting": "medio",
+      "historical": true,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": ""
+    },
+    {
+      "id": "junts-s04",
+      "url": "https://www.diariosigloxxi.com/texto-ep/mostrar/20250326200437/congreso-respalda-mocion-pp-subir-gasto-defensa-abstencion-pnv-junts",
+      "publisher": "Europa Press (Diario Siglo XXI)",
+      "title": "El Congreso respalda la moción del PP para subir el gasto en defensa, con la abstención de PNV y Junts",
+      "published": "2025-03-26",
+      "accessed": "2026-11-16",
+      "election": "Declaración pública de 2025",
+      "year": 2025,
+      "kind": "noticia",
+      "origin": "secundaria",
+      "hosting": "medio",
+      "historical": true,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": ""
     }
   ],
   "questions": {
@@ -225,12 +259,13 @@
     },
     "13": {
       "status": "documentada",
-      "position": 3,
+      "position": 4,
       "sourceIds": [
-        "junts-s01"
+        "junts-s03",
+        "junts-s04"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de independentismo catalán de centroderecha y sus posiciones documentadas en temas afines.",
+      "evidenceSummary": "Inferencia con fuentes: Su portavoz acepta aumentar el gasto europeo en defensa si la inversión se queda en Europa y Cataluña y pasa por el Congreso, y su grupo se abstuvo en marzo de 2025 ante la moción del PP para subirlo.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
       "reviewNeeded": true,

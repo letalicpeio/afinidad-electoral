@@ -75,6 +75,23 @@
       "documentVersion": null,
       "sha256": "11522761aca8f1b54800e074764976db7406cde169e4c5e33f3a18d0289f1b0c",
       "notes": "Manifiesto programático de 14 páginas de la coalición para las generales de 2023. Antecedente: no acredita un compromiso de 2026."
+    },
+    {
+      "id": "cc-s05",
+      "url": "https://rtvc.es/cc-no-entiende-estado-dinero-defensa-y-no-cumplir-agenda-canaria/",
+      "publisher": "RTVC",
+      "title": "CC no entiende que el Estado tenga dinero para defensa y no para cumplir la agenda canaria",
+      "published": "2025-04-28",
+      "accessed": "2026-11-16",
+      "election": "Declaración pública de 2025",
+      "year": 2025,
+      "kind": "noticia",
+      "origin": "secundaria",
+      "hosting": "medio",
+      "historical": true,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": ""
     }
   ],
   "questions": {
@@ -277,12 +294,12 @@
     },
     "13": {
       "status": "documentada",
-      "position": 4,
+      "position": 2,
       "sourceIds": [
-        "cc-s01"
+        "cc-s05"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de nacionalismo canario de centro y sus posiciones documentadas en temas afines.",
+      "evidenceSummary": "Inferencia con fuentes: Su diputada critica que el Gobierno movilice 10.471 millones para defensa sin presupuesto y sin cumplir la agenda canaria.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
       "reviewNeeded": true,

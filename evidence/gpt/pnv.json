@@ -58,6 +58,40 @@
       "documentVersion": null,
       "sha256": "46fec3a017cdc5c4e506fa5e228b97690071d5a03dfd3d8128392aa20f57d132",
       "notes": "Programa del PNV para las generales de 2023, leído completo; se usa como antecedente sólo en temas que su programa de 2026 no trata."
+    },
+    {
+      "id": "pnv-s04",
+      "url": "https://www.eaj-pnv.eus/eu/adjuntos-agiriak/21557/pdf/2025-06-08_elkarrizketa-aitor-estebani-la-vanguard",
+      "publisher": "La Vanguardia (copia en eaj-pnv.eus)",
+      "title": "Entrevista a Aitor Esteban",
+      "published": "2025-06-08",
+      "accessed": "2026-11-16",
+      "election": "Declaración pública de 2025",
+      "year": 2025,
+      "kind": "noticia",
+      "origin": "secundaria",
+      "hosting": "medio",
+      "historical": true,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Entrevista al presidente del EBB (08/06/2025)."
+    },
+    {
+      "id": "pnv-s05",
+      "url": "https://www.diariosigloxxi.com/texto-ep/mostrar/20250326200437/congreso-respalda-mocion-pp-subir-gasto-defensa-abstencion-pnv-junts",
+      "publisher": "Europa Press (Diario Siglo XXI)",
+      "title": "El Congreso respalda la moción del PP para subir el gasto en defensa, con la abstención de PNV y Junts",
+      "published": "2025-03-26",
+      "accessed": "2026-11-16",
+      "election": "Declaración pública de 2025",
+      "year": 2025,
+      "kind": "noticia",
+      "origin": "secundaria",
+      "hosting": "medio",
+      "historical": true,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": ""
     }
   ],
   "questions": {
@@ -90,12 +124,12 @@
     },
     "2": {
       "status": "documentada",
-      "position": 4,
+      "position": 2,
       "sourceIds": [
-        "pnv-s01"
+        "pnv-s04"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de nacionalismo vasco de centro y sus posiciones documentadas en temas afines.",
+      "evidenceSummary": "Inferencia con fuentes: Su presidente explica que no apoyó la ley de Vivienda estatal por invadir competencias y pide «seguridad jurídica al propietario»; sostiene que la vivienda no se puede abordar desde lo ideológico.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
       "reviewNeeded": true,
@@ -361,12 +395,13 @@
       "status": "documentada",
       "position": 4,
       "sourceIds": [
-        "pnv-s01"
+        "pnv-s04",
+        "pnv-s05"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de nacionalismo vasco de centro y sus posiciones documentadas en temas afines.",
+      "evidenceSummary": "Inferencia con fuentes: Su presidente rechaza el 5 % por «un salto demasiado grande», pero defiende reforzar la defensa europea y su industria, y su grupo se abstuvo en marzo de 2025 ante la moción del PP para subir el gasto.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "baja",
+      "confidence": "media",
       "reviewNeeded": true,
       "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
       "nextAction": "Buscar texto del partido sobre este tema.",
