@@ -109,6 +109,23 @@
       "documentVersion": null,
       "sha256": "e9c8341339538b550641b6ddb1c3fdfeef7fda6a8a1a4be9e8d6a44cbc229bf5",
       "notes": "PDF oficial enlazado en la noticia de psoe.es del 15/11/2026; 11.983.706 bytes. Descargado desde un ejecutor de GitHub porque el servidor bloquea la descarga directa desde el equipo local. Numeración de páginas y medidas según el propio PDF."
+    },
+    {
+      "id": "psoe-s07",
+      "url": "https://www.telecinco.es/noticias/espana/20261103/elecciones-generales-2026-propuestas-partidos-inmigracion_18_020555622.html",
+      "publisher": "Telecinco",
+      "title": "Las propuestas de los partidos sobre inmigración en las elecciones generales",
+      "published": "2026-11-03",
+      "accessed": "2026-11-16",
+      "election": "Generales de España 2026",
+      "year": 2026,
+      "kind": "noticia",
+      "origin": "secundaria",
+      "hosting": "medio",
+      "historical": false,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Resumen periodístico (03/11/2026) de posiciones públicas y votaciones sobre la regularización extraordinaria (RD 316/2026)."
     }
   ],
   "questions": {
@@ -155,10 +172,10 @@
       "status": "documentada",
       "position": 5,
       "sourceIds": [
-        "psoe-s06"
+        "psoe-s07"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su programa de 2023 defendía el arraigo, su reforma de extranjería de 2024 lo amplió y el de 2026 apuesta por más vías legales.",
+      "evidenceSummary": "Inferencia con fuentes: El Gobierno aprobó en abril de 2026 la regularización extraordinaria (RD 316/2026) y Sánchez la presenta como forma de anclar a los migrantes reconociendo sus derechos; el programa de 2026 no menciona el arraigo.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "media",
       "reviewNeeded": true,

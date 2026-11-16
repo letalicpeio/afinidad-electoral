@@ -92,6 +92,23 @@
       "documentVersion": null,
       "sha256": null,
       "notes": "Noticia del 26/01/2026: Irene Montero, candidata de Podemos, anuncia el pacto con el Gobierno; proviene de la ILP «Regularización Ya»."
+    },
+    {
+      "id": "podemos-s06",
+      "url": "https://www.telecinco.es/noticias/espana/20261103/elecciones-generales-2026-propuestas-partidos-inmigracion_18_020555622.html",
+      "publisher": "Telecinco",
+      "title": "Las propuestas de los partidos sobre inmigración en las elecciones generales",
+      "published": "2026-11-03",
+      "accessed": "2026-11-16",
+      "election": "Generales de España 2026",
+      "year": 2026,
+      "kind": "noticia",
+      "origin": "secundaria",
+      "hosting": "medio",
+      "historical": false,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Resumen periodístico (03/11/2026) de posiciones públicas y votaciones sobre la regularización extraordinaria (RD 316/2026)."
     }
   ],
   "questions": {
@@ -412,12 +429,12 @@
       "status": "documentada",
       "position": 5,
       "sourceIds": [
-        "podemos-s02"
+        "podemos-s06"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: defiende la igualdad de derechos de las personas migrantes («papeles son derechos»).",
+      "evidenceSummary": "Inferencia con fuentes: Su documento de 2025 pide derogar la Ley de Extranjería y defiende la igualdad de derechos de las personas migrantes; no consta una mención expresa a los requisitos económicos de las prestaciones.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "media",
+      "confidence": "baja",
       "reviewNeeded": true,
       "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
       "nextAction": "Buscar texto del partido sobre este tema.",

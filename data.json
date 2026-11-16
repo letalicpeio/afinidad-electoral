@@ -1,5 +1,5 @@
 {
-  "version": "0.5.33",
+  "version": "0.5.34",
   "date": "2026-11-15",
   "election": "Congreso · 29 de noviembre de 2026",
   "questions": [
@@ -257,11 +257,17 @@
           "value": 2,
           "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de centroderecha estatal y sus posiciones documentadas en temas afines.",
+          "reason": "Su programa de 2026 plantea que estar empadronado no baste para cobrar ayudas no urgentes y que se prime el arraigo real (empadronamiento y años cotizados), lo que supone requisitos distintos a los de los españoles; el programa no lo formula como una regla general sobre prestaciones.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de centroderecha estatal y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: su programa de 2026 plantea que estar empadronado no baste para cobrar ayudas no urgentes y que se prime el arraigo real (empadronamiento y años cotizados), lo que supone requisitos distintos a los de los españoles; el programa no lo formula como una regla general sobre prestaciones. Uso provisional, confianza media: no es una declaración suya sobre esta medida.",
           "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
+              "label": "Programa del PP 2026, PDF p. 19"
+            }
+          ]
         }
       },
       "exclude": [
@@ -3271,11 +3277,17 @@
           "value": 5,
           "source": "https://www.rtve.es/contenidos/documentos/elecciones_europeas_2024/programa_electoral_podemos.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Defiende la igualdad de derechos de las personas migrantes («papeles son derechos»).",
+          "reason": "Su documento de 2025 pide derogar la Ley de Extranjería y defiende la igualdad de derechos de las personas migrantes; no consta una mención expresa a los requisitos económicos de las prestaciones.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce porque defiende la igualdad de derechos de las personas migrantes («papeles son derechos»). Uso provisional, confianza media: no es una declaración del partido.",
-          "reviewed": "2026-11-15",
-          "coding": "Inferencia editorial"
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: su documento de 2025 pide derogar la Ley de Extranjería y defiende la igualdad de derechos de las personas migrantes; no consta una mención expresa a los requisitos económicos de las prestaciones. Uso provisional, confianza baja: no es una declaración suya sobre esta medida.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://www.telecinco.es/noticias/espana/20261103/elecciones-generales-2026-propuestas-partidos-inmigracion_18_020555622.html",
+              "label": "Telecinco, 03/11/2026"
+            }
+          ]
         },
         "6": {
           "value": 1,
@@ -3607,11 +3619,17 @@
           "value": 2,
           "source": "https://img.beteve.cat/wp-content/uploads/2023/07/programa-junts-per-catalunya-eleccions-generals-2023.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de independentismo catalán de centroderecha y sus posiciones documentadas en temas afines.",
+          "reason": "Su grupo votó en marzo de 2026 con el PP y Vox la moción para retirar la regularización extraordinaria; no consta una posición suya sobre el arraigo individual.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de independentismo catalán de centroderecha y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: su grupo votó en marzo de 2026 con el PP y Vox la moción para retirar la regularización extraordinaria; no consta una posición suya sobre el arraigo individual. Uso provisional, confianza baja: no es una declaración suya sobre esta medida.",
           "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://www.telecinco.es/noticias/espana/20261103/elecciones-generales-2026-propuestas-partidos-inmigracion_18_020555622.html",
+              "label": "Telecinco, 03/11/2026"
+            }
+          ]
         },
         "10": {
           "value": 4,
@@ -3693,11 +3711,17 @@
           "value": 5,
           "source": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26-1.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su programa de 2023 defendía el arraigo, su reforma de extranjería de 2024 lo amplió y el de 2026 apuesta por más vías legales.",
+          "reason": "El Gobierno aprobó en abril de 2026 la regularización extraordinaria (RD 316/2026) y Sánchez la presenta como forma de anclar a los migrantes reconociendo sus derechos; el programa de 2026 no menciona el arraigo.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce porque su programa de 2023 defendía el arraigo, su reforma de extranjería de 2024 lo amplió y el de 2026 apuesta por más vías legales. Uso provisional, confianza media: no es una declaración del partido.",
-          "reviewed": "2026-11-15",
-          "coding": "Inferencia editorial"
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: el Gobierno aprobó en abril de 2026 la regularización extraordinaria (RD 316/2026) y Sánchez la presenta como forma de anclar a los migrantes reconociendo sus derechos; el programa de 2026 no menciona el arraigo. Uso provisional, confianza media: no es una declaración suya sobre esta medida.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://www.telecinco.es/noticias/espana/20261103/elecciones-generales-2026-propuestas-partidos-inmigracion_18_020555622.html",
+              "label": "Telecinco, 03/11/2026"
+            }
+          ]
         },
         "8": {
           "value": 5,

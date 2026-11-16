@@ -49,3 +49,7 @@ Escaneados los programas de 2023 de PP, Junts, EH Bildu y ERC y las bases de Ger
 ## Todas las posiciones completadas por inferencia (datos 0.5.31)
 
 Por decisión del usuario, con la casilla «solo documentado» desmarcada cada partido tiene posición en los 18 temas. Se añaden 184 inferencias editoriales (confianza baja, deducidas del perfil del partido y de sus posiciones en temas afines; sin texto propio). Excepciones: 3 temas marcados como no puntuables por exclusión editorial (SALF-3, MJ-15, PACMA-6). Con la casilla marcada no cuenta ninguna inferencia. La auditoría de GPT calificó de débiles las inferencias de este tipo; se mantienen etiquetadas y excluibles, y la lista indica «⚠ mayoría inferida» cuando la mitad o más de los temas comparados lo son.
+
+## Mejora de inferencias con fuentes (datos 0.5.32–0.5.34)
+
+Nuevo campo `basisLinks` en las posiciones inferidas: lista de fuentes (url + etiqueta) de las que se deduce la inferencia; la web las muestra en el desplegable. Ronda 1 (defensa, vivienda, inmigración): PP-13 y VOX-13 pasan a documentadas (declaraciones de 2025); con fuentes siguen inferidas Junts-13, PNV-13, PNV-2 (baja de 4 a 2), CC-13 (de 4 a 2), EH Bildu-13, PP-17, Junts-3, Podemos-17 y PSOE-3. Estado: 218 inferidas, 9 con fuentes específicas. Fuentes de prensa leídas por Claude; no se han contrastado con el Diario de Sesiones.

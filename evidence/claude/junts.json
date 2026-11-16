@@ -74,6 +74,23 @@
       "documentVersion": null,
       "sha256": null,
       "notes": ""
+    },
+    {
+      "id": "junts-s05",
+      "url": "https://www.telecinco.es/noticias/espana/20261103/elecciones-generales-2026-propuestas-partidos-inmigracion_18_020555622.html",
+      "publisher": "Telecinco",
+      "title": "Las propuestas de los partidos sobre inmigración en las elecciones generales",
+      "published": "2026-11-03",
+      "accessed": "2026-11-16",
+      "election": "Generales de España 2026",
+      "year": 2026,
+      "kind": "noticia",
+      "origin": "secundaria",
+      "hosting": "medio",
+      "historical": false,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Resumen periodístico (03/11/2026) de posiciones públicas y votaciones sobre la regularización extraordinaria (RD 316/2026)."
     }
   ],
   "questions": {
@@ -111,10 +128,10 @@
       "status": "documentada",
       "position": 2,
       "sourceIds": [
-        "junts-s01"
+        "junts-s05"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de independentismo catalán de centroderecha y sus posiciones documentadas en temas afines.",
+      "evidenceSummary": "Inferencia con fuentes: Su grupo votó en marzo de 2026 con el PP y Vox la moción para retirar la regularización extraordinaria; no consta una posición suya sobre el arraigo individual.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
       "reviewNeeded": true,
