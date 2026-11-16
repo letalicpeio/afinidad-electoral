@@ -9,6 +9,7 @@ Lote versión 0.5.34, revisión 16/11/2026. Claude integra en los datos comparti
 | SALF | 9 | 1 | 1 | 7 | 0 | Revisado |
 | Partido Humanista | 9 | 0 | 2 | 7 | 0 | Revisado |
 | Por un Mundo Más Justo | 9 | 0 | 4 | 5 | 0 | Revisado |
+| D21 | 14 | 1 | 1 | 12 | 0 | Revisado, con limitaciones |
 
 ## Dudas y límites
 
@@ -45,3 +46,10 @@ Lote versión 0.5.34, revisión 16/11/2026. Claude integra en los datos comparti
 - Programa de generales 2026 consultado por ejes 06, 07, 11, 16, 19, 22, 23, 24 y 30.
 - B en pensiones: conservar poder adquisitivo no equivale textualmente a actualización por IPC; B en sanidad penitenciaria: transferencia sectorial, no genérica.
 - PDF capturas físicas devuelven fallo de caché; se usan identificadores de eje y medida verificables, nunca páginas PDF físicas inventadas.
+
+## D21
+
+- Identificado programa electoral propio de 2026 «La España que merecemos», 112 medidas en 32 temas; no debe confundirse con programas de integrantes o con la etiqueta anterior de ausencia de programa.
+- Portal oficial `https://mi.democracia21.es/programa` y PDF `https://mi.democracia21.es/docs/programa/espana-limpia-democracia21.pdf` localizados, pero `open` devolvió error de caché; se pudieron consultar las fichas originales completas por el índice del buscador y sus secciones.
+- Contraste positivo explícito en violencia machista; deflactación IRPF por IPC es indicio de menor carga fiscal, no rebaja general de impuestos.
+- Las salidas C restantes conservan nivel de confianza bajo por limitación de apertura, y deben revisarse por Claude antes de integrar una retirada definitiva.
