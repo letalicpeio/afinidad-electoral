@@ -162,16 +162,18 @@
       ]
     },
     "5": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "Inferencia retirada tras la auditoría independiente: la razón no responde a la afirmación.",
-      "confidence": "baja",
+      "status": "documentada",
+      "position": 1,
+      "sourceIds": [
+        "pnv-s03"
+      ],
+      "locator": "PDF p. 10; justicia y derechos humanos",
+      "evidenceSummary": "Rechaza la prisión permanente revisable porque supone la instauración de hecho de la cadena perpetua.",
+      "reason": "Oposición clara al endurecimiento penal en su expresión más severa.",
+      "confidence": "media",
       "reviewNeeded": false,
       "reviewNote": null,
-      "nextAction": "Buscar texto del partido sobre este tema.",
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 1,

@@ -37,3 +37,7 @@ De las 36 inferencias que GPT calificó de discutibles, 6 ya estaban retiradas e
 ## Localizadores (datos 0.5.26)
 
 GPT entregó `audit/gpt-localizadores-2026-11-16.csv` (índice físico de cada PDF, 56 posiciones). Se aplican sus 51 localizadores propuestos. Páginas que cambian: ERC-15 44→47, PNV-11 6/8→26, Junts-11 110→111, PCTE-8 6/11→11, PACMA-4 55→56, PACMA-11 75-76→77, Adelante-11 27→98, Comuns-2 80→81, FO-11 31→32. El resto solo se normaliza al formato «PDF p. N; apartado/medida». GPT rectificó su observación sobre Comuns-8 (la 19 es correcta) y su equivalencia +1 en PACMA. Pendientes: el PDF de Adelante Andalucía ha cambiado desde que se registró su huella (la ficha debe actualizarse), la URL del PNV no termina en .pdf y por eso no genera enlace con página, y la ficha de PP 2026 cuenta 65 hojas frente a 64.
+
+## Ampliación de huecos en partidos grandes (datos 0.5.27–0.5.28)
+
+Frente Amplio: seis posiciones nuevas leídas en el programa de Sumar 2023 (antecedente): regularización permanente (p. 106), oposición a la privatización sanitaria (p. 91, confianza baja), eliminar la prisión permanente revisable (p. 135), no aumentar el gasto militar (p. 141, confianza baja), reforma de la ley de indultos sin prohibición (p. 130, posición intermedia declarada) y acceso de migrantes irregulares al IMV (p. 88). PNV-5 = 1 (programa 2023, p. 10). Siguen sin texto: Frente Amplio 1, 7 y 14; PNV 1, 2, 4, 9, 13, 14, 16 y 17.

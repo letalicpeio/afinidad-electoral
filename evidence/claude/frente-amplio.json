@@ -140,42 +140,48 @@
       "replaces": null
     },
     "3": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "Inferencia retirada tras la auditoría independiente: la razón no responde a la afirmación.",
-      "confidence": "baja",
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "frente-amplio-s06"
+      ],
+      "locator": "PDF p. 106; apartado de reforma de la LOEX",
+      "evidenceSummary": "Propone reformar la Ley de Extranjería para que prime el reconocimiento de derechos e introducir un procedimiento de regularización permanente.",
+      "reason": "Apoyo explícito a la regularización estable de personas en situación irregular.",
+      "confidence": "media",
       "reviewNeeded": false,
       "reviewNote": null,
-      "nextAction": "Buscar texto del partido sobre este tema.",
+      "nextAction": null,
       "replaces": null
     },
     "4": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "Inferencia retirada tras la auditoría independiente: la razón no responde a la afirmación.",
+      "status": "documentada",
+      "position": 1,
+      "sourceIds": [
+        "frente-amplio-s06"
+      ],
+      "locator": "PDF p. 91; apartado de sanidad",
+      "evidenceSummary": "Afirma que sucesivas oleadas de privatización han erosionado el sistema sanitario y propone devolver a la sanidad pública su fortaleza, con una sanidad pública gestionada con equidad.",
+      "reason": "Oposición clara a la privatización; no hay una medida concreta sobre conciertos, por eso confianza baja.",
       "confidence": "baja",
       "reviewNeeded": false,
       "reviewNote": null,
-      "nextAction": "Buscar texto del partido sobre este tema.",
+      "nextAction": null,
       "replaces": null
     },
     "5": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "Inferencia retirada tras la auditoría independiente: la razón no responde a la afirmación.",
-      "confidence": "baja",
+      "status": "documentada",
+      "position": 1,
+      "sourceIds": [
+        "frente-amplio-s06"
+      ],
+      "locator": "PDF p. 135; justicia penal",
+      "evidenceSummary": "Propone eliminar la prisión permanente revisable y penas individualizadas orientadas a reducir la reincidencia.",
+      "reason": "Oposición clara al endurecimiento penal.",
+      "confidence": "alta",
       "reviewNeeded": false,
       "reviewNote": null,
-      "nextAction": "Buscar texto del partido sobre este tema.",
+      "nextAction": null,
       "replaces": null
     },
     "6": {
@@ -282,16 +288,18 @@
       "replaces": null
     },
     "13": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "Inferencia retirada tras la auditoría independiente: la razón no responde a la afirmación.",
+      "status": "documentada",
+      "position": 2,
+      "sourceIds": [
+        "frente-amplio-s06"
+      ],
+      "locator": "PDF p. 141; política exterior y de defensa",
+      "evidenceSummary": "Propone avanzar hacia una autonomía estratégica europea no al servicio de la industria armamentística y auditar los Programas Especiales de Armamento.",
+      "reason": "Oposición con matices: no propone aumentar el gasto y plantea revisarlo; no fija una cifra.",
       "confidence": "baja",
       "reviewNeeded": false,
       "reviewNote": null,
-      "nextAction": "Buscar texto del partido sobre este tema.",
+      "nextAction": null,
       "replaces": null
     },
     "14": {
@@ -323,29 +331,33 @@
       "replaces": null
     },
     "16": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "Inferencia retirada tras la auditoría independiente: la razón no responde a la afirmación.",
+      "status": "documentada",
+      "position": 3,
+      "sourceIds": [
+        "frente-amplio-s06"
+      ],
+      "locator": "PDF p. 130; justicia",
+      "evidenceSummary": "Propone una nueva ley de indultos que refuerce la exigencia de interés público en su concesión.",
+      "reason": "Posición intermedia declarada: restringir la concesión sin prohibirla para los condenados por corrupción.",
       "confidence": "baja",
       "reviewNeeded": false,
       "reviewNote": null,
-      "nextAction": "Buscar texto del partido sobre este tema.",
+      "nextAction": null,
       "replaces": null
     },
     "17": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "Inferencia retirada tras la auditoría independiente: la razón no responde a la afirmación.",
-      "confidence": "baja",
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "frente-amplio-s06"
+      ],
+      "locator": "PDF p. 88; Ingreso Mínimo Vital",
+      "evidenceSummary": "Propone ampliar el IMV a personas migrantes en situación irregular y que los menores de 30 años accedan con los mismos requisitos que el resto.",
+      "reason": "Apoyo explícito a que los residentes extranjeros accedan a las prestaciones.",
+      "confidence": "media",
       "reviewNeeded": false,
       "reviewNote": null,
-      "nextAction": "Buscar texto del partido sobre este tema.",
+      "nextAction": null,
       "replaces": null
     },
     "18": {

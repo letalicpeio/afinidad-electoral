@@ -1,5 +1,5 @@
 {
-  "version": "0.5.26",
+  "version": "0.5.28",
   "date": "2026-11-15",
   "election": "Congreso · 29 de noviembre de 2026",
   "questions": [
@@ -438,6 +438,17 @@
           "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce porque su programa dedica un capítulo a «Europa: retos y oportunidades» y es proeuropeísta. Uso provisional, confianza media: no es una declaración del partido.",
           "reviewed": "2026-11-15",
           "coding": "Inferencia editorial"
+        },
+        "5": {
+          "value": 1,
+          "source": "https://www.eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
+          "locator": "Histórico 2023 · PDF p. 10; justicia y derechos humanos",
+          "reason": "Oposición clara al endurecimiento penal en su expresión más severa.",
+          "historical": true,
+          "sourceYear": 2023,
+          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Antecedente: no acredita un compromiso de 2026.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional de un programa histórico"
         }
       }
     },
@@ -1617,6 +1628,72 @@
           "historical": true,
           "sourceYear": 2023,
           "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa de Sumar para las generales de 2023, alianza de la que procede Frente Amplio. Se usa como antecedente por decisión del usuario (15/11/2026), no como compromiso de Frente Amplio ni de sus socios actuales.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional de un programa histórico"
+        },
+        "3": {
+          "value": 5,
+          "source": "https://verdesequo.es/wp-content/uploads/2023/07/Un-programa-para-ti.pdf",
+          "locator": "Histórico 2023 · PDF p. 106; apartado de reforma de la LOEX",
+          "reason": "Apoyo explícito a la regularización estable de personas en situación irregular.",
+          "historical": true,
+          "sourceYear": 2023,
+          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa de Sumar para las generales de 2023, alianza de la que procede Frente Amplio. Antecedente: no acredita un compromiso de 2026.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional de un programa histórico"
+        },
+        "4": {
+          "value": 1,
+          "source": "https://verdesequo.es/wp-content/uploads/2023/07/Un-programa-para-ti.pdf",
+          "locator": "Histórico 2023 · PDF p. 91; apartado de sanidad",
+          "reason": "Oposición clara a la privatización; no hay una medida concreta sobre conciertos, por eso confianza baja.",
+          "historical": true,
+          "sourceYear": 2023,
+          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa de Sumar para las generales de 2023, alianza de la que procede Frente Amplio. Antecedente: no acredita un compromiso de 2026.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional de un programa histórico"
+        },
+        "5": {
+          "value": 1,
+          "source": "https://verdesequo.es/wp-content/uploads/2023/07/Un-programa-para-ti.pdf",
+          "locator": "Histórico 2023 · PDF p. 135; justicia penal",
+          "reason": "Oposición clara al endurecimiento penal.",
+          "historical": true,
+          "sourceYear": 2023,
+          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa de Sumar para las generales de 2023, alianza de la que procede Frente Amplio. Antecedente: no acredita un compromiso de 2026.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional de un programa histórico"
+        },
+        "13": {
+          "value": 2,
+          "source": "https://verdesequo.es/wp-content/uploads/2023/07/Un-programa-para-ti.pdf",
+          "locator": "Histórico 2023 · PDF p. 141; política exterior y de defensa",
+          "reason": "Oposición con matices: no propone aumentar el gasto y plantea revisarlo; no fija una cifra.",
+          "historical": true,
+          "sourceYear": 2023,
+          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa de Sumar para las generales de 2023, alianza de la que procede Frente Amplio. Antecedente: no acredita un compromiso de 2026.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional de un programa histórico"
+        },
+        "16": {
+          "value": 3,
+          "source": "https://verdesequo.es/wp-content/uploads/2023/07/Un-programa-para-ti.pdf",
+          "locator": "Histórico 2023 · PDF p. 130; justicia",
+          "reason": "Posición intermedia declarada: restringir la concesión sin prohibirla para los condenados por corrupción.",
+          "historical": true,
+          "sourceYear": 2023,
+          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa de Sumar para las generales de 2023, alianza de la que procede Frente Amplio. Antecedente: no acredita un compromiso de 2026.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional de un programa histórico"
+        },
+        "17": {
+          "value": 5,
+          "source": "https://verdesequo.es/wp-content/uploads/2023/07/Un-programa-para-ti.pdf",
+          "locator": "Histórico 2023 · PDF p. 88; Ingreso Mínimo Vital",
+          "reason": "Apoyo explícito a que los residentes extranjeros accedan a las prestaciones.",
+          "historical": true,
+          "sourceYear": 2023,
+          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa de Sumar para las generales de 2023, alianza de la que procede Frente Amplio. Antecedente: no acredita un compromiso de 2026.",
           "reviewed": "2026-11-15",
           "coding": "Interpretación editorial provisional de un programa histórico"
         }
