@@ -155,14 +155,14 @@
     "COMPROMÍS: FRONT VALENCIÀ (COMPROMIS-EUPV-PODEM-ERPV)"
    ],
    "note": "Coalición: no hereda el programa de sus miembros.",
-   "website": "https://compromis.net/",
+   "website": "https://frontvalencia.org/",
    "program": {
-    "status": "secundaria",
-    "url": "https://valenciaplaza.com/valenciaplaza/comunitat-valenciana1/compromis-front-valencia-hara-una-campana-coral-con-inicio-en-alicante-y-final-en-valencia",
-    "title": "EFE · 09/11/2026 · ejes programáticos",
-    "official": false,
-    "checked": "2026-11-14",
-    "note": "Cuatro posiciones: una de EFE (09/11/2026), dos de prensa de Moncloa (15/11/2026: alquiler y jornada) y una del programa de Compromís de 2023 (antecedente, conciertos educativos). No se ha localizado el programa del 29N; los antecedentes y la prensa se identifican por posición."
+    "status": "oficial",
+    "url": "https://frontvalencia.org/programa-compromis-front-valencia.pdf",
+    "title": "Programa electoral 29N · Compromís–Front Valencià",
+    "official": true,
+    "checked": "2026-11-16",
+    "note": "Programa oficial del 29N localizado por la auditoría de GPT y leído completo. Las 14 posiciones salen de este documento; no se usan antecedentes ni prensa."
    },
    "dataId": "compromis"
   },

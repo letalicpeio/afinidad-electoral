@@ -62,17 +62,15 @@
   ],
   "questions": {
     "1": {
-      "status": "documentada",
-      "position": 3,
-      "sourceIds": [
-        "pnv-s01"
-      ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: es un partido de centro moderado que defiende la fiscalidad foral propia.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Inferencia retirada tras la auditoría independiente: la razón no responde a la afirmación.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "reviewNeeded": false,
+      "reviewNote": null,
       "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null,
       "consultedSources": [
@@ -89,17 +87,15 @@
       ]
     },
     "2": {
-      "status": "documentada",
-      "position": 3,
-      "sourceIds": [
-        "pnv-s01"
-      ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su programa de 2026 propone regular alquileres de temporada y turísticos, no los precios del alquiler general.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Inferencia retirada tras la auditoría independiente: la razón no responde a la afirmación.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "reviewNeeded": false,
+      "reviewNote": null,
       "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null,
       "consultedSources": [
@@ -141,17 +137,15 @@
       }
     },
     "4": {
-      "status": "documentada",
-      "position": 3,
-      "sourceIds": [
-        "pnv-s01"
-      ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: defiende el sistema vasco mixto con concertación.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Inferencia retirada tras la auditoría independiente: la razón no responde a la afirmación.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "reviewNeeded": false,
+      "reviewNote": null,
       "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null,
       "consultedSources": [
@@ -168,17 +162,15 @@
       ]
     },
     "5": {
-      "status": "documentada",
-      "position": 3,
-      "sourceIds": [
-        "pnv-s01"
-      ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su programa de 2026 propone una respuesta «proporcionada» a la multirreincidencia.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Inferencia retirada tras la auditoría independiente: la razón no responde a la afirmación.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "reviewNeeded": false,
+      "reviewNote": null,
       "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null,
       "baselinePosition": {
@@ -270,17 +262,15 @@
       ]
     },
     "9": {
-      "status": "documentada",
-      "position": 2,
-      "sourceIds": [
-        "pnv-s01"
-      ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: defiende la transición energética y las renovables vascas y no promueve prolongar la nuclear.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Inferencia retirada tras la auditoría independiente: la razón no responde a la afirmación.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "reviewNeeded": false,
+      "reviewNote": null,
       "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null,
       "consultedSources": [
@@ -321,16 +311,16 @@
     },
     "11": {
       "status": "documentada",
-      "position": 4,
+      "position": 5,
       "sourceIds": [
         "pnv-s03"
       ],
       "locator": "PDF p. 6 y 8; igualdad",
       "evidenceSummary": "Compromiso con la erradicación de la violencia machista y con medidas en el Pacto de Estado contra la Violencia de Género.",
-      "reason": "Apoyo con matices: respalda las políticas y el Pacto de Estado sin detallar la legislación específica.",
+      "reason": "Compromiso con iniciativas legislativas específicas contra la violencia machista y con el Pacto de Estado.",
       "confidence": "media",
       "reviewNeeded": false,
-      "reviewNote": null,
+      "reviewNote": "Ajustada tras la auditoría independiente del 16/11/2026.",
       "nextAction": null,
       "replaces": null,
       "baselinePosition": {
@@ -385,17 +375,15 @@
       ]
     },
     "14": {
-      "status": "documentada",
-      "position": 2,
-      "sourceIds": [
-        "pnv-s01"
-      ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: es institucionalmente neutral, pero su programa pide reformar los delitos contra la Corona.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Inferencia retirada tras la auditoría independiente: la razón no responde a la afirmación.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
       "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null,
       "consultedSources": [
@@ -427,17 +415,15 @@
       "replaces": null
     },
     "16": {
-      "status": "documentada",
-      "position": 4,
-      "sourceIds": [
-        "pnv-s01"
-      ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: defiende reforzar el control de la corrupción.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Inferencia retirada tras la auditoría independiente: la razón no responde a la afirmación.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "reviewNeeded": false,
+      "reviewNote": null,
       "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null,
       "consultedSources": [
@@ -454,17 +440,15 @@
       ]
     },
     "17": {
-      "status": "documentada",
-      "position": 4,
-      "sourceIds": [
-        "pnv-s01"
-      ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: ha logrado la transferencia del IMV y defiende su gestión vasca.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Inferencia retirada tras la auditoría independiente: la razón no responde a la afirmación.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "reviewNeeded": false,
+      "reviewNote": null,
       "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null,
       "consultedSources": [

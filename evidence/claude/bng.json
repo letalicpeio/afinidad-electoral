@@ -103,17 +103,17 @@
     },
     "6": {
       "status": "documentada",
-      "position": 2,
+      "position": 1,
       "sourceIds": [
         "bng-s01"
       ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: defiende una educación pública gallega como eje.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
-      "nextAction": "Buscar texto del partido sobre este tema.",
+      "locator": "PDF p. 35; educación",
+      "evidenceSummary": "Supresión de los conciertos educativos en todos los niveles.",
+      "reason": "Oposición clara a mantener la financiación de la concertada.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     },
     "7": {
@@ -252,17 +252,15 @@
       "replaces": null
     },
     "16": {
-      "status": "documentada",
-      "position": 4,
-      "sourceIds": [
-        "bng-s01"
-      ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: defiende endurecer controles contra la corrupción.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Inferencia retirada tras la auditoría independiente: la razón no responde a la afirmación.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "reviewNeeded": false,
+      "reviewNote": null,
       "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
@@ -282,17 +280,15 @@
       "replaces": null
     },
     "18": {
-      "status": "documentada",
-      "position": 2,
-      "sourceIds": [
-        "bng-s01"
-      ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: defiende más intervención pública y protección laboral en la economía.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Inferencia retirada tras la auditoría independiente: la razón no responde a la afirmación.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "reviewNeeded": false,
+      "reviewNote": null,
       "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     }

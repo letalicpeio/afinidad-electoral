@@ -74,6 +74,23 @@
       "documentVersion": null,
       "sha256": "0fd27db092bc2d001419b9d569bad58f0bd3595ac587309a54d4e2e8840877bb",
       "notes": "Programa de Compromís para las generales del 23J de 2023 (la coalición concurrió con Sumar). Copia no oficial alojada por un medio."
+    },
+    {
+      "id": "compromis-s05",
+      "url": "https://frontvalencia.org/programa-compromis-front-valencia.pdf",
+      "publisher": "Compromís–Front Valencià",
+      "title": "Programa electoral 29N · Compromís–Front Valencià",
+      "published": "2026-11",
+      "accessed": "2026-11-15",
+      "election": "Generales de España 2026",
+      "year": 2026,
+      "kind": "programa",
+      "origin": "primaria",
+      "hosting": "oficial",
+      "historical": false,
+      "documentVersion": null,
+      "sha256": "37b569d6ac31a21a8f972dcfd5be3740c32f50fe1c6f3e87c9a1f68027ee6b55",
+      "notes": "Programa oficial para el 29N localizado por la auditoría de GPT y leído completo por Claude (texto en valenciano)."
     }
   ],
   "questions": {
@@ -81,27 +98,27 @@
       "status": "documentada",
       "position": 4,
       "sourceIds": [
-        "compromis-s01"
+        "compromis-s05"
       ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: es un partido de izquierda que defiende una fiscalidad progresiva con alivio a las rentas bajas.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
-      "nextAction": "Buscar texto del partido sobre este tema.",
+      "locator": "PDF p. 18; fiscalidad",
+      "evidenceSummary": "Deflactar el IRPF en las rentas inferiores a 30.000 € para ajustarlo a la inflación.",
+      "reason": "Apoyo con matices: alivio limitado a rentas bajas y medias.",
+      "confidence": "media",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     },
     "2": {
       "status": "documentada",
       "position": 5,
       "sourceIds": [
-        "compromis-s02"
+        "compromis-s05"
       ],
-      "locator": "Moncloa.com 15/11/2026 · acto de Xàtiva",
-      "evidenceSummary": "Compromís defiende la intervención de los precios del alquiler.",
-      "reason": "Apoyo explícito a intervenir los precios del alquiler (no limita la medida a zonas tensionadas).",
-      "confidence": "media",
+      "locator": "PDF p. 4; vivienda",
+      "evidenceSummary": "Dar competencias a los ayuntamientos para declarar zonas tensionadas e impulsar el control efectivo de los precios del alquiler.",
+      "reason": "Apoyo explícito a regular los precios del alquiler en zonas tensionadas.",
+      "confidence": "alta",
       "reviewNeeded": false,
       "reviewNote": null,
       "nextAction": null,
@@ -111,44 +128,42 @@
       "status": "documentada",
       "position": 5,
       "sourceIds": [
-        "compromis-s01"
+        "compromis-s05"
       ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: apoya la regularización de personas migrantes.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "locator": "PDF p. 64; migración",
+      "evidenceSummary": "Impulsar vías de regularización y reformas que faciliten la documentación y la autorización de trabajo.",
+      "reason": "Apoyo explícito a regularizar a personas en situación irregular (lectura por alcance: no cita el arraigo).",
       "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
-      "nextAction": "Buscar texto del partido sobre este tema.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     },
     "4": {
       "status": "documentada",
       "position": 1,
       "sourceIds": [
-        "compromis-s01"
+        "compromis-s05"
       ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: defiende una sanidad pública 100 % gestionada públicamente.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
-      "nextAction": "Buscar texto del partido sobre este tema.",
+      "locator": "PDF p. 9; sanidad",
+      "evidenceSummary": "Blindar la gestión pública y derogar la Ley 15/1997 para impedir la mercantilización y la privatización de la gestión sanitaria.",
+      "reason": "Oposición clara a ampliar la colaboración privada.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     },
     "5": {
-      "status": "documentada",
-      "position": 2,
-      "sourceIds": [
-        "compromis-s01"
-      ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: prioriza la reinserción sobre el endurecimiento penal.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Sustituida por el programa oficial de Compromís–Front Valencià para el 29N.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "reviewNeeded": false,
+      "reviewNote": null,
       "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
@@ -156,10 +171,10 @@
       "status": "documentada",
       "position": 2,
       "sourceIds": [
-        "compromis-s04"
+        "compromis-s05"
       ],
-      "locator": "PDF p. 2; educación, medida 4",
-      "evidenceSummary": "Modificar la normativa de conciertos educativos para que la red concertada sea «realmente subsidiaria de la pública» y prohibir ceder suelo público a centros privados.",
+      "locator": "PDF p. 10; educación",
+      "evidenceSummary": "Modificar la normativa de conciertos educativos para que la red concertada sea realmente subsidiaria de la pública.",
       "reason": "Oposición con matices: no elimina los conciertos pero los subordina a la red pública.",
       "confidence": "media",
       "reviewNeeded": false,
@@ -171,27 +186,27 @@
       "status": "documentada",
       "position": 5,
       "sourceIds": [
-        "compromis-s01"
+        "compromis-s05"
       ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: reclama más competencias para la Generalitat y financiación autonómica.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
-      "nextAction": "Buscar texto del partido sobre este tema.",
+      "locator": "PDF p. 59; modelo de Estado",
+      "evidenceSummary": "Traspasar a la Generalitat las competencias en costas, puertos, aeropuertos, Rodalies, Ingreso Mínimo Vital e inspección de trabajo, con sus recursos.",
+      "reason": "Apoyo explícito a transferir más competencias.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     },
     "8": {
       "status": "documentada",
-      "position": 4,
+      "position": 5,
       "sourceIds": [
-        "compromis-s03"
+        "compromis-s05"
       ],
-      "locator": "Moncloa.com 15/11/2026 · economía y laboral",
-      "evidenceSummary": "Subida de salarios para recuperar poder adquisitivo y reducción de la jornada laboral.",
-      "reason": "Apoyo con matices: propone reducir la jornada junto a subidas salariales, sin detallar que se mantenga el salario.",
-      "confidence": "baja",
+      "locator": "PDF p. 6; salarios y condiciones laborales",
+      "evidenceSummary": "Reducir la jornada laboral a cuatro días (32 horas semanales) sin disminución del sueldo.",
+      "reason": "Apoyo explícito, sin pérdida salarial.",
+      "confidence": "alta",
       "reviewNeeded": false,
       "reviewNote": null,
       "nextAction": null,
@@ -201,89 +216,87 @@
       "status": "documentada",
       "position": 1,
       "sourceIds": [
-        "compromis-s01"
+        "compromis-s05"
       ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: es antinuclear.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
-      "nextAction": "Buscar texto del partido sobre este tema.",
+      "locator": "PDF p. 30; energía",
+      "evidenceSummary": "Mantener el calendario de cierre de las centrales nucleares y no aceptar ninguna nueva prórroga.",
+      "reason": "Oposición explícita a mantener la nuclear más allá del calendario.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     },
     "10": {
       "status": "documentada",
       "position": 5,
       "sourceIds": [
-        "compromis-s01"
+        "compromis-s05"
       ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: propone «blindar las pensiones» (Moncloa, 15/11/2026).",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
-      "nextAction": "Buscar texto del partido sobre este tema.",
+      "locator": "PDF p. 8; pensiones",
+      "evidenceSummary": "Asegurar el poder adquisitivo de las pensiones, garantizando constitucionalmente su revalorización conforme al coste de la vida.",
+      "reason": "Apoyo explícito a actualizar las pensiones con el coste de la vida (equivale al IPC).",
+      "confidence": "media",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     },
     "11": {
       "status": "documentada",
       "position": 5,
       "sourceIds": [
-        "compromis-s01"
+        "compromis-s05"
       ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: defiende las políticas feministas y contra la violencia machista.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "locator": "PDF p. 54; igualdad",
+      "evidenceSummary": "Garantizar una respuesta penal proporcionada y efectiva ante la violencia machista, la reincidencia y el incumplimiento de las órdenes de protección.",
+      "reason": "Apoyo a mantener y reforzar la respuesta legal específica.",
       "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
-      "nextAction": "Buscar texto del partido sobre este tema.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     },
     "12": {
       "status": "documentada",
-      "position": 4,
+      "position": 5,
       "sourceIds": [
-        "compromis-s01"
+        "compromis-s05"
       ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: es europeísta y federalista.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
-      "nextAction": "Buscar texto del partido sobre este tema.",
+      "locator": "PDF p. 63; Unión Europea",
+      "evidenceSummary": "Reformar los tratados para dar más poder al Parlamento Europeo, superar la unanimidad en política exterior y fiscal y reforzar el presupuesto comunitario.",
+      "reason": "Apoyo explícito a mayor integración política.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     },
     "13": {
       "status": "documentada",
-      "position": 1,
+      "position": 2,
       "sourceIds": [
-        "compromis-s01"
+        "compromis-s05"
       ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: es contraria al aumento del gasto militar.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "locator": "PDF p. 62; política exterior y defensa",
+      "evidenceSummary": "Propone una Unión Europea de la Defensa que reduzca duplicidades y gastos militares y auditar toda la despesa en defensa.",
+      "reason": "Oposición con matices: no pide aumentar el gasto, sino reducir duplicidades.",
       "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
-      "nextAction": "Buscar texto del partido sobre este tema.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     },
     "14": {
-      "status": "documentada",
-      "position": 4,
-      "sourceIds": [
-        "compromis-s01"
-      ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: tiene una orientación republicana.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Sustituida por el programa oficial de Compromís–Front Valencià para el 29N.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "reviewNeeded": false,
+      "reviewNote": null,
       "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
@@ -291,60 +304,56 @@
       "status": "documentada",
       "position": 5,
       "sourceIds": [
-        "compromis-s01"
+        "compromis-s05"
       ],
-      "locator": "EFE 09/11/2026 · igualdad",
-      "evidenceSummary": "Propone el «blindaje del aborto en la Constitución».",
-      "reason": "Apoyo claro a mantener y reforzar el derecho al aborto.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Fuente secundaria (EFE); contrastar con el programa de la coalición.",
+      "locator": "PDF p. 52; igualdad",
+      "evidenceSummary": "Garantizar la interrupción voluntaria del embarazo gratuita, segura y accesible dentro de la red sanitaria pública.",
+      "reason": "Apoyo explícito a mantener y garantizar el derecho al aborto.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
       "nextAction": null,
       "replaces": null
     },
     "16": {
-      "status": "documentada",
-      "position": 4,
-      "sourceIds": [
-        "compromis-s01"
-      ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: defiende reforzar el control de la corrupción.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Sustituida por el programa oficial de Compromís–Front Valencià para el 29N.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "reviewNeeded": false,
+      "reviewNote": null,
       "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "17": {
-      "status": "documentada",
-      "position": 5,
-      "sourceIds": [
-        "compromis-s01"
-      ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: defiende la igualdad de derechos de las personas migrantes.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Sustituida por el programa oficial de Compromís–Front Valencià para el 29N.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "reviewNeeded": false,
+      "reviewNote": null,
       "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "18": {
       "status": "documentada",
-      "position": 2,
+      "position": 4,
       "sourceIds": [
-        "compromis-s01"
+        "compromis-s05"
       ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: prefiere más regulación pública y protección laboral que flexibilizar a las empresas.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
-      "nextAction": "Buscar texto del partido sobre este tema.",
+      "locator": "PDF p. 21 y 7; industria y autónomos",
+      "evidenceSummary": "Reducir burocracia y trámites de micropymes y autónomos y simplificar la relación con las administraciones.",
+      "reason": "Apoyo con matices: reducción de trámites dirigida a pymes y autónomos.",
+      "confidence": "media",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     }
   },

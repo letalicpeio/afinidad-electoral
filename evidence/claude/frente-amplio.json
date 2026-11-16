@@ -112,17 +112,15 @@
   ],
   "questions": {
     "1": {
-      "status": "documentada",
-      "position": 4,
-      "sourceIds": [
-        "frente-amplio-s06"
-      ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su programa de 2023 propone bajar la carga a las rentas del trabajo frente a las del capital.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Inferencia retirada tras la auditoría independiente: la razón no responde a la afirmación.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "reviewNeeded": false,
+      "reviewNote": null,
       "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
@@ -142,47 +140,41 @@
       "replaces": null
     },
     "3": {
-      "status": "documentada",
-      "position": 5,
-      "sourceIds": [
-        "frente-amplio-s06"
-      ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su espacio impulsó la ILP «Regularización Ya» y el pacto de regularización de 2026.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Inferencia retirada tras la auditoría independiente: la razón no responde a la afirmación.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
       "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "4": {
-      "status": "documentada",
-      "position": 1,
-      "sourceIds": [
-        "frente-amplio-s06"
-      ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su programa de 2023 propone reforzar la sanidad pública y limitar la externalización.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Inferencia retirada tras la auditoría independiente: la razón no responde a la afirmación.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
       "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "5": {
-      "status": "documentada",
-      "position": 2,
-      "sourceIds": [
-        "frente-amplio-s06"
-      ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su programa de 2023 prioriza la reinserción y propone derogar la prisión permanente revisable.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Inferencia retirada tras la auditoría independiente: la razón no responde a la afirmación.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "reviewNeeded": false,
+      "reviewNote": null,
       "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
@@ -248,16 +240,16 @@
     },
     "10": {
       "status": "documentada",
-      "position": 4,
+      "position": 5,
       "sourceIds": [
         "frente-amplio-s01"
       ],
       "locator": "Nota de prensa; apartado «Consolidar lo conseguido»",
       "evidenceSummary": "Propone una pensión mínima garantizada no inferior al SMI y recuperar la jubilación a los 65 años; afirma que las pensiones «han vuelto a revalorizarse con el IPC» y quiere «ampliar y consolidar esos avances».",
-      "reason": "Apoya mantener la revalorización con el IPC como logro a consolidar, pero la nota no la formula como propuesta.",
+      "reason": "Propone consolidar expresamente la revalorización con el IPC.",
       "confidence": "media",
       "reviewNeeded": true,
-      "reviewNote": "Apoyo implícito: la mención al IPC es de contexto. Contrastar con el programa.",
+      "reviewNote": "Ajustada tras la auditoría independiente del 16/11/2026.",
       "nextAction": null,
       "replaces": null
     },
@@ -292,32 +284,28 @@
       "replaces": null
     },
     "13": {
-      "status": "documentada",
-      "position": 2,
-      "sourceIds": [
-        "frente-amplio-s06"
-      ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su programa de 2023 aboga por una autonomía estratégica europea «no al servicio de la industria armamentística».",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Inferencia retirada tras la auditoría independiente: la razón no responde a la afirmación.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
       "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "14": {
-      "status": "documentada",
-      "position": 4,
-      "sourceIds": [
-        "frente-amplio-s06"
-      ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: es una coalición con partidos republicanos, aunque no lo plantea como compromiso de programa.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Inferencia retirada tras la auditoría independiente: la razón no responde a la afirmación.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "reviewNeeded": false,
+      "reviewNote": null,
       "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
@@ -337,32 +325,28 @@
       "replaces": null
     },
     "16": {
-      "status": "documentada",
-      "position": 3,
-      "sourceIds": [
-        "frente-amplio-s06"
-      ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su programa de 2023 propone una nueva ley de indultos que refuerce el interés público, sin prohibirlos.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Inferencia retirada tras la auditoría independiente: la razón no responde a la afirmación.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "reviewNeeded": false,
+      "reviewNote": null,
       "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "17": {
-      "status": "documentada",
-      "position": 5,
-      "sourceIds": [
-        "frente-amplio-s06"
-      ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su programa de 2023 garantiza el IMV a familias en situación irregular con hijos a cargo.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Inferencia retirada tras la auditoría independiente: la razón no responde a la afirmación.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
       "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },

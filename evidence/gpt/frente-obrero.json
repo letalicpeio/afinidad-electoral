@@ -197,17 +197,15 @@
       }
     },
     "10": {
-      "status": "documentada",
-      "position": 4,
-      "sourceIds": [
-        "frente-obrero-s01"
-      ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su programa propone incrementar las pensiones mínimas y no contributivas y revertir el retraso de la jubilación.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Inferencia retirada tras la auditoría independiente: la razón no responde a la afirmación.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "reviewNeeded": false,
+      "reviewNote": null,
       "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
@@ -288,17 +286,15 @@
       }
     },
     "15": {
-      "status": "documentada",
-      "position": 1,
-      "sourceIds": [
-        "frente-obrero-s01"
-      ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su programa prioriza la natalidad y la familia tradicional y no defiende el aborto.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Inferencia retirada tras la auditoría independiente: la razón no responde a la afirmación.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "reviewNeeded": false,
+      "reviewNote": null,
       "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
@@ -341,17 +337,15 @@
       "replaces": null
     },
     "18": {
-      "status": "documentada",
-      "position": 2,
-      "sourceIds": [
-        "frente-obrero-s01"
-      ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su programa culpa al «sistema capitalista» y propone más control público de la economía.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Inferencia retirada tras la auditoría independiente: la razón no responde a la afirmación.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "reviewNeeded": false,
+      "reviewNote": null,
       "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     }

@@ -24,21 +24,55 @@
       "documentVersion": null,
       "sha256": "ae0c35d7ef3faf540acaa79d47abbe3ae2bf56a3a755c4e78a8f5bf3ea49789c",
       "notes": "PDF del dominio pp.es (12,3 MB, 65 páginas), con medidas numeradas 1–249. La URL citada antes por el catálogo devolvía 404; esta es la ruta vigente. Páginas del PDF. Existe un segundo PDF con el mismo título (LA-RECONSTRUCCION-NACIONAL.pdf) no comparado."
+    },
+    {
+      "id": "pp-s02",
+      "url": "https://www.pp.es/actualidad/articulos/bravo-denuncia-que-la-ley-de-reduccion-laboral-del-gobierno-esta-invadida-de-ideologia-y-supondria-un-duro-golpe-al-tejido-productivo/",
+      "publisher": "Partido Popular",
+      "title": "Bravo denuncia que la ley de reducción laboral está invadida de ideología",
+      "published": "2025-09-10",
+      "accessed": "2026-11-15",
+      "election": "Generales de España 2025",
+      "year": 2025,
+      "kind": "declaracion",
+      "origin": "primaria",
+      "hosting": "oficial",
+      "historical": true,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Declaración de Juan Bravo en el Pleno del Congreso, leída por Claude."
+    },
+    {
+      "id": "pp-s03",
+      "url": "https://www.pp.es/wp-content/uploads/2023/07/programa_electoral_pp_23j_feijoo_2023.pdf",
+      "publisher": "Partido Popular",
+      "title": "Programa electoral 23J (2023)",
+      "published": "2023-07",
+      "accessed": "2026-11-15",
+      "election": "Generales de España 2023",
+      "year": 2023,
+      "kind": "programa",
+      "origin": "primaria",
+      "hosting": "oficial",
+      "historical": true,
+      "documentVersion": null,
+      "sha256": "c93baafc88bdcb33adcd7e8be9dc309b09056362183ad7b7767f3d5134313108",
+      "notes": "Programa del PP de 2023; solo cubre un tema que el de 2026 no trata."
     }
   ],
   "questions": {
     "1": {
       "status": "documentada",
-      "position": 5,
+      "position": 4,
       "sourceIds": [
         "pp-s01"
       ],
       "locator": "PDF p. 47; medida 177–179",
       "evidenceSummary": "Subir los mínimos del IRPF, bajar el IRPF de rentas medias, bajas y familias, deflactar la tarifa y reducir el IRPF de jóvenes de 18 a 35 años.",
-      "reason": "Rebaja explícita del IRPF de trabajadores y autónomos.",
+      "reason": "Rebaja dirigida a rentas medias y bajas y a jóvenes, no a toda la renta laboral.",
       "confidence": "alta",
       "reviewNeeded": false,
-      "reviewNote": null,
+      "reviewNote": "Ajustada tras la auditoría independiente del 16/11/2026.",
       "nextAction": null,
       "replaces": null,
       "baselinePosition": {
@@ -75,16 +109,16 @@
     },
     "3": {
       "status": "documentada",
-      "position": 2,
+      "position": 3,
       "sourceIds": [
         "pp-s01"
       ],
       "locator": "PDF p. 19; medida 42",
       "evidenceSummary": "Prohibir por ley las regularizaciones masivas e indiscriminadas; el arraigo será un reconocimiento individual excepcional y el empadronamiento no bastará para ayudas no urgentes.",
-      "reason": "Oposición con matices: no elimina el arraigo, lo restringe a casos excepcionales.",
+      "reason": "Solo permite el arraigo de forma excepcional (medida 42): posición intermedia declarada entre permitirlo y suprimirlo.",
       "confidence": "media",
       "reviewNeeded": true,
-      "reviewNote": "Antes no puntuable por no justificar un 1; la escala común admite el 2 para oposición con matices explícitos.",
+      "reviewNote": "Ajustada tras la auditoría independiente del 16/11/2026.",
       "nextAction": null,
       "replaces": "Línea base importada: valor 1 (no puntuable); fuente https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf; localizador «Medida 42»",
       "baselinePosition": {
@@ -160,33 +194,31 @@
       }
     },
     "7": {
-      "status": "documentada",
-      "position": 2,
-      "sourceIds": [
-        "pp-s01"
-      ],
-      "locator": "PDF p. 15; 25; medida 16 y 59",
-      "evidenceSummary": "Defiende el Estado de las Autonomías, pero el Estado ejercerá por sí mismo sus competencias exclusivas y evaluará cualquier transferencia por sus efectos sobre la igualdad de los españoles.",
-      "reason": "Oposición con matices a transferir más competencias.",
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Posición retirada tras la auditoría: el pasaje citado no responde a la afirmación tal como está redactada.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "Lectura de dos medidas generales; no hay una propuesta específica sobre transferencias.",
-      "nextAction": null,
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "8": {
       "status": "documentada",
       "position": 2,
       "sourceIds": [
-        "pp-s01"
+        "pp-s02"
       ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: votó en el Congreso contra la ley de reducción de jornada a 37,5 horas (sept. 2025) y prefiere regularla por convenio.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "locator": "Declaración de J. Bravo en el Pleno del 10/09/2025",
+      "evidenceSummary": "Vota en contra de reducir la jornada por ley sin diálogo y propone un camino alternativo gradual, flexible y negociado en convenios.",
+      "reason": "Oposición con matices: no rechaza reducir la jornada, sí hacerlo por ley.",
       "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
-      "nextAction": "Buscar texto del partido sobre este tema.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     },
     "9": {
@@ -236,18 +268,16 @@
       }
     },
     "11": {
-      "status": "documentada",
-      "position": 5,
-      "sourceIds": [
-        "pp-s01"
-      ],
-      "locator": "PDF p. 17; medida 28",
-      "evidenceSummary": "Refuerza VioGén, más medios a las unidades especializadas, protección a los hijos y rendición de cuentas anual del Pacto de Estado contra la Violencia de Género.",
-      "reason": "Apoyo claro al marco específico vigente.",
-      "confidence": "media",
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Posición retirada tras la auditoría: el pasaje citado no responde a la afirmación tal como está redactada.",
+      "confidence": "baja",
       "reviewNeeded": false,
       "reviewNote": null,
-      "nextAction": null,
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null,
       "baselinePosition": {
         "value": 5,
@@ -259,18 +289,16 @@
       }
     },
     "12": {
-      "status": "documentada",
-      "position": 4,
-      "sourceIds": [
-        "pp-s01"
-      ],
-      "locator": "PDF p. 55–56; medida 234–236 (apartado 4.10)",
-      "evidenceSummary": "Defiende mercado único sin barreras, interconexiones, compras conjuntas de defensa y una Unión más fuerte; «España ha ganado mucho con Europa».",
-      "reason": "Apoyo a más capacidad europea sin hablar de integración política ni federalismo.",
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Posición retirada tras la auditoría: el pasaje citado no responde a la afirmación tal como está redactada.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "Apoyo matizado; la afirmación habla de integración política.",
-      "nextAction": null,
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null,
       "baselinePosition": {
         "value": 4,
@@ -283,18 +311,16 @@
       }
     },
     "13": {
-      "status": "documentada",
-      "position": 5,
-      "sourceIds": [
-        "pp-s01"
-      ],
-      "locator": "PDF p. 21–22; medida 52–55",
-      "evidenceSummary": "Ley de programación y financiación de la defensa con inversión plurianual, cumplimiento de compromisos con la OTAN, refuerzo de contingentes y despliegue y fomento de la industria de defensa.",
-      "reason": "Apoyo claro, sin fijar una cifra.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "No cuantifica el aumento; es compromiso de financiación plurianual.",
-      "nextAction": null,
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Posición retirada tras la auditoría: el pasaje citado no responde a la afirmación tal como está redactada.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null,
       "baselinePosition": {
         "value": 5,
@@ -311,28 +337,28 @@
       "sourceIds": [
         "pp-s01"
       ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su programa presenta la monarquía parlamentaria como pilar del orden constitucional.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "alta",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
-      "nextAction": "Buscar texto del partido sobre este tema.",
+      "locator": "PDF p. 8; introducción",
+      "evidenceSummary": "Reivindica como obra común la Constitución y la monarquía parlamentaria y propone recuperar ese espíritu.",
+      "reason": "Apoyo a la continuidad de la monarquía: lectura contextual, no una frase contra la república.",
+      "confidence": "media",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     },
     "15": {
       "status": "documentada",
       "position": 4,
       "sourceIds": [
-        "pp-s01"
+        "pp-s03"
       ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: propone mantener la ley con reformas (consentimiento paterno de menores) sin plantear derogarla.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "locator": "PDF p. 47; medida 129",
+      "evidenceSummary": "Introducir el consentimiento paterno en la legislación de interrupción voluntaria del embarazo para menores.",
+      "reason": "Mantiene el derecho con una restricción explícita; no se presenta como compromiso nuevo de 2026.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
-      "nextAction": "Buscar texto del partido sobre este tema.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     },
     "16": {
@@ -359,18 +385,16 @@
       }
     },
     "17": {
-      "status": "documentada",
-      "position": 2,
-      "sourceIds": [
-        "pp-s01"
-      ],
-      "locator": "PDF p. 19; medida 42–44",
-      "evidenceSummary": "El empadronamiento, por sí solo, no bastará para acceder a ayudas económicas no urgentes; compromiso de integración para renovar la residencia.",
-      "reason": "Restringe el acceso de extranjeros a ayudas, sin hablar de prioridad nacional con esas palabras.",
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Posición retirada tras la auditoría: el pasaje citado no responde a la afirmación tal como está redactada.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "Oposición con matices; el programa no formula la afirmación contraria expresamente.",
-      "nextAction": null,
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "18": {

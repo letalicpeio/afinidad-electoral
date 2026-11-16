@@ -219,18 +219,16 @@
       "replaces": null
     },
     "11": {
-      "status": "documentada",
-      "position": 5,
-      "sourceIds": [
-        "d21-s02"
-      ],
-      "locator": "Medida 01 · Feminismo y violencia machista",
-      "evidenceSummary": "Reafirma el compromiso con la erradicación de la violencia machista y bloqueará cualquier iniciativa para desmantelar o desfinanciar la red de protección.",
-      "reason": "Apoyo claro.",
-      "confidence": "alta",
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Posición retirada tras la auditoría: el pasaje citado no responde a la afirmación tal como está redactada.",
+      "confidence": "baja",
       "reviewNeeded": false,
       "reviewNote": null,
-      "nextAction": null,
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null,
       "baselinePosition": {
         "value": 5,
@@ -410,13 +408,8 @@
     }
   ],
   "integration": {
-    "status": "integrado",
-    "commit": "1f17572f6d61aeb21eaedfb84bc88ea0a9402a0e",
-    "scope": "Pregunta 12: valor 4; normalización del origen oficial; pregunta 13 sigue sin puntuar",
-    "publishedVersion": "0.5.10",
-    "verified": "2026-11-15",
-    "verifiedUrl": "https://afinidad-electoral.org/",
-    "reviewedBy": "gpt"
+    "status": "pendiente",
+    "commit": null
   },
   "integrationHistory": [
     {

@@ -298,16 +298,16 @@
     },
     "18": {
       "status": "documentada",
-      "position": 5,
+      "position": 4,
       "sourceIds": [
         "pacma-s01"
       ],
       "locator": "PDF p. 69; apartado 3.4",
       "evidenceSummary": "Agilizar la creación de empresas eliminando trabas burocráticas y simplificando los trámites exigibles.",
-      "reason": "Apoyo explícito.",
+      "reason": "Simplifica trámites al crear empresas e iniciar actividades; apoyo limitado a ese ámbito.",
       "confidence": "alta",
       "reviewNeeded": false,
-      "reviewNote": null,
+      "reviewNote": "Ajustada tras la auditoría independiente del 16/11/2026.",
       "nextAction": null,
       "replaces": null,
       "baselinePosition": {

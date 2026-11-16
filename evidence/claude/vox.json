@@ -23,6 +23,23 @@
       "documentVersion": null,
       "sha256": "065abf6720be2f7b19b8e911920c2ee2ce5c2059d0ae8bf09770bc790ed11b65",
       "notes": "PDF del dominio del partido (14,5 MB, 67 páginas). La portada indica «Programa electoral 29 de noviembre de 2026». Descargado con curl y User-Agent de navegador; texto extraído con pdftotext. Los puntos están numerados 1–106; las páginas citadas son las del PDF."
+    },
+    {
+      "id": "vox-s02",
+      "url": "https://www.voxespana.es/grupo_parlamentario/actividad-parlamentaria/jornada-laboral-figaredo-califica-de-engano-a-los-trabajadores-la-medida-del-gobierno-y-advierte-de-la-ruina-que-supondra-para-las-pymes-20250910",
+      "publisher": "VOX",
+      "title": "Jornada laboral: Figaredo califica de engaño la medida del Gobierno",
+      "published": "2025-09-10",
+      "accessed": "2026-11-15",
+      "election": "Generales de España 2025",
+      "year": 2025,
+      "kind": "declaracion",
+      "origin": "primaria",
+      "hosting": "oficial",
+      "historical": true,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Declaración parlamentaria de 2025 leída por la auditoría de GPT; la página no es accesible desde el equipo de Claude (403)."
     }
   ],
   "questions": {
@@ -42,18 +59,16 @@
       "replaces": null
     },
     "2": {
-      "status": "documentada",
-      "position": 1,
-      "sourceIds": [
-        "vox-s01"
-      ],
-      "locator": "PDF p. 23; punto 30",
-      "evidenceSummary": "Propone la derogación de la Ley de Vivienda, incentivos fiscales al alquiler de larga duración y regular los pisos turísticos.",
-      "reason": "La Ley de Vivienda es la norma que permite declarar zonas tensionadas; derogarla es la oposición más directa a la afirmación.",
-      "confidence": "alta",
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Posición retirada tras la auditoría: el pasaje citado no responde a la afirmación tal como está redactada.",
+      "confidence": "baja",
       "reviewNeeded": false,
       "reviewNote": null,
-      "nextAction": null,
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "3": {
@@ -133,17 +148,17 @@
     },
     "8": {
       "status": "documentada",
-      "position": 2,
+      "position": 1,
       "sourceIds": [
-        "vox-s01"
+        "vox-s02"
       ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: votó en el Congreso contra la ley de reducción de jornada a 37,5 horas (sept. 2025).",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "locator": "Declaración parlamentaria del 10/09/2025",
+      "evidenceSummary": "Califica de «engaño a los trabajadores» la reducción de jornada del Gobierno y advierte de su impacto en las pymes.",
+      "reason": "Oposición clara a reducir la jornada por ley; fuente leída por la auditoría de GPT.",
       "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
-      "nextAction": "Buscar texto del partido sobre este tema.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     },
     "9": {
@@ -162,33 +177,29 @@
       "replaces": null
     },
     "10": {
-      "status": "documentada",
-      "position": 4,
-      "sourceIds": [
-        "vox-s01"
-      ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: defiende mantener las pensiones públicas; no hay texto explícito sobre el IPC.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Inferencia retirada tras la auditoría independiente: la razón no responde a la afirmación.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "reviewNeeded": false,
+      "reviewNote": null,
       "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "11": {
-      "status": "documentada",
-      "position": 1,
-      "sourceIds": [
-        "vox-s01"
-      ],
-      "locator": "PDF p. 30; punto 47",
-      "evidenceSummary": "Propone derogar las leyes de género y, en su lugar, aprobar normas que protejan a las mujeres víctimas de violencia.",
-      "reason": "Rechaza la legislación específica actual; propone sustituirla por protección sin ese marco, no eliminarla sin alternativa.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Oposición a mantener la legislación específica vigente; la alternativa de protección general podría matizarlo (¿2?).",
-      "nextAction": null,
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Posición retirada tras la auditoría: el pasaje citado no responde a la afirmación tal como está redactada.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "12": {
@@ -207,18 +218,16 @@
       "replaces": null
     },
     "13": {
-      "status": "documentada",
-      "position": 4,
-      "sourceIds": [
-        "vox-s01"
-      ],
-      "locator": "PDF p. 45; punto 79 y 83",
-      "evidenceSummary": "Dotar de suficientes medios humanos y recursos materiales, técnicos y presupuestarios a las Fuerzas Armadas y a los cuerpos de seguridad.",
-      "reason": "Apoya reforzar los recursos de las Fuerzas Armadas, pero no fija un aumento del gasto público ni una cifra.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Apoyo genérico a dotar de recursos presupuestarios, sin compromiso de incremento cuantificado.",
-      "nextAction": null,
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Posición retirada tras la auditoría: el pasaje citado no responde a la afirmación tal como está redactada.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "14": {

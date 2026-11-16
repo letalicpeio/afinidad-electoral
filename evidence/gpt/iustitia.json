@@ -184,16 +184,16 @@
     },
     "12": {
       "status": "documentada",
-      "position": 1,
+      "position": 2,
       "sourceIds": [
         "iustitia-s01"
       ],
       "locator": "Apartado 5 · Más España y menos Unión Europea",
       "evidenceSummary": "Referéndum vinculante para decidir si España sigue siendo miembro de la UE o la abandona; critica el «ordeno y mando» de los lobbies en la UE.",
-      "reason": "Oposición clara a mayor integración; propone un referéndum de permanencia.",
+      "reason": "Pide menos Unión Europea y una consulta sobre la salida; el resultado se somete a referéndum.",
       "confidence": "media",
       "reviewNeeded": true,
-      "reviewNote": "Podría ser 2 al ser un referéndum y no una salida decidida.",
+      "reviewNote": "Ajustada tras la auditoría independiente del 16/11/2026.",
       "nextAction": null,
       "replaces": null,
       "baselinePosition": {
@@ -304,7 +304,7 @@
     }
   ],
   "integration": {
-    "status": "integrado",
-    "commit": "3a56c4c988e0edd6164982d94be99cbbf1c707c7"
+    "status": "pendiente",
+    "commit": null
   }
 }

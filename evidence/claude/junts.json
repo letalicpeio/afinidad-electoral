@@ -23,6 +23,23 @@
       "documentVersion": null,
       "sha256": "7f73e138b6020f9a12ff260f7baeb3aa2807b60903e91052435f7e0ded7d938b",
       "notes": "Programa íntegro de 148 páginas en catalán, con la portada «Programa electoral. Per Catalunya. Ja n’hi ha prou». Es un antecedente de otra convocatoria y de una coalición con otros dos partidos; el alojamiento (Betevé) no es oficial. Páginas del PDF."
+    },
+    {
+      "id": "junts-s02",
+      "url": "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/A/BOCG-15-A-58-2.PDF",
+      "publisher": "Congreso de los Diputados (BOCG)",
+      "title": "Enmienda de devolución al proyecto de ley de reducción de jornada",
+      "published": "2025-09",
+      "accessed": "2026-11-15",
+      "election": "Generales de España 2025",
+      "year": 2025,
+      "kind": "votacion",
+      "origin": "primaria",
+      "hosting": "oficial",
+      "historical": true,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Enmienda de Junts localizada por la auditoría de GPT."
     }
   ],
   "questions": {
@@ -57,17 +74,15 @@
       "replaces": null
     },
     "3": {
-      "status": "documentada",
-      "position": 2,
-      "sourceIds": [
-        "junts-s01"
-      ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: reclama la competencia catalana en inmigración con una política de control y gestión.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Inferencia retirada tras la auditoría independiente: la razón no responde a la afirmación.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "reviewNeeded": false,
+      "reviewNote": null,
       "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
@@ -135,15 +150,15 @@
       "status": "documentada",
       "position": 2,
       "sourceIds": [
-        "junts-s01"
+        "junts-s02"
       ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: votó en el Congreso contra la ley de reducción de jornada a 37,5 horas (sept. 2025).",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "locator": "BOCG A-58-2; enmienda de devolución, último párrafo",
+      "evidenceSummary": "Rechaza una imposición rígida de la reducción de jornada y propone otra reforma gradual, flexible y negociada.",
+      "reason": "Oposición con matices.",
       "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
-      "nextAction": "Buscar texto del partido sobre este tema.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     },
     "9": {
@@ -152,28 +167,26 @@
       "sourceIds": [
         "junts-s01"
       ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: reclama «neutralidad tecnológica» y critica los macroproyectos renovables en Cataluña.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "locator": "PDF p. 88; subasta eléctrica",
+      "evidenceSummary": "Sacar la nuclear y la gran hidráulica de la subasta eléctrica y cerrar contratos a largo plazo.",
+      "reason": "Apoyo con matices: mantiene la nuclear fuera del mercado marginal; no formula una defensa expresa.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
-      "nextAction": "Buscar texto del partido sobre este tema.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     },
     "10": {
-      "status": "documentada",
-      "position": 4,
-      "sourceIds": [
-        "junts-s01"
-      ],
-      "locator": "PDF p. 100",
-      "evidenceSummary": "Afirma haber contribuido a la revalorización de las pensiones para mantener su poder adquisitivo y propone que continúe, junto a mejorar las mínimas.",
-      "reason": "Apoyo a la revalorización para mantener el poder adquisitivo; no menciona el IPC.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "ANTECEDENTE 2023: programa de otra convocatoria; sustituir por el programa de 2026 cuando exista.",
-      "nextAction": null,
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Posición retirada tras la auditoría: el pasaje citado no responde a la afirmación tal como está redactada.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "11": {
@@ -207,17 +220,15 @@
       "replaces": null
     },
     "13": {
-      "status": "documentada",
-      "position": 3,
-      "sourceIds": [
-        "junts-s01"
-      ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: apoya los compromisos de la OTAN con Ucrania pero rechaza el 5 % del PIB.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Inferencia retirada tras la auditoría independiente: la razón no responde a la afirmación.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "reviewNeeded": false,
+      "reviewNote": null,
       "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
@@ -252,47 +263,43 @@
       "replaces": null
     },
     "16": {
-      "status": "documentada",
-      "position": 4,
-      "sourceIds": [
-        "junts-s01"
-      ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: defiende reforzar el control y las sanciones contra la corrupción.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Inferencia retirada tras la auditoría independiente: la razón no responde a la afirmación.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "reviewNeeded": false,
+      "reviewNote": null,
       "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "17": {
-      "status": "documentada",
-      "position": 2,
-      "sourceIds": [
-        "junts-s01"
-      ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: defiende que la gestión de prestaciones y de la inmigración sea catalana y selectiva.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Inferencia retirada tras la auditoría independiente: la razón no responde a la afirmación.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "reviewNeeded": false,
+      "reviewNote": null,
       "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "18": {
       "status": "documentada",
-      "position": 5,
+      "position": 4,
       "sourceIds": [
         "junts-s01"
       ],
       "locator": "PDF p. 84",
       "evidenceSummary": "En el apartado de defensa de la micro, pequeña y mediana empresa: «simplificar y agilizar los procedimientos y los trámites administrativos».",
-      "reason": "Apoyo explícito a reducir cargas administrativas, en el ámbito de las pymes.",
+      "reason": "Rebaja dirigida a pymes y autónomos (declaración responsable).",
       "confidence": "media",
       "reviewNeeded": true,
-      "reviewNote": "ANTECEDENTE 2023: programa de otra convocatoria; sustituir por el programa de 2026 cuando exista.",
+      "reviewNote": "Ajustada tras la auditoría independiente del 16/11/2026.",
       "nextAction": null,
       "replaces": null
     }

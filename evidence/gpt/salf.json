@@ -242,19 +242,16 @@
       "replaces": null
     },
     "12": {
-      "status": "documentada",
-      "position": 2,
-      "sourceIds": [
-        "salf-s01",
-        "salf-s02"
-      ],
-      "locator": "PDF p. 35; compromiso 10",
-      "evidenceSummary": "Referéndum para renegociar la relación con la UE y, si Bruselas se niega, un segundo referéndum de salida; veto a Mercosur, al recorte de la PAC y al Pacto Verde.",
-      "reason": "Oposición con matices: condiciona la salida a que fracase la renegociación.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "La ficha importada lo tenía como 1.",
-      "nextAction": null,
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Posición retirada tras la auditoría: el pasaje citado no responde a la afirmación tal como está redactada.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": "Línea base importada: valor 1; fuente https://www.seacabolafiesta.com/; localizador «Compromiso 10 · Geopolítica»",
       "baselinePosition": {
         "value": 1,
@@ -267,18 +264,16 @@
       }
     },
     "13": {
-      "status": "documentada",
-      "position": 4,
-      "sourceIds": [
-        "salf-s02"
-      ],
-      "locator": "PDF p. 37; compromiso 10",
-      "evidenceSummary": "Refuerzo de la defensa de Ceuta, Melilla y Canarias (5.000 militares más, baterías antiaéreas, buques) y mejores retribuciones militares, con un coste de unos 500 M€ al año «dentro del 2 % del PIB de Defensa».",
-      "reason": "Apoyo a reforzar medios y retribuciones; el gasto total queda en el 2 % del PIB.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "No propone gastar más allá del 2 % del PIB.",
-      "nextAction": null,
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Posición retirada tras la auditoría: el pasaje citado no responde a la afirmación tal como está redactada.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "14": {
@@ -334,32 +329,32 @@
     },
     "17": {
       "status": "documentada",
-      "position": 1,
+      "position": 2,
       "sourceIds": [
         "salf-s02"
       ],
       "locator": "PDF p. 19; compromiso 04, medida 10",
       "evidenceSummary": "«Sin papeles, sin ayudas»: ninguna prestación no contributiva, ayuda al alquiler ni vivienda pública sin cinco años de residencia legal y cotización.",
-      "reason": "Oposición clara a igualar el acceso de los extranjeros al de los españoles.",
+      "reason": "Exige un requisito adicional de residencia y cotización para prestaciones no contributivas, vivienda y alquiler.",
       "confidence": "alta",
       "reviewNeeded": false,
-      "reviewNote": null,
+      "reviewNote": "Ajustada tras la auditoría independiente del 16/11/2026.",
       "nextAction": null,
       "replaces": null
     },
     "18": {
       "status": "documentada",
-      "position": 5,
+      "position": 4,
       "sourceIds": [
         "salf-s01",
         "salf-s02"
       ],
       "locator": "PDF p. 30–32; compromiso 08",
       "evidenceSummary": "Emprender sin cuota, IVA de caja y licencia de actividad en 24 horas por declaración responsable.",
-      "reason": "Apoyo claro a reducir cargas a empresas y autónomos.",
+      "reason": "Licencia en 24 horas por declaración responsable para iniciar actividad.",
       "confidence": "media",
       "reviewNeeded": false,
-      "reviewNote": null,
+      "reviewNote": "Ajustada tras la auditoría independiente del 16/11/2026.",
       "nextAction": null,
       "replaces": null,
       "baselinePosition": {
@@ -401,7 +396,7 @@
     }
   ],
   "integration": {
-    "status": "integrado",
-    "commit": "3a56c4c988e0edd6164982d94be99cbbf1c707c7"
+    "status": "pendiente",
+    "commit": null
   }
 }

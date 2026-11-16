@@ -1,0 +1,199 @@
+id,tu_valor,cita,pagina,confianza,localizador_ok,valor_asignado,diferencia,severidad
+pp-1,4,medias y bajas,impresa 47; índice PDF no verificable,media,sí,5,1,media
+pp-2,1,Eliminaremos,impresa 42; índice PDF no verificable,alta,sí,1,0,
+pp-3,4,excepcional,impresa 19; índice PDF no verificable,media,parcial,2,2,crítica
+pp-5,5,elevaremos,impresa 16-17; índice PDF no verificable,alta,parcial,4,1,media
+pp-6,5,DEMANDA SUFICIENTE,impresa 51; índice PDF no verificable,alta,sí,5,0,
+pp-7,sin-posicion,evaluaremos,impresa 15 y 25; índice PDF no verificable,media,parcial,2,,leve
+pp-9,5,ELIMINAREMOS,impresa 54; índice PDF no verificable,alta,sí,5,0,
+pp-10,5,IPC,impresa 34; índice PDF no verificable,alta,sí,5,0,
+pp-11,sin-posicion,VioGén,impresa 17; índice PDF no verificable,media,sí,5,,leve
+pp-12,sin-posicion,fuerza política,impresa 55-56; índice PDF no verificable,media,parcial,4,,leve
+pp-13,sin-posicion,inversión plurianual,impresa 21-22; índice PDF no verificable,media,sí,5,,leve
+pp-16,5,No podrán,impresa 25; índice PDF no verificable,alta,sí,5,0,
+pp-17,sin-posicion,empadronamiento,impresa 19; índice PDF no verificable,media,parcial,2,,leve
+pp-18,5,eliminaremos,impresa 48; índice PDF no verificable,alta,sí,5,0,
+vox-1,5,rebajas del IRPF,HTML; área 2,alta,sí,5,0,
+vox-2,sin-posicion,derogar,HTML; área 5,media,sí,1,,leve
+vox-3,1,suprimir el arraigo,HTML; área 3,alta,sí,1,0,
+vox-4,4,cuando ayude,impresa 37; índice PDF no verificable,media,parcial,4,0,
+vox-5,5,ampliar,HTML; área 10,alta,sí,5,0,
+vox-6,sin-posicion,libre elección,impresa 41-42; índice PDF no verificable,media,parcial,4,,leve
+vox-9,5,derogar,HTML; área 2,alta,sí,5,0,
+vox-11,sin-posicion,leyes ideológicas,HTML; área 6,media,sí,1,,leve
+vox-13,sin-posicion,suficientes,impresa 45; índice PDF no verificable,media,parcial,4,,leve
+vox-15,sin-posicion,concepción,impresa 52; índice PDF no verificable,media,parcial,1,,leve
+vox-16,5,prohibir,HTML; área 12,alta,sí,5,0,
+vox-17,1,exclusivamente,HTML; área 4,alta,sí,1,0,
+vox-18,5,silencio administrativo,HTML; área 6,alta,sí,5,0,
+pnv-3,sin-posicion,no necesiten pasar,PDF 34; impresa 34,media,sí,4,,leve
+pnv-7,5,transferencias pendientes,PDF 38; impresa 38,alta,sí,5,0,
+pnv-10,5,conforme al IPC,PDF 33; impresa 33,alta,sí,5,0,
+pnv-11,5,iniciativas legislativas,PDF 26; impresa 26; contexto PDF 7-8,alta,parcial,4,1,media
+pnv-15,5,interrupción voluntaria,PDF 26; impresa 26,alta,sí,5,0,
+pnv-18,5,Reducir la burocracia,PDF 14; impresa 14,alta,sí,5,0,
+bng-1,5,minorando,PDF 43; impresa 43,alta,sí,5,0,
+bng-2,5,Topar por lei,PDF 12; impresa 12,alta,sí,5,0,
+bng-3,sin-posicion,regularización administrativa,PDF 22-23; impresas 22-23,media,sí,5,,leve
+bng-4,1,exclusivamente públicas,PDF 37; impresa 37,alta,sí,1,0,
+bng-5,1,Derrogación,PDF 30; impresa 30,alta,sí,1,0,
+bng-7,5,transferencia,PDF 75; impresa 75,alta,sí,5,0,
+bng-8,5,sen redución salarial,PDF 15; impresa 15,alta,sí,5,0,
+bng-10,5,IPC real,PDF 18; impresa 18,alta,sí,5,0,
+bng-11,5,lei orgánica,PDF 24; impresa 24,alta,sí,5,0,
+bng-13,1,Rexeitamento,PDF 90; impresa 90,alta,sí,1,0,
+cc-1,4,islas verdes,impresa 13; numeración física no recuperada; índice PDF no verificable,media,parcial,4,0,
+cc-7,5,completar los traspasos,sección 1; medida 1; página física no recuperada,media,sí,5,0,
+cc-10,sin-posicion,Coalición Canaria,HTML; 26/02/2026; párrafos 1 y 6,media,sí,5,,leve
+cc-11,sin-posicion,financiación estatal,medida 17; página física e impresa no recuperadas,media,parcial,5,,leve
+cc-18,4,garantías ambientales,medida 28; página física e impresa no recuperadas,media,parcial,4,0,
+erc-2,5,limitació,PDF 52; impresa 51,alta,sí,5,0,
+erc-3,sin-posicion,Noves vies,PDF 41; impresa 40,media,sí,4,,leve
+erc-13,1,desmilitarització,PDF 28; impresa 27,alta,sí,1,0,
+erc-15,5,interrupció voluntària,PDF 47; impresa 46,alta,no,5,0,
+adelante-1,4,Rebaja,PDF 58; impresa 58,alta,sí,4,0,
+adelante-2,5,Zonas tensionadas obligatorias,PDF 49; impresa 49,alta,sí,5,0,
+adelante-3,sin-posicion,regularización extraordinaria,PDF 28 y 106; impresas 28 y 106,media,sí,5,,leve
+adelante-4,1,pública,PDF 14; impresa 14,alta,sí,1,0,
+adelante-5,1,populismo punitivo,PDF 94; impresa 94,alta,sí,2,1,media
+adelante-6,1,Paralizar,PDF 42; impresa 42,alta,sí,1,0,
+adelante-7,5,autogobierno,PDF 24; impresa 24,alta,sí,5,0,
+adelante-8,5,Sin rebaja,PDF 7; impresa 7; desarrollo PDF 63,alta,sí,5,0,
+adelante-10,5,IPC real,PDF 55; impresa 55,alta,sí,5,0,
+adelante-11,5,Leyes integrales,PDF 98; impresa 98; contexto PDF 27,alta,parcial,5,0,
+adelante-13,1,No al rearme,PDF 109; impresa 109,alta,sí,1,0,
+adelante-15,5,aborto,PDF 27; impresa 27,alta,sí,5,0,
+adelante-16,5,Prohibir,PDF 91; impresa 91,alta,sí,5,0,
+frente-amplio-9,1,cumplir con el calendario,HTML; apartado NOSTALGIA; párrafo que comienza Desde Frente Amplio,alta,sí,1,0,
+frente-amplio-10,5,consolidar esos avances,HTML; apartado Consolidar lo conseguido; párrafo único,alta,sí,4,1,media
+podemos-2,5,rebajar la cuantía,HTML; párrafo de votación del primer punto,alta,sí,5,0,
+podemos-3,sin-posicion,regularización extraordinaria,"HTML; cuerpo, párrafo inicial",media,sí,5,,leve
+podemos-13,1,destinar los 24.000 millones,HTML; párrafo informativo tras el titular,alta,sí,1,0,
+compromis-2,5,intervención de los precios,HTML indexado; apartado de alquiler; página no paginada,media,parcial,5,0,
+compromis-6,sin-posicion,realmente subsidiaria,PDF 2; impresa 1,media,sí,2,,leve
+compromis-15,5,blindaje del aborto,HTML; párrafo de principales medidas,alta,sí,5,0,
+junts-1,5,moderar,PDF 57-58; impresas no visibles en extracción,alta,sí,4,1,media
+junts-6,5,costos reals,PDF 114; impresa no visible,alta,sí,4,1,media
+junts-7,5,delegación de competencias,HTML; segundo párrafo del cuerpo,alta,sí,5,0,
+junts-10,sin-posicion,cost de la vida,PDF 100; impresa no visible,media,sí,4,,leve
+junts-11,5,legislació processal,PDF 111; impresa no visible,alta,parcial,4,1,media
+junts-12,5,model federal,PDF 28; impresa no visible,alta,sí,5,0,
+junts-18,4,simplificació administrativa,PDF 83; impresa no visible,alta,parcial,5,1,media
+ehbildu-2,5,limita los alquileres,PDF 2; impresa no visible; desarrollo PDF 4,alta,sí,5,0,
+ehbildu-4,1,Derogar,PDF 6; impresa no visible,alta,sí,1,0,
+ehbildu-7,5,Transferencia,PDF 4-5; impresa no visible,alta,sí,5,0,
+ehbildu-8,5,sin reducción salarial,PDF 3; impresa no visible,alta,sí,5,0,
+ehbildu-11,sin-posicion,avances feministas,PDF 10; impresa no visible,media,sí,4,,leve
+ehbildu-17,sin-posicion,servicios públicos básicos,PDF 11; impresa no visible,media,sí,4,,leve
+comuns-2,sin-posicion,regulació de lloguers,PDF 81; impresa 81; identificación PDF 84,media,parcial,5,,leve
+comuns-6,sin-posicion,En Comú Podem-Sumar,PDF 84; impresa 84,alta,sí,1,,leve
+comuns-8,sin-posicion,jornada setmanal,PDF 30; impresa 30; identificación PDF 84,media,no,5,,leve
+comuns-12,sin-posicion,Unió Europea,PDF 160-161; impresa 160-161; identificación PDF 84,media,sí,5,,leve
+erc-1,no-verificable,,,baja,,5,,
+erc-4,no-verificable,,,baja,,1,,
+erc-7,no-verificable,,,baja,,5,,
+erc-8,no-verificable,,,baja,,5,,
+erc-10,no-verificable,,,baja,,5,,
+erc-11,no-verificable,,,baja,,5,,
+erc-12,no-verificable,,,baja,,4,,
+erc-14,no-verificable,,,baja,,5,,
+erc-18,no-verificable,,,baja,,4,,
+frente-amplio-2,no-verificable,,,baja,,4,,
+frente-amplio-6,no-verificable,,,baja,,2,,
+frente-amplio-8,no-verificable,,,baja,,5,,
+frente-amplio-11,no-verificable,,,baja,,5,,
+frente-amplio-12,no-verificable,,,baja,,5,,
+frente-amplio-15,no-verificable,,,baja,,5,,
+frente-amplio-18,no-verificable,,,baja,,4,,
+podemos-4,no-verificable,,,baja,,1,,
+podemos-8,no-verificable,,,baja,,5,,
+podemos-9,no-verificable,,,baja,,1,,
+podemos-10,no-verificable,,,baja,,4,,
+podemos-11,no-verificable,,,baja,,5,,
+podemos-12,no-verificable,,,baja,,5,,
+podemos-15,no-verificable,,,baja,,5,,
+compromis-8,no-verificable,,,baja,,4,,
+psoe-1,no-verificable,,,baja,,4,,
+psoe-2,no-verificable,,,baja,,5,,
+psoe-4,no-verificable,,,baja,,2,,
+psoe-8,no-verificable,,,baja,,5,,
+psoe-9,no-verificable,,,baja,,1,,
+psoe-10,no-verificable,,,baja,,5,,
+psoe-11,no-verificable,,,baja,,5,,
+psoe-12,no-verificable,,,baja,,5,,
+psoe-13,no-verificable,,,baja,,2,,
+psoe-15,no-verificable,,,baja,,5,,
+psoe-18,no-verificable,,,baja,,5,,
+pacma-4,1,Reintegración,PDF 56; impresa 55,alta,parcial,1,0,
+pacma-9,sin-posicion,insostenible,PDF 34; impresa 33,media,sí,1,,leve
+pacma-11,5,Reconocimiento legal,PDF 77; impresa 76; contexto PDF 76,media,parcial,5,0,
+pacma-18,4,creación de empresas,PDF 69; impresa 68,alta,parcial,5,1,leve
+mj-2,5,limitar el precio,PDF 8; impresa 8,alta,sí,5,0,
+mj-3,sin-posicion,vías accesibles,PDF 30 y 52; impresas 30 y 52,media,sí,5,,leve
+mj-4,sin-posicion,sistema sanitario público,PDF 37-38; impresas 37-38,media,sí,1,,leve
+mj-6,4,coexistencia,PDF 45; impresa 45,media,sí,4,0,
+mj-8,5,sin reducción salarial,PDF 29; impresa 29,alta,sí,5,0,
+mj-10,sin-posicion,poder adquisitivo,PDF 24; impresa 24,media,sí,4,,leve
+mj-11,5,Directiva Europea,PDF 78; impresa 78,alta,sí,5,0,
+mj-13,1,reducir,PDF 65 y 67; impresas 65 y 67,alta,sí,1,0,
+mj-16,5,Prohibición del indulto,PDF 69; impresa 69,alta,sí,5,0,
+mj-17,sin-posicion,sin discriminación,PDF 52; impresa 52,media,sí,4,,leve
+mj-18,4,pequeñas empresas,PDF 34; impresa 34,alta,sí,4,0,
+fejons-1,sin-posicion,PYMEs,impresa 26-27; índice PDF no verificable,media,parcial,5,,leve
+fejons-2,5,tope máximo,impresa 13; índice PDF no verificable,media,parcial,5,0,
+fejons-3,1,Cese absoluto,impresa 9; índice PDF no verificable,media,parcial,1,0,
+fejons-4,1,Poner fin,impresa 48; índice PDF no verificable,media,parcial,1,0,
+fejons-5,5,Aumento generalizado,impresa 37; índice PDF no verificable,media,parcial,5,0,
+fejons-7,1,retirada,impresa 17; índice PDF no verificable,media,parcial,1,0,
+fejons-9,5,anulando,impresa 29; índice PDF no verificable,media,parcial,5,0,
+fejons-11,1,Derogaremos,impresa 23; índice PDF no verificable,media,parcial,1,0,
+fejons-12,1,abandono inmediato,impresa 15; índice PDF no verificable,media,parcial,1,0,
+fejons-13,5,Aumento del presupuesto,impresa 39; índice PDF no verificable,media,parcial,5,0,
+fejons-14,5,abolición,impresa 34; índice PDF no verificable,media,parcial,5,0,
+fejons-15,1,Ilegalizaremos,impresa 23; índice PDF no verificable,media,parcial,1,0,
+fejons-17,1,exclusivamente,impresa 9; índice PDF no verificable,media,parcial,1,0,
+fo-1,4,menos recursos,PDF 18; impresa 18,alta,sí,4,0,
+fo-3,1,Imposibilidad,PDF 53; impresa 53,alta,sí,1,0,
+fo-4,1,Acabar,PDF 42; impresa 42,alta,sí,1,0,
+fo-7,2,determinadas competencias,PDF 56; impresa 56,media,sí,1,1,leve
+fo-9,5,Apuesta,PDF 16; impresa 16,alta,sí,5,0,
+fo-11,sin-posicion,discriminación positiva,PDF 32; impresa 32; contexto PDF 31,media,parcial,1,,leve
+fo-12,1,Salida,PDF 11; impresa 11,alta,sí,1,0,
+fo-14,5,República,PDF 56; impresa 56,alta,sí,5,0,
+fo-16,5,Prohibición,PDF 59; impresa 59,alta,sí,5,0,
+fo-17,2,españoles autóctonos,PDF 46; impresa 46,media,sí,2,0,
+geroabai-7,5,transferencias pendientes,"HTML indexado; Navarra, sujeto político y con capacidad de decisión",media,parcial,5,0,
+geroabai-11,sin-posicion,políticas públicas,HTML indexado; La pluralidad como eje de la convivencia; segundo párrafo,media,parcial,4,,leve
+salf-1,5,mínimo exento,"HTML; Compromiso 03, primer punto",alta,sí,5,0,
+salf-4,4,Superado el plazo,impresa 22; índice PDF no verificable,media,parcial,4,0,
+salf-5,5,Cumplimiento íntegro,"HTML; Compromiso 02, segundo punto",media,parcial,5,0,
+salf-6,5,Cheque escolar,"HTML; Compromiso 09, tercer punto",alta,sí,5,0,
+salf-10,5,con el IPC,"HTML; Compromiso 05, primer punto",alta,sí,5,0,
+salf-12,sin-posicion,Renegociación europea,"HTML; Compromiso 10, primer punto",media,parcial,2,,leve
+salf-13,sin-posicion,dentro del 2 %,impresa 37-38; índice PDF no verificable,media,parcial,4,,leve
+salf-16,5,ni indultos,"HTML; Compromiso 07, segundo punto",alta,sí,5,0,
+salf-17,2,cinco años,impresa 19; índice PDF no verificable,media,parcial,1,1,leve
+salf-18,4,licencia de actividad,"HTML; Compromiso 08, tercer punto",alta,sí,5,1,leve
+humanista-2,5,Tope legal,"sección 2, propuesta 3; página física no recuperada",media,sí,5,0,
+humanista-3,sin-posicion,extraordinaria,"sección 7, propuesta 2; página física no recuperada",media,parcial,5,,leve
+humanista-4,1,Derogación inmediata,"sección 3, propuesta 1; página física no recuperada",media,sí,1,0,
+humanista-6,1,No renovación,"sección 4, propuesta 5; página física no recuperada",media,sí,1,0,
+humanista-8,5,sin reducción,"sección 1, propuesta 3; página física no recuperada",media,sí,5,0,
+humanista-13,1,Reducción,"sección 6, propuesta 4; página física no recuperada",media,sí,1,0,
+humanista-14,5,elegido,"sección 10, Jefatura del Estado; página física no recuperada",media,sí,5,0,
+humanista-15,5,aval de la ley,"sección 11, derecho al aborto; página física no recuperada",media,sí,5,0,
+humanista-17,5,residente en España,"sección 1, propuesta 2; página física no recuperada",media,sí,5,0,
+iustitia-9,5,Apuesta por la energía nuclear,"HTML; apartado 12, primer punto",alta,sí,5,0,
+iustitia-12,2,MENOS UNIÓN EUROPEA,"HTML; apartado 5, título y tercer punto",media,sí,1,1,leve
+d21-2,4,temporal y excepcional,HTML; medida 05 y resumen de fase 1,alta,sí,4,0,
+d21-11,sin-posicion,red pública de protección,"HTML; medida 01, segundo párrafo",media,sí,5,,leve
+d21-12,5,supervisión vinculante,"HTML; medida 01, segundo párrafo; medidas 02-03",media,sí,4,1,leve
+d21-15,5,actual ley de plazos,"HTML; medida 02, primer párrafo",alta,sí,5,0,
+d21-18,5,eliminar los obstáculos,"HTML; medida 01, segundo párrafo",alta,sí,5,0,
+pcte-2,5,limitación real y efectiva,PDF 14; impresa no visible,alta,sí,5,0,
+pcte-4,1,expulsión,PDF 13; impresa no visible,alta,sí,1,0,
+pcte-6,1,educación,PDF 13; impresa no visible; contexto PDF 12,alta,sí,1,0,
+pcte-8,5,sin merma de salario,PDF 11; impresa no visible,alta,sí,5,0,
+pcte-12,1,salida unilateral,PDF 19; impresa no visible,alta,sí,1,0,
+pcte-13,sin-posicion,se ha incrementado,PDF 18-19; impresa no visible,media,sí,1,,leve
+pcte-15,5,derecho,PDF 16; impresa no visible; contexto PDF 17,alta,sí,5,0,

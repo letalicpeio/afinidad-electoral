@@ -197,18 +197,16 @@
       "replaces": null
     },
     "13": {
-      "status": "documentada",
-      "position": 1,
-      "sourceIds": [
-        "pcte-s01"
-      ],
-      "locator": "PDF p. 18–19",
-      "evidenceSummary": "Critica el aumento del gasto militar hacia el 2 % del PIB exigido por la OTAN y propone la salida de la OTAN y el cierre de las bases extranjeras.",
-      "reason": "Oposición clara a aumentar el gasto en defensa.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "ANTECEDENTE 2023: documento político de otra convocatoria; sustituir por el programa de 2026 cuando exista.",
-      "nextAction": null,
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Posición retirada tras la auditoría: el pasaje citado no responde a la afirmación tal como está redactada.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "14": {
@@ -302,7 +300,7 @@
     }
   ],
   "integration": {
-    "status": "integrado",
-    "commit": "3a56c4c988e0edd6164982d94be99cbbf1c707c7"
+    "status": "pendiente",
+    "commit": null
   }
 }

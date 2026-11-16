@@ -169,18 +169,16 @@
       "replaces": null
     },
     "11": {
-      "status": "documentada",
-      "position": 4,
-      "sourceIds": [
-        "geroa-bai-s01"
-      ],
-      "locator": "Apartado «La pluralidad como eje de la convivencia»",
-      "evidenceSummary": "Entre sus prioridades, el refuerzo de las políticas públicas de protección de las mujeres víctimas de violencia machista.",
-      "reason": "Apoyo a reforzar la protección; no habla de legislación específica ni del Pacto de Estado.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Propuesta oficial de campaña; apoyo con matices.",
-      "nextAction": null,
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Posición retirada tras la auditoría: el pasaje citado no responde a la afirmación tal como está redactada.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "12": {
@@ -298,7 +296,7 @@
     }
   ],
   "integration": {
-    "status": "integrado",
-    "commit": "3a56c4c988e0edd6164982d94be99cbbf1c707c7"
+    "status": "pendiente",
+    "commit": null
   }
 }

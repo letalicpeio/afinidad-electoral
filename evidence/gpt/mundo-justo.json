@@ -87,18 +87,16 @@
       }
     },
     "4": {
-      "status": "documentada",
-      "position": 1,
-      "sourceIds": [
-        "mundo-justo-s01"
-      ],
-      "locator": "PDF p. 38; eje 11",
-      "evidenceSummary": "Frenar la privatización y recuperar progresivamente los servicios externalizados, priorizando la gestión pública directa.",
-      "reason": "Oposición clara.",
-      "confidence": "alta",
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Posición retirada tras la auditoría: el pasaje citado no responde a la afirmación tal como está redactada.",
+      "confidence": "baja",
       "reviewNeeded": false,
       "reviewNote": null,
-      "nextAction": null,
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null,
       "baselinePosition": {
         "value": 1,
@@ -197,18 +195,16 @@
       "replaces": null
     },
     "10": {
-      "status": "documentada",
-      "position": 4,
-      "sourceIds": [
-        "mundo-justo-s01"
-      ],
-      "locator": "PDF p. 24; eje 06, medida 01",
-      "evidenceSummary": "Reconocer las pensiones públicas como derecho fundamental en la Constitución, prohibir su privatización y garantizar que nunca pierdan poder adquisitivo.",
-      "reason": "Apoyo a mantener el poder adquisitivo; no cita el IPC para las pensiones.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Apoyo con matices (sin mención expresa al IPC).",
-      "nextAction": null,
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Posición retirada tras la auditoría: el pasaje citado no responde a la afirmación tal como está redactada.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": "Línea base importada: valor 5 (no puntuable); fuente https://www.porunmundomasjusto.es/wp-content/uploads/2026/11/Castellano.pdf; localizador «pág. 24, medida 01»",
       "baselinePosition": {
         "value": 5,
@@ -342,18 +338,16 @@
       }
     },
     "17": {
-      "status": "documentada",
-      "position": 4,
-      "sourceIds": [
-        "mundo-justo-s01"
-      ],
-      "locator": "PDF p. 52; apartado de migración",
-      "evidenceSummary": "Asegurar el acceso efectivo y sin discriminación de las personas migrantes a sanidad, educación, empadronamiento, vivienda, servicios sociales y derechos laborales, conforme a las garantías legales.",
-      "reason": "Apoyo con matices: igualdad de acceso a servicios sociales y vivienda; no menciona los requisitos económicos de las prestaciones.",
-      "confidence": "media",
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Posición retirada tras la auditoría: el pasaje citado no responde a la afirmación tal como está redactada.",
+      "confidence": "baja",
       "reviewNeeded": false,
       "reviewNote": null,
-      "nextAction": null,
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "18": {

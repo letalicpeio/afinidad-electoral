@@ -105,17 +105,17 @@
     },
     "5": {
       "status": "documentada",
-      "position": 1,
+      "position": 4,
       "sourceIds": [
         "erc-s01"
       ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: rechaza endurecer el Código Penal y defiende la reinserción.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "locator": "PDF p. 43; propuesta 243",
+      "evidenceSummary": "Aumentar las penas para delitos con armas y robo de cable.",
+      "reason": "Apoyo con matices: endurece tipos delictivos concretos, sin una subida general de las penas de prisión.",
       "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
-      "nextAction": "Buscar texto del partido sobre este tema.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     },
     "6": {
@@ -269,17 +269,15 @@
       "replaces": null
     },
     "16": {
-      "status": "documentada",
-      "position": 4,
-      "sourceIds": [
-        "erc-s01"
-      ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su discurso anticorrupción apoya endurecer sanciones y controles.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Inferencia retirada tras la auditoría independiente: la razón no responde a la afirmación.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "reviewNeeded": false,
+      "reviewNote": null,
       "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },

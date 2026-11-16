@@ -123,16 +123,16 @@
     },
     "5": {
       "status": "documentada",
-      "position": 2,
+      "position": 1,
       "sourceIds": [
         "adelante-andalucia-s01"
       ],
       "locator": "PDF p. 94; propuesta 495",
       "evidenceSummary": "«No al populismo punitivo»: derogar el endurecimiento penal de los pequeños hurtos y los desalojos rápidos.",
-      "reason": "Oposición con matices, centrada en pequeños hurtos.",
+      "reason": "Deroga el endurecimiento de hurtos y rechaza elevar penas como remedio a la delincuencia.",
       "confidence": "baja",
       "reviewNeeded": true,
-      "reviewNote": "Alcance limitado a delitos menores.",
+      "reviewNote": "Ajustada tras la auditoría independiente del 16/11/2026.",
       "nextAction": null,
       "replaces": "Línea base importada: valor 1 (no puntuable); fuente https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf; localizador «Propuesta 495, pág. 94 del PDF»",
       "baselinePosition": {
@@ -279,17 +279,15 @@
       }
     },
     "12": {
-      "status": "documentada",
-      "position": 3,
-      "sourceIds": [
-        "adelante-andalucia-s01"
-      ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: es europeísta pero crítica con la austeridad y las reglas fiscales de la UE.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Inferencia retirada tras la auditoría independiente: la razón no responde a la afirmación.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "reviewNeeded": false,
+      "reviewNote": null,
       "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
@@ -317,17 +315,15 @@
       }
     },
     "14": {
-      "status": "documentada",
-      "position": 5,
-      "sourceIds": [
-        "adelante-andalucia-s01"
-      ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: es una candidatura de izquierda republicana (Podemos e IU).",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Inferencia retirada tras la auditoría independiente: la razón no responde a la afirmación.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
       "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
@@ -394,17 +390,17 @@
     },
     "18": {
       "status": "documentada",
-      "position": 2,
+      "position": 4,
       "sourceIds": [
         "adelante-andalucia-s01"
       ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: propone más intervención pública, como una red de supermercados públicos.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "locator": "PDF p. 11; propuestas 305–307",
+      "evidenceSummary": "Ventanilla única y asesoría pública gratuita para trámites de autónomos.",
+      "reason": "Apoyo con matices: simplificación dirigida a autónomos.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
-      "nextAction": "Buscar texto del partido sobre este tema.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     }
   },

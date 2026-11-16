@@ -223,17 +223,15 @@
       "replaces": null
     },
     "7": {
-      "status": "documentada",
-      "position": 3,
-      "sourceIds": [
-        "psoe-s06"
-      ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su programa de 2026 afirma que «el reto no es recentralizar ni fragmentar»: ni más transferencias ni recuperarlas.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Inferencia retirada tras la auditoría independiente: la razón no responde a la afirmación.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
       "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
@@ -431,17 +429,15 @@
       }
     },
     "16": {
-      "status": "documentada",
-      "position": 2,
-      "sourceIds": [
-        "psoe-s06"
-      ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: ha concedido indultos y plantea reformar la ley, no prohibirlos para casos de corrupción.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Inferencia retirada tras la auditoría independiente: la razón no responde a la afirmación.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "reviewNeeded": false,
+      "reviewNote": null,
       "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },

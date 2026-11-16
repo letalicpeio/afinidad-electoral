@@ -41,6 +41,57 @@
       "documentVersion": null,
       "sha256": "6634c0786c1e771c61c1a65e549dfde0d4581d09e19949466e931c96a9642465",
       "notes": "Programa de EH Bildu para las generales del 23J de 2023, leído completo. Copia no oficial alojada por un medio; no se localizó programa del 29N."
+    },
+    {
+      "id": "ehbildu-s03",
+      "url": "https://parlamentodenavarra.es/es/node/191238",
+      "publisher": "Parlamento de Navarra",
+      "title": "Moción sobre energía nuclear (EH Bildu vota en contra)",
+      "published": "2025-05-22",
+      "accessed": "2026-11-15",
+      "election": "Generales de España 2025",
+      "year": 2025,
+      "kind": "votacion",
+      "origin": "primaria",
+      "hosting": "oficial",
+      "historical": true,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Votación localizada por la auditoría de GPT; no verificada por Claude."
+    },
+    {
+      "id": "ehbildu-s04",
+      "url": "https://ehbildu.eus/herriak/araba/es/noticias/eva-lopez-de-arroyabe-eh-bildu-es-el-unico-frente-amplio-con-capacidad-de-hacer-frente-al-bloque-reaccionario-y-lograr-diputados-y-senadores-en-araba-bizkaia-gipuzkoa-y-nafarroa",
+      "publisher": "EH Bildu",
+      "title": "Eva López de Arroyabe: EH Bildu es el único Frente Amplio con capacidad de hacer frente al bloque reaccionario",
+      "published": "2026-10-17",
+      "accessed": "2026-11-15",
+      "election": "Generales de España 2026",
+      "year": 2026,
+      "kind": "declaracion",
+      "origin": "primaria",
+      "hosting": "oficial",
+      "historical": false,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Declaración de la candidata a Diputada General de Araba; no es un programa."
+    },
+    {
+      "id": "ehbildu-s05",
+      "url": "https://ehbildu.eus/herriak/legebiltzarra/es/noticias/eh-bildu-alerta-de-las-graves-consecuencias-de-la-ley-que-impulsan-pnv-y-pse-para-promover-actividad-economica",
+      "publisher": "EH Bildu",
+      "title": "EH Bildu alerta de las graves consecuencias de la ley que impulsan PNV y PSE",
+      "published": "2026-10-27",
+      "accessed": "2026-11-15",
+      "election": "Generales de España 2026",
+      "year": 2026,
+      "kind": "declaracion",
+      "origin": "primaria",
+      "hosting": "oficial",
+      "historical": false,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Nota del portavoz parlamentario; no es un programa."
     }
   ],
   "questions": {
@@ -212,45 +263,43 @@
       "status": "documentada",
       "position": 1,
       "sourceIds": [
-        "ehbildu-s02"
+        "ehbildu-s03"
       ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: es antinuclear.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "alta",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
-      "nextAction": "Buscar texto del partido sobre este tema.",
+      "locator": "Moción del Parlamento de Navarra, 22/05/2025",
+      "evidenceSummary": "EH Bildu vota en contra de mantener la nuclear en la planificación a medio y largo plazo.",
+      "reason": "Oposición explícita; votación de 2025 localizada por GPT.",
+      "confidence": "media",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     },
     "10": {
       "status": "documentada",
       "position": 5,
       "sourceIds": [
-        "ehbildu-s02"
+        "ehbildu-s04"
       ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su programa de 2023 sube las pensiones mínimas y rechaza retrasar la edad de jubilación.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
-      "nextAction": "Buscar texto del partido sobre este tema.",
-      "replaces": null
-    },
-    "11": {
-      "status": "documentada",
-      "position": 4,
-      "sourceIds": [
-        "ehbildu-s02"
-      ],
-      "locator": "PDF p. 10; igualdad",
-      "evidenceSummary": "Reforzar la lucha contra la violencia machista desde todos los ámbitos.",
-      "reason": "Apoyo con matices: propone reforzar la respuesta, sin citar la legislación específica.",
-      "confidence": "media",
+      "locator": "Declaración de E. López de Arroyabe, 17/10/2026",
+      "evidenceSummary": "«También conseguimos que se revaloricen según el IPC».",
+      "reason": "Apoyo explícito a revalorizar las pensiones con el IPC.",
+      "confidence": "alta",
       "reviewNeeded": false,
       "reviewNote": null,
       "nextAction": null,
+      "replaces": null
+    },
+    "11": {
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Posición retirada tras la auditoría: el pasaje citado no responde a la afirmación tal como está redactada.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "12": {
@@ -314,48 +363,44 @@
       "replaces": null
     },
     "16": {
-      "status": "documentada",
-      "position": 4,
-      "sourceIds": [
-        "ehbildu-s02"
-      ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: defiende reforzar el control de la corrupción.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Inferencia retirada tras la auditoría independiente: la razón no responde a la afirmación.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "reviewNeeded": false,
+      "reviewNote": null,
       "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "17": {
-      "status": "documentada",
-      "position": 4,
-      "sourceIds": [
-        "ehbildu-s02"
-      ],
-      "locator": "PDF p. 11; migración",
-      "evidenceSummary": "Derogar la Ley de Extranjería y sustituirla por una norma que garantice los derechos de las personas migrantes, incluido su acceso a los servicios públicos básicos.",
-      "reason": "Apoyo con matices: igualdad de acceso a servicios públicos básicos; no trata los requisitos económicos de las prestaciones.",
-      "confidence": "media",
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Posición retirada tras la auditoría: el pasaje citado no responde a la afirmación tal como está redactada.",
+      "confidence": "baja",
       "reviewNeeded": false,
       "reviewNote": null,
-      "nextAction": null,
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "18": {
       "status": "documentada",
-      "position": 2,
+      "position": 4,
       "sourceIds": [
-        "ehbildu-s02"
+        "ehbildu-s05"
       ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: prefiere más regulación y control público de la actividad empresarial.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
-      "nextAction": "Buscar texto del partido sobre este tema.",
+      "locator": "Nota de A. Goikoetxea, 27/10/2026",
+      "evidenceSummary": "«Estamos de acuerdo en agilizar la burocracia, simplificar trámites y facilitar la actividad económica», sin socavar la autonomía municipal.",
+      "reason": "Apoyo con matices: simplificar trámites con garantías.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     }
   },

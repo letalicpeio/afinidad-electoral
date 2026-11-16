@@ -394,17 +394,15 @@
       }
     },
     "16": {
-      "status": "documentada",
-      "position": 4,
-      "sourceIds": [
-        "podemos-s02"
-      ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su discurso anticorrupción propone endurecer las sanciones y las incompatibilidades.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Inferencia retirada tras la auditoría independiente: la razón no responde a la afirmación.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "reviewNeeded": false,
+      "reviewNote": null,
       "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
@@ -424,17 +422,15 @@
       "replaces": null
     },
     "18": {
-      "status": "documentada",
-      "position": 2,
-      "sourceIds": [
-        "podemos-s02"
-      ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: prefiere más intervención pública y regulación que flexibilizar obligaciones a las empresas.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Inferencia retirada tras la auditoría independiente: la razón no responde a la afirmación.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "reviewNeeded": false,
+      "reviewNote": null,
       "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     }
