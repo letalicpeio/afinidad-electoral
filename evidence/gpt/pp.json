@@ -67,7 +67,7 @@
       "sourceIds": [
         "pp-s01"
       ],
-      "locator": "PDF p. 47; medida 177–179",
+      "locator": "PDF p. 47; medida 177, IRPF de rentas medias y bajas",
       "evidenceSummary": "Subir los mínimos del IRPF, bajar el IRPF de rentas medias, bajas y familias, deflactar la tarifa y reducir el IRPF de jóvenes de 18 a 35 años.",
       "reason": "Rebaja dirigida a rentas medias y bajas y a jóvenes, no a toda la renta laboral.",
       "confidence": "alta",
@@ -90,7 +90,7 @@
       "sourceIds": [
         "pp-s01"
       ],
-      "locator": "PDF p. 42; medida 145",
+      "locator": "PDF p. 42; medida 145, Ley de Vivienda y zonas tensionadas",
       "evidenceSummary": "Derogar la Ley de Vivienda y eliminar las zonas tensionadas y el índice de precios del alquiler.",
       "reason": "Oposición clara.",
       "confidence": "alta",
@@ -153,7 +153,7 @@
       "sourceIds": [
         "pp-s01"
       ],
-      "locator": "PDF p. 16–17; medida 23–27",
+      "locator": "PDF p. 16; medida 23, aumento de penas por desórdenes públicos violentos",
       "evidenceSummary": "Amplía el castigo de los desórdenes públicos violentos, eleva multas por vandalismo, castiga la captación de menores para delinquir, endurece la Ley del Menor en delitos graves y las penas de la multirreincidencia y la ocupación.",
       "reason": "Endurecimiento explícito pero formulado por delitos concretos, sin una subida general de penas de prisión.",
       "confidence": "media",
@@ -176,7 +176,7 @@
       "sourceIds": [
         "pp-s01"
       ],
-      "locator": "PDF p. 51; medida 212",
+      "locator": "PDF p. 51; medida 212, conciertos educativos con demanda",
       "evidenceSummary": "«Ningún concierto educativo se eliminará donde haya demanda suficiente»; conciertos de al menos seis años con módulos que cubran el coste.",
       "reason": "Apoyo claro, con casi las mismas palabras de la afirmación.",
       "confidence": "alta",
@@ -227,7 +227,7 @@
       "sourceIds": [
         "pp-s01"
       ],
-      "locator": "PDF p. 54; medida 228",
+      "locator": "PDF p. 54; medida 228, continuidad de centrales nucleares",
       "evidenceSummary": "Eliminar el calendario de cierre de Almaraz, Ascó, Vandellós, Cofrentes y Trillo y tramitar la extensión de su vida útil.",
       "reason": "Apoyo claro, más allá de mantener.",
       "confidence": "alta",
@@ -250,7 +250,7 @@
       "sourceIds": [
         "pp-s01"
       ],
-      "locator": "PDF p. 34; medida 108",
+      "locator": "PDF p. 34; medida 108, actualización de pensiones con el IPC",
       "evidenceSummary": "Garantizar las pensiones; mantendrán su poder adquisitivo y subirán cada año con el IPC.",
       "reason": "Apoyo explícito con mención al IPC.",
       "confidence": "alta",
@@ -337,7 +337,7 @@
       "sourceIds": [
         "pp-s01"
       ],
-      "locator": "PDF p. 8; introducción",
+      "locator": "PDF p. 8; apartado de introducción, referencia a la monarquía parlamentaria",
       "evidenceSummary": "Reivindica como obra común la Constitución y la monarquía parlamentaria y propone recuperar ese espíritu.",
       "reason": "Apoyo a la continuidad de la monarquía: lectura contextual, no una frase contra la república.",
       "confidence": "media",
@@ -352,7 +352,7 @@
       "sourceIds": [
         "pp-s03"
       ],
-      "locator": "PDF p. 47; medida 129",
+      "locator": "PDF p. 47; medida 129, consentimiento para aborto de menores (antecedente 2023)",
       "evidenceSummary": "Introducir el consentimiento paterno en la legislación de interrupción voluntaria del embarazo para menores.",
       "reason": "Mantiene el derecho con una restricción explícita; no se presenta como compromiso nuevo de 2026.",
       "confidence": "baja",
@@ -367,7 +367,7 @@
       "sourceIds": [
         "pp-s01"
       ],
-      "locator": "PDF p. 25; medida 60",
+      "locator": "PDF p. 25; medida 60, límites al indulto",
       "evidenceSummary": "Nueva Ley del Indulto: no podrán ser indultados los condenados por corrupción, terrorismo ni delitos contra la integridad territorial.",
       "reason": "Prohibición explícita.",
       "confidence": "alta",
@@ -403,7 +403,7 @@
       "sourceIds": [
         "pp-s01"
       ],
-      "locator": "PDF p. 48; medida 186–187",
+      "locator": "PDF p. 48; medida 187, simplificación de obligaciones empresariales",
       "evidenceSummary": "Test de productividad para toda norma económica, revisar normativa que frene la productividad, eliminar trabas y no penalizar el crecimiento de las pymes.",
       "reason": "Apoyo claro.",
       "confidence": "alta",

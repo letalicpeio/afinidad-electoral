@@ -33,7 +33,7 @@
       "sourceIds": [
         "fe-jons-s01"
       ],
-      "locator": "PDF p. 29; punto 9",
+      "locator": "PDF p. 29; apartado 9 Economía, medida 9.9",
       "evidenceSummary": "Deflactación del IRPF y bajada progresiva del Impuesto sobre la Renta para no gravar a los trabajadores.",
       "reason": "Apoyo claro.",
       "confidence": "media",
@@ -56,7 +56,7 @@
       "sourceIds": [
         "fe-jons-s01"
       ],
-      "locator": "PDF p. 15; apartado de vivienda, «Precio y duración máximos del alquiler»",
+      "locator": "PDF p. 15; apartado 2 Vivienda, medida 2.9",
       "evidenceSummary": "Fijación de un tope máximo de precios del alquiler, no superior al 25 % del salario de la unidad familiar, y duración máxima de los contratos.",
       "reason": "Apoyo explícito a limitar los precios del alquiler; el tope se propone con carácter general, no sólo en zonas tensionadas.",
       "confidence": "media",
@@ -71,7 +71,7 @@
       "sourceIds": [
         "fe-jons-s01"
       ],
-      "locator": "PDF p. 11; Anexo I, Plan Nacional de Remigración",
+      "locator": "PDF p. 11; apartado Anexo I Plan Nacional de Remigración, permisos de residencia y trabajo",
       "evidenceSummary": "Cese de la concesión de permisos de residencia y trabajo, derogación de la Ley de Extranjería y plan de remigración.",
       "reason": "Oposición clara.",
       "confidence": "alta",
@@ -94,7 +94,7 @@
       "sourceIds": [
         "fe-jons-s01"
       ],
-      "locator": "PDF p. 50; punto 20.3",
+      "locator": "PDF p. 50; apartado 20 Sanidad, medida 20.3",
       "evidenceSummary": "Poner fin a las prácticas de externalización y privatización de la sanidad.",
       "reason": "Oposición clara.",
       "confidence": "alta",
@@ -117,7 +117,7 @@
       "sourceIds": [
         "fe-jons-s01"
       ],
-      "locator": "PDF p. 39; apartado de justicia",
+      "locator": "PDF p. 39; apartado 15 Seguridad nacional y ciudadana, medida 15.6",
       "evidenceSummary": "Aumento generalizado de las penas por delitos comunes, endurecimiento de la revisión de penas y de beneficios penitenciarios y más pena por reincidencia.",
       "reason": "Apoyo claro.",
       "confidence": "alta",
@@ -153,7 +153,7 @@
       "sourceIds": [
         "fe-jons-s01"
       ],
-      "locator": "PDF p. 19; apartado de modelo territorial",
+      "locator": "PDF p. 19; apartado 5 Unidad nacional y modelo territorial, medida 5.2",
       "evidenceSummary": "Defiende la retirada de todas las competencias a las comunidades autónomas.",
       "reason": "Oposición clara.",
       "confidence": "alta",
@@ -189,7 +189,7 @@
       "sourceIds": [
         "fe-jons-s01"
       ],
-      "locator": "PDF p. 31; puntos 11.3–11.5",
+      "locator": "PDF p. 31; apartado 11 Energía, medidas 11.2 y 11.4",
       "evidenceSummary": "Nuevo mix energético con la energía nuclear como fuente principal.",
       "reason": "Apoyo claro.",
       "confidence": "alta",
@@ -225,7 +225,7 @@
       "sourceIds": [
         "fe-jons-s01"
       ],
-      "locator": "PDF p. 25; punto 7.3",
+      "locator": "PDF p. 25; apartado 7 Familia, medida 7.3",
       "evidenceSummary": "Suprimir las leyes de «género», incluida la Ley de Violencia de Género.",
       "reason": "Oposición clara.",
       "confidence": "alta",
@@ -248,7 +248,7 @@
       "sourceIds": [
         "fe-jons-s01"
       ],
-      "locator": "PDF p. 17; punto 3.1",
+      "locator": "PDF p. 17; apartado 3 Soberanía nacional y política exterior, medida 3.1",
       "evidenceSummary": "Abandono inmediato de la OTAN, la UE y otras organizaciones supranacionales.",
       "reason": "Oposición clara a la integración europea.",
       "confidence": "alta",
@@ -271,7 +271,7 @@
       "sourceIds": [
         "fe-jons-s01"
       ],
-      "locator": "PDF p. 41; punto 16.5",
+      "locator": "PDF p. 41; apartado 16 Defensa, medida 16.2",
       "evidenceSummary": "Aumento del presupuesto destinado a la defensa.",
       "reason": "Apoyo explícito, aunque propone salir de la OTAN.",
       "confidence": "alta",
@@ -294,7 +294,7 @@
       "sourceIds": [
         "fe-jons-s01"
       ],
-      "locator": "PDF p. 36; punto 13.2",
+      "locator": "PDF p. 36; apartado 13 Forma del Estado, medidas 13.1 y 13.3",
       "evidenceSummary": "Aspira a abolir la monarquía parlamentaria y a un Estado republicano nacional-sindicalista.",
       "reason": "Apoyo claro.",
       "confidence": "alta",
@@ -317,7 +317,7 @@
       "sourceIds": [
         "fe-jons-s01"
       ],
-      "locator": "PDF p. 25; apartado de vida",
+      "locator": "PDF p. 25; apartado 7 Familia, medida 7.6",
       "evidenceSummary": "Ilegalizar las leyes que permiten el aborto y la eutanasia.",
       "reason": "Oposición clara.",
       "confidence": "alta",
@@ -353,7 +353,7 @@
       "sourceIds": [
         "fe-jons-s01"
       ],
-      "locator": "PDF p. 11; punto de ayudas sociales",
+      "locator": "PDF p. 11; apartado Anexo I Plan Nacional de Remigración, ayudas sociales",
       "evidenceSummary": "Retirada del acceso a ayudas sociales para todo extranjero, reservadas a españoles.",
       "reason": "Oposición clara.",
       "confidence": "alta",

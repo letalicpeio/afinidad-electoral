@@ -33,7 +33,7 @@
       "sourceIds": [
         "frente-obrero-s01"
       ],
-      "locator": "PDF p. 18; medida 1",
+      "locator": "PDF p. 18; apartado de fiscalidad, medida 1",
       "evidenceSummary": "Reducir el impuesto sobre la renta a los trabajadores con menos recursos e incrementarlo para las rentas más altas.",
       "reason": "Apoyo con matices: rebaja limitada a rentas bajas, compensada con subida a las altas.",
       "confidence": "media",
@@ -71,7 +71,7 @@
       "sourceIds": [
         "frente-obrero-s01"
       ],
-      "locator": "PDF p. 53; medida 3",
+      "locator": "PDF p. 53; apartado de inmigración, medida 3",
       "evidenceSummary": "Expulsión inmediata de quienes están de forma irregular e imposibilidad de regularizarse si intentaron entrar de forma ilegal.",
       "reason": "Oposición clara.",
       "confidence": "alta",
@@ -94,7 +94,7 @@
       "sourceIds": [
         "frente-obrero-s01"
       ],
-      "locator": "PDF p. 42; apartado de sanidad",
+      "locator": "PDF p. 42; apartado 14 Sanidad, fin de externalización y privatización",
       "evidenceSummary": "Acabar con el proceso de externalización y privatización de la sanidad e incrementar el gasto en el sistema nacional de salud.",
       "reason": "Oposición clara; formulada como medida.",
       "confidence": "alta",
@@ -147,7 +147,7 @@
       "sourceIds": [
         "frente-obrero-s01"
       ],
-      "locator": "PDF p. 56; apartado de estructura territorial",
+      "locator": "PDF p. 56; apartado 18 Estructura territorial y administración, medida 2",
       "evidenceSummary": "Reforzar el gobierno central recuperando competencias que no debieron ser suyas, igualar competencias y regímenes fiscales de las autonomías y oponerse a los procesos de independencia.",
       "reason": "Oposición clara a transferir más competencias.",
       "confidence": "alta",
@@ -175,7 +175,7 @@
       "sourceIds": [
         "frente-obrero-s01"
       ],
-      "locator": "PDF p. 16; medida 5",
+      "locator": "PDF p. 16; apartado de energía, medida 5",
       "evidenceSummary": "Apuesta por la energía nuclear y por ampliar el parque nuclear.",
       "reason": "Apoyo claro.",
       "confidence": "alta",
@@ -211,7 +211,7 @@
       "sourceIds": [
         "frente-obrero-s01"
       ],
-      "locator": "PDF p. 31; apartado de mujer e igualdad",
+      "locator": "PDF p. 32; apartado 10 Mujer e igualdad real, medida 1",
       "evidenceSummary": "Sostiene que «la violencia de género no existe» como violencia estructural contra las mujeres.",
       "reason": "Oposición clara a mantener el marco específico.",
       "confidence": "media",
@@ -234,7 +234,7 @@
       "sourceIds": [
         "frente-obrero-s01"
       ],
-      "locator": "PDF p. 11; apartado de soberanía nacional",
+      "locator": "PDF p. 11; apartado 03 Soberanía nacional, medida 1",
       "evidenceSummary": "«Es necesario que España abandone la Unión Europea».",
       "reason": "Oposición clara.",
       "confidence": "alta",
@@ -264,7 +264,7 @@
       "sourceIds": [
         "frente-obrero-s01"
       ],
-      "locator": "PDF p. 56; apartado de estructura territorial",
+      "locator": "PDF p. 56; apartado 18 Estructura territorial y administración, forma del Estado",
       "evidenceSummary": "Se declara contrario a la monarquía y partidario de una república encaminada al socialismo.",
       "reason": "Apoyo claro.",
       "confidence": "alta",
@@ -300,7 +300,7 @@
       "sourceIds": [
         "frente-obrero-s01"
       ],
-      "locator": "PDF p. 59; medida 4",
+      "locator": "PDF p. 59; apartado de corrupción, medida 4",
       "evidenceSummary": "Prohibición del indulto en casos de corrupción política y delitos relacionados.",
       "reason": "Apoyo explícito.",
       "confidence": "alta",
@@ -323,7 +323,7 @@
       "sourceIds": [
         "frente-obrero-s01"
       ],
-      "locator": "PDF p. 46 (impreso); apartado 15 Vivienda, medida 5",
+      "locator": "PDF p. 46; apartado 15 Vivienda, medida 5",
       "evidenceSummary": "Enfocar el acceso a la vivienda pública hacia los españoles autóctonos y cambiar las ayudas, que «se suele priorizar al extranjero».",
       "reason": "Oposición con matices: pide priorizar a los españoles en vivienda pública y ayudas, no excluir a todos los extranjeros (a diferencia de FE de las JONS).",
       "confidence": "media",

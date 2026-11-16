@@ -1,5 +1,5 @@
 {
-  "version": "0.5.25",
+  "version": "0.5.26",
   "date": "2026-11-15",
   "election": "Congreso · 29 de noviembre de 2026",
   "questions": [
@@ -103,7 +103,7 @@
         "1": {
           "value": 4,
           "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
-          "locator": "Medidas 177–183",
+          "locator": "PDF p. 47; medida 177, IRPF de rentas medias y bajas",
           "reason": "Rebaja dirigida a rentas medias y bajas y a jóvenes, no a toda la renta laboral.",
           "reviewed": "2026-11-16",
           "coding": "Interpretación editorial provisional"
@@ -111,7 +111,7 @@
         "2": {
           "value": 1,
           "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
-          "locator": "Medida 145",
+          "locator": "PDF p. 42; medida 145, Ley de Vivienda y zonas tensionadas",
           "reason": "Deroga la Ley de Vivienda y elimina las zonas tensionadas y el índice de precios del alquiler.",
           "reviewed": "2026-11-14",
           "coding": "Interpretación editorial provisional"
@@ -127,7 +127,7 @@
         "5": {
           "value": 4,
           "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
-          "locator": "PDF p. 16–17; medida 23–27",
+          "locator": "PDF p. 16; medida 23, aumento de penas por desórdenes públicos violentos",
           "reason": "Endurecimiento explícito pero formulado por delitos concretos, sin una subida general de penas de prisión.",
           "reviewed": "2026-11-15",
           "coding": "Interpretación editorial provisional"
@@ -135,7 +135,7 @@
         "6": {
           "value": 5,
           "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
-          "locator": "Medida 212",
+          "locator": "PDF p. 51; medida 212, conciertos educativos con demanda",
           "reason": "Preserva conciertos con demanda.",
           "reviewed": "2026-11-14",
           "coding": "Interpretación editorial provisional"
@@ -143,7 +143,7 @@
         "9": {
           "value": 5,
           "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
-          "locator": "Medida 228",
+          "locator": "PDF p. 54; medida 228, continuidad de centrales nucleares",
           "reason": "Extensión de centrales.",
           "reviewed": "2026-11-14",
           "coding": "Interpretación editorial provisional"
@@ -151,7 +151,7 @@
         "10": {
           "value": 5,
           "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
-          "locator": "Medida 108",
+          "locator": "PDF p. 34; medida 108, actualización de pensiones con el IPC",
           "reason": "Las pensiones mantendrán su poder adquisitivo y subirán cada año con el IPC.",
           "reviewed": "2026-11-14",
           "coding": "Interpretación editorial provisional"
@@ -159,7 +159,7 @@
         "16": {
           "value": 5,
           "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
-          "locator": "Medida 60",
+          "locator": "PDF p. 25; medida 60, límites al indulto",
           "reason": "Nueva Ley del Indulto: no podrán ser indultados los condenados por corrupción.",
           "reviewed": "2026-11-14",
           "coding": "Interpretación editorial provisional"
@@ -167,7 +167,7 @@
         "18": {
           "value": 5,
           "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
-          "locator": "Medidas 186–187",
+          "locator": "PDF p. 48; medida 187, simplificación de obligaciones empresariales",
           "reason": "Simplificación empresarial.",
           "reviewed": "2026-11-14",
           "coding": "Interpretación editorial provisional"
@@ -196,7 +196,7 @@
         "14": {
           "value": 1,
           "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
-          "locator": "PDF p. 8; introducción",
+          "locator": "PDF p. 8; apartado de introducción, referencia a la monarquía parlamentaria",
           "reason": "Apoyo a la continuidad de la monarquía: lectura contextual, no una frase contra la república.",
           "reviewed": "2026-11-15",
           "coding": "Interpretación editorial provisional"
@@ -204,7 +204,7 @@
         "15": {
           "value": 4,
           "source": "https://www.pp.es/wp-content/uploads/2023/07/programa_electoral_pp_23j_feijoo_2023.pdf",
-          "locator": "Histórico 2023 · PDF p. 47; medida 129",
+          "locator": "Histórico 2023 · PDF p. 47; medida 129, consentimiento para aborto de menores (antecedente 2023)",
           "reason": "Mantiene el derecho con una restricción explícita; no se presenta como compromiso nuevo de 2026.",
           "historical": true,
           "sourceYear": 2023,
@@ -281,7 +281,7 @@
         "4": {
           "value": 4,
           "source": "https://www.voxespana.es/wp-content/uploads/2026/11/Programa-completo-A5-1.pdf",
-          "locator": "PDF p. 37; punto 62",
+          "locator": "PDF p. 37; medida 62, colaboración sanitaria público-privada",
           "reason": "Apoyo condicionado: no propone ampliar los conciertos de forma general, sino en los casos en que reduzcan listas de espera.",
           "reviewed": "2026-11-15",
           "coding": "Interpretación editorial provisional"
@@ -289,7 +289,7 @@
         "15": {
           "value": 1,
           "source": "https://www.voxespana.es/wp-content/uploads/2026/11/Programa-completo-A5-1.pdf",
-          "locator": "PDF p. 52; punto 98",
+          "locator": "PDF p. 52; medida 98, derecho a la vida desde la concepción",
           "reason": "Oposición clara al aborto legal: la defensa de la vida desde la concepción es incompatible con mantener ese derecho.",
           "reviewed": "2026-11-15",
           "coding": "Interpretación editorial provisional"
@@ -297,7 +297,7 @@
         "6": {
           "value": 4,
           "source": "https://www.voxespana.es/wp-content/uploads/2026/11/Programa-completo-A5-1.pdf",
-          "locator": "PDF p. 41; punto 67, y p. 42; punto 74",
+          "locator": "PDF p. 41; medida 67, elección de centro sin barrera económica",
           "reason": "Apoyo: garantizar la elección de centro sin barrera económica exige financiación pública de centros no públicos, aunque el programa no nombra a los concertados.",
           "reviewed": "2026-11-15",
           "coding": "Interpretación editorial provisional"
@@ -383,7 +383,7 @@
         "11": {
           "value": 5,
           "source": "https://www.eaj-pnv.eus/es/adjuntos-documentos/20945/pdf/con-voz-propia-programa-electoral-23-j",
-          "locator": "Histórico 2023 · PDF p. 6 y 8; igualdad",
+          "locator": "Histórico 2023 · PDF p. 26; apartado 07 Igualdad, lucha contra la violencia machista",
           "reason": "Compromiso con iniciativas legislativas específicas contra la violencia machista y con el Pacto de Estado.",
           "historical": true,
           "sourceYear": 2023,
@@ -589,7 +589,7 @@
         "1": {
           "value": 4,
           "source": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
-          "locator": "Programa 2026 · PDF p.13 · medida 38",
+          "locator": "PDF p. 13; medida 38, IRPF en La Palma, La Gomera y El Hierro",
           "reason": "Propone mantener la deducción del 60 % en el IRPF en La Palma y extenderla a La Gomera y El Hierro.",
           "sourceNote": "Apoyo territorial limitado: es una deducción del IRPF en tres islas, no una rebaja general nacional de impuestos al trabajo. Trazabilidad en evidence/gpt/cc.json.",
           "reviewed": "2026-11-15",
@@ -598,7 +598,7 @@
         "7": {
           "value": 5,
           "source": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
-          "locator": "Causa 1, medida 1",
+          "locator": "PDF p. 8; apartado Causa 1, medida 1, traspasos del Estatuto",
           "reason": "Exige completar traspasos estatutarios y rechaza la recentralización.",
           "reviewed": "2026-11-14",
           "coding": "Interpretación editorial provisional",
@@ -607,7 +607,7 @@
         "18": {
           "value": 4,
           "source": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
-          "locator": "Programa 2026 · PDF p.11 · medida 28",
+          "locator": "PDF p. 11; medida 28, agilización de vivienda protegida y asequible",
           "reason": "Propone reducir trámites e informes estatales para agilizar vivienda protegida y asequible, manteniendo garantías.",
           "sourceNote": "Apoyo sectorial limitado: simplificación para vivienda protegida y asequible; no compromiso de eliminar obligaciones para todas las empresas. Trazabilidad en evidence/gpt/cc.json.",
           "reviewed": "2026-11-15",
@@ -752,7 +752,7 @@
         "15": {
           "value": 5,
           "source": "https://static.esquerra.cat/uploads/20230905/e2023-programa.pdf",
-          "locator": "Histórico 2023 · PDF p. 44; igualdad",
+          "locator": "Histórico 2023 · PDF p. 47; apartado de derechos sexuales y reproductivos, punto 5",
           "reason": "Apoyo explícito a mantener y garantizar el derecho legal al aborto.",
           "historical": true,
           "sourceYear": 2023,
@@ -791,7 +791,7 @@
         "4": {
           "value": 1,
           "source": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
-          "locator": "Sección 3.2.1, pág. 55",
+          "locator": "PDF p. 56; apartado 3.2.1, reintegración de servicios sanitarios privatizados",
           "reason": "Propone reintegrar en la sanidad pública los servicios privatizados.",
           "reviewed": "2026-11-14",
           "coding": "Interpretación editorial provisional"
@@ -799,7 +799,7 @@
         "11": {
           "value": 5,
           "source": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
-          "locator": "Sección 3.10.1, págs. 75–76",
+          "locator": "PDF p. 77; apartado 3.10.1, reconocimiento legal de la violencia vicaria sobre animales",
           "reason": "Defiende tutela judicial y reconocimiento legal específico frente a violencia machista.",
           "reviewed": "2026-11-14",
           "coding": "Interpretación editorial provisional"
@@ -921,7 +921,7 @@
         "1": {
           "value": 5,
           "source": "https://falange.es/wp-content/uploads/2026/11/FEDELASJONS_ProgramaElectoral_29NGenerales2026.pdf",
-          "locator": "punto 9, pág. 29 del PDF",
+          "locator": "PDF p. 29; apartado 9 Economía, medida 9.9",
           "reason": "Propone la deflactación del IRPF y su bajada progresiva para no gravar a los trabajadores.",
           "reviewed": "2026-11-14",
           "coding": "Interpretación editorial provisional"
@@ -929,7 +929,7 @@
         "3": {
           "value": 1,
           "source": "https://falange.es/wp-content/uploads/2026/11/FEDELASJONS_ProgramaElectoral_29NGenerales2026.pdf",
-          "locator": "Anexo I, pág. 11 del PDF",
+          "locator": "PDF p. 11; apartado Anexo I Plan Nacional de Remigración, permisos de residencia y trabajo",
           "reason": "Propone el cese de la concesión de permisos de residencia y trabajo, derogar la Ley de Extranjería y un Plan Nacional de Remigración.",
           "reviewed": "2026-11-14",
           "coding": "Interpretación editorial provisional"
@@ -937,7 +937,7 @@
         "4": {
           "value": 1,
           "source": "https://falange.es/wp-content/uploads/2026/11/FEDELASJONS_ProgramaElectoral_29NGenerales2026.pdf",
-          "locator": "punto 20.3, pág. 50 del PDF",
+          "locator": "PDF p. 50; apartado 20 Sanidad, medida 20.3",
           "reason": "Poner fin a las prácticas de externalización y privatización de la sanidad.",
           "reviewed": "2026-11-14",
           "coding": "Interpretación editorial provisional"
@@ -945,7 +945,7 @@
         "5": {
           "value": 5,
           "source": "https://falange.es/wp-content/uploads/2026/11/FEDELASJONS_ProgramaElectoral_29NGenerales2026.pdf",
-          "locator": "pág. 39 del PDF",
+          "locator": "PDF p. 39; apartado 15 Seguridad nacional y ciudadana, medida 15.6",
           "reason": "Aumento generalizado de las penas por delitos comunes y por reincidencia.",
           "reviewed": "2026-11-14",
           "coding": "Interpretación editorial provisional"
@@ -953,7 +953,7 @@
         "7": {
           "value": 1,
           "source": "https://falange.es/wp-content/uploads/2026/11/FEDELASJONS_ProgramaElectoral_29NGenerales2026.pdf",
-          "locator": "pág. 19 del PDF",
+          "locator": "PDF p. 19; apartado 5 Unidad nacional y modelo territorial, medida 5.2",
           "reason": "Defiende retirar las competencias a las comunidades autónomas.",
           "reviewed": "2026-11-14",
           "coding": "Interpretación editorial provisional"
@@ -961,7 +961,7 @@
         "9": {
           "value": 5,
           "source": "https://falange.es/wp-content/uploads/2026/11/FEDELASJONS_ProgramaElectoral_29NGenerales2026.pdf",
-          "locator": "puntos 11.3–11.5, pág. 31 del PDF",
+          "locator": "PDF p. 31; apartado 11 Energía, medidas 11.2 y 11.4",
           "reason": "Propone la energía nuclear como fuente principal del mix energético.",
           "reviewed": "2026-11-14",
           "coding": "Interpretación editorial provisional"
@@ -969,7 +969,7 @@
         "11": {
           "value": 1,
           "source": "https://falange.es/wp-content/uploads/2026/11/FEDELASJONS_ProgramaElectoral_29NGenerales2026.pdf",
-          "locator": "punto 7.3, pág. 25 del PDF",
+          "locator": "PDF p. 25; apartado 7 Familia, medida 7.3",
           "reason": "Propone suprimir las leyes de «género», incluida la Ley de Violencia de Género.",
           "reviewed": "2026-11-14",
           "coding": "Interpretación editorial provisional"
@@ -977,7 +977,7 @@
         "12": {
           "value": 1,
           "source": "https://falange.es/wp-content/uploads/2026/11/FEDELASJONS_ProgramaElectoral_29NGenerales2026.pdf",
-          "locator": "punto 3.1, pág. 17 del PDF",
+          "locator": "PDF p. 17; apartado 3 Soberanía nacional y política exterior, medida 3.1",
           "reason": "Propone abandonar la Unión Europea y las organizaciones supranacionales.",
           "reviewed": "2026-11-14",
           "coding": "Interpretación editorial provisional"
@@ -985,7 +985,7 @@
         "13": {
           "value": 5,
           "source": "https://falange.es/wp-content/uploads/2026/11/FEDELASJONS_ProgramaElectoral_29NGenerales2026.pdf",
-          "locator": "punto 16.5, pág. 41 del PDF",
+          "locator": "PDF p. 41; apartado 16 Defensa, medida 16.2",
           "reason": "Aumento del presupuesto destinado a la defensa.",
           "reviewed": "2026-11-14",
           "coding": "Interpretación editorial provisional"
@@ -993,7 +993,7 @@
         "14": {
           "value": 5,
           "source": "https://falange.es/wp-content/uploads/2026/11/FEDELASJONS_ProgramaElectoral_29NGenerales2026.pdf",
-          "locator": "punto 13.2, pág. 36 del PDF",
+          "locator": "PDF p. 36; apartado 13 Forma del Estado, medidas 13.1 y 13.3",
           "reason": "Aspira a abolir la monarquía parlamentaria y a un Estado republicano nacional-sindicalista.",
           "reviewed": "2026-11-14",
           "coding": "Interpretación editorial provisional"
@@ -1001,7 +1001,7 @@
         "15": {
           "value": 1,
           "source": "https://falange.es/wp-content/uploads/2026/11/FEDELASJONS_ProgramaElectoral_29NGenerales2026.pdf",
-          "locator": "pág. 25 del PDF",
+          "locator": "PDF p. 25; apartado 7 Familia, medida 7.6",
           "reason": "Propone ilegalizar las leyes que permiten el aborto y la eutanasia.",
           "reviewed": "2026-11-14",
           "coding": "Interpretación editorial provisional"
@@ -1009,7 +1009,7 @@
         "17": {
           "value": 1,
           "source": "https://falange.es/wp-content/uploads/2026/11/FEDELASJONS_ProgramaElectoral_29NGenerales2026.pdf",
-          "locator": "pág. 11 del PDF",
+          "locator": "PDF p. 11; apartado Anexo I Plan Nacional de Remigración, ayudas sociales",
           "reason": "Retirada del acceso a ayudas sociales para todo extranjero, reservadas a españoles.",
           "reviewed": "2026-11-14",
           "coding": "Interpretación editorial provisional"
@@ -1017,7 +1017,7 @@
         "2": {
           "value": 5,
           "source": "https://falange.es/wp-content/uploads/2026/11/FEDELASJONS_ProgramaElectoral_29NGenerales2026.pdf",
-          "locator": "PDF p. 15; apartado de vivienda, «Precio y duración máximos del alquiler»",
+          "locator": "PDF p. 15; apartado 2 Vivienda, medida 2.9",
           "reason": "Apoyo explícito a limitar los precios del alquiler; el tope se propone con carácter general, no sólo en zonas tensionadas.",
           "reviewed": "2026-11-15",
           "coding": "Interpretación editorial provisional"
@@ -1032,7 +1032,7 @@
         "1": {
           "value": 4,
           "source": "https://frenteobrero.es/documentos/programa-frente-obrero.pdf",
-          "locator": "PDF p. 18; medida 1",
+          "locator": "PDF p. 18; apartado de fiscalidad, medida 1",
           "reason": "Apoyo con matices: rebaja limitada a rentas bajas, compensada con subida a las altas.",
           "reviewed": "2026-11-15",
           "coding": "Interpretación editorial provisional"
@@ -1040,7 +1040,7 @@
         "3": {
           "value": 1,
           "source": "https://frenteobrero.es/documentos/programa-frente-obrero.pdf",
-          "locator": "pág. 53, medida 3",
+          "locator": "PDF p. 53; apartado de inmigración, medida 3",
           "reason": "Expulsión inmediata de quienes están de forma irregular e imposibilidad de regularizarse si intentaron entrar de forma ilegal.",
           "reviewed": "2026-11-14",
           "coding": "Interpretación editorial provisional"
@@ -1048,7 +1048,7 @@
         "4": {
           "value": 1,
           "source": "https://frenteobrero.es/documentos/programa-frente-obrero.pdf",
-          "locator": "PDF p. 42; apartado de sanidad",
+          "locator": "PDF p. 42; apartado 14 Sanidad, fin de externalización y privatización",
           "reason": "Oposición clara; formulada como medida.",
           "reviewed": "2026-11-15",
           "coding": "Interpretación editorial provisional"
@@ -1056,7 +1056,7 @@
         "9": {
           "value": 5,
           "source": "https://frenteobrero.es/documentos/programa-frente-obrero.pdf",
-          "locator": "pág. 16, medida 5",
+          "locator": "PDF p. 16; apartado de energía, medida 5",
           "reason": "Apuesta por la energía nuclear y por ampliar el parque nuclear.",
           "reviewed": "2026-11-14",
           "coding": "Interpretación editorial provisional"
@@ -1064,7 +1064,7 @@
         "11": {
           "value": 1,
           "source": "https://frenteobrero.es/documentos/programa-frente-obrero.pdf",
-          "locator": "pág. 31",
+          "locator": "PDF p. 32; apartado 10 Mujer e igualdad real, medida 1",
           "reason": "Sostiene que la violencia de género no existe como violencia estructural contra las mujeres.",
           "reviewed": "2026-11-14",
           "coding": "Interpretación editorial provisional"
@@ -1072,7 +1072,7 @@
         "14": {
           "value": 5,
           "source": "https://frenteobrero.es/documentos/programa-frente-obrero.pdf",
-          "locator": "pág. 56",
+          "locator": "PDF p. 56; apartado 18 Estructura territorial y administración, forma del Estado",
           "reason": "Se declara contrario a la monarquía y partidario de una república.",
           "reviewed": "2026-11-14",
           "coding": "Interpretación editorial provisional"
@@ -1080,7 +1080,7 @@
         "16": {
           "value": 5,
           "source": "https://frenteobrero.es/documentos/programa-frente-obrero.pdf",
-          "locator": "pág. 59, medida 4",
+          "locator": "PDF p. 59; apartado de corrupción, medida 4",
           "reason": "Prohibición del indulto en casos de corrupción política y delitos relacionados.",
           "reviewed": "2026-11-14",
           "coding": "Interpretación editorial provisional"
@@ -1088,7 +1088,7 @@
         "7": {
           "value": 1,
           "source": "https://frenteobrero.es/documentos/programa-frente-obrero.pdf",
-          "locator": "PDF p. 56; apartado de estructura territorial",
+          "locator": "PDF p. 56; apartado 18 Estructura territorial y administración, medida 2",
           "reason": "Oposición clara a transferir más competencias.",
           "reviewed": "2026-11-15",
           "coding": "Interpretación editorial provisional"
@@ -1096,7 +1096,7 @@
         "12": {
           "value": 1,
           "source": "https://frenteobrero.es/documentos/programa-frente-obrero.pdf",
-          "locator": "PDF p. 11; apartado de soberanía nacional",
+          "locator": "PDF p. 11; apartado 03 Soberanía nacional, medida 1",
           "reason": "Oposición clara.",
           "reviewed": "2026-11-15",
           "coding": "Interpretación editorial provisional"
@@ -1104,7 +1104,7 @@
         "17": {
           "value": 2,
           "source": "https://frenteobrero.es/documentos/programa-frente-obrero.pdf",
-          "locator": "PDF p. 46 (impreso); apartado 15 Vivienda, medida 5",
+          "locator": "PDF p. 46; apartado 15 Vivienda, medida 5",
           "reason": "Pide priorizar a los españoles en vivienda pública y ayudas, sin excluir a todos los extranjeros.",
           "reviewed": "2026-11-15",
           "coding": "Interpretación editorial provisional"
@@ -1204,7 +1204,7 @@
         "11": {
           "value": 5,
           "source": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
-          "locator": "Medida 24, pág. 27 del PDF",
+          "locator": "PDF p. 98; apartado 7.1 Contra las violencias machistas, propuesta 509",
           "reason": "Pacto de Estado contra la violencia machista con presupuesto.",
           "reviewed": "2026-11-14",
           "coding": "Interpretación editorial provisional"
@@ -1350,7 +1350,7 @@
         "4": {
           "value": 4,
           "source": "https://www.seacabolafiesta.com/SALF_Contrato_Electoral_29N.pdf",
-          "locator": "PDF p. 22; compromiso 06",
+          "locator": "PDF p. 22; apartado VI Sanidad, medida 2",
           "reason": "Apoyo con condiciones a financiar centros privados con fondos públicos.",
           "reviewed": "2026-11-15",
           "coding": "Interpretación editorial provisional"
@@ -1367,7 +1367,7 @@
         "17": {
           "value": 2,
           "source": "https://www.seacabolafiesta.com/SALF_Contrato_Electoral_29N.pdf",
-          "locator": "PDF p. 19; compromiso 04, medida 10",
+          "locator": "PDF p. 19; apartado IV Inmigración, medida 10",
           "reason": "Exige un requisito adicional de residencia y cotización para prestaciones no contributivas, vivienda y alquiler.",
           "reviewed": "2026-11-16",
           "coding": "Interpretación editorial provisional"
@@ -1949,7 +1949,7 @@
         "11": {
           "value": 4,
           "source": "https://img.beteve.cat/wp-content/uploads/2023/07/programa-junts-per-catalunya-eleccions-generals-2023.pdf",
-          "locator": "Histórico 2023 · PDF p. 110",
+          "locator": "Histórico 2023 · PDF p. 111; apartado xii Igualtat, reforma de la legislación procesal",
           "reason": "Apoyo a reforzar la actuación específica contra la violencia machista; no habla de mantener la ley integral.",
           "historical": true,
           "sourceYear": 2023,
@@ -1971,7 +1971,7 @@
         "18": {
           "value": 4,
           "source": "https://img.beteve.cat/wp-content/uploads/2023/07/programa-junts-per-catalunya-eleccions-generals-2023.pdf",
-          "locator": "Histórico 2023 · PDF p. 84 · Defensa de la micro, petita i mitjana empresa",
+          "locator": "Histórico 2023 · PDF p. 84; apartado 6 Defensa de la micro, petita i mitjana empresa, trámites y declaración responsable",
           "reason": "Rebaja dirigida a pymes y autónomos (declaración responsable).",
           "historical": true,
           "sourceYear": 2023,
@@ -2370,7 +2370,7 @@
         "8": {
           "value": 5,
           "source": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
-          "locator": "Histórico 2023 · PDF p. 6; 11",
+          "locator": "Histórico 2023 · PDF p. 11; apartado Trabajo, reducción de jornada sin merma salarial",
           "reason": "Apoyo claro, con jornada de 35 horas y salario intacto.",
           "historical": true,
           "sourceYear": 2023,
@@ -2410,7 +2410,7 @@
         "2": {
           "value": 5,
           "source": "https://comuns.cat/wp-content/uploads/2025/07/sumarECP-programa-generales-2023.pdf",
-          "locator": "Histórico 2023 · PDF p. 80; vivienda",
+          "locator": "Histórico 2023 · PDF p. 81; apartado 3.3.5, declaración de mercado tensionado y regulación de alquileres",
           "reason": "Apoyo explícito a regular los precios del alquiler.",
           "historical": true,
           "sourceYear": 2023,
@@ -2432,7 +2432,7 @@
         "8": {
           "value": 5,
           "source": "https://comuns.cat/wp-content/uploads/2025/07/sumarECP-programa-generales-2023.pdf",
-          "locator": "Histórico 2023 · PDF p. 19; empleo",
+          "locator": "Histórico 2023 · PDF p. 19; apartado 1.6.1, reducción de jornada por ley sin reducción salarial",
           "reason": "Apoyo explícito, sin pérdida salarial.",
           "historical": true,
           "sourceYear": 2023,
