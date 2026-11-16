@@ -79,12 +79,13 @@
       "status": "documentada",
       "position": 1,
       "sourceIds": [
+        "vox-s01",
         "vox-s01"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de derecha radical y unitaria y sus posiciones documentadas en temas afines.",
+      "evidenceSummary": "Inferencia con fuentes: Su programa de 2026 aborda la vivienda con prioridad nacional, más suelo, menos impuestos a la construcción y control del arrendamiento a inmigrantes irregulares; no incluye límites de precios y propone modificar o derogar normas que dificulten esa prioridad.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "baja",
+      "confidence": "media",
       "reviewNeeded": true,
       "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
       "nextAction": "Buscar texto del partido sobre este tema.",
@@ -154,12 +155,13 @@
       "status": "documentada",
       "position": 1,
       "sourceIds": [
+        "vox-s01",
         "vox-s01"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: defiende un Estado unitario y reducir el modelo autonómico (programas de 2023 y 2026).",
+      "evidenceSummary": "Inferencia con fuentes: Su programa de 2026 defiende «un solo mercado y una sola Nación» y una Ley de Unidad de Mercado, y plantea revertir la degradación institucional que amenaza la unidad de España.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "alta",
+      "confidence": "media",
       "reviewNeeded": true,
       "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
       "nextAction": "Buscar texto del partido sobre este tema.",
@@ -202,7 +204,7 @@
         "vox-s01"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de derecha radical y unitaria y sus posiciones documentadas en temas afines.",
+      "evidenceSummary": "Inferencia con fuentes: Su programa de 2026 propone garantizar la sostenibilidad del sistema de pensiones mediante el crecimiento económico; no menciona el IPC ni la revalorización.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
       "reviewNeeded": true,
@@ -216,13 +218,13 @@
       "sourceIds": [
         "vox-s01"
       ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de derecha radical y unitaria y sus posiciones documentadas en temas afines.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
-      "nextAction": "Buscar texto del partido sobre este tema.",
+      "locator": "PDF p. 30; medida 47",
+      "evidenceSummary": "Propone derogar las leyes de género por considerar que han criminalizado a los hombres y desprotegido a las mujeres, y sustituirlas por normas que protejan a las víctimas de violencia, en especial a las de maltrato.",
+      "reason": "Oposición explícita a mantener la legislación específica contra la violencia de género; propone derogarla.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     },
     "12": {
@@ -232,9 +234,9 @@
         "vox-s01"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su programa de 2026 rechaza «las imposiciones de Bruselas» y reclama recuperar competencias nacionales.",
+      "evidenceSummary": "Inferencia con fuentes: Su programa de 2026 propone proteger al sector primario de «las imposiciones de Bruselas y del Pacto Verde» y que VOX en el Gobierno no sea «el representante de Bruselas ante los españoles».",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "alta",
+      "confidence": "media",
       "reviewNeeded": true,
       "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
       "nextAction": "Buscar texto del partido sobre este tema.",
@@ -262,9 +264,9 @@
         "vox-s01"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: defiende la Corona y propone agravar las penas por ofensas a sus símbolos (programa 2026, punto 105).",
+      "evidenceSummary": "Inferencia con fuentes: Su programa de 2026 propone la máxima protección jurídica a los símbolos de la Nación, incluida la Corona, y agravar las penas por ofensas a ellos.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "alta",
+      "confidence": "media",
       "reviewNeeded": true,
       "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
       "nextAction": "Buscar texto del partido sobre este tema.",

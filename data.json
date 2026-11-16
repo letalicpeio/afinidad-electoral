@@ -1,5 +1,5 @@
 {
-  "version": "0.5.36",
+  "version": "0.5.38",
   "date": "2026-11-15",
   "election": "Congreso · 29 de noviembre de 2026",
   "questions": [
@@ -375,11 +375,21 @@
           "value": 1,
           "source": "https://www.voxespana.es/abascal/es-sentido-comun-estas-son-las-medidas-de-vox-para-el-29n-20261112",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Defiende un Estado unitario y reducir el modelo autonómico (programas de 2023 y 2026).",
+          "reason": "Su programa de 2026 defiende «un solo mercado y una sola Nación» y una Ley de Unidad de Mercado, y plantea revertir la degradación institucional que amenaza la unidad de España.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce porque defiende un Estado unitario y reducir el modelo autonómico (programas de 2023 y 2026). Uso provisional, confianza alta: no es una declaración del partido.",
-          "reviewed": "2026-11-15",
-          "coding": "Inferencia editorial"
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: su programa de 2026 defiende «un solo mercado y una sola Nación» y una Ley de Unidad de Mercado, y plantea revertir la degradación institucional que amenaza la unidad de España. Uso provisional, confianza media: no es una declaración suya sobre esta medida.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://www.voxespana.es/wp-content/uploads/2026/11/Programa-completo-A5-1.pdf#page=28",
+              "label": "Programa de VOX 2026, PDF p. 28"
+            },
+            {
+              "url": "https://www.voxespana.es/wp-content/uploads/2026/11/Programa-completo-A5-1.pdf#page=56",
+              "label": "Programa de VOX 2026, PDF p. 56"
+            }
+          ]
         },
         "8": {
           "value": 1,
@@ -396,51 +406,77 @@
           "value": 1,
           "source": "https://www.voxespana.es/abascal/es-sentido-comun-estas-son-las-medidas-de-vox-para-el-29n-20261112",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su programa de 2026 rechaza «las imposiciones de Bruselas» y reclama recuperar competencias nacionales.",
+          "reason": "Su programa de 2026 propone proteger al sector primario de «las imposiciones de Bruselas y del Pacto Verde» y que VOX en el Gobierno no sea «el representante de Bruselas ante los españoles».",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce porque su programa de 2026 rechaza «las imposiciones de Bruselas» y reclama recuperar competencias nacionales. Uso provisional, confianza alta: no es una declaración del partido.",
-          "reviewed": "2026-11-15",
-          "coding": "Inferencia editorial"
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: su programa de 2026 propone proteger al sector primario de «las imposiciones de Bruselas y del Pacto Verde» y que VOX en el Gobierno no sea «el representante de Bruselas ante los españoles». Uso provisional, confianza media: no es una declaración suya sobre esta medida.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://www.voxespana.es/wp-content/uploads/2026/11/Programa-completo-A5-1.pdf#page=33",
+              "label": "Programa de VOX 2026, PDF p. 33"
+            }
+          ]
         },
         "14": {
           "value": 1,
           "source": "https://www.voxespana.es/abascal/es-sentido-comun-estas-son-las-medidas-de-vox-para-el-29n-20261112",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Defiende la Corona y propone agravar las penas por ofensas a sus símbolos (programa 2026, punto 105).",
+          "reason": "Su programa de 2026 propone la máxima protección jurídica a los símbolos de la Nación, incluida la Corona, y agravar las penas por ofensas a ellos.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce porque defiende la Corona y propone agravar las penas por ofensas a sus símbolos (programa 2026, punto 105). Uso provisional, confianza alta: no es una declaración del partido.",
-          "reviewed": "2026-11-15",
-          "coding": "Inferencia editorial"
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: su programa de 2026 propone la máxima protección jurídica a los símbolos de la Nación, incluida la Corona, y agravar las penas por ofensas a ellos. Uso provisional, confianza media: no es una declaración suya sobre esta medida.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://www.voxespana.es/wp-content/uploads/2026/11/Programa-completo-A5-1.pdf#page=56",
+              "label": "Programa de VOX 2026, PDF p. 56; medida 105"
+            }
+          ]
         },
         "2": {
           "value": 1,
           "source": "https://www.voxespana.es/abascal/es-sentido-comun-estas-son-las-medidas-de-vox-para-el-29n-20261112",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de derecha radical y unitaria y sus posiciones documentadas en temas afines.",
+          "reason": "Su programa de 2026 aborda la vivienda con prioridad nacional, más suelo, menos impuestos a la construcción y control del arrendamiento a inmigrantes irregulares; no incluye límites de precios y propone modificar o derogar normas que dificulten esa prioridad.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de derecha radical y unitaria y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: su programa de 2026 aborda la vivienda con prioridad nacional, más suelo, menos impuestos a la construcción y control del arrendamiento a inmigrantes irregulares; no incluye límites de precios y propone modificar o derogar normas que dificulten esa prioridad. Uso provisional, confianza media: no es una declaración suya sobre esta medida.",
           "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://www.voxespana.es/wp-content/uploads/2026/11/Programa-completo-A5-1.pdf#page=23",
+              "label": "Programa de VOX 2026, PDF p. 23"
+            },
+            {
+              "url": "https://www.voxespana.es/wp-content/uploads/2026/11/Programa-completo-A5-1.pdf#page=24",
+              "label": "Programa de VOX 2026, PDF p. 24"
+            }
+          ]
         },
         "10": {
           "value": 4,
           "source": "https://www.voxespana.es/abascal/es-sentido-comun-estas-son-las-medidas-de-vox-para-el-29n-20261112",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de derecha radical y unitaria y sus posiciones documentadas en temas afines.",
+          "reason": "Su programa de 2026 propone garantizar la sostenibilidad del sistema de pensiones mediante el crecimiento económico; no menciona el IPC ni la revalorización.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de derecha radical y unitaria y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: su programa de 2026 propone garantizar la sostenibilidad del sistema de pensiones mediante el crecimiento económico; no menciona el IPC ni la revalorización. Uso provisional, confianza baja: no es una declaración suya sobre esta medida.",
           "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://www.voxespana.es/wp-content/uploads/2026/11/Programa-completo-A5-1.pdf#page=10",
+              "label": "Programa de VOX 2026, PDF p. 10"
+            }
+          ]
         },
         "11": {
           "value": 1,
-          "source": "https://www.voxespana.es/abascal/es-sentido-comun-estas-son-las-medidas-de-vox-para-el-29n-20261112",
-          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de derecha radical y unitaria y sus posiciones documentadas en temas afines.",
-          "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de derecha radical y unitaria y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
-          "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "source": "https://www.voxespana.es/wp-content/uploads/2026/11/Programa-completo-A5-1.pdf",
+          "locator": "PDF p. 30; medida 47",
+          "reason": "Oposición explícita a mantener la legislación específica contra la violencia de género; propone derogarla.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional"
         },
         "13": {
           "value": 5,
