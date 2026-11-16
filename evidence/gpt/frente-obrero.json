@@ -53,17 +53,15 @@
       }
     },
     "2": {
-      "status": "documentada",
-      "position": 4,
-      "sourceIds": [
-        "frente-obrero-s01"
-      ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su programa propone construir vivienda pública y luchar contra la especulación de fondos y grandes rentistas.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Inferencia retirada en la segunda revisión de las inferencias discutibles (16/11/2026): el salto desde los indicios a esta afirmación es demasiado grande.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "reviewNeeded": false,
+      "reviewNote": null,
       "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
@@ -159,17 +157,15 @@
       "replaces": null
     },
     "8": {
-      "status": "documentada",
-      "position": 4,
-      "sourceIds": [
-        "frente-obrero-s01"
-      ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su programa pide más flexibilidad y reducción de jornada para conciliar y se declara pro-trabajadores.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Inferencia retirada en la segunda revisión de las inferencias discutibles (16/11/2026): el salto desde los indicios a esta afirmación es demasiado grande.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "reviewNeeded": false,
+      "reviewNote": null,
       "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },

@@ -233,17 +233,15 @@
       "replaces": null
     },
     "14": {
-      "status": "documentada",
-      "position": 4,
-      "sourceIds": [
-        "junts-s01"
-      ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: defiende una República catalana y critica a la monarquía española.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Inferencia retirada en la segunda revisión de las inferencias discutibles (16/11/2026): el salto desde los indicios a esta afirmación es demasiado grande.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
       "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },

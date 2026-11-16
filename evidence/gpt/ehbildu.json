@@ -96,17 +96,15 @@
   ],
   "questions": {
     "1": {
-      "status": "documentada",
-      "position": 4,
-      "sourceIds": [
-        "ehbildu-s02"
-      ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: propone bajar impuestos a rentas bajas y subir los de banca, energéticas y grandes fortunas.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Inferencia retirada en la segunda revisión de las inferencias discutibles (16/11/2026): el salto desde los indicios a esta afirmación es demasiado grande.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
       "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
@@ -193,17 +191,15 @@
       "replaces": null
     },
     "6": {
-      "status": "documentada",
-      "position": 2,
-      "sourceIds": [
-        "ehbildu-s02"
-      ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: defiende una educación pública vasca como eje.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Inferencia retirada en la segunda revisión de las inferencias discutibles (16/11/2026): el salto desde los indicios a esta afirmación es demasiado grande.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "reviewNeeded": false,
+      "reviewNote": null,
       "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
@@ -303,17 +299,15 @@
       "replaces": null
     },
     "12": {
-      "status": "documentada",
-      "position": 2,
-      "sourceIds": [
-        "ehbildu-s02"
-      ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: es crítica con las instituciones europeas y prioriza la soberanía.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Inferencia retirada en la segunda revisión de las inferencias discutibles (16/11/2026): el salto desde los indicios a esta afirmación es demasiado grande.",
       "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "reviewNeeded": false,
+      "reviewNote": null,
       "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },

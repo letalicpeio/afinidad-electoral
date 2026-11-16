@@ -29,3 +29,7 @@ Entradas: `gpt-informe-2026-11-16.md` y `gpt-resultados-2026-11-16.csv`. Corte a
 ## No verificado por Claude
 - Página de VOX (403) y votaciones de EH Bildu en el Parlamento de Navarra y de Junts en el Congreso: se aceptan con la salvedad escrita en cada fuente.
 - Referencias: dos localizadores incorrectos y seis parciales señalados por GPT; pendientes de corregir página a página.
+
+## Segunda pasada: inferencias «discutibles» (datos 0.5.24)
+
+De las 36 inferencias que GPT calificó de discutibles, 6 ya estaban retiradas en la primera pasada o rehechas con texto. De las restantes se **retiran 14** (PNV-13, BNG-17, CC-8, CC-13, ERC-6, ERC-17, FO-2, FO-8, Frente Amplio-7, Podemos-6, Junts-14, EH Bildu-1, EH Bildu-6, EH Bildu-12) porque el salto desde los indicios hasta la afirmación era demasiado grande o la razón no tenía apoyo propio. **Podemos-7 baja de 5 a 4** (dirección clara, intensidad no). Se **mantienen** con su aviso las que responden a una posición de fondo muy conocida y de dirección inequívoca (por ejemplo VOX-12, BNG-9, BNG-14, Adelante-9, Podemos-5, PSOE-5, PSOE-6, EH Bildu-3 y EH Bildu-14); siguen siendo inferencias y se pueden excluir con «solo documentado».

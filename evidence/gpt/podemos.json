@@ -191,23 +191,21 @@
       "replaces": null
     },
     "6": {
-      "status": "documentada",
-      "position": 1,
-      "sourceIds": [
-        "podemos-s02"
-      ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: defiende una red educativa pública única y reducir la concertada.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "status": "sin-evidencia",
+      "position": null,
+      "sourceIds": [],
+      "locator": null,
+      "evidenceSummary": null,
+      "reason": "Inferencia retirada en la segunda revisión de las inferencias discutibles (16/11/2026): el salto desde los indicios a esta afirmación es demasiado grande.",
+      "confidence": "baja",
+      "reviewNeeded": false,
+      "reviewNote": null,
       "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "7": {
       "status": "documentada",
-      "position": 5,
+      "position": 4,
       "sourceIds": [
         "podemos-s02"
       ],
@@ -216,7 +214,7 @@
       "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "media",
       "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "reviewNote": "Ajustada de 5 a 4 en la revisión de inferencias discutibles: la dirección es clara, la intensidad no.",
       "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
