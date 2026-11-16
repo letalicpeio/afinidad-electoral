@@ -1,5 +1,5 @@
 {
-  "version": "0.5.30",
+  "version": "0.5.31",
   "date": "2026-11-15",
   "election": "Congreso · 29 de noviembre de 2026",
   "questions": [
@@ -211,6 +211,56 @@
           "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa del PP de 2023; solo cubre un tema que el de 2026 no trata.",
           "reviewed": "2026-11-15",
           "coding": "Interpretación editorial provisional de un programa histórico"
+        },
+        "7": {
+          "value": 2,
+          "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de centroderecha estatal y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de centroderecha estatal y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "11": {
+          "value": 4,
+          "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de centroderecha estatal y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de centroderecha estatal y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "12": {
+          "value": 4,
+          "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de centroderecha estatal y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de centroderecha estatal y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "13": {
+          "value": 4,
+          "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de centroderecha estatal y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de centroderecha estatal y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "17": {
+          "value": 2,
+          "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de centroderecha estatal y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de centroderecha estatal y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
         }
       },
       "exclude": [
@@ -342,6 +392,46 @@
           "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce porque defiende la Corona y propone agravar las penas por ofensas a sus símbolos (programa 2026, punto 105). Uso provisional, confianza alta: no es una declaración del partido.",
           "reviewed": "2026-11-15",
           "coding": "Inferencia editorial"
+        },
+        "2": {
+          "value": 1,
+          "source": "https://www.voxespana.es/abascal/es-sentido-comun-estas-son-las-medidas-de-vox-para-el-29n-20261112",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de derecha radical y unitaria y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de derecha radical y unitaria y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "10": {
+          "value": 4,
+          "source": "https://www.voxespana.es/abascal/es-sentido-comun-estas-son-las-medidas-de-vox-para-el-29n-20261112",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de derecha radical y unitaria y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de derecha radical y unitaria y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "11": {
+          "value": 1,
+          "source": "https://www.voxespana.es/abascal/es-sentido-comun-estas-son-las-medidas-de-vox-para-el-29n-20261112",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de derecha radical y unitaria y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de derecha radical y unitaria y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "13": {
+          "value": 5,
+          "source": "https://www.voxespana.es/abascal/es-sentido-comun-estas-son-las-medidas-de-vox-para-el-29n-20261112",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de derecha radical y unitaria y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de derecha radical y unitaria y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
         }
       }
     },
@@ -449,6 +539,86 @@
           "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Antecedente: no acredita un compromiso de 2026.",
           "reviewed": "2026-11-15",
           "coding": "Interpretación editorial provisional de un programa histórico"
+        },
+        "1": {
+          "value": 3,
+          "source": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de nacionalismo vasco de centro y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalismo vasco de centro y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "2": {
+          "value": 4,
+          "source": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de nacionalismo vasco de centro y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalismo vasco de centro y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "4": {
+          "value": 2,
+          "source": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de nacionalismo vasco de centro y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalismo vasco de centro y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "9": {
+          "value": 2,
+          "source": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de nacionalismo vasco de centro y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalismo vasco de centro y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "13": {
+          "value": 4,
+          "source": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de nacionalismo vasco de centro y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalismo vasco de centro y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "14": {
+          "value": 2,
+          "source": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de nacionalismo vasco de centro y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalismo vasco de centro y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "16": {
+          "value": 3,
+          "source": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de nacionalismo vasco de centro y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalismo vasco de centro y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "17": {
+          "value": 4,
+          "source": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de nacionalismo vasco de centro y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalismo vasco de centro y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
         }
       }
     },
@@ -589,6 +759,36 @@
           "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce porque defiende políticas feministas y el derecho a decidir. Uso provisional, confianza media: no es una declaración del partido.",
           "reviewed": "2026-11-15",
           "coding": "Inferencia editorial"
+        },
+        "16": {
+          "value": 4,
+          "source": "https://www.bng.gal/media/bnggaliza/files/2026/11/12/26_bng_xerais_documentos_programa_electoral.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda soberanista gallega y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda soberanista gallega y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "17": {
+          "value": 4,
+          "source": "https://www.bng.gal/media/bnggaliza/files/2026/11/12/26_bng_xerais_documentos_programa_electoral.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda soberanista gallega y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda soberanista gallega y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "18": {
+          "value": 2,
+          "source": "https://www.bng.gal/media/bnggaliza/files/2026/11/12/26_bng_xerais_documentos_programa_electoral.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda soberanista gallega y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda soberanista gallega y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
         }
       }
     },
@@ -654,6 +854,126 @@
           "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Manifiesto programático de 14 páginas de la coalición para las generales de 2023. Antecedente: no acredita un compromiso de 2026.",
           "reviewed": "2026-11-15",
           "coding": "Interpretación editorial provisional de un programa histórico"
+        },
+        "2": {
+          "value": 2,
+          "source": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de nacionalismo canario de centro y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalismo canario de centro y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "3": {
+          "value": 3,
+          "source": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de nacionalismo canario de centro y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalismo canario de centro y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "4": {
+          "value": 3,
+          "source": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de nacionalismo canario de centro y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalismo canario de centro y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "5": {
+          "value": 3,
+          "source": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de nacionalismo canario de centro y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalismo canario de centro y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "8": {
+          "value": 2,
+          "source": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de nacionalismo canario de centro y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalismo canario de centro y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "9": {
+          "value": 2,
+          "source": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de nacionalismo canario de centro y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalismo canario de centro y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "11": {
+          "value": 4,
+          "source": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de nacionalismo canario de centro y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalismo canario de centro y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "12": {
+          "value": 4,
+          "source": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de nacionalismo canario de centro y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalismo canario de centro y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "13": {
+          "value": 4,
+          "source": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de nacionalismo canario de centro y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalismo canario de centro y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "15": {
+          "value": 4,
+          "source": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de nacionalismo canario de centro y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalismo canario de centro y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "16": {
+          "value": 3,
+          "source": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de nacionalismo canario de centro y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalismo canario de centro y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "17": {
+          "value": 3,
+          "source": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de nacionalismo canario de centro y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalismo canario de centro y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
         }
       },
       "aliases": [
@@ -799,6 +1119,36 @@
           "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce porque defiende la transición nuclear y el cierre de las centrales catalanas. Uso provisional, confianza media: no es una declaración del partido.",
           "reviewed": "2026-11-15",
           "coding": "Inferencia editorial"
+        },
+        "6": {
+          "value": 2,
+          "source": "https://esquerrarepublicana.cat/documents/e2026-programa.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda independentista catalana y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda independentista catalana y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "16": {
+          "value": 4,
+          "source": "https://esquerrarepublicana.cat/documents/e2026-programa.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda independentista catalana y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda independentista catalana y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "17": {
+          "value": 4,
+          "source": "https://esquerrarepublicana.cat/documents/e2026-programa.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda independentista catalana y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda independentista catalana y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
         }
       },
       "exclude": [
@@ -851,6 +1201,136 @@
           "coding": "Interpretación editorial provisional",
           "scoreable": false,
           "reviewNote": "Revisar criterios no fija una posición sobre mantener financiación por demanda. Valor orientativo no puntuable."
+        },
+        "1": {
+          "value": 3,
+          "source": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda ecologista y animalista y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda ecologista y animalista y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "2": {
+          "value": 4,
+          "source": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda ecologista y animalista y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda ecologista y animalista y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "3": {
+          "value": 4,
+          "source": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda ecologista y animalista y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda ecologista y animalista y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "5": {
+          "value": 3,
+          "source": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda ecologista y animalista y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda ecologista y animalista y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "7": {
+          "value": 3,
+          "source": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda ecologista y animalista y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda ecologista y animalista y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "8": {
+          "value": 4,
+          "source": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda ecologista y animalista y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda ecologista y animalista y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "10": {
+          "value": 4,
+          "source": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda ecologista y animalista y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda ecologista y animalista y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "12": {
+          "value": 4,
+          "source": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda ecologista y animalista y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda ecologista y animalista y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "13": {
+          "value": 1,
+          "source": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda ecologista y animalista y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda ecologista y animalista y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "14": {
+          "value": 4,
+          "source": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda ecologista y animalista y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda ecologista y animalista y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "15": {
+          "value": 5,
+          "source": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda ecologista y animalista y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda ecologista y animalista y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "16": {
+          "value": 4,
+          "source": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda ecologista y animalista y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda ecologista y animalista y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "17": {
+          "value": 4,
+          "source": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda ecologista y animalista y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda ecologista y animalista y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
         }
       }
     },
@@ -932,6 +1412,96 @@
           "reason": "Apoyo con matices: sólo pymes y sin rebajar estándares.",
           "reviewed": "2026-11-15",
           "coding": "Interpretación editorial provisional"
+        },
+        "1": {
+          "value": 4,
+          "source": "https://www.porunmundomasjusto.es/wp-content/uploads/2026/11/Castellano.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda humanitaria y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda humanitaria y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "4": {
+          "value": 1,
+          "source": "https://www.porunmundomasjusto.es/wp-content/uploads/2026/11/Castellano.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda humanitaria y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda humanitaria y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "5": {
+          "value": 2,
+          "source": "https://www.porunmundomasjusto.es/wp-content/uploads/2026/11/Castellano.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda humanitaria y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda humanitaria y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "7": {
+          "value": 3,
+          "source": "https://www.porunmundomasjusto.es/wp-content/uploads/2026/11/Castellano.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda humanitaria y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda humanitaria y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "9": {
+          "value": 1,
+          "source": "https://www.porunmundomasjusto.es/wp-content/uploads/2026/11/Castellano.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda humanitaria y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda humanitaria y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "10": {
+          "value": 5,
+          "source": "https://www.porunmundomasjusto.es/wp-content/uploads/2026/11/Castellano.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda humanitaria y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda humanitaria y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "12": {
+          "value": 4,
+          "source": "https://www.porunmundomasjusto.es/wp-content/uploads/2026/11/Castellano.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda humanitaria y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda humanitaria y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "14": {
+          "value": 4,
+          "source": "https://www.porunmundomasjusto.es/wp-content/uploads/2026/11/Castellano.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda humanitaria y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda humanitaria y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "17": {
+          "value": 5,
+          "source": "https://www.porunmundomasjusto.es/wp-content/uploads/2026/11/Castellano.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda humanitaria y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda humanitaria y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
         }
       }
     },
@@ -1043,6 +1613,56 @@
           "reason": "Apoyo explícito a limitar los precios del alquiler; el tope se propone con carácter general, no sólo en zonas tensionadas.",
           "reviewed": "2026-11-15",
           "coding": "Interpretación editorial provisional"
+        },
+        "6": {
+          "value": 3,
+          "source": "https://falange.es/wp-content/uploads/2026/11/FEDELASJONS_ProgramaElectoral_29NGenerales2026.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de nacionalsindicalismo conservador y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalsindicalismo conservador y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "8": {
+          "value": 4,
+          "source": "https://falange.es/wp-content/uploads/2026/11/FEDELASJONS_ProgramaElectoral_29NGenerales2026.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de nacionalsindicalismo conservador y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalsindicalismo conservador y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "10": {
+          "value": 5,
+          "source": "https://falange.es/wp-content/uploads/2026/11/FEDELASJONS_ProgramaElectoral_29NGenerales2026.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de nacionalsindicalismo conservador y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalsindicalismo conservador y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "16": {
+          "value": 5,
+          "source": "https://falange.es/wp-content/uploads/2026/11/FEDELASJONS_ProgramaElectoral_29NGenerales2026.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de nacionalsindicalismo conservador y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalsindicalismo conservador y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "18": {
+          "value": 2,
+          "source": "https://falange.es/wp-content/uploads/2026/11/FEDELASJONS_ProgramaElectoral_29NGenerales2026.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de nacionalsindicalismo conservador y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalsindicalismo conservador y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
         }
       }
     },
@@ -1139,6 +1759,76 @@
           "inferred": true,
           "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce porque su programa pide «altas penas de cárcel» para el narcotráfico y expulsar de inmediato a los irregulares. Uso provisional, confianza media: no es una declaración del partido.",
           "reviewed": "2026-11-15",
+          "coding": "Inferencia editorial"
+        },
+        "2": {
+          "value": 4,
+          "source": "https://frenteobrero.es/documentos/programa-frente-obrero.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda patriótica y obrerista y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda patriótica y obrerista y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "6": {
+          "value": 2,
+          "source": "https://frenteobrero.es/documentos/programa-frente-obrero.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda patriótica y obrerista y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda patriótica y obrerista y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "8": {
+          "value": 5,
+          "source": "https://frenteobrero.es/documentos/programa-frente-obrero.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda patriótica y obrerista y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda patriótica y obrerista y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "10": {
+          "value": 5,
+          "source": "https://frenteobrero.es/documentos/programa-frente-obrero.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda patriótica y obrerista y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda patriótica y obrerista y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "13": {
+          "value": 2,
+          "source": "https://frenteobrero.es/documentos/programa-frente-obrero.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda patriótica y obrerista y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda patriótica y obrerista y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "15": {
+          "value": 2,
+          "source": "https://frenteobrero.es/documentos/programa-frente-obrero.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda patriótica y obrerista y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda patriótica y obrerista y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "18": {
+          "value": 2,
+          "source": "https://frenteobrero.es/documentos/programa-frente-obrero.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda patriótica y obrerista y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda patriótica y obrerista y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
           "coding": "Inferencia editorial"
         }
       }
@@ -1280,6 +1970,26 @@
           "reason": "Apoyo con matices: simplificación dirigida a autónomos.",
           "reviewed": "2026-11-15",
           "coding": "Interpretación editorial provisional"
+        },
+        "12": {
+          "value": 3,
+          "source": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda andalucista y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda andalucista y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "14": {
+          "value": 5,
+          "source": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda andalucista y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda andalucista y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
         }
       }
     },
@@ -1303,6 +2013,166 @@
           "reason": "Apoyo a mantener y reforzar la protección; el texto no cita expresamente la legislación específica.",
           "reviewed": "2026-11-15",
           "coding": "Interpretación editorial provisional"
+        },
+        "1": {
+          "value": 3,
+          "source": "https://geroabai.eus/files/2026/11/bases-politicas-29n-1.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de nacionalismo navarro de centroizquierda y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalismo navarro de centroizquierda y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "2": {
+          "value": 4,
+          "source": "https://geroabai.eus/files/2026/11/bases-politicas-29n-1.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de nacionalismo navarro de centroizquierda y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalismo navarro de centroizquierda y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "3": {
+          "value": 4,
+          "source": "https://geroabai.eus/files/2026/11/bases-politicas-29n-1.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de nacionalismo navarro de centroizquierda y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalismo navarro de centroizquierda y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "4": {
+          "value": 2,
+          "source": "https://geroabai.eus/files/2026/11/bases-politicas-29n-1.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de nacionalismo navarro de centroizquierda y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalismo navarro de centroizquierda y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "5": {
+          "value": 2,
+          "source": "https://geroabai.eus/files/2026/11/bases-politicas-29n-1.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de nacionalismo navarro de centroizquierda y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalismo navarro de centroizquierda y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "6": {
+          "value": 3,
+          "source": "https://geroabai.eus/files/2026/11/bases-politicas-29n-1.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de nacionalismo navarro de centroizquierda y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalismo navarro de centroizquierda y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "8": {
+          "value": 4,
+          "source": "https://geroabai.eus/files/2026/11/bases-politicas-29n-1.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de nacionalismo navarro de centroizquierda y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalismo navarro de centroizquierda y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "9": {
+          "value": 2,
+          "source": "https://geroabai.eus/files/2026/11/bases-politicas-29n-1.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de nacionalismo navarro de centroizquierda y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalismo navarro de centroizquierda y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "10": {
+          "value": 5,
+          "source": "https://geroabai.eus/files/2026/11/bases-politicas-29n-1.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de nacionalismo navarro de centroizquierda y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalismo navarro de centroizquierda y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "12": {
+          "value": 4,
+          "source": "https://geroabai.eus/files/2026/11/bases-politicas-29n-1.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de nacionalismo navarro de centroizquierda y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalismo navarro de centroizquierda y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "13": {
+          "value": 3,
+          "source": "https://geroabai.eus/files/2026/11/bases-politicas-29n-1.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de nacionalismo navarro de centroizquierda y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalismo navarro de centroizquierda y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "14": {
+          "value": 3,
+          "source": "https://geroabai.eus/files/2026/11/bases-politicas-29n-1.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de nacionalismo navarro de centroizquierda y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalismo navarro de centroizquierda y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "15": {
+          "value": 5,
+          "source": "https://geroabai.eus/files/2026/11/bases-politicas-29n-1.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de nacionalismo navarro de centroizquierda y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalismo navarro de centroizquierda y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "16": {
+          "value": 4,
+          "source": "https://geroabai.eus/files/2026/11/bases-politicas-29n-1.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de nacionalismo navarro de centroizquierda y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalismo navarro de centroizquierda y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "17": {
+          "value": 4,
+          "source": "https://geroabai.eus/files/2026/11/bases-politicas-29n-1.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de nacionalismo navarro de centroizquierda y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalismo navarro de centroizquierda y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "18": {
+          "value": 3,
+          "source": "https://geroabai.eus/files/2026/11/bases-politicas-29n-1.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de nacionalismo navarro de centroizquierda y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalismo navarro de centroizquierda y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
         }
       }
     },
@@ -1393,6 +2263,96 @@
           "reason": "Exige un requisito adicional de residencia y cotización para prestaciones no contributivas, vivienda y alquiler.",
           "reviewed": "2026-11-16",
           "coding": "Interpretación editorial provisional"
+        },
+        "2": {
+          "value": 1,
+          "source": "https://www.seacabolafiesta.com/",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil populista antisistema y liberal y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil populista antisistema y liberal y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "7": {
+          "value": 1,
+          "source": "https://www.seacabolafiesta.com/",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil populista antisistema y liberal y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil populista antisistema y liberal y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "8": {
+          "value": 1,
+          "source": "https://www.seacabolafiesta.com/",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil populista antisistema y liberal y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil populista antisistema y liberal y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "9": {
+          "value": 4,
+          "source": "https://www.seacabolafiesta.com/",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil populista antisistema y liberal y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil populista antisistema y liberal y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "11": {
+          "value": 1,
+          "source": "https://www.seacabolafiesta.com/",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil populista antisistema y liberal y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil populista antisistema y liberal y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "12": {
+          "value": 2,
+          "source": "https://www.seacabolafiesta.com/",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil populista antisistema y liberal y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil populista antisistema y liberal y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "13": {
+          "value": 2,
+          "source": "https://www.seacabolafiesta.com/",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil populista antisistema y liberal y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil populista antisistema y liberal y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "14": {
+          "value": 2,
+          "source": "https://www.seacabolafiesta.com/",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil populista antisistema y liberal y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil populista antisistema y liberal y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "15": {
+          "value": 2,
+          "source": "https://www.seacabolafiesta.com/",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil populista antisistema y liberal y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil populista antisistema y liberal y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
         }
       }
     },
@@ -1472,6 +2432,96 @@
           "reason": "Apoyo claro.",
           "reviewed": "2026-11-15",
           "coding": "Interpretación editorial provisional"
+        },
+        "1": {
+          "value": 3,
+          "source": "https://www.partidohumanista.es/Documentos/Programas/Programa%20Generales%202026.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda humanista y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda humanista y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "5": {
+          "value": 1,
+          "source": "https://www.partidohumanista.es/Documentos/Programas/Programa%20Generales%202026.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda humanista y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda humanista y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "7": {
+          "value": 3,
+          "source": "https://www.partidohumanista.es/Documentos/Programas/Programa%20Generales%202026.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda humanista y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda humanista y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "9": {
+          "value": 1,
+          "source": "https://www.partidohumanista.es/Documentos/Programas/Programa%20Generales%202026.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda humanista y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda humanista y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "10": {
+          "value": 5,
+          "source": "https://www.partidohumanista.es/Documentos/Programas/Programa%20Generales%202026.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda humanista y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda humanista y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "11": {
+          "value": 5,
+          "source": "https://www.partidohumanista.es/Documentos/Programas/Programa%20Generales%202026.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda humanista y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda humanista y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "12": {
+          "value": 4,
+          "source": "https://www.partidohumanista.es/Documentos/Programas/Programa%20Generales%202026.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda humanista y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda humanista y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "16": {
+          "value": 4,
+          "source": "https://www.partidohumanista.es/Documentos/Programas/Programa%20Generales%202026.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda humanista y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda humanista y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "18": {
+          "value": 3,
+          "source": "https://www.partidohumanista.es/Documentos/Programas/Programa%20Generales%202026.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda humanista y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda humanista y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
         }
       }
     },
@@ -1495,6 +2545,166 @@
           "reason": "Pide menos Unión Europea y una consulta sobre la salida; el resultado se somete a referéndum.",
           "reviewed": "2026-11-16",
           "coding": "Interpretación editorial provisional"
+        },
+        "1": {
+          "value": 4,
+          "source": "https://iustitiaeuropa.es/contrato-electoral/",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil conservador y soberanista europeo y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil conservador y soberanista europeo y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "2": {
+          "value": 2,
+          "source": "https://iustitiaeuropa.es/contrato-electoral/",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil conservador y soberanista europeo y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil conservador y soberanista europeo y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "3": {
+          "value": 1,
+          "source": "https://iustitiaeuropa.es/contrato-electoral/",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil conservador y soberanista europeo y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil conservador y soberanista europeo y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "4": {
+          "value": 4,
+          "source": "https://iustitiaeuropa.es/contrato-electoral/",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil conservador y soberanista europeo y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil conservador y soberanista europeo y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "5": {
+          "value": 5,
+          "source": "https://iustitiaeuropa.es/contrato-electoral/",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil conservador y soberanista europeo y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil conservador y soberanista europeo y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "6": {
+          "value": 4,
+          "source": "https://iustitiaeuropa.es/contrato-electoral/",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil conservador y soberanista europeo y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil conservador y soberanista europeo y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "7": {
+          "value": 2,
+          "source": "https://iustitiaeuropa.es/contrato-electoral/",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil conservador y soberanista europeo y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil conservador y soberanista europeo y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "8": {
+          "value": 2,
+          "source": "https://iustitiaeuropa.es/contrato-electoral/",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil conservador y soberanista europeo y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil conservador y soberanista europeo y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "10": {
+          "value": 4,
+          "source": "https://iustitiaeuropa.es/contrato-electoral/",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil conservador y soberanista europeo y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil conservador y soberanista europeo y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "11": {
+          "value": 3,
+          "source": "https://iustitiaeuropa.es/contrato-electoral/",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil conservador y soberanista europeo y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil conservador y soberanista europeo y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "13": {
+          "value": 4,
+          "source": "https://iustitiaeuropa.es/contrato-electoral/",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil conservador y soberanista europeo y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil conservador y soberanista europeo y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "14": {
+          "value": 2,
+          "source": "https://iustitiaeuropa.es/contrato-electoral/",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil conservador y soberanista europeo y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil conservador y soberanista europeo y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "15": {
+          "value": 3,
+          "source": "https://iustitiaeuropa.es/contrato-electoral/",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil conservador y soberanista europeo y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil conservador y soberanista europeo y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "16": {
+          "value": 5,
+          "source": "https://iustitiaeuropa.es/contrato-electoral/",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil conservador y soberanista europeo y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil conservador y soberanista europeo y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "17": {
+          "value": 2,
+          "source": "https://iustitiaeuropa.es/contrato-electoral/",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil conservador y soberanista europeo y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil conservador y soberanista europeo y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "18": {
+          "value": 5,
+          "source": "https://iustitiaeuropa.es/contrato-electoral/",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil conservador y soberanista europeo y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil conservador y soberanista europeo y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
         }
       }
     },
@@ -1535,6 +2745,146 @@
           "reason": "Propone suprimir trámites sin justificación de protección pública, documentación redundante y autorizaciones innecesarias que generan costes y retrasos a las empresas.",
           "reviewed": "2026-11-14",
           "coding": "Interpretación editorial provisional"
+        },
+        "1": {
+          "value": 4,
+          "source": "https://mi.democracia21.es/programa/vivienda",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de democracia directa y centro y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de democracia directa y centro y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "3": {
+          "value": 3,
+          "source": "https://mi.democracia21.es/programa/vivienda",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de democracia directa y centro y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de democracia directa y centro y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "4": {
+          "value": 3,
+          "source": "https://mi.democracia21.es/programa/vivienda",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de democracia directa y centro y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de democracia directa y centro y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "5": {
+          "value": 3,
+          "source": "https://mi.democracia21.es/programa/vivienda",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de democracia directa y centro y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de democracia directa y centro y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "6": {
+          "value": 3,
+          "source": "https://mi.democracia21.es/programa/vivienda",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de democracia directa y centro y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de democracia directa y centro y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "7": {
+          "value": 3,
+          "source": "https://mi.democracia21.es/programa/vivienda",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de democracia directa y centro y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de democracia directa y centro y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "8": {
+          "value": 3,
+          "source": "https://mi.democracia21.es/programa/vivienda",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de democracia directa y centro y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de democracia directa y centro y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "9": {
+          "value": 3,
+          "source": "https://mi.democracia21.es/programa/vivienda",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de democracia directa y centro y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de democracia directa y centro y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "10": {
+          "value": 4,
+          "source": "https://mi.democracia21.es/programa/vivienda",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de democracia directa y centro y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de democracia directa y centro y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "11": {
+          "value": 3,
+          "source": "https://mi.democracia21.es/programa/vivienda",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de democracia directa y centro y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de democracia directa y centro y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "13": {
+          "value": 3,
+          "source": "https://mi.democracia21.es/programa/vivienda",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de democracia directa y centro y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de democracia directa y centro y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "14": {
+          "value": 3,
+          "source": "https://mi.democracia21.es/programa/vivienda",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de democracia directa y centro y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de democracia directa y centro y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "16": {
+          "value": 4,
+          "source": "https://mi.democracia21.es/programa/vivienda",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de democracia directa y centro y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de democracia directa y centro y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "17": {
+          "value": 3,
+          "source": "https://mi.democracia21.es/programa/vivienda",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de democracia directa y centro y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de democracia directa y centro y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
         }
       }
     },
@@ -1707,6 +3057,36 @@
           "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa de Sumar para las generales de 2023, alianza de la que procede Frente Amplio. Antecedente: no acredita un compromiso de 2026.",
           "reviewed": "2026-11-15",
           "coding": "Interpretación editorial provisional de un programa histórico"
+        },
+        "1": {
+          "value": 3,
+          "source": "https://verdesequo.es/wp-content/uploads/2023/07/Un-programa-para-ti.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda plurinacional y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda plurinacional y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "7": {
+          "value": 4,
+          "source": "https://verdesequo.es/wp-content/uploads/2023/07/Un-programa-para-ti.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda plurinacional y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda plurinacional y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "14": {
+          "value": 4,
+          "source": "https://verdesequo.es/wp-content/uploads/2023/07/Un-programa-para-ti.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda plurinacional y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda plurinacional y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
         }
       },
       "exclude": [
@@ -1872,6 +3252,36 @@
           "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce porque defiende la igualdad de derechos de las personas migrantes («papeles son derechos»). Uso provisional, confianza media: no es una declaración del partido.",
           "reviewed": "2026-11-15",
           "coding": "Inferencia editorial"
+        },
+        "6": {
+          "value": 1,
+          "source": "https://www.rtve.es/contenidos/documentos/elecciones_europeas_2024/programa_electoral_podemos.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda alternativa y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda alternativa y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "16": {
+          "value": 4,
+          "source": "https://www.rtve.es/contenidos/documentos/elecciones_europeas_2024/programa_electoral_podemos.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda alternativa y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda alternativa y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "18": {
+          "value": 2,
+          "source": "https://www.rtve.es/contenidos/documentos/elecciones_europeas_2024/programa_electoral_podemos.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda alternativa y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda alternativa y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
         }
       },
       "exclude": [
@@ -1994,6 +3404,46 @@
           "reason": "Apoyo con matices: reducción de trámites dirigida a pymes y autónomos.",
           "reviewed": "2026-11-15",
           "coding": "Interpretación editorial provisional"
+        },
+        "5": {
+          "value": 2,
+          "source": "https://frontvalencia.org/programa-compromis-front-valencia.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda valencianista y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda valencianista y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "14": {
+          "value": 4,
+          "source": "https://frontvalencia.org/programa-compromis-front-valencia.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda valencianista y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda valencianista y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "16": {
+          "value": 4,
+          "source": "https://frontvalencia.org/programa-compromis-front-valencia.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda valencianista y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda valencianista y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "17": {
+          "value": 4,
+          "source": "https://frontvalencia.org/programa-compromis-front-valencia.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda valencianista y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda valencianista y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
         }
       },
       "exclude": []
@@ -2128,6 +3578,66 @@
           "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa de Junts, Demòcrates y Més Esquerres de 2023.",
           "reviewed": "2026-11-15",
           "coding": "Interpretación editorial provisional de un programa histórico"
+        },
+        "3": {
+          "value": 2,
+          "source": "https://img.beteve.cat/wp-content/uploads/2023/07/programa-junts-per-catalunya-eleccions-generals-2023.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de independentismo catalán de centroderecha y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de independentismo catalán de centroderecha y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "10": {
+          "value": 4,
+          "source": "https://img.beteve.cat/wp-content/uploads/2023/07/programa-junts-per-catalunya-eleccions-generals-2023.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de independentismo catalán de centroderecha y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de independentismo catalán de centroderecha y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "13": {
+          "value": 3,
+          "source": "https://img.beteve.cat/wp-content/uploads/2023/07/programa-junts-per-catalunya-eleccions-generals-2023.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de independentismo catalán de centroderecha y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de independentismo catalán de centroderecha y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "14": {
+          "value": 3,
+          "source": "https://img.beteve.cat/wp-content/uploads/2023/07/programa-junts-per-catalunya-eleccions-generals-2023.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de independentismo catalán de centroderecha y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de independentismo catalán de centroderecha y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "16": {
+          "value": 3,
+          "source": "https://img.beteve.cat/wp-content/uploads/2023/07/programa-junts-per-catalunya-eleccions-generals-2023.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de independentismo catalán de centroderecha y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de independentismo catalán de centroderecha y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "17": {
+          "value": 2,
+          "source": "https://img.beteve.cat/wp-content/uploads/2023/07/programa-junts-per-catalunya-eleccions-generals-2023.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de independentismo catalán de centroderecha y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de independentismo catalán de centroderecha y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
         }
       },
       "exclude": []
@@ -2274,6 +3784,26 @@
           "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce porque defiende el Ingreso Mínimo Vital para residentes legales y la igualdad de trato. Uso provisional, confianza baja: no es una declaración del partido.",
           "reviewed": "2026-11-15",
           "coding": "Inferencia editorial"
+        },
+        "7": {
+          "value": 3,
+          "source": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26-1.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil socialdemócrata y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil socialdemócrata y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "16": {
+          "value": 2,
+          "source": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26-1.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil socialdemócrata y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil socialdemócrata y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
         }
       },
       "exclude": [
@@ -2414,6 +3944,66 @@
           "reason": "Apoyo con matices: simplificar trámites con garantías.",
           "reviewed": "2026-11-15",
           "coding": "Interpretación editorial provisional"
+        },
+        "1": {
+          "value": 4,
+          "source": "https://www.elnacional.cat/uploads/s1/42/81/42/33/programa-electoral-eh-bildu-eleccions-generals-2023.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda independentista vasca y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda independentista vasca y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "6": {
+          "value": 2,
+          "source": "https://www.elnacional.cat/uploads/s1/42/81/42/33/programa-electoral-eh-bildu-eleccions-generals-2023.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda independentista vasca y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda independentista vasca y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "11": {
+          "value": 5,
+          "source": "https://www.elnacional.cat/uploads/s1/42/81/42/33/programa-electoral-eh-bildu-eleccions-generals-2023.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda independentista vasca y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda independentista vasca y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "12": {
+          "value": 2,
+          "source": "https://www.elnacional.cat/uploads/s1/42/81/42/33/programa-electoral-eh-bildu-eleccions-generals-2023.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda independentista vasca y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda independentista vasca y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "16": {
+          "value": 4,
+          "source": "https://www.elnacional.cat/uploads/s1/42/81/42/33/programa-electoral-eh-bildu-eleccions-generals-2023.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda independentista vasca y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda independentista vasca y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "17": {
+          "value": 5,
+          "source": "https://www.elnacional.cat/uploads/s1/42/81/42/33/programa-electoral-eh-bildu-eleccions-generals-2023.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda independentista vasca y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda independentista vasca y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
         }
       }
     },
@@ -2487,6 +4077,126 @@
           "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. PDF del dominio del partido (23 páginas) enlazado desde su portada. El propio texto dice: «Esto no es un programa electoral. Es un programa de lucha» con las líneas de actuación de la legislatura 2023-2027. Es un documento político, no el programa de 2026. Páginas del PDF.",
           "reviewed": "2026-11-15",
           "coding": "Interpretación editorial provisional de un programa histórico"
+        },
+        "1": {
+          "value": 5,
+          "source": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil comunista y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil comunista y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "3": {
+          "value": 5,
+          "source": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil comunista y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil comunista y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "5": {
+          "value": 1,
+          "source": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil comunista y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil comunista y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "7": {
+          "value": 3,
+          "source": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil comunista y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil comunista y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "9": {
+          "value": 1,
+          "source": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil comunista y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil comunista y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "10": {
+          "value": 5,
+          "source": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil comunista y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil comunista y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "11": {
+          "value": 4,
+          "source": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil comunista y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil comunista y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "13": {
+          "value": 1,
+          "source": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil comunista y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil comunista y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "14": {
+          "value": 5,
+          "source": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil comunista y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil comunista y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "16": {
+          "value": 4,
+          "source": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil comunista y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil comunista y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "17": {
+          "value": 5,
+          "source": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil comunista y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil comunista y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "18": {
+          "value": 2,
+          "source": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil comunista y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil comunista y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
         }
       }
     },
@@ -2549,6 +4259,136 @@
           "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa de la candidatura Sumar–En Comú Podem de 2023 alojado en la web de Comuns; antecedente, no compromiso de 2026.",
           "reviewed": "2026-11-15",
           "coding": "Interpretación editorial provisional de un programa histórico"
+        },
+        "1": {
+          "value": 4,
+          "source": "https://comuns.cat/wp-content/uploads/2025/07/sumarECP-programa-generales-2023.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "3": {
+          "value": 5,
+          "source": "https://comuns.cat/wp-content/uploads/2025/07/sumarECP-programa-generales-2023.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "4": {
+          "value": 1,
+          "source": "https://comuns.cat/wp-content/uploads/2025/07/sumarECP-programa-generales-2023.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "5": {
+          "value": 1,
+          "source": "https://comuns.cat/wp-content/uploads/2025/07/sumarECP-programa-generales-2023.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "7": {
+          "value": 5,
+          "source": "https://comuns.cat/wp-content/uploads/2025/07/sumarECP-programa-generales-2023.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "9": {
+          "value": 1,
+          "source": "https://comuns.cat/wp-content/uploads/2025/07/sumarECP-programa-generales-2023.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "10": {
+          "value": 5,
+          "source": "https://comuns.cat/wp-content/uploads/2025/07/sumarECP-programa-generales-2023.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "11": {
+          "value": 5,
+          "source": "https://comuns.cat/wp-content/uploads/2025/07/sumarECP-programa-generales-2023.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "13": {
+          "value": 1,
+          "source": "https://comuns.cat/wp-content/uploads/2025/07/sumarECP-programa-generales-2023.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "15": {
+          "value": 5,
+          "source": "https://comuns.cat/wp-content/uploads/2025/07/sumarECP-programa-generales-2023.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "16": {
+          "value": 4,
+          "source": "https://comuns.cat/wp-content/uploads/2025/07/sumarECP-programa-generales-2023.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "17": {
+          "value": 5,
+          "source": "https://comuns.cat/wp-content/uploads/2025/07/sumarECP-programa-generales-2023.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
+        },
+        "18": {
+          "value": 3,
+          "source": "https://comuns.cat/wp-content/uploads/2025/07/sumarECP-programa-generales-2023.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "Su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial"
         }
       }
     }

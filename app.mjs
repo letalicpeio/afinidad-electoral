@@ -248,7 +248,7 @@ function renderResults(keep = false) {
         const topicOf = (id) => data.questions.find((q) => q.id === id).topic;
         const clash = result.details.filter((d) => d.weight >= 4 && Math.abs(d.answer - d.position) >= 3).map((d) => topicOf(d.id));
         const meta = el("p", result.count
-          ? `Cobertura ${fmt(result.coverage)} · ${result.count} ${result.count === 1 ? "tema" : "temas"}${src.length ? " (" + src.join(", ") + ")" : ""}${shown ? "" : " · sin porcentaje: cobertura inferior al " + MIN_COVERAGE + " %"}${shown && result.coverage < 60 ? " · ⚠ parcial" : ""}`
+          ? `Cobertura ${fmt(result.coverage)} · ${result.count} ${result.count === 1 ? "tema" : "temas"}${src.length ? " (" + src.join(", ") + ")" : ""}${shown ? "" : " · sin porcentaje: cobertura inferior al " + MIN_COVERAGE + " %"}${shown && result.coverage < 60 ? " · ⚠ parcial" : ""}${t.inferido && t.inferido * 2 >= result.count ? " · ⚠ mayoría inferida" : ""}`
           : "Ninguno de tus temas tiene posición documentada.", "small meta");
         if (clash.length)
           meta.append(el("span", ` · ⚠ choca en ${clash.slice(0, 2).join(", ")}${clash.length > 2 ? ` y ${clash.length - 2} más` : ""}`, "clash"));

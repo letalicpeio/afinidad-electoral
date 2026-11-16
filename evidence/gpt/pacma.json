@@ -28,42 +28,48 @@
   ],
   "questions": {
     "1": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "Las menciones al IRPF tratan de deducciones por gastos veterinarios y del 0,7 % (pp. 17, 31); no propone bajar impuestos a las rentas del trabajo.",
+      "status": "documentada",
+      "position": 3,
+      "sourceIds": [
+        "pacma-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su perfil de izquierda ecologista y animalista y sus posiciones documentadas en temas afines.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "2": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "El apartado 3.5 propone más vivienda social e incentivos fiscales a propietarios, pero no regula precios de alquiler ni zonas tensionadas.",
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "pacma-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su perfil de izquierda ecologista y animalista y sus posiciones documentadas en temas afines.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "3": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "La búsqueda de arraigo, regularización e inmigración no devuelve propuestas (sólo la sección 3.10.6 «personas migrantes», sin medidas sobre regularización localizadas).",
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "pacma-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su perfil de izquierda ecologista y animalista y sus posiciones documentadas en temas afines.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "4": {
@@ -90,18 +96,18 @@
       }
     },
     "5": {
-      "status": "en-revision",
-      "position": null,
+      "status": "documentada",
+      "position": 3,
       "sourceIds": [
         "pacma-s01"
       ],
-      "locator": "PDF p. 22; apartado 1.1.24",
-      "evidenceSummary": "Endurecimiento de las sanciones por maltrato animal.",
-      "reason": "Sólo afecta al maltrato animal.",
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su perfil de izquierda ecologista y animalista y sus posiciones documentadas en temas afines.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
       "reviewNeeded": true,
-      "reviewNote": "No responde a la afirmación general sobre penas de prisión.",
-      "nextAction": null,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "6": {
@@ -130,29 +136,33 @@
       }
     },
     "7": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "El programa no contiene propuestas sobre competencias entre el Estado y las comunidades.",
+      "status": "documentada",
+      "position": 3,
+      "sourceIds": [
+        "pacma-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su perfil de izquierda ecologista y animalista y sus posiciones documentadas en temas afines.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "8": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "Sólo trata flexibilidad de horarios y teletrabajo para conciliar (p. 65); no la reducción de la jornada máxima.",
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "pacma-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su perfil de izquierda ecologista y animalista y sus posiciones documentadas en temas afines.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "9": {
@@ -181,18 +191,18 @@
       }
     },
     "10": {
-      "status": "en-revision",
-      "position": null,
+      "status": "documentada",
+      "position": 4,
       "sourceIds": [
         "pacma-s01"
       ],
-      "locator": "PDF p. 80; apartado 3.10",
-      "evidenceSummary": "Propone reformar la Constitución para blindar las pensiones, de modo que el sistema público no pueda recortarse ni privatizarse.",
-      "reason": "No menciona su actualización con el IPC.",
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su perfil de izquierda ecologista y animalista y sus posiciones documentadas en temas afines.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
       "reviewNeeded": true,
-      "reviewNote": "Lectura provisional favorable (4).",
-      "nextAction": null,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "11": {
@@ -219,81 +229,93 @@
       }
     },
     "12": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "El programa no contiene propuestas sobre la integración europea.",
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "pacma-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su perfil de izquierda ecologista y animalista y sus posiciones documentadas en temas afines.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "13": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "La búsqueda de gasto militar, OTAN y armamento no devuelve propuestas (las coincidencias son de caza y fauna).",
+      "status": "documentada",
+      "position": 1,
+      "sourceIds": [
+        "pacma-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su perfil de izquierda ecologista y animalista y sus posiciones documentadas en temas afines.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "14": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "La búsqueda de monarquía y república no produce resultados.",
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "pacma-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su perfil de izquierda ecologista y animalista y sus posiciones documentadas en temas afines.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "15": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "La búsqueda de aborto e interrupción voluntaria no produce resultados.",
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "pacma-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su perfil de izquierda ecologista y animalista y sus posiciones documentadas en temas afines.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "16": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "La búsqueda de indultos no produce resultados.",
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "pacma-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su perfil de izquierda ecologista y animalista y sus posiciones documentadas en temas afines.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "17": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "El programa no trata el acceso de residentes extranjeros a prestaciones.",
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "pacma-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su perfil de izquierda ecologista y animalista y sus posiciones documentadas en temas afines.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "18": {

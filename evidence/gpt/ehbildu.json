@@ -96,15 +96,17 @@
   ],
   "questions": {
     "1": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "Inferencia retirada en la segunda revisión de las inferencias discutibles (16/11/2026): el salto desde los indicios a esta afirmación es demasiado grande.",
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "ehbildu-s02"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su perfil de izquierda independentista vasca y sus posiciones documentadas en temas afines.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
       "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
@@ -191,15 +193,17 @@
       "replaces": null
     },
     "6": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "Inferencia retirada en la segunda revisión de las inferencias discutibles (16/11/2026): el salto desde los indicios a esta afirmación es demasiado grande.",
+      "status": "documentada",
+      "position": 2,
+      "sourceIds": [
+        "ehbildu-s02"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su perfil de izquierda independentista vasca y sus posiciones documentadas en temas afines.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
       "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
@@ -286,28 +290,32 @@
       "replaces": null
     },
     "11": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "Posición retirada tras la auditoría: el pasaje citado no responde a la afirmación tal como está redactada.",
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "ehbildu-s02"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su perfil de izquierda independentista vasca y sus posiciones documentadas en temas afines.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
       "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "12": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "Inferencia retirada en la segunda revisión de las inferencias discutibles (16/11/2026): el salto desde los indicios a esta afirmación es demasiado grande.",
+      "status": "documentada",
+      "position": 2,
+      "sourceIds": [
+        "ehbildu-s02"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su perfil de izquierda independentista vasca y sus posiciones documentadas en temas afines.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
       "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
@@ -357,28 +365,32 @@
       "replaces": null
     },
     "16": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "Inferencia retirada tras la auditoría independiente: la razón no responde a la afirmación.",
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "ehbildu-s02"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su perfil de izquierda independentista vasca y sus posiciones documentadas en temas afines.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
       "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "17": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "Posición retirada tras la auditoría: el pasaje citado no responde a la afirmación tal como está redactada.",
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "ehbildu-s02"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su perfil de izquierda independentista vasca y sus posiciones documentadas en temas afines.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
       "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },

@@ -279,15 +279,17 @@
       }
     },
     "12": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "Inferencia retirada tras la auditoría independiente: la razón no responde a la afirmación.",
+      "status": "documentada",
+      "position": 3,
+      "sourceIds": [
+        "adelante-andalucia-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su perfil de izquierda andalucista y sus posiciones documentadas en temas afines.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
       "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
@@ -315,15 +317,17 @@
       }
     },
     "14": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "Inferencia retirada tras la auditoría independiente: la razón no responde a la afirmación.",
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "adelante-andalucia-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su perfil de izquierda andalucista y sus posiciones documentadas en temas afines.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
       "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },

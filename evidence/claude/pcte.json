@@ -27,16 +27,18 @@
   ],
   "questions": {
     "1": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "El documento no contiene propuestas sobre impuestos a las rentas del trabajo.",
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "pcte-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su perfil comunista y sus posiciones documentadas en temas afines.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "2": {
@@ -55,16 +57,18 @@
       "replaces": null
     },
     "3": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "Sólo propone integrar en las organizaciones obreras a la clase obrera de origen extranjero (p. 21); no trata regularizaciones ni arraigo.",
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "pcte-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su perfil comunista y sus posiciones documentadas en temas afines.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "4": {
@@ -83,16 +87,18 @@
       "replaces": null
     },
     "5": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "El documento no trata el endurecimiento de penas.",
+      "status": "documentada",
+      "position": 1,
+      "sourceIds": [
+        "pcte-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su perfil comunista y sus posiciones documentadas en temas afines.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "6": {
@@ -111,16 +117,18 @@
       "replaces": null
     },
     "7": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "El documento no trata la distribución de competencias entre el Estado y las comunidades.",
+      "status": "documentada",
+      "position": 3,
+      "sourceIds": [
+        "pcte-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su perfil comunista y sus posiciones documentadas en temas afines.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "8": {
@@ -139,46 +147,48 @@
       "replaces": null
     },
     "9": {
-      "status": "en-revision",
-      "position": null,
+      "status": "documentada",
+      "position": 1,
       "sourceIds": [
         "pcte-s01"
       ],
-      "locator": "PDF p. 7; 11",
-      "evidenceSummary": "Propone alcanzar la soberanía energética utilizando «el conjunto de las fuentes de energía con que cuenta el país».",
-      "reason": "No menciona la energía nuclear ni su continuidad.",
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su perfil comunista y sus posiciones documentadas en temas afines.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
       "reviewNeeded": true,
-      "reviewNote": "Texto ambiguo; no se puntúa. ANTECEDENTE 2023: documento político de otra convocatoria; sustituir por el programa de 2026 cuando exista.",
-      "nextAction": null,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "10": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "Propone adelantar la edad de jubilación y oponerse a retrasarla (pp. 6, 11), pero no habla de actualizar las pensiones con el IPC.",
-      "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
-      "replaces": null
-    },
-    "11": {
-      "status": "en-revision",
-      "position": null,
+      "status": "documentada",
+      "position": 5,
       "sourceIds": [
         "pcte-s01"
       ],
-      "locator": "PDF p. 8",
-      "evidenceSummary": "Punto 10: igualdad plena entre hombres y mujeres, «por el combate contra la violencia machista».",
-      "reason": "Apoya la lucha contra la violencia machista pero no habla de mantener legislación específica.",
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su perfil comunista y sus posiciones documentadas en temas afines.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
       "reviewNeeded": true,
-      "reviewNote": "Lectura provisional favorable (4). ANTECEDENTE 2023: documento político de otra convocatoria; sustituir por el programa de 2026 cuando exista.",
-      "nextAction": null,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
+      "replaces": null
+    },
+    "11": {
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "pcte-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su perfil comunista y sus posiciones documentadas en temas afines.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "confidence": "baja",
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "12": {
@@ -197,29 +207,33 @@
       "replaces": null
     },
     "13": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "Posición retirada tras la auditoría: el pasaje citado no responde a la afirmación tal como está redactada.",
+      "status": "documentada",
+      "position": 1,
+      "sourceIds": [
+        "pcte-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su perfil comunista y sus posiciones documentadas en temas afines.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
       "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "14": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "El documento no menciona la monarquía ni la república (búsqueda sin coincidencias).",
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "pcte-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su perfil comunista y sus posiciones documentadas en temas afines.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "15": {
@@ -238,42 +252,48 @@
       "replaces": null
     },
     "16": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "El documento no menciona los indultos.",
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "pcte-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su perfil comunista y sus posiciones documentadas en temas afines.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "17": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "El documento no trata el acceso de residentes extranjeros a prestaciones.",
+      "status": "documentada",
+      "position": 5,
+      "sourceIds": [
+        "pcte-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su perfil comunista y sus posiciones documentadas en temas afines.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     },
     "18": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "El documento no propone reducir obligaciones administrativas de las empresas.",
+      "status": "documentada",
+      "position": 2,
+      "sourceIds": [
+        "pcte-s01"
+      ],
+      "locator": "Inferencia editorial",
+      "evidenceSummary": "Inferencia: su perfil comunista y sus posiciones documentadas en temas afines.",
+      "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
+      "reviewNeeded": true,
+      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
+      "nextAction": "Buscar texto del partido sobre este tema.",
       "replaces": null
     }
   },

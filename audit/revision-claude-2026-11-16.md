@@ -45,3 +45,7 @@ Frente Amplio: seis posiciones nuevas leídas en el programa de Sumar 2023 (ante
 ## Segunda ronda de antecedentes (datos 0.5.30)
 
 Escaneados los programas de 2023 de PP, Junts, EH Bildu y ERC y las bases de Geroa Bai de 2019: no contienen pasajes que respondan a los temas aún vacíos (los huecos son ausencias reales del texto). Se añade CC-10 = 4 (manifiesto de 2023, p. 7, «pensiones actualizadas en función del coste de la vida»). Fuera de este proceso, una declaración de Sumar de 2025 sustituye a la lectura del programa de 2023 en Frente Amplio-13.
+
+## Todas las posiciones completadas por inferencia (datos 0.5.31)
+
+Por decisión del usuario, con la casilla «solo documentado» desmarcada cada partido tiene posición en los 18 temas. Se añaden 184 inferencias editoriales (confianza baja, deducidas del perfil del partido y de sus posiciones en temas afines; sin texto propio). Excepciones: 3 temas marcados como no puntuables por exclusión editorial (SALF-3, MJ-15, PACMA-6). Con la casilla marcada no cuenta ninguna inferencia. La auditoría de GPT calificó de débiles las inferencias de este tipo; se mantienen etiquetadas y excluibles, y la lista indica «⚠ mayoría inferida» cuando la mitad o más de los temas comparados lo son.
