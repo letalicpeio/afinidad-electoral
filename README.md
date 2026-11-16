@@ -104,3 +104,7 @@ Ampliación 0.5.6: CC añade pensiones mediante declaración oficial del 26/02/2
 ## Revisión D21 y Teruel Existe · 0.5.10
 
 D21: pregunta 12 corregida de 5 a 4 tras leer directamente el programa oficial europeo. El origen se normaliza como oficial; no era prensa. Se conserva la codificación anterior en la evidencia. Defensa (pregunta 13) permanece sin puntuar. Teruel Existe: resumen oficial contrastado; la propuesta 13 no acredita por sí sola apoyo al marco legal específico de violencia de género. Pregunta 11 pasa a en-revision y permanece fuera del cálculo, al igual que la pregunta 1. No se declara leído el PDF completo. No se modifican los datos de otras formaciones ni el dominio.
+
+### Mejora de las inferencias (16/11/2026)
+
+El reparto de trabajo para mejorar las 209 inferencias que aún no tienen fuentes específicas está en [`REPARTO_INFERENCIAS.md`](REPARTO_INFERENCIAS.md) y su lista en [`audit/inferencias-pendientes.csv`](audit/inferencias-pendientes.csv): 123 para Claude (partidos grandes) y 86 para GPT (candidaturas pequeñas).
