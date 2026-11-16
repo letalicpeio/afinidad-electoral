@@ -257,6 +257,8 @@ function renderResults(keep = false) {
         details.append(el("summary", shown ? "Cómo se ha calculado este porcentaje" : "Ver comparación tema a tema"));
         if (shown)
           details.append(el("p", `Afinidad = suma de (coincidencia × importancia) de los ${result.count} temas comparados, dividida por la suma de sus importancias. Coincidencia de un tema = 1 − |tu respuesta − posición del partido| ÷ 4: 100 % si coincidís y 0 % si estáis en extremos opuestos. La cobertura (${fmt(result.coverage)}) es la parte de la importancia total de tus respuestas que tiene posición del partido.`, "small"));
+        if (shown && t.inferido)
+          details.append(el("p", `${t.inferido} de los ${result.count} temas son posiciones inferidas: el partido no las trata en sus textos y las hemos deducido de su perfil y de otras posiciones suyas. Cuentan como una posición más, pero están marcadas como «Inferida» y puedes excluirlas con la casilla «solo documentado».`, "small"));
         const tierLabel = (d) => {
           const k = evidenceTier(d);
           return k === "oficial" ? "Programa o fuente oficial de 2026"
@@ -273,8 +275,16 @@ function renderResults(keep = false) {
           );
           const kind = el("p", null, "small"), tag = el("span", tierLabel(d), `tier tier-${evidenceTier(d)}`);
           kind.append(tag, document.createTextNode(" · "));
-          if (d.inferred) kind.append(document.createTextNode("sin texto del partido sobre este tema"));
-          else {
+          if (d.inferred) {
+            kind.append(document.createTextNode("el partido no trata este tema; posición deducida · "));
+            const links = Array.isArray(d.basisLinks) && d.basisLinks.length ? d.basisLinks : [{ url: d.source, label: "Documento de contexto del partido" }];
+            links.forEach((b, i) => {
+              if (i) kind.append(document.createTextNode(" · "));
+              const a = el("a", `${b.label} ↗`);
+              a.href = b.url; a.target = "_blank"; a.rel = "noopener noreferrer";
+              kind.append(a);
+            });
+          } else {
             const link = el("a", `${d.locator} ↗`);
             link.href = sourceHref(d);
             link.target = "_blank";
@@ -289,7 +299,9 @@ function renderResults(keep = false) {
           const used = new Set(result.details.map((d) => d.id));
           const miss = data.questions.filter((q) => Number.isInteger(person.answers[q.id]) && !used.has(q.id)).map((q) => q.topic);
           if (miss.length)
-            details.append(el("p", `Temas sin posición documentada (no cuentan en el porcentaje): ${miss.join(", ")}.`, "small"));
+            details.append(el("p", onlyDoc
+              ? `Temas sin posición documentada (no cuentan en el porcentaje): ${miss.join(", ")}. Las posiciones inferidas están excluidas porque has marcado «solo documentado».`
+              : `Temas sin ninguna posición, ni documentada ni inferida (no cuentan en el porcentaje): ${miss.join(", ")}.`, "small"));
         }
         if (shown) {
           details.append(el("p", common.length
