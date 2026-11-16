@@ -1,5 +1,5 @@
 {
-  "version": "0.5.43",
+  "version": "0.5.51",
   "date": "2026-11-15",
   "election": "Congreso · 29 de noviembre de 2026",
   "questions": [
@@ -569,11 +569,17 @@
           "value": 4,
           "source": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Apoyó la reducción de jornada pactada.",
+          "reason": "No se sumó al veto a la reducción de jornada a 37,5 horas del 10/09/2025 (las crónicas citan solo PP, Vox, Junts y UPN); su programa 2026 solo menciona reducciones de jornada por cuidados.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce porque apoyó la reducción de jornada pactada. Uso provisional, confianza baja: no es una declaración del partido.",
-          "reviewed": "2026-11-15",
-          "coding": "Inferencia editorial"
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: no se sumó al veto a la reducción de jornada a 37,5 horas del 10/09/2025 (las crónicas citan solo PP, Vox, Junts y UPN); su programa 2026 solo menciona reducciones de jornada por cuidados. Uso provisional, confianza baja: no es una declaración suya sobre esta medida.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://www.periodicodeibiza.es/noticias/nacional/2025/09/11/2467647/congreso-tumba-reduccion-jornada-laboral-prosperar-veto-vox-junts.html",
+              "label": "Votación del 10/09/2025"
+            }
+          ]
         },
         "12": {
           "value": 4,
@@ -600,11 +606,17 @@
           "value": 3,
           "source": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de nacionalismo vasco de centro y sus posiciones documentadas en temas afines.",
+          "reason": "Su programa de 2026 defiende «una fiscalidad que proteja el poder adquisitivo y favorezca la actividad económica» y rebajar el impuesto de la electricidad; no concreta rebajas del IRPF.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalismo vasco de centro y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: su programa de 2026 defiende «una fiscalidad que proteja el poder adquisitivo y favorezca la actividad económica» y rebajar el impuesto de la electricidad; no concreta rebajas del IRPF. Uso provisional, confianza baja: no es una declaración suya sobre esta medida.",
           "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n#page=20",
+              "label": "Programa del PNV 2026, PDF p. 20"
+            }
+          ]
         },
         "2": {
           "value": 2,
@@ -633,14 +645,24 @@
           "coding": "Inferencia editorial"
         },
         "9": {
-          "value": 2,
+          "value": 1,
           "source": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de nacionalismo vasco de centro y sus posiciones documentadas en temas afines.",
+          "reason": "Votó en contra de la PNL del PP para prorrogar las nucleares (02/2025) y de la enmienda del PP que suprimía su cierre (11/2025).",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalismo vasco de centro y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: votó en contra de la PNL del PP para prorrogar las nucleares (02/2025) y de la enmienda del PP que suprimía su cierre (11/2025). Uso provisional, confianza media: no es una declaración suya sobre esta medida.",
           "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://www.energias-renovables.com/panorama/pp-y-vox-votan-a-favor-de-20250213",
+              "label": "Votación de febrero de 2025"
+            },
+            {
+              "url": "https://www.noticiasdenavarra.com/politica/2025/11/13/junts-salva-prorroga-nucleares-pese-10343862.html",
+              "label": "Votación del 13/11/2025"
+            }
+          ]
         },
         "13": {
           "value": 4,
@@ -666,11 +688,17 @@
           "value": 2,
           "source": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de nacionalismo vasco de centro y sus posiciones documentadas en temas afines.",
+          "reason": "Su programa de 2026 propone reformar el Código Penal en los delitos de opinión sobre la Corona según estándares europeos de libertad de expresión; no propone cambiar la forma de Estado.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalismo vasco de centro y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: su programa de 2026 propone reformar el Código Penal en los delitos de opinión sobre la Corona según estándares europeos de libertad de expresión; no propone cambiar la forma de Estado. Uso provisional, confianza baja: no es una declaración suya sobre esta medida.",
           "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n#page=27",
+              "label": "Programa del PNV 2026, PDF p. 27"
+            }
+          ]
         },
         "16": {
           "value": 3,
@@ -796,11 +824,17 @@
           "value": 1,
           "source": "https://www.bng.gal/media/bnggaliza/files/2026/11/12/26_bng_xerais_documentos_programa_electoral.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su programa de 2026 critica el vertedero de residuos nucleares y defiende las renovables.",
+          "reason": "Su programa de 2026 pide inspeccionar el vertedero de residuos nucleares de la Fosa Atlántica; no trata el parque nuclear en funcionamiento, y el BNG ha defendido históricamente las renovables.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce porque su programa de 2026 critica el vertedero de residuos nucleares y defiende las renovables. Uso provisional, confianza media: no es una declaración del partido.",
-          "reviewed": "2026-11-15",
-          "coding": "Inferencia editorial"
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: su programa de 2026 pide inspeccionar el vertedero de residuos nucleares de la Fosa Atlántica; no trata el parque nuclear en funcionamiento, y el BNG ha defendido históricamente las renovables. Uso provisional, confianza baja: no es una declaración suya sobre esta medida.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://www.bng.gal/media/bnggaliza/files/2026/11/12/26_bng_xerais_documentos_programa_electoral.pdf#page=68",
+              "label": "Programa del BNG 2026, PDF p. 68"
+            }
+          ]
         },
         "12": {
           "value": 2,
@@ -816,11 +850,17 @@
           "value": 5,
           "source": "https://www.bng.gal/media/bnggaliza/files/2026/11/12/26_bng_xerais_documentos_programa_electoral.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su programa denuncia «la corrupción de la monarquía» y defiende la República de Galiza.",
+          "reason": "Su programa de 2026 pide despenalizar las injurias a la Corona (p. 30); el texto revisado no propone expresamente una república, que se deduce de su posición soberanista y republicana pública.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce porque su programa denuncia «la corrupción de la monarquía» y defiende la República de Galiza. Uso provisional, confianza media: no es una declaración del partido.",
-          "reviewed": "2026-11-15",
-          "coding": "Inferencia editorial"
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: su programa de 2026 pide despenalizar las injurias a la Corona (p. 30); el texto revisado no propone expresamente una república, que se deduce de su posición soberanista y republicana pública. Uso provisional, confianza baja: no es una declaración suya sobre esta medida.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://www.bng.gal/media/bnggaliza/files/2026/11/12/26_bng_xerais_documentos_programa_electoral.pdf#page=30",
+              "label": "Programa del BNG 2026, PDF p. 30"
+            }
+          ]
         },
         "15": {
           "value": 5,
@@ -836,21 +876,37 @@
           "value": 4,
           "source": "https://www.bng.gal/media/bnggaliza/files/2026/11/12/26_bng_xerais_documentos_programa_electoral.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de izquierda soberanista gallega y sus posiciones documentadas en temas afines.",
+          "reason": "Su programa de 2026 propone inhabilitación directa de cargos que cometan fraude fiscal y regular las puertas giratorias; no menciona los indultos.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda soberanista gallega y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: su programa de 2026 propone inhabilitación directa de cargos que cometan fraude fiscal y regular las puertas giratorias; no menciona los indultos. Uso provisional, confianza baja: no es una declaración suya sobre esta medida.",
           "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://www.bng.gal/media/bnggaliza/files/2026/11/12/26_bng_xerais_documentos_programa_electoral.pdf#page=41",
+              "label": "Programa del BNG 2026, PDF p. 41"
+            }
+          ]
         },
         "17": {
           "value": 4,
           "source": "https://www.bng.gal/media/bnggaliza/files/2026/11/12/26_bng_xerais_documentos_programa_electoral.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de izquierda soberanista gallega y sus posiciones documentadas en temas afines.",
+          "reason": "Su programa de 2026 compromete reformas legislativas para garantizar a la población inmigrante vivienda, trabajo, atención sanitaria y educación, y facilitar su regularización; no precisa los requisitos económicos.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda soberanista gallega y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: su programa de 2026 compromete reformas legislativas para garantizar a la población inmigrante vivienda, trabajo, atención sanitaria y educación, y facilitar su regularización; no precisa los requisitos económicos. Uso provisional, confianza media: no es una declaración suya sobre esta medida.",
           "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://www.bng.gal/media/bnggaliza/files/2026/11/12/26_bng_xerais_documentos_programa_electoral.pdf#page=22",
+              "label": "Programa del BNG 2026, PDF p. 22"
+            },
+            {
+              "url": "https://www.bng.gal/media/bnggaliza/files/2026/11/12/26_bng_xerais_documentos_programa_electoral.pdf#page=23",
+              "label": "Programa del BNG 2026, PDF p. 23"
+            }
+          ]
         },
         "18": {
           "value": 2,
@@ -928,24 +984,36 @@
           "coding": "Interpretación editorial provisional de un programa histórico"
         },
         "2": {
-          "value": 2,
-          "source": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
-          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de nacionalismo canario de centro y sus posiciones documentadas en temas afines.",
-          "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalismo canario de centro y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
-          "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
-        },
-        "3": {
           "value": 3,
           "source": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de nacionalismo canario de centro y sus posiciones documentadas en temas afines.",
+          "reason": "Votó a favor del decreto de prórroga de alquileres con tope del 2 % el 28/04/2026, pero no consta un programa propio sobre regular precios.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalismo canario de centro y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: votó a favor del decreto de prórroga de alquileres con tope del 2 % el 28/04/2026, pero no consta un programa propio sobre regular precios. Uso provisional, confianza baja: no es una declaración suya sobre esta medida.",
           "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://orain.eus/es/politica/2026/04/28/el-congreso-deroga-la-prorroga-los-alquileres-la-mayoria-suman-pp-vox-junts/",
+              "label": "Votación del 28/04/2026"
+            }
+          ]
+        },
+        "3": {
+          "value": 4,
+          "source": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
+          "reason": "En abril de 2024 el Pleno tomó en consideración la ILP de regularización con todos los grupos menos Vox; no consta el voto concreto de CC ni su postura sobre el fondo.",
+          "inferred": true,
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: en abril de 2024 el Pleno tomó en consideración la ILP de regularización con todos los grupos menos Vox; no consta el voto concreto de CC ni su postura sobre el fondo. Uso provisional, confianza baja: no es una declaración suya sobre esta medida.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://www.lamarea.com/?p=369900",
+              "label": "Toma en consideración, abril de 2024"
+            }
+          ]
         },
         "4": {
           "value": 3,
@@ -974,34 +1042,44 @@
           ]
         },
         "8": {
-          "value": 2,
+          "value": 3,
           "source": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de nacionalismo canario de centro y sus posiciones documentadas en temas afines.",
+          "reason": "Las crónicas atribuyen el veto a la reducción de jornada (10/09/2025) solo a PP, Vox, Junts y UPN, por lo que CC no lo apoyó; no consta su postura sobre la medida.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalismo canario de centro y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: las crónicas atribuyen el veto a la reducción de jornada (10/09/2025) solo a PP, Vox, Junts y UPN, por lo que CC no lo apoyó; no consta su postura sobre la medida. Uso provisional, confianza baja: no es una declaración suya sobre esta medida.",
           "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://www.periodicodeibiza.es/noticias/nacional/2025/09/11/2467647/congreso-tumba-reduccion-jornada-laboral-prosperar-veto-vox-junts.html",
+              "label": "Votación del 10/09/2025"
+            }
+          ]
         },
         "9": {
           "value": 2,
           "source": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de nacionalismo canario de centro y sus posiciones documentadas en temas afines.",
+          "reason": "Votó en contra de la PNL del PP de febrero de 2025 que pedía mantener las centrales nucleares.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalismo canario de centro y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: votó en contra de la PNL del PP de febrero de 2025 que pedía mantener las centrales nucleares. Uso provisional, confianza media: no es una declaración suya sobre esta medida.",
           "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://www.energias-renovables.com/panorama/pp-y-vox-votan-a-favor-de-20250213",
+              "label": "Votación de febrero de 2025"
+            }
+          ]
         },
         "11": {
           "value": 4,
           "source": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
-          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de nacionalismo canario de centro y sus posiciones documentadas en temas afines.",
-          "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalismo canario de centro y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
-          "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "locator": "PDF p. 10; medida 17",
+          "reason": "Apoya el marco estatal vigente contra la violencia de género (Pacto de Estado) y pide más recursos, sin proponer su derogación ni una ley nueva.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional"
         },
         "12": {
           "value": 4,
@@ -1204,11 +1282,25 @@
           "value": 1,
           "source": "https://esquerrarepublicana.cat/documents/e2026-programa.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Defiende la transición nuclear y el cierre de las centrales catalanas.",
+          "reason": "Su programa de 2026 pide que el Estado contribuya al Fondo de Transición Nuclear de la Generalitat (medida 147); se abstuvo en la PNL del PP sobre nucleares (02/2025) y votó contra suprimir el cierre (11/2025).",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce porque defiende la transición nuclear y el cierre de las centrales catalanas. Uso provisional, confianza media: no es una declaración del partido.",
-          "reviewed": "2026-11-15",
-          "coding": "Inferencia editorial"
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: su programa de 2026 pide que el Estado contribuya al Fondo de Transición Nuclear de la Generalitat (medida 147); se abstuvo en la PNL del PP sobre nucleares (02/2025) y votó contra suprimir el cierre (11/2025). Uso provisional, confianza media: no es una declaración suya sobre esta medida.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://esquerrarepublicana.cat/documents/e2026-programa.pdf#page=31",
+              "label": "Programa de ERC 2026, PDF p. 31"
+            },
+            {
+              "url": "https://www.energias-renovables.com/panorama/pp-y-vox-votan-a-favor-de-20250213",
+              "label": "Votación de febrero de 2025"
+            },
+            {
+              "url": "https://www.noticiasdenavarra.com/politica/2025/11/13/junts-salva-prorroga-nucleares-pese-10343862.html",
+              "label": "Votación del 13/11/2025"
+            }
+          ]
         },
         "6": {
           "value": 2,
@@ -1777,24 +1869,32 @@
           "coding": "Inferencia editorial"
         },
         "16": {
-          "value": 5,
+          "value": 4,
           "source": "https://falange.es/wp-content/uploads/2026/11/FEDELASJONS_ProgramaElectoral_29NGenerales2026.pdf",
-          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de nacionalsindicalismo conservador y sus posiciones documentadas en temas afines.",
-          "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalsindicalismo conservador y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
-          "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "locator": "PDF p. 42; justicia",
+          "reason": "Plantea revisar el derecho de indulto por su uso político; no propone prohibirlo expresamente para los condenados por corrupción.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional"
         },
         "18": {
-          "value": 2,
+          "value": 3,
           "source": "https://falange.es/wp-content/uploads/2026/11/FEDELASJONS_ProgramaElectoral_29NGenerales2026.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de nacionalsindicalismo conservador y sus posiciones documentadas en temas afines.",
+          "reason": "Su programa de 2026 propone «simplificando procedimientos» y eficiencia administrativa en vivienda e industria, sin una reducción general de obligaciones para las empresas.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalsindicalismo conservador y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: su programa de 2026 propone «simplificando procedimientos» y eficiencia administrativa en vivienda e industria, sin una reducción general de obligaciones para las empresas. Uso provisional, confianza baja: no es una declaración suya sobre esta medida.",
           "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://falange.es/wp-content/uploads/2026/11/FEDELASJONS_ProgramaElectoral_29NGenerales2026.pdf#page=22",
+              "label": "Programa de FE de las JONS 2026, PDF p. 22"
+            },
+            {
+              "url": "https://falange.es/wp-content/uploads/2026/11/FEDELASJONS_ProgramaElectoral_29NGenerales2026.pdf#page=15",
+              "label": "Programa de FE de las JONS 2026, PDF p. 15"
+            }
+          ]
         }
       }
     },
@@ -2089,11 +2189,17 @@
           "value": 5,
           "source": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su programa pide derogar la Ley de Extranjería y una regularización extraordinaria.",
+          "reason": "Su programa 29N propone derogar la Ley de Extranjería, regularización extraordinaria y cierre de los CIE («derechos para todas las personas»); no precisa los requisitos de las prestaciones.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce porque su programa pide derogar la Ley de Extranjería y una regularización extraordinaria. Uso provisional, confianza baja: no es una declaración del partido.",
-          "reviewed": "2026-11-15",
-          "coding": "Inferencia editorial"
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: su programa 29N propone derogar la Ley de Extranjería, regularización extraordinaria y cierre de los CIE («derechos para todas las personas»); no precisa los requisitos de las prestaciones. Uso provisional, confianza baja: no es una declaración suya sobre esta medida.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf#page=28",
+              "label": "Programa de Adelante Andalucía 29N, PDF p. 28"
+            }
+          ]
         },
         "18": {
           "value": 4,
@@ -3262,11 +3368,17 @@
           "value": 3,
           "source": "https://verdesequo.es/wp-content/uploads/2023/07/Un-programa-para-ti.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de izquierda plurinacional y sus posiciones documentadas en temas afines.",
+          "reason": "Concurrió en 2023 en la coalición Sumar, cuyo programa propone más progresividad del IRPF (tipos marginales hasta el 52 % en rentas altas) sin una rebaja general de impuestos al trabajo.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda plurinacional y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: concurrió en 2023 en la coalición Sumar, cuyo programa propone más progresividad del IRPF (tipos marginales hasta el 52 % en rentas altas) sin una rebaja general de impuestos al trabajo. Uso provisional, confianza baja: no es una declaración suya sobre esta medida.",
           "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://verdesequo.es/wp-content/uploads/2023/07/Un-programa-para-ti.pdf#page=16",
+              "label": "Programa de Sumar 2023, PDF p. 16: IRPF"
+            }
+          ]
         },
         "7": {
           "value": 4,
@@ -3470,14 +3582,20 @@
           ]
         },
         "6": {
-          "value": 1,
+          "value": 2,
           "source": "https://www.rtve.es/contenidos/documentos/elecciones_europeas_2024/programa_electoral_podemos.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de izquierda alternativa y sus posiciones documentadas en temas afines.",
+          "reason": "Su programa europeo de 2024 propone regulaciones para evitar la segregación en los sistemas educativos con fuerte presencia de concertada; no propone suprimirla.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda alternativa y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: su programa europeo de 2024 propone regulaciones para evitar la segregación en los sistemas educativos con fuerte presencia de concertada; no propone suprimirla. Uso provisional, confianza baja: no es una declaración suya sobre esta medida.",
           "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://www.rtve.es/contenidos/documentos/elecciones_europeas_2024/programa_electoral_podemos.pdf#page=32",
+              "label": "Programa de Podemos 2024, PDF p. 32"
+            }
+          ]
         },
         "16": {
           "value": 4,
@@ -3747,11 +3865,17 @@
           "value": 2,
           "source": "https://img.beteve.cat/wp-content/uploads/2023/07/programa-junts-per-catalunya-eleccions-generals-2023.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Prefiere ampliar la oferta de vivienda y la competencia catalana antes que limitar los precios.",
+          "reason": "Votó en contra del decreto de prórroga de alquileres con tope del 2 % el 28/04/2026, junto a PP y Vox.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce porque prefiere ampliar la oferta de vivienda y la competencia catalana antes que limitar los precios. Uso provisional, confianza baja: no es una declaración del partido.",
-          "reviewed": "2026-11-15",
-          "coding": "Inferencia editorial"
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: votó en contra del decreto de prórroga de alquileres con tope del 2 % el 28/04/2026, junto a PP y Vox. Uso provisional, confianza media: no es una declaración suya sobre esta medida.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://orain.eus/es/politica/2026/04/28/el-congreso-deroga-la-prorroga-los-alquileres-la-mayoria-suman-pp-vox-junts/",
+              "label": "Votación del 28/04/2026"
+            }
+          ]
         },
         "4": {
           "value": 4,
@@ -3834,11 +3958,21 @@
           "value": 4,
           "source": "https://img.beteve.cat/wp-content/uploads/2023/07/programa-junts-per-catalunya-eleccions-generals-2023.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de independentismo catalán de centroderecha y sus posiciones documentadas en temas afines.",
+          "reason": "Votó a favor del decreto de revalorización de pensiones de febrero de 2025 y en contra del ómnibus de enero de 2026 (que lo incluía) por motivos de negociación; no consta su postura sobre el IPC.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de independentismo catalán de centroderecha y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: votó a favor del decreto de revalorización de pensiones de febrero de 2025 y en contra del ómnibus de enero de 2026 (que lo incluía) por motivos de negociación; no consta su postura sobre el IPC. Uso provisional, confianza baja: no es una declaración suya sobre esta medida.",
           "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://www.articulo14.es/politica/el-congreso-convalida-el-segundo-decreto-ley-de-la-revalorizacion-de-las-pensiones-y-ayudas-al-transporte-20250212.html",
+              "label": "Votación del 12/02/2025"
+            },
+            {
+              "url": "https://www.elindependiente.com/espana/2026/01/27/junts-echa-abajo-el-decreto-omnibus-y-acusa-a-sanchez-y-a-illa-de-incompetencia/",
+              "label": "Votación del 27/01/2026"
+            }
+          ]
         },
         "13": {
           "value": 4,
@@ -4273,12 +4407,13 @@
         "11": {
           "value": 5,
           "source": "https://www.elnacional.cat/uploads/s1/42/81/42/33/programa-electoral-eh-bildu-eleccions-generals-2023.pdf",
-          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de izquierda independentista vasca y sus posiciones documentadas en temas afines.",
-          "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda independentista vasca y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
-          "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "locator": "Histórico 2023 · PDF p. 10; feminismo",
+          "reason": "Apoya reforzar el marco contra la violencia machista y no plantea su retirada.",
+          "historical": true,
+          "sourceYear": 2023,
+          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional de un programa histórico"
         },
         "12": {
           "value": 2,
@@ -4304,11 +4439,17 @@
           "value": 5,
           "source": "https://www.elnacional.cat/uploads/s1/42/81/42/33/programa-electoral-eh-bildu-eleccions-generals-2023.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de izquierda independentista vasca y sus posiciones documentadas en temas afines.",
+          "reason": "Su programa de 2023 exige derogar la Ley de Extranjería y garantizar a las personas migrantes el acceso a los servicios públicos básicos; no detalla los requisitos económicos de las prestaciones.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda independentista vasca y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: su programa de 2023 exige derogar la Ley de Extranjería y garantizar a las personas migrantes el acceso a los servicios públicos básicos; no detalla los requisitos económicos de las prestaciones. Uso provisional, confianza baja: no es una declaración suya sobre esta medida.",
           "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://www.elnacional.cat/uploads/s1/42/81/42/33/programa-electoral-eh-bildu-eleccions-generals-2023.pdf#page=11",
+              "label": "Programa de EH Bildu 2023, PDF p. 11"
+            }
+          ]
         }
       }
     },
@@ -4566,44 +4707,76 @@
           "coding": "Interpretación editorial provisional de un programa histórico"
         },
         "1": {
-          "value": 4,
+          "value": 3,
           "source": "https://comuns.cat/wp-content/uploads/2025/07/sumarECP-programa-generales-2023.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines.",
+          "reason": "Concurrió en 2023 en la coalición Sumar, cuyo programa propone más progresividad del IRPF (tipos marginales crecientes hasta el 52 % en rentas altas) y eliminar deducciones injustificadas, sin una rebaja general de impuestos al trabajo.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: concurrió en 2023 en la coalición Sumar, cuyo programa propone más progresividad del IRPF (tipos marginales crecientes hasta el 52 % en rentas altas) y eliminar deducciones injustificadas, sin una rebaja general de impuestos al trabajo. Uso provisional, confianza baja: no es una declaración suya sobre esta medida.",
           "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://verdesequo.es/wp-content/uploads/2023/07/Un-programa-para-ti.pdf#page=16",
+              "label": "Programa de Sumar 2023, PDF p. 16: IRPF"
+            }
+          ]
         },
         "3": {
           "value": 5,
           "source": "https://comuns.cat/wp-content/uploads/2025/07/sumarECP-programa-generales-2023.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines.",
+          "reason": "Concurrió en 2023 en la coalición Sumar, cuyo programa propone reformar la LOEX con un procedimiento de regularización permanente.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: concurrió en 2023 en la coalición Sumar, cuyo programa propone reformar la LOEX con un procedimiento de regularización permanente. Uso provisional, confianza media: no es una declaración suya sobre esta medida.",
           "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://verdesequo.es/wp-content/uploads/2023/07/Un-programa-para-ti.pdf#page=106",
+              "label": "Programa de Sumar 2023, PDF p. 106: LOEX y regularización"
+            }
+          ]
         },
         "4": {
           "value": 1,
           "source": "https://comuns.cat/wp-content/uploads/2025/07/sumarECP-programa-generales-2023.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines.",
+          "reason": "Concurrió en 2023 en la coalición Sumar, cuyo programa refuerza la sanidad pública.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: concurrió en 2023 en la coalición Sumar, cuyo programa refuerza la sanidad pública. Uso provisional, confianza baja: no es una declaración suya sobre esta medida.",
           "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://verdesequo.es/wp-content/uploads/2023/07/Un-programa-para-ti.pdf#page=91",
+              "label": "Programa de Sumar 2023, PDF p. 91: sanidad"
+            }
+          ]
         },
         "5": {
           "value": 1,
           "source": "https://comuns.cat/wp-content/uploads/2025/07/sumarECP-programa-generales-2023.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines.",
+          "reason": "Concurrió en 2023 en la coalición Sumar, cuyo programa orienta las medidas penales a la reinserción con menor privación de libertad; en 2026 el grupo Sumar votó contra la reforma de la multirreincidencia y contra ampliar la prisión permanente.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: concurrió en 2023 en la coalición Sumar, cuyo programa orienta las medidas penales a la reinserción con menor privación de libertad; en 2026 el grupo Sumar votó contra la reforma de la multirreincidencia y contra ampliar la prisión permanente. Uso provisional, confianza media: no es una declaración suya sobre esta medida.",
           "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://verdesequo.es/wp-content/uploads/2023/07/Un-programa-para-ti.pdf#page=135",
+              "label": "Programa de Sumar 2023, PDF p. 135: medidas penales y reinserción"
+            },
+            {
+              "url": "https://electomania.es/el-congreso-aprueba-la-ley-de-multirreincidencia-de-junts-con-apoyo-de-psoe-pp-vox-y-pnv-y-el-rechazo-de-sumar/",
+              "label": "Multirreincidencia, 12/02/2026"
+            },
+            {
+              "url": "https://www.infobae.com/espana/agencias/2026/03/17/el-congreso-rechaza-tramitar-la-ampliacion-de-la-prision-permanente-apoyada-por-pp-vox-upn-y-cc/",
+              "label": "Prisión permanente, 17/03/2026"
+            }
+          ]
         },
         "7": {
           "value": 5,
@@ -4619,81 +4792,133 @@
           "value": 1,
           "source": "https://comuns.cat/wp-content/uploads/2025/07/sumarECP-programa-generales-2023.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines.",
+          "reason": "Concurrió en 2023 en la coalición Sumar, cuyo programa se compromete a mantener el calendario de cierre nuclear y a una moratoria de nuevas iniciativas nucleares.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: concurrió en 2023 en la coalición Sumar, cuyo programa se compromete a mantener el calendario de cierre nuclear y a una moratoria de nuevas iniciativas nucleares. Uso provisional, confianza media: no es una declaración suya sobre esta medida.",
           "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://verdesequo.es/wp-content/uploads/2023/07/Un-programa-para-ti.pdf#page=47",
+              "label": "Programa de Sumar 2023, PDF p. 47: cierre nuclear"
+            }
+          ]
         },
         "10": {
           "value": 5,
           "source": "https://comuns.cat/wp-content/uploads/2025/07/sumarECP-programa-generales-2023.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines.",
+          "reason": "Concurrió en 2023 en la coalición Sumar, cuyo programa mantiene la actualización automática de las pensiones con el IPC y sube por encima las mínimas.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: concurrió en 2023 en la coalición Sumar, cuyo programa mantiene la actualización automática de las pensiones con el IPC y sube por encima las mínimas. Uso provisional, confianza media: no es una declaración suya sobre esta medida.",
           "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://verdesequo.es/wp-content/uploads/2023/07/Un-programa-para-ti.pdf#page=15",
+              "label": "Programa de Sumar 2023, PDF p. 15: pensiones e IPC"
+            }
+          ]
         },
         "11": {
           "value": 5,
           "source": "https://comuns.cat/wp-content/uploads/2025/07/sumarECP-programa-generales-2023.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines.",
+          "reason": "Concurrió en 2023 en la coalición Sumar, cuyo programa propone ampliar y fortalecer el marco contra la violencia machista.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: concurrió en 2023 en la coalición Sumar, cuyo programa propone ampliar y fortalecer el marco contra la violencia machista. Uso provisional, confianza media: no es una declaración suya sobre esta medida.",
           "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://verdesequo.es/wp-content/uploads/2023/07/Un-programa-para-ti.pdf#page=112",
+              "label": "Programa de Sumar 2023, PDF p. 112: violencias machistas"
+            }
+          ]
         },
         "13": {
           "value": 1,
           "source": "https://comuns.cat/wp-content/uploads/2025/07/sumarECP-programa-generales-2023.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines.",
+          "reason": "Concurrió en 2023 en la coalición Sumar, cuyo programa propone auditar los programas especiales de armamento; el ministro de Sumar Urtasun rechazó en 2025 subir el gasto militar.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: concurrió en 2023 en la coalición Sumar, cuyo programa propone auditar los programas especiales de armamento; el ministro de Sumar Urtasun rechazó en 2025 subir el gasto militar. Uso provisional, confianza baja: no es una declaración suya sobre esta medida.",
           "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://verdesequo.es/wp-content/uploads/2023/07/Un-programa-para-ti.pdf#page=141",
+              "label": "Programa de Sumar 2023, PDF p. 141: programas de armamento"
+            }
+          ]
         },
         "15": {
           "value": 5,
           "source": "https://comuns.cat/wp-content/uploads/2025/07/sumarECP-programa-generales-2023.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines.",
+          "reason": "Concurrió en 2023 en la coalición Sumar, cuyo programa garantiza el derecho a la interrupción voluntaria del embarazo en la red pública; el grupo Sumar no apoyó en 2026 las enmiendas de PP y Vox contra el blindaje constitucional del aborto.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: concurrió en 2023 en la coalición Sumar, cuyo programa garantiza el derecho a la interrupción voluntaria del embarazo en la red pública; el grupo Sumar no apoyó en 2026 las enmiendas de PP y Vox contra el blindaje constitucional del aborto. Uso provisional, confianza media: no es una declaración suya sobre esta medida.",
           "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://verdesequo.es/wp-content/uploads/2023/07/Un-programa-para-ti.pdf#page=93",
+              "label": "Programa de Sumar 2023, PDF p. 93: interrupción voluntaria del embarazo"
+            },
+            {
+              "url": "https://www.infobae.com/espana/agencias/2026/04/30/el-blindaje-constitucional-del-aborto-sigue-su-tramite-tras-superar-los-vetos-de-pp-y-vox/",
+              "label": "Aborto, 30/04/2026"
+            }
+          ]
         },
         "16": {
-          "value": 4,
+          "value": 3,
           "source": "https://comuns.cat/wp-content/uploads/2025/07/sumarECP-programa-generales-2023.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines.",
+          "reason": "Concurrió en 2023 en la coalición Sumar, cuyo programa promete una nueva ley de indultos que refuerce la exigencia de interés público, sin prohibirlos.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: concurrió en 2023 en la coalición Sumar, cuyo programa promete una nueva ley de indultos que refuerce la exigencia de interés público, sin prohibirlos. Uso provisional, confianza media: no es una declaración suya sobre esta medida.",
           "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://verdesequo.es/wp-content/uploads/2023/07/Un-programa-para-ti.pdf#page=130",
+              "label": "Programa de Sumar 2023, PDF p. 130: ley de indultos"
+            }
+          ]
         },
         "17": {
           "value": 5,
           "source": "https://comuns.cat/wp-content/uploads/2025/07/sumarECP-programa-generales-2023.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines.",
+          "reason": "Concurrió en 2023 en la coalición Sumar, cuyo programa plantea un ingreso mínimo garantizado para toda la ciudadanía.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: concurrió en 2023 en la coalición Sumar, cuyo programa plantea un ingreso mínimo garantizado para toda la ciudadanía. Uso provisional, confianza baja: no es una declaración suya sobre esta medida.",
           "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://verdesequo.es/wp-content/uploads/2023/07/Un-programa-para-ti.pdf#page=88",
+              "label": "Programa de Sumar 2023, PDF p. 88: ingreso mínimo"
+            }
+          ]
         },
         "18": {
-          "value": 3,
+          "value": 4,
           "source": "https://comuns.cat/wp-content/uploads/2025/07/sumarECP-programa-generales-2023.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines.",
+          "reason": "Concurrió en 2023 en la coalición Sumar, cuyo programa propone simplificar la tramitación de las empresas con las administraciones.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: concurrió en 2023 en la coalición Sumar, cuyo programa propone simplificar la tramitación de las empresas con las administraciones. Uso provisional, confianza media: no es una declaración suya sobre esta medida.",
           "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://verdesequo.es/wp-content/uploads/2023/07/Un-programa-para-ti.pdf#page=14",
+              "label": "Programa de Sumar 2023, PDF p. 14: simplificación administrativa"
+            }
+          ]
         }
       }
     }

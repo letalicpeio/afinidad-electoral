@@ -126,6 +126,74 @@
       "documentVersion": null,
       "sha256": null,
       "notes": "Votación del 30/04/2026: las enmiendas de PP y Vox solo recibieron el apoyo de PP, Vox y UPN."
+    },
+    {
+      "id": "cc-s08",
+      "url": "https://orain.eus/es/politica/2026/04/28/el-congreso-deroga-la-prorroga-los-alquileres-la-mayoria-suman-pp-vox-junts/",
+      "publisher": "Orain (Berria)",
+      "title": "El Congreso deroga la prórroga de los alquileres con la mayoría que suman PP, Vox y Junts",
+      "published": "2026-04-28",
+      "accessed": "2026-11-16",
+      "election": "Generales de España 2026",
+      "year": 2026,
+      "kind": "noticia",
+      "origin": "secundaria",
+      "hosting": "medio",
+      "historical": false,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Votación del 28/04/2026 sobre el decreto de prórroga de alquileres con tope del 2 %: 177 en contra (PP, Vox, Junts, UPN), 166 a favor (izquierda y CC) y abstención del PNV."
+    },
+    {
+      "id": "cc-s09",
+      "url": "https://www.lamarea.com/?p=369900",
+      "publisher": "La Marea",
+      "title": "Toma en consideración de la ILP de regularización extraordinaria (abril de 2024)",
+      "published": "2024-04-09",
+      "accessed": "2026-11-16",
+      "election": "Declaración pública de 2024",
+      "year": 2024,
+      "kind": "noticia",
+      "origin": "secundaria",
+      "hosting": "medio",
+      "historical": true,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "El Pleno la tomó en consideración con 310 votos a favor; solo Vox votó en contra y Junts anunció su apoyo."
+    },
+    {
+      "id": "cc-s10",
+      "url": "https://www.periodicodeibiza.es/noticias/nacional/2025/09/11/2467647/congreso-tumba-reduccion-jornada-laboral-prosperar-veto-vox-junts.html",
+      "publisher": "Periódico de Ibiza",
+      "title": "El Congreso tumba la reducción de jornada laboral al prosperar el veto de PP, Vox y Junts",
+      "published": "2025-09-11",
+      "accessed": "2026-11-16",
+      "election": "Declaración pública de 2025",
+      "year": 2025,
+      "kind": "noticia",
+      "origin": "secundaria",
+      "hosting": "medio",
+      "historical": true,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Votación del 10/09/2025: las enmiendas a la totalidad salieron con 178 votos (PP, Vox, Junts y UPN) frente a 170."
+    },
+    {
+      "id": "cc-s11",
+      "url": "https://www.energias-renovables.com/panorama/pp-y-vox-votan-a-favor-de-20250213",
+      "publisher": "Energías Renovables",
+      "title": "PP y Vox votan a favor de prorrogar las nucleares (PNL del PP)",
+      "published": "2025-02-13",
+      "accessed": "2026-11-16",
+      "election": "Declaración pública de 2025",
+      "year": 2025,
+      "kind": "noticia",
+      "origin": "secundaria",
+      "hosting": "medio",
+      "historical": true,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "PNL del PP aprobada con 171 a favor y 164 en contra (PSOE, Sumar, Bildu, PNV, Podemos, BNG y CC); ERC y Junts se abstuvieron."
     }
   ],
   "questions": {
@@ -146,12 +214,12 @@
     },
     "2": {
       "status": "documentada",
-      "position": 2,
+      "position": 3,
       "sourceIds": [
-        "cc-s01"
+        "cc-s08"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de nacionalismo canario de centro y sus posiciones documentadas en temas afines.",
+      "evidenceSummary": "Inferencia con fuentes: Votó a favor del decreto de prórroga de alquileres con tope del 2 % el 28/04/2026, pero no consta un programa propio sobre regular precios.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
       "reviewNeeded": true,
@@ -161,12 +229,12 @@
     },
     "3": {
       "status": "documentada",
-      "position": 3,
+      "position": 4,
       "sourceIds": [
-        "cc-s01"
+        "cc-s09"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de nacionalismo canario de centro y sus posiciones documentadas en temas afines.",
+      "evidenceSummary": "Inferencia con fuentes: En abril de 2024 el Pleno tomó en consideración la ILP de regularización con todos los grupos menos Vox; no consta el voto concreto de CC ni su postura sobre el fondo.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
       "reviewNeeded": true,
@@ -245,12 +313,12 @@
     },
     "8": {
       "status": "documentada",
-      "position": 2,
+      "position": 3,
       "sourceIds": [
-        "cc-s01"
+        "cc-s10"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de nacionalismo canario de centro y sus posiciones documentadas en temas afines.",
+      "evidenceSummary": "Inferencia con fuentes: Las crónicas atribuyen el veto a la reducción de jornada (10/09/2025) solo a PP, Vox, Junts y UPN, por lo que CC no lo apoyó; no consta su postura sobre la medida.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
       "reviewNeeded": true,
@@ -262,12 +330,12 @@
       "status": "documentada",
       "position": 2,
       "sourceIds": [
-        "cc-s01"
+        "cc-s11"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de nacionalismo canario de centro y sus posiciones documentadas en temas afines.",
+      "evidenceSummary": "Inferencia con fuentes: Votó en contra de la PNL del PP de febrero de 2025 que pedía mantener las centrales nucleares.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "baja",
+      "confidence": "media",
       "reviewNeeded": true,
       "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
       "nextAction": "Buscar texto del partido sobre este tema.",
@@ -294,13 +362,13 @@
       "sourceIds": [
         "cc-s01"
       ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de nacionalismo canario de centro y sus posiciones documentadas en temas afines.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
-      "nextAction": "Buscar texto del partido sobre este tema.",
+      "locator": "PDF p. 10; medida 17",
+      "evidenceSummary": "Reclama financiación estatal suficiente para aplicar el Pacto de Estado contra la violencia de género en todas las islas, reforzar la prevención y proteger a las víctimas.",
+      "reason": "Apoya el marco estatal vigente contra la violencia de género (Pacto de Estado) y pide más recursos, sin proponer su derogación ni una ley nueva.",
+      "confidence": "media",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 5,

@@ -92,6 +92,57 @@
       "documentVersion": null,
       "sha256": null,
       "notes": ""
+    },
+    {
+      "id": "pnv-s06",
+      "url": "https://www.energias-renovables.com/panorama/pp-y-vox-votan-a-favor-de-20250213",
+      "publisher": "Energías Renovables",
+      "title": "PP y Vox votan a favor de prorrogar las nucleares (PNL del PP)",
+      "published": "2025-02-13",
+      "accessed": "2026-11-16",
+      "election": "Declaración pública de 2025",
+      "year": 2025,
+      "kind": "noticia",
+      "origin": "secundaria",
+      "hosting": "medio",
+      "historical": true,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "PNL del PP aprobada con 171 a favor y 164 en contra (PSOE, Sumar, Bildu, PNV, Podemos, BNG y CC); ERC y Junts se abstuvieron."
+    },
+    {
+      "id": "pnv-s07",
+      "url": "https://www.noticiasdenavarra.com/politica/2025/11/13/junts-salva-prorroga-nucleares-pese-10343862.html",
+      "publisher": "Noticias de Navarra",
+      "title": "Junts salva la prórroga de las nucleares pese a la ruptura con el Gobierno español",
+      "published": "2025-11-13",
+      "accessed": "2026-11-16",
+      "election": "Declaración pública de 2025",
+      "year": 2025,
+      "kind": "noticia",
+      "origin": "secundaria",
+      "hosting": "medio",
+      "historical": true,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Votación del 13/11/2025: la enmienda del PP para suprimir el cierre nuclear decae con 171 a favor (PP, Vox, UPN) y 172 en contra; Junts se abstuvo; PNV y ERC votaron en contra."
+    },
+    {
+      "id": "pnv-s08",
+      "url": "https://www.periodicodeibiza.es/noticias/nacional/2025/09/11/2467647/congreso-tumba-reduccion-jornada-laboral-prosperar-veto-vox-junts.html",
+      "publisher": "Periódico de Ibiza",
+      "title": "El Congreso tumba la reducción de jornada laboral al prosperar el veto de PP, Vox y Junts",
+      "published": "2025-09-11",
+      "accessed": "2026-11-16",
+      "election": "Declaración pública de 2025",
+      "year": 2025,
+      "kind": "noticia",
+      "origin": "secundaria",
+      "hosting": "medio",
+      "historical": true,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": ""
     }
   ],
   "questions": {
@@ -102,7 +153,7 @@
         "pnv-s01"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de nacionalismo vasco de centro y sus posiciones documentadas en temas afines.",
+      "evidenceSummary": "Inferencia con fuentes: Su programa de 2026 defiende «una fiscalidad que proteja el poder adquisitivo y favorezca la actividad económica» y rebajar el impuesto de la electricidad; no concreta rebajas del IRPF.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
       "reviewNeeded": true,
@@ -280,10 +331,10 @@
       "status": "documentada",
       "position": 4,
       "sourceIds": [
-        "pnv-s01"
+        "pnv-s08"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: apoyó la reducción de jornada pactada.",
+      "evidenceSummary": "Inferencia con fuentes: No se sumó al veto a la reducción de jornada a 37,5 horas del 10/09/2025 (las crónicas citan solo PP, Vox, Junts y UPN); su programa 2026 solo menciona reducciones de jornada por cuidados.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
       "reviewNeeded": true,
@@ -305,14 +356,15 @@
     },
     "9": {
       "status": "documentada",
-      "position": 2,
+      "position": 1,
       "sourceIds": [
-        "pnv-s01"
+        "pnv-s06",
+        "pnv-s07"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de nacionalismo vasco de centro y sus posiciones documentadas en temas afines.",
+      "evidenceSummary": "Inferencia con fuentes: Votó en contra de la PNL del PP para prorrogar las nucleares (02/2025) y de la enmienda del PP que suprimía su cierre (11/2025).",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "baja",
+      "confidence": "media",
       "reviewNeeded": true,
       "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
       "nextAction": "Buscar texto del partido sobre este tema.",
@@ -426,7 +478,7 @@
         "pnv-s01"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de nacionalismo vasco de centro y sus posiciones documentadas en temas afines.",
+      "evidenceSummary": "Inferencia con fuentes: Su programa de 2026 propone reformar el Código Penal en los delitos de opinión sobre la Corona según estándares europeos de libertad de expresión; no propone cambiar la forma de Estado.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
       "reviewNeeded": true,

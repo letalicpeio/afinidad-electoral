@@ -381,13 +381,13 @@
       "sourceIds": [
         "ehbildu-s02"
       ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de izquierda independentista vasca y sus posiciones documentadas en temas afines.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
-      "nextAction": "Buscar texto del partido sobre este tema.",
+      "locator": "PDF p. 10; feminismo",
+      "evidenceSummary": "Promete reforzar la lucha contra la violencia machista desde todos los ámbitos y defender los avances feministas conseguidos.",
+      "reason": "Apoya reforzar el marco contra la violencia machista y no plantea su retirada.",
+      "confidence": "media",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     },
     "12": {
@@ -473,7 +473,7 @@
         "ehbildu-s02"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de izquierda independentista vasca y sus posiciones documentadas en temas afines.",
+      "evidenceSummary": "Inferencia con fuentes: Su programa de 2023 exige derogar la Ley de Extranjería y garantizar a las personas migrantes el acceso a los servicios públicos básicos; no detalla los requisitos económicos de las prestaciones.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
       "reviewNeeded": true,

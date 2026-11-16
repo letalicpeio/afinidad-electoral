@@ -40,6 +40,40 @@
       "documentVersion": null,
       "sha256": "760db25e48422b74a9b0c3172cab16cf39d010345849e50b921ff8bf61be2854",
       "notes": "Programa de ERC para las generales de 2023, leído completo; se usa como antecedente sólo en temas que su programa de 2026 no trata."
+    },
+    {
+      "id": "erc-s03",
+      "url": "https://www.energias-renovables.com/panorama/pp-y-vox-votan-a-favor-de-20250213",
+      "publisher": "Energías Renovables",
+      "title": "PP y Vox votan a favor de prorrogar las nucleares (PNL del PP)",
+      "published": "2025-02-13",
+      "accessed": "2026-11-16",
+      "election": "Declaración pública de 2025",
+      "year": 2025,
+      "kind": "noticia",
+      "origin": "secundaria",
+      "hosting": "medio",
+      "historical": true,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "PNL del PP aprobada con 171 a favor y 164 en contra (PSOE, Sumar, Bildu, PNV, Podemos, BNG y CC); ERC y Junts se abstuvieron."
+    },
+    {
+      "id": "erc-s04",
+      "url": "https://www.noticiasdenavarra.com/politica/2025/11/13/junts-salva-prorroga-nucleares-pese-10343862.html",
+      "publisher": "Noticias de Navarra",
+      "title": "Junts salva la prórroga de las nucleares pese a la ruptura con el Gobierno español",
+      "published": "2025-11-13",
+      "accessed": "2026-11-16",
+      "election": "Declaración pública de 2025",
+      "year": 2025,
+      "kind": "noticia",
+      "origin": "secundaria",
+      "hosting": "medio",
+      "historical": true,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Votación del 13/11/2025: la enmienda del PP para suprimir el cierre nuclear decae con 171 a favor (PP, Vox, UPN) y 172 en contra; Junts se abstuvo; PNV y ERC votaron en contra."
     }
   ],
   "questions": {
@@ -167,10 +201,12 @@
       "status": "documentada",
       "position": 1,
       "sourceIds": [
-        "erc-s01"
+        "erc-s01",
+        "erc-s03",
+        "erc-s04"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: defiende la transición nuclear y el cierre de las centrales catalanas.",
+      "evidenceSummary": "Inferencia con fuentes: Su programa de 2026 pide que el Estado contribuya al Fondo de Transición Nuclear de la Generalitat (medida 147); se abstuvo en la PNL del PP sobre nucleares (02/2025) y votó contra suprimir el cierre (11/2025).",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "media",
       "reviewNeeded": true,

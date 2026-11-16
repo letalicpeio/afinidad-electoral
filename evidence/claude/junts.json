@@ -142,6 +142,57 @@
       "documentVersion": null,
       "sha256": null,
       "notes": "Votación del 30/04/2026: las enmiendas de PP y Vox solo recibieron el apoyo de PP, Vox y UPN."
+    },
+    {
+      "id": "junts-s09",
+      "url": "https://orain.eus/es/politica/2026/04/28/el-congreso-deroga-la-prorroga-los-alquileres-la-mayoria-suman-pp-vox-junts/",
+      "publisher": "Orain (Berria)",
+      "title": "El Congreso deroga la prórroga de los alquileres con la mayoría que suman PP, Vox y Junts",
+      "published": "2026-04-28",
+      "accessed": "2026-11-16",
+      "election": "Generales de España 2026",
+      "year": 2026,
+      "kind": "noticia",
+      "origin": "secundaria",
+      "hosting": "medio",
+      "historical": false,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Votación del 28/04/2026 sobre el decreto de prórroga de alquileres con tope del 2 %: 177 en contra (PP, Vox, Junts, UPN), 166 a favor (izquierda y CC) y abstención del PNV."
+    },
+    {
+      "id": "junts-s10",
+      "url": "https://www.articulo14.es/politica/el-congreso-convalida-el-segundo-decreto-ley-de-la-revalorizacion-de-las-pensiones-y-ayudas-al-transporte-20250212.html",
+      "publisher": "Artículo 14",
+      "title": "El Congreso convalida el segundo decreto ley de la revalorización de las pensiones y ayudas al transporte",
+      "published": "2025-02-12",
+      "accessed": "2026-11-16",
+      "election": "Declaración pública de 2025",
+      "year": 2025,
+      "kind": "noticia",
+      "origin": "secundaria",
+      "hosting": "medio",
+      "historical": true,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Votación del 12/02/2025; Junts apoyó este decreto por haberse negociado."
+    },
+    {
+      "id": "junts-s11",
+      "url": "https://www.elindependiente.com/espana/2026/01/27/junts-echa-abajo-el-decreto-omnibus-y-acusa-a-sanchez-y-a-illa-de-incompetencia/",
+      "publisher": "El Independiente",
+      "title": "Junts echa abajo el decreto ómnibus y acusa a Sánchez y a Illa de incompetencia",
+      "published": "2026-01-27",
+      "accessed": "2026-11-16",
+      "election": "Generales de España 2026",
+      "year": 2026,
+      "kind": "noticia",
+      "origin": "secundaria",
+      "hosting": "medio",
+      "historical": false,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Votación del 27/01/2026: decreto ómnibus (incluía la revalorización de pensiones) rechazado por PP, Vox y Junts."
     }
   ],
   "questions": {
@@ -164,12 +215,12 @@
       "status": "documentada",
       "position": 2,
       "sourceIds": [
-        "junts-s01"
+        "junts-s09"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: prefiere ampliar la oferta de vivienda y la competencia catalana antes que limitar los precios.",
+      "evidenceSummary": "Inferencia con fuentes: Votó en contra del decreto de prórroga de alquileres con tope del 2 % el 28/04/2026, junto a PP y Vox.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "baja",
+      "confidence": "media",
       "reviewNeeded": true,
       "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
       "nextAction": "Buscar texto del partido sobre este tema.",
@@ -284,10 +335,11 @@
       "status": "documentada",
       "position": 4,
       "sourceIds": [
-        "junts-s01"
+        "junts-s10",
+        "junts-s11"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de independentismo catalán de centroderecha y sus posiciones documentadas en temas afines.",
+      "evidenceSummary": "Inferencia con fuentes: Votó a favor del decreto de revalorización de pensiones de febrero de 2025 y en contra del ómnibus de enero de 2026 (que lo incluía) por motivos de negociación; no consta su postura sobre el IPC.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
       "reviewNeeded": true,

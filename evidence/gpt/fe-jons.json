@@ -342,17 +342,17 @@
     },
     "16": {
       "status": "documentada",
-      "position": 5,
+      "position": 4,
       "sourceIds": [
         "fe-jons-s01"
       ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de nacionalsindicalismo conservador y sus posiciones documentadas en temas afines.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
-      "nextAction": "Buscar texto del partido sobre este tema.",
+      "locator": "PDF p. 42; justicia",
+      "evidenceSummary": "Propone la «revisión del derecho de indulto», que considera usado como moneda de cambio de intereses partidistas y políticos.",
+      "reason": "Plantea revisar el derecho de indulto por su uso político; no propone prohibirlo expresamente para los condenados por corrupción.",
+      "confidence": "media",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     },
     "17": {
@@ -380,12 +380,13 @@
     },
     "18": {
       "status": "documentada",
-      "position": 2,
+      "position": 3,
       "sourceIds": [
+        "fe-jons-s01",
         "fe-jons-s01"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de nacionalsindicalismo conservador y sus posiciones documentadas en temas afines.",
+      "evidenceSummary": "Inferencia con fuentes: Su programa de 2026 propone «simplificando procedimientos» y eficiencia administrativa en vivienda e industria, sin una reducción general de obligaciones para las empresas.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
       "reviewNeeded": true,

@@ -59,3 +59,11 @@ Nuevo campo `basisLinks` en las posiciones inferidas: lista de fuentes (url + et
 - 0.5.35–0.5.41: votaciones de 2026 (multirreincidencia 12/02, prisión permanente revisable 17/03, reforma constitucional del aborto 30/04) y programas 2026 de PP y VOX. Junts-5 y VOX-11 pasan a documentadas; el resto sigue inferido con `basisLinks`.
 - 0.5.42–0.5.43: integración de la entrega de GPT (7 partidos, 93 filas): 8 documentadas (A), 17 inferencias con fuentes (B; geroabai-9 vuelve a B porque su fuente es de 2015, por debajo del límite de 2019) y 60 en C. Las C **no se retiran**: con la casilla «solo documentado» desmarcada todos los temas deben tener posición inferida; quedan marcadas como «sin fuente localizada».
 - Las fuentes de GPT se han comprobado solo a nivel de URL y localizador, no página a página.
+
+## Cierre del lote de Claude (0.5.44–0.5.51)
+
+- Comuns (12 filas): enlazadas al programa de Sumar 2023, en cuya coalición concurrieron, y a las votaciones de 2026; Comuns-7 queda sin fuente.
+- Votaciones usadas (prensa, no Diario de Sesiones): prórroga de alquileres 28/04/2026, reducción de jornada 10/09/2025, PNL nuclear 02/2025 y enmienda del PP 11/2025, ILP de regularización 04/2024, pensiones 02/2025 y 01/2026.
+- Programas 2026 releídos: BNG, PNV, CC, Adelante, ERC y FE de las JONS; CC-11 y FE-16 pasan a documentadas; EH Bildu-11 documentada con el programa de 2023.
+- Se detectó que la razón previa de BNG-14 («denuncia la corrupción de la monarquía y defiende la República de Galiza») no aparece en el texto del programa 2026 revisado; se reescribió con lo verificable (p. 30) y confianza baja.
+- Quedan 69 filas de Claude sin fuente localizada (monarquía, indultos, fiscalidad y las deducidas solo por «perfil»); se mantienen inferidas y marcadas así en `audit/inferencias-pendientes.csv`. El PCTE se dejó sin tocar porque su texto extraído es el programa de 2019, no el de 2023 citado en los datos.

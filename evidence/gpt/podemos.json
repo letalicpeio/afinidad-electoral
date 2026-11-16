@@ -244,12 +244,12 @@
     },
     "6": {
       "status": "documentada",
-      "position": 1,
+      "position": 2,
       "sourceIds": [
         "podemos-s02"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de izquierda alternativa y sus posiciones documentadas en temas afines.",
+      "evidenceSummary": "Inferencia con fuentes: Su programa europeo de 2024 propone regulaciones para evitar la segregación en los sistemas educativos con fuerte presencia de concertada; no propone suprimirla.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
       "reviewNeeded": true,

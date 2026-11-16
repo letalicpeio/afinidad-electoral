@@ -153,9 +153,9 @@
         "bng-s01"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su programa de 2026 critica el vertedero de residuos nucleares y defiende las renovables.",
+      "evidenceSummary": "Inferencia con fuentes: Su programa de 2026 pide inspeccionar el vertedero de residuos nucleares de la Fosa Atlántica; no trata el parque nuclear en funcionamiento, y el BNG ha defendido históricamente las renovables.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "media",
+      "confidence": "baja",
       "reviewNeeded": true,
       "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
       "nextAction": "Buscar texto del partido sobre este tema.",
@@ -228,9 +228,9 @@
         "bng-s01"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su programa denuncia «la corrupción de la monarquía» y defiende la República de Galiza.",
+      "evidenceSummary": "Inferencia con fuentes: Su programa de 2026 pide despenalizar las injurias a la Corona (p. 30); el texto revisado no propone expresamente una república, que se deduce de su posición soberanista y republicana pública.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "media",
+      "confidence": "baja",
       "reviewNeeded": true,
       "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
       "nextAction": "Buscar texto del partido sobre este tema.",
@@ -258,7 +258,7 @@
         "bng-s01"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de izquierda soberanista gallega y sus posiciones documentadas en temas afines.",
+      "evidenceSummary": "Inferencia con fuentes: Su programa de 2026 propone inhabilitación directa de cargos que cometan fraude fiscal y regular las puertas giratorias; no menciona los indultos.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
       "reviewNeeded": true,
@@ -270,12 +270,13 @@
       "status": "documentada",
       "position": 4,
       "sourceIds": [
+        "bng-s01",
         "bng-s01"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de izquierda soberanista gallega y sus posiciones documentadas en temas afines.",
+      "evidenceSummary": "Inferencia con fuentes: Su programa de 2026 compromete reformas legislativas para garantizar a la población inmigrante vivienda, trabajo, atención sanitaria y educación, y facilitar su regularización; no precisa los requisitos económicos.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "baja",
+      "confidence": "media",
       "reviewNeeded": true,
       "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
       "nextAction": "Buscar texto del partido sobre este tema.",

@@ -23,17 +23,85 @@
       "documentVersion": null,
       "sha256": "ed6f00ae95ad96a397593c930047bddad1824fa909b3974434a7acc5b104b4df",
       "notes": "Programa de la candidatura Sumar–En Comú Podem de 2023 alojado en la web de Comuns; se usa como antecedente de Comuns–Front Ampli, sin acreditar compromisos de 2026."
+    },
+    {
+      "id": "comuns-s02",
+      "url": "https://verdesequo.es/wp-content/uploads/2023/07/Un-programa-para-ti.pdf",
+      "publisher": "Sumar (copia alojada por Verdes Equo)",
+      "title": "Programa electoral de Sumar 2023, «Un programa para ti»",
+      "published": "2023-07",
+      "accessed": "2026-11-16",
+      "election": "Declaración pública de 2023",
+      "year": 2023,
+      "kind": "programa",
+      "origin": "secundaria",
+      "hosting": "otro",
+      "historical": true,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Programa de la coalición Sumar en 2023, a la que concurrieron los Comuns; antecedente de coalición, no un programa propio."
+    },
+    {
+      "id": "comuns-s03",
+      "url": "https://electomania.es/el-congreso-aprueba-la-ley-de-multirreincidencia-de-junts-con-apoyo-de-psoe-pp-vox-y-pnv-y-el-rechazo-de-sumar/",
+      "publisher": "Electomanía",
+      "title": "El Congreso aprueba la ley de multirreincidencia de Junts con apoyo de PSOE, PP, Vox y PNV y el rechazo de Sumar",
+      "published": "2026-02-12",
+      "accessed": "2026-11-16",
+      "election": "Generales de España 2026",
+      "year": 2026,
+      "kind": "noticia",
+      "origin": "secundaria",
+      "hosting": "medio",
+      "historical": false,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Votación del 12/02/2026: a favor PP, PSOE, Vox, Junts, PNV y UPN; en contra Sumar, Bildu, Podemos, BNG y Compromís; ERC se abstuvo."
+    },
+    {
+      "id": "comuns-s04",
+      "url": "https://www.infobae.com/espana/agencias/2026/03/17/el-congreso-rechaza-tramitar-la-ampliacion-de-la-prision-permanente-apoyada-por-pp-vox-upn-y-cc/",
+      "publisher": "Infobae (Europa Press)",
+      "title": "El Congreso rechaza tramitar la ampliación de la prisión permanente apoyada por PP, Vox, UPN y CC",
+      "published": "2026-03-17",
+      "accessed": "2026-11-16",
+      "election": "Generales de España 2026",
+      "year": 2026,
+      "kind": "noticia",
+      "origin": "secundaria",
+      "hosting": "medio",
+      "historical": false,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Votación del 17/03/2026: a favor PP, Vox, UPN y CC."
+    },
+    {
+      "id": "comuns-s05",
+      "url": "https://www.infobae.com/espana/agencias/2026/04/30/el-blindaje-constitucional-del-aborto-sigue-su-tramite-tras-superar-los-vetos-de-pp-y-vox/",
+      "publisher": "Infobae (Europa Press)",
+      "title": "El blindaje constitucional del aborto sigue su trámite tras superar los vetos de PP y Vox",
+      "published": "2026-04-30",
+      "accessed": "2026-11-16",
+      "election": "Generales de España 2026",
+      "year": 2026,
+      "kind": "noticia",
+      "origin": "secundaria",
+      "hosting": "medio",
+      "historical": false,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Votación del 30/04/2026: las enmiendas de PP y Vox solo recibieron el apoyo de PP, Vox y UPN."
     }
   ],
   "questions": {
     "1": {
       "status": "documentada",
-      "position": 4,
+      "position": 3,
       "sourceIds": [
-        "comuns-s01"
+        "comuns-s02"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines.",
+      "evidenceSummary": "Inferencia con fuentes: Concurrió en 2023 en la coalición Sumar, cuyo programa propone más progresividad del IRPF (tipos marginales crecientes hasta el 52 % en rentas altas) y eliminar deducciones injustificadas, sin una rebaja general de impuestos al trabajo.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
       "reviewNeeded": true,
@@ -60,12 +128,12 @@
       "status": "documentada",
       "position": 5,
       "sourceIds": [
-        "comuns-s01"
+        "comuns-s02"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines.",
+      "evidenceSummary": "Inferencia con fuentes: Concurrió en 2023 en la coalición Sumar, cuyo programa propone reformar la LOEX con un procedimiento de regularización permanente.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "baja",
+      "confidence": "media",
       "reviewNeeded": true,
       "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
       "nextAction": "Buscar texto del partido sobre este tema.",
@@ -75,10 +143,10 @@
       "status": "documentada",
       "position": 1,
       "sourceIds": [
-        "comuns-s01"
+        "comuns-s02"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines.",
+      "evidenceSummary": "Inferencia con fuentes: Concurrió en 2023 en la coalición Sumar, cuyo programa refuerza la sanidad pública.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
       "reviewNeeded": true,
@@ -90,12 +158,14 @@
       "status": "documentada",
       "position": 1,
       "sourceIds": [
-        "comuns-s01"
+        "comuns-s02",
+        "comuns-s03",
+        "comuns-s04"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines.",
+      "evidenceSummary": "Inferencia con fuentes: Concurrió en 2023 en la coalición Sumar, cuyo programa orienta las medidas penales a la reinserción con menor privación de libertad; en 2026 el grupo Sumar votó contra la reforma de la multirreincidencia y contra ampliar la prisión permanente.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "baja",
+      "confidence": "media",
       "reviewNeeded": true,
       "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
       "nextAction": "Buscar texto del partido sobre este tema.",
@@ -150,12 +220,12 @@
       "status": "documentada",
       "position": 1,
       "sourceIds": [
-        "comuns-s01"
+        "comuns-s02"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines.",
+      "evidenceSummary": "Inferencia con fuentes: Concurrió en 2023 en la coalición Sumar, cuyo programa se compromete a mantener el calendario de cierre nuclear y a una moratoria de nuevas iniciativas nucleares.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "baja",
+      "confidence": "media",
       "reviewNeeded": true,
       "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
       "nextAction": "Buscar texto del partido sobre este tema.",
@@ -165,12 +235,12 @@
       "status": "documentada",
       "position": 5,
       "sourceIds": [
-        "comuns-s01"
+        "comuns-s02"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines.",
+      "evidenceSummary": "Inferencia con fuentes: Concurrió en 2023 en la coalición Sumar, cuyo programa mantiene la actualización automática de las pensiones con el IPC y sube por encima las mínimas.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "baja",
+      "confidence": "media",
       "reviewNeeded": true,
       "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
       "nextAction": "Buscar texto del partido sobre este tema.",
@@ -180,12 +250,12 @@
       "status": "documentada",
       "position": 5,
       "sourceIds": [
-        "comuns-s01"
+        "comuns-s02"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines.",
+      "evidenceSummary": "Inferencia con fuentes: Concurrió en 2023 en la coalición Sumar, cuyo programa propone ampliar y fortalecer el marco contra la violencia machista.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "baja",
+      "confidence": "media",
       "reviewNeeded": true,
       "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
       "nextAction": "Buscar texto del partido sobre este tema.",
@@ -210,10 +280,10 @@
       "status": "documentada",
       "position": 1,
       "sourceIds": [
-        "comuns-s01"
+        "comuns-s02"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines.",
+      "evidenceSummary": "Inferencia con fuentes: Concurrió en 2023 en la coalición Sumar, cuyo programa propone auditar los programas especiales de armamento; el ministro de Sumar Urtasun rechazó en 2025 subir el gasto militar.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
       "reviewNeeded": true,
@@ -240,12 +310,13 @@
       "status": "documentada",
       "position": 5,
       "sourceIds": [
-        "comuns-s01"
+        "comuns-s02",
+        "comuns-s05"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines.",
+      "evidenceSummary": "Inferencia con fuentes: Concurrió en 2023 en la coalición Sumar, cuyo programa garantiza el derecho a la interrupción voluntaria del embarazo en la red pública; el grupo Sumar no apoyó en 2026 las enmiendas de PP y Vox contra el blindaje constitucional del aborto.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "baja",
+      "confidence": "media",
       "reviewNeeded": true,
       "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
       "nextAction": "Buscar texto del partido sobre este tema.",
@@ -253,14 +324,14 @@
     },
     "16": {
       "status": "documentada",
-      "position": 4,
+      "position": 3,
       "sourceIds": [
-        "comuns-s01"
+        "comuns-s02"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines.",
+      "evidenceSummary": "Inferencia con fuentes: Concurrió en 2023 en la coalición Sumar, cuyo programa promete una nueva ley de indultos que refuerce la exigencia de interés público, sin prohibirlos.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "baja",
+      "confidence": "media",
       "reviewNeeded": true,
       "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
       "nextAction": "Buscar texto del partido sobre este tema.",
@@ -270,10 +341,10 @@
       "status": "documentada",
       "position": 5,
       "sourceIds": [
-        "comuns-s01"
+        "comuns-s02"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines.",
+      "evidenceSummary": "Inferencia con fuentes: Concurrió en 2023 en la coalición Sumar, cuyo programa plantea un ingreso mínimo garantizado para toda la ciudadanía.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
       "reviewNeeded": true,
@@ -283,14 +354,14 @@
     },
     "18": {
       "status": "documentada",
-      "position": 3,
+      "position": 4,
       "sourceIds": [
-        "comuns-s01"
+        "comuns-s02"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines.",
+      "evidenceSummary": "Inferencia con fuentes: Concurrió en 2023 en la coalición Sumar, cuyo programa propone simplificar la tramitación de las empresas con las administraciones.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "baja",
+      "confidence": "media",
       "reviewNeeded": true,
       "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
       "nextAction": "Buscar texto del partido sobre este tema.",
