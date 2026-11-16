@@ -8,6 +8,7 @@ Lote versión 0.5.34, revisión 16/11/2026. Claude integra en los datos comparti
 | PACMA | 13 | 0 | 3 | 10 | 0 | Revisado |
 | SALF | 9 | 1 | 1 | 7 | 0 | Revisado |
 | Partido Humanista | 9 | 0 | 2 | 7 | 0 | Revisado |
+| Por un Mundo Más Justo | 9 | 0 | 4 | 5 | 0 | Revisado |
 
 ## Dudas y límites
 
@@ -38,3 +39,9 @@ Lote versión 0.5.34, revisión 16/11/2026. Claude integra en los datos comparti
 - Programa oficial de generales 2026 consultado (economía, fiscalidad, derechos, autonomía y medioambiente).
 - Las referencias programáticas a descentralización e internacionalismo no concretan más transferencias ni integración política de la UE: inferencia B de baja confianza y revisión recomendada por Claude.
 - No consta localizador PDF físico para las menciones: se utiliza epígrafe textual, sin inventar página.
+
+## Por un Mundo Más Justo
+
+- Programa de generales 2026 consultado por ejes 06, 07, 11, 16, 19, 22, 23, 24 y 30.
+- B en pensiones: conservar poder adquisitivo no equivale textualmente a actualización por IPC; B en sanidad penitenciaria: transferencia sectorial, no genérica.
+- PDF capturas físicas devuelven fallo de caché; se usan identificadores de eje y medida verificables, nunca páginas PDF físicas inventadas.
