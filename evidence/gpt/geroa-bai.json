@@ -24,6 +24,23 @@
       "documentVersion": null,
       "sha256": null,
       "notes": "Nota en la web de la coalición (1.050 palabras). Dice que el documento de bases políticas puede consultarse en euskera y castellano en geroabai.eus, pero no enlaza ese documento y no lo he localizado. Es propuesta oficial de campaña, no programa completo."
+    },
+    {
+      "id": "geroa-bai-s02",
+      "url": "https://geroabai.eus/files/2026/11/bases-politicas-29n-1.pdf",
+      "publisher": "Geroa Bai",
+      "title": "Bases políticas · Elecciones generales 29 de noviembre de 2026",
+      "published": "2026-11-12",
+      "accessed": "2026-11-15",
+      "election": "Generales de España 2026",
+      "year": 2026,
+      "kind": "programa",
+      "origin": "primaria",
+      "hosting": "oficial",
+      "historical": false,
+      "documentVersion": null,
+      "sha256": "4e011dc660957ebac66666844fc65ff2f069633ea5254a524c7aad1c34e20c0c",
+      "notes": "Documento oficial de 14 páginas publicado en geroabai.eus (12/11/2026), leído completo. Es un documento de bases políticas, no un programa con medidas por áreas: solo se codifica lo que dice de forma explícita. Numeración según el pie «GEROA BAI · N»."
     }
   ],
   "questions": {
@@ -107,16 +124,16 @@
     },
     "7": {
       "status": "documentada",
-      "position": 5,
+      "position": 4,
       "sourceIds": [
-        "geroa-bai-s01"
+        "geroa-bai-s02"
       ],
-      "locator": "Apartado «Navarra, sujeto político y con capacidad de decisión»",
-      "evidenceSummary": "Defiende el cumplimiento de las transferencias pendientes, la bilateralidad de la LORAFNA y la transferencia de la competencia de becas.",
-      "reason": "Apoyo claro a completar transferencias.",
+      "locator": "PDF p. 7 y p. 12",
+      "evidenceSummary": "Exige el cumplimiento de lo marcado por la LORAFNA en materia de transferencias y pide traspasar a Navarra la competencia de becas.",
+      "reason": "Apoyo a completar transferencias pendientes, formulado para Navarra; no propone una ampliación general de competencias autonómicas.",
       "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "Propuesta oficial de campaña; no es programa electoral completo.",
+      "reviewNeeded": false,
+      "reviewNote": null,
       "nextAction": null,
       "replaces": null,
       "baselinePosition": {
@@ -169,16 +186,18 @@
       "replaces": null
     },
     "11": {
-      "status": "sin-evidencia",
-      "position": null,
-      "sourceIds": [],
-      "locator": null,
-      "evidenceSummary": null,
-      "reason": "Posición retirada tras la auditoría: el pasaje citado no responde a la afirmación tal como está redactada.",
-      "confidence": "baja",
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "geroa-bai-s02"
+      ],
+      "locator": "PDF p. 13–14",
+      "evidenceSummary": "Denuncia el negacionismo de la violencia de género y propone reforzar las políticas públicas de protección de mujeres víctimas de maltrato.",
+      "reason": "Apoyo a mantener y reforzar la protección; el texto no cita expresamente la legislación específica.",
+      "confidence": "media",
       "reviewNeeded": false,
       "reviewNote": null,
-      "nextAction": "Buscar texto del partido sobre este tema.",
+      "nextAction": null,
       "replaces": null
     },
     "12": {

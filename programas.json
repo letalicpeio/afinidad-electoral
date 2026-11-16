@@ -1,1113 +1,1112 @@
 {
- "version": "0.1.0",
- "checked": "2026-11-15",
- "statusLabels": {
-  "oficial": "Programa oficial localizado",
-  "resumen": "Solo resumen en la web oficial",
-  "copia": "Copia no oficial",
-  "no-localizado": "No localizado todavía",
-  "sin-revisar": "Sin revisar",
-  "secundaria": "Propuestas documentadas en prensa",
-  "historico": "Programa histórico · uso provisional"
- },
- "parties": [
-  {
-   "id": "adelante-andalucia",
-   "name": "Adelante Andalucía",
-   "short": "",
-   "names": [
-    "ADELANTE ANDALUCÍA (ADELANTE ANDALUCÍA)"
-   ],
-   "website": "https://adelanteandalucia.org/",
-   "program": {
-    "status": "oficial",
-    "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
-    "title": "Programa completo. Elecciones generales 29N 2026 (PDF)",
-    "official": true,
-    "note": "PDF en un subdominio del partido enlazado desde su web. Existe además un resumen, «Las 29 del 29N».",
-    "checked": "2026-11-14",
-    "checkedAt": "2026-11-14T17:00:43Z"
-   },
-   "dataId": "adelante"
+  "version": "0.1.0",
+  "checked": "2026-11-15",
+  "statusLabels": {
+    "oficial": "Programa oficial localizado",
+    "resumen": "Solo resumen en la web oficial",
+    "copia": "Copia no oficial",
+    "no-localizado": "No localizado todavía",
+    "sin-revisar": "Sin revisar",
+    "secundaria": "Propuestas documentadas en prensa",
+    "historico": "Programa histórico · uso provisional"
   },
-  {
-   "id": "agenda-valenciana",
-   "name": "Agenda Valenciana",
-   "short": "",
-   "names": [
-    "AGENDA VALENCIANA (AGENDA VALENCIANA)"
-   ],
-   "program": {
-    "status": "no-localizado",
-    "official": false,
-    "detail": "Búsqueda del 15/11/2026: no se localizó web oficial ni programa del 29N.",
-    "checked": "2026-11-15",
-    "checkedAt": "2026-11-15T09:02:53Z",
-    "note": "No se han usado programas de otras convocatorias ni prensa para codificar posiciones."
-   }
-  },
-  {
-   "id": "alhora",
-   "name": "Alhora",
-   "short": "",
-   "names": [
-    "ALHORA (ALHORA)"
-   ],
-   "program": {
-    "status": "no-localizado",
-    "official": false,
-    "detail": "Búsqueda del 15/11/2026: la prensa confirma sus listas para el 29N, pero no se localizó un programa publicado en su web.",
-    "checked": "2026-11-15",
-    "checkedAt": "2026-11-15T09:02:53Z",
-    "note": "No se han usado programas de otras convocatorias ni prensa para codificar posiciones."
-   }
-  },
-  {
-   "id": "alternativa-malaguena",
-   "name": "Alternativa Malagueña",
-   "short": "29",
-   "names": [
-    "ALTERNATIVA MALAGUEÑA (29)"
-   ],
-   "program": {
-    "status": "sin-revisar",
-    "official": false,
-    "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
-    "checked": "2026-11-14"
-   }
-  },
-  {
-   "id": "arames",
-   "name": "Aramés–Front Ampli",
-   "short": "Aramés-EU-MS",
-   "names": [
-    "ARAMÉS-FRONT AMPLI (ARAMÉS-EU-MS)"
-   ],
-   "note": "Coalición: no hereda el programa de sus miembros.",
-   "program": {
-    "status": "sin-revisar",
-    "official": false,
-    "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
-    "checked": "2026-11-14"
-   }
-  },
-  {
-   "id": "bng",
-   "name": "BNG",
-   "short": "Bloque Nacionalista Galego",
-   "names": [
-    "BLOQUE NACIONALISTA GALEGO (BNG)",
-    "BLOQUE NACIONALISTA GALEGO (B.N.G.)"
-   ],
-   "website": "https://www.bng.gal/",
-   "dataId": "bng",
-   "program": {
-    "status": "oficial",
-    "url": "https://www.bng.gal/media/bnggaliza/files/2026/11/12/26_bng_xerais_documentos_programa_electoral.pdf",
-    "title": "Programa electoral xerais 2026 (PDF)",
-    "official": true,
-    "checked": "2026-11-14"
-   }
-  },
-  {
-   "id": "cha",
-   "name": "Chunta Aragonesista–Frente Amplio Aragón",
-   "short": "CHA-IU-MS-Frente Amplio",
-   "names": [
-    "CHUNTA ARAGONESISTA-FRENTE AMPLIO ARAGÓN (CHA-IU-MS-FRENTE AMPLIO)"
-   ],
-   "note": "Coalición: no hereda el programa de sus miembros.",
-   "program": {
-    "status": "no-localizado",
-    "official": true,
-    "consulted": "https://www.chunta.org/la-reclamacion-de-infraestructuras-y-el-derecho-a-una-vivienda-digna-principales-medidas-del-programa-electoral-de-cha-frente-amplio-aragon/",
-    "detail": "La web del partido publica (13/11/2026) las líneas principales de su programa, pero no el documento.",
-    "note": "Las líneas publicadas no responden de forma explícita a las 18 afirmaciones: no se han codificado posiciones.",
-    "checked": "2026-11-14",
-    "checkedAt": "2026-11-14T17:00:43Z"
-   },
-   "website": "https://www.chunta.org/"
-  },
-  {
-   "id": "cc",
-   "name": "Coalición Canaria–Municipalistas Primero Canarias",
-   "short": "CCa-1.ºCAN",
-   "names": [
-    "Coalición Canaria-Municipalistas Primero Canarias (CCa-1.ºCAN)",
-    "MUNICIPALISTAS PRIMERO CANARIAS-COALICIÓN CANARIA (1.ºCAN-CCa)"
-   ],
-   "website": "https://coalicioncanaria.org/",
-   "dataId": "cc",
-   "program": {
-    "status": "oficial",
-    "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
-    "title": "Programa electoral 29N (PDF)",
-    "official": true,
-    "checked": "2026-11-15",
-    "note": "Cuatro posiciones del programa conjunto de 2026 y una declaración oficial de CC de febrero de 2026 sobre pensiones, pendiente de confirmación expresa conjunta. Jornada de 2025 conservada solo en investigación. Alcances y trazabilidad en evidence/gpt/cc.json."
-   }
-  },
-  {
-   "id": "compromis",
-   "name": "Compromís: Front Valencià",
-   "short": "Compromís-EUPV-Podem-ERPV",
-   "names": [
-    "COMPROMÍS: FRONT VALENCIÀ (COMPROMIS-EUPV-PODEM-ERPV)"
-   ],
-   "note": "Coalición: no hereda el programa de sus miembros.",
-   "website": "https://frontvalencia.org/",
-   "program": {
-    "status": "oficial",
-    "url": "https://frontvalencia.org/programa-compromis-front-valencia.pdf",
-    "title": "Programa electoral 29N · Compromís–Front Valencià",
-    "official": true,
-    "checked": "2026-11-16",
-    "note": "Programa oficial del 29N localizado por la auditoría de GPT y leído completo. Las 14 posiciones salen de este documento; no se usan antecedentes ni prensa."
-   },
-   "dataId": "compromis"
-  },
-  {
-   "id": "comuns",
-   "name": "Comuns–Front Ampli",
-   "short": "",
-   "names": [
-    "Comuns-Front Ampli (COMUNS-FRONT AMPLI)"
-   ],
-   "note": "Coalición: no hereda el programa de sus miembros.",
-   "program": {
-    "status": "historico",
-    "consulted": "https://beteve.cat/politica/programes-electorals-29n-eleccions-generals-2026-pdf/",
-    "official": true,
-    "note": "Comuns no ha publicado programa del 29N. Cuatro posiciones como antecedente del programa de 2023 alojado en su web; no acreditan compromisos actuales.",
-    "checked": "2026-11-15",
-    "checkedAt": "2026-11-15T09:02:53Z",
-    "url": "https://comuns.cat/wp-content/uploads/2025/07/sumarECP-programa-generales-2023.pdf",
-    "title": "Programa Sumar–En Comú Podem · generales 2023 (web de Comuns)"
-   },
-   "dataId": "comuns",
-   "website": "https://comuns.cat/"
-  },
-  {
-   "id": "convergents",
-   "name": "Convergents",
-   "short": "CNV",
-   "names": [
-    "CONVERGENTS (CNV)"
-   ],
-   "program": {
-    "status": "no-localizado",
-    "official": false,
-    "detail": "Búsqueda del 15/11/2026: no se localizó web oficial ni programa del 29N.",
-    "checked": "2026-11-15",
-    "checkedAt": "2026-11-15T09:02:53Z",
-    "note": "No se han usado programas de otras convocatorias ni prensa para codificar posiciones."
-   }
-  },
-  {
-   "id": "d21",
-   "name": "Democracia para el Siglo 21",
-   "short": "D21",
-   "names": [
-    "DEMOCRACIA PARA EL SIGLO 21 (D21)"
-   ],
-   "program": {
-    "status": "oficial",
-    "url": "https://mi.democracia21.es/programa",
-    "title": "La España que merecemos · Programa por temas (web)",
-    "official": true,
-    "note": "Programa temático oficial. Cinco afirmaciones puntuables. Integración europea con apoyo matizado (4), sin compromiso federal explícito; fuente oficial contrastada. Resto sin nuevas puntuaciones.",
-    "checked": "2026-11-15"
-   },
-   "website": "https://democracia21.es/",
-   "dataId": "d21"
-  },
-  {
-   "id": "pnv",
-   "name": "EAJ-PNV",
-   "short": "Partido Nacionalista Vasco",
-   "names": [
-    "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO (EAJ-PNV)"
-   ],
-   "website": "https://www.eaj-pnv.eus/",
-   "dataId": "pnv",
-   "program": {
-    "status": "oficial",
-    "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
-    "title": "Programa Elecciones Generales 2026 (PDF)",
-    "official": true,
-    "checked": "2026-11-15",
-    "note": "18 decisiones revisadas en la ficha de evidencia: cinco puntuables, tres en revisión y diez sin evidencia suficiente. En la web hay siete casillas: cinco puntuables y dos contextuales excluidas del cálculo. El caso europeo adicional queda solo en revisión documental. Fuentes y búsquedas en evidence/gpt/pnv.json."
-   }
-  },
-  {
-   "id": "eguzkilore",
-   "name": "Eguzkilore",
-   "short": "",
-   "names": [
-    "EGUZKILORE (EGUZKILORE)"
-   ],
-   "program": {
-    "status": "sin-revisar",
-    "official": false,
-    "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
-    "checked": "2026-11-14"
-   }
-  },
-  {
-   "id": "ehbildu",
-   "name": "EH Bildu",
-   "short": "",
-   "names": [
-    "EUSKAL HERRIA BILDU (EH BILDU)"
-   ],
-   "website": "https://ehbildu.eus/",
-   "program": {
-    "status": "historico",
-    "url": "https://www.elnacional.cat/uploads/s1/42/81/42/33/programa-electoral-eh-bildu-eleccions-generals-2023.pdf",
-    "title": "Compromiso de Euskal Herria Bildu · generales 2023 (copia alojada por El Nacional)",
-    "official": false,
-    "checked": "2026-11-14",
-    "note": "Programa de las generales de 2023 (copia alojada por un medio), leído completo: seis posiciones como antecedente. EH Bildu no ha publicado programa del 29N. Los antecedentes participan provisionalmente en el cálculo y no acreditan compromisos actuales."
-   },
-   "dataId": "ehbildu"
-  },
-  {
-   "id": "ehbildu-erc",
-   "name": "EH Bildu–ERC (coalición)",
-   "short": "EH Bildu-ERC",
-   "names": [
-    "EUSKAL HERRIA BILDU-ESQUERRA REPUBLICANA DE CATALUNYA (EH BILDU-ERC)"
-   ],
-   "note": "Coalición: no hereda el programa de sus miembros.",
-   "program": {
-    "status": "sin-revisar",
-    "official": false,
-    "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
-    "checked": "2026-11-14"
-   }
-  },
-  {
-   "id": "escanos-en-blanco",
-   "name": "Escaños en Blanco",
-   "short": "",
-   "names": [
-    "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS (ESCAÑOS EN BLANCO)",
-    "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS (ESCAÑOS EN BLANCO)",
-    "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS (ESCAÑOS EN BLANCO)",
-    "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS (ESCAÑOS EN BLANCO)",
-    "Escanos en Branco para deixar Escanos Baleiros (ESCAÑOS EN BLANCO)"
-   ],
-   "program": {
-    "status": "no-localizado",
-    "official": false,
-    "detail": "Búsqueda del 15/11/2026: no se localizó web oficial ni programa del 29N. Su propuesta histórica se limita a dejar vacíos los escaños, sin posición sobre las 18 afirmaciones.",
-    "checked": "2026-11-15",
-    "checkedAt": "2026-11-15T09:02:53Z",
-    "note": "No se han usado programas de otras convocatorias ni prensa para codificar posiciones."
-   }
-  },
-  {
-   "id": "erc",
-   "name": "Esquerra Republicana de Catalunya",
-   "short": "ERC",
-   "names": [
-    "ESQUERRA REPUBLICANA DE CATALUNYA (ERC)"
-   ],
-   "website": "https://www.esquerrarepublicana.cat/",
-   "dataId": "erc",
-   "program": {
-    "status": "oficial",
-    "url": "https://esquerrarepublicana.cat/documents/e2026-programa.pdf",
-    "title": "Programa electoral 29N 2026 (PDF)",
-    "official": true,
-    "note": "Comprobado el 14/11/2026: el PDF del dominio del partido es idéntico, byte a byte, a la copia alojada por Betevé que se usó en la primera revisión.",
-    "checked": "2026-11-14"
-   }
-  },
-  {
-   "id": "fe-jons",
-   "name": "Falange Española de las JONS",
-   "short": "FE de las JONS",
-   "names": [
-    "FALANGE ESPAÑOLA DE LAS JONS (FE de las JONS)",
-    "FALANGE ESPAÑOLA DE LAS J.O.N.S. (FE de las JONS)"
-   ],
-   "program": {
-    "status": "oficial",
-    "url": "https://falange.es/wp-content/uploads/2026/11/FEDELASJONS_ProgramaElectoral_29NGenerales2026.pdf",
-    "title": "Programa electoral 29N Generales 2026 (PDF)",
-    "official": true,
-    "note": "PDF del dominio del partido enlazado desde su web, que aún muestra textos de plantilla sin completar.",
-    "checked": "2026-11-14"
-   },
-   "website": "https://falange.es/",
-   "dataId": "fejons"
-  },
-  {
-   "id": "fia",
-   "name": "Federación de los Independientes de Aragón",
-   "short": "FIA",
-   "names": [
-    "FEDERACION DE LOS INDEPENDIENTES DE ARAGON (FIA)",
-    "FEDERACION DE LOS INDEPENDIENTES DE ARAGON (F.I.A.)"
-   ],
-   "program": {
-    "status": "sin-revisar",
-    "official": false,
-    "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
-    "checked": "2026-11-14"
-   }
-  },
-  {
-   "id": "feminism8",
-   "name": "Feminism8",
-   "short": "F8",
-   "names": [
-    "FEMINISM8 (F8)"
-   ],
-   "program": {
-    "status": "sin-revisar",
-    "official": false,
-    "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
-    "checked": "2026-11-14"
-   }
-  },
-  {
-   "id": "frente-amplio",
-   "name": "Frente Amplio",
-   "short": "FA",
-   "names": [
-    "FRENTE AMPLIO (FA)",
-    "FRENTE AMPLIO ANDALUZ (FA)",
-    "FRENTE AMPLIU POR ASTURIES (FA)",
-    "FRENTE AMPLIO-FRONTE AMPLA (FRENTE AMPLIO-FRONTE AMPLA)",
-    "FRENTE AMPLIO-FRONTE ZABALA (FRENTE AMPLIO-FRONTE ZABALA)",
-    "Frente Amplio - Fronte Ampla (FRENTE AMPLIO - FRONTE AMPLA)"
-   ],
-   "note": "Agrupa las variantes territoriales de la marca Frente Amplio que figuran en el BOE; las coaliciones con otros nombres aparecen aparte.",
-   "website": "https://frenteamplio.info/",
-   "program": {
-    "status": "resumen",
-    "url": "https://frenteamplio.info/noticias/frente-amplio-propone-ninguna-pension-este-debajo-salario-minimo-recuperar/",
-    "title": "Propuesta de campaña sobre pensiones",
-    "official": true,
-    "checked": "2026-11-14",
-    "note": "2 afirmaciones documentadas de dieciocho. Evidencias parciales; no se ha verificado un programa completo de la convocatoria. Cada posición identifica su fuente oficial o periodística y queda pendiente de revisión con el programa electoral. Se añaden 7 posiciones como antecedente del programa de Sumar de 2023 (alianza predecesora), por decisión del usuario; no acreditan compromisos de Frente Amplio."
-   },
-   "dataId": "frente-amplio"
-  },
-  {
-   "id": "frente-obrero",
-   "name": "Frente Obrero",
-   "short": "FO",
-   "names": [
-    "FRENTE OBRERO",
-    "FRENTE OBRERO (FO)"
-   ],
-   "program": {
-    "status": "oficial",
-    "url": "https://frenteobrero.es/documentos/programa-frente-obrero.pdf",
-    "title": "Programa del Frente Obrero (PDF)",
-    "official": true,
-    "note": "PDF del dominio del partido (modificado el 12/11/2026), con diez prioridades para el Congreso.",
-    "checked": "2026-11-14"
-   },
-   "website": "https://frenteobrero.es/",
-   "dataId": "fo"
-  },
-  {
-   "id": "geroa-bai",
-   "name": "Geroa Bai",
-   "short": "GBAI",
-   "names": [
-    "GEROA BAI (GBAI)"
-   ],
-   "program": {
-    "status": "resumen",
-    "url": "https://geroabai.eus/es/actualidad/geroa-bai-presenta-sus-bases-politicas-para-las-elecciones-generales-con-la-defensa-de-navarra-el-autogobierno-y-el-estado-del-bienestar-como-ejes-centrales",
-    "title": "Bases políticas para las elecciones generales (nota oficial, 14/11/2026)",
-    "official": true,
-    "note": "No es un programa electoral completo: es la nota con la que la coalición presenta sus bases políticas. Solo se ha codificado lo que dice de forma explícita.",
-    "checked": "2026-11-14",
-    "checkedAt": "2026-11-14T17:00:43Z"
-   },
-   "website": "https://geroabai.eus/",
-   "dataId": "geroabai"
-  },
-  {
-   "id": "iustitia",
-   "name": "Iustitia Europa",
-   "short": "IE",
-   "names": [
-    "IUSTITIA EUROPA (IE)"
-   ],
-   "program": {
-    "status": "oficial",
-    "url": "https://iustitiaeuropa.es/contrato-electoral/",
-    "title": "Contrato electoral vigente · Campaña 29N (web)",
-    "official": true,
-    "note": "Contrato enlazado desde la sección de elecciones 29-N y la nota oficial de campaña. La fecha de adopción para esta campaña no se confunde con la fecha de primera publicación del contrato.",
-    "checked": "2026-11-14"
-   },
-   "website": "https://iustitiaeuropa.es/",
-   "dataId": "iustitia"
-  },
-  {
-   "id": "ipal",
-   "name": "Izquierda por Almería",
-   "short": "I.P.A.L.",
-   "names": [
-    "IZQUIERDA POR ALMERÍA (I.P.A.L.)"
-   ],
-   "program": {
-    "status": "sin-revisar",
-    "official": false,
-    "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
-    "checked": "2026-11-14"
-   }
-  },
-  {
-   "id": "jose-maria-calvo",
-   "name": "José María Calvo Guerra",
-   "short": "",
-   "names": [
-    "José María Calvo Guerra"
-   ],
-   "program": {
-    "status": "sin-revisar",
-    "official": false,
-    "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
-    "checked": "2026-11-14"
-   }
-  },
-  {
-   "id": "juex",
-   "name": "Juntos por Extremadura",
-   "short": "J.U.E.X.",
-   "names": [
-    "JUNTOS POR EXTREMADURA (J.U.E.X.)"
-   ],
-   "program": {
-    "status": "sin-revisar",
-    "official": false,
-    "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
-    "checked": "2026-11-14"
-   }
-  },
-  {
-   "id": "junts",
-   "name": "Junts per Catalunya",
-   "short": "JxCat",
-   "names": [
-    "JUNTS PER CATALUNYA (JxCat)"
-   ],
-   "website": "https://junts.cat/",
-   "program": {
-    "status": "secundaria",
-    "url": "https://www.europapress.es/catalunya/noticia-nogueras-junts-abre-hablar-psoe-29n-si-catalunya-centro-20261106111810.html",
-    "title": "Europa Press · 06/11/2026 · condiciones de negociación",
-    "official": false,
-    "checked": "2026-11-14",
-    "note": "Seis posiciones documentadas: una declaración de 2026 y cinco antecedentes de generales de 2023 (candidatura Junts–Demòcrates–Més Esquerres, copia en Betevé). Los antecedentes participan provisionalmente en el cálculo y no acreditan compromisos actuales. Año, convocatoria y fuente se indican por posición."
-   },
-   "dataId": "junts"
-  },
-  {
-   "id": "justicia-y-ley",
-   "name": "Justicia y Ley",
-   "short": "JL",
-   "names": [
-    "JUSTICIA Y LEY (JL)"
-   ],
-   "program": {
-    "status": "sin-revisar",
-    "official": false,
-    "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
-    "checked": "2026-11-14"
-   }
-  },
-  {
-   "id": "liberacion-canaria",
-   "name": "Liberación Canaria",
-   "short": "LIB",
-   "names": [
-    "LIBERACIÓN CANARIA (LIB)"
-   ],
-   "program": {
-    "status": "sin-revisar",
-    "official": false,
-    "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
-    "checked": "2026-11-14"
-   }
-  },
-  {
-   "id": "nex",
-   "name": "Nuevo Extremeñismo–Adelante Extremadura",
-   "short": "NEX",
-   "names": [
-    "NUEVO EXTREMEÑISMO - ADELANTE EXTREMADURA (NEX)"
-   ],
-   "program": {
-    "status": "sin-revisar",
-    "official": false,
-    "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
-    "checked": "2026-11-14"
-   }
-  },
-  {
-   "id": "pacma",
-   "name": "PACMA",
-   "short": "Partido Animalista con el Medio Ambiente",
-   "names": [
-    "PARTIT ANIMALISTA AMB EL MEDI AMBIENT (PACMA)",
-    "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE (PACMA)"
-   ],
-   "website": "https://pacma.es/",
-   "dataId": "pacma",
-   "program": {
-    "status": "oficial",
-    "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
-    "title": "Programa electoral generales 29N 2026 (PDF)",
-    "official": true,
-    "checked": "2026-11-14"
-   }
-  },
-  {
-   "id": "pancal",
-   "name": "PANCAL–URCI",
-   "short": "Partido Nacionalista de Castilla y León–Unión Reformista Ciudadana",
-   "names": [
-    "PARTIDO NACIONALISTA DE CASTILLA Y LEÓN - UNION REFORMISTA CIUDADANA (PANCAL-URCI)"
-   ],
-   "program": {
-    "status": "sin-revisar",
-    "official": false,
-    "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
-    "checked": "2026-11-14"
-   }
-  },
-  {
-   "id": "autonomos",
-   "name": "Partido Autónomos",
-   "short": "",
-   "names": [
-    "PARTIDO AUTÓNOMOS (PARTIDO AUTÓNOMOS)"
-   ],
-   "program": {
-    "status": "no-localizado",
-    "official": false,
-    "detail": "Búsqueda del 15/11/2026: no se localizó web oficial ni programa del 29N.",
-    "checked": "2026-11-15",
-    "checkedAt": "2026-11-15T09:02:53Z",
-    "note": "No se han usado programas de otras convocatorias ni prensa para codificar posiciones."
-   }
-  },
-  {
-   "id": "pcpc",
-   "name": "Partido Comunista del Pueblo Canario",
-   "short": "PCPC",
-   "names": [
-    "PARTIDO COMUNISTA DEL PUEBLO CANARIO (PCPC)"
-   ],
-   "program": {
-    "status": "sin-revisar",
-    "official": false,
-    "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
-    "checked": "2026-11-14"
-   }
-  },
-  {
-   "id": "pctg",
-   "name": "Partido Comunista dos Traballadores da Galiza",
-   "short": "PCTG",
-   "names": [
-    "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA (PCTG)"
-   ],
-   "program": {
-    "status": "sin-revisar",
-    "official": false,
-    "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
-    "checked": "2026-11-14"
-   }
-  },
-  {
-   "id": "pdsje",
-   "name": "Partido Demócrata Social Jubilados Europeos",
-   "short": "P.D.S.J.E.",
-   "names": [
-    "PARTIDO DEMÓCRATA SOCIAL JUBILADOS EUROPEOS (P.D.S.J.E.)"
-   ],
-   "program": {
-    "status": "sin-revisar",
-    "official": false,
-    "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
-    "checked": "2026-11-14"
-   }
-  },
-  {
-   "id": "drago",
-   "name": "Partido Drago Canarias",
-   "short": "D.R.G",
-   "names": [
-    "PARTIDO DRAGO CANARIAS (D.R.G)"
-   ],
-   "program": {
-    "status": "sin-revisar",
-    "official": false,
-    "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
-    "checked": "2026-11-14"
-   }
-  },
-  {
-   "id": "humanista",
-   "name": "Partido Humanista",
-   "short": "PH",
-   "names": [
-    "PARTIDO HUMANISTA (PH)"
-   ],
-   "program": {
-    "status": "oficial",
-    "url": "https://www.partidohumanista.es/Documentos/Programas/Programa%20Generales%202026.pdf",
-    "title": "Programa Elecciones Generales 2026 (PDF)",
-    "official": true,
-    "checked": "2026-11-14",
-    "checkedAt": "2026-11-14T17:15:50Z",
-    "note": "Documento de 2026 enlazado desde el archivo oficial de programas. Ocho posiciones revisadas sobre las afirmaciones de la encuesta."
-   },
-   "website": "https://www.partidohumanista.es/",
-   "dataId": "humanista"
-  },
-  {
-   "id": "pp",
-   "name": "Partido Popular",
-   "short": "PP",
-   "names": [
-    "PARTIDO POPULAR (PP)",
-    "PARTIT POPULAR / PARTIDO POPULAR (PP)"
-   ],
-   "website": "https://www.pp.es/",
-   "dataId": "pp",
-   "program": {
-    "status": "oficial",
-    "url": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
-    "title": "La Reconstrucción Nacional (PDF)",
-    "official": true,
-    "checked": "2026-11-14",
-    "note": " Ampliación: Defensa e integración europea, medidas del programa de 2026; apoyo europeo moderado por no concretar una reforma institucional federal."
-   }
-  },
-  {
-   "id": "prepal",
-   "name": "Partido Regionalista del País Leonés",
-   "short": "PREPAL",
-   "names": [
-    "PARTIDO REGIONALISTA DEL PAIS LEONES (PREPAL)"
-   ],
-   "program": {
-    "status": "sin-revisar",
-    "official": false,
-    "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
-    "checked": "2026-11-14"
-   }
-  },
-  {
-   "id": "psoe-huelva",
-   "name": "Partido Socialista de Huelva (PSOE)",
-   "short": "",
-   "names": [
-    "PARTIDO SOCIALISTA DE HUELVA (PSOE)"
-   ],
-   "note": "Denominación provincial con la sigla PSOE; no hereda automáticamente el programa estatal.",
-   "program": {
-    "status": "sin-revisar",
-    "official": false,
-    "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
-    "checked": "2026-11-14"
-   }
-  },
-  {
-   "id": "pctc",
-   "name": "Partit Comunista dels Treballadors de Catalunya",
-   "short": "PCTC",
-   "names": [
-    "PARTIT COMUNISTA DELS TREBALLADORS DE CATALUNYA (PCTC)"
-   ],
-   "program": {
-    "status": "sin-revisar",
-    "official": false,
-    "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
-    "checked": "2026-11-14"
-   }
-  },
-  {
-   "id": "pcte",
-   "name": "PCTE",
-   "short": "Partido Comunista de los Trabajadores de España",
-   "names": [
-    "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA (PCTE)"
-   ],
-   "website": "https://www.pcte.es/",
-   "program": {
-    "status": "historico",
-    "consulted": "https://www.pcte.es/",
-    "official": true,
-    "detail": "La web enlaza un programa del 10N de 2020 y el «Programa de lucha 2023-2027», pero ningún programa específico para el 29N de 2026. Nueva búsqueda del 15/11/2026 sin resultados del 29N.",
-    "note": "Antecedente: documento político de 2023 alojado en la web del partido. No hay programa del 29N de 2026; las posiciones que se toman de él van marcadas como antecedente con su año.",
-    "checked": "2026-11-15",
-    "checkedAt": "2026-11-15T09:02:53Z",
-    "url": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
-    "title": "Programa de lucha 2023-2027 (documento político del PCTE, antecedente)"
-   },
-   "dataId": "pcte"
-  },
-  {
-   "id": "pcte-euskadi",
-   "name": "PCTE en Euskadi (ELAK/PCTE)",
-   "short": "",
-   "names": [
-    "EUSKADIKO LANGILEEN ALDERDI KOMUNISTA/PARTIDO COMUNISTA DE LOS TRABAJADORES DE EUSKADI (ELAK/PCTE)",
-    "PARTIDO COMUNISTA DE LOS TRABAJADORES DE EUSKADI/EUSKADIKO LANGILEEN ALDERDI KOMUNISTA (PCTE/ELAK)"
-   ],
-   "note": "Denominación bilingüe de la candidatura del PCTE en Euskadi.",
-   "program": {
-    "status": "sin-revisar",
-    "official": false,
-    "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
-    "checked": "2026-11-14"
-   }
-  },
-  {
-   "id": "podemos",
-   "name": "Podemos",
-   "short": "",
-   "names": [
-    "PODEMOS",
-    "PODEMOS (PODEMOS)",
-    "PODEMOS (PAZ,CASA Y TRABAJO)"
-   ],
-   "website": "https://podemos.info/",
-   "program": {
-    "status": "secundaria",
-    "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/09/17/914567-el-congreso-rechaza-el-plan-de-podemos-para-topar-los-alquileres-y-expropiar",
-    "title": "Propuesta de alquiler · Europa Press / Idealista",
-    "official": false,
-    "checked": "2026-11-14",
-    "note": "Siete posiciones: dos evidencias de 2026 y cinco antecedentes de europeas 2024. La prioridad sobre aborto procede de la página oficial; las otras cuatro, de la copia del programa en RTVE. Los antecedentes participan provisionalmente en el cálculo, sin acreditar compromisos actuales. Año y convocatoria se indican en cada posición."
-   },
-   "dataId": "podemos"
-  },
-  {
-   "id": "mundo-justo",
-   "name": "Por un Mundo Más Justo",
-   "short": "Mundo+Justo",
-   "names": [
-    "POR UN MUNDO MAS JUSTO (MUNDO+JUSTO)",
-    "POR UN MUNDO MÁS JUSTO (MUNDO+JUSTO)",
-    "POR UN MUNDO MAIS XUSTO (MUNDO+JUSTO)"
-   ],
-   "program": {
-    "status": "oficial",
-    "url": "https://www.porunmundomasjusto.es/wp-content/uploads/2026/11/Castellano.pdf",
-    "title": "Programa Elecciones Generales 29N 2026 (PDF)",
-    "official": true,
-    "note": "PDF alojado en el dominio del partido (modificado el 10/11/2026), con 32 ejes de propuestas.",
-    "checked": "2026-11-14"
-   },
-   "website": "https://www.porunmundomasjusto.es/",
-   "dataId": "mj"
-  },
-  {
-   "id": "alantre",
-   "name": "Proyecto Alantre",
-   "short": "P. Alantre",
-   "names": [
-    "PROYECTO ALANTRE (P. ALANTRE)"
-   ],
-   "program": {
-    "status": "sin-revisar",
-    "official": false,
-    "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
-    "checked": "2026-11-14"
-   }
-  },
-  {
-   "id": "psc",
-   "name": "PSC-PSOE",
-   "short": "Partit dels Socialistes de Catalunya",
-   "names": [
-    "PARTIT DELS SOCIALISTES DE CATALUNYA (PSC-PSOE) (PSC)"
-   ],
-   "note": "Federación territorial del PSOE; no hereda automáticamente el programa estatal.",
-   "program": {
-    "status": "no-localizado",
-    "consulted": "https://beteve.cat/politica/programes-electorals-29n-eleccions-generals-2026-pdf/",
-    "official": false,
-    "detail": "Betevé indica a 13/11/2026 que aún no ha publicado el programa de estas elecciones.",
-    "note": "La fuente es un medio, no la web del partido: no sustituye a comprobarlo en el propio partido.",
-    "checked": "2026-11-14",
-    "checkedAt": "2026-11-14T17:00:43Z"
-   }
-  },
-  {
-   "id": "psdeg",
-   "name": "PSdeG-PSOE",
-   "short": "Partido dos Socialistas de Galicia",
-   "names": [
-    "PARTIDO DOS SOCIALISTAS DE GALICIA-PSOE (PSdeG-PSOE)"
-   ],
-   "note": "Federación territorial del PSOE; no hereda automáticamente el programa estatal.",
-   "program": {
-    "status": "sin-revisar",
-    "official": false,
-    "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
-    "checked": "2026-11-14"
-   }
-  },
-  {
-   "id": "pse-ee",
-   "name": "PSE-EE (PSOE)",
-   "short": "Partido Socialista de Euskadi",
-   "names": [
-    "PARTIDO SOCIALISTA DE EUSKADI-EUSKADIKO EZKERRA (PSOE) PSE-EE (PSOE)"
-   ],
-   "note": "Federación territorial del PSOE; no hereda automáticamente el programa estatal.",
-   "program": {
-    "status": "sin-revisar",
-    "official": false,
-    "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
-    "checked": "2026-11-14"
-   }
-  },
-  {
-   "id": "psib",
-   "name": "PSIB-PSOE",
-   "short": "Partido Socialista de las Islas Baleares",
-   "names": [
-    "PARTIDO SOCIALISTA DE LAS ISLAS BALEARES (PSIB-PSOE)"
-   ],
-   "note": "Federación territorial del PSOE; no hereda automáticamente el programa estatal.",
-   "program": {
-    "status": "sin-revisar",
-    "official": false,
-    "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
-    "checked": "2026-11-14"
-   }
-  },
-  {
-   "id": "psn",
-   "name": "PSN-PSOE",
-   "short": "Partido Socialista de Navarra",
-   "names": [
-    "PARTIDO SOCIALISTA DE NAVARRA-PSOE (PSN-PSOE)"
-   ],
-   "note": "Federación territorial del PSOE; no hereda automáticamente el programa estatal.",
-   "program": {
-    "status": "sin-revisar",
-    "official": false,
-    "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
-    "checked": "2026-11-14"
-   }
-  },
-  {
-   "id": "psoe",
-   "name": "PSOE",
-   "short": "Partido Socialista Obrero Español",
-   "names": [
-    "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)"
-   ],
-   "website": "https://psoe.es/",
-   "program": {
-    "status": "oficial",
-    "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26-1.pdf",
-    "title": "Programa electoral del PSOE para el 29N (2026)",
-    "official": true,
-    "checked": "2026-11-15",
-    "note": "Programa oficial de 2026 publicado en psoe.es el 15/11/2026 y revisado completo. Las posiciones proceden sólo de este documento; los antecedentes de 2023 y las declaraciones de prensa quedan fuera del cálculo."
-   },
-   "dataId": "psoe"
-  },
-  {
-   "id": "puede",
-   "name": "PUEDE",
-   "short": "Partido Unionista Estado de España",
-   "names": [
-    "PARTIDO UNIONISTA ESTADO DE ESPAÑA (PUEDE)"
-   ],
-   "program": {
-    "status": "sin-revisar",
-    "official": false,
-    "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
-    "checked": "2026-11-14"
-   }
-  },
-  {
-   "id": "renacer",
-   "name": "Renacer Renaixer",
-   "short": "RRB",
-   "names": [
-    "RENACER RENAIXER (RRB)"
-   ],
-   "program": {
-    "status": "sin-revisar",
-    "official": false,
-    "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
-    "checked": "2026-11-14"
-   }
-  },
-  {
-   "id": "salf",
-   "name": "Se Acabó La Fiesta",
-   "short": "SALF",
-   "names": [
-    "SE ACABO LA FIESTA (SALF)",
-    "SE ACABÓ LA FIESTA (SALF)"
-   ],
-   "program": {
-    "status": "resumen",
-    "url": "https://www.seacabolafiesta.com/",
-    "title": "Resumen oficial del contrato electoral 29N",
-    "official": true,
-    "checked": "2026-11-14",
-    "checkedAt": "2026-11-14T17:15:50Z",
-    "note": "Se puntúan únicamente las propuestas explícitas en el resumen oficial. El rechazo de regularizaciones masivas no se equipara al del arraigo individual.",
-    "fullDocument": {
-     "url": "https://www.seacabolafiesta.com/SALF_Contrato_Electoral_29N.pdf?v=073425b9522d",
-     "title": "Contrato electoral completo (PDF, acceso sin verificar)",
-     "verified": false,
-     "note": "PDF enlazado por el partido. La consulta web excedió el tamaño admitido y la descarga directa devolvió 403; el contenido del PDF no se ha usado para puntuar."
+  "parties": [
+    {
+      "id": "adelante-andalucia",
+      "name": "Adelante Andalucía",
+      "short": "",
+      "names": [
+        "ADELANTE ANDALUCÍA (ADELANTE ANDALUCÍA)"
+      ],
+      "website": "https://adelanteandalucia.org/",
+      "program": {
+        "status": "oficial",
+        "url": "https://programa.adelanteandalucia.org/programa-29n-adelante-andalucia.pdf",
+        "title": "Programa completo. Elecciones generales 29N 2026 (PDF)",
+        "official": true,
+        "note": "PDF en un subdominio del partido enlazado desde su web. Existe además un resumen, «Las 29 del 29N».",
+        "checked": "2026-11-14",
+        "checkedAt": "2026-11-14T17:00:43Z"
+      },
+      "dataId": "adelante"
+    },
+    {
+      "id": "agenda-valenciana",
+      "name": "Agenda Valenciana",
+      "short": "",
+      "names": [
+        "AGENDA VALENCIANA (AGENDA VALENCIANA)"
+      ],
+      "program": {
+        "status": "no-localizado",
+        "official": false,
+        "detail": "Búsqueda del 15/11/2026: no se localizó web oficial ni programa del 29N.",
+        "checked": "2026-11-15",
+        "checkedAt": "2026-11-15T09:02:53Z",
+        "note": "No se han usado programas de otras convocatorias ni prensa para codificar posiciones."
+      }
+    },
+    {
+      "id": "alhora",
+      "name": "Alhora",
+      "short": "",
+      "names": [
+        "ALHORA (ALHORA)"
+      ],
+      "program": {
+        "status": "no-localizado",
+        "official": false,
+        "detail": "Búsqueda del 15/11/2026: la prensa confirma sus listas para el 29N, pero no se localizó un programa publicado en su web.",
+        "checked": "2026-11-15",
+        "checkedAt": "2026-11-15T09:02:53Z",
+        "note": "No se han usado programas de otras convocatorias ni prensa para codificar posiciones."
+      }
+    },
+    {
+      "id": "alternativa-malaguena",
+      "name": "Alternativa Malagueña",
+      "short": "29",
+      "names": [
+        "ALTERNATIVA MALAGUEÑA (29)"
+      ],
+      "program": {
+        "status": "sin-revisar",
+        "official": false,
+        "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
+        "checked": "2026-11-14"
+      }
+    },
+    {
+      "id": "arames",
+      "name": "Aramés–Front Ampli",
+      "short": "Aramés-EU-MS",
+      "names": [
+        "ARAMÉS-FRONT AMPLI (ARAMÉS-EU-MS)"
+      ],
+      "note": "Coalición: no hereda el programa de sus miembros.",
+      "program": {
+        "status": "sin-revisar",
+        "official": false,
+        "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
+        "checked": "2026-11-14"
+      }
+    },
+    {
+      "id": "bng",
+      "name": "BNG",
+      "short": "Bloque Nacionalista Galego",
+      "names": [
+        "BLOQUE NACIONALISTA GALEGO (BNG)",
+        "BLOQUE NACIONALISTA GALEGO (B.N.G.)"
+      ],
+      "website": "https://www.bng.gal/",
+      "dataId": "bng",
+      "program": {
+        "status": "oficial",
+        "url": "https://www.bng.gal/media/bnggaliza/files/2026/11/12/26_bng_xerais_documentos_programa_electoral.pdf",
+        "title": "Programa electoral xerais 2026 (PDF)",
+        "official": true,
+        "checked": "2026-11-14"
+      }
+    },
+    {
+      "id": "cha",
+      "name": "Chunta Aragonesista–Frente Amplio Aragón",
+      "short": "CHA-IU-MS-Frente Amplio",
+      "names": [
+        "CHUNTA ARAGONESISTA-FRENTE AMPLIO ARAGÓN (CHA-IU-MS-FRENTE AMPLIO)"
+      ],
+      "note": "Coalición: no hereda el programa de sus miembros.",
+      "program": {
+        "status": "no-localizado",
+        "official": true,
+        "consulted": "https://www.chunta.org/la-reclamacion-de-infraestructuras-y-el-derecho-a-una-vivienda-digna-principales-medidas-del-programa-electoral-de-cha-frente-amplio-aragon/",
+        "detail": "La web del partido publica (13/11/2026) las líneas principales de su programa, pero no el documento.",
+        "note": "Las líneas publicadas no responden de forma explícita a las 18 afirmaciones: no se han codificado posiciones.",
+        "checked": "2026-11-14",
+        "checkedAt": "2026-11-14T17:00:43Z"
+      },
+      "website": "https://www.chunta.org/"
+    },
+    {
+      "id": "cc",
+      "name": "Coalición Canaria–Municipalistas Primero Canarias",
+      "short": "CCa-1.ºCAN",
+      "names": [
+        "Coalición Canaria-Municipalistas Primero Canarias (CCa-1.ºCAN)",
+        "MUNICIPALISTAS PRIMERO CANARIAS-COALICIÓN CANARIA (1.ºCAN-CCa)"
+      ],
+      "website": "https://coalicioncanaria.org/",
+      "dataId": "cc",
+      "program": {
+        "status": "oficial",
+        "url": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
+        "title": "Programa electoral 29N (PDF)",
+        "official": true,
+        "checked": "2026-11-15",
+        "note": "Cuatro posiciones del programa conjunto de 2026 y una declaración oficial de CC de febrero de 2026 sobre pensiones, pendiente de confirmación expresa conjunta. Jornada de 2025 conservada solo en investigación. Alcances y trazabilidad en evidence/gpt/cc.json."
+      }
+    },
+    {
+      "id": "compromis",
+      "name": "Compromís: Front Valencià",
+      "short": "Compromís-EUPV-Podem-ERPV",
+      "names": [
+        "COMPROMÍS: FRONT VALENCIÀ (COMPROMIS-EUPV-PODEM-ERPV)"
+      ],
+      "note": "Coalición: no hereda el programa de sus miembros.",
+      "website": "https://frontvalencia.org/",
+      "program": {
+        "status": "oficial",
+        "url": "https://frontvalencia.org/programa-compromis-front-valencia.pdf",
+        "title": "Programa electoral 29N · Compromís–Front Valencià",
+        "official": true,
+        "checked": "2026-11-16",
+        "note": "Programa oficial del 29N localizado por la auditoría de GPT y leído completo. Las 14 posiciones salen de este documento; no se usan antecedentes ni prensa."
+      },
+      "dataId": "compromis"
+    },
+    {
+      "id": "comuns",
+      "name": "Comuns–Front Ampli",
+      "short": "",
+      "names": [
+        "Comuns-Front Ampli (COMUNS-FRONT AMPLI)"
+      ],
+      "note": "Coalición: no hereda el programa de sus miembros.",
+      "program": {
+        "status": "historico",
+        "consulted": "https://beteve.cat/politica/programes-electorals-29n-eleccions-generals-2026-pdf/",
+        "official": true,
+        "note": "Comuns no ha publicado programa del 29N. Cuatro posiciones como antecedente del programa de 2023 alojado en su web; no acreditan compromisos actuales.",
+        "checked": "2026-11-15",
+        "checkedAt": "2026-11-15T09:02:53Z",
+        "url": "https://comuns.cat/wp-content/uploads/2025/07/sumarECP-programa-generales-2023.pdf",
+        "title": "Programa Sumar–En Comú Podem · generales 2023 (web de Comuns)"
+      },
+      "dataId": "comuns",
+      "website": "https://comuns.cat/"
+    },
+    {
+      "id": "convergents",
+      "name": "Convergents",
+      "short": "CNV",
+      "names": [
+        "CONVERGENTS (CNV)"
+      ],
+      "program": {
+        "status": "no-localizado",
+        "official": false,
+        "detail": "Búsqueda del 15/11/2026: no se localizó web oficial ni programa del 29N.",
+        "checked": "2026-11-15",
+        "checkedAt": "2026-11-15T09:02:53Z",
+        "note": "No se han usado programas de otras convocatorias ni prensa para codificar posiciones."
+      }
+    },
+    {
+      "id": "d21",
+      "name": "Democracia para el Siglo 21",
+      "short": "D21",
+      "names": [
+        "DEMOCRACIA PARA EL SIGLO 21 (D21)"
+      ],
+      "program": {
+        "status": "oficial",
+        "url": "https://mi.democracia21.es/programa",
+        "title": "La España que merecemos · Programa por temas (web)",
+        "official": true,
+        "note": "Programa temático oficial. Cinco afirmaciones puntuables. Integración europea con apoyo matizado (4), sin compromiso federal explícito; fuente oficial contrastada. Resto sin nuevas puntuaciones.",
+        "checked": "2026-11-15"
+      },
+      "website": "https://democracia21.es/",
+      "dataId": "d21"
+    },
+    {
+      "id": "pnv",
+      "name": "EAJ-PNV",
+      "short": "Partido Nacionalista Vasco",
+      "names": [
+        "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO (EAJ-PNV)"
+      ],
+      "website": "https://www.eaj-pnv.eus/",
+      "dataId": "pnv",
+      "program": {
+        "status": "oficial",
+        "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
+        "title": "Programa Elecciones Generales 2026 (PDF)",
+        "official": true,
+        "checked": "2026-11-15",
+        "note": "18 decisiones revisadas en la ficha de evidencia: cinco puntuables, tres en revisión y diez sin evidencia suficiente. En la web hay siete casillas: cinco puntuables y dos contextuales excluidas del cálculo. El caso europeo adicional queda solo en revisión documental. Fuentes y búsquedas en evidence/gpt/pnv.json."
+      }
+    },
+    {
+      "id": "eguzkilore",
+      "name": "Eguzkilore",
+      "short": "",
+      "names": [
+        "EGUZKILORE (EGUZKILORE)"
+      ],
+      "program": {
+        "status": "sin-revisar",
+        "official": false,
+        "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
+        "checked": "2026-11-14"
+      }
+    },
+    {
+      "id": "ehbildu",
+      "name": "EH Bildu",
+      "short": "",
+      "names": [
+        "EUSKAL HERRIA BILDU (EH BILDU)"
+      ],
+      "website": "https://ehbildu.eus/",
+      "program": {
+        "status": "historico",
+        "url": "https://www.elnacional.cat/uploads/s1/42/81/42/33/programa-electoral-eh-bildu-eleccions-generals-2023.pdf",
+        "title": "Compromiso de Euskal Herria Bildu · generales 2023 (copia alojada por El Nacional)",
+        "official": false,
+        "checked": "2026-11-14",
+        "note": "Programa de las generales de 2023 (copia alojada por un medio), leído completo: seis posiciones como antecedente. EH Bildu no ha publicado programa del 29N. Los antecedentes participan provisionalmente en el cálculo y no acreditan compromisos actuales."
+      },
+      "dataId": "ehbildu"
+    },
+    {
+      "id": "ehbildu-erc",
+      "name": "EH Bildu–ERC (coalición)",
+      "short": "EH Bildu-ERC",
+      "names": [
+        "EUSKAL HERRIA BILDU-ESQUERRA REPUBLICANA DE CATALUNYA (EH BILDU-ERC)"
+      ],
+      "note": "Coalición: no hereda el programa de sus miembros.",
+      "program": {
+        "status": "sin-revisar",
+        "official": false,
+        "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
+        "checked": "2026-11-14"
+      }
+    },
+    {
+      "id": "escanos-en-blanco",
+      "name": "Escaños en Blanco",
+      "short": "",
+      "names": [
+        "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACIOS (ESCAÑOS EN BLANCO)",
+        "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS (ESCAÑOS EN BLANCO)",
+        "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS (ESCAÑOS EN BLANCO)",
+        "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS (ESCAÑOS EN BLANCO)",
+        "Escanos en Branco para deixar Escanos Baleiros (ESCAÑOS EN BLANCO)"
+      ],
+      "program": {
+        "status": "no-localizado",
+        "official": false,
+        "detail": "Búsqueda del 15/11/2026: no se localizó web oficial ni programa del 29N. Su propuesta histórica se limita a dejar vacíos los escaños, sin posición sobre las 18 afirmaciones.",
+        "checked": "2026-11-15",
+        "checkedAt": "2026-11-15T09:02:53Z",
+        "note": "No se han usado programas de otras convocatorias ni prensa para codificar posiciones."
+      }
+    },
+    {
+      "id": "erc",
+      "name": "Esquerra Republicana de Catalunya",
+      "short": "ERC",
+      "names": [
+        "ESQUERRA REPUBLICANA DE CATALUNYA (ERC)"
+      ],
+      "website": "https://www.esquerrarepublicana.cat/",
+      "dataId": "erc",
+      "program": {
+        "status": "oficial",
+        "url": "https://esquerrarepublicana.cat/documents/e2026-programa.pdf",
+        "title": "Programa electoral 29N 2026 (PDF)",
+        "official": true,
+        "note": "Comprobado el 14/11/2026: el PDF del dominio del partido es idéntico, byte a byte, a la copia alojada por Betevé que se usó en la primera revisión.",
+        "checked": "2026-11-14"
+      }
+    },
+    {
+      "id": "fe-jons",
+      "name": "Falange Española de las JONS",
+      "short": "FE de las JONS",
+      "names": [
+        "FALANGE ESPAÑOLA DE LAS JONS (FE de las JONS)",
+        "FALANGE ESPAÑOLA DE LAS J.O.N.S. (FE de las JONS)"
+      ],
+      "program": {
+        "status": "oficial",
+        "url": "https://falange.es/wp-content/uploads/2026/11/FEDELASJONS_ProgramaElectoral_29NGenerales2026.pdf",
+        "title": "Programa electoral 29N Generales 2026 (PDF)",
+        "official": true,
+        "note": "PDF del dominio del partido enlazado desde su web, que aún muestra textos de plantilla sin completar.",
+        "checked": "2026-11-14"
+      },
+      "website": "https://falange.es/",
+      "dataId": "fejons"
+    },
+    {
+      "id": "fia",
+      "name": "Federación de los Independientes de Aragón",
+      "short": "FIA",
+      "names": [
+        "FEDERACION DE LOS INDEPENDIENTES DE ARAGON (FIA)",
+        "FEDERACION DE LOS INDEPENDIENTES DE ARAGON (F.I.A.)"
+      ],
+      "program": {
+        "status": "sin-revisar",
+        "official": false,
+        "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
+        "checked": "2026-11-14"
+      }
+    },
+    {
+      "id": "feminism8",
+      "name": "Feminism8",
+      "short": "F8",
+      "names": [
+        "FEMINISM8 (F8)"
+      ],
+      "program": {
+        "status": "sin-revisar",
+        "official": false,
+        "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
+        "checked": "2026-11-14"
+      }
+    },
+    {
+      "id": "frente-amplio",
+      "name": "Frente Amplio",
+      "short": "FA",
+      "names": [
+        "FRENTE AMPLIO (FA)",
+        "FRENTE AMPLIO ANDALUZ (FA)",
+        "FRENTE AMPLIU POR ASTURIES (FA)",
+        "FRENTE AMPLIO-FRONTE AMPLA (FRENTE AMPLIO-FRONTE AMPLA)",
+        "FRENTE AMPLIO-FRONTE ZABALA (FRENTE AMPLIO-FRONTE ZABALA)",
+        "Frente Amplio - Fronte Ampla (FRENTE AMPLIO - FRONTE AMPLA)"
+      ],
+      "note": "Agrupa las variantes territoriales de la marca Frente Amplio que figuran en el BOE; las coaliciones con otros nombres aparecen aparte.",
+      "website": "https://frenteamplio.info/",
+      "program": {
+        "status": "resumen",
+        "url": "https://frenteamplio.info/noticias/frente-amplio-propone-ninguna-pension-este-debajo-salario-minimo-recuperar/",
+        "title": "Propuesta de campaña sobre pensiones",
+        "official": true,
+        "checked": "2026-11-14",
+        "note": "2 afirmaciones documentadas de dieciocho. Evidencias parciales; no se ha verificado un programa completo de la convocatoria. Cada posición identifica su fuente oficial o periodística y queda pendiente de revisión con el programa electoral. Se añaden 7 posiciones como antecedente del programa de Sumar de 2023 (alianza predecesora), por decisión del usuario; no acreditan compromisos de Frente Amplio."
+      },
+      "dataId": "frente-amplio"
+    },
+    {
+      "id": "frente-obrero",
+      "name": "Frente Obrero",
+      "short": "FO",
+      "names": [
+        "FRENTE OBRERO",
+        "FRENTE OBRERO (FO)"
+      ],
+      "program": {
+        "status": "oficial",
+        "url": "https://frenteobrero.es/documentos/programa-frente-obrero.pdf",
+        "title": "Programa del Frente Obrero (PDF)",
+        "official": true,
+        "note": "PDF del dominio del partido (modificado el 12/11/2026), con diez prioridades para el Congreso.",
+        "checked": "2026-11-14"
+      },
+      "website": "https://frenteobrero.es/",
+      "dataId": "fo"
+    },
+    {
+      "id": "geroa-bai",
+      "name": "Geroa Bai",
+      "short": "GBAI",
+      "names": [
+        "GEROA BAI (GBAI)"
+      ],
+      "program": {
+        "status": "oficial",
+        "url": "https://geroabai.eus/files/2026/11/bases-politicas-29n-1.pdf",
+        "title": "Bases políticas · Elecciones generales 29N (PDF, 12/11/2026)",
+        "official": true,
+        "note": "Documento oficial del partido de 14 páginas. No es un programa con medidas por áreas: solo se ha codificado lo que dice de forma explícita (2 temas).",
+        "checked": "2026-11-16"
+      },
+      "website": "https://geroabai.eus/",
+      "dataId": "geroabai"
+    },
+    {
+      "id": "iustitia",
+      "name": "Iustitia Europa",
+      "short": "IE",
+      "names": [
+        "IUSTITIA EUROPA (IE)"
+      ],
+      "program": {
+        "status": "oficial",
+        "url": "https://iustitiaeuropa.es/contrato-electoral/",
+        "title": "Contrato electoral vigente · Campaña 29N (web)",
+        "official": true,
+        "note": "Contrato enlazado desde la sección de elecciones 29-N y la nota oficial de campaña. La fecha de adopción para esta campaña no se confunde con la fecha de primera publicación del contrato.",
+        "checked": "2026-11-14"
+      },
+      "website": "https://iustitiaeuropa.es/",
+      "dataId": "iustitia"
+    },
+    {
+      "id": "ipal",
+      "name": "Izquierda por Almería",
+      "short": "I.P.A.L.",
+      "names": [
+        "IZQUIERDA POR ALMERÍA (I.P.A.L.)"
+      ],
+      "program": {
+        "status": "sin-revisar",
+        "official": false,
+        "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
+        "checked": "2026-11-14"
+      }
+    },
+    {
+      "id": "jose-maria-calvo",
+      "name": "José María Calvo Guerra",
+      "short": "",
+      "names": [
+        "José María Calvo Guerra"
+      ],
+      "program": {
+        "status": "sin-revisar",
+        "official": false,
+        "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
+        "checked": "2026-11-14"
+      }
+    },
+    {
+      "id": "juex",
+      "name": "Juntos por Extremadura",
+      "short": "J.U.E.X.",
+      "names": [
+        "JUNTOS POR EXTREMADURA (J.U.E.X.)"
+      ],
+      "program": {
+        "status": "sin-revisar",
+        "official": false,
+        "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
+        "checked": "2026-11-14"
+      }
+    },
+    {
+      "id": "junts",
+      "name": "Junts per Catalunya",
+      "short": "JxCat",
+      "names": [
+        "JUNTS PER CATALUNYA (JxCat)"
+      ],
+      "website": "https://junts.cat/",
+      "program": {
+        "status": "secundaria",
+        "url": "https://www.europapress.es/catalunya/noticia-nogueras-junts-abre-hablar-psoe-29n-si-catalunya-centro-20261106111810.html",
+        "title": "Europa Press · 06/11/2026 · condiciones de negociación",
+        "official": false,
+        "checked": "2026-11-14",
+        "note": "Seis posiciones documentadas: una declaración de 2026 y cinco antecedentes de generales de 2023 (candidatura Junts–Demòcrates–Més Esquerres, copia en Betevé). Los antecedentes participan provisionalmente en el cálculo y no acreditan compromisos actuales. Año, convocatoria y fuente se indican por posición."
+      },
+      "dataId": "junts"
+    },
+    {
+      "id": "justicia-y-ley",
+      "name": "Justicia y Ley",
+      "short": "JL",
+      "names": [
+        "JUSTICIA Y LEY (JL)"
+      ],
+      "program": {
+        "status": "sin-revisar",
+        "official": false,
+        "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
+        "checked": "2026-11-14"
+      }
+    },
+    {
+      "id": "liberacion-canaria",
+      "name": "Liberación Canaria",
+      "short": "LIB",
+      "names": [
+        "LIBERACIÓN CANARIA (LIB)"
+      ],
+      "program": {
+        "status": "sin-revisar",
+        "official": false,
+        "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
+        "checked": "2026-11-14"
+      }
+    },
+    {
+      "id": "nex",
+      "name": "Nuevo Extremeñismo–Adelante Extremadura",
+      "short": "NEX",
+      "names": [
+        "NUEVO EXTREMEÑISMO - ADELANTE EXTREMADURA (NEX)"
+      ],
+      "program": {
+        "status": "sin-revisar",
+        "official": false,
+        "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
+        "checked": "2026-11-14"
+      }
+    },
+    {
+      "id": "pacma",
+      "name": "PACMA",
+      "short": "Partido Animalista con el Medio Ambiente",
+      "names": [
+        "PARTIT ANIMALISTA AMB EL MEDI AMBIENT (PACMA)",
+        "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE (PACMA)"
+      ],
+      "website": "https://pacma.es/",
+      "dataId": "pacma",
+      "program": {
+        "status": "oficial",
+        "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
+        "title": "Programa electoral generales 29N 2026 (PDF)",
+        "official": true,
+        "checked": "2026-11-14"
+      }
+    },
+    {
+      "id": "pancal",
+      "name": "PANCAL–URCI",
+      "short": "Partido Nacionalista de Castilla y León–Unión Reformista Ciudadana",
+      "names": [
+        "PARTIDO NACIONALISTA DE CASTILLA Y LEÓN - UNION REFORMISTA CIUDADANA (PANCAL-URCI)"
+      ],
+      "program": {
+        "status": "sin-revisar",
+        "official": false,
+        "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
+        "checked": "2026-11-14"
+      }
+    },
+    {
+      "id": "autonomos",
+      "name": "Partido Autónomos",
+      "short": "",
+      "names": [
+        "PARTIDO AUTÓNOMOS (PARTIDO AUTÓNOMOS)"
+      ],
+      "program": {
+        "status": "no-localizado",
+        "official": false,
+        "detail": "Búsqueda del 15/11/2026: no se localizó web oficial ni programa del 29N.",
+        "checked": "2026-11-15",
+        "checkedAt": "2026-11-15T09:02:53Z",
+        "note": "No se han usado programas de otras convocatorias ni prensa para codificar posiciones."
+      }
+    },
+    {
+      "id": "pcpc",
+      "name": "Partido Comunista del Pueblo Canario",
+      "short": "PCPC",
+      "names": [
+        "PARTIDO COMUNISTA DEL PUEBLO CANARIO (PCPC)"
+      ],
+      "program": {
+        "status": "sin-revisar",
+        "official": false,
+        "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
+        "checked": "2026-11-14"
+      }
+    },
+    {
+      "id": "pctg",
+      "name": "Partido Comunista dos Traballadores da Galiza",
+      "short": "PCTG",
+      "names": [
+        "PARTIDO COMUNISTA DOS TRABALLADORES DA GALIZA (PCTG)"
+      ],
+      "program": {
+        "status": "sin-revisar",
+        "official": false,
+        "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
+        "checked": "2026-11-14"
+      }
+    },
+    {
+      "id": "pdsje",
+      "name": "Partido Demócrata Social Jubilados Europeos",
+      "short": "P.D.S.J.E.",
+      "names": [
+        "PARTIDO DEMÓCRATA SOCIAL JUBILADOS EUROPEOS (P.D.S.J.E.)"
+      ],
+      "program": {
+        "status": "sin-revisar",
+        "official": false,
+        "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
+        "checked": "2026-11-14"
+      }
+    },
+    {
+      "id": "drago",
+      "name": "Partido Drago Canarias",
+      "short": "D.R.G",
+      "names": [
+        "PARTIDO DRAGO CANARIAS (D.R.G)"
+      ],
+      "program": {
+        "status": "sin-revisar",
+        "official": false,
+        "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
+        "checked": "2026-11-14"
+      }
+    },
+    {
+      "id": "humanista",
+      "name": "Partido Humanista",
+      "short": "PH",
+      "names": [
+        "PARTIDO HUMANISTA (PH)"
+      ],
+      "program": {
+        "status": "oficial",
+        "url": "https://www.partidohumanista.es/Documentos/Programas/Programa%20Generales%202026.pdf",
+        "title": "Programa Elecciones Generales 2026 (PDF)",
+        "official": true,
+        "checked": "2026-11-14",
+        "checkedAt": "2026-11-14T17:15:50Z",
+        "note": "Documento de 2026 enlazado desde el archivo oficial de programas. Ocho posiciones revisadas sobre las afirmaciones de la encuesta."
+      },
+      "website": "https://www.partidohumanista.es/",
+      "dataId": "humanista"
+    },
+    {
+      "id": "pp",
+      "name": "Partido Popular",
+      "short": "PP",
+      "names": [
+        "PARTIDO POPULAR (PP)",
+        "PARTIT POPULAR / PARTIDO POPULAR (PP)"
+      ],
+      "website": "https://www.pp.es/",
+      "dataId": "pp",
+      "program": {
+        "status": "oficial",
+        "url": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
+        "title": "La Reconstrucción Nacional (PDF)",
+        "official": true,
+        "checked": "2026-11-14",
+        "note": " Ampliación: Defensa e integración europea, medidas del programa de 2026; apoyo europeo moderado por no concretar una reforma institucional federal."
+      }
+    },
+    {
+      "id": "prepal",
+      "name": "Partido Regionalista del País Leonés",
+      "short": "PREPAL",
+      "names": [
+        "PARTIDO REGIONALISTA DEL PAIS LEONES (PREPAL)"
+      ],
+      "program": {
+        "status": "sin-revisar",
+        "official": false,
+        "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
+        "checked": "2026-11-14"
+      }
+    },
+    {
+      "id": "psoe-huelva",
+      "name": "Partido Socialista de Huelva (PSOE)",
+      "short": "",
+      "names": [
+        "PARTIDO SOCIALISTA DE HUELVA (PSOE)"
+      ],
+      "note": "Denominación provincial con la sigla PSOE; no hereda automáticamente el programa estatal.",
+      "program": {
+        "status": "sin-revisar",
+        "official": false,
+        "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
+        "checked": "2026-11-14"
+      }
+    },
+    {
+      "id": "pctc",
+      "name": "Partit Comunista dels Treballadors de Catalunya",
+      "short": "PCTC",
+      "names": [
+        "PARTIT COMUNISTA DELS TREBALLADORS DE CATALUNYA (PCTC)"
+      ],
+      "program": {
+        "status": "sin-revisar",
+        "official": false,
+        "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
+        "checked": "2026-11-14"
+      }
+    },
+    {
+      "id": "pcte",
+      "name": "PCTE",
+      "short": "Partido Comunista de los Trabajadores de España",
+      "names": [
+        "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA (PCTE)"
+      ],
+      "website": "https://www.pcte.es/",
+      "program": {
+        "status": "historico",
+        "consulted": "https://www.pcte.es/",
+        "official": true,
+        "detail": "La web enlaza un programa del 10N de 2020 y el «Programa de lucha 2023-2027», pero ningún programa específico para el 29N de 2026. Nueva búsqueda del 15/11/2026 sin resultados del 29N.",
+        "note": "Antecedente: documento político de 2023 alojado en la web del partido. No hay programa del 29N de 2026; las posiciones que se toman de él van marcadas como antecedente con su año.",
+        "checked": "2026-11-15",
+        "checkedAt": "2026-11-15T09:02:53Z",
+        "url": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+        "title": "Programa de lucha 2023-2027 (documento político del PCTE, antecedente)"
+      },
+      "dataId": "pcte"
+    },
+    {
+      "id": "pcte-euskadi",
+      "name": "PCTE en Euskadi (ELAK/PCTE)",
+      "short": "",
+      "names": [
+        "EUSKADIKO LANGILEEN ALDERDI KOMUNISTA/PARTIDO COMUNISTA DE LOS TRABAJADORES DE EUSKADI (ELAK/PCTE)",
+        "PARTIDO COMUNISTA DE LOS TRABAJADORES DE EUSKADI/EUSKADIKO LANGILEEN ALDERDI KOMUNISTA (PCTE/ELAK)"
+      ],
+      "note": "Denominación bilingüe de la candidatura del PCTE en Euskadi.",
+      "program": {
+        "status": "sin-revisar",
+        "official": false,
+        "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
+        "checked": "2026-11-14"
+      }
+    },
+    {
+      "id": "podemos",
+      "name": "Podemos",
+      "short": "",
+      "names": [
+        "PODEMOS",
+        "PODEMOS (PODEMOS)",
+        "PODEMOS (PAZ,CASA Y TRABAJO)"
+      ],
+      "website": "https://podemos.info/",
+      "program": {
+        "status": "secundaria",
+        "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/09/17/914567-el-congreso-rechaza-el-plan-de-podemos-para-topar-los-alquileres-y-expropiar",
+        "title": "Propuesta de alquiler · Europa Press / Idealista",
+        "official": false,
+        "checked": "2026-11-14",
+        "note": "Siete posiciones: dos evidencias de 2026 y cinco antecedentes de europeas 2024. La prioridad sobre aborto procede de la página oficial; las otras cuatro, de la copia del programa en RTVE. Los antecedentes participan provisionalmente en el cálculo, sin acreditar compromisos actuales. Año y convocatoria se indican en cada posición."
+      },
+      "dataId": "podemos"
+    },
+    {
+      "id": "mundo-justo",
+      "name": "Por un Mundo Más Justo",
+      "short": "Mundo+Justo",
+      "names": [
+        "POR UN MUNDO MAS JUSTO (MUNDO+JUSTO)",
+        "POR UN MUNDO MÁS JUSTO (MUNDO+JUSTO)",
+        "POR UN MUNDO MAIS XUSTO (MUNDO+JUSTO)"
+      ],
+      "program": {
+        "status": "oficial",
+        "url": "https://www.porunmundomasjusto.es/wp-content/uploads/2026/11/Castellano.pdf",
+        "title": "Programa Elecciones Generales 29N 2026 (PDF)",
+        "official": true,
+        "note": "PDF alojado en el dominio del partido (modificado el 10/11/2026), con 32 ejes de propuestas.",
+        "checked": "2026-11-14"
+      },
+      "website": "https://www.porunmundomasjusto.es/",
+      "dataId": "mj"
+    },
+    {
+      "id": "alantre",
+      "name": "Proyecto Alantre",
+      "short": "P. Alantre",
+      "names": [
+        "PROYECTO ALANTRE (P. ALANTRE)"
+      ],
+      "program": {
+        "status": "sin-revisar",
+        "official": false,
+        "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
+        "checked": "2026-11-14"
+      }
+    },
+    {
+      "id": "psc",
+      "name": "PSC-PSOE",
+      "short": "Partit dels Socialistes de Catalunya",
+      "names": [
+        "PARTIT DELS SOCIALISTES DE CATALUNYA (PSC-PSOE) (PSC)"
+      ],
+      "note": "Federación territorial del PSOE; no hereda automáticamente el programa estatal.",
+      "program": {
+        "status": "no-localizado",
+        "consulted": "https://beteve.cat/politica/programes-electorals-29n-eleccions-generals-2026-pdf/",
+        "official": false,
+        "detail": "Betevé indica a 13/11/2026 que aún no ha publicado el programa de estas elecciones.",
+        "note": "La fuente es un medio, no la web del partido: no sustituye a comprobarlo en el propio partido.",
+        "checked": "2026-11-14",
+        "checkedAt": "2026-11-14T17:00:43Z"
+      }
+    },
+    {
+      "id": "psdeg",
+      "name": "PSdeG-PSOE",
+      "short": "Partido dos Socialistas de Galicia",
+      "names": [
+        "PARTIDO DOS SOCIALISTAS DE GALICIA-PSOE (PSdeG-PSOE)"
+      ],
+      "note": "Federación territorial del PSOE; no hereda automáticamente el programa estatal.",
+      "program": {
+        "status": "sin-revisar",
+        "official": false,
+        "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
+        "checked": "2026-11-14"
+      }
+    },
+    {
+      "id": "pse-ee",
+      "name": "PSE-EE (PSOE)",
+      "short": "Partido Socialista de Euskadi",
+      "names": [
+        "PARTIDO SOCIALISTA DE EUSKADI-EUSKADIKO EZKERRA (PSOE) PSE-EE (PSOE)"
+      ],
+      "note": "Federación territorial del PSOE; no hereda automáticamente el programa estatal.",
+      "program": {
+        "status": "sin-revisar",
+        "official": false,
+        "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
+        "checked": "2026-11-14"
+      }
+    },
+    {
+      "id": "psib",
+      "name": "PSIB-PSOE",
+      "short": "Partido Socialista de las Islas Baleares",
+      "names": [
+        "PARTIDO SOCIALISTA DE LAS ISLAS BALEARES (PSIB-PSOE)"
+      ],
+      "note": "Federación territorial del PSOE; no hereda automáticamente el programa estatal.",
+      "program": {
+        "status": "sin-revisar",
+        "official": false,
+        "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
+        "checked": "2026-11-14"
+      }
+    },
+    {
+      "id": "psn",
+      "name": "PSN-PSOE",
+      "short": "Partido Socialista de Navarra",
+      "names": [
+        "PARTIDO SOCIALISTA DE NAVARRA-PSOE (PSN-PSOE)"
+      ],
+      "note": "Federación territorial del PSOE; no hereda automáticamente el programa estatal.",
+      "program": {
+        "status": "sin-revisar",
+        "official": false,
+        "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
+        "checked": "2026-11-14"
+      }
+    },
+    {
+      "id": "psoe",
+      "name": "PSOE",
+      "short": "Partido Socialista Obrero Español",
+      "names": [
+        "PARTIDO SOCIALISTA OBRERO ESPAÑOL (PSOE)"
+      ],
+      "website": "https://psoe.es/",
+      "program": {
+        "status": "oficial",
+        "url": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26-1.pdf",
+        "title": "Programa electoral del PSOE para el 29N (2026)",
+        "official": true,
+        "checked": "2026-11-15",
+        "note": "Programa oficial de 2026 publicado en psoe.es el 15/11/2026 y revisado completo. Las posiciones proceden sólo de este documento; los antecedentes de 2023 y las declaraciones de prensa quedan fuera del cálculo."
+      },
+      "dataId": "psoe"
+    },
+    {
+      "id": "puede",
+      "name": "PUEDE",
+      "short": "Partido Unionista Estado de España",
+      "names": [
+        "PARTIDO UNIONISTA ESTADO DE ESPAÑA (PUEDE)"
+      ],
+      "program": {
+        "status": "sin-revisar",
+        "official": false,
+        "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
+        "checked": "2026-11-14"
+      }
+    },
+    {
+      "id": "renacer",
+      "name": "Renacer Renaixer",
+      "short": "RRB",
+      "names": [
+        "RENACER RENAIXER (RRB)"
+      ],
+      "program": {
+        "status": "sin-revisar",
+        "official": false,
+        "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
+        "checked": "2026-11-14"
+      }
+    },
+    {
+      "id": "salf",
+      "name": "Se Acabó La Fiesta",
+      "short": "SALF",
+      "names": [
+        "SE ACABO LA FIESTA (SALF)",
+        "SE ACABÓ LA FIESTA (SALF)"
+      ],
+      "program": {
+        "status": "resumen",
+        "url": "https://www.seacabolafiesta.com/",
+        "title": "Resumen oficial del contrato electoral 29N",
+        "official": true,
+        "checked": "2026-11-14",
+        "checkedAt": "2026-11-14T17:15:50Z",
+        "note": "Se puntúan únicamente las propuestas explícitas en el resumen oficial. El rechazo de regularizaciones masivas no se equipara al del arraigo individual.",
+        "fullDocument": {
+          "url": "https://www.seacabolafiesta.com/SALF_Contrato_Electoral_29N.pdf?v=073425b9522d",
+          "title": "Contrato electoral completo (PDF, acceso sin verificar)",
+          "verified": false,
+          "note": "PDF enlazado por el partido. La consulta web excedió el tamaño admitido y la descarga directa devolvió 403; el contenido del PDF no se ha usado para puntuar."
+        }
+      },
+      "website": "https://www.seacabolafiesta.com/",
+      "dataId": "salf"
+    },
+    {
+      "id": "soria-ya",
+      "name": "Soria ¡Ya!",
+      "short": "SY",
+      "names": [
+        "SORIA ¡YA! (SY)"
+      ],
+      "program": {
+        "status": "oficial",
+        "url": "https://soriaya.org/wp-content/uploads/2026/11/ProgramaGenerales_26.pdf",
+        "title": "Programa Generales 2026 (PDF)",
+        "official": true,
+        "note": "Documento de dos páginas con reivindicaciones para Soria. No trata de forma explícita las 18 afirmaciones: no se han codificado posiciones.",
+        "checked": "2026-11-14",
+        "checkedAt": "2026-11-14T17:00:43Z"
+      },
+      "website": "https://soriaya.org/"
+    },
+    {
+      "id": "tercera-edad",
+      "name": "Tercera Edad en Acción",
+      "short": "3e",
+      "names": [
+        "TERCERA EDAD EN ACCIÓN (3e)"
+      ],
+      "program": {
+        "status": "sin-revisar",
+        "official": false,
+        "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
+        "checked": "2026-11-14"
+      }
+    },
+    {
+      "id": "teruel-existe",
+      "name": "Teruel Existe",
+      "short": "",
+      "names": [
+        "TERUEL EXISTE (TERUEL EXISTE)"
+      ],
+      "program": {
+        "status": "oficial",
+        "url": "https://teruelexiste.info/wp-content/uploads/2026/11/Programa_Teruel_Existe_Completo_29N.pdf",
+        "title": "Programa electoral completo 29N (PDF)",
+        "official": true,
+        "note": "Resumen oficial de 14 propuestas contrastado en la web y PDF de tres páginas. Fiscalidad territorial e igualdad permanecen en revisión, sin puntuación. El PDF completo sigue pendiente de lectura fiable; no se afirma ausencia de propuestas en el documento no leído.",
+        "checked": "2026-11-15",
+        "checkedAt": "2026-11-14T17:00:43Z"
+      },
+      "website": "https://teruelexiste.info/"
+    },
+    {
+      "id": "upc",
+      "name": "Unidad del Pueblo Canario",
+      "short": "UPC",
+      "names": [
+        "UNIDAD DEL PUEBLO CANARIO UPC (NC-BC, PODEMOS, IU, SUMAR)"
+      ],
+      "note": "Coalición: no hereda el programa de sus miembros.",
+      "program": {
+        "status": "sin-revisar",
+        "official": false,
+        "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
+        "checked": "2026-11-14"
+      }
+    },
+    {
+      "id": "union-cartaginense",
+      "name": "Unión Cartaginense",
+      "short": "UC",
+      "names": [
+        "UNION CARTAGINENSE (UC)"
+      ],
+      "program": {
+        "status": "sin-revisar",
+        "official": false,
+        "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
+        "checked": "2026-11-14"
+      }
+    },
+    {
+      "id": "upn-pp",
+      "name": "UPN-PP (coalición)",
+      "short": "Unión del Pueblo Navarro en coalición con el Partido Popular",
+      "names": [
+        "UNIÓN DEL PUEBLO NAVARRO EN COALICIÓN CON EL PARTIDO POPULAR (UPN-PP)"
+      ],
+      "note": "Coalición: no hereda las posiciones del PP ni de UPN por separado.",
+      "program": {
+        "status": "sin-revisar",
+        "official": false,
+        "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
+        "checked": "2026-11-14"
+      }
+    },
+    {
+      "id": "valencia-unida",
+      "name": "Valencia Unida",
+      "short": "VLC",
+      "names": [
+        "VALENCIA UNIDA (VLC)"
+      ],
+      "program": {
+        "status": "no-localizado",
+        "official": false,
+        "detail": "Búsqueda del 15/11/2026: no se localizó web oficial ni programa del 29N.",
+        "checked": "2026-11-15",
+        "checkedAt": "2026-11-15T09:02:53Z",
+        "note": "No se han usado programas de otras convocatorias ni prensa para codificar posiciones."
+      }
+    },
+    {
+      "id": "vox",
+      "name": "VOX",
+      "short": "",
+      "names": [
+        "VOX",
+        "VOX (VOX)"
+      ],
+      "website": "https://voxespana.es/",
+      "dataId": "vox",
+      "program": {
+        "status": "oficial",
+        "url": "https://www.voxespana.es/wp-content/uploads/2026/11/Programa-completo-A5-1.pdf",
+        "title": "Programa electoral 29N 2026 «Es sentido común» (PDF)",
+        "official": true,
+        "note": "Comprobado el 14/11/2026: PDF del dominio del partido con la portada del programa del 29 de noviembre de 2026. Algunas posiciones citan además el resumen de medidas publicado por el partido.",
+        "checked": "2026-11-14"
+      }
     }
-   },
-   "website": "https://www.seacabolafiesta.com/",
-   "dataId": "salf"
-  },
-  {
-   "id": "soria-ya",
-   "name": "Soria ¡Ya!",
-   "short": "SY",
-   "names": [
-    "SORIA ¡YA! (SY)"
-   ],
-   "program": {
-    "status": "oficial",
-    "url": "https://soriaya.org/wp-content/uploads/2026/11/ProgramaGenerales_26.pdf",
-    "title": "Programa Generales 2026 (PDF)",
-    "official": true,
-    "note": "Documento de dos páginas con reivindicaciones para Soria. No trata de forma explícita las 18 afirmaciones: no se han codificado posiciones.",
-    "checked": "2026-11-14",
-    "checkedAt": "2026-11-14T17:00:43Z"
-   },
-   "website": "https://soriaya.org/"
-  },
-  {
-   "id": "tercera-edad",
-   "name": "Tercera Edad en Acción",
-   "short": "3e",
-   "names": [
-    "TERCERA EDAD EN ACCIÓN (3e)"
-   ],
-   "program": {
-    "status": "sin-revisar",
-    "official": false,
-    "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
-    "checked": "2026-11-14"
-   }
-  },
-  {
-   "id": "teruel-existe",
-   "name": "Teruel Existe",
-   "short": "",
-   "names": [
-    "TERUEL EXISTE (TERUEL EXISTE)"
-   ],
-   "program": {
-    "status": "oficial",
-    "url": "https://teruelexiste.info/wp-content/uploads/2026/11/Programa_Teruel_Existe_Completo_29N.pdf",
-    "title": "Programa electoral completo 29N (PDF)",
-    "official": true,
-    "note": "Resumen oficial de 14 propuestas contrastado en la web y PDF de tres páginas. Fiscalidad territorial e igualdad permanecen en revisión, sin puntuación. El PDF completo sigue pendiente de lectura fiable; no se afirma ausencia de propuestas en el documento no leído.",
-    "checked": "2026-11-15",
-    "checkedAt": "2026-11-14T17:00:43Z"
-   },
-   "website": "https://teruelexiste.info/"
-  },
-  {
-   "id": "upc",
-   "name": "Unidad del Pueblo Canario",
-   "short": "UPC",
-   "names": [
-    "UNIDAD DEL PUEBLO CANARIO UPC (NC-BC, PODEMOS, IU, SUMAR)"
-   ],
-   "note": "Coalición: no hereda el programa de sus miembros.",
-   "program": {
-    "status": "sin-revisar",
-    "official": false,
-    "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
-    "checked": "2026-11-14"
-   }
-  },
-  {
-   "id": "union-cartaginense",
-   "name": "Unión Cartaginense",
-   "short": "UC",
-   "names": [
-    "UNION CARTAGINENSE (UC)"
-   ],
-   "program": {
-    "status": "sin-revisar",
-    "official": false,
-    "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
-    "checked": "2026-11-14"
-   }
-  },
-  {
-   "id": "upn-pp",
-   "name": "UPN-PP (coalición)",
-   "short": "Unión del Pueblo Navarro en coalición con el Partido Popular",
-   "names": [
-    "UNIÓN DEL PUEBLO NAVARRO EN COALICIÓN CON EL PARTIDO POPULAR (UPN-PP)"
-   ],
-   "note": "Coalición: no hereda las posiciones del PP ni de UPN por separado.",
-   "program": {
-    "status": "sin-revisar",
-    "official": false,
-    "note": "Esta aplicación todavía no ha revisado esta candidatura. No significa que no haya publicado programa.",
-    "checked": "2026-11-14"
-   }
-  },
-  {
-   "id": "valencia-unida",
-   "name": "Valencia Unida",
-   "short": "VLC",
-   "names": [
-    "VALENCIA UNIDA (VLC)"
-   ],
-   "program": {
-    "status": "no-localizado",
-    "official": false,
-    "detail": "Búsqueda del 15/11/2026: no se localizó web oficial ni programa del 29N.",
-    "checked": "2026-11-15",
-    "checkedAt": "2026-11-15T09:02:53Z",
-    "note": "No se han usado programas de otras convocatorias ni prensa para codificar posiciones."
-   }
-  },
-  {
-   "id": "vox",
-   "name": "VOX",
-   "short": "",
-   "names": [
-    "VOX",
-    "VOX (VOX)"
-   ],
-   "website": "https://voxespana.es/",
-   "dataId": "vox",
-   "program": {
-    "status": "oficial",
-    "url": "https://www.voxespana.es/wp-content/uploads/2026/11/Programa-completo-A5-1.pdf",
-    "title": "Programa electoral 29N 2026 «Es sentido común» (PDF)",
-    "official": true,
-    "note": "Comprobado el 14/11/2026: PDF del dominio del partido con la portada del programa del 29 de noviembre de 2026. Algunas posiciones citan además el resumen de medidas publicado por el partido.",
-    "checked": "2026-11-14"
-   }
-  }
- ]
+  ]
 }

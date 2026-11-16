@@ -1,5 +1,5 @@
 {
-  "version": "0.5.24",
+  "version": "0.5.25",
   "date": "2026-11-15",
   "election": "Congreso · 29 de noviembre de 2026",
   "questions": [
@@ -1267,13 +1267,20 @@
       "match": "GEROA BAI",
       "positions": {
         "7": {
-          "value": 5,
-          "source": "https://geroabai.eus/es/actualidad/geroa-bai-presenta-sus-bases-politicas-para-las-elecciones-generales-con-la-defensa-de-navarra-el-autogobierno-y-el-estado-del-bienestar-como-ejes-centrales",
-          "locator": "Apartado «Navarra, sujeto político y con capacidad de decisión»",
-          "reason": "Defiende el cumplimiento de las transferencias pendientes y la bilateralidad de la LORAFNA.",
-          "reviewed": "2026-11-14",
-          "coding": "Propuesta oficial de campaña (no es programa electoral). Interpretación editorial provisional",
-          "sourceNote": "Propuesta oficial de campaña publicada por el partido; no es un programa electoral completo."
+          "value": 4,
+          "source": "https://geroabai.eus/files/2026/11/bases-politicas-29n-1.pdf",
+          "locator": "PDF p. 7 y p. 12",
+          "reason": "Apoyo a completar transferencias pendientes, formulado para Navarra; no propone una ampliación general de competencias autonómicas.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional"
+        },
+        "11": {
+          "value": 4,
+          "source": "https://geroabai.eus/files/2026/11/bases-politicas-29n-1.pdf",
+          "locator": "PDF p. 13–14",
+          "reason": "Apoyo a mantener y reforzar la protección; el texto no cita expresamente la legislación específica.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional"
         }
       }
     },
