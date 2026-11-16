@@ -91,6 +91,40 @@
       "documentVersion": null,
       "sha256": "37b569d6ac31a21a8f972dcfd5be3740c32f50fe1c6f3e87c9a1f68027ee6b55",
       "notes": "Programa oficial para el 29N localizado por la auditoría de GPT y leído completo por Claude (texto en valenciano)."
+    },
+    {
+      "id": "compromis-s06",
+      "url": "https://electomania.es/el-congreso-aprueba-la-ley-de-multirreincidencia-de-junts-con-apoyo-de-psoe-pp-vox-y-pnv-y-el-rechazo-de-sumar/",
+      "publisher": "Electomanía",
+      "title": "El Congreso aprueba la ley de multirreincidencia de Junts con apoyo de PSOE, PP, Vox y PNV y el rechazo de Sumar",
+      "published": "2026-02-12",
+      "accessed": "2026-11-16",
+      "election": "Generales de España 2026",
+      "year": 2026,
+      "kind": "noticia",
+      "origin": "secundaria",
+      "hosting": "medio",
+      "historical": false,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Votación del 12/02/2026: a favor PP, PSOE, Vox, Junts, PNV y UPN; en contra Sumar, Bildu, Podemos, BNG y Compromís; ERC se abstuvo."
+    },
+    {
+      "id": "compromis-s07",
+      "url": "https://www.andaluciainformacion.es/articulo/espana/ampliara-prision-permanente-revisable-votos-psoe-socios-congreso-tumban-propuesta/202603172054013229574.html",
+      "publisher": "Andalucía Información",
+      "title": "No se ampliará la prisión permanente revisable: los votos del PSOE y sus socios en el Congreso tumban la propuesta",
+      "published": "2026-03-17",
+      "accessed": "2026-11-16",
+      "election": "Generales de España 2026",
+      "year": 2026,
+      "kind": "noticia",
+      "origin": "secundaria",
+      "hosting": "medio",
+      "historical": false,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Votación de la toma en consideración de la proposición del PP (17/03/2026, 172 a favor y 174 en contra)."
     }
   ],
   "questions": {
@@ -158,12 +192,13 @@
       "status": "documentada",
       "position": 2,
       "sourceIds": [
-        "compromis-s05"
+        "compromis-s06",
+        "compromis-s07"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de izquierda valencianista y sus posiciones documentadas en temas afines.",
+      "evidenceSummary": "Inferencia con fuentes: Votó en contra de la reforma de la multirreincidencia (12/02/2026) y de ampliar la prisión permanente (17/03/2026); su programa propone una respuesta penal proporcionada.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "baja",
+      "confidence": "media",
       "reviewNeeded": true,
       "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
       "nextAction": "Buscar texto del partido sobre este tema.",

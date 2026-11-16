@@ -91,6 +91,57 @@
       "documentVersion": null,
       "sha256": null,
       "notes": "Resumen periodístico (03/11/2026) de posiciones públicas y votaciones sobre la regularización extraordinaria (RD 316/2026)."
+    },
+    {
+      "id": "junts-s06",
+      "url": "https://confilegal.com/20260213-el-congreso-aprueba-endurecer-la-multirreincidencia-con-una-mayoria-de-302-votos-de-346-el-874/",
+      "publisher": "Confilegal",
+      "title": "El Congreso aprueba endurecer la multirreincidencia con una mayoría de 302 votos de 346",
+      "published": "2026-02-13",
+      "accessed": "2026-11-15",
+      "election": "Generales de España 2026",
+      "year": 2026,
+      "kind": "noticia",
+      "origin": "secundaria",
+      "hosting": "medio",
+      "historical": false,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Reforma de la multirreincidencia promovida por Junts; endurece el Código Penal para reincidentes."
+    },
+    {
+      "id": "junts-s07",
+      "url": "https://www.elindependiente.com/espana/2026/04/30/junts-no-apoya-a-pp-y-vox-y-permite-que-la-reforma-constitucional-del-gobierno-para-blindar-el-aborto-avance-en-el-congreso/",
+      "publisher": "El Independiente",
+      "title": "Junts no apoya a PP y Vox y permite que la reforma constitucional del Gobierno para blindar el aborto avance en el Congreso",
+      "published": "2026-04-30",
+      "accessed": "2026-11-16",
+      "election": "Generales de España 2026",
+      "year": 2026,
+      "kind": "noticia",
+      "origin": "secundaria",
+      "hosting": "medio",
+      "historical": false,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Votación del 30/04/2026 sobre las enmiendas a la totalidad de PP y Vox: 171 a favor (PP, Vox y UPN) y 177 en contra."
+    },
+    {
+      "id": "junts-s08",
+      "url": "https://www.infobae.com/espana/agencias/2026/04/30/el-blindaje-constitucional-del-aborto-sigue-su-tramite-tras-superar-los-vetos-de-pp-y-vox/",
+      "publisher": "Infobae (Europa Press)",
+      "title": "El blindaje constitucional del aborto sigue su trámite tras superar los vetos de PP y Vox",
+      "published": "2026-04-30",
+      "accessed": "2026-11-16",
+      "election": "Generales de España 2026",
+      "year": 2026,
+      "kind": "noticia",
+      "origin": "secundaria",
+      "hosting": "medio",
+      "historical": false,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Votación del 30/04/2026: las enmiendas de PP y Vox solo recibieron el apoyo de PP, Vox y UPN."
     }
   ],
   "questions": {
@@ -158,15 +209,15 @@
       "status": "documentada",
       "position": 4,
       "sourceIds": [
-        "junts-s01"
+        "junts-s06"
       ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: ha impulsado medidas contra la multirreincidencia.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
+      "locator": "Votación en el Congreso, 12/02/2026",
+      "evidenceSummary": "Promovió la reforma penal contra la multirreincidencia, aprobada por el Congreso con 302 votos, que endurece las penas de reincidentes (hasta 1-3 años de cárcel en hurtos reiterados); votó en contra de ampliar la prisión permanente revisable en marzo de 2026.",
+      "reason": "Impulsa un endurecimiento penal concreto contra la multirreincidencia; no apoya el endurecimiento general (rechazó ampliar la prisión permanente).",
       "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
-      "nextAction": "Buscar texto del partido sobre este tema.",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     },
     "6": {
@@ -309,12 +360,13 @@
       "status": "documentada",
       "position": 4,
       "sourceIds": [
-        "junts-s01"
+        "junts-s07",
+        "junts-s08"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: tiene una posición liberal en derechos civiles y no plantea derogar la ley.",
+      "evidenceSummary": "Inferencia con fuentes: El 30/04/2026 no apoyó las enmiendas de PP y Vox contra la reforma constitucional que blinda el aborto y permitió que siguiera su tramitación; no consta su voto final.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "baja",
+      "confidence": "media",
       "reviewNeeded": true,
       "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
       "nextAction": "Buscar texto del partido sobre este tema.",

@@ -126,6 +126,57 @@
       "documentVersion": null,
       "sha256": null,
       "notes": ""
+    },
+    {
+      "id": "ehbildu-s08",
+      "url": "https://electomania.es/el-congreso-aprueba-la-ley-de-multirreincidencia-de-junts-con-apoyo-de-psoe-pp-vox-y-pnv-y-el-rechazo-de-sumar/",
+      "publisher": "Electomanía",
+      "title": "El Congreso aprueba la ley de multirreincidencia de Junts con apoyo de PSOE, PP, Vox y PNV y el rechazo de Sumar",
+      "published": "2026-02-12",
+      "accessed": "2026-11-16",
+      "election": "Generales de España 2026",
+      "year": 2026,
+      "kind": "noticia",
+      "origin": "secundaria",
+      "hosting": "medio",
+      "historical": false,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Votación del 12/02/2026: a favor PP, PSOE, Vox, Junts, PNV y UPN; en contra Sumar, Bildu, Podemos, BNG y Compromís; ERC se abstuvo."
+    },
+    {
+      "id": "ehbildu-s09",
+      "url": "https://www.andaluciainformacion.es/articulo/espana/ampliara-prision-permanente-revisable-votos-psoe-socios-congreso-tumban-propuesta/202603172054013229574.html",
+      "publisher": "Andalucía Información",
+      "title": "No se ampliará la prisión permanente revisable: los votos del PSOE y sus socios en el Congreso tumban la propuesta",
+      "published": "2026-03-17",
+      "accessed": "2026-11-16",
+      "election": "Generales de España 2026",
+      "year": 2026,
+      "kind": "noticia",
+      "origin": "secundaria",
+      "hosting": "medio",
+      "historical": false,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Votación de la toma en consideración de la proposición del PP (17/03/2026, 172 a favor y 174 en contra)."
+    },
+    {
+      "id": "ehbildu-s10",
+      "url": "https://www.infobae.com/espana/agencias/2026/04/30/el-blindaje-constitucional-del-aborto-sigue-su-tramite-tras-superar-los-vetos-de-pp-y-vox/",
+      "publisher": "Infobae (Europa Press)",
+      "title": "El blindaje constitucional del aborto sigue su trámite tras superar los vetos de PP y Vox",
+      "published": "2026-04-30",
+      "accessed": "2026-11-16",
+      "election": "Generales de España 2026",
+      "year": 2026,
+      "kind": "noticia",
+      "origin": "secundaria",
+      "hosting": "medio",
+      "historical": false,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Votación del 30/04/2026: las enmiendas de PP y Vox solo recibieron el apoyo de PP, Vox y UPN."
     }
   ],
   "questions": {
@@ -215,12 +266,13 @@
       "status": "documentada",
       "position": 1,
       "sourceIds": [
-        "ehbildu-s02"
+        "ehbildu-s08",
+        "ehbildu-s09"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: rechaza endurecer las penas y la prisión permanente.",
+      "evidenceSummary": "Inferencia con fuentes: Votó en contra de la reforma de la multirreincidencia (12/02/2026) y de ampliar la prisión permanente revisable (17/03/2026).",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "alta",
+      "confidence": "media",
       "reviewNeeded": true,
       "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
       "nextAction": "Buscar texto del partido sobre este tema.",
@@ -388,12 +440,12 @@
       "status": "documentada",
       "position": 5,
       "sourceIds": [
-        "ehbildu-s02"
+        "ehbildu-s10"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: defiende el derecho a decidir sobre el propio cuerpo (programa de 2023).",
+      "evidenceSummary": "Inferencia con fuentes: El 30/04/2026 votó contra las enmiendas de PP y Vox a la reforma constitucional que blinda el aborto (177 votos en contra).",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "alta",
+      "confidence": "media",
       "reviewNeeded": true,
       "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
       "nextAction": "Buscar texto del partido sobre este tema.",

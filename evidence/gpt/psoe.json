@@ -194,6 +194,40 @@
       "documentVersion": null,
       "sha256": null,
       "notes": "Nota de prensa del grupo parlamentario; la fecha exacta no consta en la página consultada (proposición de ley de 2017 según la prensa)."
+    },
+    {
+      "id": "psoe-s12",
+      "url": "https://electomania.es/el-congreso-aprueba-la-ley-de-multirreincidencia-de-junts-con-apoyo-de-psoe-pp-vox-y-pnv-y-el-rechazo-de-sumar/",
+      "publisher": "Electomanía",
+      "title": "El Congreso aprueba la ley de multirreincidencia de Junts con apoyo de PSOE, PP, Vox y PNV y el rechazo de Sumar",
+      "published": "2026-02-12",
+      "accessed": "2026-11-16",
+      "election": "Generales de España 2026",
+      "year": 2026,
+      "kind": "noticia",
+      "origin": "secundaria",
+      "hosting": "medio",
+      "historical": false,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Votación del 12/02/2026: a favor PP, PSOE, Vox, Junts, PNV y UPN; en contra Sumar, Bildu, Podemos, BNG y Compromís; ERC se abstuvo."
+    },
+    {
+      "id": "psoe-s13",
+      "url": "https://www.andaluciainformacion.es/articulo/espana/ampliara-prision-permanente-revisable-votos-psoe-socios-congreso-tumban-propuesta/202603172054013229574.html",
+      "publisher": "Andalucía Información",
+      "title": "No se ampliará la prisión permanente revisable: los votos del PSOE y sus socios en el Congreso tumban la propuesta",
+      "published": "2026-03-17",
+      "accessed": "2026-11-16",
+      "election": "Generales de España 2026",
+      "year": 2026,
+      "kind": "noticia",
+      "origin": "secundaria",
+      "hosting": "medio",
+      "historical": false,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Votación de la toma en consideración de la proposición del PP (17/03/2026, 172 a favor y 174 en contra)."
     }
   ],
   "questions": {
@@ -279,13 +313,13 @@
     },
     "5": {
       "status": "documentada",
-      "position": 2,
+      "position": 3,
       "sourceIds": [
-        "psoe-s08",
-        "psoe-s09"
+        "psoe-s12",
+        "psoe-s13"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia con fuentes: En marzo de 2026 su portavoz anunció el rechazo a ampliar la prisión permanente revisable y dijo que la norma vigente no plantea problemas; tras el aval del Tribunal Constitucional en 2021 dejó de pedir su derogación.",
+      "evidenceSummary": "Inferencia con fuentes: En febrero de 2026 votó a favor de la reforma que endurece la multirreincidencia y en marzo de 2026 votó en contra de ampliar la prisión permanente revisable: apoya un endurecimiento concreto pero rechaza el general.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "media",
       "reviewNeeded": true,

@@ -92,6 +92,40 @@
       "documentVersion": null,
       "sha256": null,
       "notes": ""
+    },
+    {
+      "id": "cc-s06",
+      "url": "https://www.infobae.com/espana/agencias/2026/03/17/el-congreso-rechaza-tramitar-la-ampliacion-de-la-prision-permanente-apoyada-por-pp-vox-upn-y-cc/",
+      "publisher": "Infobae (Europa Press)",
+      "title": "El Congreso rechaza tramitar la ampliación de la prisión permanente apoyada por PP, Vox, UPN y CC",
+      "published": "2026-03-17",
+      "accessed": "2026-11-16",
+      "election": "Generales de España 2026",
+      "year": 2026,
+      "kind": "noticia",
+      "origin": "secundaria",
+      "hosting": "medio",
+      "historical": false,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Votación del 17/03/2026: a favor PP, Vox, UPN y CC."
+    },
+    {
+      "id": "cc-s07",
+      "url": "https://www.infobae.com/espana/agencias/2026/04/30/el-blindaje-constitucional-del-aborto-sigue-su-tramite-tras-superar-los-vetos-de-pp-y-vox/",
+      "publisher": "Infobae (Europa Press)",
+      "title": "El blindaje constitucional del aborto sigue su trámite tras superar los vetos de PP y Vox",
+      "published": "2026-04-30",
+      "accessed": "2026-11-16",
+      "election": "Generales de España 2026",
+      "year": 2026,
+      "kind": "noticia",
+      "origin": "secundaria",
+      "hosting": "medio",
+      "historical": false,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Votación del 30/04/2026: las enmiendas de PP y Vox solo recibieron el apoyo de PP, Vox y UPN."
     }
   ],
   "questions": {
@@ -157,12 +191,12 @@
     },
     "5": {
       "status": "documentada",
-      "position": 3,
+      "position": 4,
       "sourceIds": [
-        "cc-s01"
+        "cc-s06"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de nacionalismo canario de centro y sus posiciones documentadas en temas afines.",
+      "evidenceSummary": "Inferencia con fuentes: Votó a favor de ampliar la prisión permanente revisable el 17/03/2026.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
       "reviewNeeded": true,
@@ -326,10 +360,10 @@
       "status": "documentada",
       "position": 4,
       "sourceIds": [
-        "cc-s01"
+        "cc-s07"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de nacionalismo canario de centro y sus posiciones documentadas en temas afines.",
+      "evidenceSummary": "Inferencia con fuentes: El 30/04/2026 no se sumó a PP, Vox y UPN en las enmiendas contra la reforma constitucional que blinda el aborto; no consta cómo votó exactamente.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
       "reviewNeeded": true,

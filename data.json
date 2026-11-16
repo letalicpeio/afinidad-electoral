@@ -1,5 +1,5 @@
 {
-  "version": "0.5.38",
+  "version": "0.5.41",
   "date": "2026-11-15",
   "election": "Congreso · 29 de noviembre de 2026",
   "questions": [
@@ -958,14 +958,20 @@
           "coding": "Inferencia editorial"
         },
         "5": {
-          "value": 3,
+          "value": 4,
           "source": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de nacionalismo canario de centro y sus posiciones documentadas en temas afines.",
+          "reason": "Votó a favor de ampliar la prisión permanente revisable el 17/03/2026.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalismo canario de centro y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: votó a favor de ampliar la prisión permanente revisable el 17/03/2026. Uso provisional, confianza baja: no es una declaración suya sobre esta medida.",
           "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://www.infobae.com/espana/agencias/2026/03/17/el-congreso-rechaza-tramitar-la-ampliacion-de-la-prision-permanente-apoyada-por-pp-vox-upn-y-cc/",
+              "label": "Votación de la prisión permanente, 17/03/2026"
+            }
+          ]
         },
         "8": {
           "value": 2,
@@ -1027,11 +1033,17 @@
           "value": 4,
           "source": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de nacionalismo canario de centro y sus posiciones documentadas en temas afines.",
+          "reason": "El 30/04/2026 no se sumó a PP, Vox y UPN en las enmiendas contra la reforma constitucional que blinda el aborto; no consta cómo votó exactamente.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalismo canario de centro y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: el 30/04/2026 no se sumó a PP, Vox y UPN en las enmiendas contra la reforma constitucional que blinda el aborto; no consta cómo votó exactamente. Uso provisional, confianza baja: no es una declaración suya sobre esta medida.",
           "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://www.infobae.com/espana/agencias/2026/04/30/el-blindaje-constitucional-del-aborto-sigue-su-tramite-tras-superar-los-vetos-de-pp-y-vox/",
+              "label": "Infobae, 30/04/2026"
+            }
+          ]
         },
         "16": {
           "value": 3,
@@ -3295,11 +3307,21 @@
           "value": 1,
           "source": "https://www.rtve.es/contenidos/documentos/elecciones_europeas_2024/programa_electoral_podemos.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Se opone a la prisión permanente revisable y prioriza la reinserción.",
+          "reason": "Votó en contra de la reforma de la multirreincidencia (12/02/2026) y de ampliar la prisión permanente revisable (17/03/2026).",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce porque se opone a la prisión permanente revisable y prioriza la reinserción. Uso provisional, confianza media: no es una declaración del partido.",
-          "reviewed": "2026-11-15",
-          "coding": "Inferencia editorial"
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: votó en contra de la reforma de la multirreincidencia (12/02/2026) y de ampliar la prisión permanente revisable (17/03/2026). Uso provisional, confianza media: no es una declaración suya sobre esta medida.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://electomania.es/el-congreso-aprueba-la-ley-de-multirreincidencia-de-junts-con-apoyo-de-psoe-pp-vox-y-pnv-y-el-rechazo-de-sumar/",
+              "label": "Votación de la multirreincidencia, 12/02/2026"
+            },
+            {
+              "url": "https://www.andaluciainformacion.es/articulo/espana/ampliara-prision-permanente-revisable-votos-psoe-socios-congreso-tumban-propuesta/202603172054013229574.html",
+              "label": "Votación de la prisión permanente, 17/03/2026"
+            }
+          ]
         },
         "7": {
           "value": 4,
@@ -3493,11 +3515,21 @@
           "value": 2,
           "source": "https://frontvalencia.org/programa-compromis-front-valencia.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de izquierda valencianista y sus posiciones documentadas en temas afines.",
+          "reason": "Votó en contra de la reforma de la multirreincidencia (12/02/2026) y de ampliar la prisión permanente (17/03/2026); su programa propone una respuesta penal proporcionada.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda valencianista y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: votó en contra de la reforma de la multirreincidencia (12/02/2026) y de ampliar la prisión permanente (17/03/2026); su programa propone una respuesta penal proporcionada. Uso provisional, confianza media: no es una declaración suya sobre esta medida.",
           "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://electomania.es/el-congreso-aprueba-la-ley-de-multirreincidencia-de-junts-con-apoyo-de-psoe-pp-vox-y-pnv-y-el-rechazo-de-sumar/",
+              "label": "Votación de la multirreincidencia, 12/02/2026"
+            },
+            {
+              "url": "https://www.andaluciainformacion.es/articulo/espana/ampliara-prision-permanente-revisable-votos-psoe-socios-congreso-tumban-propuesta/202603172054013229574.html",
+              "label": "Votación de la prisión permanente, 17/03/2026"
+            }
+          ]
         },
         "14": {
           "value": 4,
@@ -3623,13 +3655,12 @@
         },
         "5": {
           "value": 4,
-          "source": "https://img.beteve.cat/wp-content/uploads/2023/07/programa-junts-per-catalunya-eleccions-generals-2023.pdf",
-          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Ha impulsado medidas contra la multirreincidencia.",
-          "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce porque ha impulsado medidas contra la multirreincidencia. Uso provisional, confianza media: no es una declaración del partido.",
+          "source": "https://confilegal.com/20260213-el-congreso-aprueba-endurecer-la-multirreincidencia-con-una-mayoria-de-302-votos-de-346-el-874/",
+          "locator": "Votación en el Congreso, 12/02/2026",
+          "reason": "Impulsa un endurecimiento penal concreto contra la multirreincidencia; no apoya el endurecimiento general (rechazó ampliar la prisión permanente).",
+          "sourceNote": "Fuente secundaria: Confilegal. Reforma de la multirreincidencia promovida por Junts; endurece el Código Penal para reincidentes.",
           "reviewed": "2026-11-15",
-          "coding": "Inferencia editorial"
+          "coding": "Interpretación editorial provisional"
         },
         "8": {
           "value": 2,
@@ -3646,11 +3677,21 @@
           "value": 4,
           "source": "https://img.beteve.cat/wp-content/uploads/2023/07/programa-junts-per-catalunya-eleccions-generals-2023.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Tiene una posición liberal en derechos civiles y no plantea derogar la ley.",
+          "reason": "El 30/04/2026 no apoyó las enmiendas de PP y Vox contra la reforma constitucional que blinda el aborto y permitió que siguiera su tramitación; no consta su voto final.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce porque tiene una posición liberal en derechos civiles y no plantea derogar la ley. Uso provisional, confianza baja: no es una declaración del partido.",
-          "reviewed": "2026-11-15",
-          "coding": "Inferencia editorial"
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: el 30/04/2026 no apoyó las enmiendas de PP y Vox contra la reforma constitucional que blinda el aborto y permitió que siguiera su tramitación; no consta su voto final. Uso provisional, confianza media: no es una declaración suya sobre esta medida.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://www.elindependiente.com/espana/2026/04/30/junts-no-apoya-a-pp-y-vox-y-permite-que-la-reforma-constitucional-del-gobierno-para-blindar-el-aborto-avance-en-el-congreso/",
+              "label": "El Independiente, 30/04/2026"
+            },
+            {
+              "url": "https://www.infobae.com/espana/agencias/2026/04/30/el-blindaje-constitucional-del-aborto-sigue-su-tramite-tras-superar-los-vetos-de-pp-y-vox/",
+              "label": "Infobae, 30/04/2026"
+            }
+          ]
         },
         "9": {
           "value": 4,
@@ -3852,22 +3893,22 @@
           "coding": "Interpretación editorial provisional"
         },
         "5": {
-          "value": 2,
+          "value": 3,
           "source": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26-1.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "En marzo de 2026 su portavoz anunció el rechazo a ampliar la prisión permanente revisable y dijo que la norma vigente no plantea problemas; tras el aval del Tribunal Constitucional en 2021 dejó de pedir su derogación.",
+          "reason": "En febrero de 2026 votó a favor de la reforma que endurece la multirreincidencia y en marzo de 2026 votó en contra de ampliar la prisión permanente revisable: apoya un endurecimiento concreto pero rechaza el general.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: en marzo de 2026 su portavoz anunció el rechazo a ampliar la prisión permanente revisable y dijo que la norma vigente no plantea problemas; tras el aval del Tribunal Constitucional en 2021 dejó de pedir su derogación. Uso provisional, confianza media: no es una declaración suya sobre esta medida.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: en febrero de 2026 votó a favor de la reforma que endurece la multirreincidencia y en marzo de 2026 votó en contra de ampliar la prisión permanente revisable: apoya un endurecimiento concreto pero rechaza el general. Uso provisional, confianza media: no es una declaración suya sobre esta medida.",
           "reviewed": "2026-11-16",
           "coding": "Inferencia editorial",
           "basisLinks": [
             {
-              "url": "https://www.infobae.com/espana/agencias/2026/03/17/el-psoe-rechazara-en-el-congreso-la-reforma-para-ampliar-la-prision-permanente-y-acusa-al-pp-de-mover-las-tripas/",
-              "label": "Infobae, 17/03/2026"
+              "url": "https://electomania.es/el-congreso-aprueba-la-ley-de-multirreincidencia-de-junts-con-apoyo-de-psoe-pp-vox-y-pnv-y-el-rechazo-de-sumar/",
+              "label": "Votación de la multirreincidencia, 12/02/2026"
             },
             {
-              "url": "https://www.elespanol.com/espana/politica/20211103/sanchez-renuncia-permanente-revisable-pp-psoe-tc/624188544_0.html",
-              "label": "El Español, 03/11/2021"
+              "url": "https://www.andaluciainformacion.es/articulo/espana/ampliara-prision-permanente-revisable-votos-psoe-socios-congreso-tumban-propuesta/202603172054013229574.html",
+              "label": "Votación de la prisión permanente, 17/03/2026"
             }
           ]
         },
@@ -4010,11 +4051,21 @@
           "value": 1,
           "source": "https://www.elnacional.cat/uploads/s1/42/81/42/33/programa-electoral-eh-bildu-eleccions-generals-2023.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Rechaza endurecer las penas y la prisión permanente.",
+          "reason": "Votó en contra de la reforma de la multirreincidencia (12/02/2026) y de ampliar la prisión permanente revisable (17/03/2026).",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce porque rechaza endurecer las penas y la prisión permanente. Uso provisional, confianza alta: no es una declaración del partido.",
-          "reviewed": "2026-11-15",
-          "coding": "Inferencia editorial"
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: votó en contra de la reforma de la multirreincidencia (12/02/2026) y de ampliar la prisión permanente revisable (17/03/2026). Uso provisional, confianza media: no es una declaración suya sobre esta medida.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://electomania.es/el-congreso-aprueba-la-ley-de-multirreincidencia-de-junts-con-apoyo-de-psoe-pp-vox-y-pnv-y-el-rechazo-de-sumar/",
+              "label": "Votación de la multirreincidencia, 12/02/2026"
+            },
+            {
+              "url": "https://www.andaluciainformacion.es/articulo/espana/ampliara-prision-permanente-revisable-votos-psoe-socios-congreso-tumban-propuesta/202603172054013229574.html",
+              "label": "Votación de la prisión permanente, 17/03/2026"
+            }
+          ]
         },
         "9": {
           "value": 1,
@@ -4069,11 +4120,17 @@
           "value": 5,
           "source": "https://www.elnacional.cat/uploads/s1/42/81/42/33/programa-electoral-eh-bildu-eleccions-generals-2023.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Defiende el derecho a decidir sobre el propio cuerpo (programa de 2023).",
+          "reason": "El 30/04/2026 votó contra las enmiendas de PP y Vox a la reforma constitucional que blinda el aborto (177 votos en contra).",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce porque defiende el derecho a decidir sobre el propio cuerpo (programa de 2023). Uso provisional, confianza alta: no es una declaración del partido.",
-          "reviewed": "2026-11-15",
-          "coding": "Inferencia editorial"
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: el 30/04/2026 votó contra las enmiendas de PP y Vox a la reforma constitucional que blinda el aborto (177 votos en contra). Uso provisional, confianza media: no es una declaración suya sobre esta medida.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://www.infobae.com/espana/agencias/2026/04/30/el-blindaje-constitucional-del-aborto-sigue-su-tramite-tras-superar-los-vetos-de-pp-y-vox/",
+              "label": "Infobae, 30/04/2026"
+            }
+          ]
         },
         "18": {
           "value": 4,
