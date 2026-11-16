@@ -7,6 +7,7 @@ Lote versión 0.5.34, revisión 16/11/2026. Claude integra en los datos comparti
 | Geroa Bai | 16 | 5 | 3 | 8 | 0 | Revisado |
 | PACMA | 13 | 0 | 3 | 10 | 0 | Revisado |
 | SALF | 9 | 1 | 1 | 7 | 0 | Revisado |
+| Partido Humanista | 9 | 0 | 2 | 7 | 0 | Revisado |
 
 ## Dudas y límites
 
@@ -31,3 +32,9 @@ Lote versión 0.5.34, revisión 16/11/2026. Claude integra en los datos comparti
 - La captura de página física falló por error de caché; los números de página impresos en fuente se mencionan expresamente como no contrastados con el índice físico.
 - Se propone B y no A en defensa: un objetivo del 2% del PIB no prueba por sí mismo aumentar el gasto con respecto a su cifra actual.
 - No se infiere respaldo a violencia de género o aborto desde la mera ideología; se propone retirar lo no tratado.
+
+## Partido Humanista
+
+- Programa oficial de generales 2026 consultado (economía, fiscalidad, derechos, autonomía y medioambiente).
+- Las referencias programáticas a descentralización e internacionalismo no concretan más transferencias ni integración política de la UE: inferencia B de baja confianza y revisión recomendada por Claude.
+- No consta localizador PDF físico para las menciones: se utiliza epígrafe textual, sin inventar página.
