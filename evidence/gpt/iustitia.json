@@ -24,6 +24,23 @@
       "documentVersion": null,
       "sha256": null,
       "notes": "Página de la web del partido (2.003 palabras) con el contrato electoral dividido en 15 apartados y enlace a su descarga, que no he usado."
+    },
+    {
+      "id": "iustitia-s02",
+      "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+      "publisher": "iustitiaeuropa.es",
+      "title": "Contrato Electoral, PDF oficial (fecha de edición no confirmada)",
+      "published": null,
+      "accessed": "2026-11-16",
+      "election": "Generales de España 2026",
+      "year": 2026,
+      "kind": "documento-politico",
+      "origin": "primaria",
+      "hosting": "oficial",
+      "historical": false,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Fuente localizada por la revisión de GPT (16/11/2026); verificada por Claude solo a nivel de URL y localizador."
     }
   ],
   "questions": {
@@ -44,29 +61,30 @@
     },
     "2": {
       "status": "documentada",
-      "position": 2,
+      "position": 1,
       "sourceIds": [
         "iustitia-s01"
       ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil conservador y soberanista europeo y sus posiciones documentadas en temas afines.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
-      "nextAction": "Buscar texto del partido sobre este tema.",
+      "locator": "PDF p. 18 (impresa 18); ap. 6.8 Vivienda digna",
+      "evidenceSummary": "El partido propone explícitamente eliminar las políticas de control de alquiler, oposición directa a regular precios.",
+      "reason": "El partido propone explícitamente eliminar las políticas de control de alquiler, oposición directa a regular precios.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     },
     "3": {
       "status": "documentada",
       "position": 1,
       "sourceIds": [
-        "iustitia-s01"
+        "iustitia-s01",
+        "iustitia-s02"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil conservador y soberanista europeo y sus posiciones documentadas en temas afines.",
+      "evidenceSummary": "Inferencia con fuentes: El programa propone expulsar a quien entre irregularmente sin derecho a regularización; no nombra el arraigo de quienes ya residen en España.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "baja",
+      "confidence": "media",
       "reviewNeeded": true,
       "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
       "nextAction": "Buscar texto del partido sobre este tema.",
@@ -89,14 +107,15 @@
     },
     "5": {
       "status": "documentada",
-      "position": 5,
+      "position": 4,
       "sourceIds": [
-        "iustitia-s01"
+        "iustitia-s01",
+        "iustitia-s02"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil conservador y soberanista europeo y sus posiciones documentadas en temas afines.",
+      "evidenceSummary": "Inferencia con fuentes: La propuesta de endurecer penas se refiere expresamente a ocupación ilegal y no al delito común en general.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "baja",
+      "confidence": "media",
       "reviewNeeded": true,
       "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
       "nextAction": "Buscar texto del partido sobre este tema.",
@@ -174,12 +193,13 @@
       "status": "documentada",
       "position": 4,
       "sourceIds": [
-        "iustitia-s01"
+        "iustitia-s01",
+        "iustitia-s02"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil conservador y soberanista europeo y sus posiciones documentadas en temas afines.",
+      "evidenceSummary": "Inferencia con fuentes: Se opone a congelar pensiones sin compensación y exige dignidad, pero no compromete actualización anual según IPC.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "baja",
+      "confidence": "media",
       "reviewNeeded": true,
       "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
       "nextAction": "Buscar texto del partido sobre este tema.",
@@ -304,13 +324,13 @@
       "sourceIds": [
         "iustitia-s01"
       ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil conservador y soberanista europeo y sus posiciones documentadas en temas afines.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
-      "nextAction": "Buscar texto del partido sobre este tema.",
+      "locator": "PDF p. 17 (impresa 17); ap. 6.6 Autónomos",
+      "evidenceSummary": "Se compromete a simplificar el sistema tributario de autónomos y reducir burocracia, medida directa aunque sectorial.",
+      "reason": "Se compromete a simplificar el sistema tributario de autónomos y reducir burocracia, medida directa aunque sectorial.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     }
   },

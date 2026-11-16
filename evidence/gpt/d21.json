@@ -75,6 +75,23 @@
       "documentVersion": null,
       "sha256": null,
       "notes": "Subdominio del dominio oficial democracia21.es, enlazado desde la web del partido. Programa temático web; sin fecha de publicación conocida."
+    },
+    {
+      "id": "d21-s05",
+      "url": "https://mi.democracia21.es/programa/impuestos",
+      "publisher": "mi.democracia21.es",
+      "title": "Impuestos justificados y que se entiendan",
+      "published": null,
+      "accessed": "2026-11-16",
+      "election": "Generales de España 2026",
+      "year": 2026,
+      "kind": "programa",
+      "origin": "primaria",
+      "hosting": "oficial",
+      "historical": false,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Fuente localizada por la revisión de GPT (16/11/2026); verificada por Claude solo a nivel de URL y localizador."
     }
   ],
   "questions": {
@@ -82,12 +99,12 @@
       "status": "documentada",
       "position": 4,
       "sourceIds": [
-        "d21-s01"
+        "d21-s05"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de democracia directa y centro y sus posiciones documentadas en temas afines.",
+      "evidenceSummary": "Inferencia con fuentes: La deflactación del IRPF reduce la carga fiscal relativa de salarios afectados por la inflación, sin prometer rebajar tipos nominales.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "baja",
+      "confidence": "media",
       "reviewNeeded": true,
       "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
       "nextAction": "Buscar texto del partido sobre este tema.",
@@ -238,17 +255,17 @@
     },
     "11": {
       "status": "documentada",
-      "position": 3,
+      "position": 5,
       "sourceIds": [
-        "d21-s01"
+        "d21-s02"
       ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de democracia directa y centro y sus posiciones documentadas en temas afines.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
-      "nextAction": "Buscar texto del partido sobre este tema.",
+      "locator": "Medida 01, Ninguna concesión al negacionismo",
+      "evidenceSummary": "Se opone expresamente a desmantelar o desfinanciar la red pública de protección frente a violencia machista.",
+      "reason": "Se opone expresamente a desmantelar o desfinanciar la red pública de protección frente a violencia machista.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null,
       "baselinePosition": {
         "value": 5,

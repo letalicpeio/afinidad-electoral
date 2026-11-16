@@ -1,5 +1,5 @@
 {
-  "version": "0.5.41",
+  "version": "0.5.43",
   "date": "2026-11-15",
   "election": "Congreso · 29 de noviembre de 2026",
   "questions": [
@@ -1356,11 +1356,17 @@
           "value": 4,
           "source": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de izquierda ecologista y animalista y sus posiciones documentadas en temas afines.",
+          "reason": "Propuso aumentar anualmente conforme al IPC un complemento autonómico de pensiones no contributivas, no todas las pensiones del sistema.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda ecologista y animalista y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: propuso aumentar anualmente conforme al IPC un complemento autonómico de pensiones no contributivas, no todas las pensiones del sistema. Uso provisional, confianza media: no es una declaración suya sobre esta medida.",
           "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://pacma.es/wp-content/uploads/2015/08/Programa-electoral-elecciones-Galicia-2012-castellano.pdf",
+              "label": "PACMA programa Galicia 2012 (antecedente territorial)"
+            }
+          ]
         },
         "12": {
           "value": 4,
@@ -1393,14 +1399,20 @@
           "coding": "Inferencia editorial"
         },
         "15": {
-          "value": 5,
+          "value": 4,
           "source": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de izquierda ecologista y animalista y sus posiciones documentadas en temas afines.",
+          "reason": "La propuesta territorial de informar sobre derechos sanitarios relativos al aborto apoya su protección, pero no fija postura expresa sobre la legislación estatal vigente.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda ecologista y animalista y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: la propuesta territorial de informar sobre derechos sanitarios relativos al aborto apoya su protección, pero no fija postura expresa sobre la legislación estatal vigente. Uso provisional, confianza media: no es una declaración suya sobre esta medida.",
           "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://elecciones.pacma.es/24mayo2015/files/propuestas/leon.pdf",
+              "label": "PACMA programa Castilla y León 2015 (antecedente territorial)"
+            }
+          ]
         },
         "16": {
           "value": 4,
@@ -1416,11 +1428,17 @@
           "value": 4,
           "source": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de izquierda ecologista y animalista y sus posiciones documentadas en temas afines.",
+          "reason": "El programa propone acceso unificado a derechos de personas migrantes, pero no establece equivalencia exacta de requisitos económicos de prestaciones.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda ecologista y animalista y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: el programa propone acceso unificado a derechos de personas migrantes, pero no establece equivalencia exacta de requisitos económicos de prestaciones. Uso provisional, confianza media: no es una declaración suya sobre esta medida.",
           "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
+              "label": "PACMA compromiso electoral generales 2023 (antecedente)"
+            }
+          ]
         }
       }
     },
@@ -1527,21 +1545,33 @@
           "value": 2,
           "source": "https://www.porunmundomasjusto.es/wp-content/uploads/2026/11/Castellano.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de izquierda humanitaria y sus posiciones documentadas en temas afines.",
+          "reason": "Su apuesta expresa por justicia restaurativa y reinserción es indicio de no priorizar el endurecimiento penitenciario, sin excluirlo explícitamente.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda humanitaria y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: su apuesta expresa por justicia restaurativa y reinserción es indicio de no priorizar el endurecimiento penitenciario, sin excluirlo explícitamente. Uso provisional, confianza media: no es una declaración suya sobre esta medida.",
           "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://www.porunmundomasjusto.es/wp-content/uploads/2026/11/Castellano.pdf",
+              "label": "M+J programa generales 29N 2026"
+            }
+          ]
         },
         "7": {
-          "value": 3,
+          "value": 4,
           "source": "https://www.porunmundomasjusto.es/wp-content/uploads/2026/11/Castellano.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de izquierda humanitaria y sus posiciones documentadas en temas afines.",
+          "reason": "Propone completar la transferencia de la sanidad penitenciaria a comunidades autónomas, no una descentralización indiscriminada.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda humanitaria y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: propone completar la transferencia de la sanidad penitenciaria a comunidades autónomas, no una descentralización indiscriminada. Uso provisional, confianza media: no es una declaración suya sobre esta medida.",
           "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://www.porunmundomasjusto.es/wp-content/uploads/2026/11/Castellano.pdf",
+              "label": "M+J programa generales 29N 2026"
+            }
+          ]
         },
         "9": {
           "value": 1,
@@ -1554,14 +1584,20 @@
           "coding": "Inferencia editorial"
         },
         "10": {
-          "value": 5,
+          "value": 4,
           "source": "https://www.porunmundomasjusto.es/wp-content/uploads/2026/11/Castellano.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de izquierda humanitaria y sus posiciones documentadas en temas afines.",
+          "reason": "Propone que las pensiones públicas nunca pierdan poder adquisitivo, pero no explicita que el mecanismo sea la actualización conforme al IPC.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda humanitaria y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: propone que las pensiones públicas nunca pierdan poder adquisitivo, pero no explicita que el mecanismo sea la actualización conforme al IPC. Uso provisional, confianza media: no es una declaración suya sobre esta medida.",
           "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://www.porunmundomasjusto.es/wp-content/uploads/2026/11/Castellano.pdf",
+              "label": "M+J programa generales 29N 2026"
+            }
+          ]
         },
         "12": {
           "value": 4,
@@ -1584,14 +1620,20 @@
           "coding": "Inferencia editorial"
         },
         "17": {
-          "value": 5,
+          "value": 4,
           "source": "https://www.porunmundomasjusto.es/wp-content/uploads/2026/11/Castellano.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de izquierda humanitaria y sus posiciones documentadas en temas afines.",
+          "reason": "Garantiza igualdad y no discriminación en servicios sociales para migrantes, pero no especifica identidad de requisitos económicos para prestaciones.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda humanitaria y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: garantiza igualdad y no discriminación en servicios sociales para migrantes, pero no especifica identidad de requisitos económicos para prestaciones. Uso provisional, confianza media: no es una declaración suya sobre esta medida.",
           "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://www.porunmundomasjusto.es/wp-content/uploads/2026/11/Castellano.pdf",
+              "label": "M+J programa generales 29N 2026"
+            }
+          ]
         }
       }
     },
@@ -2105,24 +2147,31 @@
           "coding": "Interpretación editorial provisional"
         },
         "1": {
-          "value": 3,
-          "source": "https://geroabai.eus/files/2026/11/bases-politicas-29n-1.pdf",
-          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de nacionalismo navarro de centroizquierda y sus posiciones documentadas en temas afines.",
-          "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalismo navarro de centroizquierda y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
-          "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
-        },
-        "2": {
           "value": 4,
           "source": "https://geroabai.eus/files/2026/11/bases-politicas-29n-1.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de nacionalismo navarro de centroizquierda y sus posiciones documentadas en temas afines.",
+          "reason": "La coalición defendió mantener una deducción de IRPF para rentas hasta 30000 euros y estudiar la deflactación; es alivio fiscal acotado, no una rebaja general.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalismo navarro de centroizquierda y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: la coalición defendió mantener una deducción de IRPF para rentas hasta 30000 euros y estudiar la deflactación; es alivio fiscal acotado, no una rebaja general. Uso provisional, confianza media: no es una declaración suya sobre esta medida.",
           "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://geroabai.eus/es/actualidad/geroa-bai-valora-positivamente-las-medidas-y-los-compromisos-fiscales-adquiridos-para-2025",
+              "label": "Geroa Bai, medidas tributarias 2025 (antecedente 2024)"
+            }
+          ]
+        },
+        "2": {
+          "value": 5,
+          "source": "https://geroabai.eus/files/2023/08/acuerdo-de-gobierno-psn-psoe-geroa-bai-y-contigo-zurekin-1.pdf",
+          "locator": "Histórico 2023 · PDF p. 14 (impresa 13); VIVIENDA, medida 18",
+          "reason": "El acuerdo suscrito por Geroa Bai dispone iniciar zonas tensionadas y limitar el precio del alquiler; antecedente de ámbito navarro.",
+          "historical": true,
+          "sourceYear": 2023,
+          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Fuente localizada por la revisión de GPT (16/11/2026); verificada por Claude solo a nivel de URL y localizador.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional de un programa histórico"
         },
         "3": {
           "value": 4,
@@ -2155,14 +2204,20 @@
           "coding": "Inferencia editorial"
         },
         "6": {
-          "value": 3,
+          "value": 4,
           "source": "https://geroabai.eus/files/2026/11/bases-politicas-29n-1.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de nacionalismo navarro de centroizquierda y sus posiciones documentadas en temas afines.",
+          "reason": "El acuerdo contempla conservar conciertos donde haya demanda suficiente y reducir unidades sin ella; no se compromete explícitamente a mantener toda la financiación.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalismo navarro de centroizquierda y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: el acuerdo contempla conservar conciertos donde haya demanda suficiente y reducir unidades sin ella; no se compromete explícitamente a mantener toda la financiación. Uso provisional, confianza media: no es una declaración suya sobre esta medida.",
           "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://geroabai.eus/files/2023/08/acuerdo-de-gobierno-psn-psoe-geroa-bai-y-contigo-zurekin-1.pdf",
+              "label": "Acuerdo gobierno Navarra PSN-Geroa Bai-Contigo 2023-2027"
+            }
+          ]
         },
         "8": {
           "value": 4,
@@ -2175,34 +2230,47 @@
           "coding": "Inferencia editorial"
         },
         "9": {
-          "value": 2,
+          "value": 1,
           "source": "https://geroabai.eus/files/2026/11/bases-politicas-29n-1.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de nacionalismo navarro de centroizquierda y sus posiciones documentadas en temas afines.",
+          "reason": "Sus bases de 2015 y su programa de 2011 proponen el apagón nuclear a corto plazo; son antecedentes de 2011 y 2015, anteriores al límite de 2019, por lo que solo sirven como inferencia.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalismo navarro de centroizquierda y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos actuales; se deduce de sus bases de 2015 (apagón nuclear a corto plazo). Uso provisional, confianza media: no es una declaración suya actual.",
           "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://geroabai.eus/files/2016/12/programagenerales2015castellano.pdf",
+              "label": "Bases generales 2015 (antecedente)"
+            }
+          ]
         },
         "10": {
-          "value": 5,
-          "source": "https://geroabai.eus/files/2026/11/bases-politicas-29n-1.pdf",
-          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de nacionalismo navarro de centroizquierda y sus posiciones documentadas en temas afines.",
-          "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalismo navarro de centroizquierda y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
-          "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
-        },
-        "12": {
           "value": 4,
           "source": "https://geroabai.eus/files/2026/11/bases-politicas-29n-1.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de nacionalismo navarro de centroizquierda y sus posiciones documentadas en temas afines.",
+          "reason": "Uxue Barkos criticó que las pensiones no se actualizasen siquiera conforme al IPC; indicio de respaldo, no compromiso vigente.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalismo navarro de centroizquierda y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: uxue Barkos criticó que las pensiones no se actualizasen siquiera conforme al IPC; indicio de respaldo, no compromiso vigente. Uso provisional, confianza media: no es una declaración suya sobre esta medida.",
           "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://geroabai.eus/es/actualidad/uxue-barkos-reclama-para-navarra-la-competencia-para-gestionar-sus-pensiones-publicas",
+              "label": "Uxue Barkos en Consejo General Geroa Bai (antecedente)"
+            }
+          ]
+        },
+        "12": {
+          "value": 5,
+          "source": "https://geroabai.eus/files/2019/05/PROGRAMA-PARLAMENTO-2019%20%281%29.pdf",
+          "locator": "Histórico 2019 · PDF p. 8 (impresa 8); epígrafe 8 Construcción europea",
+          "reason": "El programa foral 2019 defiende expresamente una Europa federal; es antecedente, reforzado por iniciativas de soberanía europea en 2026.",
+          "historical": true,
+          "sourceYear": 2019,
+          "sourceNote": "ANTECEDENTE DE 2019: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Fuente localizada por la revisión de GPT (16/11/2026); verificada por Claude solo a nivel de URL y localizador.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional de un programa histórico"
         },
         "13": {
           "value": 3,
@@ -2226,13 +2294,11 @@
         },
         "15": {
           "value": 5,
-          "source": "https://geroabai.eus/files/2026/11/bases-politicas-29n-1.pdf",
-          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de nacionalismo navarro de centroizquierda y sus posiciones documentadas en temas afines.",
-          "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalismo navarro de centroizquierda y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
-          "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "source": "https://geroabai.eus/es/actualidad/blanca-regulez-reclama-claridad-juridica-y-propone-elevar-el-aborto-a-derecho-fundamental",
+          "locator": "Declaración/enmienda 11/06/2026, párrafos sobre derecho fundamental",
+          "reason": "Geroa Bai propuso reconocer el aborto como derecho fundamental y anunció apoyo a la moción sobre su protección.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional"
         },
         "16": {
           "value": 4,
@@ -2255,14 +2321,12 @@
           "coding": "Inferencia editorial"
         },
         "18": {
-          "value": 3,
-          "source": "https://geroabai.eus/files/2026/11/bases-politicas-29n-1.pdf",
-          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de nacionalismo navarro de centroizquierda y sus posiciones documentadas en temas afines.",
-          "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de nacionalismo navarro de centroizquierda y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
-          "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "value": 4,
+          "source": "https://geroabai.eus/es/actualidad/geroa-bai-reivindica-la-nueva-ley-de-industria-como-un-hito-estrategico-para-el-futuro-de-navarra",
+          "locator": "Declaración 10/06/2026; párrafos sobre reducción de trabas burocráticas",
+          "reason": "Geroa Bai apoya simplificación administrativa y reducción de trabas empresariales, concretamente en el ámbito industrial navarro.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional"
         }
       }
     },
@@ -2405,24 +2469,28 @@
           "coding": "Inferencia editorial"
         },
         "12": {
-          "value": 2,
-          "source": "https://www.seacabolafiesta.com/",
-          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil populista antisistema y liberal y sus posiciones documentadas en temas afines.",
-          "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil populista antisistema y liberal y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
-          "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "value": 1,
+          "source": "https://www.seacabolafiesta.com/SALF_Contrato_Electoral_29N.pdf?v=073425b9522d",
+          "locator": "X Geopolítica, medida 1; PDF página impresa 35 (índice físico no verificado)",
+          "reason": "SALF propone renegociar la relación con la UE y celebrar referéndum de salida si se rechaza, contrario a más integración política.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional"
         },
         "13": {
-          "value": 2,
+          "value": 4,
           "source": "https://www.seacabolafiesta.com/",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil populista antisistema y liberal y sus posiciones documentadas en temas afines.",
+          "reason": "Propone gasto defensivo del 2 % del PIB y 1.200 millones anuales en mejoras salariales dentro de ese límite, sin comparación homogénea con el nivel actual.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil populista antisistema y liberal y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: propone gasto defensivo del 2 % del PIB y 1.200 millones anuales en mejoras salariales dentro de ese límite, sin comparación homogénea con el nivel actual. Uso provisional, confianza media: no es una declaración suya sobre esta medida.",
           "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://www.seacabolafiesta.com/SALF_Contrato_Electoral_29N.pdf?v=073425b9522d",
+              "label": "SALF Contrato Electoral Simplificado 29N 2026"
+            }
+          ]
         },
         "14": {
           "value": 2,
@@ -2544,14 +2612,20 @@
           "coding": "Inferencia editorial"
         },
         "7": {
-          "value": 3,
+          "value": 4,
           "source": "https://www.partidohumanista.es/Documentos/Programas/Programa%20Generales%202026.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de izquierda humanista y sus posiciones documentadas en temas afines.",
+          "reason": "El rechazo explícito al Estado centralizado es indicio de descentralización, pero no especifica transferencias adicionales a comunidades autónomas.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda humanista y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: el rechazo explícito al Estado centralizado es indicio de descentralización, pero no especifica transferencias adicionales a comunidades autónomas. Uso provisional, confianza baja: no es una declaración suya sobre esta medida.",
           "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://www.partidohumanista.es/Documentos/Programas/Programa%20Generales%202026.pdf",
+              "label": "Partido Humanista: Programa Generales 29N 2026"
+            }
+          ]
         },
         "9": {
           "value": 1,
@@ -2587,11 +2661,17 @@
           "value": 4,
           "source": "https://www.partidohumanista.es/Documentos/Programas/Programa%20Generales%202026.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de izquierda humanista y sus posiciones documentadas en temas afines.",
+          "reason": "El internacionalismo político es un indicio insuficiente de apoyar una integración política europea más profunda.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda humanista y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: el internacionalismo político es un indicio insuficiente de apoyar una integración política europea más profunda. Uso provisional, confianza baja: no es una declaración suya sobre esta medida.",
           "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://www.partidohumanista.es/Documentos/Programas/Programa%20Generales%202026.pdf",
+              "label": "Partido Humanista: Programa Generales 29N 2026"
+            }
+          ]
         },
         "16": {
           "value": 4,
@@ -2647,24 +2727,32 @@
           "coding": "Inferencia editorial"
         },
         "2": {
-          "value": 2,
+          "value": 1,
           "source": "https://iustitiaeuropa.es/contrato-electoral/",
-          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil conservador y soberanista europeo y sus posiciones documentadas en temas afines.",
-          "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil conservador y soberanista europeo y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
-          "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "locator": "PDF p. 18 (impresa 18); ap. 6.8 Vivienda digna",
+          "reason": "El partido propone explícitamente eliminar las políticas de control de alquiler, oposición directa a regular precios.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional"
         },
         "3": {
           "value": 1,
           "source": "https://iustitiaeuropa.es/contrato-electoral/",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil conservador y soberanista europeo y sus posiciones documentadas en temas afines.",
+          "reason": "El programa propone expulsar a quien entre irregularmente sin derecho a regularización; no nombra el arraigo de quienes ya residen en España.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil conservador y soberanista europeo y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: el programa propone expulsar a quien entre irregularmente sin derecho a regularización; no nombra el arraigo de quienes ya residen en España. Uso provisional, confianza media: no es una declaración suya sobre esta medida.",
           "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://iustitiaeuropa.es/contrato-electoral/",
+              "label": "Iustitia Europa, contrato electoral en web oficial"
+            },
+            {
+              "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+              "label": "Contrato Electoral, PDF oficial (fecha de edición no confirmada)"
+            }
+          ]
         },
         "4": {
           "value": 4,
@@ -2677,14 +2765,24 @@
           "coding": "Inferencia editorial"
         },
         "5": {
-          "value": 5,
+          "value": 4,
           "source": "https://iustitiaeuropa.es/contrato-electoral/",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil conservador y soberanista europeo y sus posiciones documentadas en temas afines.",
+          "reason": "La propuesta de endurecer penas se refiere expresamente a ocupación ilegal y no al delito común en general.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil conservador y soberanista europeo y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: la propuesta de endurecer penas se refiere expresamente a ocupación ilegal y no al delito común en general. Uso provisional, confianza media: no es una declaración suya sobre esta medida.",
           "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://iustitiaeuropa.es/contrato-electoral/",
+              "label": "Iustitia Europa, contrato electoral en web oficial"
+            },
+            {
+              "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+              "label": "Contrato Electoral, PDF oficial (fecha de edición no confirmada)"
+            }
+          ]
         },
         "6": {
           "value": 4,
@@ -2720,11 +2818,21 @@
           "value": 4,
           "source": "https://iustitiaeuropa.es/contrato-electoral/",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil conservador y soberanista europeo y sus posiciones documentadas en temas afines.",
+          "reason": "Se opone a congelar pensiones sin compensación y exige dignidad, pero no compromete actualización anual según IPC.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil conservador y soberanista europeo y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: se opone a congelar pensiones sin compensación y exige dignidad, pero no compromete actualización anual según IPC. Uso provisional, confianza media: no es una declaración suya sobre esta medida.",
           "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://iustitiaeuropa.es/contrato-electoral/",
+              "label": "Iustitia Europa, contrato electoral en web oficial"
+            },
+            {
+              "url": "https://iustitiaeuropa.es/img/bloques/documentos/descarga-aqui-tu-contrato-00030.pdf?v=1765182553",
+              "label": "Contrato Electoral, PDF oficial (fecha de edición no confirmada)"
+            }
+          ]
         },
         "11": {
           "value": 3,
@@ -2789,12 +2897,10 @@
         "18": {
           "value": 5,
           "source": "https://iustitiaeuropa.es/contrato-electoral/",
-          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil conservador y soberanista europeo y sus posiciones documentadas en temas afines.",
-          "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil conservador y soberanista europeo y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
-          "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "locator": "PDF p. 17 (impresa 17); ap. 6.6 Autónomos",
+          "reason": "Se compromete a simplificar el sistema tributario de autónomos y reducir burocracia, medida directa aunque sectorial.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional"
         }
       }
     },
@@ -2840,11 +2946,17 @@
           "value": 4,
           "source": "https://mi.democracia21.es/programa/vivienda",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de democracia directa y centro y sus posiciones documentadas en temas afines.",
+          "reason": "La deflactación del IRPF reduce la carga fiscal relativa de salarios afectados por la inflación, sin prometer rebajar tipos nominales.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de democracia directa y centro y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: la deflactación del IRPF reduce la carga fiscal relativa de salarios afectados por la inflación, sin prometer rebajar tipos nominales. Uso provisional, confianza media: no es una declaración suya sobre esta medida.",
           "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://mi.democracia21.es/programa/impuestos",
+              "label": "Impuestos justificados y que se entiendan"
+            }
+          ]
         },
         "3": {
           "value": 3,
@@ -2927,14 +3039,12 @@
           "coding": "Inferencia editorial"
         },
         "11": {
-          "value": 3,
-          "source": "https://mi.democracia21.es/programa/vivienda",
-          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de democracia directa y centro y sus posiciones documentadas en temas afines.",
-          "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de democracia directa y centro y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
-          "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "value": 5,
+          "source": "https://mi.democracia21.es/programa/derechos-sociales",
+          "locator": "Medida 01, Ninguna concesión al negacionismo",
+          "reason": "Se opone expresamente a desmantelar o desfinanciar la red pública de protección frente a violencia machista.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional"
         },
         "13": {
           "value": 3,

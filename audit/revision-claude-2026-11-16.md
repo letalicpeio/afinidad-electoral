@@ -53,3 +53,9 @@ Por decisión del usuario, con la casilla «solo documentado» desmarcada cada p
 ## Mejora de inferencias con fuentes (datos 0.5.32–0.5.34)
 
 Nuevo campo `basisLinks` en las posiciones inferidas: lista de fuentes (url + etiqueta) de las que se deduce la inferencia; la web las muestra en el desplegable. Ronda 1 (defensa, vivienda, inmigración): PP-13 y VOX-13 pasan a documentadas (declaraciones de 2025); con fuentes siguen inferidas Junts-13, PNV-13, PNV-2 (baja de 4 a 2), CC-13 (de 4 a 2), EH Bildu-13, PP-17, Junts-3, Podemos-17 y PSOE-3. Estado: 218 inferidas, 9 con fuentes específicas. Fuentes de prensa leídas por Claude; no se han contrastado con el Diario de Sesiones.
+
+## Rondas 0.5.35–0.5.43 (inferencias con fuentes)
+
+- 0.5.35–0.5.41: votaciones de 2026 (multirreincidencia 12/02, prisión permanente revisable 17/03, reforma constitucional del aborto 30/04) y programas 2026 de PP y VOX. Junts-5 y VOX-11 pasan a documentadas; el resto sigue inferido con `basisLinks`.
+- 0.5.42–0.5.43: integración de la entrega de GPT (7 partidos, 93 filas): 8 documentadas (A), 17 inferencias con fuentes (B; geroabai-9 vuelve a B porque su fuente es de 2015, por debajo del límite de 2019) y 60 en C. Las C **no se retiran**: con la casilla «solo documentado» desmarcada todos los temas deben tener posición inferida; quedan marcadas como «sin fuente localizada».
+- Las fuentes de GPT se han comprobado solo a nivel de URL y localizador, no página a página.

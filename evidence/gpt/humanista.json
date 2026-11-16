@@ -143,12 +143,12 @@
     },
     "7": {
       "status": "documentada",
-      "position": 3,
+      "position": 4,
       "sourceIds": [
         "humanista-s01"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de izquierda humanista y sus posiciones documentadas en temas afines.",
+      "evidenceSummary": "Inferencia con fuentes: El rechazo explícito al Estado centralizado es indicio de descentralización, pero no especifica transferencias adicionales a comunidades autónomas.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
       "reviewNeeded": true,
@@ -231,7 +231,7 @@
         "humanista-s01"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de izquierda humanista y sus posiciones documentadas en temas afines.",
+      "evidenceSummary": "Inferencia con fuentes: El internacionalismo político es un indicio insuficiente de apoyar una integración política europea más profunda.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
       "reviewNeeded": true,

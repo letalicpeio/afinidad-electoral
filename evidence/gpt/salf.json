@@ -41,6 +41,23 @@
       "documentVersion": null,
       "sha256": "073425b9522da77608a0399923c2e0d3b9153776e8a0436ac8f0aea794b7893b",
       "notes": "PDF del dominio del partido (19 MB, 40 páginas), enlazado desde su portada. Páginas del PDF; la web remite a «Pág. 5–39»."
+    },
+    {
+      "id": "salf-s03",
+      "url": "https://www.seacabolafiesta.com/SALF_Contrato_Electoral_29N.pdf?v=073425b9522d",
+      "publisher": "www.seacabolafiesta.com",
+      "title": "SALF Contrato Electoral Simplificado 29N 2026",
+      "published": null,
+      "accessed": "2026-11-15",
+      "election": "Generales de España 2026",
+      "year": 2026,
+      "kind": "programa",
+      "origin": "primaria",
+      "hosting": "oficial",
+      "historical": false,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Fuente localizada por la revisión de GPT (16/11/2026); verificada por Claude solo a nivel de URL y localizador."
     }
   ],
   "questions": {
@@ -253,17 +270,17 @@
     },
     "12": {
       "status": "documentada",
-      "position": 2,
+      "position": 1,
       "sourceIds": [
-        "salf-s01"
+        "salf-s03"
       ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil populista antisistema y liberal y sus posiciones documentadas en temas afines.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
-      "nextAction": "Buscar texto del partido sobre este tema.",
+      "locator": "X Geopolítica, medida 1; PDF página impresa 35 (índice físico no verificado)",
+      "evidenceSummary": "SALF propone renegociar la relación con la UE y celebrar referéndum de salida si se rechaza, contrario a más integración política.",
+      "reason": "SALF propone renegociar la relación con la UE y celebrar referéndum de salida si se rechaza, contrario a más integración política.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": "Línea base importada: valor 1; fuente https://www.seacabolafiesta.com/; localizador «Compromiso 10 · Geopolítica»",
       "baselinePosition": {
         "value": 1,
@@ -277,14 +294,14 @@
     },
     "13": {
       "status": "documentada",
-      "position": 2,
+      "position": 4,
       "sourceIds": [
-        "salf-s01"
+        "salf-s03"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil populista antisistema y liberal y sus posiciones documentadas en temas afines.",
+      "evidenceSummary": "Inferencia con fuentes: Propone gasto defensivo del 2 % del PIB y 1.200 millones anuales en mejoras salariales dentro de ese límite, sin comparación homogénea con el nivel actual.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "baja",
+      "confidence": "media",
       "reviewNeeded": true,
       "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
       "nextAction": "Buscar texto del partido sobre este tema.",

@@ -118,9 +118,9 @@
         "mundo-justo-s01"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de izquierda humanitaria y sus posiciones documentadas en temas afines.",
+      "evidenceSummary": "Inferencia con fuentes: Su apuesta expresa por justicia restaurativa y reinserción es indicio de no priorizar el endurecimiento penitenciario, sin excluirlo explícitamente.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "baja",
+      "confidence": "media",
       "reviewNeeded": true,
       "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
       "nextAction": "Buscar texto del partido sobre este tema.",
@@ -153,14 +153,14 @@
     },
     "7": {
       "status": "documentada",
-      "position": 3,
+      "position": 4,
       "sourceIds": [
         "mundo-justo-s01"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de izquierda humanitaria y sus posiciones documentadas en temas afines.",
+      "evidenceSummary": "Inferencia con fuentes: Propone completar la transferencia de la sanidad penitenciaria a comunidades autónomas, no una descentralización indiscriminada.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "baja",
+      "confidence": "media",
       "reviewNeeded": true,
       "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
       "nextAction": "Buscar texto del partido sobre este tema.",
@@ -206,14 +206,14 @@
     },
     "10": {
       "status": "documentada",
-      "position": 5,
+      "position": 4,
       "sourceIds": [
         "mundo-justo-s01"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de izquierda humanitaria y sus posiciones documentadas en temas afines.",
+      "evidenceSummary": "Inferencia con fuentes: Propone que las pensiones públicas nunca pierdan poder adquisitivo, pero no explicita que el mecanismo sea la actualización conforme al IPC.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "baja",
+      "confidence": "media",
       "reviewNeeded": true,
       "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
       "nextAction": "Buscar texto del partido sobre este tema.",
@@ -355,14 +355,14 @@
     },
     "17": {
       "status": "documentada",
-      "position": 5,
+      "position": 4,
       "sourceIds": [
         "mundo-justo-s01"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de izquierda humanitaria y sus posiciones documentadas en temas afines.",
+      "evidenceSummary": "Inferencia con fuentes: Garantiza igualdad y no discriminación en servicios sociales para migrantes, pero no especifica identidad de requisitos económicos para prestaciones.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "baja",
+      "confidence": "media",
       "reviewNeeded": true,
       "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
       "nextAction": "Buscar texto del partido sobre este tema.",

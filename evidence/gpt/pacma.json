@@ -24,6 +24,57 @@
       "documentVersion": null,
       "sha256": "6009e569e3bfd4f607b8831ade1d1ef33cbbda6033805e3ebc331d4dd0e30a1d",
       "notes": "PDF del dominio pacma.es (1,2 MB, 83 páginas) con numeración de apartados. Páginas del PDF; la numeración impresa va uno por delante en algunos apartados."
+    },
+    {
+      "id": "pacma-s02",
+      "url": "https://pacma.es/wp-content/uploads/2015/08/Programa-electoral-elecciones-Galicia-2012-castellano.pdf",
+      "publisher": "pacma.es",
+      "title": "PACMA programa Galicia 2012 (antecedente territorial)",
+      "published": null,
+      "accessed": "2026-11-16",
+      "election": "Declaración pública de 2012",
+      "year": 2012,
+      "kind": "programa",
+      "origin": "primaria",
+      "hosting": "oficial",
+      "historical": true,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Fuente localizada por la revisión de GPT (16/11/2026); verificada por Claude solo a nivel de URL y localizador."
+    },
+    {
+      "id": "pacma-s03",
+      "url": "https://elecciones.pacma.es/24mayo2015/files/propuestas/leon.pdf",
+      "publisher": "elecciones.pacma.es",
+      "title": "PACMA programa Castilla y León 2015 (antecedente territorial)",
+      "published": null,
+      "accessed": "2026-11-16",
+      "election": "Declaración pública de 2015",
+      "year": 2015,
+      "kind": "programa",
+      "origin": "primaria",
+      "hosting": "oficial",
+      "historical": true,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Fuente localizada por la revisión de GPT (16/11/2026); verificada por Claude solo a nivel de URL y localizador."
+    },
+    {
+      "id": "pacma-s04",
+      "url": "https://pacma.es/wp-content/uploads/2023/07/PACMA_PE_GENERALES_23J23.pdf",
+      "publisher": "pacma.es",
+      "title": "PACMA compromiso electoral generales 2023 (antecedente)",
+      "published": null,
+      "accessed": "2026-11-16",
+      "election": "Declaración pública de 2023",
+      "year": 2023,
+      "kind": "programa",
+      "origin": "primaria",
+      "hosting": "oficial",
+      "historical": true,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Fuente localizada por la revisión de GPT (16/11/2026); verificada por Claude solo a nivel de URL y localizador."
     }
   ],
   "questions": {
@@ -194,12 +245,12 @@
       "status": "documentada",
       "position": 4,
       "sourceIds": [
-        "pacma-s01"
+        "pacma-s02"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de izquierda ecologista y animalista y sus posiciones documentadas en temas afines.",
+      "evidenceSummary": "Inferencia con fuentes: Propuso aumentar anualmente conforme al IPC un complemento autonómico de pensiones no contributivas, no todas las pensiones del sistema.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "baja",
+      "confidence": "media",
       "reviewNeeded": true,
       "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
       "nextAction": "Buscar texto del partido sobre este tema.",
@@ -275,14 +326,14 @@
     },
     "15": {
       "status": "documentada",
-      "position": 5,
+      "position": 4,
       "sourceIds": [
-        "pacma-s01"
+        "pacma-s03"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de izquierda ecologista y animalista y sus posiciones documentadas en temas afines.",
+      "evidenceSummary": "Inferencia con fuentes: La propuesta territorial de informar sobre derechos sanitarios relativos al aborto apoya su protección, pero no fija postura expresa sobre la legislación estatal vigente.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "baja",
+      "confidence": "media",
       "reviewNeeded": true,
       "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
       "nextAction": "Buscar texto del partido sobre este tema.",
@@ -307,12 +358,12 @@
       "status": "documentada",
       "position": 4,
       "sourceIds": [
-        "pacma-s01"
+        "pacma-s04"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de izquierda ecologista y animalista y sus posiciones documentadas en temas afines.",
+      "evidenceSummary": "Inferencia con fuentes: El programa propone acceso unificado a derechos de personas migrantes, pero no establece equivalencia exacta de requisitos económicos de prestaciones.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "baja",
+      "confidence": "media",
       "reviewNeeded": true,
       "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
       "nextAction": "Buscar texto del partido sobre este tema.",

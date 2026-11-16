@@ -41,19 +41,138 @@
       "documentVersion": null,
       "sha256": "4e011dc660957ebac66666844fc65ff2f069633ea5254a524c7aad1c34e20c0c",
       "notes": "Documento oficial de 14 páginas publicado en geroabai.eus (12/11/2026), leído completo. Es un documento de bases políticas, no un programa con medidas por áreas: solo se codifica lo que dice de forma explícita. Numeración según el pie «GEROA BAI · N»."
+    },
+    {
+      "id": "geroa-bai-s03",
+      "url": "https://geroabai.eus/files/2023/08/acuerdo-de-gobierno-psn-psoe-geroa-bai-y-contigo-zurekin-1.pdf",
+      "publisher": "geroabai.eus",
+      "title": "Acuerdo gobierno Navarra PSN-Geroa Bai-Contigo 2023-2027",
+      "published": null,
+      "accessed": "2026-11-15",
+      "election": "Declaración pública de 2023",
+      "year": 2023,
+      "kind": "documento-politico",
+      "origin": "primaria",
+      "hosting": "oficial",
+      "historical": true,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Fuente localizada por la revisión de GPT (16/11/2026); verificada por Claude solo a nivel de URL y localizador."
+    },
+    {
+      "id": "geroa-bai-s04",
+      "url": "https://geroabai.eus/files/2016/12/programagenerales2015castellano.pdf",
+      "publisher": "geroabai.eus",
+      "title": "Bases generales Geroa Bai 2015 (antecedente)",
+      "published": null,
+      "accessed": "2026-11-15",
+      "election": "Declaración pública de 2015",
+      "year": 2015,
+      "kind": "programa",
+      "origin": "primaria",
+      "hosting": "oficial",
+      "historical": true,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Fuente localizada por la revisión de GPT (16/11/2026); verificada por Claude solo a nivel de URL y localizador."
+    },
+    {
+      "id": "geroa-bai-s05",
+      "url": "https://geroabai.eus/files/2019/05/PROGRAMA-PARLAMENTO-2019%20%281%29.pdf",
+      "publisher": "geroabai.eus",
+      "title": "Programa foral Geroa Bai 2019 (antecedente)",
+      "published": null,
+      "accessed": "2026-11-15",
+      "election": "Declaración pública de 2019",
+      "year": 2019,
+      "kind": "programa",
+      "origin": "primaria",
+      "hosting": "oficial",
+      "historical": true,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Fuente localizada por la revisión de GPT (16/11/2026); verificada por Claude solo a nivel de URL y localizador."
+    },
+    {
+      "id": "geroa-bai-s06",
+      "url": "https://geroabai.eus/es/actualidad/blanca-regulez-reclama-claridad-juridica-y-propone-elevar-el-aborto-a-derecho-fundamental",
+      "publisher": "geroabai.eus",
+      "title": "Blanca Regúlez, enmienda sobre el aborto",
+      "published": null,
+      "accessed": "2026-11-15",
+      "election": "Generales de España 2026",
+      "year": 2026,
+      "kind": "declaracion",
+      "origin": "primaria",
+      "hosting": "oficial",
+      "historical": false,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Fuente localizada por la revisión de GPT (16/11/2026); verificada por Claude solo a nivel de URL y localizador."
+    },
+    {
+      "id": "geroa-bai-s07",
+      "url": "https://geroabai.eus/es/actualidad/geroa-bai-reivindica-la-nueva-ley-de-industria-como-un-hito-estrategico-para-el-futuro-de-navarra",
+      "publisher": "geroabai.eus",
+      "title": "Geroa Bai, Ley Foral de Industria",
+      "published": null,
+      "accessed": "2026-11-15",
+      "election": "Generales de España 2026",
+      "year": 2026,
+      "kind": "declaracion",
+      "origin": "primaria",
+      "hosting": "oficial",
+      "historical": false,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Fuente localizada por la revisión de GPT (16/11/2026); verificada por Claude solo a nivel de URL y localizador."
+    },
+    {
+      "id": "geroa-bai-s08",
+      "url": "https://geroabai.eus/es/actualidad/geroa-bai-valora-positivamente-las-medidas-y-los-compromisos-fiscales-adquiridos-para-2025",
+      "publisher": "geroabai.eus",
+      "title": "Geroa Bai, medidas tributarias 2025 (antecedente 2024)",
+      "published": null,
+      "accessed": "2026-11-16",
+      "election": "Declaración pública de 2024",
+      "year": 2024,
+      "kind": "declaracion",
+      "origin": "primaria",
+      "hosting": "oficial",
+      "historical": true,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Fuente localizada por la revisión de GPT (16/11/2026); verificada por Claude solo a nivel de URL y localizador."
+    },
+    {
+      "id": "geroa-bai-s09",
+      "url": "https://geroabai.eus/es/actualidad/uxue-barkos-reclama-para-navarra-la-competencia-para-gestionar-sus-pensiones-publicas",
+      "publisher": "geroabai.eus",
+      "title": "Uxue Barkos en Consejo General Geroa Bai (antecedente)",
+      "published": null,
+      "accessed": "2026-11-16",
+      "election": "Declaración pública de 2018",
+      "year": 2018,
+      "kind": "declaracion",
+      "origin": "primaria",
+      "hosting": "oficial",
+      "historical": true,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Fuente localizada por la revisión de GPT (16/11/2026); verificada por Claude solo a nivel de URL y localizador."
     }
   ],
   "questions": {
     "1": {
       "status": "documentada",
-      "position": 3,
+      "position": 4,
       "sourceIds": [
-        "geroa-bai-s02"
+        "geroa-bai-s08"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de nacionalismo navarro de centroizquierda y sus posiciones documentadas en temas afines.",
+      "evidenceSummary": "Inferencia con fuentes: La coalición defendió mantener una deducción de IRPF para rentas hasta 30000 euros y estudiar la deflactación; es alivio fiscal acotado, no una rebaja general.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "baja",
+      "confidence": "media",
       "reviewNeeded": true,
       "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
       "nextAction": "Buscar texto del partido sobre este tema.",
@@ -61,17 +180,17 @@
     },
     "2": {
       "status": "documentada",
-      "position": 4,
+      "position": 5,
       "sourceIds": [
-        "geroa-bai-s02"
+        "geroa-bai-s03"
       ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de nacionalismo navarro de centroizquierda y sus posiciones documentadas en temas afines.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
-      "nextAction": "Buscar texto del partido sobre este tema.",
+      "locator": "PDF p. 14 (impresa 13); VIVIENDA, medida 18",
+      "evidenceSummary": "El acuerdo suscrito por Geroa Bai dispone iniciar zonas tensionadas y limitar el precio del alquiler; antecedente de ámbito navarro.",
+      "reason": "El acuerdo suscrito por Geroa Bai dispone iniciar zonas tensionadas y limitar el precio del alquiler; antecedente de ámbito navarro.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     },
     "3": {
@@ -121,14 +240,14 @@
     },
     "6": {
       "status": "documentada",
-      "position": 3,
+      "position": 4,
       "sourceIds": [
-        "geroa-bai-s02"
+        "geroa-bai-s03"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de nacionalismo navarro de centroizquierda y sus posiciones documentadas en temas afines.",
+      "evidenceSummary": "Inferencia con fuentes: El acuerdo contempla conservar conciertos donde haya demanda suficiente y reducir unidades sin ella; no se compromete explícitamente a mantener toda la financiación.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "baja",
+      "confidence": "media",
       "reviewNeeded": true,
       "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
       "nextAction": "Buscar texto del partido sobre este tema.",
@@ -174,30 +293,30 @@
       "replaces": null
     },
     "9": {
-      "status": "documentada",
-      "position": 2,
+      "status": "sin-evidencia",
+      "position": null,
       "sourceIds": [
-        "geroa-bai-s02"
+        "geroa-bai-s04"
       ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de nacionalismo navarro de centroizquierda y sus posiciones documentadas en temas afines.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
-      "nextAction": "Buscar texto del partido sobre este tema.",
+      "locator": "PDF p. 46 (impresa 45); Sostenibilidad y medio ambiente",
+      "evidenceSummary": "Las bases de 2015 proponen apagón nuclear a corto plazo y el programa de 2011 también; ambos son antecedentes.",
+      "reason": "Las bases de 2015 proponen apagón nuclear a corto plazo y el programa de 2011 también; ambos son antecedentes.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": "Antecedente de 2015 (anterior al límite de 2019): se mantiene solo como inferencia con fuente en data.json.",
+      "nextAction": null,
       "replaces": null
     },
     "10": {
       "status": "documentada",
-      "position": 5,
+      "position": 4,
       "sourceIds": [
-        "geroa-bai-s02"
+        "geroa-bai-s09"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de nacionalismo navarro de centroizquierda y sus posiciones documentadas en temas afines.",
+      "evidenceSummary": "Inferencia con fuentes: Uxue Barkos criticó que las pensiones no se actualizasen siquiera conforme al IPC; indicio de respaldo, no compromiso vigente.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "baja",
+      "confidence": "media",
       "reviewNeeded": true,
       "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
       "nextAction": "Buscar texto del partido sobre este tema.",
@@ -220,17 +339,17 @@
     },
     "12": {
       "status": "documentada",
-      "position": 4,
+      "position": 5,
       "sourceIds": [
-        "geroa-bai-s02"
+        "geroa-bai-s05"
       ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de nacionalismo navarro de centroizquierda y sus posiciones documentadas en temas afines.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
-      "nextAction": "Buscar texto del partido sobre este tema.",
+      "locator": "PDF p. 8 (impresa 8); epígrafe 8 Construcción europea",
+      "evidenceSummary": "El programa foral 2019 defiende expresamente una Europa federal; es antecedente, reforzado por iniciativas de soberanía europea en 2026.",
+      "reason": "El programa foral 2019 defiende expresamente una Europa federal; es antecedente, reforzado por iniciativas de soberanía europea en 2026.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     },
     "13": {
@@ -267,15 +386,15 @@
       "status": "documentada",
       "position": 5,
       "sourceIds": [
-        "geroa-bai-s02"
+        "geroa-bai-s06"
       ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de nacionalismo navarro de centroizquierda y sus posiciones documentadas en temas afines.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
-      "nextAction": "Buscar texto del partido sobre este tema.",
+      "locator": "Declaración/enmienda 11/06/2026, párrafos sobre derecho fundamental",
+      "evidenceSummary": "Geroa Bai propuso reconocer el aborto como derecho fundamental y anunció apoyo a la moción sobre su protección.",
+      "reason": "Geroa Bai propuso reconocer el aborto como derecho fundamental y anunció apoyo a la moción sobre su protección.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     },
     "16": {
@@ -310,17 +429,17 @@
     },
     "18": {
       "status": "documentada",
-      "position": 3,
+      "position": 4,
       "sourceIds": [
-        "geroa-bai-s02"
+        "geroa-bai-s07"
       ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de nacionalismo navarro de centroizquierda y sus posiciones documentadas en temas afines.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
-      "nextAction": "Buscar texto del partido sobre este tema.",
+      "locator": "Declaración 10/06/2026; párrafos sobre reducción de trabas burocráticas",
+      "evidenceSummary": "Geroa Bai apoya simplificación administrativa y reducción de trabas empresariales, concretamente en el ámbito industrial navarro.",
+      "reason": "Geroa Bai apoya simplificación administrativa y reducción de trabas empresariales, concretamente en el ámbito industrial navarro.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     }
   },
