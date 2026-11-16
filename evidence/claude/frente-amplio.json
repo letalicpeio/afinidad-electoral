@@ -108,6 +108,23 @@
       "documentVersion": null,
       "sha256": "e8d9a4a21175ab388f8d1ae3011bf8c99749cfd13dcafc5e71aa6eaf79269272",
       "notes": "Programa de Sumar para las generales de 2023, alianza de la que procede Frente Amplio. Se usa como antecedente por decisión del usuario (15/11/2026), no como compromiso de Frente Amplio ni de sus socios actuales."
+    },
+    {
+      "id": "frente-amplio-s07",
+      "url": "https://www.infobae.com/espana/agencias/2025/05/17/urtasun-dice-que-sumar-garantiza-que-la-inversion-social-no-caera-a-costa-de-la-de-defensa/",
+      "publisher": "Infobae (EFE)",
+      "title": "Urtasun dice que Sumar garantiza que la inversión social no caerá a costa de la de defensa",
+      "published": "2025-05-15",
+      "accessed": "2026-11-15",
+      "election": "Declaración pública de 2025",
+      "year": 2025,
+      "kind": "noticia",
+      "origin": "secundaria",
+      "hosting": "medio",
+      "historical": true,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Declaración del portavoz de Sumar (15/05/2025) recogida por EFE. Antecedente: no acredita un compromiso de 2026."
     }
   ],
   "questions": {
@@ -289,14 +306,14 @@
     },
     "13": {
       "status": "documentada",
-      "position": 2,
+      "position": 1,
       "sourceIds": [
-        "frente-amplio-s06"
+        "frente-amplio-s07"
       ],
-      "locator": "PDF p. 141; política exterior y de defensa",
-      "evidenceSummary": "Propone avanzar hacia una autonomía estratégica europea no al servicio de la industria armamentística y auditar los Programas Especiales de Armamento.",
-      "reason": "Oposición con matices: no propone aumentar el gasto y plantea revisarlo; no fija una cifra.",
-      "confidence": "baja",
+      "locator": "Declaración de Ernest Urtasun, 15/05/2025",
+      "evidenceSummary": "Sumar no comparte el plan para elevar el gasto militar al 2 % del PIB, califica de «métrica absurda» medirlo como porcentaje del PIB y sostiene que la defensa europea no se logra aumentando el gasto militar nacional.",
+      "reason": "Oposición clara a aumentar el gasto en defensa, expresada por la propia formación.",
+      "confidence": "media",
       "reviewNeeded": false,
       "reviewNote": null,
       "nextAction": null,

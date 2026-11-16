@@ -1,5 +1,5 @@
 {
-  "version": "0.5.28",
+  "version": "0.5.29",
   "date": "2026-11-15",
   "election": "Congreso · 29 de noviembre de 2026",
   "questions": [
@@ -1665,13 +1665,13 @@
           "coding": "Interpretación editorial provisional de un programa histórico"
         },
         "13": {
-          "value": 2,
-          "source": "https://verdesequo.es/wp-content/uploads/2023/07/Un-programa-para-ti.pdf",
-          "locator": "Histórico 2023 · PDF p. 141; política exterior y de defensa",
-          "reason": "Oposición con matices: no propone aumentar el gasto y plantea revisarlo; no fija una cifra.",
+          "value": 1,
+          "source": "https://www.infobae.com/espana/agencias/2025/05/17/urtasun-dice-que-sumar-garantiza-que-la-inversion-social-no-caera-a-costa-de-la-de-defensa/",
+          "locator": "Histórico 2025 · Declaración de Ernest Urtasun, 15/05/2025",
+          "reason": "Oposición clara a aumentar el gasto en defensa, expresada por la propia formación.",
           "historical": true,
-          "sourceYear": 2023,
-          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa de Sumar para las generales de 2023, alianza de la que procede Frente Amplio. Antecedente: no acredita un compromiso de 2026.",
+          "sourceYear": 2025,
+          "sourceNote": "ANTECEDENTE DE 2025: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Declaración del portavoz de Sumar (15/05/2025) recogida por EFE. Antecedente: no acredita un compromiso de 2026.",
           "reviewed": "2026-11-15",
           "coding": "Interpretación editorial provisional de un programa histórico"
         },
