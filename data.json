@@ -1,5 +1,5 @@
 {
-  "version": "0.5.34",
+  "version": "0.5.36",
   "date": "2026-11-15",
   "election": "Congreso · 29 de noviembre de 2026",
   "questions": [
@@ -216,21 +216,33 @@
           "value": 2,
           "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de centroderecha estatal y sus posiciones documentadas en temas afines.",
+          "reason": "Su programa de 2026 dice que el Estado ejercerá por sí mismo sus competencias exclusivas, propone estándares comunes en las que ya gestionan las comunidades y defiende la unidad de España; no propone nuevos traspasos.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de centroderecha estatal y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: su programa de 2026 dice que el Estado ejercerá por sí mismo sus competencias exclusivas, propone estándares comunes en las que ya gestionan las comunidades y defiende la unidad de España; no propone nuevos traspasos. Uso provisional, confianza media: no es una declaración suya sobre esta medida.",
           "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf#page=15",
+              "label": "Programa del PP 2026, PDF p. 15"
+            }
+          ]
         },
         "11": {
           "value": 4,
           "source": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de centroderecha estatal y sus posiciones documentadas en temas afines.",
+          "reason": "Su programa de 2026 refuerza VioGén, las unidades especializadas y las secciones de violencia sobre la mujer y promete rendir cuentas cada año del Pacto de Estado contra la Violencia de Género; no cita la ley integral.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de centroderecha estatal y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: su programa de 2026 refuerza VioGén, las unidades especializadas y las secciones de violencia sobre la mujer y promete rendir cuentas cada año del Pacto de Estado contra la Violencia de Género; no cita la ley integral. Uso provisional, confianza media: no es una declaración suya sobre esta medida.",
           "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://www.pp.es/wp-content/uploads/2026/11/PROGRAMA-ELECTORAL-PP-2026-RECONSTRUCCION-NACIONAL.pdf#page=17",
+              "label": "Programa del PP 2026, PDF p. 17"
+            }
+          ]
         },
         "12": {
           "value": 4,
@@ -3807,21 +3819,37 @@
           "value": 2,
           "source": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26-1.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Ha defendido derogar la prisión permanente revisable y priorizar la reinserción.",
+          "reason": "En marzo de 2026 su portavoz anunció el rechazo a ampliar la prisión permanente revisable y dijo que la norma vigente no plantea problemas; tras el aval del Tribunal Constitucional en 2021 dejó de pedir su derogación.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce porque ha defendido derogar la prisión permanente revisable y priorizar la reinserción. Uso provisional, confianza baja: no es una declaración del partido.",
-          "reviewed": "2026-11-15",
-          "coding": "Inferencia editorial"
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: en marzo de 2026 su portavoz anunció el rechazo a ampliar la prisión permanente revisable y dijo que la norma vigente no plantea problemas; tras el aval del Tribunal Constitucional en 2021 dejó de pedir su derogación. Uso provisional, confianza media: no es una declaración suya sobre esta medida.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://www.infobae.com/espana/agencias/2026/03/17/el-psoe-rechazara-en-el-congreso-la-reforma-para-ampliar-la-prision-permanente-y-acusa-al-pp-de-mover-las-tripas/",
+              "label": "Infobae, 17/03/2026"
+            },
+            {
+              "url": "https://www.elespanol.com/espana/politica/20211103/sanchez-renuncia-permanente-revisable-pp-psoe-tc/624188544_0.html",
+              "label": "El Español, 03/11/2021"
+            }
+          ]
         },
         "6": {
           "value": 2,
           "source": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26-1.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "La LOMLOE que impulsó retiró la «demanda social» y hace subsidiaria a la concertada.",
+          "reason": "La reforma educativa (LOMLOE) que impulsó fija en su artículo 109 una oferta suficiente de plazas públicas y programa la concertada solo en función de la ya autorizada, sin el criterio de demanda social.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce porque la LOMLOE que impulsó retiró la «demanda social» y hace subsidiaria a la concertada. Uso provisional, confianza media: no es una declaración del partido.",
-          "reviewed": "2026-11-15",
-          "coding": "Inferencia editorial"
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: la reforma educativa (LOMLOE) que impulsó fija en su artículo 109 una oferta suficiente de plazas públicas y programa la concertada solo en función de la ya autorizada, sin el criterio de demanda social. Uso provisional, confianza media: no es una declaración suya sobre esta medida.",
+          "reviewed": "2026-11-16",
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-17264",
+              "label": "LOMLOE, art. 109 (BOE)"
+            }
+          ]
         },
         "14": {
           "value": 1,
@@ -3857,11 +3885,17 @@
           "value": 2,
           "source": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26-1.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil socialdemócrata y sus posiciones documentadas en temas afines.",
+          "reason": "En 2017 presentó una proposición para excluir de los indultos a los condenados por corrupción, pero el Gobierno ha concedido indultos parciales a condenados por corrupción según la prensa; no hay una propuesta actual de prohibirlos.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil socialdemócrata y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: en 2017 presentó una proposición para excluir de los indultos a los condenados por corrupción, pero el Gobierno ha concedido indultos parciales a condenados por corrupción según la prensa; no hay una propuesta actual de prohibirlos. Uso provisional, confianza baja: no es una declaración suya sobre esta medida.",
           "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://www.psoe.es/congreso/noticias-congreso/el-psoe-apuesta-por-modificar-la-ley-para-que-no-se-pueda-indultar-a-corruptos/",
+              "label": "Nota del Grupo Socialista (proposición de 2017)"
+            }
+          ]
         }
       },
       "exclude": [

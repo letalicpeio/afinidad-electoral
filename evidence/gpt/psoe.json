@@ -126,6 +126,74 @@
       "documentVersion": null,
       "sha256": null,
       "notes": "Resumen periodístico (03/11/2026) de posiciones públicas y votaciones sobre la regularización extraordinaria (RD 316/2026)."
+    },
+    {
+      "id": "psoe-s08",
+      "url": "https://www.infobae.com/espana/agencias/2026/03/17/el-psoe-rechazara-en-el-congreso-la-reforma-para-ampliar-la-prision-permanente-y-acusa-al-pp-de-mover-las-tripas/",
+      "publisher": "Infobae (Europa Press)",
+      "title": "El PSOE rechazará en el Congreso la reforma para ampliar la prisión permanente y acusa al PP de «mover las tripas»",
+      "published": "2026-03-17",
+      "accessed": "2026-11-16",
+      "election": "Generales de España 2026",
+      "year": 2026,
+      "kind": "noticia",
+      "origin": "secundaria",
+      "hosting": "medio",
+      "historical": false,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Declaraciones del portavoz Patxi López (17/03/2026)."
+    },
+    {
+      "id": "psoe-s09",
+      "url": "https://www.elespanol.com/espana/politica/20211103/sanchez-renuncia-permanente-revisable-pp-psoe-tc/624188544_0.html",
+      "publisher": "El Español",
+      "title": "Sánchez renuncia a tocar la prisión permanente revisable que aprobó el PP y el PSOE recurrió al TC",
+      "published": "2021-11-03",
+      "accessed": "2026-11-16",
+      "election": "Declaración pública de 2021",
+      "year": 2021,
+      "kind": "noticia",
+      "origin": "secundaria",
+      "hosting": "medio",
+      "historical": true,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": ""
+    },
+    {
+      "id": "psoe-s10",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-17264",
+      "publisher": "BOE",
+      "title": "Ley Orgánica 3/2020 (LOMLOE), art. 109",
+      "published": "2020-12-30",
+      "accessed": "2026-11-16",
+      "election": "Declaración pública de 2020",
+      "year": 2020,
+      "kind": "documento-politico",
+      "origin": "primaria",
+      "hosting": "oficial",
+      "historical": true,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Ley aprobada con el impulso del Gobierno del PSOE; el artículo 109 reformado prioriza la oferta suficiente de plazas públicas."
+    },
+    {
+      "id": "psoe-s11",
+      "url": "https://www.psoe.es/congreso/noticias-congreso/el-psoe-apuesta-por-modificar-la-ley-para-que-no-se-pueda-indultar-a-corruptos/",
+      "publisher": "PSOE (Grupo Socialista en el Congreso)",
+      "title": "El PSOE apuesta por modificar la ley «para que no se pueda indultar a corruptos»",
+      "published": null,
+      "accessed": "2026-11-16",
+      "election": "Declaración pública de 2017",
+      "year": 2017,
+      "kind": "noticia",
+      "origin": "primaria",
+      "hosting": "oficial",
+      "historical": true,
+      "documentVersion": null,
+      "sha256": null,
+      "notes": "Nota de prensa del grupo parlamentario; la fecha exacta no consta en la página consultada (proposición de ley de 2017 según la prensa)."
     }
   ],
   "questions": {
@@ -213,12 +281,13 @@
       "status": "documentada",
       "position": 2,
       "sourceIds": [
-        "psoe-s06"
+        "psoe-s08",
+        "psoe-s09"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: ha defendido derogar la prisión permanente revisable y priorizar la reinserción.",
+      "evidenceSummary": "Inferencia con fuentes: En marzo de 2026 su portavoz anunció el rechazo a ampliar la prisión permanente revisable y dijo que la norma vigente no plantea problemas; tras el aval del Tribunal Constitucional en 2021 dejó de pedir su derogación.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "baja",
+      "confidence": "media",
       "reviewNeeded": true,
       "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
       "nextAction": "Buscar texto del partido sobre este tema.",
@@ -228,10 +297,10 @@
       "status": "documentada",
       "position": 2,
       "sourceIds": [
-        "psoe-s06"
+        "psoe-s10"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: la LOMLOE que impulsó retiró la «demanda social» y hace subsidiaria a la concertada.",
+      "evidenceSummary": "Inferencia con fuentes: La reforma educativa (LOMLOE) que impulsó fija en su artículo 109 una oferta suficiente de plazas públicas y programa la concertada solo en función de la ya autorizada, sin el criterio de demanda social.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "media",
       "reviewNeeded": true,
@@ -451,10 +520,10 @@
       "status": "documentada",
       "position": 2,
       "sourceIds": [
-        "psoe-s06"
+        "psoe-s11"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil socialdemócrata y sus posiciones documentadas en temas afines.",
+      "evidenceSummary": "Inferencia con fuentes: En 2017 presentó una proposición para excluir de los indultos a los condenados por corrupción, pero el Gobierno ha concedido indultos parciales a condenados por corrupción según la prensa; no hay una propuesta actual de prohibirlos.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
       "reviewNeeded": true,
