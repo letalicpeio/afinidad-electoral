@@ -10,6 +10,7 @@ Lote versión 0.5.34, revisión 16/11/2026. Claude integra en los datos comparti
 | Partido Humanista | 9 | 0 | 2 | 7 | 0 | Revisado |
 | Por un Mundo Más Justo | 9 | 0 | 4 | 5 | 0 | Revisado |
 | D21 | 14 | 1 | 1 | 12 | 0 | Revisado, con limitaciones |
+| Iustitia Europa | 16 | 2 | 3 | 11 | 0 | Revisado |
 
 ## Dudas y límites
 
@@ -53,3 +54,16 @@ Lote versión 0.5.34, revisión 16/11/2026. Claude integra en los datos comparti
 - Portal oficial `https://mi.democracia21.es/programa` y PDF `https://mi.democracia21.es/docs/programa/espana-limpia-democracia21.pdf` localizados, pero `open` devolvió error de caché; se pudieron consultar las fichas originales completas por el índice del buscador y sus secciones.
 - Contraste positivo explícito en violencia machista; deflactación IRPF por IPC es indicio de menor carga fiscal, no rebaja general de impuestos.
 - Las salidas C restantes conservan nivel de confianza bajo por limitación de apertura, y deben revisarse por Claude antes de integrar una retirada definitiva.
+
+## Iustitia Europa
+
+- Contrato electoral oficial consultado tanto en HTML como en PDF de 28 páginas enlazado por campaña de 2026. La **fecha de edición del PDF no está confirmada**, por lo que se deja su campo `fuente_2_anio` vacío y se cita como documento político en sitio vigente.
+- Capturas verificadas de páginas físicas PDF p. 15, 18 y 20 (índices 14,17 y 19 de la herramienta), que coinciden con páginas impresas. Otras referencias se obtuvieron de la transcripción de PDF con marcadores de página, pero no de capturas.
+- La regularización por arraigo no se menciona: la oposición a regularizar entradas ilegales es solo B para este supuesto y no se equipara a todos los extranjeros residentes.
+- Las propuestas sobre penas en ocupación ilegal no prueban endurecimiento penal general; las pensiones sin congelación no equivalen a IPC.
+
+## Totales y cierre
+
+- Siete partidos investigados, 86 filas clasificadas y entregadas en CSV separados, cada uno con su commit.
+- **Pendiente de revisión de Claude**: confirmar localizadores PDF físicos donde no se pudieron hacer capturas; contrastar C de D21 por la intermitencia de sus enlaces; estudiar B con confianza baja y confirmar si documentos sin fecha son antecedentes.
+- No se ha tocado `data.json`, `programas.json`, interfaz ni pruebas.
