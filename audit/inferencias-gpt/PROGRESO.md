@@ -6,6 +6,7 @@ Lote versión 0.5.34, revisión 16/11/2026. Claude integra en los datos comparti
 |---|---:|---:|---:|---:|---:|---|
 | Geroa Bai | 16 | 5 | 3 | 8 | 0 | Revisado |
 | PACMA | 13 | 0 | 3 | 10 | 0 | Revisado |
+| SALF | 9 | 1 | 1 | 7 | 0 | Revisado |
 
 ## Dudas y límites
 
@@ -23,3 +24,10 @@ Lote versión 0.5.34, revisión 16/11/2026. Claude integra en los datos comparti
 - En la web oficial, comentarios de lectores sobre aborto y monarquía no son pronunciamientos del partido; el propio PACMA distingue ambos.
 - La referencia a IPC solo afecta a un complemento gallego de pensiones no contributivas (2012); no debe elevarse a compromiso de revalorización general.
 - El programa 2026 figura ya integrado en datos 0.5.34 para otras 4 preguntas. La URL de descarga publicada para 2026 devolvió fallo de caché en esta revisión; no se le atribuye contenido adicional.
+
+## SALF
+
+- Se consultó el **contrato electoral oficial SALF 2026** (119 medidas, 40 páginas), contrastando las 9 preguntas con vivienda, empleo, instituciones, geopolítica y derechos.
+- La captura de página física falló por error de caché; los números de página impresos en fuente se mencionan expresamente como no contrastados con el índice físico.
+- Se propone B y no A en defensa: un objetivo del 2% del PIB no prueba por sí mismo aumentar el gasto con respecto a su cifra actual.
+- No se infiere respaldo a violencia de género o aborto desde la mera ideología; se propone retirar lo no tratado.
