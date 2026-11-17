@@ -1,6 +1,6 @@
 {
-  "version": "0.5.51",
-  "date": "2026-11-15",
+  "version": "0.5.52",
+  "date": "2026-11-17",
   "election": "Congreso · 29 de noviembre de 2026",
   "questions": [
     {
@@ -4651,108 +4651,37 @@
       "name": "Comuns–Front Ampli",
       "match": "COMUNS-FRONT AMPLI",
       "positions": {
+        "1": {
+          "value": 4,
+          "source": "https://comuns.cat/wp-content/uploads/2026/11/Comuns-FA-Programa29N.pdf",
+          "locator": "PDF p. 24–25; bloque fiscal",
+          "reason": "Apoyo con matiz: rebaja limitada a rentas de hasta 25.000 €, junto con un nuevo tramo del 50 % para rentas superiores a 150.000 €.",
+          "reviewed": "2026-11-17",
+          "coding": "Interpretación editorial provisional"
+        },
         "2": {
           "value": 5,
-          "source": "https://comuns.cat/wp-content/uploads/2025/07/sumarECP-programa-generales-2023.pdf",
-          "locator": "Histórico 2023 · PDF p. 81; apartado 3.3.5, declaración de mercado tensionado y regulación de alquileres",
+          "source": "https://comuns.cat/wp-content/uploads/2026/11/Comuns-FA-Programa29N.pdf",
+          "locator": "PDF p. 6–7; vivienda, «Lloguers estables»",
           "reason": "Apoyo explícito a regular los precios del alquiler.",
-          "historical": true,
-          "sourceYear": 2023,
-          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa de la candidatura Sumar–En Comú Podem de 2023 alojado en la web de Comuns; se usa como antecedente de Comuns–Front Ampli, sin acreditar compromisos de 2026.",
-          "reviewed": "2026-11-15",
-          "coding": "Interpretación editorial provisional de un programa histórico"
-        },
-        "6": {
-          "value": 1,
-          "source": "https://comuns.cat/wp-content/uploads/2025/07/sumarECP-programa-generales-2023.pdf",
-          "locator": "Histórico 2023 · PDF p. 84; educación",
-          "reason": "Oposición clara a mantener la financiación de la concertada.",
-          "historical": true,
-          "sourceYear": 2023,
-          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa de la candidatura Sumar–En Comú Podem de 2023 alojado en la web de Comuns; se usa como antecedente de Comuns–Front Ampli, sin acreditar compromisos de 2026.",
-          "reviewed": "2026-11-15",
-          "coding": "Interpretación editorial provisional de un programa histórico"
-        },
-        "8": {
-          "value": 5,
-          "source": "https://comuns.cat/wp-content/uploads/2025/07/sumarECP-programa-generales-2023.pdf",
-          "locator": "Histórico 2023 · PDF p. 19; apartado 1.6.1, reducción de jornada por ley sin reducción salarial",
-          "reason": "Apoyo explícito, sin pérdida salarial.",
-          "historical": true,
-          "sourceYear": 2023,
-          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa de la candidatura Sumar–En Comú Podem de 2023 alojado en la web de Comuns; se usa como antecedente de Comuns–Front Ampli, sin acreditar compromisos de 2026.",
-          "reviewed": "2026-11-15",
-          "coding": "Interpretación editorial provisional de un programa histórico"
-        },
-        "12": {
-          "value": 5,
-          "source": "https://comuns.cat/wp-content/uploads/2025/07/sumarECP-programa-generales-2023.pdf",
-          "locator": "Histórico 2023 · PDF p. 160; Unión Europea",
-          "reason": "Apoyo explícito a mayor integración política.",
-          "historical": true,
-          "sourceYear": 2023,
-          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa de la candidatura Sumar–En Comú Podem de 2023 alojado en la web de Comuns; se usa como antecedente de Comuns–Front Ampli, sin acreditar compromisos de 2026.",
-          "reviewed": "2026-11-15",
-          "coding": "Interpretación editorial provisional de un programa histórico"
-        },
-        "14": {
-          "value": 5,
-          "source": "https://comuns.cat/wp-content/uploads/2025/07/sumarECP-programa-generales-2023.pdf",
-          "locator": "Histórico 2023 · PDF p. 131; modelo de Estado",
-          "reason": "Apoyo explícito a la república; antecedente de 2023.",
-          "historical": true,
-          "sourceYear": 2023,
-          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa de la candidatura Sumar–En Comú Podem de 2023 alojado en la web de Comuns; antecedente, no compromiso de 2026.",
-          "reviewed": "2026-11-15",
-          "coding": "Interpretación editorial provisional de un programa histórico"
-        },
-        "1": {
-          "value": 3,
-          "source": "https://comuns.cat/wp-content/uploads/2025/07/sumarECP-programa-generales-2023.pdf",
-          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Concurrió en 2023 en la coalición Sumar, cuyo programa propone más progresividad del IRPF (tipos marginales crecientes hasta el 52 % en rentas altas) y eliminar deducciones injustificadas, sin una rebaja general de impuestos al trabajo.",
-          "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: concurrió en 2023 en la coalición Sumar, cuyo programa propone más progresividad del IRPF (tipos marginales crecientes hasta el 52 % en rentas altas) y eliminar deducciones injustificadas, sin una rebaja general de impuestos al trabajo. Uso provisional, confianza baja: no es una declaración suya sobre esta medida.",
-          "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial",
-          "basisLinks": [
-            {
-              "url": "https://verdesequo.es/wp-content/uploads/2023/07/Un-programa-para-ti.pdf#page=16",
-              "label": "Programa de Sumar 2023, PDF p. 16: IRPF"
-            }
-          ]
+          "reviewed": "2026-11-17",
+          "coding": "Interpretación editorial provisional"
         },
         "3": {
           "value": 5,
-          "source": "https://comuns.cat/wp-content/uploads/2025/07/sumarECP-programa-generales-2023.pdf",
-          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Concurrió en 2023 en la coalición Sumar, cuyo programa propone reformar la LOEX con un procedimiento de regularización permanente.",
-          "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: concurrió en 2023 en la coalición Sumar, cuyo programa propone reformar la LOEX con un procedimiento de regularización permanente. Uso provisional, confianza media: no es una declaración suya sobre esta medida.",
-          "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial",
-          "basisLinks": [
-            {
-              "url": "https://verdesequo.es/wp-content/uploads/2023/07/Un-programa-para-ti.pdf#page=106",
-              "label": "Programa de Sumar 2023, PDF p. 106: LOEX y regularización"
-            }
-          ]
+          "source": "https://comuns.cat/wp-content/uploads/2026/11/Comuns-FA-Programa29N.pdf",
+          "locator": "PDF p. 38 y 104; «Estrangeria i regularització»",
+          "reason": "Apoyo explícito a regularizaciones y al arraigo como vía.",
+          "reviewed": "2026-11-17",
+          "coding": "Interpretación editorial provisional"
         },
         "4": {
           "value": 1,
-          "source": "https://comuns.cat/wp-content/uploads/2025/07/sumarECP-programa-generales-2023.pdf",
-          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Concurrió en 2023 en la coalición Sumar, cuyo programa refuerza la sanidad pública.",
-          "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: concurrió en 2023 en la coalición Sumar, cuyo programa refuerza la sanidad pública. Uso provisional, confianza baja: no es una declaración suya sobre esta medida.",
-          "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial",
-          "basisLinks": [
-            {
-              "url": "https://verdesequo.es/wp-content/uploads/2023/07/Un-programa-para-ti.pdf#page=91",
-              "label": "Programa de Sumar 2023, PDF p. 91: sanidad"
-            }
-          ]
+          "source": "https://comuns.cat/wp-content/uploads/2026/11/Comuns-FA-Programa29N.pdf",
+          "locator": "PDF p. 74 y 76; sanidad y educación",
+          "reason": "Orientación clara a sustituir la colaboración privada por gestión pública. No es una frase literal sobre «ampliar la colaboración»; se codifica por el conjunto de medidas, con confianza media.",
+          "reviewed": "2026-11-17",
+          "coding": "Interpretación editorial provisional"
         },
         "5": {
           "value": 1,
@@ -4778,99 +4707,90 @@
             }
           ]
         },
+        "6": {
+          "value": 1,
+          "source": "https://comuns.cat/wp-content/uploads/2025/07/sumarECP-programa-generales-2023.pdf",
+          "locator": "Histórico 2023 · PDF p. 84; educación",
+          "reason": "Oposición clara a mantener la financiación de la concertada.",
+          "historical": true,
+          "sourceYear": 2023,
+          "sourceNote": "ANTECEDENTE DE 2023: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa de la candidatura Sumar–En Comú Podem de 2023 alojado en la web de Comuns; se usa como antecedente de Comuns–Front Ampli, sin acreditar compromisos de 2026.",
+          "reviewed": "2026-11-17",
+          "coding": "Interpretación editorial provisional de un programa histórico",
+          "scoreable": false,
+          "reviewNote": "El programa (p. 76) aumenta plazas públicas, abre financiación para que centros privados pasen a la red pública y prevé penalizar y revocar conciertos por irregularidades, pero no responde literalmente a mantener la financiación donde haya demanda."
+        },
         "7": {
           "value": 5,
-          "source": "https://comuns.cat/wp-content/uploads/2025/07/sumarECP-programa-generales-2023.pdf",
-          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines.",
-          "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
-          "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "source": "https://comuns.cat/wp-content/uploads/2026/11/Comuns-FA-Programa29N.pdf",
+          "locator": "PDF p. 109–111; «Un nou pacte territorial»",
+          "reason": "Apoyo explícito a transferir más competencias.",
+          "reviewed": "2026-11-17",
+          "coding": "Interpretación editorial provisional"
+        },
+        "8": {
+          "value": 5,
+          "source": "https://comuns.cat/wp-content/uploads/2026/11/Comuns-FA-Programa29N.pdf",
+          "locator": "PDF p. 28 y 31; «Temps de treball»",
+          "reason": "Apoyo explícito, con mantenimiento del salario.",
+          "reviewed": "2026-11-17",
+          "coding": "Interpretación editorial provisional"
         },
         "9": {
           "value": 1,
-          "source": "https://comuns.cat/wp-content/uploads/2025/07/sumarECP-programa-generales-2023.pdf",
-          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Concurrió en 2023 en la coalición Sumar, cuyo programa se compromete a mantener el calendario de cierre nuclear y a una moratoria de nuevas iniciativas nucleares.",
-          "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: concurrió en 2023 en la coalición Sumar, cuyo programa se compromete a mantener el calendario de cierre nuclear y a una moratoria de nuevas iniciativas nucleares. Uso provisional, confianza media: no es una declaración suya sobre esta medida.",
-          "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial",
-          "basisLinks": [
-            {
-              "url": "https://verdesequo.es/wp-content/uploads/2023/07/Un-programa-para-ti.pdf#page=47",
-              "label": "Programa de Sumar 2023, PDF p. 47: cierre nuclear"
-            }
-          ]
+          "source": "https://comuns.cat/wp-content/uploads/2026/11/Comuns-FA-Programa29N.pdf",
+          "locator": "PDF p. 46; energía",
+          "reason": "Oposición clara a mantener la nuclear.",
+          "reviewed": "2026-11-17",
+          "coding": "Interpretación editorial provisional"
         },
         "10": {
           "value": 5,
-          "source": "https://comuns.cat/wp-content/uploads/2025/07/sumarECP-programa-generales-2023.pdf",
-          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Concurrió en 2023 en la coalición Sumar, cuyo programa mantiene la actualización automática de las pensiones con el IPC y sube por encima las mínimas.",
-          "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: concurrió en 2023 en la coalición Sumar, cuyo programa mantiene la actualización automática de las pensiones con el IPC y sube por encima las mínimas. Uso provisional, confianza media: no es una declaración suya sobre esta medida.",
-          "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial",
-          "basisLinks": [
-            {
-              "url": "https://verdesequo.es/wp-content/uploads/2023/07/Un-programa-para-ti.pdf#page=15",
-              "label": "Programa de Sumar 2023, PDF p. 15: pensiones e IPC"
-            }
-          ]
+          "source": "https://comuns.cat/wp-content/uploads/2026/11/Comuns-FA-Programa29N.pdf",
+          "locator": "PDF p. 16 y 71; «Pensions»",
+          "reason": "Apoyo explícito a actualizar las pensiones con el IPC.",
+          "reviewed": "2026-11-17",
+          "coding": "Interpretación editorial provisional"
         },
         "11": {
           "value": 5,
-          "source": "https://comuns.cat/wp-content/uploads/2025/07/sumarECP-programa-generales-2023.pdf",
-          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Concurrió en 2023 en la coalición Sumar, cuyo programa propone ampliar y fortalecer el marco contra la violencia machista.",
-          "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: concurrió en 2023 en la coalición Sumar, cuyo programa propone ampliar y fortalecer el marco contra la violencia machista. Uso provisional, confianza media: no es una declaración suya sobre esta medida.",
-          "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial",
-          "basisLinks": [
-            {
-              "url": "https://verdesequo.es/wp-content/uploads/2023/07/Un-programa-para-ti.pdf#page=112",
-              "label": "Programa de Sumar 2023, PDF p. 112: violencias machistas"
-            }
-          ]
+          "source": "https://comuns.cat/wp-content/uploads/2026/11/Comuns-FA-Programa29N.pdf",
+          "locator": "PDF p. 94–95; igualdad",
+          "reason": "Apoyo explícito a mantener y reforzar el marco específico.",
+          "reviewed": "2026-11-17",
+          "coding": "Interpretación editorial provisional"
+        },
+        "12": {
+          "value": 4,
+          "source": "https://comuns.cat/wp-content/uploads/2026/11/Comuns-FA-Programa29N.pdf",
+          "locator": "PDF p. 121; «Unió Europea»",
+          "reason": "Apoyo con matiz crítico a mayor integración política supranacional.",
+          "reviewed": "2026-11-17",
+          "coding": "Interpretación editorial provisional"
         },
         "13": {
-          "value": 1,
-          "source": "https://comuns.cat/wp-content/uploads/2025/07/sumarECP-programa-generales-2023.pdf",
-          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Concurrió en 2023 en la coalición Sumar, cuyo programa propone auditar los programas especiales de armamento; el ministro de Sumar Urtasun rechazó en 2025 subir el gasto militar.",
-          "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: concurrió en 2023 en la coalición Sumar, cuyo programa propone auditar los programas especiales de armamento; el ministro de Sumar Urtasun rechazó en 2025 subir el gasto militar. Uso provisional, confianza baja: no es una declaración suya sobre esta medida.",
-          "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial",
-          "basisLinks": [
-            {
-              "url": "https://verdesequo.es/wp-content/uploads/2023/07/Un-programa-para-ti.pdf#page=141",
-              "label": "Programa de Sumar 2023, PDF p. 141: programas de armamento"
-            }
-          ]
+          "value": 2,
+          "source": "https://comuns.cat/wp-content/uploads/2026/11/Comuns-FA-Programa29N.pdf",
+          "locator": "PDF p. 19 y 119; política internacional",
+          "reason": "Oposición con matices: no rechaza todo gasto, pero se opone a aumentarlo por presión y lo condiciona a necesidades reales.",
+          "reviewed": "2026-11-17",
+          "coding": "Interpretación editorial provisional"
+        },
+        "14": {
+          "value": 4,
+          "source": "https://comuns.cat/wp-content/uploads/2026/11/Comuns-FA-Programa29N.pdf",
+          "locator": "PDF p. 108–109; «horitzó republicà, federal i plurinacional»",
+          "reason": "Apoyo con matiz: lo plantea como horizonte a construir mediante reforma constitucional, no como medida inmediata.",
+          "reviewed": "2026-11-17",
+          "coding": "Interpretación editorial provisional"
         },
         "15": {
           "value": 5,
-          "source": "https://comuns.cat/wp-content/uploads/2025/07/sumarECP-programa-generales-2023.pdf",
-          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Concurrió en 2023 en la coalición Sumar, cuyo programa garantiza el derecho a la interrupción voluntaria del embarazo en la red pública; el grupo Sumar no apoyó en 2026 las enmiendas de PP y Vox contra el blindaje constitucional del aborto.",
-          "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: concurrió en 2023 en la coalición Sumar, cuyo programa garantiza el derecho a la interrupción voluntaria del embarazo en la red pública; el grupo Sumar no apoyó en 2026 las enmiendas de PP y Vox contra el blindaje constitucional del aborto. Uso provisional, confianza media: no es una declaración suya sobre esta medida.",
-          "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial",
-          "basisLinks": [
-            {
-              "url": "https://verdesequo.es/wp-content/uploads/2023/07/Un-programa-para-ti.pdf#page=93",
-              "label": "Programa de Sumar 2023, PDF p. 93: interrupción voluntaria del embarazo"
-            },
-            {
-              "url": "https://www.infobae.com/espana/agencias/2026/04/30/el-blindaje-constitucional-del-aborto-sigue-su-tramite-tras-superar-los-vetos-de-pp-y-vox/",
-              "label": "Aborto, 30/04/2026"
-            }
-          ]
+          "source": "https://comuns.cat/wp-content/uploads/2026/11/Comuns-FA-Programa29N.pdf",
+          "locator": "PDF p. 75 y 94; salud sexual y reproductiva",
+          "reason": "Apoyo explícito.",
+          "reviewed": "2026-11-17",
+          "coding": "Interpretación editorial provisional"
         },
         "16": {
           "value": 3,
@@ -4895,14 +4815,16 @@
           "reason": "Concurrió en 2023 en la coalición Sumar, cuyo programa plantea un ingreso mínimo garantizado para toda la ciudadanía.",
           "inferred": true,
           "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: concurrió en 2023 en la coalición Sumar, cuyo programa plantea un ingreso mínimo garantizado para toda la ciudadanía. Uso provisional, confianza baja: no es una declaración suya sobre esta medida.",
-          "reviewed": "2026-11-16",
+          "reviewed": "2026-11-17",
           "coding": "Inferencia editorial",
           "basisLinks": [
             {
               "url": "https://verdesequo.es/wp-content/uploads/2023/07/Un-programa-para-ti.pdf#page=88",
               "label": "Programa de Sumar 2023, PDF p. 88: ingreso mínimo"
             }
-          ]
+          ],
+          "scoreable": false,
+          "reviewNote": "El programa (p. 103) propone revisar criterios de acceso a ayudas y vivienda pública para eliminar «requisitos injustificados» y subir el IMV, pero no equipara literalmente los requisitos económicos de residentes extranjeros y españoles."
         },
         "18": {
           "value": 4,
@@ -4911,14 +4833,16 @@
           "reason": "Concurrió en 2023 en la coalición Sumar, cuyo programa propone simplificar la tramitación de las empresas con las administraciones.",
           "inferred": true,
           "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: concurrió en 2023 en la coalición Sumar, cuyo programa propone simplificar la tramitación de las empresas con las administraciones. Uso provisional, confianza media: no es una declaración suya sobre esta medida.",
-          "reviewed": "2026-11-16",
+          "reviewed": "2026-11-17",
           "coding": "Inferencia editorial",
           "basisLinks": [
             {
               "url": "https://verdesequo.es/wp-content/uploads/2023/07/Un-programa-para-ti.pdf#page=14",
               "label": "Programa de Sumar 2023, PDF p. 14: simplificación administrativa"
             }
-          ]
+          ],
+          "scoreable": false,
+          "reviewNote": "Hay medidas de simplificación para autónomos y pymes (p. 35: ventanilla única, declaración informativa anual de IVA) pero critica los paquetes «ómnibus» europeos como desregulación (p. 123); no responde de forma unívoca."
         }
       }
     }

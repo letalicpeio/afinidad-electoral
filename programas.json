@@ -175,14 +175,13 @@
       ],
       "note": "Coalición: no hereda el programa de sus miembros.",
       "program": {
-        "status": "historico",
-        "consulted": "https://beteve.cat/politica/programes-electorals-29n-eleccions-generals-2026-pdf/",
+        "status": "oficial",
+        "url": "https://comuns.cat/wp-content/uploads/2026/11/Comuns-FA-Programa29N.pdf",
+        "title": "Programa 29N · Comuns–Front Ampli (PDF)",
         "official": true,
-        "note": "Comuns no ha publicado programa del 29N. Cuatro posiciones como antecedente del programa de 2023 alojado en su web; no acreditan compromisos actuales.",
-        "checked": "2026-11-15",
-        "checkedAt": "2026-11-15T09:02:53Z",
-        "url": "https://comuns.cat/wp-content/uploads/2025/07/sumarECP-programa-generales-2023.pdf",
-        "title": "Programa Sumar–En Comú Podem · generales 2023 (web de Comuns)"
+        "checked": "2026-11-17",
+        "checkedAt": "2026-11-17T12:00:00Z",
+        "note": "Programa oficial del 29N en comuns.cat, leído completo. 13 posiciones salen de este documento; 3 temas en revisión (fuera del cálculo) y 2 con inferencia editorial. Los antecedentes de 2023 ya no se usan."
       },
       "dataId": "comuns",
       "website": "https://comuns.cat/"

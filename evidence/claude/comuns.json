@@ -3,8 +3,8 @@
   "catalogId": "comuns",
   "dataId": "comuns",
   "agent": "claude",
-  "baseCommit": "4f7fbd9ab5b675cf5d13114a62c3c9f89d3c8b1f",
-  "reviewed": "2026-11-15",
+  "baseCommit": "358df5a79ce93a71aa5b568b748dfc7e42f2bf48",
+  "reviewed": "2026-11-17",
   "status": "revisado",
   "sources": [
     {
@@ -91,71 +91,112 @@
       "documentVersion": null,
       "sha256": null,
       "notes": "Votación del 30/04/2026: las enmiendas de PP y Vox solo recibieron el apoyo de PP, Vox y UPN."
+    },
+    {
+      "id": "comuns-s06",
+      "url": "https://comuns.cat/wp-content/uploads/2026/11/Comuns-FA-Programa29N.pdf",
+      "publisher": "Comuns–Front Ampli",
+      "title": "Programa 29N · Comuns–Front Ampli (PDF)",
+      "published": "2026-11-16",
+      "accessed": "2026-11-17",
+      "election": "Generales de España 2026",
+      "year": 2026,
+      "kind": "programa",
+      "origin": "primaria",
+      "hosting": "oficial",
+      "historical": false,
+      "documentVersion": null,
+      "sha256": "8bec75149e024e90a2eceb8c45304a95b95d30fafd1dd9009d5452c74d0132ef",
+      "notes": "Programa oficial en comuns.cat, enlazado desde la noticia «Comuns-Front Ampli presenta el programa electoral…» (16/11/2026). Texto completo leído (pdftotext), en catalán. Los localizadores son páginas del PDF."
     }
   ],
   "questions": {
     "1": {
       "status": "documentada",
-      "position": 3,
+      "position": 4,
       "sourceIds": [
-        "comuns-s02"
+        "comuns-s06"
       ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia con fuentes: Concurrió en 2023 en la coalición Sumar, cuyo programa propone más progresividad del IRPF (tipos marginales crecientes hasta el 52 % en rentas altas) y eliminar deducciones injustificadas, sin una rebaja general de impuestos al trabajo.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
-      "nextAction": "Buscar texto del partido sobre este tema.",
-      "replaces": null
+      "locator": "PDF p. 24–25; bloque fiscal",
+      "evidenceSummary": "«Abaixarem l'IRPF a les rendes del treball de fins a 25.000 euros»: el salario mínimo no pagaría IRPF y la rebaja decrece hasta 25.000 €.",
+      "reason": "Apoyo con matiz: rebaja limitada a rentas de hasta 25.000 €, junto con un nuevo tramo del 50 % para rentas superiores a 150.000 €.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": {
+        "position": 3,
+        "sourceIds": [
+          "comuns-s02"
+        ],
+        "status": "documentada"
+      }
     },
     "2": {
       "status": "documentada",
       "position": 5,
       "sourceIds": [
-        "comuns-s01"
+        "comuns-s06"
       ],
-      "locator": "PDF p. 81; apartado 3.3.5, declaración de mercado tensionado y regulación de alquileres",
-      "evidenceSummary": "Regulación efectiva de los precios del alquiler y régimen sancionador, con movilización de vivienda de la SAREB.",
+      "locator": "PDF p. 6–7; vivienda, «Lloguers estables»",
+      "evidenceSummary": "Reducir por ley los precios del alquiler (rebajar un 30 % el índice de referencia) y limitar el precio máximo en vivienda habitual.",
       "reason": "Apoyo explícito a regular los precios del alquiler.",
-      "confidence": "media",
+      "confidence": "alta",
       "reviewNeeded": false,
       "reviewNote": null,
       "nextAction": null,
-      "replaces": null
+      "replaces": {
+        "position": 5,
+        "sourceIds": [
+          "comuns-s01"
+        ],
+        "status": "documentada"
+      }
     },
     "3": {
       "status": "documentada",
       "position": 5,
       "sourceIds": [
-        "comuns-s02"
+        "comuns-s06"
       ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia con fuentes: Concurrió en 2023 en la coalición Sumar, cuyo programa propone reformar la LOEX con un procedimiento de regularización permanente.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
-      "nextAction": "Buscar texto del partido sobre este tema.",
-      "replaces": null
+      "locator": "PDF p. 38 y 104; «Estrangeria i regularització»",
+      "evidenceSummary": "Impulsar la regularización de personas migrantes, ampliar vías estables de regularización y revisar la incompatibilidad entre arraigo y solicitud de asilo.",
+      "reason": "Apoyo explícito a regularizaciones y al arraigo como vía.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": {
+        "position": 5,
+        "sourceIds": [
+          "comuns-s02"
+        ],
+        "status": "documentada"
+      }
     },
     "4": {
       "status": "documentada",
       "position": 1,
       "sourceIds": [
-        "comuns-s02"
+        "comuns-s06"
       ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia con fuentes: Concurrió en 2023 en la coalición Sumar, cuyo programa refuerza la sanidad pública.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
-      "nextAction": "Buscar texto del partido sobre este tema.",
-      "replaces": null
+      "locator": "PDF p. 74 y 76; sanidad y educación",
+      "evidenceSummary": "Plan de reversión de servicios totalmente privatizados y de gestión privatizada; en educación, más plazas públicas y línea para que centros privados pasen a la red pública.",
+      "reason": "Orientación clara a sustituir la colaboración privada por gestión pública. No es una frase literal sobre «ampliar la colaboración»; se codifica por el conjunto de medidas, con confianza media.",
+      "confidence": "media",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": {
+        "position": 1,
+        "sourceIds": [
+          "comuns-s02"
+        ],
+        "status": "documentada"
+      }
     },
     "5": {
-      "status": "documentada",
+      "status": "sin-evidencia",
       "position": 1,
       "sourceIds": [
         "comuns-s02",
@@ -167,163 +208,223 @@
       "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "media",
       "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
-      "nextAction": "Buscar texto del partido sobre este tema.",
+      "reviewNote": "El programa no trata el endurecimiento de penas de prisión (solo el delito de ecocidio, p. 40 y 122). Se mantiene la inferencia editorial previa.",
+      "nextAction": "Contrastar con el texto oficial del programa 29N si se publica una versión ampliada.",
       "replaces": null
     },
     "6": {
-      "status": "documentada",
-      "position": 1,
+      "status": "en-revision",
+      "position": null,
       "sourceIds": [
-        "comuns-s01"
+        "comuns-s06"
       ],
       "locator": "PDF p. 84; educación",
       "evidenceSummary": "Las plazas públicas de proximidad crecerán progresivamente «hasta sustituir las plazas concertadas» y se financiará la transformación de centros privados en públicos.",
       "reason": "Oposición clara a mantener la financiación de la concertada.",
       "confidence": "alta",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
-      "replaces": null
+      "reviewNeeded": true,
+      "reviewNote": "El programa (p. 76) aumenta plazas públicas, abre financiación para que centros privados pasen a la red pública y prevé penalizar y revocar conciertos por irregularidades, pero no responde literalmente a mantener la financiación donde haya demanda.",
+      "nextAction": "Contrastar con el texto oficial del programa 29N si se publica una versión ampliada.",
+      "replaces": {
+        "position": 1,
+        "sourceIds": [
+          "comuns-s01"
+        ],
+        "status": "documentada"
+      }
     },
     "7": {
       "status": "documentada",
       "position": 5,
       "sourceIds": [
-        "comuns-s01"
+        "comuns-s06"
       ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de izquierda ecosocialista catalana y sus posiciones documentadas en temas afines.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
-      "nextAction": "Buscar texto del partido sobre este tema.",
-      "replaces": null
+      "locator": "PDF p. 109–111; «Un nou pacte territorial»",
+      "evidenceSummary": "Más autogobierno para las CCAA, «més competències i més recursos», y delegar a la Generalitat más competencias (inmigración, régimen local, seguridad).",
+      "reason": "Apoyo explícito a transferir más competencias.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": {
+        "position": 5,
+        "sourceIds": [
+          "comuns-s01"
+        ],
+        "status": "documentada"
+      }
     },
     "8": {
       "status": "documentada",
       "position": 5,
       "sourceIds": [
-        "comuns-s01"
+        "comuns-s06"
       ],
-      "locator": "PDF p. 19; apartado 1.6.1, reducción de jornada por ley sin reducción salarial",
-      "evidenceSummary": "Reducción generalizada de la jornada laboral por ley, sin reducción de sueldos.",
-      "reason": "Apoyo explícito, sin pérdida salarial.",
+      "locator": "PDF p. 28 y 31; «Temps de treball»",
+      "evidenceSummary": "Aprobar por ley la jornada máxima de 37,5 horas sin pérdida salarial y abrir diálogo hacia las 32 horas.",
+      "reason": "Apoyo explícito, con mantenimiento del salario.",
       "confidence": "alta",
       "reviewNeeded": false,
       "reviewNote": null,
       "nextAction": null,
-      "replaces": null
+      "replaces": {
+        "position": 5,
+        "sourceIds": [
+          "comuns-s01"
+        ],
+        "status": "documentada"
+      }
     },
     "9": {
       "status": "documentada",
       "position": 1,
       "sourceIds": [
-        "comuns-s02"
+        "comuns-s06"
       ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia con fuentes: Concurrió en 2023 en la coalición Sumar, cuyo programa se compromete a mantener el calendario de cierre nuclear y a una moratoria de nuevas iniciativas nucleares.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
-      "nextAction": "Buscar texto del partido sobre este tema.",
-      "replaces": null
+      "locator": "PDF p. 46; energía",
+      "evidenceSummary": "«Tancament nuclear sense més pròrrogues»: calendario vinculante para cerrar todo el parque, sin nuevos reactores.",
+      "reason": "Oposición clara a mantener la nuclear.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": {
+        "position": 1,
+        "sourceIds": [
+          "comuns-s02"
+        ],
+        "status": "documentada"
+      }
     },
     "10": {
       "status": "documentada",
       "position": 5,
       "sourceIds": [
-        "comuns-s02"
+        "comuns-s06"
       ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia con fuentes: Concurrió en 2023 en la coalición Sumar, cuyo programa mantiene la actualización automática de las pensiones con el IPC y sube por encima las mínimas.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
-      "nextAction": "Buscar texto del partido sobre este tema.",
-      "replaces": null
+      "locator": "PDF p. 16 y 71; «Pensions»",
+      "evidenceSummary": "«Blindar la revalorització anual de totes les pensions amb l'IPC real» y llevarla al artículo 50 de la Constitución.",
+      "reason": "Apoyo explícito a actualizar las pensiones con el IPC.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": {
+        "position": 5,
+        "sourceIds": [
+          "comuns-s02"
+        ],
+        "status": "documentada"
+      }
     },
     "11": {
       "status": "documentada",
       "position": 5,
       "sourceIds": [
-        "comuns-s02"
+        "comuns-s06"
       ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia con fuentes: Concurrió en 2023 en la coalición Sumar, cuyo programa propone ampliar y fortalecer el marco contra la violencia machista.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
-      "nextAction": "Buscar texto del partido sobre este tema.",
-      "replaces": null
-    },
-    "12": {
-      "status": "documentada",
-      "position": 5,
-      "sourceIds": [
-        "comuns-s01"
-      ],
-      "locator": "PDF p. 160; Unión Europea",
-      "evidenceSummary": "Pasar de la unanimidad a las mayorías cualificadas en política exterior y fiscalidad y reforzar la legitimidad y poderes de las instituciones comunitarias.",
-      "reason": "Apoyo explícito a mayor integración política.",
-      "confidence": "media",
-      "reviewNeeded": false,
-      "reviewNote": null,
-      "nextAction": null,
-      "replaces": null
-    },
-    "13": {
-      "status": "documentada",
-      "position": 1,
-      "sourceIds": [
-        "comuns-s02"
-      ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia con fuentes: Concurrió en 2023 en la coalición Sumar, cuyo programa propone auditar los programas especiales de armamento; el ministro de Sumar Urtasun rechazó en 2025 subir el gasto militar.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
-      "nextAction": "Buscar texto del partido sobre este tema.",
-      "replaces": null
-    },
-    "14": {
-      "status": "documentada",
-      "position": 5,
-      "sourceIds": [
-        "comuns-s01"
-      ],
-      "locator": "PDF p. 131; modelo de Estado",
-      "evidenceSummary": "«El nostre horitzó polític és una República federal plurinacional».",
-      "reason": "Apoyo explícito a la república; antecedente de 2023.",
+      "locator": "PDF p. 94–95; igualdad",
+      "evidenceSummary": "Reforzar el marco estatal contra todas las formas de violencia machista, +10 % de recursos y carácter plurianual al Pacto de Estado contra la Violencia de Género.",
+      "reason": "Apoyo explícito a mantener y reforzar el marco específico.",
       "confidence": "alta",
       "reviewNeeded": false,
       "reviewNote": null,
       "nextAction": null,
-      "replaces": null
+      "replaces": {
+        "position": 5,
+        "sourceIds": [
+          "comuns-s02"
+        ],
+        "status": "documentada"
+      }
+    },
+    "12": {
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "comuns-s06"
+      ],
+      "locator": "PDF p. 121; «Unió Europea»",
+      "evidenceSummary": "Reforma de los tratados para democratizar la UE: más poder al Parlamento Europeo y eliminar la unanimidad en política exterior y fiscal; europeísmo crítico con la «Europa de los estados».",
+      "reason": "Apoyo con matiz crítico a mayor integración política supranacional.",
+      "confidence": "media",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": {
+        "position": 5,
+        "sourceIds": [
+          "comuns-s01"
+        ],
+        "status": "documentada"
+      }
+    },
+    "13": {
+      "status": "documentada",
+      "position": 2,
+      "sourceIds": [
+        "comuns-s06"
+      ],
+      "locator": "PDF p. 19 y 119; política internacional",
+      "evidenceSummary": "Rechaza ceder a los chantajes de Trump sobre el gasto militar; exige que el gasto en defensa se base en capacidades y riesgos reales con el objetivo de la autonomía europea.",
+      "reason": "Oposición con matices: no rechaza todo gasto, pero se opone a aumentarlo por presión y lo condiciona a necesidades reales.",
+      "confidence": "media",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": {
+        "position": 1,
+        "sourceIds": [
+          "comuns-s02"
+        ],
+        "status": "documentada"
+      }
+    },
+    "14": {
+      "status": "documentada",
+      "position": 4,
+      "sourceIds": [
+        "comuns-s06"
+      ],
+      "locator": "PDF p. 108–109; «horitzó republicà, federal i plurinacional»",
+      "evidenceSummary": "Propone como horizonte un modelo de Estado «republicà, federal i plurinacional» y abrir el debate para formar una mayoría social y política.",
+      "reason": "Apoyo con matiz: lo plantea como horizonte a construir mediante reforma constitucional, no como medida inmediata.",
+      "confidence": "media",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": {
+        "position": 5,
+        "sourceIds": [
+          "comuns-s01"
+        ],
+        "status": "documentada"
+      }
     },
     "15": {
       "status": "documentada",
       "position": 5,
       "sourceIds": [
-        "comuns-s02",
-        "comuns-s05"
+        "comuns-s06"
       ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia con fuentes: Concurrió en 2023 en la coalición Sumar, cuyo programa garantiza el derecho a la interrupción voluntaria del embarazo en la red pública; el grupo Sumar no apoyó en 2026 las enmiendas de PP y Vox contra el blindaje constitucional del aborto.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "media",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
-      "nextAction": "Buscar texto del partido sobre este tema.",
-      "replaces": null
+      "locator": "PDF p. 75 y 94; salud sexual y reproductiva",
+      "evidenceSummary": "Garantizar un aborto seguro, legal y gratuito en la sanidad pública de todo el Estado; blindarlo constitucionalmente (p. 109).",
+      "reason": "Apoyo explícito.",
+      "confidence": "alta",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
+      "replaces": {
+        "position": 5,
+        "sourceIds": [
+          "comuns-s02",
+          "comuns-s05"
+        ],
+        "status": "documentada"
+      }
     },
     "16": {
-      "status": "documentada",
+      "status": "sin-evidencia",
       "position": 3,
       "sourceIds": [
         "comuns-s02"
@@ -333,39 +434,51 @@
       "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "media",
       "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
-      "nextAction": "Buscar texto del partido sobre este tema.",
+      "reviewNote": "El programa no menciona los indultos (p. 113 solo trata cargos imputados por corrupción). Se mantiene la inferencia editorial previa.",
+      "nextAction": "Contrastar con el texto oficial del programa 29N si se publica una versión ampliada.",
       "replaces": null
     },
     "17": {
-      "status": "documentada",
-      "position": 5,
+      "status": "en-revision",
+      "position": null,
       "sourceIds": [
-        "comuns-s02"
+        "comuns-s06"
       ],
       "locator": "Inferencia editorial",
       "evidenceSummary": "Inferencia con fuentes: Concurrió en 2023 en la coalición Sumar, cuyo programa plantea un ingreso mínimo garantizado para toda la ciudadanía.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
       "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
-      "nextAction": "Buscar texto del partido sobre este tema.",
-      "replaces": null
+      "reviewNote": "El programa (p. 103) propone revisar criterios de acceso a ayudas y vivienda pública para eliminar «requisitos injustificados» y subir el IMV, pero no equipara literalmente los requisitos económicos de residentes extranjeros y españoles.",
+      "nextAction": "Contrastar con el texto oficial del programa 29N si se publica una versión ampliada.",
+      "replaces": {
+        "position": 5,
+        "sourceIds": [
+          "comuns-s02"
+        ],
+        "status": "documentada"
+      }
     },
     "18": {
-      "status": "documentada",
-      "position": 4,
+      "status": "en-revision",
+      "position": null,
       "sourceIds": [
-        "comuns-s02"
+        "comuns-s06"
       ],
       "locator": "Inferencia editorial",
       "evidenceSummary": "Inferencia con fuentes: Concurrió en 2023 en la coalición Sumar, cuyo programa propone simplificar la tramitación de las empresas con las administraciones.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "media",
       "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
-      "nextAction": "Buscar texto del partido sobre este tema.",
-      "replaces": null
+      "reviewNote": "Hay medidas de simplificación para autónomos y pymes (p. 35: ventanilla única, declaración informativa anual de IVA) pero critica los paquetes «ómnibus» europeos como desregulación (p. 123); no responde de forma unívoca.",
+      "nextAction": "Contrastar con el texto oficial del programa 29N si se publica una versión ampliada.",
+      "replaces": {
+        "position": 4,
+        "sourceIds": [
+          "comuns-s02"
+        ],
+        "status": "documentada"
+      }
     }
   },
   "searchLog": [
@@ -383,10 +496,20 @@
       "date": "2026-11-15",
       "urlOrQuery": "https://frenteamplio.info/ (notas oficiales de Frente Amplio)",
       "outcome": "Comuns forma parte de Frente Amplio, pero sus notas no se atribuyen a Comuns–Front Ampli: sin herencia entre coalición y miembros."
+    },
+    {
+      "date": "2026-11-17",
+      "urlOrQuery": "https://comuns.cat/comuns-front-ampli-presenta-el-programa-electoral-amb-habitatge-per-a-tothom-mes-drets-mes-justicia-social-i-un-pais-de-trens/",
+      "outcome": "Noticia oficial del 16/11/2026 con enlace al PDF del programa 29N."
+    },
+    {
+      "date": "2026-11-17",
+      "urlOrQuery": "https://comuns.cat/wp-content/uploads/2026/11/Comuns-FA-Programa29N.pdf",
+      "outcome": "PDF descargado (HTTP 200, 2,0 MB), SHA-256 registrado, texto completo leído. 13 preguntas documentadas, 3 en revisión, 2 sin evidencia."
     }
   ],
   "integration": {
-    "status": "pendiente",
+    "status": "integrado",
     "commit": null
   }
 }

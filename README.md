@@ -108,3 +108,5 @@ D21: pregunta 12 corregida de 5 a 4 tras leer directamente el programa oficial e
 ### Mejora de las inferencias (16/11/2026)
 
 El reparto de trabajo para mejorar las 209 inferencias que aún no tienen fuentes específicas está en [`REPARTO_INFERENCIAS.md`](REPARTO_INFERENCIAS.md) y su lista en [`audit/inferencias-pendientes.csv`](audit/inferencias-pendientes.csv): 123 para Claude (partidos grandes) y 86 para GPT (candidaturas pequeñas).
+
+Comuns–Front Ampli 0.5.52 (17/11/2026): programa oficial del 29N localizado en comuns.cat (PDF, SHA-256 8bec7514…) y leído completo. 13 posiciones documentadas; preguntas 6, 17 y 18 en revisión fuera del cálculo; 5 y 16 siguen con inferencia editorial. Se retiran los antecedentes de 2023.
