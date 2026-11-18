@@ -1,97 +1,187 @@
 {
-  "version": "0.5.55",
+  "version": "0.5.56",
   "date": "2026-11-18",
   "election": "Congreso · 29 de noviembre de 2026",
   "questions": [
     {
       "id": "1",
       "topic": "Fiscalidad",
-      "text": "Reducir los impuestos sobre las rentas del trabajo."
+      "text": "Reducir los impuestos sobre las rentas del trabajo.",
+      "context": {
+        "about": "Se refiere al IRPF y a las cotizaciones que pagan las personas asalariadas.",
+        "pro": "Aumentaría la renta disponible y podría estimular el empleo.",
+        "con": "Reduciría ingresos públicos, que financian servicios y pensiones, salvo que se compense con otros impuestos."
+      }
     },
     {
       "id": "2",
       "topic": "Vivienda",
-      "text": "Regular los precios del alquiler en zonas tensionadas."
+      "text": "Regular los precios del alquiler en zonas tensionadas.",
+      "context": {
+        "about": "La ley estatal de vivienda de 2023 permite a las comunidades declarar zonas tensionadas, donde se pueden limitar las subidas de renta.",
+        "pro": "Contendría las subidas de precio y facilitaría el acceso a la vivienda.",
+        "con": "Según sus críticos, podría reducir la oferta de alquiler y desplazar el problema a otras zonas."
+      }
     },
     {
       "id": "3",
       "topic": "Inmigración",
-      "text": "Permitir regularizaciones por arraigo de personas en situación irregular."
+      "text": "Permitir regularizaciones por arraigo de personas en situación irregular.",
+      "context": {
+        "about": "El arraigo es una vía legal para que obtenga residencia quien ya vive en España y cumple ciertos requisitos (sociales, laborales o familiares).",
+        "pro": "Da seguridad jurídica, permite trabajar con contrato y reduce la economía sumergida.",
+        "con": "Sus críticos temen que actúe de efecto llamada o prefieren ligar la residencia a contratos desde el país de origen."
+      }
     },
     {
       "id": "4",
       "topic": "Sanidad pública y privada",
-      "text": "Ampliar la colaboración con centros privados financiada con fondos públicos."
+      "text": "Ampliar la colaboración con centros privados financiada con fondos públicos.",
+      "context": {
+        "about": "Las comunidades autónomas gestionan la sanidad y algunas conciertan servicios con hospitales y clínicas privadas, pagados con fondos públicos.",
+        "pro": "Puede reducir listas de espera y aprovechar recursos ya existentes.",
+        "con": "Sus críticos creen que debilita la sanidad pública y que puede encarecer el sistema."
+      }
     },
     {
       "id": "5",
       "topic": "Seguridad y delincuencia",
-      "text": "Endurecer las penas de prisión para combatir la delincuencia."
+      "text": "Endurecer las penas de prisión para combatir la delincuencia.",
+      "context": {
+        "about": "El Código Penal fija las penas; el debate incluye la prisión permanente revisable, la reincidencia y delitos concretos.",
+        "pro": "Busca disuadir y proteger mejor a las víctimas.",
+        "con": "Quienes se oponen dudan de su efecto disuasorio y priorizan la reinserción y la prevención."
+      }
     },
     {
       "id": "6",
       "topic": "Educación",
-      "text": "Mantener la financiación de colegios concertados donde exista demanda."
+      "text": "Mantener la financiación de colegios concertados donde exista demanda.",
+      "context": {
+        "about": "La enseñanza concertada reúne centros privados con financiación pública mediante conciertos; la ley educativa regula cuándo se conciertan plazas.",
+        "pro": "Garantiza la elección de centro y ofrece plazas donde la red pública no llega.",
+        "con": "Sus críticos defienden priorizar la red pública y evitar la segregación escolar."
+      }
     },
     {
       "id": "7",
       "topic": "Modelo territorial",
-      "text": "Transferir más competencias del Estado a las comunidades autónomas."
+      "text": "Transferir más competencias del Estado a las comunidades autónomas.",
+      "context": {
+        "about": "España es un Estado autonómico: las comunidades ya gestionan sanidad, educación y otras materias. El debate es ampliar, mantener o recentralizar competencias.",
+        "pro": "Acerca las decisiones a la ciudadanía y adapta las políticas a cada territorio.",
+        "con": "Puede generar desigualdades entre territorios y duplicidades administrativas."
+      }
     },
     {
       "id": "8",
       "topic": "Mercado laboral",
-      "text": "Reducir la jornada laboral máxima legal sin reducir el salario."
+      "text": "Reducir la jornada laboral máxima legal sin reducir el salario.",
+      "context": {
+        "about": "La jornada máxima legal ordinaria es de 40 horas semanales. Una propuesta del Gobierno para bajarla a 37,5 horas no salió adelante en el Congreso en septiembre de 2025.",
+        "pro": "Mejoraría la conciliación y podría repartir mejor el empleo.",
+        "con": "Sus críticos señalan mayores costes, sobre todo para pymes, y posibles efectos en la productividad."
+      }
     },
     {
       "id": "9",
       "topic": "Clima y energía",
-      "text": "Mantener la energía nuclear dentro del sistema eléctrico."
+      "text": "Mantener la energía nuclear dentro del sistema eléctrico.",
+      "context": {
+        "about": "Hay siete reactores en funcionamiento y el calendario de cierre pactado con las eléctricas prevé apagarlos entre 2027 y 2035.",
+        "pro": "Aporta electricidad estable y sin emisiones directas de CO₂.",
+        "con": "Genera residuos radiactivos de larga duración y compite con las renovables."
+      }
     },
     {
       "id": "10",
       "topic": "Pensiones",
-      "text": "Actualizar las pensiones públicas conforme al IPC."
+      "text": "Actualizar las pensiones públicas conforme al IPC.",
+      "context": {
+        "about": "Desde la reforma de 2021 la ley liga la revalorización anual de las pensiones al IPC.",
+        "pro": "Protege el poder adquisitivo de las personas pensionistas.",
+        "con": "Aumenta el gasto del sistema y exige financiación adicional."
+      }
     },
     {
       "id": "11",
       "topic": "Igualdad",
-      "text": "Mantener legislación específica contra la violencia de género."
+      "text": "Mantener legislación específica contra la violencia de género.",
+      "context": {
+        "about": "La Ley Orgánica 1/2004 creó medidas específicas de protección frente a la violencia machista en la pareja.",
+        "pro": "Reconoce una violencia con raíz estructural y concentra recursos específicos.",
+        "con": "Sus críticos defienden normas que traten por igual cualquier violencia en el ámbito familiar."
+      }
     },
     {
       "id": "12",
       "topic": "Unión Europea",
-      "text": "Avanzar hacia una mayor integración política de la Unión Europea."
+      "text": "Avanzar hacia una mayor integración política de la Unión Europea.",
+      "context": {
+        "about": "La UE comparte moneda y muchas normas, pero la política exterior, la defensa y buena parte de la fiscalidad siguen siendo competencia nacional.",
+        "pro": "Más peso conjunto en el mundo y políticas comunes en defensa y fiscalidad.",
+        "con": "Supone ceder soberanía y acercar menos las decisiones a la ciudadanía."
+      }
     },
     {
       "id": "13",
       "topic": "Defensa",
-      "text": "Aumentar el gasto público en defensa."
+      "text": "Aumentar el gasto público en defensa.",
+      "context": {
+        "about": "España se ha comprometido con la OTAN a elevar su gasto en defensa; el debate es cuánto y con qué prioridad frente a otros gastos.",
+        "pro": "Refuerza la seguridad y los compromisos con los aliados.",
+        "con": "Detrae recursos de otras políticas, como las sociales, y se cuestiona su necesidad."
+      }
     },
     {
       "id": "14",
       "topic": "Jefatura del Estado",
-      "text": "Sustituir la monarquía parlamentaria por una república."
+      "text": "Sustituir la monarquía parlamentaria por una república.",
+      "context": {
+        "about": "La Constitución de 1978 define España como monarquía parlamentaria; cambiar la forma de Estado exige una reforma agravada con referéndum.",
+        "pro": "Jefatura del Estado elegida y no hereditaria.",
+        "con": "Se valora la estabilidad de la Corona como símbolo de unidad y la dificultad de reformar la Constitución."
+      }
     },
     {
       "id": "15",
       "topic": "Derechos individuales",
-      "text": "Mantener el derecho legal al aborto."
+      "text": "Mantener el derecho legal al aborto.",
+      "context": {
+        "about": "Desde 2010 la ley permite interrumpir el embarazo hasta las 14 semanas sin alegar causa; una reforma de 2023 la actualizó.",
+        "pro": "Protege la decisión de la mujer y el acceso sanitario.",
+        "con": "Sus críticos defienden proteger la vida del no nacido y restringir el aborto."
+      }
     },
     {
       "id": "16",
       "topic": "Corrupción",
-      "text": "Prohibir los indultos a personas condenadas por corrupción."
+      "text": "Prohibir los indultos a personas condenadas por corrupción.",
+      "context": {
+        "about": "El indulto es una facultad del Gobierno para perdonar total o parcialmente una pena; sigue regulado por una ley de 1870.",
+        "pro": "Evitaría que se perdone a quien abusó de un cargo público.",
+        "con": "Sus defensores prefieren conservar la facultad general sin excepciones por tipo de delito."
+      }
     },
     {
       "id": "17",
       "topic": "Ayudas sociales",
-      "text": "Permitir que residentes extranjeros accedan a prestaciones con los mismos requisitos económicos que los españoles."
+      "text": "Permitir que residentes extranjeros accedan a prestaciones con los mismos requisitos económicos que los españoles.",
+      "context": {
+        "about": "Muchas prestaciones exigen residencia legal; el debate es si se exige más tiempo de residencia o prioridad a las personas con nacionalidad española.",
+        "pro": "Igualdad de trato para quienes residen legalmente y contribuyen.",
+        "con": "Sus críticos defienden priorizar a los nacionales o exigir más años de residencia."
+      }
     },
     {
       "id": "18",
       "topic": "Economía y empresas",
-      "text": "Reducir las obligaciones administrativas de las empresas."
+      "text": "Reducir las obligaciones administrativas de las empresas.",
+      "context": {
+        "about": "Las empresas deben cumplir trámites de registro, fiscales, laborales y de licencias, que varían entre administraciones.",
+        "pro": "Facilitaría crear y gestionar empresas, sobre todo pymes.",
+        "con": "Algunas obligaciones protegen a trabajadores, consumidores y medio ambiente."
+      }
     }
   ],
   "parties": [

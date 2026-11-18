@@ -96,6 +96,19 @@ function renderQuestion() {
   $("#topic").textContent = q.topic;
   $("#question").textContent = q.text;
   $("#question").tabIndex = -1;
+  const ctx = q.context, box = $("#qContext");
+  box.hidden = !ctx;
+  box.open = false;
+  if (ctx) {
+    const body = $("#qContextBody");
+    body.replaceChildren(el("p", ctx.about));
+    const sides = el("div", null, "qsides");
+    const pro = el("div", null, "qside qpro"), con = el("div", null, "qside qcon");
+    pro.append(el("b", "Quienes están a favor suelen decir"), el("p", ctx.pro));
+    con.append(el("b", "Quienes están en contra suelen decir"), el("p", ctx.con));
+    sides.append(pro, con);
+    body.append(sides, el("p", "Resumen neutral y sintético; no refleja la posición de ninguna candidatura.", "small muted"));
+  }
   $("#choices").replaceChildren();
   [
     "Totalmente en desacuerdo",
@@ -110,6 +123,8 @@ function renderQuestion() {
     input.name = "answer";
     input.value = i + 1;
     input.checked = p.answers[q.id] === i + 1;
+    // Un clic con puntero o toque avanza solo; con el teclado (flechas) hay que pulsar «Siguiente».
+    input.addEventListener("click", (e) => { if (e.detail > 0) advanceSoon(); });
     l.append(input, el("span", `${i + 1} · ${text}`));
     $("#choices").append(l);
   });
@@ -128,6 +143,11 @@ function renderQuestion() {
       : "Siguiente →";
   $("#error").textContent = "";
 }
+let advanceTimer = null;
+function advanceSoon() {
+  clearTimeout(advanceTimer);
+  advanceTimer = setTimeout(() => { if (!$("#survey").hidden) next(); }, 260);
+}
 function save() {
   const q = data.questions[state.q],
     p = state.people[state.p],
@@ -137,6 +157,7 @@ function save() {
   return Object.hasOwn(p.answers, q.id);
 }
 function next() {
+  clearTimeout(advanceTimer);
   if (!save()) {
     $("#error").textContent =
       "Elige una respuesta o pulsa «Sin opinión / omitir».";
@@ -163,6 +184,40 @@ const posOf = (party) => onlyDoc
   ? Object.fromEntries(Object.entries(party.positions).filter(([, p]) => !p.inferred))
   : party.positions;
 
+
+function coincidenceList(you, other, label, color) {
+  const rows = you.map((g, i) => ({ name: g.name, a: g.value, b: other[i].value }))
+    .filter((r) => r.a != null && r.b != null)
+    .map((r) => ({ ...r, diff: Math.abs(r.a - r.b) }))
+    .sort((x, y) => x.diff - y.diff);
+  const box = el("div", null, "coincide");
+  if (rows.length < 2) return box;
+  const block = (title, list, cls) => {
+    if (!list.length) return;
+    const sec = el("div", null, "coblock " + cls);
+    sec.append(el("b", title));
+    for (const r of list) {
+      const row = el("div", null, "corow");
+      row.append(el("span", r.name, "coname"));
+      const meter = el("span", null, "cometer");
+      const dotA = el("i", null, "codot you"), dotB = el("i", null, "codot");
+      dotA.style.left = ((r.a - 1) / 4) * 100 + "%";
+      dotB.style.left = ((r.b - 1) / 4) * 100 + "%";
+      dotB.style.background = color;
+      meter.append(dotA, dotB);
+      row.append(meter, el("span", r.diff <= 0.5 ? "coincide" : r.diff <= 1.25 ? "cercano" : "distinto", "cotag"));
+      row.title = `Tú ${r.a.toFixed(1)} · ${label} ${r.b.toFixed(1)}`;
+      sec.append(row);
+    }
+    box.append(sec);
+  };
+  const best = rows.filter((r) => r.diff <= 1.25).slice(0, 3);
+  const worst = rows.filter((r) => r.diff > 1.25 && !best.includes(r)).slice(-3).reverse();
+  block("Donde más coincides", best, "good");
+  block("Donde más difieres", worst, "bad");
+  if (!best.length && !worst.length) block("Por bloque", rows.slice(0, 3), "good");
+  return box;
+}
 function buildCharts(person, entries) {
   const youVals = Object.fromEntries(Object.entries(person.answers).filter(([, v]) => Number.isInteger(v)));
   const valuesOf = (party) => Object.fromEntries(Object.entries(posOf(party)).filter(([, p]) => isScorablePosition(p)).map(([q, p]) => [q, p.value]));
@@ -214,7 +269,7 @@ function buildCharts(person, entries) {
       for (const [t, c] of [["Tú", "var(--ink)"], [shortOf(e.id, e.party.name), colorOf(e.id)]]) {
         const chip = el("span", null, "chip"); const dot = el("i"); dot.style.background = c; chip.append(dot, document.createTextNode(t)); key.append(chip);
       }
-      holder.append(key);
+      holder.append(key, coincidenceList(groupMeans(youVals), groupMeans(e.vals), shortOf(e.id, e.party.name), colorOf(e.id)));
     };
     sel.onchange = draw;
     radarBox.append(sel, holder, el("p", "Cada eje es el grado medio de acuerdo con las afirmaciones del bloque (centro = 1, en contra; borde = 5, a favor). Solo se dibujan los bloques con datos.", "small muted"));
@@ -499,6 +554,14 @@ $("#skip").onclick = () => {
     .forEach((x) => (x.checked = false));
   next();
 };
+document.addEventListener("keydown", (e) => {
+  if ($("#survey").hidden || e.ctrlKey || e.metaKey || e.altKey) return;
+  if (/^(SELECT|TEXTAREA)$/.test(e.target.tagName) || (e.target.tagName === "INPUT" && e.target.type === "range")) return;
+  if (/^[1-5]$/.test(e.key)) {
+    const r = document.querySelector(`input[name=answer][value="${e.key}"]`);
+    if (r) { r.checked = true; advanceSoon(); e.preventDefault(); }
+  }
+});
 $("#weight").oninput = () =>
   ($("#weightValue").value = $("#weight").value + " / 5");
 $("#restart").onclick = () => {
