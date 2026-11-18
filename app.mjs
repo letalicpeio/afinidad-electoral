@@ -485,19 +485,6 @@ async function init() {
     if (!Array.isArray(data.questions) || !data.questions.length || !Array.isArray(data.parties)) throw Error("Catálogo no válido");
     TOTAL = data.questions.length;
     $("#progress").max = TOTAL;
-    const limits = data.limitations.replace(/\d+ formaciones/, `${data.parties.length} formaciones`);
-    const cut = limits.indexOf(". ") + 1;
-    $("#limits").textContent = limits.slice(0, cut);
-    if (cut < limits.length) {
-      const more = document.createElement("details");
-      const sum = document.createElement("summary");
-      sum.textContent = "Más detalle sobre las limitaciones";
-      const txt = document.createElement("p");
-      txt.className = "small";
-      txt.textContent = limits.slice(cut).trim();
-      more.append(sum, txt);
-      $("#limits").after(more);
-    }
     $("#footVersion").textContent = `Última revisión parcial: ${data.date.split("-").reverse().join("/")} · Versión ${data.version} · Proyecto independiente`;
     $("#boe").href = data.candidateSource;
     const params = new URLSearchParams(location.search);
