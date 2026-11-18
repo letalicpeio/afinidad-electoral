@@ -181,11 +181,11 @@ function buildCharts(person, entries) {
   }
   const you = compassPoint(youVals);
   mapBox.append(el("figcaption", "Mapa: económico y social"));
-  if (!you) mapBox.append(el("p", "Para situarte en el mapa hacen falta al menos dos respuestas económicas y dos sociales.", "small muted"));
+  if (!you) mapBox.append(el("p", "Para situarte en el mapa hacen falta al menos tres respuestas económicas y tres sociales.", "small muted"));
   else {
     const first = withVals.find((e) => e.shown && pts.some((p) => p.id === e.id));
     mapBox.append(compassSvg([...pts, { you: true, x: you.x, y: you.y }], { lineTo: first?.id }));
-    mapBox.append(el("p", "Eje económico: impuestos, alquiler, sanidad y educación concertada, jornada, pensiones y empresas. Eje social: penas, inmigración, violencia de género, república, aborto y ayudas. La línea te une con la candidatura de mayor afinidad parcial.", "small muted"));
+    mapBox.append(el("p", "Eje económico: impuestos, alquiler, sanidad y educación concertada, jornada, pensiones y empresas. Eje social: penas, regularización, ayudas a extranjeros, violencia de género, gasto en defensa, república y aborto. Modelo territorial, UE, energía e indultos no entran en el mapa. La línea te une con la candidatura de mayor afinidad parcial.", "small muted"));
     const legend = el("div", null, "legend");
     for (const p of pts) {
       const chip = el("span", null, "chip");

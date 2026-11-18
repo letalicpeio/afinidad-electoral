@@ -15,8 +15,8 @@ export const GROUPS = [
 
 // Signo: +1 si estar de acuerdo con la afirmación desplaza hacia la derecha / el polo conservador.
 export const ECONOMIC = { 1: 1, 2: -1, 4: 1, 6: 1, 8: -1, 10: -1, 18: 1 };
-export const SOCIAL = { 3: -1, 5: 1, 11: -1, 14: -1, 15: -1, 17: -1 };
-export const MIN_AXIS_QUESTIONS = 2;
+export const SOCIAL = { 3: -1, 5: 1, 11: -1, 13: 1, 14: -1, 15: -1, 17: -1 };
+export const MIN_AXIS_QUESTIONS = 3;
 
 export const PARTY_COLORS = {
   pp: "#1f6fd1", vox: "#5fae2e", psoe: "#e03a3a", podemos: "#7b3fa8", "frente-amplio": "#d93f87",
