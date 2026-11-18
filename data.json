@@ -1,5 +1,5 @@
 {
-  "version": "0.5.53",
+  "version": "0.5.54",
   "date": "2026-11-18",
   "election": "Congreso · 29 de noviembre de 2026",
   "questions": [
@@ -1192,11 +1192,11 @@
           "coding": "Interpretación editorial provisional"
         },
         "5": {
-          "value": 4,
+          "value": 3,
           "source": "https://esquerrarepublicana.cat/documents/e2026-programa.pdf",
           "locator": "PDF p. 43; propuesta 243",
-          "reason": "Apoyo con matices: endurece tipos delictivos concretos, sin una subida general de las penas de prisión.",
-          "reviewed": "2026-11-15",
+          "reason": "Endurece tipos delictivos concretos (propuesta 243) sin proponer una subida general de las penas de prisión: posición intermedia, como el resto de partidos con endurecimientos puntuales.",
+          "reviewed": "2026-11-18",
           "coding": "Interpretación editorial provisional"
         },
         "6": {
@@ -3541,14 +3541,14 @@
           "coding": "Interpretación editorial provisional de un programa histórico"
         },
         "12": {
-          "value": 5,
+          "value": 4,
           "source": "https://www.rtve.es/contenidos/documentos/elecciones_europeas_2024/programa_electoral_podemos.pdf",
           "locator": "Histórico 2024 · PDF pp. 12–13 · Democratización de las instituciones",
-          "reason": "Propone un nuevo tratado europeo, plenas facultades legislativas para el Parlamento y control parlamentario de la Comisión.",
+          "reason": "Propone un nuevo tratado europeo, plenas facultades legislativas para el Parlamento Europeo y control parlamentario de la Comisión: apoya más integración democrática, sin pedir transferir más poder a la UE de forma general.",
           "historical": true,
           "sourceYear": 2024,
           "sourceNote": "ANTECEDENTE DE 2024: se utiliza provisionalmente en el cálculo; no acredita un compromiso de 2026. Se sustituirá por evidencia actual cuando esté disponible. Programa de elecciones europeas de 2024, copia completa de 130 páginas en RTVE. No es un programa del Congreso.",
-          "reviewed": "2026-11-14",
+          "reviewed": "2026-11-18",
           "coding": "Interpretación editorial provisional de un programa histórico"
         },
         "13": {
@@ -3851,12 +3851,12 @@
           "coding": "Inferencia editorial"
         },
         "5": {
-          "value": 4,
+          "value": 3,
           "source": "https://confilegal.com/20260213-el-congreso-aprueba-endurecer-la-multirreincidencia-con-una-mayoria-de-302-votos-de-346-el-874/",
           "locator": "Votación en el Congreso, 12/02/2026",
-          "reason": "Impulsa un endurecimiento penal concreto contra la multirreincidencia; no apoya el endurecimiento general (rechazó ampliar la prisión permanente).",
+          "reason": "Impulsó el endurecimiento penal contra la multirreincidencia, pero rechazó ampliar la prisión permanente revisable: endurecimiento concreto sin subida general, posición intermedia.",
           "sourceNote": "Fuente secundaria: Confilegal. Reforma de la multirreincidencia promovida por Junts; endurece el Código Penal para reincidentes.",
-          "reviewed": "2026-11-15",
+          "reviewed": "2026-11-18",
           "coding": "Interpretación editorial provisional"
         },
         "6": {
@@ -4004,13 +4004,13 @@
           "coding": "Inferencia editorial"
         },
         "17": {
-          "value": 2,
+          "value": 3,
           "source": "https://img.beteve.cat/wp-content/uploads/2023/07/programa-junts-per-catalunya-eleccions-generals-2023.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de independentismo catalán de centroderecha y sus posiciones documentadas en temas afines.",
+          "reason": "Sin texto propio sobre el tema; las estimaciones externas y editoriales divergen entre restringir y igualar el acceso a ayudas, por lo que se fija una posición intermedia de baja confianza.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de independentismo catalán de centroderecha y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
-          "reviewed": "2026-11-16",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: sin texto propio sobre el tema; las estimaciones externas y editoriales divergen entre restringir y igualar el acceso a ayudas, por lo que se fija una posición intermedia de baja confianza. Uso provisional, confianza baja: no es una declaración suya sobre esta medida.",
+          "reviewed": "2026-11-18",
           "coding": "Inferencia editorial"
         },
         "18": {
