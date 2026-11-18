@@ -14,3 +14,5 @@ jobs:
       - run: node --check programas.mjs
       - run: node programas.test.mjs
       - run: node scoring.test.mjs
+      - run: node --check charts.mjs
+      - run: node charts.test.mjs

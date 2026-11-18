@@ -1,4 +1,5 @@
 import { findParty } from "./catalog.mjs";
+import { GROUPS, groupMeans, compassPoint, compassSvg, radarSvg, colorOf, shortOf } from "./charts.mjs";
 import { score, sharedIds, isScorablePosition, MIN_COVERAGE, WARN_COVERAGE, showAffinity, tierCounts, evidenceTier } from "./scoring.mjs";
 const $ = (s) => document.querySelector(s),
   el = (t, text, cls) => {
@@ -161,6 +162,68 @@ let onlyDoc = false;
 const posOf = (party) => onlyDoc
   ? Object.fromEntries(Object.entries(party.positions).filter(([, p]) => !p.inferred))
   : party.positions;
+
+function buildCharts(person, entries) {
+  const youVals = Object.fromEntries(Object.entries(person.answers).filter(([, v]) => Number.isInteger(v)));
+  const valuesOf = (party) => Object.fromEntries(Object.entries(posOf(party)).filter(([, p]) => isScorablePosition(p)).map(([q, p]) => [q, p.value]));
+  const wrap = el("section", null, "charts");
+  wrap.append(el("h3", "Tu posición de un vistazo"));
+  wrap.append(el("p", "Resúmenes visuales de tus respuestas y de las posiciones registradas. Son orientativos: condensan 18 afirmaciones en dos ejes y nueve bloques, y no son puntuaciones publicadas por los partidos.", "small"));
+  const grid = el("div", null, "chartgrid");
+  const mapBox = el("figure", null, "chartbox"), radarBox = el("figure", null, "chartbox");
+  const withVals = entries.map((e) => ({ ...e, id: e.party.id, vals: valuesOf(e.party) }));
+  let topRank = 0;
+  const pts = [];
+  for (const e of withVals) {
+    const c = compassPoint(e.vals);
+    if (!c) continue;
+    pts.push({ id: e.id, label: shortOf(e.id, e.party.name || e.name), color: colorOf(e.id), x: c.x, y: c.y, top: e.shown && topRank++ < 5 });
+  }
+  const you = compassPoint(youVals);
+  mapBox.append(el("figcaption", "Mapa: económico y social"));
+  if (!you) mapBox.append(el("p", "Para situarte en el mapa hacen falta al menos dos respuestas económicas y dos sociales.", "small muted"));
+  else {
+    const first = withVals.find((e) => e.shown && pts.some((p) => p.id === e.id));
+    mapBox.append(compassSvg([...pts, { you: true, x: you.x, y: you.y }], { lineTo: first?.id }));
+    mapBox.append(el("p", "Eje económico: impuestos, alquiler, sanidad y educación concertada, jornada, pensiones y empresas. Eje social: penas, inmigración, violencia de género, república, aborto y ayudas. La línea te une con la candidatura de mayor afinidad parcial.", "small muted"));
+    const legend = el("div", null, "legend");
+    for (const p of pts) {
+      const chip = el("span", null, "chip");
+      const dot = el("i"); dot.style.background = p.color;
+      chip.append(dot, document.createTextNode(p.label)); legend.append(chip);
+    }
+    mapBox.append(legend);
+    const missing = withVals.filter((e) => !pts.some((p) => p.id === e.id)).map((e) => e.party.name || e.name);
+    if (missing.length) mapBox.append(el("p", `Sin datos suficientes para el mapa: ${missing.join(", ")}.`, "small muted"));
+  }
+  radarBox.append(el("figcaption", "Radar por bloques temáticos"));
+  const usable = withVals.filter((e) => groupMeans(e.vals).filter((g) => g.value != null).length >= 3);
+  if (!usable.length) radarBox.append(el("p", "No hay datos suficientes para el radar.", "small muted"));
+  else {
+    const sel = el("select");
+    sel.setAttribute("aria-label", "Candidatura que comparar en el radar");
+    usable.forEach((e, i) => { const o = el("option", e.party.name || e.name); o.value = i; sel.append(o); });
+    const holder = el("div", null, "radarholder");
+    const draw = () => {
+      const e = usable[sel.value];
+      holder.replaceChildren(radarSvg([
+        { label: "Tú", color: "var(--ink)", values: groupMeans(youVals).map((g) => g.value) },
+        { label: e.party.name, color: colorOf(e.id), values: groupMeans(e.vals).map((g) => g.value), dashed: false },
+      ]));
+      const key = el("div", null, "legend");
+      for (const [t, c] of [["Tú", "var(--ink)"], [shortOf(e.id, e.party.name), colorOf(e.id)]]) {
+        const chip = el("span", null, "chip"); const dot = el("i"); dot.style.background = c; chip.append(dot, document.createTextNode(t)); key.append(chip);
+      }
+      holder.append(key);
+    };
+    sel.onchange = draw;
+    radarBox.append(sel, holder, el("p", "Cada eje es el grado medio de acuerdo con las afirmaciones del bloque (centro = 1, en contra; borde = 5, a favor). Solo se dibujan los bloques con datos.", "small muted"));
+    draw();
+  }
+  grid.append(mapBox, radarBox);
+  wrap.append(grid);
+  return wrap;
+}
 function renderResults(keep = false) {
   const names = candidates[state.province],
     parties = names.map((n) => ({ name: n, party: knownParty(n) })),
@@ -211,6 +274,7 @@ function renderResults(keep = false) {
       a.name.localeCompare(b.name, "es"));
     if (entries.some((e) => e.shown))
       card.append(el("p", "Ordenadas de mayor a menor afinidad parcial. La cobertura no es la misma en todas: no es una clasificación global.", "small"));
+    card.append(buildCharts(person, entries));
     const lowcov = el("details", null, "lowcov");
     let rank = 0;
     entries.forEach(({ name, party, result, shown }) => {
