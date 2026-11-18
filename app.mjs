@@ -1,5 +1,6 @@
 import { findParty } from "./catalog.mjs";
 import { GROUPS, groupMeans, compassPoint, compassSvg, radarSvg, colorOf, shortOf } from "./charts.mjs";
+import { makeShareImage } from "./share.mjs";
 import { score, sharedIds, isScorablePosition, MIN_COVERAGE, WARN_COVERAGE, showAffinity, tierCounts, evidenceTier } from "./scoring.mjs";
 const $ = (s) => document.querySelector(s),
   el = (t, text, cls) => {
@@ -218,6 +219,35 @@ function coincidenceList(you, other, label, color) {
   if (!best.length && !worst.length) block("Por bloque", rows.slice(0, 3), "good");
   return box;
 }
+
+async function openShare(person, withVals, pts, youVals) {
+  const shown = withVals.filter((e) => e.shown);
+  const first = shown.find((e) => groupMeans(e.vals).filter((g) => g.value != null).length >= 3) || null;
+  const blob = await makeShareImage({
+    province: state.province,
+    top: shown.map((e) => ({ label: shortOf(e.id, e.party.name || e.name), color: colorOf(e.id), affinity: e.result.affinity })),
+    pts, you: compassPoint(youVals),
+    radar: { you: groupMeans(youVals).map((g) => g.value), other: first ? { values: groupMeans(first.vals).map((g) => g.value), color: colorOf(first.id), label: shortOf(first.id, first.party.name) } : null },
+    date: new Date().toLocaleDateString("es-ES", { day: "numeric", month: "long", year: "numeric" }),
+  });
+  const url = URL.createObjectURL(blob), file = new File([blob], "mi-mapa-afinidad.png", { type: "image/png" });
+  const dlg = el("dialog", null, "sharedlg");
+  const img = el("img"); img.src = url; img.alt = "Imagen de tu mapa de coincidencias lista para compartir";
+  const actions = el("div", null, "shareactions");
+  const close = () => { dlg.close(); dlg.remove(); URL.revokeObjectURL(url); };
+  if (navigator.canShare?.({ files: [file] })) {
+    const b = el("button", "Compartir…", "primary");
+    b.onclick = () => navigator.share({ files: [file], title: "Mi mapa de coincidencias", text: "Mi mapa de coincidencias electorales (comparación parcial)." }).catch(() => {});
+    actions.append(b);
+  }
+  const dl = el("a", "Descargar imagen", navigator.canShare?.({ files: [file] }) ? "linkbutton" : "linkbutton primary");
+  dl.href = url; dl.download = "mi-mapa-afinidad.png";
+  const x = el("button", "Cerrar", "quiet"); x.onclick = close;
+  actions.append(dl, x);
+  dlg.append(el("h3", "Tu imagen para compartir"), img, el("p", "Incluye el mapa, el radar, los cinco primeros porcentajes y tu circunscripción; no incluye tus respuestas. Se ha generado en tu dispositivo.", "small muted"), actions);
+  dlg.addEventListener("close", () => { dlg.remove(); URL.revokeObjectURL(url); });
+  document.body.append(dlg); dlg.showModal();
+}
 function buildCharts(person, entries) {
   const youVals = Object.fromEntries(Object.entries(person.answers).filter(([, v]) => Number.isInteger(v)));
   const valuesOf = (party) => Object.fromEntries(Object.entries(posOf(party)).filter(([, p]) => isScorablePosition(p)).map(([q, p]) => [q, p.value]));
@@ -277,6 +307,9 @@ function buildCharts(person, entries) {
   }
   grid.append(mapBox, radarBox);
   wrap.append(grid);
+  const shareBtn = el("button", "Compartir mi resultado como imagen", "primary sharebtn");
+  shareBtn.onclick = async () => { shareBtn.disabled = true; try { await openShare(person, withVals, pts, youVals); } finally { shareBtn.disabled = false; } };
+  wrap.append(shareBtn);
   return wrap;
 }
 function renderResults(keep = false) {

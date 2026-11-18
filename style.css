@@ -160,3 +160,14 @@ a{color:var(--accent)}
  .tier{background:#222836}.tier-historico{background:#1f2640;color:#c3cffa}
  @media (hover:hover) and (pointer:fine){.choice:hover{background:#1b2030;border-color:#9aaef0}}
 }
+
+/* ===== Compartir ===== */
+.sharebtn{margin-top:16px;width:100%}
+.sharedlg{border:0;border-radius:20px;padding:22px;max-width:min(94vw,520px);background:var(--bg,#f7f5f0);color:var(--ink);box-shadow:0 30px 80px -20px #1b265099}
+.sharedlg::backdrop{background:#10122099;backdrop-filter:blur(3px)}
+.sharedlg h3{margin:0 0 12px;font-family:var(--serif)}
+.sharedlg img{width:auto;max-width:100%;max-height:62vh;margin:0 auto;height:auto;border-radius:14px;border:1px solid var(--line);display:block}
+.shareactions{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:14px}
+.shareactions .linkbutton{color:var(--accent)}
+.shareactions .linkbutton.primary{color:#fff}
+@media(prefers-color-scheme:dark){.sharedlg{background:#161a23}.shareactions .linkbutton{color:var(--accent)}.shareactions .linkbutton.primary{color:#0e1330}}

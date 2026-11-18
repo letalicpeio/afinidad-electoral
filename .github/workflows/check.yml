@@ -15,4 +15,5 @@ jobs:
       - run: node programas.test.mjs
       - run: node scoring.test.mjs
       - run: node --check charts.mjs
+      - run: node --check share.mjs
       - run: node charts.test.mjs
