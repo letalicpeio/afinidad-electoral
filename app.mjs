@@ -231,20 +231,26 @@ async function openShare(person, withVals, pts, youVals) {
     date: new Date().toLocaleDateString("es-ES", { day: "numeric", month: "long", year: "numeric" }),
   });
   const url = URL.createObjectURL(blob), file = new File([blob], "mi-mapa-afinidad.png", { type: "image/png" });
+  const SITE = "https://afinidad-electoral.org/";
+  const msg = `Mi mapa de coincidencias electorales (comparación parcial, 29N). Haz el test tú también: ${SITE}`;
   const dlg = el("dialog", null, "sharedlg");
   const img = el("img"); img.src = url; img.alt = "Imagen de tu mapa de coincidencias lista para compartir";
   const actions = el("div", null, "shareactions");
   const close = () => { dlg.close(); dlg.remove(); URL.revokeObjectURL(url); };
   if (navigator.canShare?.({ files: [file] })) {
     const b = el("button", "Compartir…", "primary");
-    b.onclick = () => navigator.share({ files: [file], title: "Mi mapa de coincidencias", text: "Mi mapa de coincidencias electorales (comparación parcial)." }).catch(() => {});
+    b.onclick = () => navigator.share({ files: [file], title: "Mi mapa de coincidencias", text: msg }).catch(() => {});
     actions.append(b);
   }
   const dl = el("a", "Descargar imagen", navigator.canShare?.({ files: [file] }) ? "linkbutton" : "linkbutton primary");
   dl.href = url; dl.download = "mi-mapa-afinidad.png";
+  const wa = el("a", "WhatsApp (solo texto)", "linkbutton");
+  wa.href = "https://wa.me/?text=" + encodeURIComponent(msg); wa.target = "_blank"; wa.rel = "noopener noreferrer";
+  const cp = el("button", "Copiar texto y enlace", "quiet");
+  cp.onclick = async () => { try { await navigator.clipboard.writeText(msg); cp.textContent = "Copiado ✓"; } catch { cp.textContent = "No se pudo copiar"; } };
   const x = el("button", "Cerrar", "quiet"); x.onclick = close;
-  actions.append(dl, x);
-  dlg.append(el("h3", "Tu imagen para compartir"), img, el("p", "Incluye el mapa, el radar, los cinco primeros porcentajes y tu circunscripción; no incluye tus respuestas. Se ha generado en tu dispositivo.", "small muted"), actions);
+  actions.append(dl, wa, cp, x);
+  dlg.append(el("h3", "Tu imagen para compartir"), img, el("p", "Incluye el mapa, el radar, los cinco primeros porcentajes y tu circunscripción; no incluye tus respuestas. Se ha generado en tu dispositivo. WhatsApp no admite adjuntar la imagen desde un enlace: descárgala y adjúntala, o usa «Compartir…» en el móvil.", "small muted"), actions);
   dlg.addEventListener("close", () => { dlg.remove(); URL.revokeObjectURL(url); });
   document.body.append(dlg); dlg.showModal();
 }
