@@ -124,8 +124,6 @@ function renderQuestion() {
     input.name = "answer";
     input.value = i + 1;
     input.checked = p.answers[q.id] === i + 1;
-    // Un clic con puntero o toque avanza solo; con el teclado (flechas) hay que pulsar «Siguiente».
-    input.addEventListener("click", (e) => { if (e.detail > 0) advanceSoon(); });
     l.append(input, el("span", `${i + 1} · ${text}`));
     $("#choices").append(l);
   });
@@ -580,6 +578,12 @@ $("#skip").onclick = () => {
     .forEach((x) => (x.checked = false));
   next();
 };
+// Un toque o clic en una respuesta avanza solo (también en iPhone, donde el clic del input no es fiable);
+// con el teclado (flechas) no avanza: hay que pulsar «Siguiente» o una tecla 1–5.
+$("#choices").addEventListener("pointerup", (e) => {
+  if (e.pointerType === "mouse" && e.button !== 0) return;
+  if (e.target.closest(".choice")) advanceSoon();
+});
 document.addEventListener("keydown", (e) => {
   if ($("#survey").hidden || e.ctrlKey || e.metaKey || e.altKey) return;
   if (/^(SELECT|TEXTAREA)$/.test(e.target.tagName) || (e.target.tagName === "INPUT" && e.target.type === "range")) return;
