@@ -1,5 +1,5 @@
 {
-  "version": "0.5.54",
+  "version": "0.5.55",
   "date": "2026-11-18",
   "election": "Congreso · 29 de noviembre de 2026",
   "questions": [
@@ -595,13 +595,13 @@
           ]
         },
         "9": {
-          "value": 1,
+          "value": 2,
           "source": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21765/pdf/programa-electoral-29n",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Votó en contra de la PNL del PP para prorrogar las nucleares (02/2025) y de la enmienda del PP que suprimía su cierre (11/2025).",
+          "reason": "Votó en contra de la PNL del PP para prorrogar las nucleares (02/2025) y de la enmienda del PP que suprimía su cierre (11/2025); no consta una oposición explícita al parque nuclear, por lo que se sitúa en la franja baja sin llegar al extremo.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: votó en contra de la PNL del PP para prorrogar las nucleares (02/2025) y de la enmienda del PP que suprimía su cierre (11/2025). Uso provisional, confianza media: no es una declaración suya sobre esta medida.",
-          "reviewed": "2026-11-16",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: votó en contra de la PNL del PP para prorrogar las nucleares (02/2025) y de la enmienda del PP que suprimía su cierre (11/2025); no consta una oposición explícita al parque nuclear, por lo que se sitúa en la franja baja sin llegar al extremo. Uso provisional, confianza baja: no es una declaración suya sobre esta medida.",
+          "reviewed": "2026-11-18",
           "coding": "Inferencia editorial",
           "basisLinks": [
             {
@@ -1073,13 +1073,13 @@
           "coding": "Inferencia editorial"
         },
         "13": {
-          "value": 2,
+          "value": 3,
           "source": "https://coalicioncanaria.org/wp-content/uploads/2026/11/CCA-26-Programa_Electoral-29NOV.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su diputada critica que el Gobierno movilice 10.471 millones para defensa sin presupuesto y sin cumplir la agenda canaria.",
+          "reason": "No hay texto propio sobre gasto en defensa; solo critica el procedimiento con el que el Gobierno movilizó fondos para defensa sin presupuesto: posición intermedia de baja confianza.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: su diputada critica que el Gobierno movilice 10.471 millones para defensa sin presupuesto y sin cumplir la agenda canaria. Uso provisional, confianza baja: no es una declaración suya sobre esta medida.",
-          "reviewed": "2026-11-16",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: no hay texto propio sobre gasto en defensa; solo critica el procedimiento con el que el Gobierno movilizó fondos para defensa sin presupuesto: posición intermedia de baja confianza. Uso provisional, confianza baja: no es una declaración suya sobre esta medida.",
+          "reviewed": "2026-11-18",
           "coding": "Inferencia editorial",
           "basisLinks": [
             {
@@ -4159,11 +4159,11 @@
           "coding": "Interpretación editorial provisional"
         },
         "13": {
-          "value": 2,
+          "value": 3,
           "source": "https://www.psoe.es/media-content/2026/11/PROGRAMAPSOE29N26-1.pdf",
           "locator": "PDF p. 105, medida 455; p. 110, medida 482",
-          "reason": "Oposición con matices: no pide aumentar el gasto, aunque reafirma el compromiso con la defensa.",
-          "reviewed": "2026-11-15",
+          "reason": "Su programa de 2026 reafirma el compromiso con la defensa y propone una Unión Europea de la defensa con mayor eficiencia del gasto; no pide aumentarlo ni recortarlo de forma explícita: posición intermedia.",
+          "reviewed": "2026-11-18",
           "coding": "Interpretación editorial provisional"
         },
         "14": {

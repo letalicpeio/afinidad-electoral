@@ -396,12 +396,12 @@
     },
     "13": {
       "status": "documentada",
-      "position": 2,
+      "position": 3,
       "sourceIds": [
         "cc-s05"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia con fuentes: Su diputada critica que el Gobierno movilice 10.471 millones para defensa sin presupuesto y sin cumplir la agenda canaria.",
+      "evidenceSummary": "Inferencia con fuentes: No hay texto propio sobre gasto en defensa; solo critica el procedimiento con el que el Gobierno movilizó fondos para defensa sin presupuesto: posición intermedia de baja confianza.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
       "reviewNeeded": true,

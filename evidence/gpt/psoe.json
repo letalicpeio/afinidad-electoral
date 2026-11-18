@@ -487,12 +487,12 @@
     },
     "13": {
       "status": "documentada",
-      "position": 2,
+      "position": 3,
       "sourceIds": [
         "psoe-s06"
       ],
       "locator": "PDF p. 105, medida 455; p. 110, medida 482",
-      "evidenceSummary": "Rechaza elevar el gasto militar al 5 % del PIB; propone mejorar la coordinación y la eficiencia del gasto en defensa y reforzar la defensa europea común.",
+      "evidenceSummary": "Su programa de 2026 reafirma el compromiso con la defensa y propone una Unión Europea de la defensa con mayor eficiencia del gasto; no pide aumentarlo ni recortarlo de forma explícita: posición intermedia.",
       "reason": "Oposición con matices: no pide aumentar el gasto, aunque reafirma el compromiso con la defensa.",
       "confidence": "media",
       "reviewNeeded": false,

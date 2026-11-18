@@ -356,13 +356,13 @@
     },
     "9": {
       "status": "documentada",
-      "position": 1,
+      "position": 2,
       "sourceIds": [
         "pnv-s06",
         "pnv-s07"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia con fuentes: Votó en contra de la PNL del PP para prorrogar las nucleares (02/2025) y de la enmienda del PP que suprimía su cierre (11/2025).",
+      "evidenceSummary": "Inferencia con fuentes: Votó en contra de la PNL del PP para prorrogar las nucleares (02/2025) y de la enmienda del PP que suprimía su cierre (11/2025); no consta una oposición explícita al parque nuclear, por lo que se sitúa en la franja baja sin llegar al extremo.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "media",
       "reviewNeeded": true,
