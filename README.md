@@ -110,3 +110,5 @@ D21: pregunta 12 corregida de 5 a 4 tras leer directamente el programa oficial e
 El reparto de trabajo para mejorar las 209 inferencias que aún no tienen fuentes específicas está en [`REPARTO_INFERENCIAS.md`](REPARTO_INFERENCIAS.md) y su lista en [`audit/inferencias-pendientes.csv`](audit/inferencias-pendientes.csv): 123 para Claude (partidos grandes) y 86 para GPT (candidaturas pequeñas).
 
 Comuns–Front Ampli 0.5.52 (17/11/2026): programa oficial del 29N localizado en comuns.cat (PDF, SHA-256 8bec7514…) y leído completo. 13 posiciones documentadas; preguntas 6, 17 y 18 en revisión fuera del cálculo; 5 y 16 siguen con inferencia editorial. Se retiran los antecedentes de 2023.
+
+EH Bildu 0.5.53 (18/11/2026): programa oficial del 29N localizado en posibleegin.ehbildu.eus (PDF en euskera, SHA-256 69bce4b5…) y leído completo. 11 posiciones documentadas (2, 3, 4, 7, 8, 9, 10, 11, 13, 15, 17); el resto conserva inferencias editoriales previas y la pregunta 18 una declaración de 2026. Se retiran los antecedentes de 2023 y 2025.

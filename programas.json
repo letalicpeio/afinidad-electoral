@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "checked": "2026-11-15",
+  "checked": "2026-11-18",
   "statusLabels": {
     "oficial": "Programa oficial localizado",
     "resumen": "Solo resumen en la web oficial",
@@ -261,12 +261,13 @@
       ],
       "website": "https://ehbildu.eus/",
       "program": {
-        "status": "historico",
-        "url": "https://www.elnacional.cat/uploads/s1/42/81/42/33/programa-electoral-eh-bildu-eleccions-generals-2023.pdf",
-        "title": "Compromiso de Euskal Herria Bildu · generales 2023 (copia alojada por El Nacional)",
-        "official": false,
-        "checked": "2026-11-14",
-        "note": "Programa de las generales de 2023 (copia alojada por un medio), leído completo: seis posiciones como antecedente. EH Bildu no ha publicado programa del 29N. Los antecedentes participan provisionalmente en el cálculo y no acreditan compromisos actuales."
+        "status": "oficial",
+        "url": "https://posibleegin.ehbildu.eus/wp-content/uploads/2026/11/PROGRAMA-EUS.pdf",
+        "title": "Programa 29N · EH Bildu «Garantía y derechos» (PDF, euskera)",
+        "official": true,
+        "checked": "2026-11-18",
+        "checkedAt": "2026-11-18T12:00:00Z",
+        "note": "Programa oficial del 29N en posibleegin.ehbildu.eus, leído completo (31 págs., en euskera). 11 posiciones salen de este documento; el resto conserva inferencias editoriales o una declaración de 2026 (pregunta 18). Ya no se usan antecedentes de 2023 ni 2025."
       },
       "dataId": "ehbildu"
     },
