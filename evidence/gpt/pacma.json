@@ -95,17 +95,17 @@
     },
     "2": {
       "status": "documentada",
-      "position": 4,
+      "position": 2,
       "sourceIds": [
         "pacma-s01"
       ],
-      "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de izquierda ecologista y animalista y sus posiciones documentadas en temas afines.",
-      "reason": "Deducción editorial; no es una posición declarada del partido.",
-      "confidence": "baja",
-      "reviewNeeded": true,
-      "reviewNote": "INFERENCIA: sustituir por texto del partido cuando exista.",
-      "nextAction": "Buscar texto del partido sobre este tema.",
+      "locator": "PDF pp. 69-70; apartado 3.5",
+      "evidenceSummary": "Critica que las normas urgentes de vivienda han retirado viviendas del mercado y subido los precios; propone ampliar el parque social, incentivos fiscales a propietarios que alquilen por debajo del precio medio, recargos a fondos y restringir licencias turísticas en barrios tensionados. No propone topes de precio.",
+      "reason": "No propone limitar por ley los precios del alquiler: apuesta por vivienda social e incentivos y critica los efectos de la regulación vigente.",
+      "confidence": "media",
+      "reviewNeeded": false,
+      "reviewNote": null,
+      "nextAction": null,
       "replaces": null
     },
     "3": {
@@ -153,7 +153,7 @@
         "pacma-s01"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de izquierda ecologista y animalista y sus posiciones documentadas en temas afines.",
+      "evidenceSummary": "Inferencia con fuentes: Su programa de 2026 pide endurecer de forma «real y efectiva» las penas por maltrato animal, sin proponer una subida general de las penas de prisión: endurecimiento concreto, posición intermedia.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
       "reviewNeeded": true,
@@ -167,7 +167,7 @@
       "sourceIds": [
         "pacma-s01"
       ],
-      "locator": "PDF p. 61; apartado 3.3.2",
+      "locator": "PDF p. 61; apartado 3.3.3 (revisión de los criterios de concertación)",
       "evidenceSummary": "Revisión de los criterios de concertación con la enseñanza privada para que respeten criterios de servicio público y eviten la segregación.",
       "reason": "Revisa los conciertos sin proponer eliminarlos ni ampliarlos.",
       "confidence": "baja",
@@ -245,10 +245,10 @@
       "status": "documentada",
       "position": 4,
       "sourceIds": [
-        "pacma-s02"
+        "pacma-s01"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia con fuentes: Propuso aumentar anualmente conforme al IPC un complemento autonómico de pensiones no contributivas, no todas las pensiones del sistema.",
+      "evidenceSummary": "Inferencia con fuentes: Su programa de 2026 pide reformar la Constitución para blindar las pensiones y que el sistema público no pueda recortarse ni privatizarse; no menciona la actualización con el IPC.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "media",
       "reviewNeeded": true,
@@ -296,12 +296,12 @@
     },
     "13": {
       "status": "documentada",
-      "position": 1,
+      "position": 3,
       "sourceIds": [
         "pacma-s01"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de izquierda ecologista y animalista y sus posiciones documentadas en temas afines.",
+      "evidenceSummary": "Inferencia: Sin texto propio sobre gasto en defensa en su programa de 2026; se fija una posición intermedia de baja confianza.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
       "reviewNeeded": true,
@@ -311,12 +311,12 @@
     },
     "14": {
       "status": "documentada",
-      "position": 4,
+      "position": 3,
       "sourceIds": [
         "pacma-s01"
       ],
       "locator": "Inferencia editorial",
-      "evidenceSummary": "Inferencia: su perfil de izquierda ecologista y animalista y sus posiciones documentadas en temas afines.",
+      "evidenceSummary": "Inferencia: Sin texto propio sobre la forma de Estado en sus programas de 2023 y 2026; se fija una posición intermedia de baja confianza.",
       "reason": "Deducción editorial; no es una posición declarada del partido.",
       "confidence": "baja",
       "reviewNeeded": true,
@@ -375,7 +375,7 @@
       "sourceIds": [
         "pacma-s01"
       ],
-      "locator": "PDF p. 69; apartado 3.4",
+      "locator": "PDF pp. 68-69; apartado 3.4.9",
       "evidenceSummary": "Agilizar la creación de empresas eliminando trabas burocráticas y simplificando los trámites exigibles.",
       "reason": "Simplifica trámites al crear empresas e iniciar actividades; apoyo limitado a ese ámbito.",
       "confidence": "alta",

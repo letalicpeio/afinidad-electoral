@@ -1,5 +1,5 @@
 {
-  "version": "0.5.56",
+  "version": "0.5.59",
   "date": "2026-11-18",
   "election": "Congreso · 29 de noviembre de 2026",
   "questions": [
@@ -1443,14 +1443,12 @@
           "coding": "Inferencia editorial"
         },
         "2": {
-          "value": 4,
+          "value": 2,
           "source": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
-          "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de izquierda ecologista y animalista y sus posiciones documentadas en temas afines.",
-          "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda ecologista y animalista y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
-          "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "locator": "PDF pp. 69-70; apartado 3.5",
+          "reason": "No propone limitar por ley los precios del alquiler: apuesta por vivienda social e incentivos y critica los efectos de la regulación vigente.",
+          "reviewed": "2026-11-15",
+          "coding": "Interpretación editorial provisional"
         },
         "3": {
           "value": 4,
@@ -1474,18 +1472,24 @@
           "value": 3,
           "source": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de izquierda ecologista y animalista y sus posiciones documentadas en temas afines.",
+          "reason": "Su programa de 2026 pide endurecer de forma «real y efectiva» las penas por maltrato animal, sin proponer una subida general de las penas de prisión: endurecimiento concreto, posición intermedia.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda ecologista y animalista y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: su programa de 2026 pide endurecer de forma «real y efectiva» las penas por maltrato animal, sin proponer una subida general de las penas de prisión: endurecimiento concreto, posición intermedia. Uso provisional, confianza baja: no es una declaración suya sobre esta medida.",
           "reviewed": "2026-11-16",
-          "coding": "Inferencia editorial"
+          "coding": "Inferencia editorial",
+          "basisLinks": [
+            {
+              "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf#page=22",
+              "label": "Programa de PACMA 2026, PDF p. 22: maltrato animal"
+            }
+          ]
         },
         "6": {
           "value": 3,
           "source": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
-          "locator": "Sección 3.3.3, pág. 60",
+          "locator": "PDF p. 61; apartado 3.3.3 (revisión de los criterios de concertación)",
           "reason": "Propone revisar los criterios de concertación.",
-          "reviewed": "2026-11-14",
+          "reviewed": "2026-11-16",
           "coding": "Interpretación editorial provisional",
           "scoreable": false,
           "reviewNote": "Revisar criterios no fija una posición sobre mantener financiación por demanda. Valor orientativo no puntuable."
@@ -1522,15 +1526,15 @@
           "value": 4,
           "source": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Propuso aumentar anualmente conforme al IPC un complemento autonómico de pensiones no contributivas, no todas las pensiones del sistema.",
+          "reason": "Su programa de 2026 pide reformar la Constitución para blindar las pensiones y que el sistema público no pueda recortarse ni privatizarse; no menciona la actualización con el IPC.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: propuso aumentar anualmente conforme al IPC un complemento autonómico de pensiones no contributivas, no todas las pensiones del sistema. Uso provisional, confianza media: no es una declaración suya sobre esta medida.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: su programa de 2026 pide reformar la Constitución para blindar las pensiones y que el sistema público no pueda recortarse ni privatizarse; no menciona la actualización con el IPC. Uso provisional, confianza media: no es una declaración suya sobre esta medida.",
           "reviewed": "2026-11-16",
           "coding": "Inferencia editorial",
           "basisLinks": [
             {
-              "url": "https://pacma.es/wp-content/uploads/2015/08/Programa-electoral-elecciones-Galicia-2012-castellano.pdf",
-              "label": "PACMA programa Galicia 2012 (antecedente territorial)"
+              "url": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf#page=80",
+              "label": "Programa de PACMA 2026, PDF p. 80: pensiones públicas"
             }
           ]
         },
@@ -1553,22 +1557,22 @@
           "coding": "Inferencia editorial"
         },
         "13": {
-          "value": 1,
+          "value": 3,
           "source": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de izquierda ecologista y animalista y sus posiciones documentadas en temas afines.",
+          "reason": "Sin texto propio sobre gasto en defensa en su programa de 2026; se fija una posición intermedia de baja confianza.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda ecologista y animalista y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: sin texto propio sobre gasto en defensa en su programa de 2026; se fija una posición intermedia de baja confianza. Uso provisional, confianza baja: no es una declaración suya sobre esta medida.",
           "reviewed": "2026-11-16",
           "coding": "Inferencia editorial"
         },
         "14": {
-          "value": 4,
+          "value": 3,
           "source": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
           "locator": "Inferencia editorial (sin texto del partido sobre este tema)",
-          "reason": "Su perfil de izquierda ecologista y animalista y sus posiciones documentadas en temas afines.",
+          "reason": "Sin texto propio sobre la forma de Estado en sus programas de 2023 y 2026; se fija una posición intermedia de baja confianza.",
           "inferred": true,
-          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en los documentos revisados; se deduce de su perfil de izquierda ecologista y animalista y sus posiciones documentadas en temas afines. Uso provisional, confianza baja: no es una declaración del partido.",
+          "sourceNote": "INFERENCIA EDITORIAL: el partido no trata este tema en sus textos programáticos; se deduce de lo siguiente: sin texto propio sobre la forma de Estado en sus programas de 2023 y 2026; se fija una posición intermedia de baja confianza. Uso provisional, confianza baja: no es una declaración suya sobre esta medida.",
           "reviewed": "2026-11-16",
           "coding": "Inferencia editorial"
         },
@@ -1617,7 +1621,7 @@
         "18": {
           "value": 4,
           "source": "https://pacma.es/wp-content/uploads/2026/11/PE_GENERALES_29N26.pdf",
-          "locator": "Sección 3.4.9, pág. 68",
+          "locator": "PDF pp. 68-69; apartado 3.4.9",
           "reason": "Simplifica trámites al crear empresas e iniciar actividades; apoyo limitado a ese ámbito.",
           "reviewed": "2026-11-16",
           "coding": "Interpretación editorial provisional"

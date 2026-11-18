@@ -67,3 +67,10 @@ Nuevo campo `basisLinks` en las posiciones inferidas: lista de fuentes (url + et
 - Programas 2026 releídos: BNG, PNV, CC, Adelante, ERC y FE de las JONS; CC-11 y FE-16 pasan a documentadas; EH Bildu-11 documentada con el programa de 2023.
 - Se detectó que la razón previa de BNG-14 («denuncia la corrupción de la monarquía y defiende la República de Galiza») no aparece en el texto del programa 2026 revisado; se reescribió con lo verificable (p. 30) y confianza baja.
 - Quedan 69 filas de Claude sin fuente localizada (monarquía, indultos, fiscalidad y las deducidas solo por «perfil»); se mantienen inferidas y marcadas así en `audit/inferencias-pendientes.csv`. El PCTE se dejó sin tocar porque su texto extraído es el programa de 2019, no el de 2023 citado en los datos.
+
+## Revisión de PACMA (19/11/2026)
+Se releyó su programa 2026 (PDF `PE_GENERALES_29N26.pdf`) y se contrastó con sus 18 posiciones.
+- Correcto: Q4 (p. 56, reintegrar servicios privatizados), Q9 (p. 34, la energía nuclear «insostenible»), Q11 (p. 77).
+- Corregido: Q2 pasa de 4 a 2 y a documentada (pp. 69–70: critica los efectos de las normas de vivienda y propone vivienda social e incentivos, no topes); localizadores de Q6 (p. 61, no p. 60) y Q18 (pp. 68–69).
+- Inferencias con fuente: Q5 (p. 22, solo pide endurecer penas por maltrato animal: 3) y Q10 (p. 80, blindar las pensiones públicas; no habla del IPC).
+- Sin texto propio (ni en 2023 ni en 2026): Q13 y Q14 pasan a 3 (baja confianza); testelectoral.com también los deja en neutro. Q1, Q3, Q7, Q8, Q12, Q15, Q16 y Q17 siguen inferidas por perfil o por «acceso unificado a derechos» (p. 81).
